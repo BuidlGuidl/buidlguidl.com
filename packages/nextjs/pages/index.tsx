@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <>
       <MetaHeader />
       <div className="">
-        <Image src="/assets/hero.png" layout="fill" objectFit="cover" alt="hero image" className="absolute z-0" />
+        <Image src="/assets/hero.png" alt="BuidlGuidl hero image" className="absolute z-0 object-cover" fill />
       </div>
     </>
   );
