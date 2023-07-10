@@ -4,6 +4,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html {
+  font-size: 18px;
+}
+
 :root,
 [data-theme] {
   background: hsl(var(--b2));
@@ -26,7 +30,7 @@ p {
 }
 
 .btn {
-  @apply shadow-md;
+  @apply shadow-md normal-case;
 }
 
 .btn.btn-ghost {
