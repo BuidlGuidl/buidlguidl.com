@@ -92,6 +92,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "bai-jamjuree": ["Bai Jamjuree", "sans-serif"],
+        "space-grotesk": ["Space Grotesk", "sans-serif"],
       },
       keyframes: {
         grow: {
