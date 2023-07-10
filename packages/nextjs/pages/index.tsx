@@ -15,8 +15,8 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* Star Building on Ethereum */}
-      <div className="bg-white flex justify-center items-center bg-[url(/assets/sre-path.png)] bg-bottom bg-no-repeat pb-10">
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between w-3/4 2xl:max-w-7xl py-8">
+      <div className="bg-white flex justify-center items-center bg-[url(/assets/sre-path.png)] bg-bottom bg-no-repeat pb-10 px-7">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full md:w-3/4 2xl:max-w-7xl py-8">
           <div className="flex items-center md:items-start flex-col space-y-5">
             <h1 className="text-3xl md:text-left md:text-5xl font-semibold w-3/4">Start Building on Ethereum</h1>
             <ul className="list-disc list-inside flex flex-col space-y-3">
