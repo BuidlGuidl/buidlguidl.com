@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="bg-[url(/assets/hero.png)] min-h-screen bg-cover bg-center">
+      <div className="bg-[url(/assets/hero.png)] min-h-[85vh] bg-cover bg-center">
         <Header />
         <div className="flex justify-center">
           <h1 className="text-center text-4xl lg:text-6xl mt-8 max-w-md lg:max-w-lg font-bold">
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </div>
       {/* Star Building on Ethereum */}
       <div className="bg-white">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h1 className="text-3xl lg:text-6xl font-semibold lg:w-3/4 text-center lg:text-left">
               Start Building on Ethereum
