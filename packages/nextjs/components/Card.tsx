@@ -8,14 +8,16 @@ export const Card = ({
   name,
   description,
   src,
+  link,
 }: {
   num: number;
   name: string;
   description: string;
   src: string;
+  link: string;
 }) => {
   return (
-    <div className="max-w-xs shadow-lg bg-white rounded-[46px] px-6 py-8 mt-4">
+    <div className="flex flex-col lg:w-1/3 max-w-xs shadow-lg bg-white rounded-[46px] p-5 py-8 mt-4">
       <div className="flex w-full h-[150px] relative">
         <Image src={src} fill alt="Dex Challenge" className="w-full object-contain" />
       </div>
@@ -25,10 +27,10 @@ export const Card = ({
         <p className="text-gray-700 m-0 text-sm">{description}</p>
       </div>
       <a
-        href="https://speedrunethereum.com/"
+        href={link}
         target="_blank"
         rel="noreferrer"
-        className="btn btn-accent btn-sm md:self-start rounded-3xl"
+        className="btn btn-accent btn-sm md:self-start rounded-3xl mt-auto"
       >
         Fork the Repo
       </a>
