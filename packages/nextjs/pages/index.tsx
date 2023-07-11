@@ -85,6 +85,36 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      {/* Feature Builds */}
+      <div className="bg-base-200">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 border-2 border-red-500 gap-6">
+          <div className="gap-4 border-2 border-red-500 flex flex-col items-center">
+            <div className="flex items-baseline gap-3">
+              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={50} height={50} />
+              <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
+            </div>
+            <p className="lg:w-3/5 text-center m-0">
+              Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH 2
+            </p>
+            <a
+              href="https://buidlguidl.com/builds"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-accent btn-md px-8"
+            >
+              Explore the Builds
+            </a>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-8">
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">2</div>
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">3</div>
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">4</div>
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">5</div>
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">6</div>
+            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">7</div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
