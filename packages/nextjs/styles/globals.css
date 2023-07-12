@@ -4,6 +4,17 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+  font-family: "PPNeueMachina";
+  src: url("/fonts/PPNeueMachina-InktrapSemibold.woff2") format("woff2"),
+    url("/fonts/PPNeueMachina-InktrapSemibold.woff") format("woff"),
+    url("/fonts/PPNeueMachina-InktrapSemibold.ttf") format("truetype"),
+    url("/fonts/PPNeueMachina-InktrapSemibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   font-size: 18px;
 }
@@ -21,6 +32,7 @@ h1,
 h2,
 h3,
 h4 {
+  @apply font-neue-machina;
   margin-bottom: 0.5rem;
   line-height: 1;
 }

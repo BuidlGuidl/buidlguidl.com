@@ -21,9 +21,9 @@ const Home: NextPage = () => {
       <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
-            <h1 className="text-3xl lg:text-6xl font-semibold lg:w-3/4 text-center lg:text-left">
+            <h2 className="text-3xl lg:text-6xl font-semibold lg:w-3/4 text-center lg:text-left">
               Start Building on Ethereum
-            </h1>
+            </h2>
             <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
               <li>7 start to finish tutorials </li>
               <li>Learn from the best Ethereum developers (+ guidance)</li>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-28 lg:px-12">
           <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right bg-[length:100px] lg:bg-auto max-w-3xl pb-14">
             <div className="mt-6 lg:mt-0">
-              <h1 className="text-3xl lg:text-5xl font-semibold text-center lg:text-left">Test Your Knowledge</h1>
+              <h2 className="text-3xl lg:text-5xl font-semibold text-center lg:text-left">Test Your Knowledge</h2>
               <p className="text-center lg:text-left lg:w-3/4">
                 Learn that you don’t know what you don’t know. you need to go through tour of duty + SRE gets you into
                 the BG ?
