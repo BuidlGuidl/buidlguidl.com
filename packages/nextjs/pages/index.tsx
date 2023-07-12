@@ -66,14 +66,14 @@ const Home: NextPage = () => {
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-4-dex"
             />
             <Card
-              num={6}
+              num={5}
               name="Multi-Sig Wallet"
               src="/assets/chall-multisig.png"
               description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-5-multisig"
             />
             <Card
-              num={5}
+              num={6}
               name="State Channels"
               src="/assets/chall-state.png"
               description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price"
