@@ -94,7 +94,7 @@ const Home: NextPage = () => {
               Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH 2
             </p>
             <a
-              href="https://buidlguidl.com/builds"
+              href="https://app.buidlguidl.com/builds"
               target="_blank"
               rel="noreferrer"
               className="btn btn-accent btn-md px-8"
@@ -103,43 +103,25 @@ const Home: NextPage = () => {
             </a>
           </div>
           {/* Card Container  */}
-          <div className="flex flex-wrap justify-center mt-5 lg:w-11/12 gap-10">
+          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
             {/* Card */}
             <BuildCard
               name="Punkwallet"
               description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
               src="/assets/build-punkwallet.png"
-              link="https://punkwallet.io"
+              link="https://app.buidlguidl.com/build/mTKhXMLEOCQEgPgG57R9"
             />
             <BuildCard
               name="abi.ninja"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              description="Interact with any contract on Ethereum"
               src="/assets/build-abiNinja.png"
-              link="https://punkwallet.io"
+              link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
             />
             <BuildCard
-              name="SE-2 Wallet"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-se2-wallet.png"
-              link="https://punkwallet.io"
-            />
-            <BuildCard
-              name="Scaffol-ETH 2"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-se2.png"
-              link="https://punkwallet.io"
-            />
-            <BuildCard
-              name="Speed Run Ethereum"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-sre.png"
-              link="https://punkwallet.io"
-            />
-            <BuildCard
-              name="Punkwallet"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-punkwallet.png"
-              link="https://punkwallet.io"
+              name="Scaffold Wallet"
+              description="Ethereum Minimalistic Wallet for Android"
+              src="/assets/build-se-wallet.png"
+              link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
         </div>

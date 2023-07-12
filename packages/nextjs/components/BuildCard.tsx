@@ -16,7 +16,7 @@ export const BuildCard = ({
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="card card-compact max-w-xs bg-white shadow-xl rounded-[37px]"
+      className="card card-compact lg:w-1/3 max-w-xs bg-white shadow-lg rounded-[46px]"
     >
       <div className="w-full h-[174px] relative">
         <Image src={src} alt="Shoes" fill className="w-full object-center" />
