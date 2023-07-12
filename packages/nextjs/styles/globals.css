@@ -33,6 +33,7 @@ h2,
 h3,
 h4 {
   @apply font-neue-machina;
+  @apply font-semibold;
   margin-bottom: 0.5rem;
   line-height: 1;
 }
