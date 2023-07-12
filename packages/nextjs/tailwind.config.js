@@ -66,6 +66,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
+        "neue-machina": ["PPNeueMachina", "sans-serif"],
       },
     },
   },
