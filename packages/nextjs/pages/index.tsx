@@ -13,7 +13,9 @@ const Home: NextPage = () => {
       <div className="bg-[url(/assets/hero.png)] min-h-[85vh] bg-cover bg-center">
         <Header />
         <div className="flex justify-center">
-          <h1 className="text-center text-4xl lg:text-6xl mt-8 max-w-md lg:max-w-lg">Welcome to the BuidlGuidl</h1>
+          <h1 className="text-center text-4xl lg:text-6xl mt-8 max-w-md lg:max-w-2xl px-2">
+            Learn, build, and flourish in Ethereum
+          </h1>
         </div>
       </div>
       {/* Star Building on Ethereum */}
@@ -22,9 +24,9 @@ const Home: NextPage = () => {
           <div className="space-y-6">
             <h2 className="text-3xl lg:text-6xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
             <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
-              <li>7 start to finish tutorials </li>
-              <li>Learn from the best Ethereum developers (+ guidance)</li>
-              <li>Level Up your skill and get paid</li>
+              <li>Learn quickly by building real apps</li>
+              <li>Speedrun the most important concepts</li>
+              <li>Level up your skills and get paid</li>
             </ul>
             <div className="text-center lg:text-left">
               <a
@@ -46,12 +48,11 @@ const Home: NextPage = () => {
       {/* Test Your knowledge */}
       <div className="bg-base-100 -mt-16">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-28 lg:px-12">
-          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right bg-[length:100px] lg:bg-auto max-w-3xl pb-14">
+          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-14">
             <div className="mt-6 lg:mt-0">
-              <h2 className="text-3xl lg:text-5xl text-center lg:text-left">Test Your Knowledge</h2>
+              <h2 className="text-3xl lg:text-5xl text-center lg:text-left max-w-lg">Already have Solidity skills?</h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Learn that you don’t know what you don’t know. you need to go through tour of duty + SRE gets you into
-                the BG ?
+                Test your knowledge by building real world, complex apps.
               </p>
             </div>
           </div>
@@ -67,17 +68,17 @@ const Home: NextPage = () => {
             />
             <Card
               num={5}
-              name="Multi-Sig Wallet"
-              src="/assets/chall-multisig.png"
-              description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
-              link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-5-multisig"
-            />
-            <Card
-              num={6}
               name="State Channels"
               src="/assets/chall-state.png"
               description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price"
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-9-state-channels"
+            />
+            <Card
+              num={6}
+              name="Multi-Sig Wallet"
+              src="/assets/chall-multisig.png"
+              description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
+              link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-5-multisig"
             />
           </div>
         </div>
@@ -91,7 +92,7 @@ const Home: NextPage = () => {
               <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
             </div>
             <p className="lg:w-3/5 text-center m-0">
-              Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH 2
+              Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH
             </p>
             <a
               href="https://app.buidlguidl.com/builds"
