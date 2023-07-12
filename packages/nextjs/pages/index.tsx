@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { NextPage } from "next";
-import { Card } from "~~/components/Card";
+import { BuildCard } from "~~/components/BuildCard";
+import { Card } from "~~/components/ChallengeCard";
 import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 
@@ -65,18 +66,62 @@ const Home: NextPage = () => {
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-4-dex"
             />
             <Card
-              num={6}
+              num={5}
               name="Multi-Sig Wallet"
               src="/assets/chall-multisig.png"
               description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-5-multisig"
             />
             <Card
-              num={5}
+              num={6}
               name="State Channels"
               src="/assets/chall-state.png"
               description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price"
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-9-state-channels"
+            />
+          </div>
+        </div>
+      </div>
+      {/* Feature Builds */}
+      <div className="bg-base-300">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+          <div className="gap-4 flex flex-col items-center">
+            <div className="flex items-baseline gap-3">
+              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={50} height={50} />
+              <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
+            </div>
+            <p className="lg:w-3/5 text-center m-0">
+              Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH 2
+            </p>
+            <a
+              href="https://app.buidlguidl.com/builds"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-accent btn-md px-8"
+            >
+              Explore the Builds
+            </a>
+          </div>
+          {/* Card Container  */}
+          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
+            {/* Card */}
+            <BuildCard
+              name="Punkwallet"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-punkwallet.png"
+              link="https://app.buidlguidl.com/build/mTKhXMLEOCQEgPgG57R9"
+            />
+            <BuildCard
+              name="abi.ninja"
+              description="Interact with any contract on Ethereum"
+              src="/assets/build-abiNinja.png"
+              link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
+            />
+            <BuildCard
+              name="Scaffold Wallet"
+              description="Ethereum Minimalistic Wallet for Android"
+              src="/assets/build-se-wallet.png"
+              link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
         </div>
