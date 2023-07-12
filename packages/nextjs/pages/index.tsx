@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { NextPage } from "next";
-import { Card } from "~~/components/Card";
+import { BuildCard } from "~~/components/BuildCard";
+import { Card } from "~~/components/ChallengeCard";
 import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 
@@ -82,9 +83,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* Feature Builds */}
-      <div className="bg-base-200">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 border-2 border-red-500 gap-6">
-          <div className="gap-4 border-2 border-red-500 flex flex-col items-center">
+      <div className="bg-[#F4F4F4]">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+          <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-3">
               <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={50} height={50} />
               <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
@@ -101,13 +102,45 @@ const Home: NextPage = () => {
               Explore the Builds
             </a>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-8">
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">2</div>
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">3</div>
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">4</div>
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">5</div>
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">6</div>
-            <div className="w-[250px] h-[250px] bg-white rounded-[46px]">7</div>
+          {/* Card Container  */}
+          <div className="flex flex-wrap justify-center mt-5 lg:w-11/12 gap-10">
+            {/* Card */}
+            <BuildCard
+              name="Punkwallet"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-punkwallet.png"
+              link="https://punkwallet.io"
+            />
+            <BuildCard
+              name="abi.ninja"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-abiNinja.png"
+              link="https://punkwallet.io"
+            />
+            <BuildCard
+              name="SE-2 Wallet"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-se2-wallet.png"
+              link="https://punkwallet.io"
+            />
+            <BuildCard
+              name="Scaffol-ETH 2"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-se2.png"
+              link="https://punkwallet.io"
+            />
+            <BuildCard
+              name="Speed Run Ethereum"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-sre.png"
+              link="https://punkwallet.io"
+            />
+            <BuildCard
+              name="Punkwallet"
+              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
+              src="/assets/build-punkwallet.png"
+              link="https://punkwallet.io"
+            />
           </div>
         </div>
       </div>
