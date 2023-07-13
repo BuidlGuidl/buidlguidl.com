@@ -134,7 +134,7 @@ const Home: NextPage = () => {
               <h1 className="text-3xl lg:text-5xl font-semibold my-0">Featured Builds</h1>
             </div>
             <p className="lg:w-3/5 text-center m-0">
-              Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH
+              Powered by ScaffoldETH, these fork-able builds are one of the of easiest ways to launch a project.
             </p>
             <a
               href="https://app.buidlguidl.com/builds"
@@ -214,7 +214,7 @@ const Home: NextPage = () => {
               BuidlGuidl streams to developers using our new cohort streams and other custom smart contracts.
             </p>
             <p className="lg:w-3/5 text-center m-0">
-              Our goal is to enrich open learning withing the ethereum developer ecosystem
+              Our goal is to enrich open learning withing the Ethereum developer ecosystem
             </p>
             <a
               href="mailto:partnerships@buidlguidl.com"
