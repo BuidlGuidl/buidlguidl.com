@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
-            <h2 className="text-3xl lg:text-6xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
+            <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
             <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
               <li>Learn quickly by building real apps</li>
               <li>Speedrun the most important concepts</li>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="max-w-[300px] lg:max-w-none">
-            <Image src="/assets/sre-forest.png" alt="hero" width={600} height={600} />
+            <Image src="/assets/sre-forest.png" alt="hero" width={500} height={500} />
           </div>
         </div>
         <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
@@ -128,8 +128,8 @@ const Home: NextPage = () => {
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-1 md:gap-3">
-              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={50} height={50} />
-              <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
+              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={40} height={40} />
+              <h1 className="text-3xl lg:text-5xl font-semibold my-0">Featured Builds</h1>
             </div>
             <p className="lg:w-3/5 text-center m-0">
               Some cool projects that have been built at the BuidlGuidl using Scaffold-ETH
@@ -176,21 +176,21 @@ const Home: NextPage = () => {
             <div className="flex items-start gap-3">
               <Image src="/assets/diamond.svg" alt="rankings icons" width={40} height={40} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">454.83Ξ</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">454.83Ξ</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Streamed</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Image src="/assets/builders.png" alt="rankings icons" width={50} height={50} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">797</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">797</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builders</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Image src="/assets/builds-uploaded.svg" alt="rankings icons" width={30} height={30} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">808</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">808</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builds Uploaded</p>
               </div>
             </div>
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-3">
-              <h1 className="text-3xl lg:text-6xl font-semibold my-0 text-center">
+              <h1 className="text-3xl lg:text-5xl font-semibold my-0 text-center">
                 Supporting up-and-coming <br />
                 high-impact devs
               </h1>
