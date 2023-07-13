@@ -127,6 +127,41 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      {/* Scaffold-ETH 2 */}
+      <div className="base-200">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="space-y-6">
+            <h2 className="text-2xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
+              The stack for prototyping to production
+            </h2>
+            <ul className="list-disc list-outside flex flex-col space-y-3 m-auto lg:mx-0 pl-8 lg:pl-4 max-w-[300px] lg:max-w-none">
+              <li>
+                A modern,clean version of scaffold-eth with <br /> RainbowKit, Wagmi, NextJS and TypeScript
+              </li>
+              <li>Open source tooling built and maintained by BuidlGuidl</li>
+            </ul>
+            <div className="text-center lg:text-left">
+              <a
+                href="https://www.github.com/scaffold-eth/scaffold-eth-2"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-accent btn-md lg:self-start px-8"
+              >
+                Start using SE-2
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="flex items-center gap-2 mb-6">
+              <Image src="/assets/se2-logo.svg" alt="hero" width={40} height={40} />
+              <p className="text-2xl lg:text-3xl font-semibold mb-0 mt-2">Scaffold-ETH 2</p>
+            </div>
+            <div className="max-w-[400px] lg:max-w-none">
+              <Image src="/assets/se2-ui.png" alt="hero" width={850} height={850} />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
