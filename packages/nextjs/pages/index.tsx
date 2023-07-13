@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <Header />
         <div className="flex justify-center">
           <h1 className="text-center text-4xl lg:text-5xl mt-8 max-w-md lg:max-w-2xl px-2">
-            Learn, build, and flourish in Ethereum
+            Learn, build, and thrive on Ethereum
           </h1>
         </div>
       </div>
