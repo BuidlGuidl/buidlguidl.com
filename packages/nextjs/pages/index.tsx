@@ -87,35 +87,6 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      {/* Stats Streamed / Builder / Builds  */}
-      <div className="bg-white">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
-          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
-            <div className="flex items-start gap-3">
-              <Image src="/assets/diamond.svg" alt="rankings icons" width={40} height={40} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">353.83Ξ</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Streamed</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builders.png" alt="rankings icons" width={50} height={50} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">797</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builders</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builds-uploaded.svg" alt="rankings icons" width={30} height={30} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">808</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builds Uploaded</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Scaffold-ETH 2 */}
       <div className="base-200">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
@@ -197,31 +168,32 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      {/* Learn More  */}
-      <div className="bg-base-100">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
-          <p className="font-thin text-xl my-0">LEARN MORE</p>
-          {/* Card Container  */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
-            {/* Card */}
-            <LearnMoreCard
-              name="BG Labs"
-              src="/assets/bg-labs.png"
-              description="A series of videos to help you get started in the ecosystem and keep learning."
-              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&pp=iAQB"
-            />
-            <LearnMoreCard
-              name="Shipping log"
-              src="/assets/shipping-log.png"
-              description="Check out our newsletter to be updated on our tools, hackathons and more."
-              link="https://buidlguidl.substack.com/"
-            />
-            <LearnMoreCard
-              name="Tech Tree"
-              src="/assets/tech-tree.png"
-              description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
-              link="https://miro.com/app/board/uXjVPbc4b68=/"
-            />
+      {/* Stats Streamed / Builder / Builds  */}
+      {/* ToDo. Use real data*/}
+      <div className="bg-white">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
+            <div className="flex items-start gap-3">
+              <Image src="/assets/diamond.svg" alt="rankings icons" width={40} height={40} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">454.83Ξ</h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Streamed</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Image src="/assets/builders.png" alt="rankings icons" width={50} height={50} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">797</h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builders</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Image src="/assets/builds-uploaded.svg" alt="rankings icons" width={30} height={30} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-6xl font-semibold my-0 text-primary">808</h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-3 font-medium">Builds Uploaded</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -257,6 +229,35 @@ const Home: NextPage = () => {
                 <Image src="/assets/ef-logo.png" alt="hero" width={150} height={50} />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Learn More  */}
+      <div className="bg-base-100">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
+          <p className="font-thin text-xl my-0">LEARN MORE</p>
+          {/* Card Container  */}
+          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
+            {/* Card */}
+            <LearnMoreCard
+              name="BG Labs"
+              src="/assets/bg-labs.png"
+              description="A series of videos to help you get started in the ecosystem and keep learning."
+              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&pp=iAQB"
+            />
+            <LearnMoreCard
+              name="Shipping log"
+              src="/assets/shipping-log.png"
+              description="Check out our newsletter to be updated on our tools, hackathons and more."
+              link="https://buidlguidl.substack.com/"
+            />
+            <LearnMoreCard
+              name="Tech Tree"
+              src="/assets/tech-tree.png"
+              description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
+              link="https://miro.com/app/board/uXjVPbc4b68=/"
+            />
           </div>
         </div>
       </div>
