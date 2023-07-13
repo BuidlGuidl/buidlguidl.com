@@ -11,10 +11,10 @@ const Home: NextPage = () => {
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="bg-[url(/assets/hero.png)] min-h-[85vh] bg-cover bg-center">
+      <div className="bg-[url(/assets/hero.png)] min-h-screen bg-cover bg-center">
         <Header />
         <div className="flex justify-center">
-          <h1 className="text-center text-4xl lg:text-6xl mt-8 max-w-md lg:max-w-2xl px-2">
+          <h1 className="text-center text-4xl lg:text-5xl mt-8 max-w-md lg:max-w-2xl px-2">
             Learn, build, and flourish in Ethereum
           </h1>
         </div>
