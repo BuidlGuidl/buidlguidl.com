@@ -16,7 +16,7 @@ export const LearnMoreCard = ({
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="flex flex-col lg:w-[30%] max-w-xs shadow-lg bg-white rounded-[42px] p-5 mt-4"
+      className="flex flex-col lg:w-[30%] max-w-xs shadow-lg bg-white rounded-[42px] p-5 mt-4 hover:opacity-80 transition-opacity"
     >
       <div className="flex w-full h-[200px] relative">
         <Image src={src} fill alt={name} className="w-full object-contain" />
