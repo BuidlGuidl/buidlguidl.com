@@ -243,7 +243,7 @@ const Home: NextPage = () => {
               Our goal is to enrich open learning withing the ethereum developer ecosystem
             </p>
             <a
-              href="https://app.buidlguidl.com/builds"
+              href="mailto:partnerships@buidlguidl.com"
               target="_blank"
               rel="noreferrer"
               className="btn btn-secondary btn-md px-8 mt-2"
