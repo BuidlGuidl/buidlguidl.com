@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
       {/* Star Building on Ethereum */}
       <div className="bg-white">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
             <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
@@ -50,17 +50,19 @@ const Home: NextPage = () => {
 
       {/* Test Your knowledge */}
       <div className="bg-base-100 -mt-16">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-28 lg:px-12">
-          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-14">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12">
+          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-10">
             <div className="mt-6 lg:mt-0">
-              <h2 className="text-3xl lg:text-5xl text-center lg:text-left max-w-lg">Already have Solidity skills?</h2>
+              <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-lg">
+                Already have Solidity skills?
+              </h2>
               <p className="text-center lg:text-left lg:w-3/4">
                 Test your knowledge by building real world, complex apps.
               </p>
             </div>
           </div>
           {/* Cards container */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center">
+          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
             <Card
               num={4}
@@ -89,7 +91,7 @@ const Home: NextPage = () => {
 
       {/* Scaffold-ETH 2 */}
       <div className="base-200">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-2xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
               The stack for prototyping to production
@@ -125,7 +127,7 @@ const Home: NextPage = () => {
 
       {/* Feature Builds */}
       <div className="bg-base-300">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-1 md:gap-3">
               <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={40} height={40} />
@@ -200,7 +202,7 @@ const Home: NextPage = () => {
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-3">
               <h1 className="text-3xl lg:text-5xl font-semibold my-0 text-center">
@@ -235,7 +237,7 @@ const Home: NextPage = () => {
 
       {/* Learn More  */}
       <div className="bg-base-100">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
           {/* Card Container  */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
