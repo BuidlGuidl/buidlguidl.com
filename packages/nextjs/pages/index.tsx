@@ -19,6 +19,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
       </div>
+
       {/* Star Building on Ethereum */}
       <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
@@ -46,6 +47,7 @@ const Home: NextPage = () => {
         </div>
         <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
       </div>
+
       {/* Test Your knowledge */}
       <div className="bg-base-100 -mt-16">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-28 lg:px-12">
@@ -84,6 +86,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
       {/* Stats Streamed / Builder / Builds  */}
       <div className="bg-white">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
@@ -148,11 +151,12 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
       {/* Feature Builds */}
       <div className="bg-base-300">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
-            <div className="flex items-baseline gap-3">
+            <div className="flex items-baseline gap-1 md:gap-3">
               <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={50} height={50} />
               <h1 className="text-3xl lg:text-6xl font-semibold my-0">Featured Builds</h1>
             </div>
@@ -192,6 +196,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
       {/* Learn More  */}
       <div className="bg-base-100">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
@@ -217,6 +222,41 @@ const Home: NextPage = () => {
               description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
               link="https://miro.com/app/board/uXjVPbc4b68=/"
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Supporting Devs*/}
+      <div className="bg-base-300">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+          <div className="gap-4 flex flex-col items-center">
+            <div className="flex items-baseline gap-3">
+              <h1 className="text-3xl lg:text-6xl font-semibold my-0 text-center">
+                Supporting up-and-coming <br />
+                high-impact devs
+              </h1>
+            </div>
+            <p className="lg:w-3/5 text-center m-0">
+              BuidlGuidl streams to developers using our new cohort streams and other custom smart contracts.
+            </p>
+            <p className="lg:w-3/5 text-center m-0">
+              Our goal is to enrich open learning withing the ethereum developer ecosystem
+            </p>
+            <a
+              href="https://app.buidlguidl.com/builds"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-secondary btn-md px-8 mt-2"
+            >
+              Connect with us
+            </a>
+            <div className="flex flex-col items-center mt-8 gap-3">
+              <p className="text-center m-0">SUPPORTED BY</p>
+              <div className="flex gap-6 items-center justify-center">
+                <Image src="/assets/op-logo.png" alt="hero" width={50} height={50} />
+                <Image src="/assets/ef-logo.png" alt="hero" width={150} height={50} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
