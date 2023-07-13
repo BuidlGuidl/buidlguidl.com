@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <div className="bg-[url(/assets/hero.png)] min-h-screen bg-cover bg-center">
         <Header />
         <div className="flex justify-center">
-          <h1 className="text-center text-4xl lg:text-5xl mt-8 max-w-md lg:max-w-2xl px-2">
+          <h1 className="text-center text-3xl lg:text-5xl mt-3 lg:mt-8 max-w-md lg:max-w-2xl px-3">
             Learn, build, and thrive on Ethereum
           </h1>
         </div>
