@@ -244,7 +244,7 @@ const Home: NextPage = () => {
               name="BG Labs"
               src="/assets/bg-labs.png"
               description="A series of videos to help you get started in the ecosystem and keep learning."
-              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&pp=iAQB"
+              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
             />
             <LearnMoreCard
               name="Shipping log"
