@@ -5,8 +5,8 @@ import Image from "next/image";
  */
 export const Footer = () => {
   return (
-    <div className="bg-[#182232] md:p-12 p-4">
-      <div className="grid grid-cols-12 md:gap-8 gap-3 border-b border-white pb-10">
+    <div className="bg-[#182232] md:p-12 p-4 flex items-center justify-center">
+      <div className="grid grid-cols-12 md:gap-8 gap-3 border-b border-white pb-10 max-w-7xl">
         <div className="col-span-12 md:col-span-6 flex flex-col">
           <div className="flex flex-col">
             <Image src="/assets/logo-white.svg" alt="BuidlGuidl logo" width={150} height={150} />
