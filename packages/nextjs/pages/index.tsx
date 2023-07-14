@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               num={5}
               name="State Channels"
               src="/assets/chall-state.png"
-              description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price"
+              description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price!"
               link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-9-state-channels"
             />
             <Card
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
             </h2>
             <ul className="list-disc list-outside flex flex-col space-y-3 m-auto lg:mx-0 pl-8 lg:pl-4 max-w-[300px] lg:max-w-none">
               <li>
-                A modern,clean version of scaffold-eth with <br /> RainbowKit, Wagmi, NextJS and TypeScript
+                A modern, clean version of scaffold-eth with <br /> RainbowKit, Wagmi, NextJS and TypeScript
               </li>
               <li>Open source tooling built and maintained by BuidlGuidl</li>
             </ul>
