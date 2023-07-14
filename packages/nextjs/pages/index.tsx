@@ -156,7 +156,7 @@ const Home: NextPage = () => {
             />
             <BuildCard
               name="abi.ninja"
-              description="Interact with any contract on Ethereum"
+              description="Interact with any contract on Ethereum with a friendly UI/UX"
               src="/assets/build-abiNinja.png"
               link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
             />
