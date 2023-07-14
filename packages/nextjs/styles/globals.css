@@ -38,6 +38,11 @@ h4 {
   line-height: 1;
 }
 
+a:hover {
+  @apply opacity-80;
+  @apply transition-opacity;
+}
+
 p {
   margin: 1rem 0;
 }

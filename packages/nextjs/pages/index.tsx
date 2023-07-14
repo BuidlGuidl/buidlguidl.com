@@ -160,12 +160,7 @@ const Home: NextPage = () => {
               link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
-          <a
-            href="https://app.buidlguidl.com/builds"
-            target="_blank"
-            rel="noreferrer"
-            className="link mt-8 hover:opacity-80"
-          >
+          <a href="https://app.buidlguidl.com/builds" target="_blank" rel="noreferrer" className="link mt-8">
             See all projects
           </a>
         </div>
