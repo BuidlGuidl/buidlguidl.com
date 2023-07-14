@@ -136,14 +136,6 @@ const Home: NextPage = () => {
             <p className="lg:w-3/5 text-center m-0">
               Powered by ScaffoldETH, these fork-able builds are one of the of easiest ways to launch a project.
             </p>
-            <a
-              href="https://app.buidlguidl.com/builds"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-accent btn-md px-8"
-            >
-              Explore the Builds
-            </a>
           </div>
           {/* Card Container  */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
@@ -167,6 +159,14 @@ const Home: NextPage = () => {
               link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
+          <a
+            href="https://app.buidlguidl.com/builds"
+            target="_blank"
+            rel="noreferrer"
+            className="link mt-8 hover:opacity-80"
+          >
+            See all projects
+          </a>
         </div>
       </div>
 
