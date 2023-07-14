@@ -58,6 +58,14 @@ export const Footer = () => {
               <a href="https://discord.gg/pRsr6rwG" target="_blank" rel="noreferrer" className="m-0">
                 Discord
               </a>
+              <a
+                href="https://www.youtube.com/@austingriffith3550/playlists"
+                target="_blank"
+                rel="noreferrer"
+                className="m-0"
+              >
+                YouTube
+              </a>
             </div>
           </div>
         </div>
