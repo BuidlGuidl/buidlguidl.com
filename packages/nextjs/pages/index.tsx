@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Card } from "~~/components/ChallengeCard";
+import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
@@ -159,12 +160,7 @@ const Home: NextPage = () => {
               link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
-          <a
-            href="https://app.buidlguidl.com/builds"
-            target="_blank"
-            rel="noreferrer"
-            className="link mt-8 hover:opacity-80"
-          >
+          <a href="https://app.buidlguidl.com/builds" target="_blank" rel="noreferrer" className="link mt-8">
             See all projects
           </a>
         </div>
@@ -259,6 +255,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
