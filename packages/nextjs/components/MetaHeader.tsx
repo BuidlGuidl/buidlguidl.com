@@ -9,14 +9,12 @@ type MetaHeaderProps = {
   children?: React.ReactNode;
 };
 
-// Images must have an absolute path to work properly on Twitter.
-// We try to get it dynamically from Vercel, but we default to relative path.
-const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/` : "/";
+const baseUrl = "https://buidlguidl.com/";
 
 export const MetaHeader = ({
   title = "BuidlGuidl",
   description = "A curated group of Ethereum builders creating products, prototypes, and tutorials to enrich the web3 ecosystem.",
-  image = "thumbnail.jpeg",
+  image = "thumbnail.png",
   twitterCard = "summary_large_image",
   children,
 }: MetaHeaderProps) => {
