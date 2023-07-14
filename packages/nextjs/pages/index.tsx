@@ -6,6 +6,7 @@ import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
+import { Address } from "~~/components/scaffold-eth";
 
 const Home: NextPage = () => {
   return (
@@ -222,9 +223,12 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col items-center w-1/2">
             <p className="text-center mb-4 lg:mb-8 mt-12 lg:mt-0">SUPPORTED BY</p>
-            <div className="flex gap-10 items-center justify-center">
-              <Image src="/assets/op-logo.svg" alt="Optimism logo" width={75} height={75} />
-              <Image src="/assets/ef-logo.png" alt="EF logo" width={225} height={75} />
+            <div className="flex flex-col gap-6 items-center justify-center">
+              <Image src="/assets/ef-logo.png" alt="EF logo" width={300} height={100} />
+              <div className="flex flex-col md:flex-row gap-6 items-center">
+                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={50} height={50} />
+                <Address address="0x34aA3F359A9D614239015126635CE7732c18fDF3" />
+              </div>
             </div>
           </div>
         </div>
