@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Card } from "~~/components/ChallengeCard";
+import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 
@@ -127,6 +128,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
