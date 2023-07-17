@@ -12,6 +12,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/builders",
+        destination: "https://app.buidlguidl.com/builders",
+        permanent: true,
+      },
+      {
         source: "/builders/:address",
         destination: "https://app.buidlguidl.com/builders/:address",
         permanent: true,
@@ -19,6 +24,11 @@ const nextConfig = {
       {
         source: "/build/:buildId",
         destination: "https://app.buidlguidl.com/build/:buildId",
+        permanent: true,
+      },
+      {
+        source: "/builds",
+        destination: "https://app.buidlguidl.com/builds",
         permanent: true,
       },
       {
