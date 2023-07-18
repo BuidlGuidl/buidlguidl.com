@@ -55,7 +55,7 @@ export const Footer = () => {
               <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="m-0">
                 Telegram
               </a>
-              <a href="https://discord.gg/pRsr6rwG" target="_blank" rel="noreferrer" className="m-0">
+              <a href="https://discord.gg/84Abq4VbMQ" target="_blank" rel="noreferrer" className="m-0">
                 Discord
               </a>
               <a
