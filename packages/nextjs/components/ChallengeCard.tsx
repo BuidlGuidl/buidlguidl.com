@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TrackedLink from "~~/components/TrackedLink";
 
 /**
  * Site header
@@ -26,14 +27,9 @@ export const Card = ({
         <h3 className="text-lg m-0 mb-2">{name}</h3>
         <p className="text-gray-700 m-0 text-sm">{description}</p>
       </div>
-      <a
-        href={link}
-        target="_blank"
-        rel="noreferrer"
-        className="btn btn-accent btn-sm md:self-start rounded-3xl mt-auto"
-      >
+      <TrackedLink id={name} href={link} className="btn btn-accent btn-sm md:self-start rounded-3xl mt-auto">
         Fork the Repo
-      </a>
+      </TrackedLink>
     </div>
   );
 };
