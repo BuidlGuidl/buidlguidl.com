@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                 Already have Solidity skills?
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Test your knowledge by building real world, complex apps.
+                Test your knowledge by building real-world, complex apps.
               </p>
             </div>
           </div>
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
               <h2 className="text-3xl lg:text-5xl font-semibold my-0">Featured Builds</h2>
             </div>
             <p className="lg:w-3/5 text-center m-0">
-              Powered by ScaffoldETH, these fork-able builds are one of the of easiest ways to launch a project.
+              Powered by Scaffold-ETH, these forkable builds are one of the easiest ways to launch a project.
             </p>
           </div>
           {/* Card Container  */}
@@ -247,7 +247,7 @@ const Home: NextPage = () => {
               link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
             />
             <LearnMoreCard
-              name="🚢 Shipping log"
+              name="🚢 Shipping Log"
               description="Check out our newsletter to be updated on our tools, hackathons and more."
               link="https://buidlguidl.substack.com/"
             />
