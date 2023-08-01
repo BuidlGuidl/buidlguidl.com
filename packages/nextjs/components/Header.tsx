@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import TrackedLink from "~~/components/TrackedLink";
 
 /**
  * Site header
@@ -16,14 +17,13 @@ export const Header = () => {
         </Link>
       </div>
       <div className="navbar-end flex-grow mr-4 space-x-6">
-        <a
+        <TrackedLink
+          id="buidlguidl:app"
           href="https://app.buidlguidl.com"
-          target="_blank"
           className="btn btn-neutral text-accent-content btn-xs md:btn-sm px-4 font-light"
-          rel="noreferrer"
         >
           Go to App
-        </a>
+        </TrackedLink>
       </div>
     </div>
   );

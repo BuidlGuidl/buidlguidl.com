@@ -6,6 +6,7 @@ import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
+import TrackedLink from "~~/components/TrackedLink";
 import { Address } from "~~/components/scaffold-eth";
 
 const Home: NextPage = () => {
@@ -33,14 +34,13 @@ const Home: NextPage = () => {
               <li>Level up your skills and get paid</li>
             </ul>
             <div className="text-center lg:text-left">
-              <a
+              <TrackedLink
+                id="SpeedRunEthereum"
                 href="https://speedrunethereum.com/"
-                target="_blank"
-                rel="noreferrer"
                 className="btn btn-accent btn-md lg:self-start px-8"
               >
                 Get Started Now!
-              </a>
+              </TrackedLink>
             </div>
           </div>
           <div className="max-w-[300px] lg:max-w-none">
@@ -105,14 +105,13 @@ const Home: NextPage = () => {
               <li>Open source tooling built and maintained by BuidlGuidl</li>
             </ul>
             <div className="text-center lg:text-left">
-              <a
+              <TrackedLink
+                id="Scaffold-ETH-2"
                 href="https://www.github.com/scaffold-eth/scaffold-eth-2"
-                target="_blank"
-                rel="noreferrer"
                 className="btn btn-accent btn-md lg:self-start px-8"
               >
                 Start using SE-2
-              </a>
+              </TrackedLink>
             </div>
           </div>
           <div className="flex flex-col items-center">
@@ -161,9 +160,9 @@ const Home: NextPage = () => {
               link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
             />
           </div>
-          <a href="https://app.buidlguidl.com/builds" target="_blank" rel="noreferrer" className="link mt-8">
+          <TrackedLink id="buidlguidl:projects" href="https://app.buidlguidl.com/builds" className="link mt-8">
             See all projects
-          </a>
+          </TrackedLink>
         </div>
       </div>
 
@@ -212,14 +211,13 @@ const Home: NextPage = () => {
             <p className="lg:w-4/5 m-0 mb-6">
               Our goal is to enrich open learning within the Ethereum developer ecosystem.
             </p>
-            <a
+            <TrackedLink
+              id="partnerships-email"
               href="mailto:partnerships@buidlguidl.com"
-              target="_blank"
-              rel="noreferrer"
               className="btn btn-secondary btn-md px-8 mt-2"
             >
               Connect with us
-            </a>
+            </TrackedLink>
           </div>
           <div className="flex flex-col items-center w-1/2">
             <p className="text-center mb-4 lg:mb-8 mt-12 lg:mt-0">SUPPORTED BY</p>
