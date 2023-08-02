@@ -241,16 +241,19 @@ const Home: NextPage = () => {
             {/* Card */}
             <LearnMoreCard
               name="🧪 BG Labs"
+              src="/assets/bg-labs.png"
               description="A series of videos to help you get started in the ecosystem and keep learning."
               link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
             />
             <LearnMoreCard
               name="🚢 Shipping Log"
+              src="/assets/shipping-log.png"
               description="Check out our newsletter to be updated on our tools, hackathons and more."
               link="https://buidlguidl.substack.com/"
             />
             <LearnMoreCard
               name="🧬 Tech Tree"
+              src="/assets/tech-tree.png"
               description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
               link="https://miro.com/app/board/uXjVPbc4b68=/"
             />
