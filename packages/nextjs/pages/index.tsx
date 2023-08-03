@@ -116,11 +116,11 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col items-center">
             <div className="flex items-center gap-2 mb-6">
-              <Image src="/assets/se2-logo.svg" alt="hero" width={40} height={40} />
+              <Image src="/assets/se2-logo.svg" alt="Scaffold-ETH 2 logo" width={40} height={40} />
               <p className="text-2xl lg:text-3xl font-semibold mb-0 mt-2">Scaffold-ETH 2</p>
             </div>
             <div className="max-w-[400px] lg:max-w-none">
-              <Image src="/assets/se2-ui.png" alt="hero" width={900} height={900} />
+              <Image src="/assets/se2-ui.png" alt="Scaffold-ETH 2 screen" width={900} height={900} />
             </div>
           </div>
         </div>
@@ -198,34 +198,34 @@ const Home: NextPage = () => {
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="text-center lg:text-left">
-            <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6">
-              Supporting
-              <br /> up-and-coming <br />
-              high-impact devs
-            </h2>
-            <p className="lg:w-4/5 m-0 mb-3">
-              BuidlGuidl streams to developers using our new cohort streams and other custom smart contracts.
-            </p>
-            <p className="lg:w-4/5 m-0 mb-6">
-              Our goal is to enrich open learning within the Ethereum developer ecosystem.
-            </p>
-            <TrackedLink
-              id="partnerships-email"
-              href="mailto:partnerships@buidlguidl.com"
-              className="btn btn-secondary btn-md px-8 mt-2"
-            >
-              Connect with us
-            </TrackedLink>
-          </div>
-          <div className="flex flex-col items-center w-1/2">
-            <p className="text-center mb-4 lg:mb-8 mt-12 lg:mt-0">SUPPORTED BY</p>
-            <div className="flex flex-col gap-6 items-center justify-center">
-              <Image src="/assets/ef-logo.png" alt="EF logo" width={300} height={100} />
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={50} height={50} />
-                <Address address="0x34aA3F359A9D614239015126635CE7732c18fDF3" />
+        <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/funding.png')] md:[background-position-x:40vw] md:bg-contain bg-no-repeat xl:bg-right">
+          <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
+            <div className="text-center lg:text-left sm:w-1/2">
+              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6">
+                Supporting
+                <br /> up-and-coming <br />
+                high-impact devs
+              </h2>
+              <p className="lg:w-4/5 m-0 mb-3">
+                BuidlGuidl streams to developers using our new cohort streams and other custom smart contracts.
+              </p>
+              <p className="lg:w-4/5 m-0 mb-6">
+                Our goal is to enrich open learning within the Ethereum developer ecosystem.
+              </p>
+              <TrackedLink
+                id="partnerships-email"
+                href="mailto:partnerships@buidlguidl.com"
+                className="btn btn-secondary btn-md px-8 mt-2"
+              >
+                Connect with us
+              </TrackedLink>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">SUPPORTED BY</p>
+              <div className="flex flex-col gap-6 items-center lg:items-start">
+                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
+                <div className="flex flex-col md:flex-row gap-6 items-center">
+                  <Image src="/assets/op-logo.svg" alt="Optimism logo" width={30} height={30} />
+                  <Address address="0x34aA3F359A9D614239015126635CE7732c18fDF3" size="sm" />
+                </div>
               </div>
             </div>
           </div>
