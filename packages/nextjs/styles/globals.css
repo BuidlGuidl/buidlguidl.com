@@ -38,7 +38,7 @@ h4 {
   line-height: 1;
 }
 
-a:hover {
+a:hover:not(.card-anchor) {
   @apply opacity-80;
   @apply transition-opacity;
 }
