@@ -18,7 +18,7 @@ export const Card = ({
   link: string;
 }) => {
   return (
-    <div className="flex flex-col lg:w-1/3 max-w-xs shadow-lg bg-white rounded-[46px] p-5 py-8 mt-4">
+    <div className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-1000 flex flex-col lg:w-1/3 max-w-xs shadow-lg bg-white rounded-[46px] p-5 py-8 mt-4">
       <div className="flex w-full h-[150px] relative">
         <Image src={src} fill alt="Dex Challenge" className="w-full object-contain" />
       </div>

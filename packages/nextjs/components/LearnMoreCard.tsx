@@ -16,7 +16,7 @@ export const LearnMoreCard = ({
     <TrackedLink
       id={name}
       href={link}
-      className="flex flex-col lg:w-[30%] max-w-xs shadow-lg bg-white rounded-[42px] p-5 mt-4"
+      className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-1000 card-anchor flex flex-col lg:w-[30%] max-w-xs shadow-lg bg-white rounded-[42px] p-5 mt-4"
     >
       <div className="w-full h-[220px] relative mb-4">
         <Image src={src} alt={name} fill className="w-full object-center object-cover" />
