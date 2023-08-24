@@ -20,7 +20,7 @@ export const Header = () => {
         <TrackedLink
           id="buidlguidl:app"
           href="https://app.buidlguidl.com"
-          className="btn btn-neutral text-accent-content btn-xs md:btn-sm px-4 font-light"
+          className="btn btn-neutral hover:bg-[#9FA9FF] hover:border-[#9FA9FF]  text-accent-content btn-xs md:btn-sm px-4 font-light"
         >
           Go to App
         </TrackedLink>
