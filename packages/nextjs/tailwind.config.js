@@ -30,6 +30,9 @@ module.exports = {
           ".tooltip": {
             "--tooltip-tail": "6px",
           },
+          "a:hover": {
+            opacity: 1,
+          },
         },
       },
       {
