@@ -19,7 +19,7 @@ export const Footer = () => {
         <div className="col-span-12 lg:col-span-6">
           <div className="grid grid-cols-12 gap-6">
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
-              <p className="m-0 text-base-100">BuidlGuidl</p>
+              <p className="m-0 text-info">BuidlGuidl</p>
               <a href="https://app.buidlguidl.com/builds" target="_blank" rel="noreferrer" className="m-0">
                 Builds
               </a>
@@ -31,7 +31,7 @@ export const Footer = () => {
               </a>
             </div>
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
-              <p className="m-0 text-base-100">Resources</p>
+              <p className="m-0 text-info">Resources</p>
               <a
                 href="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
                 target="_blank"
@@ -48,7 +48,7 @@ export const Footer = () => {
               </a>
             </div>
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
-              <p className="m-0 text-base-100">Social</p>
+              <p className="m-0 text-info">Social</p>
               <a href="https://twitter.com/buidlguidl" target="_blank" rel="noreferrer" className="m-0">
                 Twitter
               </a>
