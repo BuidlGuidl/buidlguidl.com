@@ -16,7 +16,7 @@ export const BuildCard = ({
     <TrackedLink
       id={name}
       href={link}
-      className="card card-compact lg:w-1/3 max-w-xs bg-white shadow-lg rounded-[46px]"
+      className="w-full card card-compact lg:w-1/3 max-w-xs bg-white shadow-lg rounded-[46px]"
     >
       <div className="w-full h-[220px] relative">
         <Image src={src} alt={name} fill className="w-full object-center object-cover" />
