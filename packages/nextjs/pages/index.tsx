@@ -179,7 +179,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Image src="/assets/builders.png" alt="builder icon" width={40} height={40} className="mt-1" />
+              <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
               <div className="flex flex-col items-start">
                 <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">797</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builders</p>
