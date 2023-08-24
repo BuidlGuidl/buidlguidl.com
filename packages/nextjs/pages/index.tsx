@@ -222,7 +222,7 @@ const Home: NextPage = () => {
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">SUPPORTED BY</p>
               <div className="flex flex-col gap-6 items-center lg:items-start">
                 <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
-                <div className="flex flex-col md:flex-row gap-6 items-center">
+                <div className="flex flex-col md:flex-row gap-8 items-center">
                   <Image src="/assets/op-logo.svg" alt="Optimism logo" width={30} height={30} />
                   <Address address="0x34aA3F359A9D614239015126635CE7732c18fDF3" size="sm" />
                 </div>
