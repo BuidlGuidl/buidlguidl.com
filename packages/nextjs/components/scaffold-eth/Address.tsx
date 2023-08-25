@@ -13,6 +13,7 @@ type TAddressProps = {
   disableAddressLink?: boolean;
   format?: "short" | "long";
   size?: "xs" | "sm" | "base" | "lg" | "xl" | "2xl" | "3xl";
+  className?: string;
 };
 
 const blockieSizeMap = {
@@ -28,7 +29,7 @@ const blockieSizeMap = {
 /**
  * Displays an address (or ENS) with a Blockie image and option to copy address.
  */
-export const Address = ({ address, disableAddressLink, format, size = "base" }: TAddressProps) => {
+export const Address = ({ address, disableAddressLink, format, size = "base", className }: TAddressProps) => {
   const [ens, setEns] = useState<string | null>();
   const [ensAvatar, setEnsAvatar] = useState<string | null>();
   const [addressCopied, setAddressCopied] = useState(false);
@@ -76,7 +77,7 @@ export const Address = ({ address, disableAddressLink, format, size = "base" }: 
   }
 
   return (
-    <div className="flex items-center">
+    <div className={`flex items-center ${className ? className : ""}`}>
       <div className="flex-shrink-0">
         {ensAvatar ? (
           // Don't want to use nextJS Image here (and adding remote patterns for the URL)
@@ -98,26 +99,18 @@ export const Address = ({ address, disableAddressLink, format, size = "base" }: 
         )}
       </div>
       {disableAddressLink ? (
-        <span className={`ml-1.5 text-${size} font-normal`}>{displayAddress}</span>
+        <span className={`ml-1.5 text-${size}`}>{displayAddress}</span>
       ) : getTargetNetwork().id === hardhat.id ? (
-        <span className={`ml-1.5 text-${size} font-normal`}>
+        <span className={`ml-1.5 text-${size}`}>
           <Link href={blockExplorerAddressLink}>{displayAddress}</Link>
         </span>
       ) : (
-        <a
-          className={`ml-1.5 text-${size} font-normal`}
-          target="_blank"
-          href={blockExplorerAddressLink}
-          rel="noopener noreferrer"
-        >
+        <a className={`ml-1.5 text-${size}`} target="_blank" href={blockExplorerAddressLink} rel="noopener noreferrer">
           {displayAddress}
         </a>
       )}
       {addressCopied ? (
-        <CheckCircleIcon
-          className="ml-1.5 text-xl font-normal text-sky-600 h-5 w-5 cursor-pointer"
-          aria-hidden="true"
-        />
+        <CheckCircleIcon className="ml-1.5 text-xl text-primary h-5 w-5 cursor-pointer" aria-hidden="true" />
       ) : (
         <CopyToClipboard
           text={address}
@@ -128,10 +121,7 @@ export const Address = ({ address, disableAddressLink, format, size = "base" }: 
             }, 800);
           }}
         >
-          <DocumentDuplicateIcon
-            className="ml-1.5 text-xl font-normal text-sky-600 h-5 w-5 cursor-pointer"
-            aria-hidden="true"
-          />
+          <DocumentDuplicateIcon className="ml-1.5 text-xl text-primary h-5 w-5 cursor-pointer" aria-hidden="true" />
         </CopyToClipboard>
       )}
     </div>

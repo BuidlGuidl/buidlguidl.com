@@ -20,7 +20,7 @@ module.exports = {
           "base-200": "#FFD4B5",
           "base-300": "#F4F4F4",
           "base-content": "#212638",
-          info: "#93BBFB",
+          info: "#9FA9FF",
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
@@ -29,6 +29,9 @@ module.exports = {
 
           ".tooltip": {
             "--tooltip-tail": "6px",
+          },
+          "a:hover": {
+            opacity: 1,
           },
         },
       },
