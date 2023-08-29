@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Card } from "~~/components/ChallengeCard";
@@ -14,17 +15,31 @@ const Home: NextPage = () => {
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="bg-[url(/assets/hero.png)] min-h-screen bg-cover bg-center">
+      <div className="relative h-[70vh] md:min-h-screen flex flex-col">
+        <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="flex justify-center">
-          <h1 className="text-center text-3xl lg:text-5xl mt-6 lg:mt-8 max-w-md lg:max-w-2xl px-3">
-            Learn, build, and thrive on Ethereum
-          </h1>
+        <div className="bg-[url(/assets/hero.png)] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
+          <div className="flex justify-center">
+            <h1 className="text-center z-10 text-3xl lg:text-5xl lg:mt-8 max-w-md lg:max-w-2xl px-3">
+              Learn, build, and thrive on Ethereum
+            </h1>
+          </div>
+        </div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center">
+          <Link href="#start-building-on-ethereum">
+            <Image
+              src="/assets/down-arrow.svg"
+              alt="diamon icon"
+              width={25}
+              height={25}
+              className="mb-3 animate-bounce cursor-pointer"
+            />
+          </Link>
         </div>
       </div>
 
       {/* Star Building on Ethereum */}
-      <div className="bg-white">
+      <div className="bg-white" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
