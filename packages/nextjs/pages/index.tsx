@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <div className="relative h-[70vh] md:min-h-screen flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="bg-[url(/assets/hero.png)] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
+        <div className="bg-[url(/assets/hero.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
           <div className="flex justify-center">
             <h1 className="text-center z-10 text-3xl lg:text-5xl lg:mt-8 max-w-md lg:max-w-2xl px-3">
               Learn, build, and thrive on Ethereum
