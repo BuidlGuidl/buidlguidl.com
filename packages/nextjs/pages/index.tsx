@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <Header />
         <div className="bg-[url(/assets/hero.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
           <div className="flex justify-center">
-            <h1 className="text-center z-10 text-3xl lg:text-5xl lg:mt-8 max-w-md lg:max-w-2xl px-3">
+            <h1 className="text-center z-10 text-2xl max-w-xs lg:text-5xl lg:mt-8 lg:max-w-2xl px-3">
               Learn, build, and thrive on Ethereum
             </h1>
           </div>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               alt="diamon icon"
               width={25}
               height={25}
-              className="mb-3 animate-bounce cursor-pointer"
+              className="mb-3 cursor-pointer hover:-translate-y-1"
             />
           </Link>
         </div>
