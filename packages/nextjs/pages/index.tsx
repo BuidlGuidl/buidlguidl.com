@@ -281,7 +281,7 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  const res = await fetch(`${process.env.BG_BACKEND_API}/stats`);
+  const res = await fetch(`${process.env.BG_BACKEND_API}/api/stats`);
 
   if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
 
