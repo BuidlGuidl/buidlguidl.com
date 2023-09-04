@@ -281,7 +281,7 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  const res = await fetch("https://buidlguidl-v3.ew.r.appspot.com/api/stats");
+  const res = await fetch(`${process.env.BG_BACKEND_API}/stats`);
 
   if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
 
