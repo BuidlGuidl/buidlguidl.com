@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               alt="diamon icon"
               width={25}
               height={25}
-              className="mb-3 cursor-pointer hover:-translate-y-1"
+              className="mb-3 cursor-pointer animate-bounce-interval"
             />
           </Link>
         </div>
