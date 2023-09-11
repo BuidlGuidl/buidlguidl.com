@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Card } from "~~/components/ChallengeCard";
 import { Footer } from "~~/components/Footer";
@@ -10,7 +10,16 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 import { Address } from "~~/components/scaffold-eth";
 
-const Home: NextPage = () => {
+type Stats = {
+  builderCount: string;
+  buildCount: string;
+  streamedEth: number;
+  buildersIncrementMonth: number;
+  buildsIncrementMonth: number;
+  streamedEthIncrement: number;
+};
+
+const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
   return (
     <>
       <MetaHeader />
@@ -189,21 +198,23 @@ const Home: NextPage = () => {
             <div className="flex items-start gap-3">
               <Image src="/assets/diamond.svg" alt="diamon icon" width={40} height={40} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">454.83Ξ</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">
+                  {stats.streamedEth.toFixed(2)}Ξ
+                </h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Streamed</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">797</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.builderCount}</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builders</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Image src="/assets/builds-uploaded.svg" alt="build icon" width={30} height={30} className="mt-1" />
               <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">808</h2>
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.buildCount}</h2>
                 <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builds Uploaded</p>
               </div>
             </div>
@@ -282,6 +293,22 @@ const Home: NextPage = () => {
       <Footer />
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
+  const res = await fetch(`${process.env.BG_BACKEND_API}/api/stats`);
+
+  if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
+
+  const stats = (await res.json()) as Stats;
+
+  return {
+    props: {
+      stats,
+    },
+    // 6 hours refresh.
+    revalidate: 21600,
+  };
 };
 
 export default Home;
