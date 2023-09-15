@@ -54,3 +54,19 @@ p {
 .btn.btn-ghost {
   @apply shadow-none;
 }
+
+tbody tr:first-child td:first-child {
+  border-top-left-radius: 1.5rem;
+}
+
+tbody tr:first-child td:last-child {
+  border-top-right-radius: 1.5rem;
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 1.5rem;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 1.5rem;
+}
