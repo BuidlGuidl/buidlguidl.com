@@ -19,6 +19,7 @@ module.exports = {
           "base-100": "#D8DCFF",
           "base-200": "#FFD4B5",
           "base-300": "#F4F4F4",
+          "base-400": "#EBECFD",
           "base-content": "#212638",
           info: "#9FA9FF",
           success: "#34EEB6",
@@ -48,6 +49,7 @@ module.exports = {
           "base-100": "#385183",
           "base-200": "#2A3655",
           "base-300": "#212638",
+          "base-400": "#EBECFD",
           "base-content": "#F9FBFF",
           info: "#385183",
           success: "#34EEB6",
@@ -70,6 +72,15 @@ module.exports = {
       fontFamily: {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
         "neue-machina": ["PPNeueMachina", "sans-serif"],
+      },
+      backgroundColor: {
+      'base-400': '#EBECFD',
+      },
+      boxShadow: {
+        'custom': '0px 0px 11.65074px 0px rgba(139, 178, 241, 0.50)',
+      },
+      screens: {
+        'xs': '450px',
       },
     },
   },
