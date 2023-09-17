@@ -216,7 +216,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
-        <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/support-high-impact-devs.png')] md:[background-position-x:45vw] md:[background-position-y:6vw] md:bg-auto bg-no-repeat ">
+        <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/support-high-impact-devs.png')] md:[background-position-x:45vw] [background-position-y:50%] md:bg-auto bg-no-repeat ">
           <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
             <div className="text-center lg:text-left sm:w-1/2">
               <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6">
