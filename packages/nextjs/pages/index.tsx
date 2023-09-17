@@ -288,9 +288,9 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
               <table className="min-w-full">
                 <thead>
                   <tr className="text-base">
-                    <th className="bg-base-100 text-left py-3 px-8">Name</th>
-                    <th className="bg-base-100 text-left py-3 px-8">Hackers</th>
-                    <th className="bg-base-100 text-left py-3 px-8">ETH</th>
+                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Name</th>
+                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Hackers</th>
+                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">ETH</th>
                   </tr>
                 </thead>
                 <tbody className="shadow-custom rounded-3xl text-sm ">
