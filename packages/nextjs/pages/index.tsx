@@ -23,6 +23,7 @@ type Cohort = {
   url: string;
   builders: { [key: string]: any };
   balance: string;
+  totalWithdrawn: string;
 };
 
 const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohortsData }) => {
@@ -290,7 +291,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
                   <tr className="text-base">
                     <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Name</th>
                     <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Hackers</th>
-                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">ETH</th>
+                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Balance</th>
                   </tr>
                 </thead>
                 <tbody className="shadow-custom rounded-3xl text-sm ">
@@ -329,7 +330,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
                   <span className="ml-2 font-bold">
                     {
                       // Calculation for Total ETH Streamed
-                      cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.balance), 0).toFixed(2)
+                      cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2)
                     }{" "}
                     Ξ
                   </span>
