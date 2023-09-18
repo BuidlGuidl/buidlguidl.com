@@ -220,13 +220,13 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
         <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/support-high-impact-devs.png')] md:[background-position-x:45vw] [background-position-y:50%] md:bg-auto bg-no-repeat ">
           <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
             <div className="text-center lg:text-left sm:w-1/2">
-              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6">
+              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-2 lg:mb-6">
                 Supporting
                 <br /> up-and-coming <br />
                 high-impact devs
               </h2>
-              {/* Mobile Background Image Div */}
-              <div className="lg:hidden">
+              {/* Mobile: Set background image as regular image in a div */}
+              <div className="lg:hidden mb-2">
                 <Image
                   src="/assets/support-high-impact-devs.png"
                   alt="Supported list of devs"
@@ -344,7 +344,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
       </div>
 
       {/* Learn More  */}
-      <div className="bg-base-300">
+      <div className="bg-base-400">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
           {/* Card Container  */}
