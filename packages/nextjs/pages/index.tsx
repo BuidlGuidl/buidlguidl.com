@@ -225,6 +225,15 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
                 <br /> up-and-coming <br />
                 high-impact devs
               </h2>
+              {/* Mobile Background Image Div */}
+              <div className="lg:hidden">
+                <Image
+                  src="/assets/support-high-impact-devs.png"
+                  alt="Supported list of devs"
+                  width={1115}
+                  height={800}
+                />
+              </div>
               <p className="lg:w-4/5 m-0 mb-3">
                 Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
                 to build what they think is most important.
@@ -236,13 +245,6 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
               <p className="lg:w-4/5 m-0 mb-6">
                 This approach produces novel open source solutions and a vibrant learning environment.
               </p>
-              <TrackedLink
-                id="partnerships-email"
-                href="mailto:partnerships@buidlguidl.com"
-                className="btn btn-secondary btn-md px-8 mt-2"
-              >
-                Connect with us
-              </TrackedLink>
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">SUPPORTED BY</p>
               <div className="flex flex-col gap-6 items-center lg:items-start">
                 <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
@@ -258,7 +260,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
           <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
             {/* Cohorts Text Content */}
             <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
-              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6 pr-0 md:pr-12">
+              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
@@ -294,7 +296,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
                     <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Balance</th>
                   </tr>
                 </thead>
-                <tbody className="shadow-custom rounded-3xl text-sm ">
+                <tbody className="shadow-custom rounded-3xl text-sm">
                   {cohortsData?.map(cohort => (
                     <tr
                       className="bg-base-400 hover:bg-base-100 border-b border-base-100 cursor-pointer"
@@ -341,38 +343,8 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
         </div>
       </div>
 
-      {/* Placeholder stats and titles  */}
-      {/* ToDo. Use real titles and data*/}
-      <div className="bg-white">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
-          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
-            <div className="flex items-start gap-3">
-              <Image src="/assets/laptop.svg" alt="laptop icon" width={55} height={40} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">1</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Stat 1</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">2</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Stat 2</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/diamond.svg" alt="diamon icon" width={40} height={40} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">3</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Stat 3</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Learn More  */}
-      <div className="bg-base-100">
+      <div className="bg-base-300">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
           {/* Card Container  */}
@@ -405,16 +377,14 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  //const res = await fetch(`${process.env.BG_BACKEND_API}/api/stats`);
-  const res = await fetch(`https://buidlguidl-v3.ew.r.appspot.com/api/stats`);
+  const res = await fetch(`${process.env.BG_BACKEND_API}/api/stats`);
 
   if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
 
   const stats = (await res.json()) as Stats;
 
   // Fetch data for cohorts section
-  //const resCohorts = await fetch(`${process.env.BG_BACKEND_API}/cohorts/stats`);
-  const resCohorts = await fetch(`https://buidlguidl-v3.ew.r.appspot.com/cohorts/stats`);
+  const resCohorts = await fetch(`${process.env.BG_BACKEND_API}/cohorts/stats`);
 
   if (!resCohorts.ok) throw new Error(`Failed to fetch cohorts, received status ${resCohorts.status}`);
 
