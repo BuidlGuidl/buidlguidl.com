@@ -26,7 +26,13 @@ type Cohort = {
   totalWithdrawn: string;
 };
 
-const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohortsData }) => {
+const Home: NextPage<{
+  stats: Stats;
+  cohortsData?: Cohort[];
+  totalCohorts: number;
+  totalHackers: number;
+  totalEthStreamed: number;
+}> = ({ stats, cohortsData, totalCohorts, totalHackers, totalEthStreamed }) => {
   return (
     <>
       <MetaHeader />
@@ -256,7 +262,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
 
       {/* Cohorts*/}
       <div className="bg-base-100">
-        <div className="mx-auto lg:max-w-[1980px]">
+        <div className="mx-auto lg:max-w-6xl">
           <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
             {/* Cohorts Text Content */}
             <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
@@ -290,16 +296,16 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
             <div className="hidden xs:block mt-0 lg:mt-8">
               <table className="min-w-full">
                 <thead>
-                  <tr className="text-base">
-                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Name</th>
-                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Hackers</th>
-                    <th className="bg-base-100 text-left py-3 px-4 xl:px-8">Balance</th>
+                  <tr className="text-base bg-base-100 text-left">
+                    <th className="py-3 px-4 xl:px-8">Name</th>
+                    <th className="py-3 px-4 xl:px-8">Hackers</th>
+                    <th className="py-3 px-4 xl:px-8">Balance</th>
                   </tr>
                 </thead>
-                <tbody className="shadow-custom rounded-3xl text-sm">
+                <tbody className="shadow-even rounded-3xl text-sm">
                   {cohortsData?.map(cohort => (
                     <tr
-                      className="bg-base-400 hover:bg-base-100 border-b border-base-100 cursor-pointer"
+                      className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
                       key={cohort.id}
                       onClick={() => window.open(cohort.url, "_blank")}
                     >
@@ -316,26 +322,13 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
               {/* Badges with Cohorts table data aggregation*/}
               <div className="mt-4 flex gap-4">
                 <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Cohorts <span className="ml-2 font-bold">{cohortsData?.length}</span>
+                  Cohorts <span className="ml-2 font-bold">{totalCohorts}</span>
                 </div>
                 <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Hackers{" "}
-                  <span className="ml-2 font-bold">
-                    {
-                      // Calculation for Total Number of Hackers
-                      cohortsData?.reduce((acc, cohort) => acc + Object.keys(cohort.builders).length, 0)
-                    }
-                  </span>
+                  Hackers <span className="ml-2 font-bold">{totalHackers}</span>
                 </div>
                 <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 min-h-12 sm:min-h-0">
-                  ETH Streamed{" "}
-                  <span className="ml-2 font-bold">
-                    {
-                      // Calculation for Total ETH Streamed
-                      cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2)
-                    }{" "}
-                    Ξ
-                  </span>
+                  ETH Streamed <span className="ml-2 font-bold">{totalEthStreamed} Ξ</span>
                 </div>
               </div>
             </div>
@@ -344,7 +337,7 @@ const Home: NextPage<{ stats: Stats; cohortsData?: Cohort[] }> = ({ stats, cohor
       </div>
 
       {/* Learn More  */}
-      <div className="bg-base-400">
+      <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
           {/* Card Container  */}
@@ -390,10 +383,22 @@ export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
 
   const cohortsData = (await resCohorts.json()) as Cohort[];
 
+  // Calculate total number of cohorts
+  const totalCohorts = cohortsData?.length;
+
+  // Calculate total number of hackers
+  const totalHackers = cohortsData.reduce((acc, cohort) => acc + Object.keys(cohort.builders).length, 0);
+
+  // Calculate Total ETH Streamed by all cohorts
+  const totalEthStreamed = cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2);
+
   return {
     props: {
       stats,
       cohortsData,
+      totalCohorts,
+      totalHackers,
+      totalEthStreamed,
     },
     // 6 hours refresh.
     revalidate: 21600,
