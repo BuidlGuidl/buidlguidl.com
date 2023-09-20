@@ -223,9 +223,9 @@ const Home: NextPage<{
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:pl-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6 lg:max-w-[41%] flex flex-col items-center lg:items-start">
-            <h2 className="text-2xl lg:text-5xl text-center lg:text-left">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:pl-24 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
+            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
               Supporting <br /> up-and-coming <br /> high-impact devs
             </h2>
             <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
