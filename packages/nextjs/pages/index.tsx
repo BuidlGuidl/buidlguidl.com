@@ -223,6 +223,37 @@ const Home: NextPage<{
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:pl-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="space-y-6 lg:max-w-[41%] flex flex-col items-center lg:items-start">
+            <h2 className="text-2xl lg:text-5xl text-center lg:text-left">
+              Supporting <br /> up-and-coming <br /> high-impact devs
+            </h2>
+            <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
+              <p className="m-0 mb-3">
+                Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
+                to build what they think is most important.
+              </p>
+              <p className="m-0 mb-3">
+                Their smart contracts get replenished monthly and allows them to withdraw funds whenever they like by
+                submitting a few sentences about the work or a PR.
+              </p>
+              <p className="m-0 mb-6">
+                This approach produces novel open source solutions and a vibrant learning environment.
+              </p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
+              <div className="flex flex-col items-center lg:items-start">
+                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="max-w-md lg:max-w-none">
+              <Image src="/assets/support-high-impact-devs.png" alt="developers list" width={900} height={900} />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="bg-base-300">
         <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/support-high-impact-devs.png')] md:[background-position-x:45vw] [background-position-y:50%] md:bg-auto bg-no-repeat ">
           <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
             <div className="text-center lg:text-left sm:w-1/2">
@@ -231,7 +262,6 @@ const Home: NextPage<{
                 <br /> up-and-coming <br />
                 high-impact devs
               </h2>
-              {/* Mobile: Set background image as regular image in a div */}
               <div className="lg:hidden mb-2">
                 <Image
                   src="/assets/support-high-impact-devs.png"
@@ -258,7 +288,7 @@ const Home: NextPage<{
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Cohorts*/}
       <div className="bg-base-100">
