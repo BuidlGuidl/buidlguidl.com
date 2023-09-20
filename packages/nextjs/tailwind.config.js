@@ -71,6 +71,24 @@ module.exports = {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
         "neue-machina": ["PPNeueMachina", "sans-serif"],
       },
+      keyframes: {
+        "bounce-interval": {
+          "0%, 12.5%, 25%, 37.5%, 50%": {
+            transform: "translateY(-25%)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "6.25%, 18.75%, 31.25%, 43.5%": {
+            transform: "translateY(0)",
+            "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+          },
+          "100%": {
+            transform: "translateY(-25%)",
+          },
+        },
+      },
+      animation: {
+        "bounce-interval": "bounce-interval 10s infinite",
+      },
     },
   },
 };
