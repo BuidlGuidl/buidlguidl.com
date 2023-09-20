@@ -35,7 +35,7 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
           </div>
         </div>
         <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center">
-          <Link href="#start-building-on-ethereum">
+          <Link href="#start-building-on-ethereum" className="hidden lg:block">
             <Image
               src="/assets/down-arrow.svg"
               alt="diamon icon"
@@ -49,7 +49,7 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
 
       {/* Star Building on Ethereum */}
       <div className="bg-white" id="start-building-on-ethereum">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-12 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
             <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
