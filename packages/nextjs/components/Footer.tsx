@@ -5,7 +5,7 @@ import Image from "next/image";
  */
 export const Footer = () => {
   return (
-    <div className="bg-[#182232] lg:p-12 p-8 flex items-center justify-center">
+    <div className="bg-[#182232] lg:p-12 p-8 flex items-center justify-center text-[16px]">
       <div className="grid grid-cols-12 lg:gap-8 gap-3 max-w-7xl">
         <div className="col-span-12 lg:col-span-6 flex flex-col">
           <div className="flex flex-col">
