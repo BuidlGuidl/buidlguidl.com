@@ -8,7 +8,6 @@ import { Header } from "~~/components/Header";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
-import { Address } from "~~/components/scaffold-eth";
 
 type Stats = {
   builderCount: string;
@@ -19,7 +18,22 @@ type Stats = {
   streamedEthIncrement: number;
 };
 
-const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
+type Cohort = {
+  id: string;
+  name: string;
+  url: string;
+  builders: { [key: string]: any };
+  balance: string;
+  totalWithdrawn: string;
+};
+
+const Home: NextPage<{
+  stats: Stats;
+  cohortsData?: Cohort[];
+  totalCohorts: number;
+  totalHackers: number;
+  totalEthStreamed: number;
+}> = ({ stats, cohortsData, totalCohorts, totalHackers, totalEthStreamed }) => {
   return (
     <>
       <MetaHeader />
@@ -224,37 +238,108 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
 
       {/* Supporting Devs*/}
       <div className="bg-base-300">
-        <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/funding.png')] md:[background-position-x:40vw] md:bg-contain bg-no-repeat xl:bg-right">
-          <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
-            <div className="text-center lg:text-left sm:w-1/2">
-              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6">
-                Supporting
-                <br /> up-and-coming <br />
-                high-impact devs
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
+            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
+              Supporting <br /> up-and-coming <br /> high-impact devs
+            </h2>
+            <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
+              <p className="m-0 mb-3">
+                Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
+                to build what they think is most important.
+              </p>
+              <p className="m-0 mb-3">
+                Their smart contracts get replenished monthly and allows them to withdraw funds whenever they like by
+                submitting a few sentences about the work or a PR.
+              </p>
+              <p className="m-0 mb-6">
+                This approach produces novel open source solutions and a vibrant learning environment.
+              </p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
+              <div className="flex flex-col items-center lg:items-start">
+                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="max-w-md lg:max-w-none">
+              <Image src="/assets/support-high-impact-devs.png" alt="developers list" width={900} height={900} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Cohorts*/}
+      <div className="bg-base-100">
+        <div className="mx-auto lg:max-w-6xl">
+          <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
+            {/* Cohorts Text Content */}
+            <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
+                Partnering with
+                <br /> ecosystem heroes
               </h2>
               <p className="lg:w-4/5 m-0 mb-3">
-                BuidlGuidl streams to developers using our new cohort streams and other custom smart contracts.
+                Focused Cohort Streams bundle together a group of developer streams and focuses them on a per-determined
+                objective.
               </p>
               <p className="lg:w-4/5 m-0 mb-6">
-                Our goal is to enrich open learning within the Ethereum developer ecosystem.
+                These cohorts provided the structure and guidance of an Operator who identifies, adds, and removes
+                developers from the pool.
               </p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">IN COLLABORATION WITH</p>
+              <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
+                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
+                <Image src="/assets/aztek-logo.png" alt="Aztek logo" width={120} height={44} />
+                <Image src="/assets/starknet-logo.svg" alt="Starknet logo" width={152} height={35} />
+              </div>
               <TrackedLink
-                id="partnerships-email"
+                id="co-fund-email"
                 href="mailto:partnerships@buidlguidl.com"
-                className="btn btn-secondary btn-md px-8 mt-2"
+                className="btn btn-primary btn-md px-8 mt-8"
               >
-                Connect with us
+                Co-fund with us
               </TrackedLink>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">SUPPORTED BY</p>
-              <div className="flex flex-col gap-6 items-center lg:items-start">
-                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
-                <div className="flex flex-col md:flex-row gap-7 items-center">
-                  <Image src="/assets/op-logo.svg" alt="Optimism logo" width={30} height={30} />
-                  <Address
-                    address="0x34aA3F359A9D614239015126635CE7732c18fDF3"
-                    size="sm"
-                    className="bg-gray-200 p-1 px-2 rounded-lg font-medium"
-                  />
+            </div>
+            {/* Cohorts Table */}
+            <div className="mt-0 lg:mt-8">
+              <div className="hidden xs:block">
+                <table className="min-w-full">
+                  <thead>
+                    <tr className="text-base bg-base-100 text-left">
+                      <th className="py-3 px-4 xl:px-8">Name</th>
+                      <th className="py-3 px-4 xl:px-8">Hackers</th>
+                      <th className="py-3 px-4 xl:px-8">Balance</th>
+                    </tr>
+                  </thead>
+                  <tbody className="shadow-even rounded-3xl text-sm">
+                    {cohortsData?.map(cohort => (
+                      <tr
+                        className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
+                        key={cohort.id}
+                        onClick={() => window.open(cohort.url, "_blank")}
+                      >
+                        <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
+                        <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
+                        <td className="py-3 px-4 xl:px-8">
+                          {parseFloat(cohort.balance).toFixed(2)}
+                          <span className="text-xs ml-1">ETH</span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {/* Badges with Cohorts table data aggregation*/}
+              <div className="mt-0 xs:mt-4 flex gap-4 flex-col xs:flex-row flex-wrap items-center">
+                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
+                  Cohorts <span className="ml-2 font-bold">{totalCohorts}</span>
+                </div>
+                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
+                  Hackers <span className="ml-2 font-bold">{totalHackers}</span>
+                </div>
+                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 ">
+                  ETH Streamed <span className="ml-2 font-bold">{totalEthStreamed} Ξ</span>
                 </div>
               </div>
             </div>
@@ -263,7 +348,7 @@ const Home: NextPage<{ stats: Stats }> = ({ stats }) => {
       </div>
 
       {/* Learn More  */}
-      <div className="bg-base-100">
+      <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
           {/* Card Container  */}
@@ -302,9 +387,29 @@ export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
 
   const stats = (await res.json()) as Stats;
 
+  // Fetch data for cohorts section
+  const resCohorts = await fetch(`${process.env.BG_BACKEND_API}/cohorts/stats`);
+
+  if (!resCohorts.ok) throw new Error(`Failed to fetch cohorts, received status ${resCohorts.status}`);
+
+  const cohortsData = (await resCohorts.json()) as Cohort[];
+
+  // Calculate total number of cohorts
+  const totalCohorts = cohortsData?.length;
+
+  // Calculate total number of hackers
+  const totalHackers = cohortsData.reduce((acc, cohort) => acc + Object.keys(cohort.builders).length, 0);
+
+  // Calculate Total ETH Streamed by all cohorts
+  const totalEthStreamed = cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2);
+
   return {
     props: {
       stats,
+      cohortsData,
+      totalCohorts,
+      totalHackers,
+      totalEthStreamed,
     },
     // 6 hours refresh.
     revalidate: 21600,

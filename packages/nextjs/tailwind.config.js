@@ -71,6 +71,15 @@ module.exports = {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
         "neue-machina": ["PPNeueMachina", "sans-serif"],
       },
+      backgroundColor: {
+        skin: "#EBECFD",
+      },
+      boxShadow: {
+        even: "0px 0px 11.65074px 0px rgba(139, 178, 241, 0.50)",
+      },
+      screens: {
+        xs: "450px",
+      },
       keyframes: {
         "bounce-interval": {
           "0%, 12.5%, 25%, 37.5%, 50%": {

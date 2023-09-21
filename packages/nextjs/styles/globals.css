@@ -56,6 +56,21 @@ p {
   @apply shadow-none;
 }
 
+tbody tr:first-child td:first-child {
+  border-top-left-radius: 1.5rem;
+}
+
+tbody tr:first-child td:last-child {
+  border-top-right-radius: 1.5rem;
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 1.5rem;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 1.5rem;
+}
 .hero-top-gradient {
   background: linear-gradient(180deg, #c3dbff 0%, rgba(217, 235, 229, 0.51) 66.15%, rgba(239, 251, 202, 0) 100%);
 }
