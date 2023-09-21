@@ -309,7 +309,7 @@ const Home: NextPage<{
                     <tr className="text-base bg-base-100 text-left">
                       <th className="py-3 px-4 xl:px-8">Name</th>
                       <th className="py-3 px-4 xl:px-8">Hackers</th>
-                      <th className="py-3 px-4 xl:px-8">Balance</th>
+                      <th className="py-3 px-4 xl:px-8">Streamed</th>
                     </tr>
                   </thead>
                   <tbody className="shadow-even rounded-3xl text-sm">
@@ -322,7 +322,7 @@ const Home: NextPage<{
                         <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
                         <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
                         <td className="py-3 px-4 xl:px-8">
-                          {parseFloat(cohort.balance).toFixed(2)}
+                          {parseFloat(cohort.totalWithdrawn).toFixed(2)}
                           <span className="text-xs ml-1">ETH</span>
                         </td>
                       </tr>
