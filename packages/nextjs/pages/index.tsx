@@ -268,42 +268,6 @@ const Home: NextPage<{
           </div>
         </div>
       </div>
-      {/* <div className="bg-base-300">
-        <div className="mx-auto lg:max-w-[1980px] bg-none lg:bg-[url('/assets/support-high-impact-devs.png')] md:[background-position-x:45vw] [background-position-y:50%] md:bg-auto bg-no-repeat ">
-          <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
-            <div className="text-center lg:text-left sm:w-1/2">
-              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-2 lg:mb-6">
-                Supporting
-                <br /> up-and-coming <br />
-                high-impact devs
-              </h2>
-              <div className="lg:hidden mb-2">
-                <Image
-                  src="/assets/support-high-impact-devs.png"
-                  alt="Supported list of devs"
-                  width={1115}
-                  height={800}
-                />
-              </div>
-              <p className="lg:w-4/5 m-0 mb-3">
-                Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
-                to build what they think is most important.
-              </p>
-              <p className="lg:w-4/5 m-0 mb-3">
-                Their smart contracts get replenished monthly and allows them to withdraw funds whenever they like by
-                submitting a few sentences about the work or a PR.
-              </p>
-              <p className="lg:w-4/5 m-0 mb-6">
-                This approach produces novel open source solutions and a vibrant learning environment.
-              </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">SUPPORTED BY</p>
-              <div className="flex flex-col gap-6 items-center lg:items-start">
-                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       {/* Cohorts*/}
       <div className="bg-base-100">
@@ -311,7 +275,7 @@ const Home: NextPage<{
           <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
             {/* Cohorts Text Content */}
             <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
-              <h2 className="text-2xl lg:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
@@ -338,41 +302,43 @@ const Home: NextPage<{
               </TrackedLink>
             </div>
             {/* Cohorts Table */}
-            <div className="hidden xs:block mt-0 lg:mt-8">
-              <table className="min-w-full">
-                <thead>
-                  <tr className="text-base bg-base-100 text-left">
-                    <th className="py-3 px-4 xl:px-8">Name</th>
-                    <th className="py-3 px-4 xl:px-8">Hackers</th>
-                    <th className="py-3 px-4 xl:px-8">Balance</th>
-                  </tr>
-                </thead>
-                <tbody className="shadow-even rounded-3xl text-sm">
-                  {cohortsData?.map(cohort => (
-                    <tr
-                      className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
-                      key={cohort.id}
-                      onClick={() => window.open(cohort.url, "_blank")}
-                    >
-                      <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
-                      <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
-                      <td className="py-3 px-4 xl:px-8">
-                        {parseFloat(cohort.balance).toFixed(2)}
-                        <span className="text-xs ml-1">ETH</span>
-                      </td>
+            <div className="mt-0 lg:mt-8">
+              <div className="hidden xs:block">
+                <table className="min-w-full">
+                  <thead>
+                    <tr className="text-base bg-base-100 text-left">
+                      <th className="py-3 px-4 xl:px-8">Name</th>
+                      <th className="py-3 px-4 xl:px-8">Hackers</th>
+                      <th className="py-3 px-4 xl:px-8">Balance</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody className="shadow-even rounded-3xl text-sm">
+                    {cohortsData?.map(cohort => (
+                      <tr
+                        className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
+                        key={cohort.id}
+                        onClick={() => window.open(cohort.url, "_blank")}
+                      >
+                        <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
+                        <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
+                        <td className="py-3 px-4 xl:px-8">
+                          {parseFloat(cohort.balance).toFixed(2)}
+                          <span className="text-xs ml-1">ETH</span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
               {/* Badges with Cohorts table data aggregation*/}
-              <div className="mt-4 flex gap-4">
+              <div className="mt-0 xs:mt-4 flex gap-4 flex-col xs:flex-row flex-wrap items-center">
                 <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
                   Cohorts <span className="ml-2 font-bold">{totalCohorts}</span>
                 </div>
                 <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
                   Hackers <span className="ml-2 font-bold">{totalHackers}</span>
                 </div>
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 min-h-12 sm:min-h-0">
+                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 ">
                   ETH Streamed <span className="ml-2 font-bold">{totalEthStreamed} Ξ</span>
                 </div>
               </div>
