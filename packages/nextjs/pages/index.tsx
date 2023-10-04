@@ -280,7 +280,7 @@ const Home: NextPage<{
                 <br /> ecosystem heroes
               </h2>
               <p className="lg:w-4/5 m-0 mb-3">
-                Focused Cohort Streams bundle together a group of developer streams and focuses them on a per-determined
+                Focused Cohort Streams bundle together a group of developer streams and focuses them on a pre-determined
                 objective.
               </p>
               <p className="lg:w-4/5 m-0 mb-6">
