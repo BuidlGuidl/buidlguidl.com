@@ -180,22 +180,22 @@ const Home: NextPage<{
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
             {/* Card */}
             <BuildCard
-              name="Punkwallet"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-punkwallet.png"
-              link="https://app.buidlguidl.com/build/mTKhXMLEOCQEgPgG57R9"
-            />
-            <BuildCard
               name="abi.ninja"
               description="Interact with any contract on Ethereum with a friendly UI/UX"
               src="/assets/build-abiNinja.png"
               link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
             />
             <BuildCard
-              name="Scaffold Wallet"
-              description="Ethereum Minimalistic Wallet for Android"
-              src="/assets/build-se-wallet.png"
-              link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
+              name="hacked wallet recovery"
+              description="Recover assets from a compromised wallet using Flashbots"
+              src="/assets/build-walletHackedRecovery.png"
+              link="https://app.buidlguidl.com/build/vNb5Orj3RkJxmmXrrdyL"
+            />
+            <BuildCard
+              name="address.vision"
+              description="Search for an address or ENS to show their token and NFT holdings in most popular EVMs"
+              src="/assets/build-addressVision.png"
+              link="https://app.buidlguidl.com/build/tYL1zRZIoEYASVmg6vPK"
             />
           </div>
           <TrackedLink id="buidlguidl:projects" href="https://app.buidlguidl.com/builds" className="link mt-8">
