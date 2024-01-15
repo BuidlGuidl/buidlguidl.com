@@ -75,7 +75,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="SpeedRunEthereum"
                 href="https://speedrunethereum.com/"
-                className="btn btn-accent btn-md lg:self-start px-8"
+                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
               >
                 Get Started Now!
               </TrackedLink>
@@ -146,7 +146,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="Scaffold-ETH-2"
                 href="https://www.github.com/scaffold-eth/scaffold-eth-2"
-                className="btn btn-accent btn-md lg:self-start px-8"
+                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
               >
                 Start using SE-2
               </TrackedLink>
@@ -296,7 +296,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="co-fund-email"
                 href="mailto:partnerships@buidlguidl.com"
-                className="btn btn-primary btn-md px-8 mt-8"
+                className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
               >
                 Co-fund with us
               </TrackedLink>
