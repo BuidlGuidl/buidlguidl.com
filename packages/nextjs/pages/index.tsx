@@ -183,19 +183,19 @@ const Home: NextPage<{
               name="abi.ninja"
               description="Interact with any contract on Ethereum with a friendly UI/UX"
               src="/assets/build-abiNinja.png"
-              link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
+              link="https://abi.ninja/"
             />
             <BuildCard
               name="hacked wallet recovery"
               description="Recover assets from a compromised wallet using Flashbots"
               src="/assets/build-walletHackedRecovery.png"
-              link="https://app.buidlguidl.com/build/vNb5Orj3RkJxmmXrrdyL"
+              link="https://hackedwalletrecovery.com/"
             />
             <BuildCard
               name="address.vision"
               description="Search for an address or ENS to show their token and NFT holdings in most popular EVMs"
               src="/assets/build-addressVision.png"
-              link="https://app.buidlguidl.com/build/tYL1zRZIoEYASVmg6vPK"
+              link="https://address.vision/"
             />
           </div>
           <TrackedLink id="buidlguidl:projects" href="https://app.buidlguidl.com/builds" className="link mt-8">
