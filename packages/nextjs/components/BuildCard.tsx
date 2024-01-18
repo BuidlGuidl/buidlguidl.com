@@ -21,7 +21,7 @@ export const BuildCard = ({
       <div className="w-full h-[220px] relative">
         <Image src={src} alt={name} fill className="w-full object-center object-cover" />
       </div>
-      <div className="card-body gap-0 border-t">
+      <div className="card-body gap-0 border-t border-primary bg-base-100">
         <h3 className="card-title m-0">{name}</h3>
         <p className="m-0">{description}</p>
       </div>

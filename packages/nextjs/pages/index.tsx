@@ -75,7 +75,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="SpeedRunEthereum"
                 href="https://speedrunethereum.com/"
-                className="btn btn-accent btn-md lg:self-start px-8"
+                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
               >
                 Get Started Now!
               </TrackedLink>
@@ -146,7 +146,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="Scaffold-ETH-2"
                 href="https://www.github.com/scaffold-eth/scaffold-eth-2"
-                className="btn btn-accent btn-md lg:self-start px-8"
+                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
               >
                 Start using SE-2
               </TrackedLink>
@@ -180,22 +180,22 @@ const Home: NextPage<{
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
             {/* Card */}
             <BuildCard
-              name="Punkwallet"
-              description="Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!"
-              src="/assets/build-punkwallet.png"
-              link="https://app.buidlguidl.com/build/mTKhXMLEOCQEgPgG57R9"
-            />
-            <BuildCard
               name="abi.ninja"
               description="Interact with any contract on Ethereum with a friendly UI/UX"
               src="/assets/build-abiNinja.png"
-              link="https://app.buidlguidl.com/build/oAXJ151jdDixCEgwnpf6"
+              link="https://abi.ninja/"
             />
             <BuildCard
-              name="Scaffold Wallet"
-              description="Ethereum Minimalistic Wallet for Android"
-              src="/assets/build-se-wallet.png"
-              link="https://buidlguidl.com/build/oFWIYHo7WkvFQ29WQ12J"
+              name="hacked wallet recovery"
+              description="Recover assets from a compromised wallet using Flashbots"
+              src="/assets/build-walletHackedRecovery.png"
+              link="https://hackedwalletrecovery.com/"
+            />
+            <BuildCard
+              name="address.vision"
+              description="Search for an address or ENS to show their token and NFT holdings in most popular EVMs"
+              src="/assets/build-addressVision.png"
+              link="https://address.vision/"
             />
           </div>
           <TrackedLink id="buidlguidl:projects" href="https://app.buidlguidl.com/builds" className="link mt-8">
@@ -205,7 +205,6 @@ const Home: NextPage<{
       </div>
 
       {/* Stats Streamed / Builder / Builds  */}
-      {/* ToDo. Use real data*/}
       <div className="bg-white">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
@@ -296,7 +295,7 @@ const Home: NextPage<{
               <TrackedLink
                 id="co-fund-email"
                 href="mailto:partnerships@buidlguidl.com"
-                className="btn btn-primary btn-md px-8 mt-8"
+                className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
               >
                 Co-fund with us
               </TrackedLink>
