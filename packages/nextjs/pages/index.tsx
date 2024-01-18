@@ -205,7 +205,6 @@ const Home: NextPage<{
       </div>
 
       {/* Stats Streamed / Builder / Builds  */}
-      {/* ToDo. Use real data*/}
       <div className="bg-white">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
