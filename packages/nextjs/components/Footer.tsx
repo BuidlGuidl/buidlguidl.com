@@ -46,6 +46,14 @@ export const Footer = () => {
               <a href="https://miro.com/app/board/uXjVPbc4b68=/" target="_blank" rel="noreferrer" className="m-0">
                 Tech Tree
               </a>
+              <a
+                href="https://www.figma.com/file/jPaXdmHNfbTSwBWwENr6Iq/BG-Media-Kit%2F-Brand-book?type=design&node-id=0%3A1&mode=design&t=bhdH7Ica05z0rC4Z-1"
+                target="_blank"
+                rel="noreferrer"
+                className="m-0"
+              >
+                Media Kit
+              </a>
             </div>
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
               <p className="m-0 text-info font-normal">Social</p>
