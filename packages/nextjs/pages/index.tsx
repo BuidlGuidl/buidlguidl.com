@@ -109,21 +109,21 @@ const Home: NextPage<{
               name="Build a DEX"
               src="/assets/chall-dex.png"
               description="💵 Build an exchange that swaps ETH to tokens and tokens to ETH."
-              link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-4-dex"
+              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-4-dex"
             />
             <Card
               num={5}
               name="State Channels"
               src="/assets/chall-state.png"
               description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price!"
-              link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-9-state-channels"
+              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-5-state-channels"
             />
             <Card
               num={6}
-              name="Multi-Sig Wallet"
+              name="Multisig Wallet"
               src="/assets/chall-multisig.png"
               description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
-              link="https://github.com/scaffold-eth/scaffold-eth-challenges/tree/challenge-5-multisig"
+              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-6-multisig"
             />
           </div>
         </div>
