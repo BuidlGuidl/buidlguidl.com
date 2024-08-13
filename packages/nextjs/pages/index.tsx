@@ -289,8 +289,6 @@ const Home: NextPage<{
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">IN COLLABORATION WITH</p>
               <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
                 <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
-                <Image src="/assets/aztek-logo.png" alt="Aztek logo" width={120} height={44} />
-                <Image src="/assets/starknet-logo.svg" alt="Starknet logo" width={152} height={35} />
               </div>
               <TrackedLink
                 id="co-fund-email"
