@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useAccount, useSignMessage } from "wagmi";
+import { CheckCircleIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { AddressInput, getParsedError } from "~~/components/scaffold-eth";
 import { notification } from "~~/utils/scaffold-eth";
@@ -22,6 +24,7 @@ const Devon2024 = () => {
   const { isLoading: isSigningMessage, signMessageAsync } = useSignMessage({
     message: `I want to claim Devon Bangkok 2024 for ${connectedAddress}`,
   });
+  const [voucherCopied, setVoucherCopied] = useState(false);
 
   // need this prevent hydration mismatch because of isConnect
   const [isClient, setIsClient] = useState(false);
@@ -114,8 +117,40 @@ const Devon2024 = () => {
                 <div className="divider"></div>
                 <div>
                   <h2 className="text-2xl font-bold mb-4">Here&apos;s Your Voucher Code</h2>
-                  <div className="bg-secondary text-primary-content p-4 rounded-lg text-2xl font-bold">{voucher}</div>
-                  <p className="mt-4">Use this code to redeem your special offer.</p>
+                  <div className="flex items-center justify-center bg-secondary rounded-lg p-4">
+                    <div className="bg-secondary text-primary-content text-2xl font-bold">{voucher}</div>
+                    {voucherCopied ? (
+                      <CheckCircleIcon className="ml-2 text-xl text-primary h-6 w-6" aria-hidden="true" />
+                    ) : (
+                      <CopyToClipboard
+                        text={voucher}
+                        onCopy={() => {
+                          setVoucherCopied(true);
+                          setTimeout(() => {
+                            setVoucherCopied(false);
+                          }, 800);
+                        }}
+                      >
+                        <DocumentDuplicateIcon
+                          className="ml-2 text-xl text-primary h-6 w-6 cursor-pointer"
+                          aria-hidden="true"
+                        />
+                      </CopyToClipboard>
+                    )}
+                  </div>
+                  <p className="mt-4">
+                    Use this code to redeem your special offer or visit this
+                    <a
+                      className="underline underline-offset-1"
+                      href={`https://devcon/buy-ticket?voucher=${voucher}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      link{" "}
+                    </a>
+                    to buy ticket
+                  </p>
                 </div>
               </>
             )}
