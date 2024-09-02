@@ -31,6 +31,8 @@ const Devon2024 = () => {
   const [voucher, setVoucher] = useState<string | null>(null);
   const { address: connectedAddress, isConnected } = useAccount();
   const [inputAddress, setInputAddress] = useState("");
+  const [isCheckingEligibility, setIsCheckingEligibility] = useState(false);
+  const [isGettingVoucher, setIsGettingVoucher] = useState(false);
   const { isLoading: isSigningMessage, signMessageAsync } = useSignMessage({
     message: `I want to claim my Devcon 2024 Bangkok voucher as ${connectedAddress}`,
   });
@@ -53,6 +55,7 @@ const Devon2024 = () => {
       if (!inputAddress) {
         throw new Error("Please enter an address");
       }
+      setIsCheckingEligibility(true);
       const response = await fetch(`${DEVCON_BACKEND_URL}/check-eligibility/${inputAddress}`);
       if (!response.ok) {
         throw new Error("Failed to check eligibility");
@@ -67,12 +70,15 @@ const Devon2024 = () => {
     } catch (e) {
       const error = getParsedError(e);
       notification.error(error);
+    } finally {
+      setIsCheckingEligibility(false);
     }
   };
 
   const getVoucher = async () => {
     try {
       const signature = await signMessageAsync();
+      setIsGettingVoucher(true);
       const response = await fetch(`${DEVCON_BACKEND_URL}/claim`, {
         method: "POST",
         headers: {
@@ -91,6 +97,8 @@ const Devon2024 = () => {
     } catch (e) {
       const error = getParsedError(e);
       notification.error(error);
+    } finally {
+      setIsGettingVoucher(false);
     }
   };
 
@@ -107,7 +115,11 @@ const Devon2024 = () => {
             <div className="flex flex-col gap-4">
               <p className="m-0">Find out if you&apos;re eligible for our special voucher code!</p>
               <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
-              <button className="btn btn-primary" onClick={handleCheckEligibility}>
+              <button
+                className={`btn btn-primary ${isCheckingEligibility ? "loading" : ""}`}
+                disabled={isCheckingEligibility}
+                onClick={handleCheckEligibility}
+              >
                 Check Eligibility
               </button>
               {isClient ? (
@@ -115,8 +127,8 @@ const Devon2024 = () => {
                   <ConnectButton />
                 ) : (
                   <button
-                    className={`btn btn-primary ${isSigningMessage ? "loading" : ""}`}
-                    disabled={isSigningMessage || !eligibilityStatus?.isEligible}
+                    className={`btn btn-primary ${isSigningMessage || isGettingVoucher ? "loading" : ""}`}
+                    disabled={isSigningMessage || isGettingVoucher || !eligibilityStatus?.isEligible}
                     onClick={getVoucher}
                   >
                     Get Voucher
