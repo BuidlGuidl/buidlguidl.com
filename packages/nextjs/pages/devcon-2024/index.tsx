@@ -4,7 +4,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useAccount, useSignMessage } from "wagmi";
 import { CheckCircleIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { AddressInput, getParsedError } from "~~/components/scaffold-eth";
+import { AddressInput, RainbowKitCustomConnectButton, getParsedError } from "~~/components/scaffold-eth";
 import { notification } from "~~/utils/scaffold-eth";
 
 const ConnectButton = () => {
@@ -50,6 +50,9 @@ const Devon2024 = () => {
 
   const handleCheckEligibility = async () => {
     try {
+      if (!inputAddress) {
+        throw new Error("Please enter an address");
+      }
       const response = await fetch(`${DEVCON_BACKEND_URL}/check-eligibility/${inputAddress}`);
       if (!response.ok) {
         throw new Error("Failed to check eligibility");
@@ -94,8 +97,11 @@ const Devon2024 = () => {
   return (
     <>
       <MetaHeader />
-      <div className="hero min-h-screen bg-base-100">
-        <div className="card w-96 bg-base-300 shadow-xl">
+      <div className="min-h-screen relative bg-base-100">
+        <div className="navbar w-full navbar-end">
+          <RainbowKitCustomConnectButton />
+        </div>
+        <div className="card mx-auto mt-12 w-96 bg-base-300 shadow-xl">
           <div className="card-body items-center text-center">
             <h1 className="card-title text-3xl font-bold">Check Your Eligibility</h1>
             <div className="flex flex-col gap-4">
