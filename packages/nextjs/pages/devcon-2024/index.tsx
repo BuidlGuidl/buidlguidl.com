@@ -16,17 +16,27 @@ const ConnectButton = () => {
   );
 };
 
+const DEVCON_BACKEND_URL = process.env.NEXT_PUBLIC_DEVCON_BACKEND_URL || "http://localhost:49832/devcon";
+
+type VoucherData = {
+  voucherData: {
+    voucher: string;
+    type: string;
+    builderAddress: string;
+  };
+};
+
 const Devon2024 = () => {
   const [eligibilityStatus, setEligibilityStatus] = useState<{ isEligible: boolean; type: string | null } | null>(null);
   const [voucher, setVoucher] = useState<string | null>(null);
   const { address: connectedAddress, isConnected } = useAccount();
   const [inputAddress, setInputAddress] = useState("");
   const { isLoading: isSigningMessage, signMessageAsync } = useSignMessage({
-    message: `I want to claim Devon Bangkok 2024 for ${connectedAddress}`,
+    message: `I want to claim my Devcon 2024 Bangkok voucher as ${connectedAddress}`,
   });
   const [voucherCopied, setVoucherCopied] = useState(false);
 
-  // need this prevent hydration mismatch because of isConnect
+  // need this to prevent hydration mismatch because of isConnect
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     setIsClient(true);
@@ -40,7 +50,7 @@ const Devon2024 = () => {
 
   const handleCheckEligibility = async () => {
     try {
-      const response = await fetch(`/api/devcon/check-eligibility/${inputAddress}`);
+      const response = await fetch(`${DEVCON_BACKEND_URL}/check-eligibility/${inputAddress}`);
       if (!response.ok) {
         throw new Error("Failed to check eligibility");
       }
@@ -60,22 +70,21 @@ const Devon2024 = () => {
   const getVoucher = async () => {
     try {
       const signature = await signMessageAsync();
-      const response = await fetch("/api/devcon/get-voucher", {
+      const response = await fetch(`${DEVCON_BACKEND_URL}/claim`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
           signature,
-          message: `I want to claim Devon Bangkok 2024 for ${connectedAddress}`,
           builderAddress: connectedAddress,
         }),
       });
       if (!response.ok) {
         throw new Error("Failed to get voucher");
       }
-      const data = await response.json();
-      setVoucher(data.voucher);
+      const data: VoucherData = await response.json();
+      setVoucher(data.voucherData.voucher);
     } catch (e) {
       const error = getParsedError(e);
       notification.error(error);
@@ -139,16 +148,15 @@ const Devon2024 = () => {
                     )}
                   </div>
                   <p className="mt-4">
-                    Use this code to redeem your special offer or visit this
+                    Use this code to redeem your special offer or visit this{" "}
                     <a
                       className="underline underline-offset-1"
-                      href={`https://devcon/buy-ticket?voucher=${voucher}`}
+                      href={`https://tickets.devcon.org/redeem?voucher=${voucher}`}
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {" "}
-                      link{" "}
-                    </a>
+                      link
+                    </a>{" "}
                     to buy ticket
                   </p>
                 </div>
