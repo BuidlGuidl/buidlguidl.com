@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useAccount, useSignMessage } from "wagmi";
-import { CheckCircleIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
+import { CheckCircleIcon, DocumentDuplicateIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { AddressInput, RainbowKitCustomConnectButton, getParsedError } from "~~/components/scaffold-eth";
+import devconLogo from "~~/public/assets/logo-devcon-sea.avif";
+import logo from "~~/public/logo.svg";
 import { notification } from "~~/utils/scaffold-eth";
 
 const ConnectButton = () => {
@@ -106,11 +109,52 @@ const Devon2024 = () => {
   return (
     <>
       <MetaHeader />
-      <div className="min-h-screen relative bg-base-100">
+      <div className="min-h-screen relative bg-base-100 bg-[url(/assets/hero-image-light.png)] bg-bottom bg-no-repeat bg-[length:200%_auto] md:bg-contain">
         <div className="navbar w-full navbar-end">
           <RainbowKitCustomConnectButton />
         </div>
-        <div className="card mx-auto mt-12 w-96 bg-base-300 shadow-xl">
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 -top-40 transform-gpu blur-3xl overflow-hidden sm:-top-80"
+        >
+          <div
+            style={{
+              clipPath:
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+            }}
+            className="relative left-[calc(50%-10rem)] aspect-[1155/678] w-[30rem] -translate-x-1/2 rotate-[20deg] bg-gradient-to-tr from-[#FF78A5] to-[#B293FE] opacity-20 sm:left-[calc(50%-50rem)] sm:w-[70rem]"
+          />
+        </div>
+        <div className="relative z-10 pt-2 px-6 md:pt-0">
+          <div className="flex flex-col flex-wrap items-center justify-center gap-2 md:flex-row md:gap-4 lg:gap-6">
+            <Image className="max-w-[16rem] md:w-60 lg:w-72" alt="BuidlGuidl Logo" src={logo} />
+            <XMarkIcon className="text-gray-600 mt-2 w-7 h-7 md:w-8 md:h-8 md:mt-5" />
+            <Image className="max-w-[16rem] md:w-60 md:pt-3 lg:w-72" alt="Devcon SEA Logo" src={devconLogo} />
+          </div>
+          <p className="mt-6 mx-auto text-center text-gray-600 md:max-w-xl md:text-xl md:leading-relaxed lg:mt-4">
+            BuidlGuidl has partnered with Devcon SEA to offer <strong>discounted tickets</strong> for BuidlGuidl
+            members!
+          </p>
+          <div className="max-w-xs mx-auto flex flex-col sm:flex-row gap-4 justify-center text-center sm:max-w-none">
+            <button className="btn btn-secondary">Check Eligibility</button>
+            <button className="btn btn-outline bg-base-100">Learn More</button>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          className="absolute inset-x-0 top-[20%] transform-gpu blur-3xl overflow-hidden sm:-top-[30%]"
+        >
+          <div
+            style={{
+              clipPath:
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+            }}
+            className="relative left-[calc(50%+5rem)] aspect-[1155/678] w-[30rem] -translate-x-1/2 bg-gradient-to-tr from-[#FF78A5] to-[#B293FE] opacity-10 sm:left-[calc(50%+40rem)] sm:w-[70rem]"
+          />
+        </div>
+      </div>
+      <div className="py-24 bg-base-100">
+        <div className="card mx-auto w-96 bg-base-300 shadow-xl">
           <div className="card-body items-center text-center">
             <h1 className="card-title text-3xl font-bold">Check Your Eligibility</h1>
             <div className="flex flex-col gap-4">

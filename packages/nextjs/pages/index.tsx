@@ -378,14 +378,14 @@ const Home: NextPage<{
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/api/stats`);
+  const res = await fetch(`${process.env.BG_BACKEND_API}/api/stats`);
 
   if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
 
   const stats = (await res.json()) as Stats;
 
   // Fetch data for cohorts section
-  const resCohorts = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/cohorts/stats`);
+  const resCohorts = await fetch(`${process.env.BG_BACKEND_API}/cohorts/stats`);
 
   if (!resCohorts.ok) throw new Error(`Failed to fetch cohorts, received status ${resCohorts.status}`);
 
