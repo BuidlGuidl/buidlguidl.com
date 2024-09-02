@@ -16,7 +16,7 @@ const ConnectButton = () => {
   );
 };
 
-const DEVCON_BACKEND_URL = process.env.NEXT_PUBLIC_DEVCON_BACKEND_URL || "http://localhost:49832/devcon";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BG_BACKEND_API || "http://localhost:49832";
 
 type VoucherData = {
   voucherData: {
@@ -56,7 +56,7 @@ const Devon2024 = () => {
         throw new Error("Please enter an address");
       }
       setIsCheckingEligibility(true);
-      const response = await fetch(`${DEVCON_BACKEND_URL}/check-eligibility/${inputAddress}`);
+      const response = await fetch(`${BACKEND_URL}/devcon/check-eligibility/${inputAddress}`);
       if (!response.ok) {
         throw new Error("Failed to check eligibility");
       }
@@ -79,7 +79,7 @@ const Devon2024 = () => {
     try {
       const signature = await signMessageAsync();
       setIsGettingVoucher(true);
-      const response = await fetch(`${DEVCON_BACKEND_URL}/claim`, {
+      const response = await fetch(`${BACKEND_URL}/devcon/claim`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -90,6 +90,7 @@ const Devon2024 = () => {
         }),
       });
       if (!response.ok) {
+        console.log(response);
         throw new Error("Failed to get voucher");
       }
       const data: VoucherData = await response.json();
