@@ -126,8 +126,9 @@ const Devon2024 = () => {
             members!
           </p>
           <div className="max-w-xs mx-auto flex flex-col sm:flex-row gap-4 justify-center text-center sm:max-w-none">
-            <button className="btn btn-secondary">Check Eligibility</button>
-            <button className="btn btn-outline bg-base-100">Learn More</button>
+            <a href="#eligible" className="btn btn-secondary">
+              Check Eligibility
+            </a>
           </div>
         </div>
         <AccentShapeSecondary />
