@@ -114,7 +114,7 @@ const Devon2024 = () => {
     <div className="bg-white">
       <MetaHeader />
       <div className="min-h-screen relative bg-base-100/70 bg-[url(/assets/hero-image-light.png)] bg-bottom bg-no-repeat bg-[length:200%_auto] md:bg-contain">
-        <div className="navbar w-full navbar-end">
+        <div className="relative navbar w-full navbar-end z-10">
           <RainbowKitCustomConnectButton />
         </div>
         <AccentShape />
