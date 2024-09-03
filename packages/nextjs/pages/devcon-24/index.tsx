@@ -112,7 +112,7 @@ const Devon2024 = () => {
 
   return (
     <div className="bg-white">
-      <MetaHeader />
+      <MetaHeader image="devcon-og-image.png" />
       <div className="min-h-screen relative bg-base-100/70 bg-[url(/assets/hero-image-light.png)] bg-bottom bg-no-repeat bg-[length:200%_auto] md:bg-contain">
         <div className="relative navbar w-full navbar-end z-10">
           <RainbowKitCustomConnectButton />
@@ -129,7 +129,7 @@ const Devon2024 = () => {
             members!
           </p>
           <div className="max-w-xs mx-auto flex flex-col sm:flex-row gap-4 justify-center text-center sm:max-w-none">
-            <a href="#eligible" className="btn btn-secondary">
+            <a href="#eligible" className="btn btn-secondary text-lg">
               Check Eligibility
             </a>
           </div>
@@ -138,12 +138,10 @@ const Devon2024 = () => {
       </div>
       <div className="relative isolate bg-base-100/70">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-          <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+          <div id="eligible" className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-36">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
               <AccentGrid />
-              <h2 id="eligible" className="text-3xl font-bold tracking-tight text-gray-800">
-                Check Your Eligibility
-              </h2>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-800">Check Your Eligibility</h2>
               <p className="mt-4 text-lg leading-8 text-gray-600">
                 There are two tiers of discount codes available to BuidlGuidl Members.
               </p>
@@ -178,7 +176,7 @@ const Devon2024 = () => {
               </p>
             </div>
           </div>
-          <div className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+          <div className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-36">
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="flex flex-col gap-4">
                 <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
