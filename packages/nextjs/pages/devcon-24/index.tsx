@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { AccentGrid, AccentShape, AccentShapeSecondary } from "./_components/AccentShape";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
+import clsx from "clsx";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useAccount, useSignMessage } from "wagmi";
 import { CheckCircleIcon, DocumentDuplicateIcon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -29,6 +30,8 @@ type VoucherData = {
     builderAddress: string;
   };
 };
+
+const tierBoxStyles = "mt-8 px-4 py-6 bg-base-100 border border-gray-400/50 rounded-md";
 
 const Devon2024 = () => {
   const [eligibilityStatus, setEligibilityStatus] = useState<{ isEligible: boolean; type: string | null } | null>(null);
@@ -144,18 +147,34 @@ const Devon2024 = () => {
               <p className="mt-4 text-lg leading-8 text-gray-600">
                 There are two tiers of discount codes available to BuidlGuidl Members.
               </p>
-              <h3 className="mt-12">
-                General BuidlGuidl Member <span className="text-gray-500 font-normal">($299 USD)</span>
-              </h3>
-              <p className="mt-2 text-gray-600">
-                General BuidlGuidl members can claim a special discount code for <strong>50%</strong> off of Devcon 2024
-                tickets!
-              </p>
-              <h3 className="mt-10">
-                Batch BuidlGuidl Member <span className="text-gray-500 font-normal">($49 USD)</span>
-              </h3>
-              <p className="mt-2 text-gray-600">
-                BuidlGuidl members that are part of a batch can claim a Devcon 2024 ticket for only $49 USD!
+              <div className={clsx(tierBoxStyles)}>
+                <h3>
+                  General BuidlGuidl Member <span className="text-gray-500 font-normal">($299 USD)</span>
+                </h3>
+                <p className="mt-3 mb-0 text-gray-600">
+                  General BuidlGuidl members can claim a special discount code for <strong>50%</strong> off of Devcon
+                  2024 tickets.
+                </p>
+              </div>
+              <div className={clsx(tierBoxStyles)}>
+                <h3>
+                  Batch BuidlGuidl Member <span className="text-gray-500 font-normal">($49 USD)</span>
+                </h3>
+                <p className="mt-3 mb-0 text-gray-600">
+                  BuidlGuidl members that are part of a batch can claim a Devcon 2024 ticket for only $49 USD.
+                </p>
+              </div>
+              <p className="pt-6 text-gray-600">
+                Not a BuidlGuidl member? Check out{" "}
+                <a
+                  className="link hover:no-underline"
+                  href="https://speedrunethereum.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Speed Run Ethereum
+                </a>{" "}
+                to learn about smart contracts, Ethereum development, and join the BuidlGuidl.
               </p>
             </div>
           </div>
