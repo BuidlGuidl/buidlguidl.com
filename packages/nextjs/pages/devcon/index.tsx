@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { AccentGrid, AccentShape, AccentShapeSecondary } from "./_components/AccentShape";
+import { AccentGrid, AccentShape, AccentShapeSecondary } from "../../components/AccentShape";
 import { useConnectModal } from "@rainbow-me/rainbowkit";
 import clsx from "clsx";
 import { CopyToClipboard } from "react-copy-to-clipboard";
