@@ -111,7 +111,7 @@ const Devon2024 = () => {
   };
 
   const isEligibleBatch = eligibilityStatus?.isEligible && eligibilityStatus.type === "batch";
-  const isEligibleMember = eligibilityStatus?.isEligible && eligibilityStatus.type === "member";
+  const isEligibleMember = eligibilityStatus?.isEligible && eligibilityStatus.type === "builder";
 
   return (
     <div className="bg-white">
@@ -163,7 +163,7 @@ const Devon2024 = () => {
                   General BuidlGuidl Member <span className="text-gray-500 font-normal">($299 USD)</span>
                 </h3>
                 <p className="mt-3 mb-0 text-gray-600">
-                  General BuidlGuidl members can claim a special discount code for <strong>50%</strong> off of Devcon
+                  General BuidlGuidl builders can claim a special discount code for <strong>50%</strong> off of Devcon
                   2024 tickets.
                 </p>
               </div>
@@ -220,7 +220,9 @@ const Devon2024 = () => {
                 ) : null}
               </div>
               {eligibilityStatus?.isEligible && (
-                <p className="mt-4">🥳 Congratulations! You&apos;re eligible for {eligibilityStatus.type} discount.</p>
+                <p className="mt-8">
+                  🥳 Congratulations! You&apos;re eligible for the {eligibilityStatus.type} discount.
+                </p>
               )}
               {voucher && (
                 <>
