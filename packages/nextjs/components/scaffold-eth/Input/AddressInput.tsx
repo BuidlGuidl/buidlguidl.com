@@ -62,7 +62,7 @@ export const AddressInput = ({ value, name, placeholder, onChange }: CommonInput
         ensName && (
           <div className="flex bg-base-300 rounded-l-full items-center">
             {ensAvatar ? (
-              <span className="w-[35px]">
+              <span className="w-12">
                 {
                   // eslint-disable-next-line
                   <img className="w-full rounded-full" src={ensAvatar} alt={`${ensAddress} avatar`} />
@@ -73,7 +73,12 @@ export const AddressInput = ({ value, name, placeholder, onChange }: CommonInput
           </div>
         )
       }
-      suffix={value && <Blockies className="!rounded-full" seed={value?.toLowerCase() as string} size={7} scale={5} />}
+      suffix={
+        value &&
+        !ensAvatar && (
+          <Blockies className="!rounded-full mt-[2px]" seed={value?.toLowerCase() as string} size={10} scale={5} />
+        )
+      }
     />
   );
 };
