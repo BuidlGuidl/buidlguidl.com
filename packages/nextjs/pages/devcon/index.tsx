@@ -267,7 +267,7 @@ const Devon2024 = () => {
                       )}
                     </div>
                     <p className="mt-4 text-lg">
-                      Use this code to redeem your special offer or visit{" "}
+                      Copy this code to use at checkout, or use this{" "}
                       <a
                         className="link hover:no-underline"
                         href={`https://tickets.devcon.org/redeem?voucher=${voucher}`}
@@ -276,7 +276,7 @@ const Devon2024 = () => {
                       >
                         tickets.devcon.org
                       </a>{" "}
-                      to buy ticket.
+                      link to apply it automatically.
                     </p>
                   </div>
                 </>
