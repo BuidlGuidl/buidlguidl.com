@@ -15,8 +15,8 @@ import { notification } from "~~/utils/scaffold-eth";
 const ConnectButton = () => {
   const { openConnectModal } = useConnectModal();
   return (
-    <button className="btn btn-primary" onClick={openConnectModal}>
-      Connect
+    <button className="btn btn-primary btn-outline" onClick={openConnectModal}>
+      Connect Wallet
     </button>
   );
 };
@@ -110,6 +110,9 @@ const Devon2024 = () => {
     }
   };
 
+  const isEligibleBatch = eligibilityStatus?.isEligible && eligibilityStatus.type === "batch";
+  const isEligibleMember = eligibilityStatus?.isEligible && eligibilityStatus.type === "member";
+
   return (
     <div className="bg-white">
       <MetaHeader
@@ -143,14 +146,19 @@ const Devon2024 = () => {
       </div>
       <div className="relative isolate bg-base-100/70">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-          <div id="eligible" className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-36">
+          <div id="eligible" className="relative px-6 pb-20 pt-24 lg:static lg:px-8">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
               <AccentGrid />
               <h2 className="text-3xl font-bold tracking-tight text-gray-800">Check Your Eligibility</h2>
               <p className="mt-4 text-lg leading-8 text-gray-600">
                 There are two tiers of discount codes available to BuidlGuidl Members.
               </p>
-              <div className={clsx(tierBoxStyles)}>
+              <div
+                className={clsx(tierBoxStyles, {
+                  "bg-gray-50 border-accent": isEligibleMember,
+                  "opacity-30": isEligibleBatch,
+                })}
+              >
                 <h3>
                   General BuidlGuidl Member <span className="text-gray-500 font-normal">($299 USD)</span>
                 </h3>
@@ -159,7 +167,12 @@ const Devon2024 = () => {
                   2024 tickets.
                 </p>
               </div>
-              <div className={clsx(tierBoxStyles)}>
+              <div
+                className={clsx(tierBoxStyles, {
+                  "bg-gray-50 border-accent": isEligibleBatch,
+                  "opacity-30": isEligibleMember,
+                })}
+              >
                 <h3>
                   Batch BuidlGuidl Member <span className="text-gray-500 font-normal">($49 USD)</span>
                 </h3>
@@ -181,10 +194,10 @@ const Devon2024 = () => {
               </p>
             </div>
           </div>
-          <div className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-36">
-            <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-              <div className="flex flex-col gap-4">
-                <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
+          <div className="px-6 pb-24 pt-20 lg:px-8 lg:pt-36">
+            <div className="mx-auto max-w-xl lg:max-w-lg">
+              <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
+              <div className="mt-6 grid md:grid-cols-2 gap-4">
                 <button
                   className={`btn btn-secondary ${isCheckingEligibility ? "loading" : ""}`}
                   disabled={isCheckingEligibility}
