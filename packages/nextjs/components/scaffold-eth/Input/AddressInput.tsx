@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import Blockies from "react-blockies";
-import { isAddress } from "viem";
-import { Address } from "viem";
+import { Address, isAddress } from "viem";
 import { useEnsAddress, useEnsAvatar, useEnsName } from "wagmi";
 import { CommonInputProps, InputBase } from "~~/components/scaffold-eth";
 
@@ -70,7 +69,7 @@ export const AddressInput = ({ value, name, placeholder, onChange }: CommonInput
                 }
               </span>
             ) : null}
-            <span className="text-accent px-2">{enteredEnsName ?? ensName}</span>
+            <span className="text-primary px-2">{enteredEnsName ?? ensName}</span>
           </div>
         )
       }

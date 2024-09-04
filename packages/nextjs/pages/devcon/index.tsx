@@ -112,7 +112,12 @@ const Devon2024 = () => {
 
   return (
     <div className="bg-white">
-      <MetaHeader image="devcon-og-image.png" />
+      <MetaHeader
+        image="devcon-og-image.png"
+        title="BuidlGuidl x Devcon | Discount Tickets Claim"
+        description="BuidlGuidl has partnered with Devcon SEA to offer discounted tickets for BuidlGuidl
+            members!"
+      />
       <div className="min-h-screen relative bg-base-100/70 bg-[url(/assets/hero-image-light.png)] bg-bottom bg-no-repeat bg-[length:200%_auto] md:bg-contain">
         <div className="relative navbar w-full navbar-end z-10">
           <RainbowKitCustomConnectButton />
@@ -181,7 +186,7 @@ const Devon2024 = () => {
               <div className="flex flex-col gap-4">
                 <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
                 <button
-                  className={`btn btn-primary ${isCheckingEligibility ? "loading" : ""}`}
+                  className={`btn btn-secondary ${isCheckingEligibility ? "loading" : ""}`}
                   disabled={isCheckingEligibility}
                   onClick={handleCheckEligibility}
                 >
@@ -192,7 +197,7 @@ const Devon2024 = () => {
                     <ConnectButton />
                   ) : (
                     <button
-                      className={`btn btn-primary ${isSigningMessage || isGettingVoucher ? "loading" : ""}`}
+                      className={`btn btn-secondary ${isSigningMessage || isGettingVoucher ? "loading" : ""}`}
                       disabled={isSigningMessage || isGettingVoucher || !eligibilityStatus?.isEligible}
                       onClick={getVoucher}
                     >
