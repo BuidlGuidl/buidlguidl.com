@@ -73,10 +73,9 @@ const Devon2024 = () => {
   };
 
   const { address: connectedAddress, isConnected } = useAccount({
-    onConnect({ address }) {
-      if (address) {
-        handleCheckEligibility(address);
-      }
+    // Resets Eligibility checks on wallet connect
+    onConnect() {
+      setEligibilityStatus(null);
     },
   });
 
@@ -204,7 +203,12 @@ const Devon2024 = () => {
           </div>
           <div className="px-6 pb-24 pt-20 lg:px-8 lg:pt-36">
             <div className="mx-auto max-w-xl lg:max-w-lg">
-              <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
+              <AddressInput
+                value={inputAddress}
+                onChange={setInputAddress}
+                placeholder="Enter ENS or Address"
+                disabled={isClient && isConnected}
+              />
               {!voucher && (
                 <div className="mt-6 grid md:grid-cols-2 gap-4">
                   <button

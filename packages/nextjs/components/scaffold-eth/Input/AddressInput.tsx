@@ -2,15 +2,23 @@ import { useCallback, useEffect, useState } from "react";
 import Blockies from "react-blockies";
 import { Address, isAddress } from "viem";
 import { useEnsAddress, useEnsAvatar, useEnsName } from "wagmi";
-import { CommonInputProps, InputBase } from "~~/components/scaffold-eth";
+import { InputBase } from "~~/components/scaffold-eth";
 
 // ToDo:  move this function to an utility file
 const isENS = (address = "") => address.endsWith(".eth") || address.endsWith(".xyz");
 
+interface AddressInputProps<T = string> {
+  value: T;
+  onChange: (newValue: T) => void;
+  name?: string;
+  placeholder?: string;
+  disabled?: boolean;
+}
+
 /**
  * Address input with ENS name resolution
  */
-export const AddressInput = ({ value, name, placeholder, onChange }: CommonInputProps<Address | string>) => {
+export const AddressInput = ({ value, name, placeholder, disabled, onChange }: AddressInputProps<Address | string>) => {
   const { data: ensAddress, isLoading: isEnsAddressLoading } = useEnsAddress({
     name: value,
     enabled: isENS(value),
@@ -57,7 +65,8 @@ export const AddressInput = ({ value, name, placeholder, onChange }: CommonInput
       error={ensAddress === null}
       value={value}
       onChange={handleChange}
-      disabled={isEnsAddressLoading || isEnsNameLoading}
+      disabled={isEnsAddressLoading || isEnsNameLoading || disabled}
+      className="disabled:rounded-full"
       prefix={
         ensName && (
           <div className="flex bg-base-300 rounded-l-full items-center">
