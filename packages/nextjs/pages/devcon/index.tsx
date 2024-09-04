@@ -4,7 +4,7 @@ import { AccentGrid, AccentShape, AccentShapeSecondary } from "../../components/
 import { useConnectModal } from "@rainbow-me/rainbowkit";
 import clsx from "clsx";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { useAccount, useSignMessage } from "wagmi";
+import { Address, useAccount, useSignMessage } from "wagmi";
 import { CheckCircleIcon, DocumentDuplicateIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { AddressInput, RainbowKitCustomConnectButton, getParsedError } from "~~/components/scaffold-eth";
@@ -15,7 +15,7 @@ import { notification } from "~~/utils/scaffold-eth";
 const ConnectButton = () => {
   const { openConnectModal } = useConnectModal();
   return (
-    <button className="btn btn-primary btn-outline" onClick={openConnectModal}>
+    <button className="btn btn-primary text-lg btn-outline" onClick={openConnectModal}>
       Connect Wallet
     </button>
   );
@@ -36,13 +36,9 @@ const tierBoxStyles = "mt-8 px-4 py-6 bg-base-100 border border-gray-400/50 roun
 const Devon2024 = () => {
   const [eligibilityStatus, setEligibilityStatus] = useState<{ isEligible: boolean; type: string | null } | null>(null);
   const [voucher, setVoucher] = useState<string | null>(null);
-  const { address: connectedAddress, isConnected } = useAccount();
   const [inputAddress, setInputAddress] = useState("");
   const [isCheckingEligibility, setIsCheckingEligibility] = useState(false);
   const [isGettingVoucher, setIsGettingVoucher] = useState(false);
-  const { isLoading: isSigningMessage, signMessageAsync } = useSignMessage({
-    message: `I want to claim my Devcon 2024 Bangkok voucher as ${connectedAddress}`,
-  });
   const [voucherCopied, setVoucherCopied] = useState(false);
 
   // need this to prevent hydration mismatch because of isConnect
@@ -51,26 +47,20 @@ const Devon2024 = () => {
     setIsClient(true);
   }, []);
 
-  useEffect(() => {
-    if (connectedAddress) {
-      setInputAddress(connectedAddress);
-    }
-  }, [connectedAddress]);
-
-  const handleCheckEligibility = async () => {
+  const handleCheckEligibility = async (address: Address) => {
     try {
-      if (!inputAddress) {
+      if (!address) {
         throw new Error("Please enter an address");
       }
       setIsCheckingEligibility(true);
-      const response = await fetch(`${BACKEND_URL}/devcon/check-eligibility/${inputAddress}`);
+      const response = await fetch(`${BACKEND_URL}/devcon/check-eligibility/${address}`);
       if (!response.ok) {
         throw new Error("Failed to check eligibility");
       }
       const data = await response.json();
       setEligibilityStatus(data);
       if (data.isEligible) {
-        notification.success(`Congratulations! You're eligible for ${data.type} discount.`);
+        notification.success(`Congratulations! You're eligible for the ${data.type} discount.`);
       } else {
         notification.error("Sorry, you're not eligible for a discount.");
       }
@@ -81,6 +71,24 @@ const Devon2024 = () => {
       setIsCheckingEligibility(false);
     }
   };
+
+  const { address: connectedAddress, isConnected } = useAccount({
+    onConnect({ address }) {
+      if (address) {
+        handleCheckEligibility(address);
+      }
+    },
+  });
+
+  const { isLoading: isSigningMessage, signMessageAsync } = useSignMessage({
+    message: `I want to claim my Devcon 2024 Bangkok voucher as ${connectedAddress}`,
+  });
+
+  useEffect(() => {
+    if (connectedAddress) {
+      setInputAddress(connectedAddress);
+    }
+  }, [connectedAddress]);
 
   const getVoucher = async () => {
     try {
@@ -197,29 +205,33 @@ const Devon2024 = () => {
           <div className="px-6 pb-24 pt-20 lg:px-8 lg:pt-36">
             <div className="mx-auto max-w-xl lg:max-w-lg">
               <AddressInput value={inputAddress} onChange={setInputAddress} placeholder="Enter ENS or Address" />
-              <div className="mt-6 grid md:grid-cols-2 gap-4">
-                <button
-                  className={`btn btn-secondary ${isCheckingEligibility ? "loading" : ""}`}
-                  disabled={isCheckingEligibility}
-                  onClick={handleCheckEligibility}
-                >
-                  Check Eligibility
-                </button>
-                {isClient ? (
-                  !isConnected ? (
-                    <ConnectButton />
-                  ) : (
-                    <button
-                      className={`btn btn-secondary ${isSigningMessage || isGettingVoucher ? "loading" : ""}`}
-                      disabled={isSigningMessage || isGettingVoucher || !eligibilityStatus?.isEligible}
-                      onClick={getVoucher}
-                    >
-                      Get Voucher
-                    </button>
-                  )
-                ) : null}
-              </div>
-              {eligibilityStatus?.isEligible && (
+              {!voucher && (
+                <div className="mt-6 grid md:grid-cols-2 gap-4">
+                  <button
+                    className={`btn btn-secondary text-lg ${isCheckingEligibility ? "loading" : ""}`}
+                    disabled={isCheckingEligibility}
+                    onClick={() => {
+                      handleCheckEligibility(inputAddress);
+                    }}
+                  >
+                    Check Eligibility
+                  </button>
+                  {isClient ? (
+                    !isConnected ? (
+                      <ConnectButton />
+                    ) : (
+                      <button
+                        className={`btn btn-accent text-lg ${isSigningMessage || isGettingVoucher ? "loading" : ""}`}
+                        disabled={isSigningMessage || isGettingVoucher || !eligibilityStatus?.isEligible}
+                        onClick={getVoucher}
+                      >
+                        Get Voucher
+                      </button>
+                    )
+                  ) : null}
+                </div>
+              )}
+              {eligibilityStatus?.isEligible && !voucher && (
                 <p className="mt-8">
                   🥳 Congratulations! You&apos;re eligible for the {eligibilityStatus.type} discount.
                 </p>
@@ -250,17 +262,17 @@ const Devon2024 = () => {
                         </CopyToClipboard>
                       )}
                     </div>
-                    <p className="mt-4">
-                      Use this code to redeem your special offer or visit this{" "}
+                    <p className="mt-4 text-lg">
+                      Use this code to redeem your special offer or visit{" "}
                       <a
-                        className="underline underline-offset-1"
+                        className="link hover:no-underline"
                         href={`https://tickets.devcon.org/redeem?voucher=${voucher}`}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        link
+                        tickets.devcon.org
                       </a>{" "}
-                      to buy ticket
+                      to buy ticket.
                     </p>
                   </div>
                 </>
