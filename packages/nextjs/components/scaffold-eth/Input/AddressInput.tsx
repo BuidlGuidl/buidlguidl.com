@@ -1,17 +1,24 @@
 import { useCallback, useEffect, useState } from "react";
 import Blockies from "react-blockies";
-import { isAddress } from "viem";
-import { Address } from "viem";
+import { Address, isAddress } from "viem";
 import { useEnsAddress, useEnsAvatar, useEnsName } from "wagmi";
-import { CommonInputProps, InputBase } from "~~/components/scaffold-eth";
+import { InputBase } from "~~/components/scaffold-eth";
 
 // ToDo:  move this function to an utility file
 const isENS = (address = "") => address.endsWith(".eth") || address.endsWith(".xyz");
 
+interface AddressInputProps<T = string> {
+  value: T;
+  onChange: (newValue: T) => void;
+  name?: string;
+  placeholder?: string;
+  disabled?: boolean;
+}
+
 /**
  * Address input with ENS name resolution
  */
-export const AddressInput = ({ value, name, placeholder, onChange }: CommonInputProps<Address | string>) => {
+export const AddressInput = ({ value, name, placeholder, disabled, onChange }: AddressInputProps<Address | string>) => {
   const { data: ensAddress, isLoading: isEnsAddressLoading } = useEnsAddress({
     name: value,
     enabled: isENS(value),
@@ -58,23 +65,29 @@ export const AddressInput = ({ value, name, placeholder, onChange }: CommonInput
       error={ensAddress === null}
       value={value}
       onChange={handleChange}
-      disabled={isEnsAddressLoading || isEnsNameLoading}
+      disabled={isEnsAddressLoading || isEnsNameLoading || disabled}
+      className="disabled:rounded-full"
       prefix={
         ensName && (
           <div className="flex bg-base-300 rounded-l-full items-center">
             {ensAvatar ? (
-              <span className="w-[35px]">
+              <span className="w-12">
                 {
                   // eslint-disable-next-line
                   <img className="w-full rounded-full" src={ensAvatar} alt={`${ensAddress} avatar`} />
                 }
               </span>
             ) : null}
-            <span className="text-accent px-2">{enteredEnsName ?? ensName}</span>
+            <span className="text-primary px-2">{enteredEnsName ?? ensName}</span>
           </div>
         )
       }
-      suffix={value && <Blockies className="!rounded-full" seed={value?.toLowerCase() as string} size={7} scale={5} />}
+      suffix={
+        value &&
+        !ensAvatar && (
+          <Blockies className="!rounded-full mt-[2px]" seed={value?.toLowerCase() as string} size={10} scale={5} />
+        )
+      }
     />
   );
 };
