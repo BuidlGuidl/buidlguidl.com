@@ -55,7 +55,7 @@ export const AddressInput = ({ value, name, placeholder, disabled, onChange }: A
       setEnteredEnsName(undefined);
       onChange(newValue);
     },
-    [onChange],
+    [onChange, value],
   );
 
   return (
