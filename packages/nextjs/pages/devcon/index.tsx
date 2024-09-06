@@ -229,16 +229,22 @@ const Devon2024 = () => {
                         disabled={isSigningMessage || isGettingVoucher || !eligibilityStatus?.isEligible}
                         onClick={getVoucher}
                       >
-                        Get Voucher
+                        Claim Voucher
                       </button>
                     )
                   ) : null}
                 </div>
               )}
               {eligibilityStatus?.isEligible && !voucher && (
-                <p className="mt-8">
-                  🥳 Congratulations! You&apos;re eligible for the {eligibilityStatus.type} discount.
-                </p>
+                <>
+                  <p className="mt-8">
+                    🥳 Congratulations! You&apos;re eligible for the {eligibilityStatus.type} discount.
+                  </p>
+                  <p className="mt-2 text-sm">
+                    (we have a <span className="font-bold">limited number of vouchers</span> so please only claim if you
+                    plan to use it)
+                  </p>
+                </>
               )}
               {voucher && (
                 <>
