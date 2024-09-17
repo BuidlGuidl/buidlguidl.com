@@ -298,46 +298,9 @@ const Home: NextPage<{
                 Co-fund with us
               </TrackedLink>
             </div>
-            {/* Cohorts Table */}
-            <div className="mt-0 lg:mt-8">
-              <div className="hidden xs:block">
-                <table className="min-w-full">
-                  <thead>
-                    <tr className="text-base bg-base-100 text-left">
-                      <th className="py-3 px-4 xl:px-8">Name</th>
-                      <th className="py-3 px-4 xl:px-8">Hackers</th>
-                      <th className="py-3 px-4 xl:px-8">Streamed</th>
-                    </tr>
-                  </thead>
-                  <tbody className="shadow-even rounded-3xl text-sm">
-                    {cohortsData?.map(cohort => (
-                      <tr
-                        className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
-                        key={cohort.id}
-                        onClick={() => window.open(cohort.url, "_blank")}
-                      >
-                        <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
-                        <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
-                        <td className="py-3 px-4 xl:px-8">
-                          {parseFloat(cohort.totalWithdrawn).toFixed(2)}
-                          <span className="text-xs ml-1">ETH</span>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              {/* Badges with Cohorts table data aggregation*/}
-              <div className="mt-0 xs:mt-4 flex gap-4 flex-col xs:flex-row flex-wrap items-center">
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Cohorts <span className="ml-2 font-bold">{totalCohorts}</span>
-                </div>
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Hackers <span className="ml-2 font-bold">{totalHackers}</span>
-                </div>
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 ">
-                  ETH Streamed <span className="ml-2 font-bold">{totalEthStreamed} Ξ</span>
-                </div>
+            <div className="flex flex-col items-center">
+              <div className="max-w-md lg:max-w-none">
+                <Image src="/assets/Cohorts-section.png" alt="cohorts illustration" width={800} height={900} />
               </div>
             </div>
           </div>
