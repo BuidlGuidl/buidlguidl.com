@@ -18,22 +18,9 @@ type Stats = {
   streamedEthIncrement: number;
 };
 
-type Cohort = {
-  id: string;
-  name: string;
-  url: string;
-  builders: { [key: string]: any };
-  balance: string;
-  totalWithdrawn: string;
-};
-
 const Home: NextPage<{
   stats: Stats;
-  cohortsData?: Cohort[];
-  totalCohorts: number;
-  totalHackers: number;
-  totalEthStreamed: number;
-}> = ({ stats, cohortsData, totalCohorts, totalHackers, totalEthStreamed }) => {
+}> = ({ stats }) => {
   return (
     <>
       <MetaHeader />
@@ -347,29 +334,9 @@ export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
 
   const stats = (await res.json()) as Stats;
 
-  // Fetch data for cohorts section
-  const resCohorts = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/cohorts/stats`);
-
-  if (!resCohorts.ok) throw new Error(`Failed to fetch cohorts, received status ${resCohorts.status}`);
-
-  const cohortsData = (await resCohorts.json()) as Cohort[];
-
-  // Calculate total number of cohorts
-  const totalCohorts = cohortsData?.length;
-
-  // Calculate total number of hackers
-  const totalHackers = cohortsData.reduce((acc, cohort) => acc + Object.keys(cohort.builders).length, 0);
-
-  // Calculate Total ETH Streamed by all cohorts
-  const totalEthStreamed = cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2);
-
   return {
     props: {
       stats,
-      cohortsData,
-      totalCohorts,
-      totalHackers,
-      totalEthStreamed,
     },
     // 6 hours refresh.
     revalidate: 21600,
