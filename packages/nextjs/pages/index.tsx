@@ -18,22 +18,9 @@ type Stats = {
   streamedEthIncrement: number;
 };
 
-type Cohort = {
-  id: string;
-  name: string;
-  url: string;
-  builders: { [key: string]: any };
-  balance: string;
-  totalWithdrawn: string;
-};
-
 const Home: NextPage<{
   stats: Stats;
-  cohortsData?: Cohort[];
-  totalCohorts: number;
-  totalHackers: number;
-  totalEthStreamed: number;
-}> = ({ stats, cohortsData, totalCohorts, totalHackers, totalEthStreamed }) => {
+}> = ({ stats }) => {
   return (
     <>
       <MetaHeader />
@@ -270,19 +257,19 @@ const Home: NextPage<{
 
       {/* Cohorts*/}
       <div className="bg-base-100">
-        <div className="mx-auto lg:max-w-6xl">
-          <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
+        <div className="mx-auto lg:max-w-7xl">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
             {/* Cohorts Text Content */}
-            <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
-              <p className="lg:w-4/5 m-0 mb-3">
+              <p className="m-0 lg:pr-8 mb-3">
                 Focused Cohort Streams bundle together a group of developer streams and focuses them on a pre-determined
                 objective.
               </p>
-              <p className="lg:w-4/5 m-0 mb-6">
+              <p className="m-0 lg:pr-8 mb-6">
                 These cohorts provided the structure and guidance of an Operator who identifies, adds, and removes
                 developers from the pool.
               </p>
@@ -298,46 +285,9 @@ const Home: NextPage<{
                 Co-fund with us
               </TrackedLink>
             </div>
-            {/* Cohorts Table */}
-            <div className="mt-0 lg:mt-8">
-              <div className="hidden xs:block">
-                <table className="min-w-full">
-                  <thead>
-                    <tr className="text-base bg-base-100 text-left">
-                      <th className="py-3 px-4 xl:px-8">Name</th>
-                      <th className="py-3 px-4 xl:px-8">Hackers</th>
-                      <th className="py-3 px-4 xl:px-8">Streamed</th>
-                    </tr>
-                  </thead>
-                  <tbody className="shadow-even rounded-3xl text-sm">
-                    {cohortsData?.map(cohort => (
-                      <tr
-                        className="bg-skin hover:bg-base-100 border-b border-base-100 cursor-pointer"
-                        key={cohort.id}
-                        onClick={() => window.open(cohort.url, "_blank")}
-                      >
-                        <td className="py-3 px-4 xl:px-8">{cohort.name}</td>
-                        <td className="py-3 px-4 xl:px-8">{Object.keys(cohort.builders).length}</td>
-                        <td className="py-3 px-4 xl:px-8">
-                          {parseFloat(cohort.totalWithdrawn).toFixed(2)}
-                          <span className="text-xs ml-1">ETH</span>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              {/* Badges with Cohorts table data aggregation*/}
-              <div className="mt-0 xs:mt-4 flex gap-4 flex-col xs:flex-row flex-wrap items-center">
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Cohorts <span className="ml-2 font-bold">{totalCohorts}</span>
-                </div>
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4">
-                  Hackers <span className="ml-2 font-bold">{totalHackers}</span>
-                </div>
-                <div className="badge badge-primary font-normal border-opacity-20 bg-opacity-20 py-3 px-4 ">
-                  ETH Streamed <span className="ml-2 font-bold">{totalEthStreamed} Ξ</span>
-                </div>
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+                <Image src="/assets/cohorts.png" alt="cohorts illustration" width={700} height={700} />
               </div>
             </div>
           </div>
@@ -384,29 +334,9 @@ export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
 
   const stats = (await res.json()) as Stats;
 
-  // Fetch data for cohorts section
-  const resCohorts = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/cohorts/stats`);
-
-  if (!resCohorts.ok) throw new Error(`Failed to fetch cohorts, received status ${resCohorts.status}`);
-
-  const cohortsData = (await resCohorts.json()) as Cohort[];
-
-  // Calculate total number of cohorts
-  const totalCohorts = cohortsData?.length;
-
-  // Calculate total number of hackers
-  const totalHackers = cohortsData.reduce((acc, cohort) => acc + Object.keys(cohort.builders).length, 0);
-
-  // Calculate Total ETH Streamed by all cohorts
-  const totalEthStreamed = cohortsData?.reduce((acc, cohort) => acc + parseFloat(cohort.totalWithdrawn), 0).toFixed(2);
-
   return {
     props: {
       stats,
-      cohortsData,
-      totalCohorts,
-      totalHackers,
-      totalEthStreamed,
     },
     // 6 hours refresh.
     revalidate: 21600,
