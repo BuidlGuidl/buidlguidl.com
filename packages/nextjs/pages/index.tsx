@@ -257,19 +257,19 @@ const Home: NextPage<{
 
       {/* Cohorts*/}
       <div className="bg-base-100">
-        <div className="mx-auto lg:max-w-6xl">
-          <div className="container px-4 md:px-12 mx-auto lg:max-w-6xl py-16 lg:py-20 grid lg:grid-cols-[1fr,auto] gap-5 lg:gap-0 items-center">
+        <div className="mx-auto lg:max-w-7xl">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
             {/* Cohorts Text Content */}
-            <div className="md:w-1/2 lg:w-full md:mx-auto text-center lg:text-left mb-8 lg:mb-0">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl font-semibold my-0 mb-6 pr-0 lg:pr-12">
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
-              <p className="lg:w-4/5 m-0 mb-3">
+              <p className="m-0 lg:pr-8 mb-3">
                 Focused Cohort Streams bundle together a group of developer streams and focuses them on a pre-determined
                 objective.
               </p>
-              <p className="lg:w-4/5 m-0 mb-6">
+              <p className="m-0 lg:pr-8 mb-6">
                 These cohorts provided the structure and guidance of an Operator who identifies, adds, and removes
                 developers from the pool.
               </p>
@@ -285,9 +285,9 @@ const Home: NextPage<{
                 Co-fund with us
               </TrackedLink>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="max-w-md lg:max-w-none">
-                <Image src="/assets/Cohorts-section.png" alt="cohorts illustration" width={800} height={900} />
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+                <Image src="/assets/Cohorts-section.png" alt="cohorts illustration" width={700} height={700} />
               </div>
             </div>
           </div>
