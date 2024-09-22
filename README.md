@@ -22,7 +22,7 @@ To get started with Scaffold-ETH 2, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/scaffold-eth/buidlguidl.com.git
+git clone https://github.com/BuidlGuidl/buidlguidl.com.git
 cd buidlguidl.com
 yarn install
 ```
@@ -33,4 +33,4 @@ yarn install
 yarn start
 ```
 
-Visit your app on: `http://localhost:3000`. 
+Visit your app on: `http://localhost:3000`.
