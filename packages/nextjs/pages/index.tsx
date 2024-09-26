@@ -67,24 +67,24 @@ const Home: NextPage<{
             {/* Card */}
             <Card
               num={4}
-              name="Build a DEX"
+              name="Speedrun Ethereum"
               src="/assets/chall-dex.png"
-              description="💵 Build an exchange that swaps ETH to tokens and tokens to ETH."
+              description="Learn the most important concepts and level up your skills."
               link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-4-dex"
             />
             <Card
               num={5}
-              name="State Channels"
-              src="/assets/chall-state.png"
-              description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price!"
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-5-state-channels"
+              name="Join the batches"
+              src="/assets/batches-card.png"
+              description="Continue learning in our Batches monthly program for up-and-coming devs."
+              link="https://batches.buidlguidl.com"
             />
             <Card
               num={6}
-              name="Multisig Wallet"
-              src="/assets/chall-multisig.png"
-              description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-6-multisig"
+              name="Small Grants"
+              src="/assets/bg-grants-card.png"
+              description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
+              link="https://grants-bg.vercel.app"
             />
           </div>
         </div>
