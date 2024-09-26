@@ -85,7 +85,7 @@ const Home: NextPage<{
             />
           </div>
         </div>
-        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
+        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 relative bg-[35%_top]"></div>
       </div>
 
       {/* Scaffold-ETH 2 */}
