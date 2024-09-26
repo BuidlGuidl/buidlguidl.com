@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
-import { Card } from "~~/components/ChallengeCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
+import { Card } from "~~/components/JourneyCard";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
@@ -66,21 +66,18 @@ const Home: NextPage<{
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
             <Card
-              num={4}
               name="Speedrun Ethereum"
               src="/assets/chall-dex.png"
               description="Learn the most important concepts and level up your skills."
               link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-4-dex"
             />
             <Card
-              num={5}
               name="Join the batches"
               src="/assets/batches-card.png"
               description="Continue learning in our Batches monthly program for up-and-coming devs."
               link="https://batches.buidlguidl.com"
             />
             <Card
-              num={6}
               name="Small Grants"
               src="/assets/bg-grants-card.png"
               description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
@@ -138,7 +135,7 @@ const Home: NextPage<{
               Powered by Scaffold-ETH, these forkable builds are one of the easiest ways to launch a project.
             </p>
           </div>
-          {/* Card Container  */}
+          {/* Card Container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
             {/* Card */}
             <BuildCard
@@ -166,7 +163,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Stats Streamed / Builder / Builds  */}
+      {/* Stats Streamed / Builder / Builds */}
       <div className="bg-white">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
           <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
@@ -197,7 +194,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Supporting Devs*/}
+      {/* Supporting Devs */}
       <div className="bg-base-300">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
@@ -230,7 +227,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Cohorts*/}
+      {/* Cohorts */}
       <div className="bg-base-100">
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
@@ -269,11 +266,11 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Learn More  */}
+      {/* Learn More */}
       <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
-          {/* Card Container  */}
+          {/* Card Container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
             {/* Card */}
             <LearnMoreCard
