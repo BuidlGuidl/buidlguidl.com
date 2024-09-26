@@ -51,7 +51,7 @@ const Home: NextPage<{
       {/* Start Building on Ethereum */}
       <div className="bg-white" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12">
-          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-10">
+          <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat lg:bg-right-top bg-[length:120px] max-w-[620px] pb-10">
             <div className="mt-6 lg:mt-0">
               <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-lg">
                 Start building <br /> on Ethereum
