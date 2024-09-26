@@ -48,43 +48,17 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Star Building on Ethereum */}
+      {/* Start Building on Ethereum */}
       <div className="bg-white" id="start-building-on-ethereum">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-12 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6">
-            <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
-            <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
-              <li>Learn quickly by building real apps</li>
-              <li>Speedrun the most important concepts</li>
-              <li>Level up your skills and get paid</li>
-            </ul>
-            <div className="text-center lg:text-left">
-              <TrackedLink
-                id="SpeedRunEthereum"
-                href="https://speedrunethereum.com/"
-                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
-              >
-                Get Started Now!
-              </TrackedLink>
-            </div>
-          </div>
-          <div className="max-w-[300px] lg:max-w-none">
-            <Image src="/assets/sre-forest.png" alt="hero" width={500} height={500} />
-          </div>
-        </div>
-        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
-      </div>
-
-      {/* Test Your knowledge */}
-      <div className="bg-base-100 -mt-16">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12">
           <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-10">
             <div className="mt-6 lg:mt-0">
               <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-lg">
-                Already have Solidity skills?
+                Start building <br /> on Ethereum
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Test your knowledge by building real-world, complex apps.
+                Start your journey with Speedrun Ethereum, then continue learning in our Batches program and opt to our
+                small grants to improve your skills!
               </p>
             </div>
           </div>
@@ -114,6 +88,7 @@ const Home: NextPage<{
             />
           </div>
         </div>
+        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
       </div>
 
       {/* Scaffold-ETH 2 */}
