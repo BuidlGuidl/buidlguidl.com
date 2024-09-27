@@ -260,8 +260,8 @@ const Home: NextPage<{
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
             {/* Cohorts Text Content */}
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
