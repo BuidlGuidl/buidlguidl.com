@@ -50,25 +50,25 @@ const Home: NextPage<{
 
       {/* Quote section*/}
       <div className="bg-base-100">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:pl-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-10">
           {/* Quote image */}
-          <div className="flex flex-col items-center max-w-md lg:max-w-md">
+          <div className="flex flex-col items-center max-w-md lg:max-w-md lg:mt-6">
             <Image
               src="/assets/austin-pfp.png"
               alt="austin griffith"
-              width={180}
-              height={180}
+              width={120}
+              height={120}
               className="rounded-[150px] shadow-xl"
             />
           </div>
           {/* Quote Text */}
-          <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
-            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
+          <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
+            <p className="font-thin text-2xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
               “The BuidlGuidl is a curated group of developers and designers with the goal of on boarding new developers
               into Web3 while creating cool prototypes and products along the way”
-            </h2>
-            <p className="m-0 lg:pr-8 mb-3">Austin Griffith</p>
-            <p className="m-0 lg:pr-8 mb-6">BuidlGuidl Founder</p>
+            </p>
+            <p className="m-0 text-xl font-medium">Austin Griffith</p>
+            <p className="m-0 mb-4 text-md font-thin">BuidlGuidl Founder</p>
           </div>
         </div>
       </div>
