@@ -249,7 +249,7 @@ const Home: NextPage<{
           </div>
           <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
             <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-              <Image src="/assets/streams.png" alt="developers list" width={700} height={700} />
+              <Image src="/assets/streams.png" alt="streams illustration" width={700} height={700} />
             </div>
           </div>
         </div>
