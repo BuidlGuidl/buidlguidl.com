@@ -297,7 +297,7 @@ const Home: NextPage<{
       {/* Grants */}
       <div className="bg-[#282C52]">
         <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
             {/* Grants Text Content */}
             <div className="space-y-6 md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
               <Image src="/assets/grants-logo-dark.svg" alt="build icon" width={280} height={200} className="mt-1" />
