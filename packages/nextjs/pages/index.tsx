@@ -191,37 +191,6 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Stats Streamed / Builder / Builds  */}
-      <div className="bg-white">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
-          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
-            <div className="flex items-start gap-3">
-              <Image src="/assets/diamond.svg" alt="diamon icon" width={40} height={40} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">
-                  {stats.streamedEth.toFixed(2)}Ξ
-                </h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Streamed</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.builderCount}</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builders</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builds-uploaded.svg" alt="build icon" width={30} height={30} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.buildCount}</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builds Uploaded</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Supporting Devs*/}
       <div className="bg-base-300">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
@@ -288,6 +257,37 @@ const Home: NextPage<{
             <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
               <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
                 <Image src="/assets/cohorts.png" alt="cohorts illustration" width={700} height={700} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Stats Streamed / Builder / Builds  */}
+      <div className="bg-white">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
+          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
+            <div className="flex items-start gap-3">
+              <Image src="/assets/diamond.svg" alt="diamon icon" width={40} height={40} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">
+                  {stats.streamedEth.toFixed(2)}Ξ
+                </h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Streamed</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.builderCount}</h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builders</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <Image src="/assets/builds-uploaded.svg" alt="build icon" width={30} height={30} className="mt-1" />
+              <div className="flex flex-col items-start">
+                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.buildCount}</h2>
+                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builds Uploaded</p>
               </div>
             </div>
           </div>
