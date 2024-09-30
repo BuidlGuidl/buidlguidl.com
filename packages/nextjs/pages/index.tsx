@@ -294,6 +294,38 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Grants */}
+      <div className="bg-base-100">
+        <div className="mx-auto lg:max-w-7xl">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+            {/* Grants Text Content */}
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <Image src="/assets/grants-logo.svg" alt="build icon" width={300} height={200} className="mt-1" />
+              <h2 className="xl:text-5xl text-2xl lg:text-4xl mb-0">
+                Funding meaningful projects across the Ethereum ecosystem
+              </h2>
+              <p className="m-0 lg:pr-8">
+                Have you just joined BG or finished one of our batches, and want to build something to improve the
+                ecosystem? BuidlGuidl can sponsor up to 1 ETH to build your idea.
+              </p>
+              <TrackedLink
+                id="co-fund-email"
+                href="mailto:partnerships@buidlguidl.com"
+                className="btn btn-primary btn-md px-8 hover:opacity-100"
+              >
+                Apply for a small grant
+              </TrackedLink>
+            </div>
+            {/* Grants Image */}
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-10 2xl:pl-24">
+              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+                <Image src="/assets/bg-universe.png" alt="cohorts illustration" width={800} height={800} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Learn More  */}
       <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
