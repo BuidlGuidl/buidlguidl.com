@@ -75,7 +75,7 @@ const Home: NextPage<{
               name="Join the batches"
               src="/assets/batches-card.png"
               description="Continue learning in our Batches monthly program for up-and-coming devs."
-              link="https://batches.buidlguidl.com"
+              link="https://buidlguidl.com/batches"
             />
             <Card
               name="Small Grants"
