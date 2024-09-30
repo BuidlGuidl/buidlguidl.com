@@ -49,7 +49,7 @@ const Home: NextPage<{
       </div>
 
       {/* Start Building on Ethereum */}
-      <div className="bg-white" id="start-building-on-ethereum">
+      <div className="bg-white pb-16" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col items-center lg:items-start">
           <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[580px] bg-[length:85px] lg:bg-[length:100px] max-w-[500px] pb-10">
             <div className="mt-6 lg:mt-0">
@@ -85,11 +85,11 @@ const Home: NextPage<{
             />
           </div>
         </div>
-        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 relative bg-[35%_top]"></div>
       </div>
 
       {/* Scaffold-ETH 2 */}
       <div className="base-200">
+        <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-2xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
