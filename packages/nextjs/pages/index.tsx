@@ -81,7 +81,7 @@ const Home: NextPage<{
               name="Small Grants"
               src="/assets/bg-grants-card.png"
               description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
-              link="https://grants-bg.vercel.app"
+              link="https://grants.buidlguidl.com/"
             />
           </div>
         </div>
