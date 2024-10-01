@@ -48,6 +48,31 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Quote section*/}
+      <div className="bg-base-100">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:pl-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-10">
+          {/* Quote image */}
+          <div className="flex flex-col items-center max-w-md lg:max-w-md lg:mt-6">
+            <Image
+              src="/assets/austin-pfp.png"
+              alt="austin griffith"
+              width={120}
+              height={120}
+              className="rounded-[150px] shadow-xl"
+            />
+          </div>
+          {/* Quote Text */}
+          <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
+            <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
+              “The BuidlGuidl is a curated group of developers and designers with the goal of onboarding new developers
+              into Web3 while creating cool prototypes and products along the way”
+            </p>
+            <p className="m-0 text-xl font-medium">Austin Griffith</p>
+            <p className="m-0 mb-4 text-md font-thin">BuidlGuidl Founder</p>
+          </div>
+        </div>
+      </div>
+
       {/* Star Building on Ethereum */}
       <div className="bg-white" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-12 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
