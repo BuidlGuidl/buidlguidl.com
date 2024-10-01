@@ -310,7 +310,7 @@ const Home: NextPage<{
               </p>
               <TrackedLink
                 id="BG-Grants"
-                href="https://grants-bg.vercel.app"
+                href="https://grants.buidlguidl.com"
                 className="btn btn-primary btn-md px-8 hover:opacity-100"
               >
                 Apply for a small grant
