@@ -299,12 +299,18 @@ const Home: NextPage<{
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
             {/* Grants Text Content */}
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <Image src="/assets/grants-logo-dark.svg" alt="build icon" width={280} height={200} className="mt-1" />
-              <p className="text-[#9FA9FF] font-editorial xl:text-6xl text-4xl lg:text-5xl mb-0">
+            <div className="md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <Image
+                src="/assets/grants-logo-dark.svg"
+                alt="buidlguidl grants logo"
+                width={280}
+                height={200}
+                className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
+              />
+              <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
                 Funding meaningful projects across the Ethereum ecosystem
               </p>
-              <p className="text-white font-mono m-0 lg:pr-8 text-sm lg:text-base">
+              <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
                 Have you just joined BG or finished one of our batches, and want to build something to improve the
                 ecosystem? BuidlGuidl can sponsor up to 1 ETH to build your idea.
               </p>
