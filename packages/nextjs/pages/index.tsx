@@ -223,7 +223,7 @@ const Home: NextPage<{
       </div>
 
       {/* Supporting Devs*/}
-      <div className="bg-base-300">
+      <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
             <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
@@ -247,9 +247,9 @@ const Home: NextPage<{
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center">
-            <div className="max-w-md lg:max-w-none">
-              <Image src="/assets/support-high-impact-devs.png" alt="developers list" width={900} height={900} />
+          <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+            <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+              <Image src="/assets/streams.png" alt="streams illustration" width={700} height={700} />
             </div>
           </div>
         </div>
@@ -260,8 +260,8 @@ const Home: NextPage<{
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
             {/* Cohorts Text Content */}
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
                 Partnering with
                 <br /> ecosystem heroes
               </h2>
