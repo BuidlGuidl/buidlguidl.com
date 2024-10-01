@@ -314,10 +314,10 @@ const Home: NextPage<{
               link="https://buidlguidl.substack.com/"
             />
             <LearnMoreCard
-              name="🧬 Tech Tree"
-              src="/assets/tech-tree.png"
-              description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
-              link="https://miro.com/app/board/uXjVPbc4b68=/"
+              name="📡 BG Client"
+              src="/assets/bg-client.png"
+              description="A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members."
+              link="https://client.buidlguidl.com"
             />
           </div>
         </div>
