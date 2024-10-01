@@ -67,6 +67,7 @@ module.exports = {
       fontFamily: {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
         "neue-machina": ["PPNeueMachina", "sans-serif"],
+        "editorial": ["PPEditorial", "serif"],
       },
       backgroundColor: {
         skin: "#EBECFD",
