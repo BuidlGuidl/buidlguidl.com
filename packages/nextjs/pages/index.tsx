@@ -63,8 +63,8 @@ const Home: NextPage<{
           </div>
           {/* Quote Text */}
           <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
-            <p className="font-thin text-2xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
-              “The BuidlGuidl is a curated group of developers and designers with the goal of on boarding new developers
+            <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
+              “The BuidlGuidl is a curated group of developers and designers with the goal of onboarding new developers
               into Web3 while creating cool prototypes and products along the way”
             </p>
             <p className="m-0 text-xl font-medium">Austin Griffith</p>
