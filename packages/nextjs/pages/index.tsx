@@ -4,7 +4,7 @@ import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
-import { Card } from "~~/components/JourneyCard";
+import { JourneyCard } from "~~/components/JourneyCard";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
@@ -65,19 +65,19 @@ const Home: NextPage<{
           {/* Cards container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
-            <Card
+            <JourneyCard
               name="Speedrun Ethereum"
               src="/assets/chall-dex.png"
               description="Learn the most important concepts and level up your skills."
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-4-dex"
+              link="https://speedrunethereum.com"
             />
-            <Card
+            <JourneyCard
               name="Join the batches"
               src="/assets/batches-card.png"
               description="Continue learning in our Batches monthly program for up-and-coming devs."
               link="https://buidlguidl.com/batches"
             />
-            <Card
+            <JourneyCard
               name="Small Grants"
               src="/assets/bg-grants-card.png"
               description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
