@@ -216,7 +216,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Supporting Devs*/}
+      {/* Cohort Streams*/}
       <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
@@ -228,41 +228,42 @@ const Home: NextPage<{
               </p>
               <p className="m-0 mb-6">
                 We use Cohort Streams to fund internal initiatives but also external{" "}
-                <Link target="_blank" href="https://hackerhouse.buidlguidl.com/">
+                <TrackedLink
+                  id="Cohort-Streams-HackerHouse"
+                  href="https://hackerhouse.buidlguidl.com/"
+                  className="underline underline-offset-4"
+                >
                   up-and-coming
-                </Link>{" "}
-                <Link target="_blank" href="https://zkcrypto-streams.buidlguidl.com/">
+                </TrackedLink>{" "}
+                <TrackedLink
+                  id="Cohort-Streams-ZKCrypto"
+                  href="https://zkcrypto-streams.buidlguidl.com/"
+                  className="underline underline-offset-4"
+                >
                   high-impact
-                </Link>{" "}
+                </TrackedLink>{" "}
                 devs.
               </p>
               <p className="m-0 mb-6">
                 You can{" "}
-                <Link target="_blank" href="https://github.com/BuidlGuidl/mercs.buidlguidl.com">
+                <TrackedLink
+                  id="Cohort-Streams-Mercs"
+                  href="https://github.com/BuidlGuidl/mercs.buidlguidl.com"
+                  className="underline underline-offset-4"
+                >
                   fork the repo
-                </Link>{" "}
+                </TrackedLink>{" "}
                 and make your own cohort stream too!
               </p>
               <p className="m-0 mb-3">
                 In true BuidlGuidl fashion, we built the cohort streaming app{" "}
-                <Link
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=at0dPh3g8dU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=7"
-                >
-                  live
-                </Link>{" "}
-                <Link
-                  target="_blank"
+                <TrackedLink
+                  id="Cohort-Streams-Youtube"
                   href="https://www.youtube.com/watch?v=MBlR7UWBvrU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=6"
+                  className="underline underline-offset-4"
                 >
-                  on
-                </Link>{" "}
-                <Link
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=u1O6BITX9Wc&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=8"
-                >
-                  camera
-                </Link>{" "}
+                  live on camera
+                </TrackedLink>
                 .
               </p>
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
@@ -279,11 +280,11 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Cohorts*/}
+      {/* Partnerships */}
       <div className="bg-base-100">
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-            {/* Cohorts Text Content */}
+            {/* Partnerships Text Content */}
             <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
               <h2 className="text-2xl lg:text-4xl xl:text-5xl">
                 Partnering with
