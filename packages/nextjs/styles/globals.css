@@ -15,6 +15,17 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "PPEditorial";
+  src: url("/fonts/PPEditorialNew-Ultralight.woff2") format("woff2"),
+    url("/fonts/PPEditorialNew-Ultralight.woff") format("woff"),
+    url("/fonts/PPEditorialNew-Ultralight.ttf") format("truetype"),
+    url("/fonts/PPEditorialNew-Ultralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   font-size: 18px;
   scroll-behavior: smooth !important;

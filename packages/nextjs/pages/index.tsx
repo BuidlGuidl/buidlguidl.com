@@ -48,6 +48,31 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Quote section*/}
+      <div className="bg-base-100">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:pl-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-10">
+          {/* Quote image */}
+          <div className="flex flex-col items-center max-w-md lg:max-w-md lg:mt-6">
+            <Image
+              src="/assets/atg.jpg"
+              alt="austin griffith"
+              width={120}
+              height={120}
+              className="rounded-[150px] shadow-xl"
+            />
+          </div>
+          {/* Quote Text */}
+          <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
+            <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
+              “BuidlGuidl is educating Ethereum developers, creating state-of-the-art tools, and building cool things
+              onchain!”
+            </p>
+            <p className="m-0 text-xl font-medium">Austin Griffith</p>
+            <p className="m-0 mb-4 text-md font-thin">BuidlGuidl Founder</p>
+          </div>
+        </div>
+      </div>
+
       {/* Star Building on Ethereum */}
       <div className="bg-white" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-12 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
@@ -191,6 +216,108 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Cohort Streams*/}
+      <div className="bg-white">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+          <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
+            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">Cohort Streams</h2>
+            <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
+              <p className="m-0 mb-3">
+                BuidlGuidl Cohort Streams are a novel funding mechanism that stream ETH to builders making an impact on
+                specific objectives.
+              </p>
+              <p className="m-0 mb-6">
+                We use Cohort Streams to fund internal initiatives but also external{" "}
+                <TrackedLink
+                  id="Cohort-Streams-HackerHouse"
+                  href="https://hackerhouse.buidlguidl.com/"
+                  className="underline underline-offset-4"
+                >
+                  up-and-coming
+                </TrackedLink>{" "}
+                <TrackedLink
+                  id="Cohort-Streams-ZKCrypto"
+                  href="https://zkcrypto-streams.buidlguidl.com/"
+                  className="underline underline-offset-4"
+                >
+                  high-impact
+                </TrackedLink>{" "}
+                devs.
+              </p>
+              <p className="m-0 mb-6">
+                You can{" "}
+                <TrackedLink
+                  id="Cohort-Streams-Mercs"
+                  href="https://github.com/BuidlGuidl/mercs.buidlguidl.com"
+                  className="underline underline-offset-4"
+                >
+                  fork the repo
+                </TrackedLink>{" "}
+                and make your own cohort stream too!
+              </p>
+              <p className="m-0 mb-3">
+                In true BuidlGuidl fashion, we built the cohort streaming app{" "}
+                <TrackedLink
+                  id="Cohort-Streams-Youtube"
+                  href="https://www.youtube.com/watch?v=MBlR7UWBvrU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=6"
+                  className="underline underline-offset-4"
+                >
+                  live on camera
+                </TrackedLink>
+                .
+              </p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
+              <div className="flex flex-col items-center lg:items-start">
+                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+            <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+              <Image src="/assets/streams.png" alt="streams illustration" width={700} height={700} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Partnerships */}
+      <div className="bg-base-100">
+        <div className="mx-auto lg:max-w-7xl">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+            {/* Partnerships Text Content */}
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
+                Partnering with
+                <br /> ecosystem heroes
+              </h2>
+              <p className="m-0 lg:pr-8 mb-3">
+                BuidlGuidl is looking for L2s and Ethereum protocols to partner with to help grow your developer
+                ecosystem.
+              </p>
+              <p className="m-0 lg:pr-8 mb-6">
+                We can build educational content and apps on your EVM chain to help more builders ship more apps!
+              </p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">ECOSYSTEM SUPPORT FROM</p>
+              <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
+                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
+              </div>
+              <TrackedLink
+                id="co-fund-email"
+                href="mailto:austin@buidlguidl.com"
+                className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
+              >
+                Support BuidlGuidl
+              </TrackedLink>
+            </div>
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
+                <Image src="/assets/cohorts.png" alt="cohorts illustration" width={700} height={700} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Stats Streamed / Builder / Builds  */}
       <div className="bg-white">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
@@ -222,72 +349,38 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Supporting Devs*/}
-      <div className="bg-base-300">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
-            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
-              Supporting <br /> up-and-coming <br /> high-impact devs
-            </h2>
-            <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
-              <p className="m-0 mb-3">
-                Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
-                to build what they think is most important.
-              </p>
-              <p className="m-0 mb-3">
-                Their smart contracts get replenished monthly and allows them to withdraw funds whenever they like by
-                submitting a few sentences about the work or a PR.
-              </p>
-              <p className="m-0 mb-6">
-                This approach produces novel open source solutions and a vibrant learning environment.
-              </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
-              <div className="flex flex-col items-center lg:items-start">
-                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="max-w-md lg:max-w-none">
-              <Image src="/assets/support-high-impact-devs.png" alt="developers list" width={900} height={900} />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Cohorts*/}
-      <div className="bg-base-100">
+      {/* Grants */}
+      <div className="bg-[#282C52]">
         <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-            {/* Cohorts Text Content */}
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
-                Partnering with
-                <br /> ecosystem heroes
-              </h2>
-              <p className="m-0 lg:pr-8 mb-3">
-                Focused Cohort Streams bundle together a group of developer streams and focuses them on a pre-determined
-                objective.
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
+            {/* Grants Text Content */}
+            <div className="md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <Image
+                src="/assets/grants-logo-dark.svg"
+                alt="buidlguidl grants logo"
+                width={280}
+                height={200}
+                className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
+              />
+              <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
+                Funding first time builders in the Ethereum ecosystem
               </p>
-              <p className="m-0 lg:pr-8 mb-6">
-                These cohorts provided the structure and guidance of an Operator who identifies, adds, and removes
-                developers from the pool.
+              <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
+                As builders come through our batch program, they become eligible for small grants to build their next
+                idea.
               </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">IN COLLABORATION WITH</p>
-              <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
-                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
-              </div>
               <TrackedLink
-                id="co-fund-email"
-                href="mailto:partnerships@buidlguidl.com"
-                className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
+                id="BG-Grants"
+                href="https://grants.buidlguidl.com"
+                className="btn btn-primary btn-md px-8 hover:opacity-100"
               >
-                Co-fund with us
+                Apply for a small grant
               </TrackedLink>
             </div>
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+            {/* Grants Image */}
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-10 2xl:pl-24">
               <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/cohorts.png" alt="cohorts illustration" width={700} height={700} />
+                <Image src="/assets/bg-universe.png" alt="buidlguidl universe" width={800} height={800} />
               </div>
             </div>
           </div>
@@ -314,10 +407,10 @@ const Home: NextPage<{
               link="https://buidlguidl.substack.com/"
             />
             <LearnMoreCard
-              name="🧬 Tech Tree"
-              src="/assets/tech-tree.png"
-              description="If you need ideas, check out our Tech Tree to guide you in the ecosystem!"
-              link="https://miro.com/app/board/uXjVPbc4b68=/"
+              name="📡 BG Client"
+              src="/assets/bg-client.png"
+              description="A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members."
+              link="https://client.buidlguidl.com"
             />
           </div>
         </div>
