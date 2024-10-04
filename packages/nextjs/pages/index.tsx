@@ -236,7 +236,13 @@ const Home: NextPage<{
                 </Link>{" "}
                 devs.
               </p>
-              <p className="m-0 mb-6">You can fork the repo and make your own cohort stream too!</p>
+              <p className="m-0 mb-6">
+                You can{" "}
+                <Link target="_blank" href="https://github.com/BuidlGuidl/mercs.buidlguidl.com">
+                  fork the repo
+                </Link>{" "}
+                and make your own cohort stream too!
+              </p>
               <p className="m-0 mb-3">
                 In true BuidlGuidl fashion, we built the cohort streaming app{" "}
                 <Link
