@@ -54,7 +54,7 @@ const Home: NextPage<{
           {/* Quote image */}
           <div className="flex flex-col items-center max-w-md lg:max-w-md lg:mt-6">
             <Image
-              src="/assets/austin-pfp.png"
+              src="/assets/atg.jpg"
               alt="austin griffith"
               width={120}
               height={120}
@@ -64,8 +64,8 @@ const Home: NextPage<{
           {/* Quote Text */}
           <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
             <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
-              “The BuidlGuidl is a curated group of developers and designers with the goal of onboarding new developers
-              into Web3 while creating cool prototypes and products along the way”
+              “BuidlGuidl is educating Ethereum developers, creating state-of-the-art tools, and building cool things
+              onchain!”
             </p>
             <p className="m-0 text-xl font-medium">Austin Griffith</p>
             <p className="m-0 mb-4 text-md font-thin">BuidlGuidl Founder</p>
@@ -220,20 +220,44 @@ const Home: NextPage<{
       <div className="bg-white">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
-            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">
-              Supporting <br /> up-and-coming <br /> high-impact devs
-            </h2>
+            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">Cohort Streams</h2>
             <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
               <p className="m-0 mb-3">
-                Open Developer Streams are a unique way to fund development and give developers at the edges the freedom
-                to build what they think is most important.
-              </p>
-              <p className="m-0 mb-3">
-                Their smart contracts get replenished monthly and allows them to withdraw funds whenever they like by
-                submitting a few sentences about the work or a PR.
+                BuidlGuidl Cohort Streams are a novel funding mechanism that stream ETH to builders making an impact on
+                specific objectives.
               </p>
               <p className="m-0 mb-6">
-                This approach produces novel open source solutions and a vibrant learning environment.
+                We use Cohort Streams to fund internal initiatives but also external{" "}
+                <Link target="_blank" href="https://hackerhouse.buidlguidl.com/">
+                  up-and-coming
+                </Link>{" "}
+                <Link target="_blank" href="https://zkcrypto-streams.buidlguidl.com/">
+                  high-impact
+                </Link>{" "}
+                devs.
+              </p>
+              <p className="m-0 mb-6">You can fork the repo and make your own cohort stream too!</p>
+              <p className="m-0 mb-3">
+                In true BuidlGuidl fashion, we built the cohort streaming app{" "}
+                <Link
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=at0dPh3g8dU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=7"
+                >
+                  live
+                </Link>{" "}
+                <Link
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=MBlR7UWBvrU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=6"
+                >
+                  on
+                </Link>{" "}
+                <Link
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=u1O6BITX9Wc&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=8"
+                >
+                  camera
+                </Link>{" "}
+                .
               </p>
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
               <div className="flex flex-col items-center lg:items-start">
@@ -260,23 +284,22 @@ const Home: NextPage<{
                 <br /> ecosystem heroes
               </h2>
               <p className="m-0 lg:pr-8 mb-3">
-                Focused Cohort Streams bundle together a group of developer streams and focuses them on a pre-determined
-                objective.
+                BuidlGuidl is looking for L2s and Ethereum protocols to partner with to help grow your developer
+                ecosystem.
               </p>
               <p className="m-0 lg:pr-8 mb-6">
-                These cohorts provided the structure and guidance of an Operator who identifies, adds, and removes
-                developers from the pool.
+                We can build educational content and apps on your EVM chain to help more builders ship more apps!
               </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">IN COLLABORATION WITH</p>
+              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">ECOSYSTEM SUPPORT FROM</p>
               <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
                 <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
               </div>
               <TrackedLink
                 id="co-fund-email"
-                href="mailto:partnerships@buidlguidl.com"
+                href="mailto:austin@buidlguidl.com"
                 className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
               >
-                Co-fund with us
+                Support BuidlGuidl
               </TrackedLink>
             </div>
             <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
@@ -333,11 +356,11 @@ const Home: NextPage<{
                 className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
               />
               <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
-                Funding meaningful projects across the Ethereum ecosystem
+                Funding first time builders in the Ethereum ecosystem
               </p>
               <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
-                Have you just joined BG or finished one of our batches, and want to build something to improve the
-                ecosystem? BuidlGuidl can sponsor up to 1 ETH to build your idea.
+                As builders come through our batch program, they become eligible for small grants to build their next
+                idea.
               </p>
               <TrackedLink
                 id="BG-Grants"
