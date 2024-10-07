@@ -107,12 +107,12 @@ const Batches = () => {
                   After completing the program, you&apos;ll be equipped with both technical and social skills that will
                   help you collaborate more effectively in the web3 ecosystem.
                 </p>
-                <ul className="list-disc list-inside">
+                <ul className="text-left list-disc list-inside">
                   <li>Challenges beyond Speedrun Ethereum</li>
                   <li>Mentorship on contributing to open source projects on GitHub</li>
                   <li>Open source etiquette and best practices</li>
                   <li>Advanced Smart Contract Interactions</li>
-                  <li>Real-world Project Experience</li>
+                  <li>Real-world building Experience</li>
                 </ul>
               </div>
             </div>
@@ -122,7 +122,7 @@ const Batches = () => {
                 alt="BG Batches Castle"
                 width={600}
                 height={600}
-                className="w-full h-auto"
+                className="w-full h-auto object-contain max-w-[300px] lg:max-w-full"
               />
             </div>
           </div>
@@ -133,14 +133,14 @@ const Batches = () => {
       <div className="bg-[#EBFFA9] py-16 lg:py-24">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-            <div className="text-center md:text-left lg:w-1/2 space-y-6">
-              <h2 className="text-3xl lg:text-5xl font-bold">How do Batches work?</h2>
+            <div className="lg:w-1/2 space-y-6">
+              <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">How do Batches work?</h2>
               <div className="space-y-4 text-gray-700">
                 <ul className="list-disc list-inside">
                   <li>Each batch has its own GitHub repository</li>
-                  <li>Participants deploy smart contracts to interact with a batch contract</li>
                   <li>Collaborate with peers and mentors in a dedicated Telegram group</li>
                   <li>Complete challenges and contribute to open source projects</li>
+                  <li>Build a final project and apply for a grant!</li>
                 </ul>
               </div>
             </div>
@@ -148,9 +148,9 @@ const Batches = () => {
               <Image
                 src="/assets/bg-batches-how-batches-work.png"
                 alt="How Batches Work Illustration"
-                width={592}
-                height={567}
-                className="w-full h-auto"
+                width={600}
+                height={600}
+                className="w-full h-auto object-contain max-w-[300px] lg:max-w-full"
               />
             </div>
           </div>
