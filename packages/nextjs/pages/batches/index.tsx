@@ -4,40 +4,71 @@ import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
-// Placeholder items, should we put batches or batches+builders here?
-const PLACEHOLDER_ITEMS = [
+const NEXT_BATCH_NUMBER = 10;
+
+const BATCH_CARDS_INFO = [
   {
-    name: "Scaffold-ETH 2",
-    description:
-      "Scaffold-ETH 2 is a forkable Ethereum dApp that allows developers to build and deploy their own Ethereum dApps in minutes.",
-    imageSrc: "/assets/build-walletHackedRecovery.png",
-    link: "https://github.com/buidlguidl/batches/tree/main/packages/event-wallet",
+    name: "Batch #1",
+    participants: 13,
+    startDate: "Jan 13",
+    batchPageLink: "https://batch1.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch1.buidlguidl.com",
   },
   {
-    name: "SE-2 Wallet",
-    description: "A simple and forkable mobile Ethereum wallet written in React Native",
-    imageSrc: "/assets/build-addressVision.png",
-    link: "https://github.com/buidlguidl/batches/tree/main/packages/se2-wallet",
+    name: "Batch #2",
+    participants: 4,
+    startDate: "Feb 04",
+    batchPageLink: "https://batch2.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch2.buidlguidl.com",
   },
   {
-    name: "Test App",
-    description: "A simple and forkable mobile Ethereum wallet written in React Native",
-    imageSrc: "/assets/build-abiNinja.png",
-    link: "https://github.com/buidlguidl/batches/tree/main/packages/se2-wallet",
+    name: "Batch #3",
+    participants: 3,
+    startDate: "Feb 29",
+    batchPageLink: "https://batch3.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch3.buidlguidl.com",
   },
   {
-    name: "Event Wallet",
-    description:
-      "Web wallet with wallet connect up front send funds quickly on any EVM network fork this wallet and build your own!",
-    imageSrc: "/assets/build-abiNinja.png",
-    link: "https://github.com/buidlguidl/batches/tree/main/packages/event-wallet",
+    name: "Batch #4",
+    participants: 18,
+    startDate: "Apr 03",
+    batchPageLink: "https://batch4.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch4.buidlguidl.com",
   },
   {
-    name: "abi.ninja",
-    description:
-      "Instant frontend to interact with any contract on Ethereum. Share your customized setup with friends!",
-    imageSrc: "/assets/build-abiNinja.png",
-    link: "https://github.com/buidlguidl/batches/tree/main/packages/abi-ninja",
+    name: "Batch #5",
+    participants: 8,
+    startDate: "Apr 26",
+    batchPageLink: "https://batch5.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch5.buidlguidl.com",
+  },
+  {
+    name: "Batch #6",
+    participants: 9,
+    startDate: "Jun 02",
+    batchPageLink: "https://batch6.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch6.buidlguidl.com",
+  },
+  {
+    name: "Batch #7",
+    participants: 10,
+    startDate: "Jul 01",
+    batchPageLink: "https://batch7.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch7.buidlguidl.com",
+  },
+  {
+    name: "Batch #8",
+    participants: 10,
+    startDate: "Jul 27",
+    batchPageLink: "https://batch8.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch8.buidlguidl.com",
+  },
+  {
+    name: "Batch #9",
+    participants: 11,
+    startDate: "Sep 14",
+    batchPageLink: "https://batch9.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch9.buidlguidl.com",
   },
 ];
 
@@ -174,28 +205,52 @@ const Batches = () => {
             Join a BuidlGuidl Batch to enhance your skills and collaborate with other web3 developers.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {PLACEHOLDER_ITEMS.map((batch, index) => (
-              <TrackedLink
-                id={batch.name}
-                href={batch.link}
-                className="w-full card bg-white rounded-[46px]"
-                key={index}
-              >
-                <div className="w-full h-[220px] relative">
-                  <Image
-                    src={batch.imageSrc}
-                    alt={batch.name}
-                    fill
-                    className="w-full object-center object-cover"
-                    loading="lazy"
-                  />
+            {/* Existing Batch Cards */}
+            {BATCH_CARDS_INFO.map((batch, index) => (
+              <div key={index} className="card">
+                <div className="card-body bg-base-100">
+                  <h3 className="card-title text-2xl  items-baseline">
+                    {batch.name}
+                    <span className="text-sm ml-2 text-gray-500 font-normal">{batch.startDate}</span>
+                  </h3>
+                  <p className="m-0">Participants: {batch.participants}</p>
+                  <div className="flex justify-between mt-4">
+                    <TrackedLink
+                      id={`${batch.name}-page`}
+                      href={batch.batchPageLink}
+                      className="btn btn-sm btn-primary"
+                    >
+                      Website
+                    </TrackedLink>
+                    <TrackedLink
+                      id={`${batch.name}-github`}
+                      href={batch.githubRepoLink}
+                      className="btn btn-sm btn-secondary"
+                    >
+                      GitHub Repo
+                    </TrackedLink>
+                  </div>
                 </div>
-                <div className="card-body gap-0 bg-base-100">
-                  <h3 className="card-title m-0">{batch.name}</h3>
-                  <p className="m-0">{batch.description}</p>
-                </div>
-              </TrackedLink>
+              </div>
             ))}
+            {/* Next Batch Card */}
+            <div className="card bg-gradient-to-r from-primary to-secondary">
+              <div className="card-body">
+                <h3 className="card-title text-2xl text-white">Batch #{NEXT_BATCH_NUMBER}</h3>
+                <p className="m-0 text-white">
+                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
+                </p>
+                <div className="mt-4">
+                  <TrackedLink
+                    id="apply-next-batch"
+                    href="https://speedrunethereum.com/"
+                    className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 flex items-center justify-center"
+                  >
+                    Go SpeedRunEthereum
+                  </TrackedLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-16">
