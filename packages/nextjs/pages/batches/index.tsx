@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "~~/components/Footer";
@@ -8,67 +9,84 @@ const NEXT_BATCH_NUMBER = 10;
 
 const BATCH_CARDS_INFO = [
   {
-    name: "Batch #1",
+    name: "Batch #0",
     participants: 13,
-    startDate: "Jan 13",
+    startDate: "10/01/24",
     batchPageLink: "https://batch1.buidlguidl.com/",
     githubRepoLink: "https://github.com/BuidlGuidl/batch1.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-1", // Add this line where applicable
+  },
+  {
+    name: "Batch #1",
+    participants: 4,
+    startDate: "10/02/24",
+    batchPageLink: "https://batch2.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch2.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-2", // Add this line where applicable
   },
   {
     name: "Batch #2",
-    participants: 4,
-    startDate: "Feb 04",
-    batchPageLink: "https://batch2.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch2.buidlguidl.com",
+    participants: 3,
+    startDate: "10/03/24",
+    batchPageLink: "https://batch3.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch3.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-3", // Add this line where applicable
   },
   {
     name: "Batch #3",
-    participants: 3,
-    startDate: "Feb 29",
-    batchPageLink: "https://batch3.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch3.buidlguidl.com",
+    participants: 18,
+    startDate: "10/04/24",
+    batchPageLink: "https://batch4.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch4.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-4", // Add this line where applicable
   },
   {
     name: "Batch #4",
-    participants: 18,
-    startDate: "Apr 03",
-    batchPageLink: "https://batch4.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch4.buidlguidl.com",
+    participants: 8,
+    startDate: "10/05/24",
+    batchPageLink: "https://batch5.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch5.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-5", // Add this line where applicable
   },
   {
     name: "Batch #5",
-    participants: 8,
-    startDate: "Apr 26",
-    batchPageLink: "https://batch5.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch5.buidlguidl.com",
+    participants: 9,
+    startDate: "10/06/24",
+    batchPageLink: "https://batch6.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch6.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-6", // Add this line where applicable
   },
   {
     name: "Batch #6",
-    participants: 9,
-    startDate: "Jun 02",
-    batchPageLink: "https://batch6.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch6.buidlguidl.com",
+    participants: 10,
+    startDate: "10/07/24",
+    batchPageLink: "https://batch7.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch7.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-7", // Add this line where applicable
   },
   {
     name: "Batch #7",
     participants: 10,
-    startDate: "Jul 01",
-    batchPageLink: "https://batch7.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch7.buidlguidl.com",
+    startDate: "10/08/24",
+    batchPageLink: "https://batch8.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch8.buidlguidl.com",
+    openseaLink: "https://opensea.io/collection/batchgraduate-8", // Add this line where applicable
   },
   {
     name: "Batch #8",
-    participants: 10,
-    startDate: "Jul 27",
-    batchPageLink: "https://batch8.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch8.buidlguidl.com",
+    participants: 11,
+    startDate: "10/09/14",
+    batchPageLink: "https://batch9.buidlguidl.com/",
+    githubRepoLink: "https://github.com/BuidlGuidl/batch9.buidlguidl.com",
+    // No openseaLink for this batch
   },
   {
     name: "Batch #9",
     participants: 11,
-    startDate: "Sep 14",
+    startDate: "14/10/14",
     batchPageLink: "https://batch9.buidlguidl.com/",
     githubRepoLink: "https://github.com/BuidlGuidl/batch9.buidlguidl.com",
+    // No openseaLink for this batch
   },
 ];
 
@@ -97,6 +115,18 @@ const BatchesHeader = () => {
 };
 
 const Batches = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
+
+  // Calculate pagination
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = BATCH_CARDS_INFO.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
+
+  const totalPages = Math.ceil(BATCH_CARDS_INFO.length / itemsPerPage);
+
   return (
     <>
       <MetaHeader
@@ -188,79 +218,103 @@ const Batches = () => {
         </div>
       </div>
 
-      {/* Batch Showcase */}
-      <div className="bg-[#EDEFFF] pt-16 lg:pt-24">
+      {/* Batch Table and CTA */}
+      <div className="bg-[#EDEFFF] pt-16 lg:pt-24 pb-16">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
-          <div className="flex justify-center items-center">
-            <Image
-              src={"/assets/bg-batches-winners.svg"}
-              alt={"Winners"}
-              width={50}
-              height={50}
-              className="mb-5 mr-3"
-            />
+          <div className="flex justify-center items-center mb-8">
+            <Image src={"/assets/bg-batches-winners.svg"} alt={"Winners"} width={50} height={50} className="mr-3" />
             <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold mb-0">Explore our batches</h2>
           </div>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Join a BuidlGuidl Batch to enhance your skills and collaborate with other web3 developers.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Existing Batch Cards */}
-            {BATCH_CARDS_INFO.map((batch, index) => (
-              <div key={index} className="card">
-                <div className="card-body bg-base-100">
-                  <h3 className="card-title text-2xl  items-baseline">
-                    {batch.name}
-                    <span className="text-sm ml-2 text-gray-500 font-normal">{batch.startDate}</span>
-                  </h3>
-                  <p className="m-0">Participants: {batch.participants}</p>
-                  <div className="flex justify-between mt-4">
-                    <TrackedLink
-                      id={`${batch.name}-page`}
-                      href={batch.batchPageLink}
-                      className="btn btn-sm btn-primary"
+          <div className="mt-0 lg:mt-8 max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <div className="hidden xs:block">
+              <table className="min-w-full">
+                <thead>
+                  <tr className="text-base text-center">
+                    <th className="py-3 px-4">Batch</th>
+                    <th className="py-3 px-4 hidden lg:table-cell">Start Date</th>
+                    <th className="py-3 px-4 hidden sm:table-cell">Participants</th>
+                    <th className="py-3 px-4">Links</th>
+                  </tr>
+                </thead>
+                <tbody className="shadow-even rounded-3xl text-sm">
+                  {currentItems.map((batch, index) => (
+                    <tr key={index} className="bg-white border-b border-base-100 text-center">
+                      <td className="py-3 px-4">{batch.name}</td>
+                      <td className="py-3 px-4 hidden lg:table-cell">{batch.startDate}</td>
+                      <td className="py-3 px-4 hidden sm:table-cell">{batch.participants}</td>
+                      <td className="py-3 px-4">
+                        <div className="flex justify-left items-center gap-2">
+                          <TrackedLink
+                            id={`${batch.name}-page`}
+                            href={batch.batchPageLink}
+                            className="btn btn-xs btn-primary text-white hover:opacity-80"
+                          >
+                            Website
+                          </TrackedLink>
+                          <TrackedLink
+                            id={`${batch.name}-github`}
+                            href={batch.githubRepoLink}
+                            className="btn btn-xs btn-secondary hover:opacity-80"
+                          >
+                            GitHub
+                          </TrackedLink>
+                          {batch.openseaLink && (
+                            <TrackedLink
+                              id={`${batch.name}-opensea`}
+                              href={batch.openseaLink}
+                              className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
+                            >
+                              <Image src="/assets/opensea.svg" alt="OpenSea" width={24} height={24} />
+                            </TrackedLink>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="flex justify-center mt-4">
+                  {Array.from({ length: totalPages }).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => paginate(index + 1)}
+                      className={`mx-1 px-3 py-1 rounded ${
+                        currentPage === index + 1 ? "bg-primary text-white" : "bg-gray-200"
+                      }`}
                     >
-                      Website
-                    </TrackedLink>
-                    <TrackedLink
-                      id={`${batch.name}-github`}
-                      href={batch.githubRepoLink}
-                      className="btn btn-sm btn-secondary"
-                    >
-                      GitHub Repo
-                    </TrackedLink>
-                  </div>
+                      {index + 1}
+                    </button>
+                  ))}
                 </div>
-              </div>
-            ))}
-            {/* Next Batch Card */}
-            <div className="card bg-gradient-to-r from-primary to-secondary">
-              <div className="card-body">
-                <h3 className="card-title text-2xl text-white">Batch #{NEXT_BATCH_NUMBER}</h3>
-                <p className="m-0 text-white">
-                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
-                </p>
-                <div className="mt-4">
-                  <TrackedLink
-                    id="apply-next-batch"
-                    href="https://speedrunethereum.com/"
-                    className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 flex items-center justify-center"
-                  >
-                    Go SpeedRunEthereum
-                  </TrackedLink>
-                </div>
-              </div>
+              )}
             </div>
           </div>
-        </div>
-        <div className="mt-16">
-          <Image
-            src="/assets/bg-batches-footer.png"
-            alt="Batches Footer"
-            width={2400}
-            height={300}
-            className="w-full h-auto"
-          />
+          {/* Next Batch CTA */}
+          <div className="mt-8 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <div className="card-body p-0 flex flex-col lg:flex-row items-center justify-between">
+              <div className="mb-4 md:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
+                <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
+                  Batch #{NEXT_BATCH_NUMBER}
+                </h3>
+                <p className="text-white pr-2">
+                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
+                </p>
+              </div>
+              <TrackedLink
+                id="apply-next-batch"
+                href="https://speedrunethereum.com/"
+                className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap mr-10"
+              >
+                Go SpeedRunEthereum
+              </TrackedLink>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
