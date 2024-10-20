@@ -267,7 +267,7 @@ const Batches = () => {
                               href={batch.openseaLink}
                               className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
                             >
-                              <Image src="/assets/opensea.svg" alt="OpenSea" width={24} height={24} />
+                              <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
                             </TrackedLink>
                           )}
                         </div>
