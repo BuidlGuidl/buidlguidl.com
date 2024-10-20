@@ -257,9 +257,9 @@ const Batches = () => {
                           <TrackedLink
                             id={`${batch.name}-github`}
                             href={batch.githubRepoLink}
-                            className="btn btn-xs btn-secondary hover:opacity-80"
+                            className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
                           >
-                            GitHub
+                            <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
                           </TrackedLink>
                           {batch.openseaLink && (
                             <TrackedLink
