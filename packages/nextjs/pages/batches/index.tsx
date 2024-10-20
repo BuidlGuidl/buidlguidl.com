@@ -9,7 +9,7 @@ const NEXT_BATCH_NUMBER = 10;
 
 const BATCH_CARDS_INFO = [
   {
-    name: "Batch #0",
+    name: "#0",
     participants: 13,
     startDate: "10/01/24",
     batchPageLink: "https://batch1.buidlguidl.com/",
@@ -17,7 +17,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-1", // Add this line where applicable
   },
   {
-    name: "Batch #1",
+    name: "#1",
     participants: 4,
     startDate: "10/02/24",
     batchPageLink: "https://batch2.buidlguidl.com/",
@@ -25,7 +25,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-2", // Add this line where applicable
   },
   {
-    name: "Batch #2",
+    name: "#2",
     participants: 3,
     startDate: "10/03/24",
     batchPageLink: "https://batch3.buidlguidl.com/",
@@ -33,7 +33,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-3", // Add this line where applicable
   },
   {
-    name: "Batch #3",
+    name: "#3",
     participants: 18,
     startDate: "10/04/24",
     batchPageLink: "https://batch4.buidlguidl.com/",
@@ -41,7 +41,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-4", // Add this line where applicable
   },
   {
-    name: "Batch #4",
+    name: "#4",
     participants: 8,
     startDate: "10/05/24",
     batchPageLink: "https://batch5.buidlguidl.com/",
@@ -49,7 +49,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-5", // Add this line where applicable
   },
   {
-    name: "Batch #5",
+    name: "#5",
     participants: 9,
     startDate: "10/06/24",
     batchPageLink: "https://batch6.buidlguidl.com/",
@@ -57,7 +57,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-6", // Add this line where applicable
   },
   {
-    name: "Batch #6",
+    name: "#6",
     participants: 10,
     startDate: "10/07/24",
     batchPageLink: "https://batch7.buidlguidl.com/",
@@ -65,7 +65,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-7", // Add this line where applicable
   },
   {
-    name: "Batch #7",
+    name: "#7",
     participants: 10,
     startDate: "10/08/24",
     batchPageLink: "https://batch8.buidlguidl.com/",
@@ -73,7 +73,7 @@ const BATCH_CARDS_INFO = [
     openseaLink: "https://opensea.io/collection/batchgraduate-8", // Add this line where applicable
   },
   {
-    name: "Batch #8",
+    name: "#8",
     participants: 11,
     startDate: "10/09/14",
     batchPageLink: "https://batch9.buidlguidl.com/",
@@ -81,7 +81,7 @@ const BATCH_CARDS_INFO = [
     // No openseaLink for this batch
   },
   {
-    name: "Batch #9",
+    name: "#9",
     participants: 11,
     startDate: "14/10/14",
     batchPageLink: "https://batch9.buidlguidl.com/",
