@@ -169,10 +169,9 @@ const Batches = () => {
                   help you collaborate more effectively in the web3 ecosystem.
                 </p>
                 <ul className="text-left list-disc list-inside">
-                  <li>Challenges beyond Speedrun Ethereum</li>
+                  <li>Complimentary challenges to Speedrun Ethereum</li>
                   <li>Mentorship on contributing to open source projects on GitHub</li>
                   <li>Open source etiquette and best practices</li>
-                  <li>Advanced Smart Contract Interactions</li>
                   <li>Real-world building Experience</li>
                 </ul>
               </div>
