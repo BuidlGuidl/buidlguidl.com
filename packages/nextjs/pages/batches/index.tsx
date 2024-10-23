@@ -7,6 +7,12 @@ import TrackedLink from "~~/components/TrackedLink";
 
 const NEXT_BATCH_NUMBER = 10;
 
+// TODO: We can probably get rid of this when we grab the info from the BG app API
+function getBatchNumber(batchName: string): number {
+  const number = parseInt(batchName.replace("#", ""), 10);
+  return isNaN(number) ? -1 : number;
+}
+
 const BATCH_CARDS_INFO = [
   {
     name: "#0",
@@ -88,7 +94,7 @@ const BATCH_CARDS_INFO = [
     githubRepoLink: "https://github.com/BuidlGuidl/batch9.buidlguidl.com",
     // No openseaLink for this batch
   },
-];
+].sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
 
 // Custom header for the batches pagesince the "Go to app" button is different
 const BatchesHeader = () => {
