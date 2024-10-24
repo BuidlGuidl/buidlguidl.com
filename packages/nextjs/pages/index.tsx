@@ -272,6 +272,7 @@ const Home: NextPage<{
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">ECOSYSTEM SUPPORT FROM</p>
               <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
                 <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
+                <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} />
               </div>
               <TrackedLink
                 id="co-fund-email"
