@@ -231,77 +231,75 @@ const Batches = () => {
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Join a BuidlGuidl Batch to enhance your skills and collaborate with other web3 developers.
           </p>
-          <div className="mt-0 lg:mt-8 max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
-            <div className="hidden xs:block">
-              <table className="min-w-full">
-                <thead>
-                  <tr className="text-base text-center">
-                    <th className="py-3 px-4">Batch</th>
-                    <th className="py-3 px-4 hidden lg:table-cell">Start Date</th>
-                    <th className="py-3 px-4 hidden sm:table-cell">Participants</th>
-                    <th className="py-3 px-4">Links</th>
-                  </tr>
-                </thead>
-                <tbody className="shadow-even rounded-3xl text-sm">
-                  {currentItems.map((batch, index) => (
-                    <tr key={index} className="bg-white border-b border-base-100 text-center">
-                      <td className="py-3 px-4">{batch.name}</td>
-                      <td className="py-3 px-4 hidden lg:table-cell">{batch.startDate}</td>
-                      <td className="py-3 px-4 hidden sm:table-cell">{batch.participants}</td>
-                      <td className="py-3 px-4">
-                        <div className="flex justify-left items-center gap-2">
+          <div className="mt-0 lg:mt-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <table className="min-w-full">
+              <thead>
+                <tr className="text-base text-center">
+                  <th className="py-3 px-2 xs:px-4">Batch</th>
+                  <th className="py-3 px-2 xs:px-4 hidden lg:table-cell">Start Date</th>
+                  <th className="py-3 px-2 xs:px-4 hidden sm:table-cell">Participants</th>
+                  <th className="py-3 px-2 xs:px-4">Links</th>
+                </tr>
+              </thead>
+              <tbody className="shadow-even rounded-3xl text-sm">
+                {currentItems.map((batch, index) => (
+                  <tr key={index} className="bg-white border-b border-base-100 text-center">
+                    <td className="py-3 px-2 xs:px-4">{batch.name}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{batch.startDate}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.participants}</td>
+                    <td className="py-3 px-2 xs:px-4">
+                      <div className="flex justify-left items-center gap-2">
+                        <TrackedLink
+                          id={`${batch.name}-page`}
+                          href={batch.batchPageLink}
+                          className="btn btn-xs btn-primary text-white hover:opacity-80"
+                        >
+                          Website
+                        </TrackedLink>
+                        <TrackedLink
+                          id={`${batch.name}-github`}
+                          href={batch.githubRepoLink}
+                          className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
+                        >
+                          <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
+                        </TrackedLink>
+                        {batch.openseaLink && (
                           <TrackedLink
-                            id={`${batch.name}-page`}
-                            href={batch.batchPageLink}
-                            className="btn btn-xs btn-primary text-white hover:opacity-80"
-                          >
-                            Website
-                          </TrackedLink>
-                          <TrackedLink
-                            id={`${batch.name}-github`}
-                            href={batch.githubRepoLink}
+                            id={`${batch.name}-opensea`}
+                            href={batch.openseaLink}
                             className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
                           >
-                            <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
+                            <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
                           </TrackedLink>
-                          {batch.openseaLink && (
-                            <TrackedLink
-                              id={`${batch.name}-opensea`}
-                              href={batch.openseaLink}
-                              className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
-                            >
-                              <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
-                            </TrackedLink>
-                          )}
-                        </div>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
 
-              {/* Pagination */}
-              {totalPages > 1 && (
-                <div className="flex justify-center mt-4">
-                  {Array.from({ length: totalPages }).map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => paginate(index + 1)}
-                      className={`mx-1 px-3 py-1 rounded ${
-                        currentPage === index + 1 ? "bg-primary text-white" : "bg-gray-200"
-                      }`}
-                    >
-                      {index + 1}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex justify-center mt-4">
+                {Array.from({ length: totalPages }).map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => paginate(index + 1)}
+                    className={`mx-1 px-3 py-1 rounded ${
+                      currentPage === index + 1 ? "bg-primary text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
           {/* Next Batch CTA */}
-          <div className="mt-8 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+          <div className="mt-8 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
             <div className="card-body p-0 flex flex-col lg:flex-row items-center justify-between">
-              <div className="mb-4 md:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
+              <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
                 <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
                   Batch #{NEXT_BATCH_NUMBER}
                 </h3>
@@ -309,13 +307,15 @@ const Batches = () => {
                   Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
                 </p>
               </div>
-              <TrackedLink
-                id="apply-next-batch"
-                href="https://speedrunethereum.com/"
-                className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap mr-10"
-              >
-                Go SpeedRunEthereum
-              </TrackedLink>
+              <div className="flex justify-center lg:justify-end w-full lg:w-auto">
+                <TrackedLink
+                  id="apply-next-batch"
+                  href="https://speedrunethereum.com/"
+                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap lg:mr-10"
+                >
+                  Go SpeedRunEthereum
+                </TrackedLink>
+              </div>
             </div>
           </div>
         </div>
