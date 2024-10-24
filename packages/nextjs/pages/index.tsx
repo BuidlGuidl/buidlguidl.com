@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
-import { Card } from "~~/components/ChallengeCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
+import { JourneyCard } from "~~/components/JourneyCard";
 import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
@@ -73,69 +73,40 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Star Building on Ethereum */}
-      <div className="bg-white" id="start-building-on-ethereum">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-12 lg:py-20 lg:px-12 flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6">
-            <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Start Building on Ethereum</h2>
-            <ul className="list-disc list-inside flex flex-col space-y-3 m-auto lg:mx-0 max-w-[300px] lg:max-w-none">
-              <li>Learn quickly by building real apps</li>
-              <li>Speedrun the most important concepts</li>
-              <li>Level up your skills and get paid</li>
-            </ul>
-            <div className="text-center lg:text-left">
-              <TrackedLink
-                id="SpeedRunEthereum"
-                href="https://speedrunethereum.com/"
-                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
-              >
-                Get Started Now!
-              </TrackedLink>
-            </div>
-          </div>
-          <div className="max-w-[300px] lg:max-w-none">
-            <Image src="/assets/sre-forest.png" alt="hero" width={500} height={500} />
-          </div>
-        </div>
-        <div className="bg-[url(/assets/sre-path.png)] bg-repeat-x h-32 relative bg-[35%_top]"></div>
-      </div>
-
-      {/* Test Your knowledge */}
-      <div className="bg-base-100 -mt-16">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12">
-          <div className="bg-[url(/assets/dice.png)] bg-no-repeat bg-right-bottom lg:bg-right-top bg-[length:100px] lg:bg-auto max-w-[680px] pb-10">
+      {/* Start Building on Ethereum */}
+      <div className="bg-white pb-16" id="start-building-on-ethereum">
+        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col items-center lg:items-start">
+          <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[580px] bg-[length:85px] lg:bg-[length:100px] max-w-[500px] pb-10">
             <div className="mt-6 lg:mt-0">
               <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-lg">
-                Already have Solidity skills?
+                Start building <br /> on Ethereum
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Test your knowledge by building real-world, complex apps.
+                Start your journey with Speedrun Ethereum, then continue learning in our Batches program and opt to our
+                small grants to improve your skills!
               </p>
             </div>
           </div>
           {/* Cards container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
-            <Card
-              num={4}
-              name="Build a DEX"
+            <JourneyCard
+              name="Speedrun Ethereum"
               src="/assets/chall-dex.png"
-              description="💵 Build an exchange that swaps ETH to tokens and tokens to ETH."
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-4-dex"
+              description="Learn the most important concepts and level up your skills."
+              link="https://speedrunethereum.com"
             />
-            <Card
-              num={5}
-              name="State Channels"
-              src="/assets/chall-state.png"
-              description="🐌 The Ethereum blockchain has great decentralization & security properties. These properties come at a price!"
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-5-state-channels"
+            <JourneyCard
+              name="Join the batches"
+              src="/assets/batches-card.png"
+              description="Continue learning in our Batches monthly program for up-and-coming devs."
+              link="/batches"
             />
-            <Card
-              num={6}
-              name="Multisig Wallet"
-              src="/assets/chall-multisig.png"
-              description="👩‍👩‍👧‍👧 Using a smart contract as a wallet we can secure assets by requiring multiple accounts to 'vote' on transactions."
-              link="https://github.com/scaffold-eth/se-2-challenges/tree/challenge-6-multisig"
+            <JourneyCard
+              name="Small Grants"
+              src="/assets/bg-grants-card.png"
+              description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
+              link="https://grants.buidlguidl.com/"
             />
           </div>
         </div>
@@ -143,6 +114,7 @@ const Home: NextPage<{
 
       {/* Scaffold-ETH 2 */}
       <div className="base-200">
+        <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
             <h2 className="text-2xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
@@ -188,7 +160,7 @@ const Home: NextPage<{
               Powered by Scaffold-ETH, these forkable builds are one of the easiest ways to launch a project.
             </p>
           </div>
-          {/* Card Container  */}
+          {/* Card Container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
             {/* Card */}
             <BuildCard
@@ -280,7 +252,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Partnerships */}
+      {/* Cohorts */}
       <div className="bg-base-100">
         <div className="mx-auto lg:max-w-7xl">
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
@@ -300,6 +272,7 @@ const Home: NextPage<{
               <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">ECOSYSTEM SUPPORT FROM</p>
               <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
                 <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
+                <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} />
               </div>
               <TrackedLink
                 id="co-fund-email"
@@ -391,7 +364,7 @@ const Home: NextPage<{
       <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <p className="font-thin text-xl my-0">LEARN MORE</p>
-          {/* Card Container  */}
+          {/* Card Container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
             {/* Card */}
             <LearnMoreCard
