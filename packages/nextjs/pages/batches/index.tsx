@@ -248,30 +248,34 @@ const Batches = () => {
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{batch.startDate}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.participants}</td>
                     <td className="py-3 px-2 xs:px-4">
-                      <div className="flex justify-left items-center gap-2">
-                        <TrackedLink
-                          id={`${batch.name}-page`}
-                          href={batch.batchPageLink}
-                          className="btn btn-xs btn-primary text-white hover:opacity-80"
-                        >
-                          Website
-                        </TrackedLink>
-                        <TrackedLink
-                          id={`${batch.name}-github`}
-                          href={batch.githubRepoLink}
-                          className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
-                        >
-                          <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
-                        </TrackedLink>
-                        {batch.openseaLink && (
+                      <div className="flex justify-center">
+                        <div className="w-[120px] flex items-center gap-2">
                           <TrackedLink
-                            id={`${batch.name}-opensea`}
-                            href={batch.openseaLink}
-                            className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center align-middle"
+                            id={`${batch.name}-page`}
+                            href={batch.batchPageLink}
+                            className="btn btn-xs btn-primary text-white hover:opacity-80"
                           >
-                            <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
+                            Website
                           </TrackedLink>
-                        )}
+                          <div className="flex items-center gap-1">
+                            <TrackedLink
+                              id={`${batch.name}-github`}
+                              href={batch.githubRepoLink}
+                              className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
+                            >
+                              <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
+                            </TrackedLink>
+                            {batch.openseaLink && (
+                              <TrackedLink
+                                id={`${batch.name}-opensea`}
+                                href={batch.openseaLink}
+                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
+                              >
+                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
+                              </TrackedLink>
+                            )}
+                          </div>
+                        </div>
                       </div>
                     </td>
                   </tr>
