@@ -221,9 +221,32 @@ const Batches = () => {
         </div>
       </div>
 
-      {/* Batch Table and CTA */}
+      {/* CTA and the batch table */}
       <div className="bg-[#EDEFFF] pt-16 lg:pt-24 pb-16">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
+          {/* Next Batch CTA */}
+          <div className="mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <div className="card-body p-0 flex flex-col lg:flex-row items-center justify-between">
+              <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
+                <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
+                  Batch #{NEXT_BATCH_NUMBER}
+                </h3>
+                <p className="text-white pr-2">
+                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
+                </p>
+              </div>
+              <div className="flex justify-center lg:justify-end w-full lg:w-auto">
+                <TrackedLink
+                  id="apply-next-batch"
+                  href="https://speedrunethereum.com/"
+                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap lg:mr-10"
+                >
+                  Go SpeedRunEthereum
+                </TrackedLink>
+              </div>
+            </div>
+          </div>
+
           <div className="flex justify-center items-center mb-8">
             <Image src={"/assets/bg-batches-winners.svg"} alt={"Winners"} width={50} height={50} className="mr-3" />
             <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold mb-0">Explore our batches</h2>
@@ -299,28 +322,6 @@ const Batches = () => {
                 ))}
               </div>
             )}
-          </div>
-          {/* Next Batch CTA */}
-          <div className="mt-8 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
-            <div className="card-body p-0 flex flex-col lg:flex-row items-center justify-between">
-              <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
-                <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
-                  Batch #{NEXT_BATCH_NUMBER}
-                </h3>
-                <p className="text-white pr-2">
-                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
-                </p>
-              </div>
-              <div className="flex justify-center lg:justify-end w-full lg:w-auto">
-                <TrackedLink
-                  id="apply-next-batch"
-                  href="https://speedrunethereum.com/"
-                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap lg:mr-10"
-                >
-                  Go SpeedRunEthereum
-                </TrackedLink>
-              </div>
-            </div>
           </div>
         </div>
       </div>
