@@ -243,7 +243,10 @@ const Batches = () => {
               </thead>
               <tbody className="shadow-even rounded-3xl text-sm">
                 {currentItems.map((batch, index) => (
-                  <tr key={index} className="bg-white border-b border-base-100 text-center">
+                  <tr
+                    key={index}
+                    className="bg-white border-b border-base-100 text-center last:rounded-b-3xl last:border-none"
+                  >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{batch.startDate}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.participants}</td>
