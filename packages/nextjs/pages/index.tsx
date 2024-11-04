@@ -129,7 +129,7 @@ const Home: NextPage<{
             <div className="text-center lg:text-left">
               <TrackedLink
                 id="Scaffold-ETH-2"
-                href="https://www.github.com/scaffold-eth/scaffold-eth-2"
+                href="https://scaffoldeth.io"
                 className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
               >
                 Start using SE-2
