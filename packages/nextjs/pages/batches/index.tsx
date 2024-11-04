@@ -226,7 +226,7 @@ const Batches = () => {
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           {/* Next Batch CTA */}
           <div className="mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
-            <div className="card-body p-0 flex flex-col lg:flex-row items-center justify-between">
+            <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between">
               <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
                 <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
                   Batch #{NEXT_BATCH_NUMBER}
