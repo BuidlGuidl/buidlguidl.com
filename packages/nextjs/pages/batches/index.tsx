@@ -33,8 +33,8 @@ function getBatchNumber(batchName: string): number {
 }
 
 interface PageProps {
-  initialBatchData: BatchData[];
-  initialOpenBatchNumber: number | null;
+  batchData: BatchData[];
+  openBatchNumber: number | null;
 }
 
 const formatDate = (timestamp: number): string => {
@@ -45,7 +45,7 @@ const formatDate = (timestamp: number): string => {
   });
 };
 
-// Custom header for the batches pagesince the "Go to app" button is different
+// Custom header for the batches page since the "Go to app" button is different
 const BatchesHeader = () => {
   return (
     <div className="navbar min-h-0 flex-shrink-0 justify-between px-0 py-4 pb-8 md:pb-4 sm:px-2 bg-[#EFFBCA]">
@@ -69,18 +69,18 @@ const BatchesHeader = () => {
   );
 };
 
-const Batches = ({ initialBatchData, initialOpenBatchNumber }: PageProps) => {
+const Batches = ({ batchData, openBatchNumber }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
   // Calculate pagination
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = initialBatchData.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = batchData.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-  const totalPages = Math.ceil(initialBatchData.length / itemsPerPage);
+  const totalPages = Math.ceil(batchData.length / itemsPerPage);
 
   return (
     <>
@@ -180,7 +180,7 @@ const Batches = ({ initialBatchData, initialOpenBatchNumber }: PageProps) => {
             <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between">
               <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
                 <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
-                  Batch #{initialOpenBatchNumber}
+                  Batch #{openBatchNumber}
                 </h3>
                 <p className="text-white pr-2">
                   Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
@@ -318,36 +318,37 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       openBatchNumber = highestBatch + 1;
     }
 
-    // Convert to BatchData format
-    const batchCards: BatchData[] = batchesData.map(batch => ({
+    // Enrich batch data with additional fields
+    const batches: BatchData[] = batchesData.map(batch => ({
       ...batch,
       name: `#${batch.name}`,
       participants: buildersPerBatch[batch.name] || 0,
       startDate: batch.startDate,
       batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
       githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
+      // TODO: Remove this once we have opensea data in API endpoint
       ...(batch.name === "9" && {
         openseaLink: "https://opensea.io/collection/batchgraduate-1",
       }),
     }));
 
     // Sort batches by number (newest first)
-    const sortedBatches = batchCards.sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
+    const sortedBatches = batches.sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
 
     return {
       props: {
-        initialBatchData: sortedBatches,
-        initialOpenBatchNumber: openBatchNumber,
+        batchData: sortedBatches,
+        openBatchNumber: openBatchNumber,
       },
-      // 6 hours refresh, matching index.tsx
+      // 6 hours refresh
       revalidate: 21600,
     };
   } catch (error) {
     console.error("Error in getStaticProps:", error);
     return {
       props: {
-        initialBatchData: [],
-        initialOpenBatchNumber: null,
+        batchData: [],
+        openBatchNumber: null,
       },
       revalidate: 21600,
     };
