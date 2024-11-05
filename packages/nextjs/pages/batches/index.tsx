@@ -1,98 +1,49 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { GetStaticProps } from "next";
 import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
-const NEXT_BATCH_NUMBER = 11;
+interface Builder {
+  id: string;
+  batch?: {
+    number: string;
+    status: "open" | "closed";
+  };
+}
 
-// TODO: We can probably get rid of this when we grab the info from the BG app API
+interface BatchData {
+  id: string;
+  name: string;
+  status: "open" | "closed";
+  telegramLink: string;
+  startDate: number;
+  contractAddress: string;
+  participants?: number;
+  batchPageLink?: string;
+  githubRepoLink?: string;
+  openseaLink?: string;
+}
+
 function getBatchNumber(batchName: string): number {
   const number = parseInt(batchName.replace("#", ""), 10);
   return isNaN(number) ? -1 : number;
 }
 
-const BATCH_CARDS_INFO = [
-  {
-    name: "#0",
-    participants: 12,
-    startDate: "12 Dec 23",
-    batchPageLink: "https://batch0.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch0.buidlguidl.com",
-  },
-  {
-    name: "#1",
-    participants: 15,
-    startDate: "15 Jan 24",
-    batchPageLink: "https://batch1.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch1.buidlguidl.com",
-  },
-  {
-    name: "#2",
-    participants: 9,
-    startDate: "13 Feb 24",
-    batchPageLink: "https://batch2.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch2.buidlguidl.com",
-  },
-  {
-    name: "#3",
-    participants: 9,
-    startDate: "05 Mar 24",
-    batchPageLink: "https://batch3.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch3.buidlguidl.com",
-  },
-  {
-    name: "#4",
-    participants: 17,
-    startDate: "08 Apr 24",
-    batchPageLink: "https://batch4.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch4.buidlguidl.com",
-  },
-  {
-    name: "#5",
-    participants: 8,
-    startDate: "06 May 24",
-    batchPageLink: "https://batch5.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch5.buidlguidl.com",
-  },
-  {
-    name: "#6",
-    participants: 9,
-    startDate: "03 Jun 24",
-    batchPageLink: "https://batch6.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch6.buidlguidl.com",
-  },
-  {
-    name: "#7",
-    participants: 7,
-    startDate: "08 Jul 24",
-    batchPageLink: "https://batch7.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch7.buidlguidl.com",
-  },
-  {
-    name: "#8",
-    participants: 10,
-    startDate: "06 Aug 24",
-    batchPageLink: "https://batch8.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch8.buidlguidl.com",
-  },
-  {
-    name: "#9",
-    participants: 14,
-    startDate: "09 Sep 24",
-    batchPageLink: "https://batch9.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch9.buidlguidl.com",
-    openseaLink: "https://opensea.io/collection/batchgraduate-1",
-  },
-  {
-    name: "#10",
-    participants: 11,
-    startDate: "14 Oct 24",
-    batchPageLink: "https://batch10.buidlguidl.com/",
-    githubRepoLink: "https://github.com/BuidlGuidl/batch10.buidlguidl.com",
-  },
-].sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
+interface PageProps {
+  initialBatchData: BatchData[];
+  initialOpenBatchNumber: number | null;
+}
+
+const formatDate = (timestamp: number): string => {
+  return new Date(timestamp).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+};
 
 // Custom header for the batches pagesince the "Go to app" button is different
 const BatchesHeader = () => {
@@ -118,18 +69,18 @@ const BatchesHeader = () => {
   );
 };
 
-const Batches = () => {
+const Batches = ({ initialBatchData, initialOpenBatchNumber }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
   // Calculate pagination
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = BATCH_CARDS_INFO.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = initialBatchData.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-  const totalPages = Math.ceil(BATCH_CARDS_INFO.length / itemsPerPage);
+  const totalPages = Math.ceil(initialBatchData.length / itemsPerPage);
 
   return (
     <>
@@ -229,7 +180,7 @@ const Batches = () => {
             <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between">
               <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
                 <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
-                  Batch #{NEXT_BATCH_NUMBER}
+                  Batch #{initialOpenBatchNumber}
                 </h3>
                 <p className="text-white pr-2">
                   Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
@@ -271,14 +222,14 @@ const Batches = () => {
                     className="bg-white border-b border-base-100 text-center last:rounded-b-3xl last:border-none"
                   >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
-                    <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{batch.startDate}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.participants}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
                         <div className="w-[120px] flex items-center gap-2">
                           <TrackedLink
                             id={`${batch.name}-page`}
-                            href={batch.batchPageLink}
+                            href={batch.batchPageLink || ""}
                             className="btn btn-xs btn-primary text-white hover:opacity-80"
                           >
                             Website
@@ -286,7 +237,7 @@ const Batches = () => {
                           <div className="flex items-center gap-1">
                             <TrackedLink
                               id={`${batch.name}-github`}
-                              href={batch.githubRepoLink}
+                              href={batch.githubRepoLink || ""}
                               className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
                             >
                               <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
@@ -294,7 +245,7 @@ const Batches = () => {
                             {batch.openseaLink && (
                               <TrackedLink
                                 id={`${batch.name}-opensea`}
-                                href={batch.openseaLink}
+                                href={batch.openseaLink || ""}
                                 className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
                               >
                                 <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
@@ -331,6 +282,76 @@ const Batches = () => {
       <Footer />
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<PageProps> = async () => {
+  try {
+    const [batchesResponse, buildersResponse] = await Promise.all([
+      fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/batches`),
+      fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/builders`),
+    ]);
+
+    if (!batchesResponse.ok || !buildersResponse.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    const batchesData: BatchData[] = await batchesResponse.json();
+    const buildersData: Builder[] = await buildersResponse.json();
+
+    // Count builders per batch
+    const buildersPerBatch: Record<string, number> = {};
+    buildersData.forEach(builder => {
+      if (builder.batch?.number) {
+        buildersPerBatch[builder.batch.number] = (buildersPerBatch[builder.batch.number] || 0) + 1;
+      }
+    });
+
+    // Find open batch number or calculate next batch number
+    const openBatch = batchesData.find(batch => batch.status === "open");
+    let openBatchNumber: number | null = null;
+
+    if (openBatch) {
+      openBatchNumber = parseInt(openBatch.name);
+    } else {
+      // Find the highest batch number and add 1
+      const highestBatch = Math.max(...batchesData.map(batch => parseInt(batch.name)));
+      openBatchNumber = highestBatch + 1;
+    }
+
+    // Convert to BatchData format
+    const batchCards: BatchData[] = batchesData.map(batch => ({
+      ...batch,
+      name: `#${batch.name}`,
+      participants: buildersPerBatch[batch.name] || 0,
+      startDate: batch.startDate,
+      batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
+      githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
+      ...(batch.name === "9" && {
+        openseaLink: "https://opensea.io/collection/batchgraduate-1",
+      }),
+    }));
+
+    // Sort batches by number (newest first)
+    const sortedBatches = batchCards.sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
+
+    return {
+      props: {
+        initialBatchData: sortedBatches,
+        initialOpenBatchNumber: openBatchNumber,
+      },
+      // 6 hours refresh, matching index.tsx
+      revalidate: 21600,
+    };
+  } catch (error) {
+    console.error("Error in getStaticProps:", error);
+    return {
+      props: {
+        initialBatchData: [],
+        initialOpenBatchNumber: null,
+      },
+      revalidate: 21600,
+    };
+  }
 };
 
 export default Batches;
