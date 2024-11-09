@@ -276,7 +276,7 @@ const Home: NextPage<{
               </div>
               <TrackedLink
                 id="co-fund-email"
-                href="mailto:austin@buidlguidl.com"
+                href="https://telegram.me/austingriffith"
                 className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
               >
                 Support BuidlGuidl
