@@ -6,14 +6,6 @@ import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
-interface Builder {
-  id: string;
-  batch?: {
-    number: string;
-    status: "open" | "closed";
-  };
-}
-
 interface BatchData {
   id: string;
   name: string;
@@ -21,7 +13,7 @@ interface BatchData {
   telegramLink: string;
   startDate: number;
   contractAddress: string;
-  participants?: number;
+  totalParticipants: number;
   batchPageLink?: string;
   githubRepoLink?: string;
   openseaLink?: string;
@@ -223,7 +215,7 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                   >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
-                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.participants}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
                         <div className="w-[120px] flex items-center gap-2">
@@ -286,25 +278,13 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
 
 export const getStaticProps: GetStaticProps<PageProps> = async () => {
   try {
-    const [batchesResponse, buildersResponse] = await Promise.all([
-      fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/batches`),
-      fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/builders`),
-    ]);
+    const batchesResponse = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/batches`);
 
-    if (!batchesResponse.ok || !buildersResponse.ok) {
+    if (!batchesResponse.ok) {
       throw new Error("Failed to fetch data");
     }
 
     const batchesData: BatchData[] = await batchesResponse.json();
-    const buildersData: Builder[] = await buildersResponse.json();
-
-    // Count builders per batch
-    const buildersPerBatch: Record<string, number> = {};
-    buildersData.forEach(builder => {
-      if (builder.batch?.number) {
-        buildersPerBatch[builder.batch.number] = (buildersPerBatch[builder.batch.number] || 0) + 1;
-      }
-    });
 
     // Find open batch number or calculate next batch number
     const openBatch = batchesData.find(batch => batch.status === "open");
@@ -322,7 +302,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     const batches: BatchData[] = batchesData.map(batch => ({
       ...batch,
       name: `#${batch.name}`,
-      participants: buildersPerBatch[batch.name] || 0,
+      totalParticipants: batch.totalParticipants || 0,
       startDate: batch.startDate,
       batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
       githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
