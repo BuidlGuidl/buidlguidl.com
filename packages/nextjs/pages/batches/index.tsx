@@ -310,6 +310,9 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       ...(batch.name === "9" && {
         openseaLink: "https://opensea.io/collection/batchgraduate-1",
       }),
+      ...(batch.name === "10" && {
+        openseaLink: "https://opensea.io/collection/batchgraduate-2",
+      }),
     }));
 
     // Sort batches by number (newest first)
