@@ -16,6 +16,7 @@ interface BatchData {
   startDate: number;
   contractAddress: string;
   totalParticipants: number;
+  graduates: number;
   batchPageLink?: string;
   githubRepoLink?: string;
   openseaLink?: string | null;
@@ -201,6 +202,7 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                   <th className="py-3 px-2 xs:px-4">Batch</th>
                   <th className="py-3 px-2 xs:px-4 hidden lg:table-cell">Start Date</th>
                   <th className="py-3 px-2 xs:px-4 hidden sm:table-cell">Participants</th>
+                  <th className="py-3 px-2 xs:px-4 hidden sm:table-cell">Graduates</th>
                   <th className="py-3 px-2 xs:px-4">Links</th>
                 </tr>
               </thead>
@@ -213,6 +215,7 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.graduates || "-"}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
                         <div className="w-[120px] flex items-center gap-2">
@@ -231,7 +234,7 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                             >
                               <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
                             </TrackedLink>
-                            {batch.openseaLink && (
+                            {batch.openseaLink && batch.graduates > 0 && (
                               <TrackedLink
                                 id={`${batch.name}-opensea`}
                                 href={batch.openseaLink || ""}
