@@ -2,8 +2,6 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { GetStaticProps } from "next";
-import { createPublicClient, http } from "viem";
-import { optimism } from "viem/chains";
 import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
@@ -19,7 +17,12 @@ interface BatchData {
   graduates: number;
   batchPageLink?: string;
   githubRepoLink?: string;
-  openseaLink?: string | null;
+  openseaLink?: string;
+}
+
+function getBatchNumber(batchName: string): number {
+  const number = parseInt(batchName.replace("#", ""), 10);
+  return isNaN(number) ? -1 : number;
 }
 
 interface PageProps {
@@ -276,48 +279,6 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
   );
 };
 
-const publicClient = createPublicClient({
-  chain: optimism,
-  transport: http(),
-});
-
-export async function readBatchGraduationNFT(contractAddress: string) {
-  try {
-    const bytecode = await publicClient.getBytecode({
-      address: contractAddress as `0x${string}`,
-    });
-
-    if (!bytecode) {
-      return null;
-    }
-
-    // Check if the batchGraduationNFT function exists in the bytecode
-    const functionSignature = "bb9da723";
-    if (!bytecode.includes(functionSignature)) {
-      return null;
-    }
-
-    const data = await publicClient.readContract({
-      address: contractAddress as `0x${string}`,
-      abi: [
-        {
-          inputs: [],
-          name: "batchGraduationNFT",
-          outputs: [{ type: "address", name: "nftAddress" }],
-          stateMutability: "view",
-          type: "function",
-        },
-      ],
-      functionName: "batchGraduationNFT",
-    });
-
-    return data as `0x${string}`;
-  } catch (error) {
-    console.error("Error reading batchGraduationNFT:", error);
-    return null;
-  }
-}
-
 export const getStaticProps: GetStaticProps<PageProps> = async () => {
   try {
     const batchesResponse = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/batches`);
@@ -326,7 +287,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       throw new Error("Failed to fetch data");
     }
 
-    const batchesData = (await batchesResponse.json()) as BatchData[];
+    const batchesData: BatchData[] = await batchesResponse.json();
 
     // Find open batch number or calculate next batch number
     const openBatch = batchesData.find(batch => batch.status === "open");
@@ -335,32 +296,30 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     if (openBatch) {
       openBatchNumber = parseInt(openBatch.name);
     } else {
+      // Find the highest batch number and add 1
       const highestBatch = Math.max(...batchesData.map(batch => parseInt(batch.name)));
       openBatchNumber = highestBatch + 1;
     }
 
-    // Fetch and enrich batch data with NFT addresses and formatted fields
-    const batches: BatchData[] = await Promise.all(
-      batchesData.map(async batch => {
-        let nftAddress = null;
-        if (batch.contractAddress) {
-          nftAddress = await readBatchGraduationNFT(batch.contractAddress);
-        }
-
-        return {
-          ...batch,
-          name: `#${batch.name}`,
-          totalParticipants: batch.totalParticipants || 0,
-          startDate: batch.startDate,
-          batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
-          githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
-          openseaLink: nftAddress ? `https://opensea.io/assets/optimism/${nftAddress}` : null,
-        };
+    // Enrich batch data with additional fields
+    const batches: BatchData[] = batchesData.map(batch => ({
+      ...batch,
+      name: `#${batch.name}`,
+      totalParticipants: batch.totalParticipants || 0,
+      startDate: batch.startDate,
+      batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
+      githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
+      // TODO: Remove this once we have opensea data in API endpoint
+      ...(batch.name === "9" && {
+        openseaLink: "https://opensea.io/collection/batchgraduate-1",
       }),
-    );
+      ...(batch.name === "10" && {
+        openseaLink: "https://opensea.io/collection/batchgraduate-2",
+      }),
+    }));
 
     // Sort batches by number (newest first)
-    const sortedBatches = batches.sort((a, b) => b.name.localeCompare(a.name, undefined, { numeric: true }));
+    const sortedBatches = batches.sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
 
     return {
       props: {
