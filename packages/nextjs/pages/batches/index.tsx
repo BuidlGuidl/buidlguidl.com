@@ -17,7 +17,6 @@ interface BatchData {
   graduates: number;
   batchPageLink?: string;
   githubRepoLink?: string;
-  openseaLink?: string;
 }
 
 function getBatchNumber(batchName: string): number {
@@ -237,15 +236,6 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                             >
                               <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
                             </TrackedLink>
-                            {batch.openseaLink && batch.graduates > 0 && (
-                              <TrackedLink
-                                id={`${batch.name}-opensea`}
-                                href={batch.openseaLink || ""}
-                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
-                              >
-                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
-                              </TrackedLink>
-                            )}
                           </div>
                         </div>
                       </div>
@@ -309,13 +299,6 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       startDate: batch.startDate,
       batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
       githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
-      // TODO: Remove this once we have opensea data in API endpoint
-      ...(batch.name === "9" && {
-        openseaLink: "https://opensea.io/collection/batchgraduate-1",
-      }),
-      ...(batch.name === "10" && {
-        openseaLink: "https://opensea.io/collection/batchgraduate-2",
-      }),
     }));
 
     // Sort batches by number (newest first)
