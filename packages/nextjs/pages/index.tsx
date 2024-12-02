@@ -322,6 +322,40 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Nodes section */}
+      <div className="bg-[#EBEBEB]">
+        <div className="mx-auto lg:max-w-7xl container flex flex-col lg:flex-row px-10 py-14 lg:py-16 xl:pl-24 lg:px-14 text-black">
+          {/* First column */}
+          <div className="flex flex-col flex-wrap">
+            <div className="flex items-start p-3 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
+              <Image src="/assets/client-logo.svg" alt="client logo" width={250} height={250} />
+            </div>
+            <div className="flex flex-row lg:border-y lg:border-l lg:border-r-0 border-x border-black">
+              <div className="flex flex-col justify-between items-start bg-[#FF66F9] pb-6 pt-4 px-10">
+                <p className="text-base font-mono">
+                  A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl
+                  members.
+                </p>
+                <TrackedLink
+                  id="BG-Nodes"
+                  href="https://client.buidlguidl.com"
+                  className="btn btn-md px-8 hover:opacity-100 font-mono bg-white text-black border-black rounded-none hover:bg-[#4AF361] hover:border-black"
+                >
+                  Go to site
+                </TrackedLink>
+              </div>
+              <div className="flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] border-l border-black">
+                <img src="/assets/satellite.png" alt="satellite" width={200} height={200} />
+              </div>
+            </div>
+          </div>
+          {/* Second column */}
+          <div className="flex flex-col items-center p-6 min-w-[400px] border border-black">
+            <Image src="/assets/screenshot.png" alt="screenshot" width={700} height={700} />
+          </div>
+        </div>
+      </div>
+
       {/* Grants */}
       <div className="bg-[#282C52]">
         <div className="mx-auto lg:max-w-7xl">
