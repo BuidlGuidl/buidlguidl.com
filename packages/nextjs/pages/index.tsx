@@ -323,34 +323,44 @@ const Home: NextPage<{
       </div>
 
       {/* Nodes section */}
-      <div className="bg-[#EBEBEB]">
-        <div className="mx-auto lg:max-w-7xl container flex flex-col lg:flex-row px-10 py-14 lg:py-16 xl:pl-24 lg:px-14 text-black">
+      <div className="bg-[#EBEBEB] relative px-[13px]">
+        <div className="w-full border-t border-black absolute lg:top-16 top-14 left-0"></div>
+        <div className="h-full border-l border-black absolute top-0 lg:left-[76px] left-[58px]"></div>
+        <div className="w-full border-t border-black absolute lg:bottom-16 bottom-14 left-0"></div>
+        <div className="h-full border-l border-black absolute top-0 lg:right-[76px] right-[58px]"></div>
+        <div className="flex flex-col flex-grow lg:flex-row px-10 py-14 lg:py-16 lg:px-14 text-black">
           {/* First column */}
           <div className="flex flex-col flex-wrap">
             <div className="flex items-start p-7 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
-              <Image src="/assets/client-logo.svg" alt="client logo" width={250} height={250} />
+              <Image
+                src="/assets/client-logo.svg"
+                alt="client logo"
+                className="lg:w-[250px]"
+                width={200}
+                height={200}
+              />
             </div>
             <div className="md:flex flex-row flex-grow lg:border-y lg:border-l lg:border-r-0 border-x border-black">
               <div className="flex flex-col justify-between items-start bg-[#FF66F9] p-7 pt-4">
-                <p className="text-base font-mono pb-4">
+                <p className="lg:text-base text-sm font-mono pb-4">
                   A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl
                   members.
                 </p>
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
-                  className="btn btn-md px-8 hover:opacity-100 font-mono bg-white text-black border-black rounded-none hover:bg-[#4AF361] hover:border-black"
+                  className="btn btn-md text-xs lg:text-base px-8 hover:opacity-100 font-mono bg-white text-black border-black rounded-none hover:bg-[#4AF361] hover:border-black"
                 >
                   Go to site
                 </TrackedLink>
               </div>
-              <div className="flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
+              <div className="hidden sm:flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
                 <img src="/assets/satellite.png" alt="satellite" width={200} height={200} />
               </div>
             </div>
           </div>
           {/* Second column */}
-          <div className="flex flex-col items-center p-6 md:min-w-[400px] border border-black">
+          <div className="flex flex-col items-center p-6 md:min-w-[400px] border border-black bg-[#4AF361] sm:bg-transparent">
             <Image src="/assets/screenshot.png" alt="screenshot" width={700} height={700} />
           </div>
         </div>
