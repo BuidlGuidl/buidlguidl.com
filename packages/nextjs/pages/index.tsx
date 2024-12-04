@@ -330,9 +330,9 @@ const Home: NextPage<{
             <div className="flex items-start p-3 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
               <Image src="/assets/client-logo.svg" alt="client logo" width={250} height={250} />
             </div>
-            <div className="flex flex-row lg:border-y lg:border-l lg:border-r-0 border-x border-black">
+            <div className="md:flex flex-row flex-grow lg:border-y lg:border-l lg:border-r-0 border-x border-black">
               <div className="flex flex-col justify-between items-start bg-[#FF66F9] pb-6 pt-4 px-10">
-                <p className="text-base font-mono">
+                <p className="text-base font-mono pb-6">
                   A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl
                   members.
                 </p>
@@ -344,13 +344,13 @@ const Home: NextPage<{
                   Go to site
                 </TrackedLink>
               </div>
-              <div className="flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] border-l border-black">
+              <div className="flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
                 <img src="/assets/satellite.png" alt="satellite" width={200} height={200} />
               </div>
             </div>
           </div>
           {/* Second column */}
-          <div className="flex flex-col items-center p-6 min-w-[400px] border border-black">
+          <div className="flex flex-col items-center p-6 md:min-w-[400px] border border-black">
             <Image src="/assets/screenshot.png" alt="screenshot" width={700} height={700} />
           </div>
         </div>
@@ -428,15 +428,16 @@ const Home: NextPage<{
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/api/stats`);
-
-  if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
-
-  const stats = (await res.json()) as Stats;
-
   return {
     props: {
-      stats,
+      stats: {
+        builderCount: "50",
+        buildCount: "100",
+        streamedEth: 100,
+        buildersIncrementMonth: 10,
+        buildsIncrementMonth: 10,
+        streamedEthIncrement: 10,
+      },
     },
     // 6 hours refresh.
     revalidate: 21600,
