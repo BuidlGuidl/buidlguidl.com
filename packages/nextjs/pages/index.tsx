@@ -327,12 +327,12 @@ const Home: NextPage<{
         <div className="mx-auto lg:max-w-7xl container flex flex-col lg:flex-row px-10 py-14 lg:py-16 xl:pl-24 lg:px-14 text-black">
           {/* First column */}
           <div className="flex flex-col flex-wrap">
-            <div className="flex items-start p-3 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
+            <div className="flex items-start p-7 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
               <Image src="/assets/client-logo.svg" alt="client logo" width={250} height={250} />
             </div>
             <div className="md:flex flex-row flex-grow lg:border-y lg:border-l lg:border-r-0 border-x border-black">
-              <div className="flex flex-col justify-between items-start bg-[#FF66F9] pb-6 pt-4 px-10">
-                <p className="text-base font-mono pb-6">
+              <div className="flex flex-col justify-between items-start bg-[#FF66F9] p-7 pt-4">
+                <p className="text-base font-mono pb-4">
                   A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl
                   members.
                 </p>
