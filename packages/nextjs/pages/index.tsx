@@ -438,16 +438,15 @@ const Home: NextPage<{
 };
 
 export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/api/stats`);
+
+  if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
+
+  const stats = (await res.json()) as Stats;
+
   return {
     props: {
-      stats: {
-        builderCount: "50",
-        buildCount: "100",
-        streamedEth: 100,
-        buildersIncrementMonth: 10,
-        buildsIncrementMonth: 10,
-        streamedEthIncrement: 10,
-      },
+      stats,
     },
     // 6 hours refresh.
     revalidate: 21600,
