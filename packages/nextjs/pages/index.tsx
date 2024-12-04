@@ -355,7 +355,7 @@ const Home: NextPage<{
                 </TrackedLink>
               </div>
               <div className="hidden sm:flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
-                <img src="/assets/satellite.png" alt="satellite" width={200} height={200} />
+                <Image src="/assets/satellite.png" alt="satellite" width={200} height={200} />
               </div>
             </div>
           </div>
