@@ -343,15 +343,14 @@ const Home: NextPage<{
             <div className="md:flex flex-row flex-grow lg:border-y lg:border-l lg:border-r-0 border-x border-black">
               <div className="flex flex-col justify-between items-start bg-[#FF66F9] p-7 pt-4">
                 <p className="lg:text-base text-sm font-mono pb-4">
-                  A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl
-                  members.
+                  Run a full Ethereum node with a single command! Opt in to our distributed RPC to power BG apps too!
                 </p>
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
                   className="btn btn-md text-xs lg:text-base px-8 hover:opacity-100 font-mono bg-white text-black border-black rounded-none hover:bg-[#4AF361] hover:border-black"
                 >
-                  Go to site
+                  Run a BG client
                 </TrackedLink>
               </div>
               <div className="hidden sm:flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
