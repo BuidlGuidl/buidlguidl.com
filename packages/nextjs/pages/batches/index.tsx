@@ -13,6 +13,7 @@ interface BatchData {
   telegramLink: string;
   startDate: number;
   contractAddress: string;
+  nftContractAddress: string;
   totalParticipants: number;
   graduates: number;
   batchPageLink?: string;
@@ -236,6 +237,15 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                             >
                               <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
                             </TrackedLink>
+                            {batch.nftContractAddress && batch.graduates > 0 && (
+                              <TrackedLink
+                                id={`${batch.name}-opensea`}
+                                href={`https://opensea.io/assets/optimism/${batch.nftContractAddress}`}
+                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
+                              >
+                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
+                              </TrackedLink>
+                            )}
                           </div>
                         </div>
                       </div>
