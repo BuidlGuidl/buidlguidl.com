@@ -28,6 +28,7 @@ function getBatchNumber(batchName: string): number {
 interface PageProps {
   batchData: BatchData[];
   openBatchNumber: number | null;
+  nextBatchStartDate: number | null;
 }
 
 const formatDate = (timestamp: number): string => {
@@ -62,14 +63,16 @@ const BatchesHeader = () => {
   );
 };
 
-const Batches = ({ batchData, openBatchNumber }: PageProps) => {
+const Batches = ({ batchData, openBatchNumber, nextBatchStartDate }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+
+  const filteredBatchData = batchData.filter(batch => batch.startDate <= Date.now());
 
   // Calculate pagination
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = batchData.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredBatchData.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
@@ -176,7 +179,8 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                   Batch #{openBatchNumber}
                 </h3>
                 <p className="text-white pr-2">
-                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
+                  Complete SpeedRunEthereum and join BuidlGuidl to be part of the next batch starting
+                  <strong>{nextBatchStartDate ? ` on ${formatDate(nextBatchStartDate)}` : "soon"}!</strong>
                 </p>
               </div>
               <div className="flex justify-center lg:justify-end w-full lg:w-auto">
@@ -230,13 +234,6 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                             Website
                           </TrackedLink>
                           <div className="flex items-center gap-1">
-                            <TrackedLink
-                              id={`${batch.name}-github`}
-                              href={batch.githubRepoLink || ""}
-                              className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
-                            >
-                              <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
-                            </TrackedLink>
                             {batch.nftContractAddress && batch.graduates > 0 && (
                               <TrackedLink
                                 id={`${batch.name}-opensea`}
@@ -292,13 +289,16 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     // Find open batch number or calculate next batch number
     const openBatch = batchesData.find(batch => batch.status === "open");
     let openBatchNumber: number | null = null;
+    let nextBatchStartDate: number | null = null;
 
     if (openBatch) {
       openBatchNumber = parseInt(openBatch.name);
+      nextBatchStartDate = openBatch.startDate;
     } else {
       // Find the highest batch number and add 1
       const highestBatch = Math.max(...batchesData.map(batch => parseInt(batch.name)));
       openBatchNumber = highestBatch + 1;
+      nextBatchStartDate = null;
     }
 
     // Enrich batch data with additional fields
@@ -318,6 +318,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       props: {
         batchData: sortedBatches,
         openBatchNumber: openBatchNumber,
+        nextBatchStartDate,
       },
       // 6 hours refresh
       revalidate: 21600,
@@ -328,6 +329,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       props: {
         batchData: [],
         openBatchNumber: null,
+        nextBatchStartDate: null,
       },
       revalidate: 21600,
     };
