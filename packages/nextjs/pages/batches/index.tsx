@@ -66,10 +66,12 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
+  const filteredBatchData = batchData.filter(batch => batch.startDate <= Date.now());
+
   // Calculate pagination
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = batchData.slice(indexOfFirstItem, indexOfLastItem);
+  const currentItems = filteredBatchData.slice(indexOfFirstItem, indexOfLastItem);
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
@@ -230,13 +232,6 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                             Website
                           </TrackedLink>
                           <div className="flex items-center gap-1">
-                            <TrackedLink
-                              id={`${batch.name}-github`}
-                              href={batch.githubRepoLink || ""}
-                              className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
-                            >
-                              <Image src="/assets/github-logo.png" alt="GitHub" width={24} height={24} />
-                            </TrackedLink>
                             {batch.nftContractAddress && batch.graduates > 0 && (
                               <TrackedLink
                                 id={`${batch.name}-opensea`}
