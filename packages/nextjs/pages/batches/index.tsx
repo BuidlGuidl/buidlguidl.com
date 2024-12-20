@@ -28,6 +28,7 @@ function getBatchNumber(batchName: string): number {
 interface PageProps {
   batchData: BatchData[];
   openBatchNumber: number | null;
+  nextBatchStartDate: number | null;
 }
 
 const formatDate = (timestamp: number): string => {
@@ -62,7 +63,7 @@ const BatchesHeader = () => {
   );
 };
 
-const Batches = ({ batchData, openBatchNumber }: PageProps) => {
+const Batches = ({ batchData, openBatchNumber, nextBatchStartDate }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
@@ -178,7 +179,8 @@ const Batches = ({ batchData, openBatchNumber }: PageProps) => {
                   Batch #{openBatchNumber}
                 </h3>
                 <p className="text-white pr-2">
-                  Complete SpeedRunEthereum and join BuidlGuidl to participate in the next Batch!
+                  Complete SpeedRunEthereum and join BuidlGuidl to be part of the next batch starting
+                  <strong>{nextBatchStartDate ? ` on ${formatDate(nextBatchStartDate)}` : "soon"}!</strong>
                 </p>
               </div>
               <div className="flex justify-center lg:justify-end w-full lg:w-auto">
@@ -287,13 +289,16 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     // Find open batch number or calculate next batch number
     const openBatch = batchesData.find(batch => batch.status === "open");
     let openBatchNumber: number | null = null;
+    let nextBatchStartDate: number | null = null;
 
     if (openBatch) {
       openBatchNumber = parseInt(openBatch.name);
+      nextBatchStartDate = openBatch.startDate;
     } else {
       // Find the highest batch number and add 1
       const highestBatch = Math.max(...batchesData.map(batch => parseInt(batch.name)));
       openBatchNumber = highestBatch + 1;
+      nextBatchStartDate = null;
     }
 
     // Enrich batch data with additional fields
@@ -313,6 +318,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       props: {
         batchData: sortedBatches,
         openBatchNumber: openBatchNumber,
+        nextBatchStartDate,
       },
       // 6 hours refresh
       revalidate: 21600,
@@ -323,6 +329,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       props: {
         batchData: [],
         openBatchNumber: null,
+        nextBatchStartDate: null,
       },
       revalidate: 21600,
     };
