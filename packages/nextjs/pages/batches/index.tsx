@@ -76,7 +76,7 @@ const Batches = ({ batchData, openBatchNumber, nextBatchStartDate }: PageProps) 
 
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
-  const totalPages = Math.ceil(batchData.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredBatchData.length / itemsPerPage);
 
   return (
     <>
