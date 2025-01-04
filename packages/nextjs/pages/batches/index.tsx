@@ -118,22 +118,22 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-white/50 p-4 rounded-lg">
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
                     <h3 className="font-bold mb-2">🌐 Open-Source in Web3</h3>
                     <p>Take your first steps into web3 open-source development.</p>
                   </div>
 
-                  <div className="bg-white/50 p-4 rounded-lg">
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
                     <h3 className="font-bold mb-2">🔧 GitHub Contributions</h3>
                     <p>Learn to submit PRs, manage issues, and review code effectively.</p>
                   </div>
 
-                  <div className="bg-white/50 p-4 rounded-lg">
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
                     <h3 className="font-bold mb-2">✨ Build Apps</h3>
                     <p>Create a web3 app collaboratively with other builders.</p>
                   </div>
 
-                  <div className="bg-white/50 p-4 rounded-lg">
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
                     <h3 className="font-bold mb-2">🛠️ Solidity Skills</h3>
                     <p>Refine and practice your Solidity skills with further challenges.</p>
                   </div>
@@ -196,7 +196,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
               <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">What you&apos;ll learn?</h2>
               <div className="space-y-6 text-gray-700">
                 <div className="grid grid-cols-1 gap-4">
-                  <div className="space-y-4">
+                  <div className="space-y-4 p-4">
                     <h3 className="text-xl font-semibold">🚀 GitHub Mastery</h3>
                     <ul className="list-disc list-inside space-y-2">
                       <li>Submit your first PR the right way</li>
@@ -206,7 +206,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                     </ul>
                   </div>
 
-                  <div className="space-y-4">
+                  <div className="space-y-4 p-4">
                     <h3 className="text-xl font-semibold">⚡ Technical Growth</h3>
                     <ul className="list-disc list-inside space-y-2">
                       <li>Complementary challenges to Speedrun Ethereum</li>
@@ -233,17 +233,41 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       <div className="bg-[#EBFFA9] py-16 lg:py-24">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-            <div className="lg:w-1/2 space-y-6">
+            <div className="lg:w-1/2 space-y-8">
               <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">How do Batches work?</h2>
-              <div className="space-y-4 text-gray-700">
-                <ul className="list-disc list-inside">
-                  <li>Each batch has its own GitHub repository</li>
-                  <li>Collaborate with peers and mentors in a dedicated Telegram group</li>
-                  <li>Complete challenges and contribute to open source projects</li>
-                  <li>Build a final project and apply for a grant!</li>
-                </ul>
+              <div className="space-y-4">
+                <div className="grid gap-4">
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
+                    <h3 className="font-bold mb-2">
+                      <span className="text-primary">📚</span> GitHub Repository
+                    </h3>
+                    <p className="text-gray-700 mb-0">Each batch has its own dedicated repository for collaboration</p>
+                  </div>
+
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
+                    <h3 className="font-bold mb-2">
+                      <span className="text-primary">💬</span> Community Support
+                    </h3>
+                    <p className="text-gray-700 mb-0">Connect with peers and mentors in a dedicated Telegram group</p>
+                  </div>
+
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
+                    <h3 className="font-bold mb-2">
+                      <span className="text-primary">🎯</span> Learning Journey
+                    </h3>
+                    <p className="text-gray-700 mb-0">Complete challenges and contribute to open source projects</p>
+                  </div>
+
+                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
+                    <h3 className="font-bold mb-2">
+                      <span className="text-primary">🚀</span> Final Project
+                    </h3>
+                    <p className="text-gray-700 mb-0">Build your project and get a chance to receive a grant!</p>
+                  </div>
+                </div>
               </div>
             </div>
+
             <div className="lg:w-1/2">
               <Image
                 src="/assets/bg-batches-how-batches-work.png"
