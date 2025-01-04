@@ -150,7 +150,8 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
               />
             </div>
           </div>
-          {/* Next Batch CTA */}
+
+          {/* Next Batch CTA - call to action */}
           <div className="mt-16 mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
             <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6">
               <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
@@ -170,6 +171,58 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                 >
                   Go SpeedRunEthereum
                 </TrackedLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[center_top]"></div>
+
+      {/* What you'll learn */}
+      <div className="base-200 py-16 lg:py-24">
+        <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+            <div className="lg:w-1/2">
+              <Image
+                src="/assets/funding.png"
+                alt="How Batches Work Illustration"
+                width={600}
+                height={600}
+                className="w-full h-auto object-contain max-w-[300px] lg:max-w-full"
+              />
+            </div>
+            <div className="lg:w-1/2 space-y-6">
+              <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">What you&apos;ll learn?</h2>
+              <div className="space-y-6 text-gray-700">
+                <div className="grid grid-cols-1 gap-4">
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-semibold">🚀 GitHub Mastery</h3>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Submit your first PR the right way</li>
+                      <li>Create and manage issues effectively</li>
+                      <li>Review code from fellow participants</li>
+                      <li>Open-source etiquette and best practices</li>
+                    </ul>
+                  </div>
+
+                  <div className="space-y-4">
+                    <h3 className="text-xl font-semibold">⚡ Technical Growth</h3>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li>Complementary challenges to Speedrun Ethereum</li>
+                      <li>Real-world building experience</li>
+                      <li>Mentorship on contributing to open-source projects</li>
+                      <li>Technical and social skills for web3 collaboration</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="bg-white/50 p-4 rounded-lg space-y-3">
+                  <p className="text-sm italic">
+                    👩‍💻 It&apos;s like MIT&apos;s &quot;The Missing Semester of Your CS Education&quot;, but tailored for
+                    on-chain developers.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
