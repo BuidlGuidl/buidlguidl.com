@@ -98,7 +98,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                 <Image src="/assets/bg-batches-train.png" alt="BG Train" width={600} height={500} priority />
               </div>
             </div>
-            <h3 className="pt-2 text-xl">From beginner to expert in dApp development</h3>
+            <h3 className="pt-2 text-xl">From beginner to expert in open source dApp development</h3>
           </div>
         </div>
       </div>
@@ -108,23 +108,36 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="text-center md:text-left lg:w-1/2 space-y-6">
-              <h2 className="text-3xl lg:text-5xl font-bold">What are BuidlGuidl Batches?</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold whitespace-nowrap">
+                What are BuidlGuidl Batches?
+              </h2>
               <div className="space-y-4 text-gray-700">
-                <p>
+                <p className="text-lg">
                   BuidlGuidl Batches is a program designed for builders who have completed Speedrun Ethereum. It&apos;s
-                  the next step in your journey as a web3 developer, offering additional challenges and skills to
-                  enhance your abilities.
+                  the next step in your journey as a web3 developer! 🚀
                 </p>
-                <p>
-                  After completing the program, you&apos;ll be equipped with both technical and social skills that will
-                  help you collaborate more effectively in the web3 ecosystem.
-                </p>
-                <ul className="text-left list-disc list-inside">
-                  <li>Complimentary challenges to Speedrun Ethereum</li>
-                  <li>Mentorship on contributing to open source projects on GitHub</li>
-                  <li>Open source etiquette and best practices</li>
-                  <li>Real-world building Experience</li>
-                </ul>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-white/50 p-4 rounded-lg">
+                    <h3 className="font-bold mb-2">🌐 Open-Source in Web3</h3>
+                    <p>Take your first steps into web3 open-source development.</p>
+                  </div>
+
+                  <div className="bg-white/50 p-4 rounded-lg">
+                    <h3 className="font-bold mb-2">🔧 GitHub Contributions</h3>
+                    <p>Learn to submit PRs, manage issues, and review code effectively.</p>
+                  </div>
+
+                  <div className="bg-white/50 p-4 rounded-lg">
+                    <h3 className="font-bold mb-2">✨ Build Apps</h3>
+                    <p>Create a web3 app collaboratively with other builders.</p>
+                  </div>
+
+                  <div className="bg-white/50 p-4 rounded-lg">
+                    <h3 className="font-bold mb-2">🛠️ Solidity Skills</h3>
+                    <p>Refine and practice your Solidity skills with further challenges.</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="lg:w-1/2">
@@ -135,6 +148,29 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                 height={600}
                 className="w-full h-auto object-contain max-w-[300px] lg:max-w-full"
               />
+            </div>
+          </div>
+          {/* Next Batch CTA */}
+          <div className="mt-16 mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6">
+              <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
+                <h3 className="card-title text-2xl text-white mb-3 justify-center lg:justify-start">
+                  Batch #{openBatchNumber}
+                </h3>
+                <p className="text-white">
+                  Complete SpeedRunEthereum and join BuidlGuidl to be part of the next batch starting
+                  <strong>{openBatchStartDate ? ` on ${formatDate(openBatchStartDate)}` : " soon"}!</strong>
+                </p>
+              </div>
+              <div className="flex justify-center lg:justify-end w-full lg:w-auto">
+                <TrackedLink
+                  id="apply-next-batch"
+                  href="https://speedrunethereum.com/"
+                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap"
+                >
+                  Go SpeedRunEthereum
+                </TrackedLink>
+              </div>
             </div>
           </div>
         </div>
@@ -172,22 +208,22 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       <div className="bg-[#EDEFFF] pt-16 lg:pt-24 pb-16">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           {/* Next Batch CTA */}
-          <div className="mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-6 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
-            <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between">
-              <div className="mb-4 lg:mb-0 max-w-full lg:max-w-[55%] text-center lg:text-left">
-                <h3 className="card-title text-2xl text-white mb-2 justify-center lg:justify-start">
+          <div className="mt-16 mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+            <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6">
+              <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
+                <h3 className="card-title text-2xl text-white mb-3 justify-center lg:justify-start">
                   Batch #{openBatchNumber}
                 </h3>
-                <p className="text-white pr-2">
+                <p className="text-white">
                   Complete SpeedRunEthereum and join BuidlGuidl to be part of the next batch starting
-                  <strong>{openBatchStartDate ? ` on ${formatDate(openBatchStartDate)}` : "soon"}!</strong>
+                  <strong>{openBatchStartDate ? ` on ${formatDate(openBatchStartDate)}` : " soon"}!</strong>
                 </p>
               </div>
               <div className="flex justify-center lg:justify-end w-full lg:w-auto">
                 <TrackedLink
                   id="apply-next-batch"
                   href="https://speedrunethereum.com/"
-                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap lg:mr-10"
+                  className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap"
                 >
                   Go SpeedRunEthereum
                 </TrackedLink>
