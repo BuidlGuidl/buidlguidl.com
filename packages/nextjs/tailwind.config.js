@@ -68,6 +68,7 @@ module.exports = {
         "space-grotesk": ["Space Grotesk", "sans-serif"],
         "neue-machina": ["PPNeueMachina", "sans-serif"],
         "editorial": ["PPEditorial", "serif"],
+        "space-mono": ["Space Mono", "monospace"],
       },
       backgroundColor: {
         skin: "#EBECFD",
