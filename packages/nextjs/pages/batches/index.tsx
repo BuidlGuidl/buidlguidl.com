@@ -165,34 +165,49 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
             </div>
             <div className="lg:w-1/2 space-y-6">
               <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">What you&apos;ll learn?</h2>
-              <div className="space-y-6 text-gray-700">
-                <div className="grid grid-cols-1 gap-4">
-                  <div className="space-y-4 p-4">
-                    <h3 className="text-xl font-semibold">🚀 GitHub Mastery</h3>
-                    <ul className="list-disc list-inside space-y-2">
-                      <li>Submit your first PR the right way</li>
-                      <li>Create and manage issues effectively</li>
-                      <li>Review code from fellow participants</li>
-                      <li>Open-source etiquette and best practices</li>
-                    </ul>
-                  </div>
-
-                  <div className="space-y-4 p-4">
-                    <h3 className="text-xl font-semibold">⚡ Technical Growth</h3>
-                    <ul className="list-disc list-inside space-y-2">
-                      <li>Complementary challenges to Speedrun Ethereum</li>
-                      <li>Real-world building experience</li>
-                      <li>Mentorship on contributing to open-source projects</li>
-                      <li>Technical and social skills for web3 collaboration</li>
-                    </ul>
-                  </div>
+              <div className="grid grid-cols-1 gap-4">
+                <div className="space-y-4 p-4">
+                  <h3 className="text-xl font-semibold">🚀 GitHub Mastery</h3>
+                  <ul className="space-y-2">
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Submit your first PR the right way</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Create and manage issues effectively</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Review code from fellow participants</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Open-source etiquette and best practices</span>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-white/50 p-4 rounded-lg space-y-3">
-                  <p className="text-sm italic">
-                    👩‍💻 It&apos;s like MIT&apos;s &quot;The Missing Semester of Your CS Education&quot;, but tailored for
-                    on-chain developers.
-                  </p>
+                <div className="space-y-4 p-4">
+                  <h3 className="text-xl font-semibold">⚡ Technical Growth</h3>
+                  <ul className="space-y-2">
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Complementary challenges to Speedrun Ethereum</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Real-world building experience</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Mentorship on contributing to open-source projects</span>
+                    </li>
+                    <li className="flex">
+                      <span className="mr-2">•</span>
+                      <span>Technical and social skills for web3 collaboration</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
