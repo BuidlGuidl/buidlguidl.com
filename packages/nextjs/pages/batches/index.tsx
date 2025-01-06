@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BatchCta } from "./components/BatchCta";
+import { Card } from "./components/Card";
 import { formatDate } from "./utils/formatDate";
 import type { GetStaticProps } from "next";
 import { Footer } from "~~/components/Footer";
@@ -108,27 +109,27 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   BuidlGuidl Batches is a program designed for builders who have completed Speedrun Ethereum. It&apos;s
                   the next step in your journey as a web3 developer! 🚀
                 </p>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2 mt-2">🌐 Open-Source in Web3</h3>
-                    <p>Take your first steps into web3 open-source development.</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2 mt-2">🔧 GitHub Contributions</h3>
-                    <p>Learn to submit PRs, manage issues, and review code effectively.</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2 mt-2">✨ Build Apps</h3>
-                    <p>Create a web3 app collaboratively with other builders.</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2 mt-2">🛠️ Solidity Skills</h3>
-                    <p>Refine and practice your Solidity skills with further challenges.</p>
-                  </div>
+                  <Card
+                    icon="🌐"
+                    title="Open-Source in Web3"
+                    description="Take your first steps into web3 open-source development."
+                  />
+                  <Card
+                    icon="🔧"
+                    title="GitHub Contributions"
+                    description="Learn to submit PRs, manage issues, and review code effectively."
+                  />
+                  <Card
+                    icon="✨"
+                    title="Build Apps"
+                    description="Create a web3 app collaboratively with other builders."
+                  />
+                  <Card
+                    icon="🛠️"
+                    title="Solidity Skills"
+                    description="Refine and practice your Solidity skills with further challenges."
+                  />
                 </div>
               </div>
             </div>
@@ -215,6 +216,8 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
         </div>
       </div>
 
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-10"> */}
+
       {/* How Batches Work */}
       <div className="bg-[#EBFFA9] py-16 lg:py-24">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
@@ -222,34 +225,27 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
             <div className="lg:w-1/2 space-y-8">
               <h2 className="text-center md:text-left text-3xl lg:text-5xl font-bold">How do Batches work?</h2>
               <div className="space-y-4">
-                <div className="grid gap-4">
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">
-                      <span className="text-primary">📚</span> GitHub Repository
-                    </h3>
-                    <p className="text-gray-700 mb-0">Each batch has its own dedicated repository for collaboration</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">
-                      <span className="text-primary">💬</span> Community Support
-                    </h3>
-                    <p className="text-gray-700 mb-0">Connect with peers and mentors in a dedicated Telegram group</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">
-                      <span className="text-primary">🎯</span> Learning Journey
-                    </h3>
-                    <p className="text-gray-700 mb-0">Complete challenges and contribute to open source projects</p>
-                  </div>
-
-                  <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">
-                      <span className="text-primary">🚀</span> Final Project
-                    </h3>
-                    <p className="text-gray-700 mb-0">Build your project and get a chance to receive a grant!</p>
-                  </div>
+                <div className="grid gap-10">
+                  <Card
+                    icon="📚"
+                    title="GitHub Repository"
+                    description="Each batch has its own dedicated repository for collaboration"
+                  />
+                  <Card
+                    icon="💬"
+                    title="Community Support"
+                    description="Connect with peers and mentors in a dedicated Telegram group"
+                  />
+                  <Card
+                    icon="🎯"
+                    title="Learning Journey"
+                    description="Complete challenges and contribute to open source projects"
+                  />
+                  <Card
+                    icon="🚀"
+                    title="Final Project"
+                    description="Build your project and get a chance to receive a grant!"
+                  />
                 </div>
               </div>
             </div>
