@@ -102,33 +102,31 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             <div className="text-center md:text-left lg:w-1/2 space-y-6">
-              <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold whitespace-nowrap">
-                What are BuidlGuidl Batches?
-              </h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold ">What are BuidlGuidl Batches?</h2>
               <div className="space-y-4 text-gray-700">
-                <p className="text-lg">
+                <p className="text-lg mb-10">
                   BuidlGuidl Batches is a program designed for builders who have completed Speedrun Ethereum. It&apos;s
                   the next step in your journey as a web3 developer! 🚀
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                   <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">🌐 Open-Source in Web3</h3>
+                    <h3 className="font-bold mb-2 mt-2">🌐 Open-Source in Web3</h3>
                     <p>Take your first steps into web3 open-source development.</p>
                   </div>
 
                   <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">🔧 GitHub Contributions</h3>
+                    <h3 className="font-bold mb-2 mt-2">🔧 GitHub Contributions</h3>
                     <p>Learn to submit PRs, manage issues, and review code effectively.</p>
                   </div>
 
                   <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">✨ Build Apps</h3>
+                    <h3 className="font-bold mb-2 mt-2">✨ Build Apps</h3>
                     <p>Create a web3 app collaboratively with other builders.</p>
                   </div>
 
                   <div className="bg-white/60 rounded-lg p-4 shadow-sm transition-shadow">
-                    <h3 className="font-bold mb-2">🛠️ Solidity Skills</h3>
+                    <h3 className="font-bold mb-2 mt-2">🛠️ Solidity Skills</h3>
                     <p>Refine and practice your Solidity skills with further challenges.</p>
                   </div>
                 </div>
