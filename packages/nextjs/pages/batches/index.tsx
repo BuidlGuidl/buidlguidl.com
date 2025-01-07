@@ -264,7 +264,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       </div>
 
       {/* CTA and the batch table */}
-      <div className="bg-[#EDEFFF] pt-16 lg:pt-24 pb-16">
+      <div className="bg-[#EDEFFF] pt-16 lg:pt-8 pb-16">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           {/* Next Batch CTA */}
           <BatchCta openBatchNumber={openBatchNumber} openBatchStartDate={openBatchStartDate} />
