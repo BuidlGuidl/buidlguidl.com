@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BatchCta } from "./components/BatchCta";
-import { Card } from "./components/Card";
-import { formatDate } from "./utils/formatDate";
+import { BatchCta } from "../../components/batches/BatchCta";
+import { Card } from "../../components/batches/Card";
+import { formatDate } from "../../utils/batches/formatDate";
 import type { GetStaticProps } from "next";
 import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";

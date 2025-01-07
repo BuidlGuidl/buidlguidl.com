@@ -1,4 +1,4 @@
-import { formatDate } from "../utils/formatDate";
+import { formatDate } from "../../utils/batches/formatDate";
 import TrackedLink from "~~/components/TrackedLink";
 
 interface BatchCtaProps {
