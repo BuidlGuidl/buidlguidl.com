@@ -328,8 +328,8 @@ const Home: NextPage<{
           <div className="container max-w-[90%] lg:max-w-7xl m-auto py-12 lg:py-12 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
             <div className="space-y-8 md:max-w-[70%] lg:max-w-[35%] flex flex-col items-center lg:items-start text-center lg:text-left">
               <Image src="/assets/bg-client-logo.svg" alt="BG Client logo" width={200} height={200} />
-              <p className="m-0 lg:pr-8 mb-3 lg:text-xl font-space-mono">
-                Run a full Ethereum node with a single command! Opt in to our distributed RPC to power BG apps too!
+              <p className="m-0 lg:pr-8 mb-3 lg:text-2xl">
+                A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members.
               </p>
               <TrackedLink
                 id="BG-Nodes"
