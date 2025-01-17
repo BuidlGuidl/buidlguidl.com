@@ -29,23 +29,22 @@ const Home: NextPage<{
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
-          <div className="flex justify-center">
-            <h1 className="text-center z-10 text-2xl max-w-xs lg:text-5xl lg:mt-8 lg:max-w-2xl px-3">
-              Learn, build, and thrive on Ethereum
+          <div className="flex flex-col justify-center items-left h-full ml-14">
+            <h1 className="text-left z-10 text-7xl">
+              Learn, build, and <br /> thrive on Ethereum
             </h1>
+            <Link href="#start-building-on-ethereum" className="hidden lg:block">
+              <TrackedLink
+                id="hero-button"
+                href="#start-building-on-ethereum"
+                className="btn btn-secondary btn-lg px-8 hover:opacity-100 w-fit mt-6 text-[1.3srem]"
+              >
+                Learn more
+              </TrackedLink>
+            </Link>
           </div>
         </div>
-        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center">
-          <Link href="#start-building-on-ethereum" className="hidden lg:block">
-            <Image
-              src="/assets/down-arrow.svg"
-              alt="diamon icon"
-              width={25}
-              height={25}
-              className="mb-3 cursor-pointer animate-bounce-interval"
-            />
-          </Link>
-        </div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
       </div>
 
       {/* Quote section*/}
