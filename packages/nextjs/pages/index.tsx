@@ -365,44 +365,6 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Grants */}
-      <div className="bg-[#282C52]">
-        <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
-            {/* Grants Text Content */}
-            <div className="md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <Image
-                src="/assets/grants-logo-dark.svg"
-                alt="buidlguidl grants logo"
-                width={280}
-                height={200}
-                className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
-              />
-              <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
-                Funding first time builders in the Ethereum ecosystem
-              </p>
-              <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
-                As builders come through our batch program, they become eligible for small grants to build their next
-                idea.
-              </p>
-              <TrackedLink
-                id="BG-Grants"
-                href="https://grants.buidlguidl.com"
-                className="btn btn-primary btn-md px-8 hover:opacity-100"
-              >
-                Apply for a small grant
-              </TrackedLink>
-            </div>
-            {/* Grants Image */}
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-10 2xl:pl-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/bg-universe.png" alt="buidlguidl universe" width={800} height={800} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Learn More  */}
       <div className="bg-skin">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
