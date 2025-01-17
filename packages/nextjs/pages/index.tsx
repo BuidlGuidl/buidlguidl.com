@@ -82,8 +82,8 @@ const Home: NextPage<{
                 Start building <br /> on Ethereum
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Start your journey with Speedrun Ethereum, then continue learning in our Batches program and opt to our
-                small grants to improve your skills!
+                Start your journey with Speedrun Ethereum, then join our onboarding Batches, and finally, apply to our
+                Grants program!
               </p>
             </div>
           </div>
@@ -329,18 +329,16 @@ const Home: NextPage<{
             <div className="space-y-8 md:max-w-[70%] lg:max-w-[35%] flex flex-col items-center lg:items-start text-center lg:text-left">
               <h2 className="text-2xl lg:text-4xl xl:text-5xl">
                 BuidlGuidl
-                <br /> Client
+                <br /> {'"Client"'}
               </h2>
-              <p className="m-0 lg:pr-8 mb-3 lg:text-2xl">
-                A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members.
-              </p>
+              <p className="m-0 lg:pr-8 mb-3 lg:text-2xl">One line command to run a full Ethereum Node!</p>
               <div className="flex gap-6">
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
                   className="btn btn-primary btn-md px-8 bg-[#FF66F9] border-[#FF66F9] hover:opacity-100"
                 >
-                  Go to site
+                  Run Ethereum
                 </TrackedLink>
                 <Image src="/assets/bg-client-logo.svg" alt="BG Client logo" width={150} height={150} />
               </div>
@@ -353,44 +351,6 @@ const Home: NextPage<{
                   width={800}
                   height={800}
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Grants */}
-      <div className="bg-[#282C52]">
-        <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
-            {/* Grants Text Content */}
-            <div className="md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <Image
-                src="/assets/grants-logo-dark.svg"
-                alt="buidlguidl grants logo"
-                width={280}
-                height={200}
-                className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
-              />
-              <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
-                Funding first time builders in the Ethereum ecosystem
-              </p>
-              <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
-                As builders come through our batch program, they become eligible for small grants to build their next
-                idea.
-              </p>
-              <TrackedLink
-                id="BG-Grants"
-                href="https://grants.buidlguidl.com"
-                className="btn btn-primary btn-md px-8 hover:opacity-100"
-              >
-                Apply for a small grant
-              </TrackedLink>
-            </div>
-            {/* Grants Image */}
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-10 2xl:pl-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/bg-universe.png" alt="buidlguidl universe" width={800} height={800} />
               </div>
             </div>
           </div>
@@ -417,10 +377,10 @@ const Home: NextPage<{
               link="https://buidlguidl.substack.com/"
             />
             <LearnMoreCard
-              name="📡 BG Client"
+              name="📡 BuidlGuidl on X"
               src="/assets/bg-client.png"
-              description="A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members."
-              link="https://client.buidlguidl.com"
+              description="Follow us on X for updates on Ethereum developer experience and onbaording!"
+              link="https://x.com/buidlguidl"
             />
           </div>
         </div>
