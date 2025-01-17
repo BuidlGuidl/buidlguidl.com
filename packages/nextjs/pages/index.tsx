@@ -82,8 +82,8 @@ const Home: NextPage<{
                 Start building <br /> on Ethereum
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Start your journey with Speedrun Ethereum, then continue learning in our Batches program and opt to our
-                small grants to improve your skills!
+                Start your journey with Speedrun Ethereum, then join our onboarding Batches, and finally, apply to our
+                Grants program!
               </p>
             </div>
           </div>
@@ -322,81 +322,35 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Nodes section */}
-      <div className="bg-[#EBEBEB] relative px-[13px]">
-        <div className="w-full border-t border-black absolute lg:top-16 top-14 left-0"></div>
-        <div className="h-full border-l border-black absolute top-0 lg:left-[76px] left-[58px]"></div>
-        <div className="w-full border-t border-black absolute lg:bottom-16 bottom-14 left-0"></div>
-        <div className="h-full border-l border-black absolute top-0 lg:right-[76px] right-[58px]"></div>
-        <div className="flex flex-col flex-grow lg:flex-row px-10 py-14 lg:py-16 lg:px-14 text-black">
-          {/* First column */}
-          <div className="flex flex-col flex-wrap">
-            <div className="flex items-start p-7 w-full lg:border-t lg:border-l lg:border-r-0 lg:border-b-0 border border-black">
-              <Image
-                src="/assets/client-logo.svg"
-                alt="client logo"
-                className="lg:w-[250px]"
-                width={200}
-                height={200}
-              />
-            </div>
-            <div className="md:flex flex-row flex-grow lg:border-y lg:border-l lg:border-r-0 border-x border-black">
-              <div className="flex flex-col justify-between items-start bg-[#FF66F9] p-7 pt-4">
-                <p className="lg:text-base text-sm font-mono pb-4">
-                  Run a full Ethereum node with a single command! Opt in to our distributed RPC to power BG apps too!
-                </p>
+      {/* BG Client */}
+      <div className="bg-base-300">
+        <div className="mx-auto lg:max-w-7xl">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-12 lg:py-12 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+            <div className="space-y-8 md:max-w-[70%] lg:max-w-[35%] flex flex-col items-center lg:items-start text-center lg:text-left">
+              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
+                BuidlGuidl
+                <br /> {'"Client"'}
+              </h2>
+              <p className="m-0 lg:pr-8 mb-3 lg:text-2xl">One line command to run a full Ethereum Node!</p>
+              <div className="flex gap-6">
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
-                  className="btn btn-md text-xs lg:text-base px-8 hover:opacity-100 font-mono bg-white text-black border-black rounded-none hover:bg-[#4AF361] hover:border-black"
+                  className="btn btn-primary btn-md px-8 bg-[#FF66F9] border-[#FF66F9] hover:opacity-100"
                 >
-                  Run a BG client
+                  Run Ethereum
                 </TrackedLink>
-              </div>
-              <div className="hidden sm:flex flex-col items-center bg-[#4AF361] p-3 min-w-[200px] md:border-l border-t md:border-t-0 border-black">
-                <Image src="/assets/satellite.png" alt="satellite" width={200} height={200} />
+                <Image src="/assets/bg-client-logo.svg" alt="BG Client logo" width={150} height={150} />
               </div>
             </div>
-          </div>
-          {/* Second column */}
-          <div className="flex flex-col items-center p-6 md:min-w-[400px] border border-black bg-[#4AF361] sm:bg-transparent">
-            <Image src="/assets/screenshot.png" alt="screenshot" width={700} height={700} />
-          </div>
-        </div>
-      </div>
-
-      {/* Grants */}
-      <div className="bg-[#282C52]">
-        <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto pb-16 pt-6 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-3 lg:gap-0">
-            {/* Grants Text Content */}
-            <div className="md:max-w-[70%] lg:max-w-[45%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <Image
-                src="/assets/grants-logo-dark.svg"
-                alt="buidlguidl grants logo"
-                width={280}
-                height={200}
-                className="mt-1 mb-1 lg:mb-4 w-[200px] h-auto md:w-[280px]"
-              />
-              <p className="text-[#9FA9FF] font-editorial mb-1 lg:mb-4 text-2xl lg:text-4xl xl:text-5xl">
-                Funding first time builders in the Ethereum ecosystem
-              </p>
-              <p className="text-white font-mono lg:pr-8 text-sm lg:text-base mb-6">
-                As builders come through our batch program, they become eligible for small grants to build their next
-                idea.
-              </p>
-              <TrackedLink
-                id="BG-Grants"
-                href="https://grants.buidlguidl.com"
-                className="btn btn-primary btn-md px-8 hover:opacity-100"
-              >
-                Apply for a small grant
-              </TrackedLink>
-            </div>
-            {/* Grants Image */}
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-10 2xl:pl-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/bg-universe.png" alt="buidlguidl universe" width={800} height={800} />
+            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
+              <div className="max-w-md lg:max-w-md xl:max-w-2xl 2xl:max-w-2xl">
+                <Image
+                  src="/assets/bg-client-monitor.png"
+                  alt="BG Client running on a computer"
+                  width={800}
+                  height={800}
+                />
               </div>
             </div>
           </div>
@@ -423,10 +377,10 @@ const Home: NextPage<{
               link="https://buidlguidl.substack.com/"
             />
             <LearnMoreCard
-              name="📡 BG Client"
+              name="📡 BuidlGuidl on X"
               src="/assets/bg-client.png"
-              description="A one line command to deploy and monitor an Ethereum Node, funded and maintained by BuidlGuidl members."
-              link="https://client.buidlguidl.com"
+              description="Follow us on X for updates on Ethereum developer experience and onbaording!"
+              link="https://x.com/buidlguidl"
             />
           </div>
         </div>
