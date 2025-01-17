@@ -25,19 +25,19 @@ const Home: NextPage<{
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative h-[60vh] flex flex-col">
+      <div className="relative h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
-          <div className="flex flex-col justify-center items-left h-full ml-14">
-            <h1 className="text-left z-10 text-7xl">
+        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover md:bg-center flex-grow mt-[-50px]">
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left h-full md:ml-14 mt-[-30px]">
+            <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
               Learn, build, and <br /> thrive on Ethereum
             </h1>
-            <Link href="#start-building-on-ethereum" className="hidden lg:block">
+            <Link href="#start-building-on-ethereum">
               <TrackedLink
                 id="hero-button"
                 href="#start-building-on-ethereum"
-                className="btn btn-secondary btn-lg px-8 hover:opacity-100 w-fit mt-6 text-[1.3srem]"
+                className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
               >
                 Learn more
               </TrackedLink>
