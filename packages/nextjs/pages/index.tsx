@@ -28,8 +28,8 @@ const Home: NextPage<{
       <div className="relative h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover md:bg-center flex-grow mt-[-50px]">
-          <div className="flex flex-col justify-center items-center md:items-start md:justify-left h-full md:ml-14 mt-[-30px]">
+        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 mt-[-30px]">
             <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
               Learn, build, and <br /> thrive on Ethereum
             </h1>
