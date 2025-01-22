@@ -385,7 +385,16 @@ const Home: NextPage<{
           </div>
         </div>
       </div>
-      <Footer />
+
+      {/* Image above footer */}
+      <div className="bg-skin relative -mb-[20px]">
+        <div className="object-cover w-full">
+          <Image src="/assets/bg-batches-footer.png" alt="Footer image" width={2500} height={1000} />
+        </div>
+      </div>
+      <div className="relative z-10">
+        <Footer />
+      </div>
     </>
   );
 };
