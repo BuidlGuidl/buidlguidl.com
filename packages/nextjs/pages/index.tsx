@@ -112,7 +112,8 @@ const Home: NextPage<{
       </div>
 
       {/* Scaffold-ETH 2 */}
-      <div className="base-200">
+      <div className="bg-[#FFD2B3]">
+        <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-white"></div>
         <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">

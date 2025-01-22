@@ -33,7 +33,7 @@ html {
 
 :root,
 [data-theme] {
-  background: hsl(var(--b2));
+  background: #EBECFE;
 }
 
 body {
