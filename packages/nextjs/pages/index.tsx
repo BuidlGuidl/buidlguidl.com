@@ -25,27 +25,26 @@ const Home: NextPage<{
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative h-[70vh] md:min-h-screen flex flex-col">
+      <div className="relative h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="bg-[url(/assets/hero.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
-          <div className="flex justify-center">
-            <h1 className="text-center z-10 text-2xl max-w-xs lg:text-5xl lg:mt-8 lg:max-w-2xl px-3">
-              Learn, build, and thrive on Ethereum
+        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 mt-[-30px]">
+            <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
+              Learn, build, and <br /> thrive on Ethereum
             </h1>
+            <Link href="#start-building-on-ethereum">
+              <TrackedLink
+                id="hero-button"
+                href="#start-building-on-ethereum"
+                className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
+              >
+                Learn more
+              </TrackedLink>
+            </Link>
           </div>
         </div>
-        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center">
-          <Link href="#start-building-on-ethereum" className="hidden lg:block">
-            <Image
-              src="/assets/down-arrow.svg"
-              alt="diamon icon"
-              width={25}
-              height={25}
-              className="mb-3 cursor-pointer animate-bounce-interval"
-            />
-          </Link>
-        </div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
       </div>
 
       {/* Quote section*/}
@@ -113,7 +112,8 @@ const Home: NextPage<{
       </div>
 
       {/* Scaffold-ETH 2 */}
-      <div className="base-200">
+      <div className="bg-[#FFD2B3]">
+        <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-white"></div>
         <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
           <div className="space-y-6">
@@ -336,7 +336,7 @@ const Home: NextPage<{
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
-                  className="btn btn-primary btn-md px-8 bg-[#FF66F9] border-[#FF66F9] hover:opacity-100"
+                  className="btn btn-md px-8 bg-[#FF66F9] text-black border-none hover:opacity-100"
                 >
                   Run Ethereum
                 </TrackedLink>
@@ -385,7 +385,16 @@ const Home: NextPage<{
           </div>
         </div>
       </div>
-      <Footer />
+
+      {/* Image above footer */}
+      <div className="bg-skin relative -mb-[20px]">
+        <div className="object-cover w-full">
+          <Image src="/assets/bg-batches-footer.png" alt="Footer image" width={2500} height={1000} />
+        </div>
+      </div>
+      <div className="relative z-10">
+        <Footer />
+      </div>
     </>
   );
 };
