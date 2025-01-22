@@ -335,7 +335,7 @@ const Home: NextPage<{
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
-                  className="btn btn-primary btn-md px-8 bg-[#FF66F9] border-[#FF66F9] hover:opacity-100"
+                  className="btn btn-md px-8 bg-[#FF66F9] text-black border-none hover:opacity-100"
                 >
                   Run Ethereum
                 </TrackedLink>
