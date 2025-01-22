@@ -25,27 +25,26 @@ const Home: NextPage<{
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative h-[70vh] md:min-h-screen flex flex-col">
+      <div className="relative h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
-        <div className="bg-[url(/assets/hero.png)] bg-[#EFFBCA] bg-cover md:bg-center bg-[position:40%_0] flex-grow">
-          <div className="flex justify-center">
-            <h1 className="text-center z-10 text-2xl max-w-xs lg:text-5xl lg:mt-8 lg:max-w-2xl px-3">
-              Learn, build, and thrive on Ethereum
+        <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 mt-[-30px]">
+            <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
+              Learn, build, and <br /> thrive on Ethereum
             </h1>
+            <Link href="#start-building-on-ethereum">
+              <TrackedLink
+                id="hero-button"
+                href="#start-building-on-ethereum"
+                className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
+              >
+                Learn more
+              </TrackedLink>
+            </Link>
           </div>
         </div>
-        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center">
-          <Link href="#start-building-on-ethereum" className="hidden lg:block">
-            <Image
-              src="/assets/down-arrow.svg"
-              alt="diamon icon"
-              width={25}
-              height={25}
-              className="mb-3 cursor-pointer animate-bounce-interval"
-            />
-          </Link>
-        </div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
       </div>
 
       {/* Quote section*/}
