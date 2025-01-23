@@ -39,7 +39,7 @@ const Home: NextPage<{
                 href="#start-building-on-ethereum"
                 className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
               >
-                Learn more
+                Get started
               </TrackedLink>
             </Link>
           </div>
