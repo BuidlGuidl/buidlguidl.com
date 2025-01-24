@@ -39,7 +39,7 @@ const Home: NextPage<{
                 href="#start-building-on-ethereum"
                 className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
               >
-                Learn more
+                Get started
               </TrackedLink>
             </Link>
           </div>
@@ -325,18 +325,17 @@ const Home: NextPage<{
       {/* BG Client */}
       <div className="bg-base-300">
         <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-12 lg:py-12 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-            <div className="space-y-8 md:max-w-[70%] lg:max-w-[35%] flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
+            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
               <h2 className="text-2xl lg:text-4xl xl:text-5xl">
-                BuidlGuidl
-                <br /> {'"Client"'}
+                BuidlGuidl <br /> {'"Client"'}{" "}
               </h2>
-              <p className="m-0 lg:pr-8 mb-3 lg:text-2xl">One line command to run a full Ethereum Node!</p>
-              <div className="flex gap-6">
+              <p className="m-0 lg:pr-8 mb-3">One line command to run a full Ethereum Node!</p>
+              <div className="flex gap-6 mt-8">
                 <TrackedLink
                   id="BG-Nodes"
                   href="https://client.buidlguidl.com"
-                  className="btn btn-md px-8 bg-[#FF66F9] text-black border-none hover:opacity-100"
+                  className="btn btn-md btn-secondary px-8 hover:opacity-100"
                 >
                   Run Ethereum
                 </TrackedLink>
@@ -344,12 +343,12 @@ const Home: NextPage<{
               </div>
             </div>
             <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-2xl 2xl:max-w-2xl">
+              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
                 <Image
                   src="/assets/bg-client-monitor.png"
                   alt="BG Client running on a computer"
-                  width={800}
-                  height={800}
+                  width={700}
+                  height={700}
                 />
               </div>
             </div>
