@@ -330,7 +330,7 @@ const Home: NextPage<{
               <h2 className="text-2xl lg:text-4xl xl:text-5xl">
                 BuidlGuidl <br /> {'"Client"'}{" "}
               </h2>
-              <p className="m-0 lg:pr-8 mb-3">One line command to run a full Ethereum Node!</p>
+              <p className="m-0 lg:pr-8 mb-3">One line command to run an Ethereum full node!</p>
               <div className="flex gap-6 mt-8">
                 <TrackedLink
                   id="BG-Nodes"
