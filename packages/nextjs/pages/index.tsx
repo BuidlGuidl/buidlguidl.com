@@ -273,6 +273,12 @@ const Home: NextPage<{
               <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
                 <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
                 <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} />
+                <Image
+                  src="/assets/arbitrum-foundation-logo.svg"
+                  alt="Arbitrum Foundation logo"
+                  width={170}
+                  height={44}
+                />
               </div>
               <TrackedLink
                 id="co-fund-email"
