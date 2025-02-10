@@ -378,7 +378,7 @@ const Home: NextPage<{
             />
             <LearnMoreCard
               name="📡 BuidlGuidl on X"
-              src="/assets/bg-client.png"
+              src="/assets/bg-client-card.png"
               description="Follow us on X for updates on Ethereum developer experience and onbaording!"
               link="https://x.com/buidlguidl"
             />
