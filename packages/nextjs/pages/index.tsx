@@ -168,7 +168,7 @@ const Home: NextPage<{
               </TrackedLink>
             </div>
           </div>
-          <div className="flex flex-col items-center max-w-[400px] lg:max-w-none lg:pr-10">
+          <div className="flex flex-col items-center max-w-[400px] mr-6 lg:mr-0 lg:max-w-none lg:pr-10">
             <Image src="/assets/airship.png" alt="Eth Tour airship" width={500} height={500} />
           </div>
         </div>
