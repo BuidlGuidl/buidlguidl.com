@@ -148,6 +148,32 @@ const Home: NextPage<{
         </div>
       </div>
 
+      {/* Tour section */}
+      <div className="bg-[url(/assets/background-clouds-mobile.png)] lg:bg-[url(/assets/background-clouds.png)] bg-no-repeat bg-cover bg-center">
+        <div className="container max-w-[80%] lg:max-w-6xl m-auto py-10 lg:py-14 lg:px-12 flex flex-col-reverse lg:flex-row items-center justify-between gap-5 lg:gap-0">
+          <div className="space-y-6">
+            <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
+              Ethereum <br /> on Tour
+            </h2>
+            <p className="text-center lg:text-left">
+              Bringing Ethereum curriculum, <br /> tools, and mentorship to you!
+            </p>
+            <div className="text-center lg:text-left">
+              <TrackedLink
+                id="Eth Tour website"
+                href="https://tour.buidlguidl.com"
+                className="btn btn-primary btn-md lg:self-start px-8 rounded-full hover:opacity-100"
+              >
+                See our next dates
+              </TrackedLink>
+            </div>
+          </div>
+          <div className="flex flex-col items-center max-w-[400px] lg:max-w-none lg:pr-10">
+            <Image src="/assets/airship.png" alt="Eth Tour airship" width={500} height={500} />
+          </div>
+        </div>
+      </div>
+
       {/* Feature Builds */}
       <div className="bg-base-300">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
