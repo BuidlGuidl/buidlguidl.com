@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
@@ -21,6 +22,27 @@ type Stats = {
 const Home: NextPage<{
   stats: Stats;
 }> = ({ stats }) => {
+  const [scrollY, setScrollY] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize(); // Initial check
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <MetaHeader />
@@ -169,7 +191,13 @@ const Home: NextPage<{
               </TrackedLink>
             </div>
           </div>
-          <div className="flex flex-col items-center max-w-[400px] mr-6 lg:mr-0 lg:max-w-none lg:pr-10">
+          <div
+            className="flex flex-col items-center max-w-[400px] mr-6 lg:mr-0 lg:max-w-none lg:pr-10"
+            style={{
+              transform: `translateY(${scrollY * -0.05 + (isMobile ? 200 : 150)}px)`,
+              transition: "transform 0.1s ease-out",
+            }}
+          >
             <Image src="/assets/airship.png" alt="Eth Tour airship" width={500} height={500} />
           </div>
         </div>
