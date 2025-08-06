@@ -342,7 +342,8 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
 
 export const getStaticProps: GetStaticProps<PageProps> = async () => {
   try {
-    const batchesResponse = await fetch("https://speedrunethereum.com/api/batches/public");
+    const API_BASE = process.env.NEXT_PUBLIC_BATCHES_API || "https://speedrunethereum.com";
+    const batchesResponse = await fetch(`${API_BASE}/api/batches/public`);
 
     if (!batchesResponse.ok) {
       throw new Error(`Failed to fetch batches: ${batchesResponse.status} ${batchesResponse.statusText}`);
