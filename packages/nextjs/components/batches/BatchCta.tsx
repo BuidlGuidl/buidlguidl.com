@@ -15,7 +15,7 @@ export const BatchCta = ({ openBatchNumber, openBatchStartDate }: BatchCtaProps)
             Batch #{openBatchNumber}
           </h3>
           <p className="text-white">
-            Complete SpeedRunEthereum and join BuidlGuidl to be part of the next batch starting
+            Complete SpeedRunEthereum and join the next BuidlGuidl Batch starting
             <strong>{openBatchStartDate ? ` on ${formatDate(openBatchStartDate)}` : " soon"}!</strong>
           </p>
         </div>
