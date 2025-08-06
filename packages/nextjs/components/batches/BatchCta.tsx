@@ -3,7 +3,7 @@ import TrackedLink from "~~/components/TrackedLink";
 
 interface BatchCtaProps {
   openBatchNumber: number | null;
-  openBatchStartDate: number | null;
+  openBatchStartDate: string | null;
 }
 
 export const BatchCta = ({ openBatchNumber, openBatchStartDate }: BatchCtaProps) => {

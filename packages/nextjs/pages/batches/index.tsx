@@ -10,28 +10,31 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
 interface BatchData {
-  id: string;
+  id: number;
   name: string;
   status: "open" | "closed";
-  telegramLink: string;
-  startDate: number;
+  startDate: string;
   contractAddress: string;
-  nftContractAddress: string;
-  totalParticipants: number;
-  graduates: number;
+  bgSubdomain: string;
+  totalParticipants?: number;
+  graduates?: number;
+  // Computed fields
   batchPageLink?: string;
   githubRepoLink?: string;
 }
 
 function getBatchNumber(batchName: string): number {
-  const number = parseInt(batchName.replace("#", ""), 10);
-  return isNaN(number) ? -1 : number;
+  const match = batchName.match(/Batch\s+(\d+)/i);
+  if (match) {
+    return parseInt(match[1], 10);
+  }
+  return -1;
 }
 
 interface PageProps {
   batchData: BatchData[];
   openBatchNumber: number | null;
-  openBatchStartDate: number | null;
+  openBatchStartDate: string | null;
 }
 
 // Custom header for the batches page since the "Go to app" button is different
@@ -295,30 +298,17 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
-                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants || "-"}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.graduates || "-"}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
-                        <div className="w-[120px] flex items-center gap-2">
-                          <TrackedLink
-                            id={`${batch.name}-page`}
-                            href={batch.batchPageLink || ""}
-                            className="btn btn-xs btn-primary text-white hover:opacity-80"
-                          >
-                            Website
-                          </TrackedLink>
-                          <div className="flex items-center gap-1">
-                            {batch.nftContractAddress && batch.graduates > 0 && (
-                              <TrackedLink
-                                id={`${batch.name}-opensea`}
-                                href={`https://opensea.io/assets/optimism/${batch.nftContractAddress}`}
-                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
-                              >
-                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
-                              </TrackedLink>
-                            )}
-                          </div>
-                        </div>
+                        <TrackedLink
+                          id={`${batch.name}-page`}
+                          href={batch.batchPageLink || ""}
+                          className="btn btn-xs btn-primary text-white hover:opacity-80"
+                        >
+                          Website
+                        </TrackedLink>
                       </div>
                     </td>
                   </tr>
@@ -352,7 +342,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
 
 export const getStaticProps: GetStaticProps<PageProps> = async () => {
   try {
-    const batchesResponse = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/batches`);
+    const batchesResponse = await fetch("https://speedrunethereum.com/api/batches/public");
 
     if (!batchesResponse.ok) {
       throw new Error("Failed to fetch data");
@@ -360,33 +350,17 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
 
     const batchesData: BatchData[] = await batchesResponse.json();
 
-    // Find open batch number or calculate next batch number
     const openBatch = batchesData.find(batch => batch.status === "open");
-    let openBatchNumber: number | null = null;
-    let openBatchStartDate: number | null = null;
+    const openBatchNumber = openBatch ? getBatchNumber(openBatch.name) : null;
+    const openBatchStartDate = openBatch ? openBatch.startDate : null;
 
-    if (openBatch) {
-      openBatchNumber = parseInt(openBatch.name);
-      openBatchStartDate = openBatch.startDate;
-    } else {
-      // Find the highest batch number and add 1
-      const highestBatch = Math.max(...batchesData.map(batch => parseInt(batch.name)));
-      openBatchNumber = highestBatch + 1;
-      openBatchStartDate = null;
-    }
-
-    // Enrich batch data with additional fields
     const batches: BatchData[] = batchesData.map(batch => ({
       ...batch,
-      name: `#${batch.name}`,
-      totalParticipants: batch.totalParticipants || 0,
-      startDate: batch.startDate,
-      batchPageLink: `https://batch${batch.name}.buidlguidl.com/`,
-      githubRepoLink: `https://github.com/BuidlGuidl/batch${batch.name}.buidlguidl.com`,
+      batchPageLink: `https://${batch.bgSubdomain}.buidlguidl.com/`,
+      githubRepoLink: `https://github.com/BuidlGuidl/${batch.bgSubdomain}.buidlguidl.com`,
     }));
 
-    // Sort batches by number (newest first)
-    const sortedBatches = batches.sort((a, b) => getBatchNumber(b.name) - getBatchNumber(a.name));
+    const sortedBatches = batches.sort((a, b) => b.id - a.id); // sort by id (newest first)
 
     return {
       props: {
