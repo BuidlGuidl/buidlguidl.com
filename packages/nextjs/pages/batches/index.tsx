@@ -345,7 +345,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     const batchesResponse = await fetch("https://speedrunethereum.com/api/batches/public");
 
     if (!batchesResponse.ok) {
-      throw new Error("Failed to fetch data");
+      throw new Error(`Failed to fetch batches: ${batchesResponse.status} ${batchesResponse.statusText}`);
     }
 
     const batchesData: BatchData[] = await batchesResponse.json();
