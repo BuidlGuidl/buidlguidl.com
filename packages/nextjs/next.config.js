@@ -35,7 +35,7 @@ const nextConfig = {
       },
       {
         source: "/activity",
-        destination: "https://speedrunethereum.com/activity",
+        destination: "https://speedrunethereum.com/admin/activity",
         permanent: true,
       },
     ];
