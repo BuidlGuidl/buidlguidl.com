@@ -261,7 +261,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   <Card
                     icon="🚀"
                     title="Final Project"
-                    description="Build your project and get a chance to receive a grant!"
+                    description="Build your project and get a chance to pitch in front of BG team!"
                   />
                 </div>
               </div>
