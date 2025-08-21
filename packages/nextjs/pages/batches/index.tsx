@@ -51,7 +51,7 @@ const BatchesHeader = () => {
       <div className="navbar-end flex-grow mr-4 space-x-6 z-10">
         <TrackedLink
           id="buidlguidl:app"
-          href="https://app.buidlguidl.com"
+          href="https://speedrunethereum.com"
           className="btn btn-primary bg-info hover:border-info text-[#182232] btn-xs md:btn-sm md:px-5 hover:opacity-100"
         >
           Go to app
