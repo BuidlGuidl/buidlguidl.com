@@ -21,6 +21,8 @@ interface BatchData {
   // Computed fields
   batchPageLink?: string;
   githubRepoLink?: string;
+  nftContractAddress?: string;
+  network?: string;
 }
 
 function getBatchNumber(batchName: string): number {
@@ -298,17 +300,30 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
-                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants || "-"}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.graduates || "-"}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
-                        <TrackedLink
-                          id={`${batch.name}-page`}
-                          href={batch.batchPageLink || ""}
-                          className="btn btn-xs btn-primary text-white hover:opacity-80"
-                        >
-                          Website
-                        </TrackedLink>
+                        <div className="w-[120px] flex items-center gap-2">
+                          <TrackedLink
+                            id={`${batch.name}-page`}
+                            href={batch.batchPageLink || ""}
+                            className="btn btn-xs btn-primary text-white hover:opacity-80"
+                          >
+                            Website
+                          </TrackedLink>
+                          <div className="flex items-center gap-1">
+                            {batch.nftContractAddress && batch.graduates && batch.graduates > 0 && (
+                              <TrackedLink
+                                id={`${batch.name}-opensea`}
+                                href={`https://opensea.io/assets/${batch.network}/${batch.nftContractAddress}`}
+                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
+                              >
+                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
+                              </TrackedLink>
+                            )}
+                          </div>
+                        </div>
                       </div>
                     </td>
                   </tr>
@@ -359,6 +374,9 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
       ...batch,
       batchPageLink: `https://${batch.bgSubdomain}.buidlguidl.com/`,
       githubRepoLink: `https://github.com/BuidlGuidl/${batch.bgSubdomain}.buidlguidl.com`,
+      nftContractAddress: batch.nftContractAddress,
+      graduates: batch.graduates,
+      network: batch.network,
     }));
 
     const sortedBatches = batches.sort((a, b) => b.id - a.id); // sort by id (newest first)
