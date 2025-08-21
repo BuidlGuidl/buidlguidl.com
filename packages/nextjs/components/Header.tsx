@@ -19,7 +19,7 @@ export const Header = () => {
       <div className="navbar-end flex-grow mr-4 space-x-6 z-10">
         <TrackedLink
           id="buidlguidl:app"
-          href="https://app.buidlguidl.com"
+          href="https://speedrunethereum.com"
           className="btn btn-neutral hover:bg-info hover:border-info text-accent-content btn-xs md:btn-sm px-4 font-light hover:opacity-100"
         >
           Go to App
