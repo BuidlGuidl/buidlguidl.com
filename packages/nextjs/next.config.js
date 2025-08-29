@@ -20,7 +20,7 @@ const nextConfig = {
       },
       {
         source: "/builders/:address",
-        destination: "https://speedrunethereum.com/builders:address",
+        destination: "https://speedrunethereum.com/builders/:address",
         permanent: true,
       },
       {
