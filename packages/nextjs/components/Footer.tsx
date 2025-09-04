@@ -20,7 +20,7 @@ export const Footer = () => {
           <div className="grid grid-cols-12 gap-y-6 gap-x-0 xs:gap-x-6">
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
               <p className="m-0 text-info font-normal">BuidlGuidl</p>
-              <a href="https://app.buidlguidl.com/builds" target="_blank" rel="noreferrer" className="m-0">
+              <a href="https://speedrunethereum.com/builds" target="_blank" rel="noreferrer" className="m-0">
                 Builds
               </a>
               <a href="https://github.com/scaffold-eth/scaffold-eth-2" target="_blank" rel="noreferrer" className="m-0">

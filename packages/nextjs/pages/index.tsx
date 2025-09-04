@@ -237,7 +237,7 @@ const Home: NextPage<{
               link="https://address.vision/"
             />
           </div>
-          <TrackedLink id="buidlguidl:projects" href="https://app.buidlguidl.com/builds" className="link mt-8">
+          <TrackedLink id="buidlguidl:projects" href="https://speedrunethereum.com/builds" className="link mt-8">
             See all projects
           </TrackedLink>
         </div>

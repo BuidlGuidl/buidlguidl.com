@@ -15,12 +15,12 @@ const nextConfig = {
     return [
       {
         source: "/builders",
-        destination: "https://app.buidlguidl.com/builders",
+        destination: "https://speedrunethereum.com/builders",
         permanent: true,
       },
       {
         source: "/builders/:address",
-        destination: "https://app.buidlguidl.com/builders/:address",
+        destination: "https://speedrunethereum.com/builders/:address",
         permanent: true,
       },
       {
@@ -30,12 +30,12 @@ const nextConfig = {
       },
       {
         source: "/builds",
-        destination: "https://app.buidlguidl.com/builds",
+        destination: "https://speedrunethereum.com/builds",
         permanent: true,
       },
       {
         source: "/activity",
-        destination: "https://app.buidlguidl.com/activity",
+        destination: "https://speedrunethereum.com/admin/activity",
         permanent: true,
       },
     ];
