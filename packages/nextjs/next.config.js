@@ -25,7 +25,7 @@ const nextConfig = {
       },
       {
         source: "/build/:buildId",
-        destination: "https://speedrunethereum.com/build/:buildId",
+        destination: "https://app.buidlguidl.com/build/:buildId",
         permanent: true,
       },
       {
