@@ -5,9 +5,21 @@ import { BatchCta } from "../../components/batches/BatchCta";
 import { Card } from "../../components/batches/Card";
 import { formatDate } from "../../utils/batches/formatDate";
 import type { GetStaticProps } from "next";
+import { Chain, createPublicClient, http } from "viem";
+import { arbitrum, optimism } from "viem/chains";
 import { Footer } from "~~/components/Footer";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
+
+const BATCH_GRADUATION_NFT_FUNCTION_ABI = [
+  {
+    inputs: [],
+    name: "batchGraduationNFT",
+    outputs: [{ internalType: "address", name: "", type: "address" }],
+    stateMutability: "view",
+    type: "function",
+  },
+] as const;
 
 interface BatchData {
   id: number;
@@ -21,6 +33,8 @@ interface BatchData {
   // Computed fields
   batchPageLink?: string;
   githubRepoLink?: string;
+  nftContractAddress?: string | null;
+  network?: string;
 }
 
 function getBatchNumber(batchName: string): number {
@@ -238,7 +252,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   <Card
                     icon="🚀"
                     title="Final Project"
-                    description="Build your project and get a chance to receive a grant!"
+                    description="Build your project and get a chance to pitch in front of BG team!"
                   />
                 </div>
               </div>
@@ -289,17 +303,30 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
                   >
                     <td className="py-3 px-2 xs:px-4">{batch.name}</td>
                     <td className="py-3 px-2 xs:px-4 hidden lg:table-cell">{formatDate(batch.startDate)}</td>
-                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants || "-"}</td>
+                    <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.totalParticipants}</td>
                     <td className="py-3 px-2 xs:px-4 hidden sm:table-cell">{batch.graduates || "-"}</td>
                     <td className="py-3 px-2 xs:px-4">
                       <div className="flex justify-center">
-                        <TrackedLink
-                          id={`${batch.name}-page`}
-                          href={batch.batchPageLink || ""}
-                          className="btn btn-xs btn-primary text-white hover:opacity-80"
-                        >
-                          Website
-                        </TrackedLink>
+                        <div className="w-[120px] flex items-center gap-2">
+                          <TrackedLink
+                            id={`${batch.name}-page`}
+                            href={batch.batchPageLink || ""}
+                            className="btn btn-xs btn-primary text-white hover:opacity-80"
+                          >
+                            Website
+                          </TrackedLink>
+                          <div className="flex items-center gap-1">
+                            {batch.nftContractAddress && batch.graduates && batch.graduates > 0 ? (
+                              <TrackedLink
+                                id={`${batch.name}-opensea`}
+                                href={`https://opensea.io/assets/${batch.network}/${batch.nftContractAddress}`}
+                                className="btn btn-xs btn-ghost p-0 min-h-0 w-[24px] h-[24px] hover:opacity-80 flex items-center justify-center"
+                              >
+                                <Image src="/assets/opensea-logo.svg" alt="OpenSea" width={24} height={24} />
+                              </TrackedLink>
+                            ) : null}
+                          </div>
+                        </div>
                       </div>
                     </td>
                   </tr>
@@ -331,6 +358,41 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
   );
 };
 
+const getNftContractAddress = async (contractAddress: string, network: string) => {
+  let chain: Chain;
+  if (network === "optimism") {
+    chain = optimism;
+  } else if (network === "arbitrum") {
+    chain = arbitrum;
+  } else {
+    throw new Error("Unsupported network");
+  }
+  let nftContractAddress: string | null = null;
+  try {
+    const publicClient = createPublicClient({
+      chain: chain as Chain,
+      transport: http(),
+    });
+
+    nftContractAddress = await publicClient.readContract({
+      address: contractAddress,
+      abi: BATCH_GRADUATION_NFT_FUNCTION_ABI,
+      functionName: "batchGraduationNFT",
+    });
+  } catch (error) {
+    console.error("Error reading NFT contract:", error);
+  }
+  return nftContractAddress;
+};
+
+const getNftContractAddressForBatch = async (batch: BatchData) => {
+  if (!batch.contractAddress || !batch.network) {
+    return null;
+  }
+  const nftContractAddress = await getNftContractAddress(batch.contractAddress, batch.network);
+  return nftContractAddress;
+};
+
 export const getStaticProps: GetStaticProps<PageProps> = async () => {
   try {
     const API_BASE = process.env.NEXT_PUBLIC_BATCHES_API || "https://speedrunethereum.com";
@@ -346,13 +408,21 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => {
     const openBatchNumber = openBatch ? getBatchNumber(openBatch.name) : null;
     const openBatchStartDate = openBatch ? openBatch.startDate : null;
 
-    const batches: BatchData[] = batchesData.map(batch => ({
-      ...batch,
-      batchPageLink: `https://${batch.bgSubdomain}.buidlguidl.com/`,
-      githubRepoLink: `https://github.com/BuidlGuidl/${batch.bgSubdomain}.buidlguidl.com`,
-    }));
+    const batchesWithNftAddresses = await Promise.all(
+      batchesData.map(async batch => {
+        const nftContractAddress = await getNftContractAddressForBatch(batch);
+        return {
+          ...batch,
+          batchPageLink: `https://${batch.bgSubdomain}.buidlguidl.com/`,
+          githubRepoLink: `https://github.com/BuidlGuidl/${batch.bgSubdomain}.buidlguidl.com`,
+          graduates: batch.graduates,
+          network: batch.network,
+          nftContractAddress: nftContractAddress || null,
+        };
+      }),
+    );
 
-    const sortedBatches = batches.sort((a, b) => b.id - a.id); // sort by id (newest first)
+    const sortedBatches = batchesWithNftAddresses.sort((a, b) => b.id - a.id);
 
     return {
       props: {
