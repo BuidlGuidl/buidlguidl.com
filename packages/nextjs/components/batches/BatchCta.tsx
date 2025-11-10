@@ -15,7 +15,7 @@ export const BatchCta = ({ openBatchNumber, openBatchStartDate }: BatchCtaProps)
             Batch #{openBatchNumber}
           </h3>
           <p className="text-white">
-            Complete SpeedRunEthereum and join the next BuidlGuidl Batch starting
+            Complete Speedrun Ethereum and join the next BuidlGuidl Batch starting
             <strong>{openBatchStartDate ? ` on ${formatDate(openBatchStartDate)}` : " soon"}!</strong>
           </p>
         </div>
@@ -25,7 +25,7 @@ export const BatchCta = ({ openBatchNumber, openBatchStartDate }: BatchCtaProps)
             href="https://speedrunethereum.com/"
             className="btn btn-sm bg-white text-primary hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap"
           >
-            Go SpeedRunEthereum
+            Go Speedrun Ethereum
           </TrackedLink>
         </div>
       </div>

@@ -195,7 +195,7 @@ const Devon2024 = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Speed Run Ethereum
+                  Speedrun Ethereum
                 </a>{" "}
                 to learn about smart contracts, Ethereum development, and join the BuidlGuidl.
               </p>
