@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
@@ -55,15 +54,12 @@ const Home: NextPage<{
             <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
               Learn, build, and <br /> thrive on Ethereum
             </h1>
-            <Link href="#start-building-on-ethereum">
-              <TrackedLink
-                id="hero-button"
-                href="#start-building-on-ethereum"
-                className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
-              >
-                Get started
-              </TrackedLink>
-            </Link>
+            <a
+              href="#start-building-on-ethereum"
+              className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
+            >
+              Get started
+            </a>
           </div>
         </div>
         <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
