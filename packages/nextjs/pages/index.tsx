@@ -121,19 +121,19 @@ const Home: NextPage<{
               name="Build a DEX"
               src="/assets/chall-dex.png"
               description="Build an exchange that swaps ETH to tokens using liquidity pools and automated market makers."
-              link="https://speedrunethereum.com/#challenge-4-dex"
+              link="https://speedrunethereum.com/challenge/dex"
             />
             <JourneyCard
               name="Stablecoins"
               src="/assets/chall-stablecoins.svg"
               description="Build a decentralized stablecoin backed by collateral with liquidation mechanics."
-              link="https://speedrunethereum.com/#challenge-6-stablecoins"
+              link="https://speedrunethereum.com/challenge/stablecoins"
             />
             <JourneyCard
               name="Prediction Markets"
               src="/assets/chall-prediction-markets.svg"
               description="Create a prediction market where users bet on outcomes with dynamic pricing."
-              link="https://speedrunethereum.com/#challenge-7-prediction-markets"
+              link="https://speedrunethereum.com/challenge/prediction-markets"
             />
           </div>
         </div>
