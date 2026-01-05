@@ -90,7 +90,7 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Master Ethereum DeFi */}
+      {/* Build on Ethereum */}
       <div className="bg-white pb-16" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col items-center lg:items-start">
           <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[460px] bg-[length:85px] lg:bg-[length:100px] max-w-[380px] pb-10">
@@ -104,16 +104,6 @@ const Home: NextPage<{
               </p>
             </div>
           </div>
-          {/* Speedrun Ethereum Banner */}
-          <TrackedLink
-            id="Speedrun-Ethereum-Banner"
-            href="https://speedrunethereum.com"
-            className="flex items-center gap-3 bg-primary/10 hover:bg-primary/20 transition-colors rounded-full px-6 py-3 mb-8 w-fit"
-          >
-            <span className="text-lg">🏃</span>
-            <span className="font-medium">Explore all challenges on Speedrun Ethereum</span>
-            <span className="text-lg">→</span>
-          </TrackedLink>
           {/* Cards container */}
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
@@ -136,6 +126,16 @@ const Home: NextPage<{
               link="https://speedrunethereum.com/challenge/prediction-markets"
             />
           </div>
+          {/* Speedrun Ethereum Banner */}
+          <TrackedLink
+            id="Speedrun-Ethereum-Banner"
+            href="https://speedrunethereum.com"
+            className="flex items-center gap-3 bg-primary/10 hover:bg-primary/20 transition-colors rounded-full px-6 py-3 mt-8 w-fit"
+          >
+            <span className="text-lg">🏃</span>
+            <span className="font-medium">Explore all challenges on Speedrun Ethereum</span>
+            <span className="text-lg">→</span>
+          </TrackedLink>
         </div>
       </div>
 
