@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
@@ -55,15 +54,12 @@ const Home: NextPage<{
             <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
               Learn, build, and <br /> thrive on Ethereum
             </h1>
-            <Link href="#start-building-on-ethereum">
-              <TrackedLink
-                id="hero-button"
-                href="#start-building-on-ethereum"
-                className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
-              >
-                Get started
-              </TrackedLink>
-            </Link>
+            <a
+              href="#start-building-on-ethereum"
+              className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
+            >
+              Get started
+            </a>
           </div>
         </div>
         <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
@@ -94,17 +90,17 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Start Building on Ethereum */}
+      {/* Build on Ethereum */}
       <div className="bg-white pb-16" id="start-building-on-ethereum">
         <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col items-center lg:items-start">
-          <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[580px] bg-[length:85px] lg:bg-[length:100px] max-w-[500px] pb-10">
+          <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[460px] bg-[length:85px] lg:bg-[length:100px] max-w-[380px] pb-10">
             <div className="mt-6 lg:mt-0">
-              <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-lg">
-                Start building <br /> on Ethereum
+              <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-md pr-8 lg:pr-0">
+                Build on Ethereum
               </h2>
               <p className="text-center lg:text-left lg:w-3/4">
-                Start your journey with Speedrun Ethereum, then join our onboarding Batches, and finally, apply to our
-                Grants program!
+                Build real on-chain applications through hands-on challenges. Learn to create decentralized exchanges,
+                stablecoins, and prediction markets and so much more.
               </p>
             </div>
           </div>
@@ -112,24 +108,34 @@ const Home: NextPage<{
           <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
             {/* Card */}
             <JourneyCard
-              name="Speedrun Ethereum"
+              name="Build a DEX"
               src="/assets/chall-dex.png"
-              description="Learn the most important concepts and level up your skills."
-              link="https://speedrunethereum.com"
+              description="Build an exchange that swaps ETH to tokens using liquidity pools and automated market makers."
+              link="https://speedrunethereum.com/challenge/dex"
             />
             <JourneyCard
-              name="Join the batches"
-              src="/assets/batches-card.png"
-              description="Continue learning in our Batches monthly program for up-and-coming devs."
-              link="/batches"
+              name="Stablecoins"
+              src="/assets/chall-stablecoins.svg"
+              description="Build a decentralized stablecoin backed by collateral with liquidation mechanics."
+              link="https://speedrunethereum.com/challenge/stablecoins"
             />
             <JourneyCard
-              name="Small Grants"
-              src="/assets/bg-grants-card.png"
-              description="BuidlGuidl can sponsor up to 1 ETH to build your idea. Funding meaningful projects across the ecosystem."
-              link="https://grants.buidlguidl.com/"
+              name="Prediction Markets"
+              src="/assets/chall-prediction-markets.svg"
+              description="Create a prediction market where users bet on outcomes with dynamic pricing."
+              link="https://speedrunethereum.com/challenge/prediction-markets"
             />
           </div>
+          {/* Speedrun Ethereum Banner */}
+          <TrackedLink
+            id="Speedrun-Ethereum-Banner"
+            href="https://speedrunethereum.com"
+            className="flex items-center gap-3 bg-primary/10 hover:bg-primary/20 transition-colors rounded-full px-6 py-3 mt-8 w-fit"
+          >
+            <span className="text-lg">🏃</span>
+            <span className="font-medium">Explore all challenges on Speedrun Ethereum</span>
+            <span className="text-lg">→</span>
+          </TrackedLink>
         </div>
       </div>
 
