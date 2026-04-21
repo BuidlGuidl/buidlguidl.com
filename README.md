@@ -34,3 +34,5 @@ yarn start
 ```
 
 Visit your app on: `http://localhost:3000`.
+
+Giveth project: https://giveth.io/project/buidlguidl
