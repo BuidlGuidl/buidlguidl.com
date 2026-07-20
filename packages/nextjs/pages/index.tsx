@@ -46,14 +46,18 @@ const Home: NextPage<{
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative h-[75vh] flex flex-col">
+      <div className="relative min-h-[75vh] md:h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
         <Header />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
-          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 mt-[-30px]">
-            <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
-              Learn, build, and <br /> thrive on Ethereum
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
+            <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl lg:text-5xl">
+              Education, developer tools, and dApps <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
+            <p className="text-center md:text-left z-10 text-base lg:text-xl max-w-md lg:max-w-xl mt-0 mb-2">
+              BuidlGuidl is a long-term technical partner to the Ethereum Foundation, DAOs, and protocols. We scope,
+              build, and maintain the dApps, developer tooling, and education programs the ecosystem runs on.
+            </p>
             <a
               href="#start-building-on-ethereum"
               className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
