@@ -5,7 +5,6 @@ import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { JourneyCard } from "~~/components/JourneyCard";
-import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
@@ -58,11 +57,8 @@ const Home: NextPage<{
               BuidlGuidl is a long-term technical partner to the Ethereum Foundation, DAOs, and protocols. We scope,
               build, and maintain the dApps, developer tooling, and education programs the ecosystem runs on.
             </p>
-            <a
-              href="#start-building-on-ethereum"
-              className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
-            >
-              Get started
+            <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4">
+              Build with us
             </a>
           </div>
         </div>
@@ -447,32 +443,17 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Learn More  */}
-      <div className="bg-skin">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
-          <p className="font-thin text-xl my-0">LEARN MORE</p>
-          {/* Card Container */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
-            {/* Card */}
-            <LearnMoreCard
-              name="🧪 BG Labs"
-              src="/assets/bg-labs.png"
-              description="A series of videos to help you get started in the ecosystem and keep learning."
-              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
-            />
-            <LearnMoreCard
-              name="🚢 Shipping Log"
-              src="/assets/shipping-log.png"
-              description="Check out our newsletter to be updated on our tools, hackathons and more."
-              link="https://buidlguidl.substack.com/"
-            />
-            <LearnMoreCard
-              name="📡 BuidlGuidl on X"
-              src="/assets/bg-client-card.png"
-              description="Follow us on X for updates on Ethereum developer experience and onbaording!"
-              link="https://x.com/buidlguidl"
-            />
-          </div>
+      {/* Build with us */}
+      <div className="bg-skin" id="build-with-us">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-3xl mx-auto py-16 lg:py-24 gap-6 text-center">
+          <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
+          <p className="text-lg m-0">
+            We work with L2s, DAOs and companies that need developer tooling, apps, or education built. Tell us what you
+            need.
+          </p>
+          <a href="mailto:admin@buidlguidl.com" className="btn btn-primary btn-md px-8 mt-2 hover:opacity-100">
+            Get in touch
+          </a>
         </div>
       </div>
 
