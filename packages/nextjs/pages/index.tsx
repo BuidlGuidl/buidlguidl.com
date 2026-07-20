@@ -69,6 +69,31 @@ const Home: NextPage<{
         <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
       </div>
 
+      {/* Trusted by */}
+      <div className="bg-white">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-6 lg:py-7 flex flex-col items-center gap-3">
+          <p className="m-0 text-xs">TRUSTED BY</p>
+          <div className="flex flex-wrap gap-x-10 gap-y-4 lg:gap-x-14 items-center justify-center">
+            <Image
+              src="/assets/ef-logo.png"
+              alt="Ethereum Foundation logo"
+              width={200}
+              height={200}
+              className="h-14 w-auto"
+            />
+            <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} className="h-10 w-auto" />
+            <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} className="h-10 w-auto" />
+            <Image
+              src="/assets/arbitrum-foundation-logo.svg"
+              alt="Arbitrum Foundation logo"
+              width={170}
+              height={44}
+              className="h-9 w-auto"
+            />
+          </div>
+        </div>
+      </div>
+
       {/* Quote section*/}
       <div className="bg-base-100">
         <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 lg:pl-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-10">
