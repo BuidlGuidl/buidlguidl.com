@@ -8,11 +8,25 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import { BlogMeta, getAllBlogs } from "~~/services/blog";
 import { formatBlogDate } from "~~/utils/blog";
 
-// TODO: placeholder copy, to be rewritten.
 const HOW_WE_WORK = [
-  { title: "Placeholder one", description: "Short paragraph on how we work with ecosystems. To be written." },
-  { title: "Placeholder two", description: "Short paragraph on how we work with ecosystems. To be written." },
-  { title: "Placeholder three", description: "Short paragraph on how we work with ecosystems. To be written." },
+  {
+    title: "We prototype fast",
+    description: "We like to get a working prototype in your hands early, then iterate together until it's right.",
+  },
+  {
+    title: "AI-native team",
+    description:
+      "We use AI heavily across our whole workflow, and we go deeper than the tools: building our own harnesses, agents, and AI-powered products.",
+  },
+  {
+    title: "Plugged into the ecosystem",
+    description:
+      "We've been building in the Ethereum ecosystem for 8+ years, working alongside the Ethereum Foundation, client teams, and protocol devs.",
+  },
+  {
+    title: "We care about the work",
+    description: "We only take on work we believe in, and we give it the same care we put into our own products.",
+  },
 ];
 
 // Job Board, ENS Builder Grants and CTF still need their own image + final copy.
@@ -170,17 +184,13 @@ const Home: NextPage<Props> = ({ posts }) => {
         </div>
       </div>
 
-      {/* How we work - TODO: placeholder copy */}
+      {/* How we work */}
       <div className="bg-white">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
-          <div className="gap-4 flex flex-col items-center">
-            <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">How we work</h2>
-            <p className="lg:w-3/5 text-center m-0">Placeholder subtitle, to be written.</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8 mt-4">
+        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12">
+          <div className="grid sm:grid-cols-2 gap-x-16 gap-y-10">
             {HOW_WE_WORK.map(item => (
-              <div key={item.title} className="bg-base-100 rounded-xl p-6">
-                <h3 className="text-xl font-semibold mt-0 mb-2">{item.title}</h3>
+              <div key={item.title}>
+                <h3 className="text-lg lg:text-xl font-semibold mt-0 mb-2">{item.title}</h3>
                 <p className="m-0">{item.description}</p>
               </div>
             ))}
@@ -239,8 +249,10 @@ const Home: NextPage<Props> = ({ posts }) => {
       </div>
 
       {/* Team */}
-      <div className="bg-white" id="team">
-        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto py-16 lg:py-24 gap-10">
+      <div className="bg-[#FFD2B3]" id="team">
+        <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-base-300"></div>
+        <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
+        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto pt-6 pb-16 lg:pt-10 lg:pb-24 gap-10">
           <h2 className="text-3xl lg:text-5xl font-semibold my-0">The Team</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
             {TEAM.map(member => (
