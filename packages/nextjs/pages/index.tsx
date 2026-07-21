@@ -7,6 +7,7 @@ import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { BlogMeta, getAllBlogs } from "~~/services/blog";
 import { formatBlogDate } from "~~/utils/blog";
+import { PROJECTS } from "~~/utils/projects";
 
 const HOW_WE_WORK = [
   {
@@ -29,63 +30,8 @@ const HOW_WE_WORK = [
   },
 ];
 
-// Job Board, ENS Builder Grants and CTF still need their own image + final copy.
-const PROJECTS = [
-  {
-    name: "SpeedRunEthereum",
-    description: "Learn to build on Ethereum through hands-on challenges, from a simple NFT to a full DEX.",
-    src: "/assets/build-sre.png",
-    link: "https://speedrunethereum.com",
-  },
-  {
-    name: "Scaffold-ETH 2",
-    description: "Open source toolkit for building dApps, with RainbowKit, Wagmi, NextJS and TypeScript.",
-    src: "/assets/se2-ui.png",
-    link: "https://scaffoldeth.io",
-  },
-  {
-    name: "Ethereum Job Board",
-    description: "Find the best jobs in Ethereum, and post your own openings.",
-    src: "/assets/build-jobBoard.jpg",
-    link: "https://www.ethereumjobboard.com/",
-  },
-  {
-    name: "abi.ninja",
-    description: "Interact with any contract on Ethereum with a friendly UI/UX",
-    src: "/assets/build-abiNinja.png",
-    link: "https://abi.ninja/",
-  },
-  {
-    name: "hacked wallet recovery",
-    description: "Recover assets from a compromised wallet using Flashbots",
-    src: "/assets/build-walletHackedRecovery.png",
-    link: "https://hackedwalletrecovery.com/",
-  },
-  {
-    name: "BuidlGuidl Client",
-    description: "One line command to run an Ethereum full node!",
-    src: "/assets/bg-client-2.png",
-    link: "https://client.buidlguidl.com",
-  },
-  {
-    name: "Ethereum on Tour",
-    description: "Bringing Ethereum curriculum, tools, and mentorship to you!",
-    src: "/assets/workshops.png",
-    link: "https://tour.buidlguidl.com",
-  },
-  {
-    name: "ENS Builder Grants",
-    description: "The grants platform ENS runs to fund public goods in the Ethereum and Web3 ecosystems.",
-    src: "/assets/build-ensGrants.png",
-    link: "https://builder.ensgrants.xyz/",
-  },
-  {
-    name: "Capture The Flag",
-    description: "Reclaim the flags from the BuidlGuidl fortress by solving Ethereum coding challenges.",
-    src: "/assets/build-ctf.jpg",
-    link: "https://ctf.buidlguidl.com/",
-  },
-];
+const FEATURED_PROJECTS = PROJECTS.filter(project => project.featured);
+const OTHER_PROJECTS = PROJECTS.filter(project => !project.featured);
 
 // Alphabetical by first name.
 const TEAM: { name: string; role?: string; src: string; github: string; x?: string }[] = [
@@ -247,16 +193,36 @@ const Home: NextPage<Props> = ({ posts }) => {
             </p>
           </div>
           <div className="flex gap-8 flex-wrap justify-center mt-4">
-            {PROJECTS.map(project => (
+            {FEATURED_PROJECTS.map(project => (
               <BuildCard
                 key={project.name}
                 name={project.name}
                 description={project.description}
                 src={project.src}
                 link={project.link}
+                metrics={project.metrics}
               />
             ))}
           </div>
+          <p className="text-center m-0 max-w-2xl">
+            Plus{" "}
+            {OTHER_PROJECTS.map((project, index) => (
+              <span key={project.name}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4 whitespace-nowrap"
+                >
+                  {project.name}
+                </a>
+                {index < OTHER_PROJECTS.length - 2 ? ", " : index === OTHER_PROJECTS.length - 2 ? " and " : "."}
+              </span>
+            ))}
+          </p>
+          <Link href="/projects" className="btn btn-secondary btn-md px-8 hover:opacity-100">
+            View all projects
+          </Link>
         </div>
       </div>
 
