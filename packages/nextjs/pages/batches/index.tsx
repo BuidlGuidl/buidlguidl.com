@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { BatchCta } from "../../components/batches/BatchCta";
 import { Card } from "../../components/batches/Card";
 import { formatDate } from "../../utils/batches/formatDate";
 import type { GetStaticProps } from "next";
 import { Footer } from "~~/components/Footer";
+import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
@@ -37,21 +37,6 @@ interface PageProps {
   openBatchStartDate: string | null;
 }
 
-// Custom header for the batches page since the "Go to app" button is different
-const BatchesHeader = () => {
-  return (
-    <div className="navbar min-h-0 flex-shrink-0 justify-between px-0 py-4 pb-8 md:pb-4 sm:px-2 bg-[#EFFBCA]">
-      <div className="navbar-start w-auto lg:w-1/2">
-        <Link href="/" passHref className="flex items-center gap-2 ml-4 mr-6">
-          <div className="flex relative w-[130px] md:w-[150px] h-[36px]">
-            <Image alt="BuidlGuidl logo" className="cursor-pointer" fill src="/logo.svg" />
-          </div>
-        </Link>
-      </div>
-    </div>
-  );
-};
-
 const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
@@ -77,7 +62,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       <div className="relative flex flex-col items-center pb-48">
         <div className="absolute inset-0 bg-gradient-to-b from-[#EAFFA9] via-[#f3ffca] to-[#EDEFFF]"></div>
         <div className="absolute inset-0 bg-[url(/assets/bg-batches-train.png)] bg-contain bg-no-repeat bg-bottom opacity-30 xl:hidden"></div>
-        <BatchesHeader />
+        <Header />
         <div className="container relative flex items-center max-w-[90%] lg:max-w-6xl px-4 py-16 min-h-[60vh] lg:py-20 lg:px-32">
           <div className="space-y-4 z-10 relative">
             <Image src="/assets/bg-batches-onboarding.svg" alt="BG Onboarding" width={330} height={200} priority />

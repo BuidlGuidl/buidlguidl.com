@@ -79,6 +79,14 @@ module.exports = {
         xs: "450px",
       },
       keyframes: {
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
+        scaleIn: {
+          from: { opacity: "0", transform: "scale(0.92)" },
+          to: { opacity: "1", transform: "scale(1)" },
+        },
         "bounce-interval": {
           "0%, 12.5%, 25%, 37.5%, 50%": {
             transform: "translateY(-25%)",
@@ -95,6 +103,8 @@ module.exports = {
       },
       animation: {
         "bounce-interval": "bounce-interval 10s infinite",
+        "fade-in": "fadeIn 150ms ease-out",
+        "scale-in": "scaleIn 200ms ease-out",
       },
     },
   },

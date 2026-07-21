@@ -1,0 +1,100 @@
+/**
+ * One Dark inspired Prism theme — blog code blocks render on a dark card.
+ * Applied to fenced code blocks via rehype-prism-plus.
+ */
+
+/* Base token defaults (fallback) */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #abb2bf;
+}
+
+/* Comments */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #5c6370;
+  font-style: italic;
+}
+
+/* Punctuation */
+.token.punctuation {
+  color: #abb2bf;
+}
+
+/* Strings & chars */
+.token.string,
+.token.char,
+.token.template-string,
+.token.attr-value {
+  color: #98c379;
+}
+
+/* Numbers & booleans */
+.token.number,
+.token.boolean {
+  color: #d19a66;
+}
+
+/* Keywords & operators */
+.token.keyword,
+.token.operator,
+.token.important {
+  color: #c678dd;
+}
+
+/* Functions */
+.token.function {
+  color: #61afef;
+}
+
+/* Classes & types */
+.token.class-name,
+.token.maybe-class-name,
+.token.builtin {
+  color: #e5c07b;
+}
+
+/* Variables & properties */
+.token.property,
+.token.constant,
+.token.symbol {
+  color: #e06c75;
+}
+
+/* Tags (HTML/JSX) */
+.token.tag {
+  color: #e06c75;
+}
+
+/* Attribute names */
+.token.attr-name {
+  color: #d19a66;
+}
+
+/* Regex */
+.token.regex {
+  color: #56b6c2;
+}
+
+/* Inserted / Deleted (diffs) */
+.token.inserted {
+  color: #98c379;
+}
+.token.deleted {
+  color: #e06c75;
+}
+
+/* Namespace */
+.token.namespace {
+  opacity: 0.7;
+}
+
+/* Selection */
+code[class*="language-"]::selection,
+code[class*="language-"] *::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] *::selection {
+  background: rgba(171, 178, 191, 0.15);
+}

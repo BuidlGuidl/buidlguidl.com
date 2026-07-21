@@ -1,9 +1,12 @@
 import Image from "next/image";
-import type { NextPage } from "next";
+import Link from "next/link";
+import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
+import { BlogMeta, getAllBlogs } from "~~/services/blog";
+import { formatBlogDate } from "~~/utils/blog";
 
 // TODO: placeholder copy, to be rewritten.
 const HOW_WE_WORK = [
@@ -88,14 +91,18 @@ const TEAM: { name: string; role?: string; src: string; github: string; x?: stri
   { name: "Zak Griffith", src: "/assets/team/zak.jpg", github: "ZakGriffith", x: "ZakAgain" },
 ];
 
-const Home: NextPage = () => {
+interface Props {
+  posts: BlogMeta[];
+}
+
+const Home: NextPage<Props> = ({ posts }) => {
   return (
     <>
       <MetaHeader />
       {/* Hero section with header */}
       <div className="relative min-h-[75vh] md:h-[75vh] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
-        <Header />
+        <Header transparent />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
             <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl lg:text-5xl">
@@ -181,8 +188,32 @@ const Home: NextPage = () => {
         </div>
       </div>
 
+      {/* Latest from the blog */}
+      <div className="bg-base-100">
+        <div className="container max-w-[90%] lg:max-w-6xl mx-auto py-10 lg:py-12 lg:px-12 flex flex-col lg:flex-row lg:items-start gap-6 lg:gap-16">
+          <div className="shrink-0">
+            <h2 className="text-2xl lg:text-3xl my-0">From the blog</h2>
+            <Link href="/blog" className="text-sm underline underline-offset-4">
+              View all posts →
+            </Link>
+          </div>
+          <div className="flex-1 divide-y divide-base-content/10">
+            {posts.slice(0, 3).map(post => (
+              <Link
+                key={post.slug}
+                href={post.url}
+                className="group flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-x-6 gap-y-1 py-3 first:pt-0 last:pb-0"
+              >
+                <span className="font-medium group-hover:underline underline-offset-4">{post.title}</span>
+                <span className="text-sm text-base-content/60 shrink-0">{formatBlogDate(post.date)}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Featured projects */}
-      <div className="bg-base-300">
+      <div className="bg-base-300" id="projects">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
             <div className="flex items-baseline gap-1 md:gap-3">
@@ -208,7 +239,7 @@ const Home: NextPage = () => {
       </div>
 
       {/* Team */}
-      <div className="bg-white">
+      <div className="bg-white" id="team">
         <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto py-16 lg:py-24 gap-10">
           <h2 className="text-3xl lg:text-5xl font-semibold my-0">The Team</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
@@ -282,6 +313,11 @@ const Home: NextPage = () => {
       </div>
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const posts = getAllBlogs();
+  return { props: { posts } };
 };
 
 export default Home;

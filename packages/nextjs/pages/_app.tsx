@@ -10,6 +10,7 @@ import { BlockieAvatar } from "~~/components/scaffold-eth";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
 import { appChains } from "~~/services/web3/wagmiConnectors";
 import "~~/styles/globals.css";
+import "~~/styles/prism-theme.css";
 
 const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   // Start with dark theme on server & initial client render to avoid hydration mismatch
