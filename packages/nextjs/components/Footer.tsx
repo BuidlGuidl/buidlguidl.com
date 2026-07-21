@@ -10,10 +10,7 @@ export const Footer = () => {
         <div className="col-span-12 lg:col-span-6 flex flex-col">
           <div className="flex flex-col">
             <Image src="/assets/logo-white.svg" alt="BuidlGuidl logo" width={150} height={150} />
-            <p className="text-white lg:w-1/2">
-              A curated group of Ethereum builders creating products, prototypes, and tutorials to enrich the web3
-              ecosystem.
-            </p>
+            <p className="text-white lg:w-1/2">Education, products, and tools for the Ethereum ecosystem.</p>
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6">

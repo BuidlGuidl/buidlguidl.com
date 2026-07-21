@@ -87,7 +87,7 @@ const PROJECTS = [
   },
 ];
 
-// Alphabetical by first name. Roles still to be filled in for most of the team.
+// Alphabetical by first name.
 const TEAM: { name: string; role?: string; src: string; github: string; x?: string }[] = [
   {
     name: "Austin Griffith",
@@ -97,12 +97,24 @@ const TEAM: { name: string; role?: string; src: string; github: string; x?: stri
     x: "austingriffith",
   },
   { name: "Carlos Sánchez", role: "CTO", src: "/assets/team/carlos.jpg", github: "carletex", x: "_carletex_" },
-  { name: "Damian Martinelli", src: "/assets/team/damian.jpg", github: "damianmarti", x: "damianmarti" },
-  { name: "Pablo Alayeto", src: "/assets/team/pablo.jpg", github: "Pabl0cks", x: "pabl0cks" },
-  { name: "Rinat", src: "/assets/team/rinat.jpg", github: "rin-st" },
-  { name: "Shiv Bhonde", src: "/assets/team/shiv.jpg", github: "technophile-04", x: "ShivBhonde" },
-  { name: "Spencer Faber", src: "/assets/team/spencer.png", github: "sfaber34" },
-  { name: "Zak Griffith", src: "/assets/team/zak.jpg", github: "ZakGriffith", x: "ZakAgain" },
+  {
+    name: "Damian Martinelli",
+    role: "Backend Engineer",
+    src: "/assets/team/damian.jpg",
+    github: "damianmarti",
+    x: "damianmarti",
+  },
+  { name: "Pablo Alayeto", role: "Product", src: "/assets/team/pablo.jpg", github: "Pabl0cks", x: "pabl0cks" },
+  { name: "Rinat", role: "Full-stack Engineer", src: "/assets/team/rinat.jpg", github: "rin-st" },
+  {
+    name: "Shiv Bhonde",
+    role: "Full-stack Engineer",
+    src: "/assets/team/shiv.jpg",
+    github: "technophile-04",
+    x: "ShivBhonde",
+  },
+  { name: "Spencer Faber", role: "Infra & Content", src: "/assets/team/spencer.png", github: "sfaber34" },
+  { name: "Zak Griffith", role: "Operations", src: "/assets/team/zak.jpg", github: "ZakGriffith", x: "ZakAgain" },
 ];
 
 interface Props {
