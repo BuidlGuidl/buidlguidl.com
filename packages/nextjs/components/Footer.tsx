@@ -63,12 +63,6 @@ export const Footer = () => {
               <a href="https://twitter.com/buidlguidl" target="_blank" rel="noreferrer" className="m-0">
                 Twitter
               </a>
-              <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="m-0">
-                Telegram
-              </a>
-              <a href="https://discord.gg/84Abq4VbMQ" target="_blank" rel="noreferrer" className="m-0">
-                Discord
-              </a>
               <a
                 href="https://www.youtube.com/@austingriffith3550/playlists"
                 target="_blank"
