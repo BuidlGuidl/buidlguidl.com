@@ -161,7 +161,7 @@ const Home: NextPage<Props> = ({ posts }) => {
           {/* Quote Text */}
           <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
             <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
-              “BuidlGuidl is educating Ethereum developers, creating state-of-the-art tools, and building cool things
+              “BuidlGuidl is educating Ethereum builders, creating state-of-the-art tools, and shipping products
               onchain!”
             </p>
             <p className="m-0 text-xl font-medium">Austin Griffith</p>
