@@ -106,11 +106,11 @@ const Home: NextPage<Props> = ({ posts }) => {
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
             <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl lg:text-5xl">
-              Education, developer tools, and dApps <br className="hidden md:inline" /> for the Ethereum ecosystem
+              Education, products, and tools <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
             <p className="text-center md:text-left z-10 text-base lg:text-xl max-w-md lg:max-w-xl mt-0 mb-2">
-              BuidlGuidl is a long-term technical partner to the Ethereum Foundation, DAOs, and protocols. We scope,
-              build, and maintain the dApps, developer tooling, and education programs the ecosystem runs on.
+              BuidlGuidl is a long-term technical partner to the Ethereum Foundation, companies, and protocols. We
+              scope, build, and maintain products, tools, and education programs.
             </p>
             <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4">
               Build with us
