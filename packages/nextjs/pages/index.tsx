@@ -73,7 +73,7 @@ const Home: NextPage<Props> = ({ posts }) => {
       <MetaHeader />
       {/* Hero section with header */}
       <div className="relative min-h-[75vh] md:h-[75vh] flex flex-col">
-        <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
+        <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient pointer-events-none"></div>
         <Header transparent />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
@@ -84,12 +84,12 @@ const Home: NextPage<Props> = ({ posts }) => {
               BuidlGuidl is a long-term technical partner to the Ethereum Foundation, companies, and protocols. We
               scope, build, and maintain products, tools, and education programs.
             </p>
-            <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4">
+            <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4 z-10">
               Build with us
             </a>
           </div>
         </div>
-        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center pointer-events-none"></div>
       </div>
 
       {/* Trusted by */}
