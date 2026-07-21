@@ -7,12 +7,16 @@ export const BuildCard = ({
   src,
   link,
   metrics,
+  imageFit = "cover",
+  imageBg,
 }: {
   name: string;
   description: string;
   src: string;
   link: string;
   metrics?: { value: string; label: string }[];
+  imageFit?: "cover" | "contain";
+  imageBg?: string;
 }) => {
   return (
     <TrackedLink
@@ -20,8 +24,13 @@ export const BuildCard = ({
       href={link}
       className="w-full card card-compact lg:w-1/3 max-w-xs bg-white shadow-lg rounded-xl overflow-hidden"
     >
-      <div className="w-full h-[220px] relative">
-        <Image src={src} alt={name} fill className="w-full object-center object-cover" />
+      <div className={`w-full h-[220px] relative ${imageBg ?? "bg-white"}`}>
+        <Image
+          src={src}
+          alt={name}
+          fill
+          className={`w-full object-center ${imageFit === "contain" ? "object-contain p-4" : "object-cover"}`}
+        />
       </div>
       <div className="card-body gap-0 border-t border-primary bg-white">
         <h3 className="card-title m-0">{name}</h3>

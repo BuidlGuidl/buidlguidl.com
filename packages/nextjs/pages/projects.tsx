@@ -31,6 +31,8 @@ const Projects: NextPage = () => {
               src={project.src}
               link={project.link}
               metrics={project.metrics}
+              imageFit={project.imageFit}
+              imageBg={project.imageBg}
             />
           ))}
         </div>

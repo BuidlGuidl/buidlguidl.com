@@ -5,6 +5,8 @@ export type Project = {
   link: string;
   featured?: boolean;
   metrics?: { value: string; label: string }[];
+  imageFit?: "cover" | "contain";
+  imageBg?: string;
 };
 
 // Job Board, ENS Builder Grants and CTF still need their own image + final copy.
@@ -23,6 +25,8 @@ export const PROJECTS: Project[] = [
     src: "/assets/build-se2-og.png",
     link: "https://scaffoldeth.io",
     featured: true,
+    imageFit: "contain",
+    imageBg: "bg-gradient-to-b from-[#EEF4FF] to-white",
     metrics: [{ value: "1.5k", label: "weekly installs" }],
   },
   {
