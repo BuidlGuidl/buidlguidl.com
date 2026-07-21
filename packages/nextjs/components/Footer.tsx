@@ -26,12 +26,6 @@ export const Footer = () => {
               <a href="https://speedrunethereum.com/" target="_blank" rel="noreferrer" className="m-0">
                 Speedrun Ethereum
               </a>
-              <a href="https://grants.buidlguidl.com" target="_blank" rel="noreferrer" className="m-0 opacity-60">
-                Grants <span className="text-xs">(closed)</span>
-              </a>
-              <a href="/batches" target="_blank" rel="noreferrer" className="m-0 opacity-60">
-                Batches <span className="text-xs">(closed)</span>
-              </a>
             </div>
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
               <p className="m-0 text-info font-normal">Resources</p>
