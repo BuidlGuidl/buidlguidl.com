@@ -4,8 +4,6 @@ date: "2026-06-17"
 description: "How we replaced Scaffold-ETH 2's template extensions with agent skills, ran 92 A/B evals to measure capability uplift, found self-grading was inflating our scores by 60 points, and ended up cutting the skills down by a lot once we knew what actually mattered."
 ---
 
-## How we got here
-
 Scaffold-ETH 2 has had an extension system since mid-2024. You could run `npx create-eth@latest -e ponder` and get a scaffolded app with event indexing already set up. Under the hood that was a bunch of template files plus a custom template engine that did the merging. It worked fine, but the architecture had some limitations (that could be solved by adding some complexity into the engine): you couldn't install two extensions at the same time, you couldn't add one after the app already existed, and every time one of the underlying libraries bumped a version, we had to go back through the extensions and check nothing broke.
 
 So back in January, following our [AI-fying process](/blog/ai-native-ethereum-stack), we decided to test AI Skills to let agents add extensions to an existing project. The theory was easy: just tell the agent what you want to add, all the gotchas, and let it write the code however it wants to add the extension.

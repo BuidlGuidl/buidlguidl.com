@@ -198,7 +198,7 @@ const Home: NextPage<Props> = ({ posts }) => {
             </Link>
           </div>
           <div className="flex-1 divide-y divide-base-content/10">
-            {posts.slice(0, 3).map(post => (
+            {posts.slice(0, 5).map(post => (
               <Link
                 key={post.slug}
                 href={post.url}

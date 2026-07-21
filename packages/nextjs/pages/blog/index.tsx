@@ -17,10 +17,9 @@ const Blog: NextPage<Props> = ({ posts }) => {
         title="Blog - BuidlGuidl"
         description="Writing from the BuidlGuidl team: tooling, education and research for the Ethereum ecosystem."
       />
-      <Header />
-
-      {/* Title band */}
-      <div className="bg-[#EFFBCA]">
+      {/* Title band, hero-style fade behind the header */}
+      <div className="hero-fade">
+        <Header transparent />
         <div className="w-full max-w-[760px] mx-auto px-5 sm:px-6 pt-4 pb-10 sm:pt-8 sm:pb-14">
           <h1 className="text-3xl sm:text-5xl mb-3">Blog</h1>
           <p className="text-base-content/70 m-0">

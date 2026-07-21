@@ -24,6 +24,8 @@ export default async function handler(req: NextRequest) {
           width: "100%",
           height: "100%",
           backgroundColor: "#EFFBCA",
+          backgroundImage:
+            "linear-gradient(180deg, #C3DBFF 0%, rgba(217, 235, 229, 0.51) 40%, rgba(239, 251, 202, 0) 70%)",
           padding: "60px",
           justifyContent: "space-between",
           fontFamily: "Space Grotesk",
@@ -50,22 +52,13 @@ export default async function handler(req: NextRequest) {
         </div>
 
         {/* Bottom: decorative line */}
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <div
             style={{
               display: "flex",
               width: "60px",
               height: "4px",
               backgroundColor: "#808CFF",
-            }}
-          />
-          <div
-            style={{
-              display: "flex",
-              width: "100%",
-              height: "2px",
-              backgroundColor: "#182232",
-              opacity: 0.15,
             }}
           />
         </div>

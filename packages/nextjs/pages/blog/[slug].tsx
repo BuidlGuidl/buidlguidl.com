@@ -314,10 +314,10 @@ const BlogPost: NextPage<Props> = ({ source, meta, headings, wordCount }) => {
       />
 
       <ProgressBar />
-      <Header />
 
-      {/* Post title band */}
-      <div className="bg-[#EFFBCA]">
+      {/* Post title band, hero-style fade behind the header */}
+      <div className="hero-fade">
+        <Header transparent />
         <header className="w-full max-w-[760px] mx-auto px-5 sm:px-6 pt-4 pb-10 sm:pt-8 sm:pb-14">
           <h1 className="text-3xl sm:text-[2.5rem] sm:leading-[1.15] mb-4">{meta.title}</h1>
           <p className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0">{meta.description}</p>
@@ -333,7 +333,7 @@ const BlogPost: NextPage<Props> = ({ source, meta, headings, wordCount }) => {
       <div className="bg-skin">
         <div className="w-full max-w-[1280px] mx-auto px-4 sm:px-6 py-8 sm:py-12 flex flex-col xl:flex-row xl:justify-center items-stretch xl:items-start gap-8">
           <TableOfContents headings={headings} />
-          <article className="bg-white rounded-2xl shadow-md w-full max-w-[760px] mx-auto xl:mx-0 px-5 sm:px-10 py-8 sm:py-12">
+          <article className="bg-white rounded-2xl shadow-md w-full max-w-[760px] mx-auto xl:mx-0 px-5 sm:px-10 py-6">
             <div className="sm:text-[16.5px] leading-[1.6]">
               <MDXRemote {...source} components={components} />
             </div>
