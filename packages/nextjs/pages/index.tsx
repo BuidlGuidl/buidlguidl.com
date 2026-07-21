@@ -144,7 +144,8 @@ const Home: NextPage<Props> = ({ posts }) => {
 
       {/* How we work */}
       <div className="bg-white">
-        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12">
+        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-6xl mx-auto pt-10 pb-16 lg:pt-12 lg:pb-24 lg:px-12">
+          <Image src="/assets/diamond.svg" alt="" width={48} height={48} className="w-10 lg:w-12 mb-12 lg:mb-16" />
           <div className="grid sm:grid-cols-2 gap-x-16 gap-y-10">
             {HOW_WE_WORK.map(item => (
               <div key={item.title}>
@@ -233,7 +234,10 @@ const Home: NextPage<Props> = ({ posts }) => {
         <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-base-300"></div>
         <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto pt-6 pb-16 lg:pt-10 lg:pb-24 gap-10">
-          <h2 className="text-3xl lg:text-5xl font-semibold my-0">The Team</h2>
+          <div className="flex items-baseline gap-2 md:gap-3">
+            <h2 className="text-3xl lg:text-5xl font-semibold my-0">The Team</h2>
+            <Image src="/assets/builders.svg" alt="builders icon" width={40} height={36} className="w-7 lg:w-9" />
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
             {TEAM.map(member => (
               <div key={member.name} className="flex flex-col items-center gap-3">
@@ -283,7 +287,10 @@ const Home: NextPage<Props> = ({ posts }) => {
       {/* Build with us */}
       <div className="bg-skin" id="build-with-us">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-3xl mx-auto py-16 lg:py-24 gap-6 text-center">
-          <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
+          <div className="flex items-baseline gap-2 md:gap-3">
+            <Image src="/assets/builds-uploaded.svg" alt="builds icon" width={23} height={30} className="w-4 lg:w-5" />
+            <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
+          </div>
           <p className="text-lg m-0">
             We work with L2s, DAOs and companies that need developer tooling, apps, or education built. Tell us what you
             need.
