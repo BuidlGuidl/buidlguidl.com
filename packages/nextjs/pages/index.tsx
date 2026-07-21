@@ -45,7 +45,7 @@ const TEAM: { name: string; role?: string; src: string; github: string; x?: stri
   { name: "Carlos Sánchez", role: "CTO", src: "/assets/team/carlos.jpg", github: "carletex", x: "_carletex_" },
   {
     name: "Damian Martinelli",
-    role: "Backend Engineer",
+    role: "Blockchain Engineer",
     src: "/assets/team/damian.jpg",
     github: "damianmarti",
     x: "damianmarti",
