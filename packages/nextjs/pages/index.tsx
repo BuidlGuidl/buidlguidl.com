@@ -80,7 +80,7 @@ const Home: NextPage<Props> = ({ posts }) => {
             <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl lg:text-5xl">
               Education, products, and tools <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
-            <p className="text-center md:text-left z-10 text-base lg:text-xl max-w-md lg:max-w-xl mt-0 mb-2">
+            <p className="text-center md:text-left z-10 text-base lg:text-xl max-w-md lg:max-w-xl mt-0 mb-2 bg-white/60 backdrop-blur-sm rounded-xl px-4 py-3 md:bg-transparent md:backdrop-blur-none md:px-0 md:py-0">
               BuidlGuidl is a long-term technical partner to the Ethereum Foundation, companies, and protocols. We
               scope, build, and maintain products, tools, and education programs.
             </p>
