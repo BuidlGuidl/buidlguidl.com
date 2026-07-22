@@ -44,16 +44,18 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    name: "Ethereum Job Board",
-    description: "Find the best jobs in Ethereum, and post your own openings.",
-    src: "/assets/build-jobBoard.jpg",
-    link: "https://www.ethereumjobboard.com/",
-  },
-  {
     name: "abi.ninja",
     description: "Interact with any contract on Ethereum with a friendly UI/UX",
     src: "/assets/build-abiNinja.png",
     link: "https://abi.ninja/",
+  },
+  {
+    name: "Ethereum Job Board",
+    description: "Find the best jobs in Ethereum, and post your own openings.",
+    src: "/assets/build-jobBoard.jpg",
+    link: "https://www.ethereumjobboard.com/",
+    imageFit: "contain",
+    imageBg: "bg-[#F3F3F3]",
   },
   {
     name: "Hacked Wallet Recovery",
