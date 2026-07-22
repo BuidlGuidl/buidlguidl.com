@@ -5,15 +5,25 @@ export const config = {
   runtime: "edge",
 };
 
+// Space Grotesk (ttf format required by Satori). Cached across warm
+// invocations; null if it can't be loaded, so we still render the card.
+let fontPromise: Promise<ArrayBuffer | null> | null = null;
+
+const loadFont = (origin: string) => {
+  if (!fontPromise) {
+    fontPromise = fetch(`${origin}/assets/SpaceGrotesk-Bold.ttf`)
+      .then(res => (res.ok ? res.arrayBuffer() : null))
+      .catch(() => null);
+  }
+  return fontPromise;
+};
+
 export default async function handler(req: NextRequest) {
   const { searchParams, origin } = new URL(req.url);
-  const title = searchParams.get("title") || "BuidlGuidl";
+  const title = (searchParams.get("title") || "BuidlGuidl").slice(0, 120);
   const logoUrl = `${origin}/logo.svg`;
 
-  // Space Grotesk (ttf format required by Satori)
-  const font = await fetch(
-    "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksj.ttf",
-  ).then(res => res.arrayBuffer());
+  const font = await loadFont(origin);
 
   return new ImageResponse(
     (
@@ -67,14 +77,7 @@ export default async function handler(req: NextRequest) {
     {
       width: 1200,
       height: 630,
-      fonts: [
-        {
-          name: "Space Grotesk",
-          data: font,
-          style: "normal",
-          weight: 700,
-        },
-      ],
+      fonts: font ? [{ name: "Space Grotesk", data: font, style: "normal", weight: 700 }] : [],
     },
   );
 }

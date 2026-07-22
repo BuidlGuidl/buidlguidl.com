@@ -11,7 +11,6 @@ export type Project = {
   imageBg?: string;
 };
 
-// Job Board, ENS Builder Grants and CTF still need their own image + final copy.
 export const PROJECTS: Project[] = [
   {
     name: "SpeedRunEthereum",
