@@ -12,15 +12,15 @@ import { PROJECTS } from "~~/utils/projects";
 const HOW_WE_WORK = [
   {
     title: "We prototype fast",
-    description: "We like to get a working prototype in your hands early, then iterate together until it's right.",
+    description: "We get a working prototype in your hands early, then iterate together until it's right.",
   },
   {
-    title: "AI-native team",
+    title: "We're AI-native",
     description:
-      "We use AI heavily across our whole workflow, and we go deeper than the tools: building our own harnesses, agents, and AI-powered products.",
+      "We use AI heavily across our whole workflow, and dive deeper than off-the-shelf tools: building our own harnesses, agents, and AI-powered products.",
   },
   {
-    title: "Plugged into the ecosystem",
+    title: "We're ecosystem veterans",
     description:
       "We've been building in the Ethereum ecosystem for 8+ years, working alongside the Ethereum Foundation, client teams, and protocol devs.",
   },
@@ -78,11 +78,11 @@ const Home: NextPage<Props> = ({ posts }) => {
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
             <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl xl:text-5xl">
-              Education, products, and tools <br className="hidden md:inline" /> for the Ethereum ecosystem
+              Products, tools, and education <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
             <p className="text-center md:text-left z-10 text-base xl:text-xl max-w-md xl:max-w-xl mt-0 mb-2 bg-white/60 backdrop-blur-sm rounded-xl px-4 py-3 md:bg-transparent md:backdrop-blur-none md:px-0 md:py-0">
-              BuidlGuidl is a long-term technical partner to the Ethereum Foundation, companies, and protocols. We
-              scope, build, and maintain products, tools, and education programs.
+              BuidlGuidl is a long-term technical partner to the Ethereum Foundation and teams across the ecosystem. We
+              scope, build, and maintain production dapps, open-source tooling, and education programs.
             </p>
             <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4 z-10">
               Build with us
