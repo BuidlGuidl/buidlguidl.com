@@ -4,6 +4,8 @@ export type Project = {
   src: string;
   link: string;
   featured?: boolean;
+  // Has its own section on /projects, so it's not rendered as a card there.
+  spotlight?: boolean;
   metrics?: { value: string; label: string }[];
   imageFit?: "cover" | "contain";
   imageBg?: string;
@@ -25,6 +27,7 @@ export const PROJECTS: Project[] = [
     src: "/assets/build-se2-og.png",
     link: "https://scaffoldeth.io",
     featured: true,
+    spotlight: true,
     imageFit: "contain",
     imageBg: "bg-gradient-to-b from-[#EEF4FF] to-white",
     metrics: [{ value: "1.5k", label: "weekly installs" }],
@@ -53,7 +56,7 @@ export const PROJECTS: Project[] = [
     link: "https://abi.ninja/",
   },
   {
-    name: "hacked wallet recovery",
+    name: "Hacked Wallet Recovery",
     description: "Recover assets from a compromised wallet using Flashbots",
     src: "/assets/build-walletHackedRecovery.png",
     link: "https://hackedwalletrecovery.com/",
@@ -63,12 +66,14 @@ export const PROJECTS: Project[] = [
     description: "One line command to run an Ethereum full node!",
     src: "/assets/bg-client-2.png",
     link: "https://client.buidlguidl.com",
+    spotlight: true,
   },
   {
     name: "Ethereum on Tour",
     description: "Bringing Ethereum curriculum, tools, and mentorship to you!",
     src: "/assets/workshops.png",
     link: "https://tour.buidlguidl.com",
+    spotlight: true,
   },
   {
     name: "Capture The Flag",

@@ -3,7 +3,31 @@ import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { PROJECTS } from "~~/utils/projects";
+import { BgClientSection } from "~~/components/projects/BgClientSection";
+import { EthTourSection } from "~~/components/projects/EthTourSection";
+import { ScaffoldEthSection } from "~~/components/projects/ScaffoldEthSection";
+import { PROJECTS, Project } from "~~/utils/projects";
+
+const CARD_PROJECTS = PROJECTS.filter(project => !project.spotlight);
+
+const CardRow = ({ projects, className }: { projects: Project[]; className: string }) => (
+  <div className={className}>
+    <div className="container max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 flex gap-8 flex-wrap justify-center">
+      {projects.map(project => (
+        <BuildCard
+          key={project.name}
+          name={project.name}
+          description={project.description}
+          src={project.src}
+          link={project.link}
+          metrics={project.metrics}
+          imageFit={project.imageFit}
+          imageBg={project.imageBg}
+        />
+      ))}
+    </div>
+  </div>
+);
 
 const Projects: NextPage = () => {
   return (
@@ -21,22 +45,11 @@ const Projects: NextPage = () => {
           </p>
         </div>
       </div>
-      <div className="bg-base-300">
-        <div className="container max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 flex gap-8 flex-wrap justify-center">
-          {PROJECTS.map(project => (
-            <BuildCard
-              key={project.name}
-              name={project.name}
-              description={project.description}
-              src={project.src}
-              link={project.link}
-              metrics={project.metrics}
-              imageFit={project.imageFit}
-              imageBg={project.imageBg}
-            />
-          ))}
-        </div>
-      </div>
+      <CardRow projects={CARD_PROJECTS.slice(0, 3)} className="bg-base-300" />
+      <ScaffoldEthSection />
+      <BgClientSection />
+      <CardRow projects={CARD_PROJECTS.slice(3)} className="bg-base-100" />
+      <EthTourSection />
       <Footer />
     </>
   );
