@@ -184,16 +184,15 @@ const Home: NextPage<Props> = ({ posts }) => {
       {/* Featured projects */}
       <div className="bg-base-300" id="projects">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
-          <div className="gap-4 flex flex-col items-center">
-            <div className="flex flex-col md:flex-row items-center md:items-baseline gap-2 md:gap-3">
-              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icon" width={40} height={40} />
-              <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">Featured projects</h2>
-            </div>
-            <p className="lg:w-3/5 text-center m-0">
-              Open source tools, apps and education programs we build and maintain for the Ethereum ecosystem.
-            </p>
-          </div>
-          <div className="flex gap-8 flex-wrap justify-center mt-4">
+          <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">Featured projects</h2>
+          <Image
+            src="/assets/ranking-featured-icon.svg"
+            alt="rankings icon"
+            width={40}
+            height={40}
+            className="w-8 lg:w-10"
+          />
+          <div className="flex gap-8 flex-wrap justify-center mt-2 lg:mt-4">
             {FEATURED_PROJECTS.map(project => (
               <BuildCard
                 key={project.name}
@@ -234,9 +233,9 @@ const Home: NextPage<Props> = ({ posts }) => {
         <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-base-300"></div>
         <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto pt-6 pb-16 lg:pt-10 lg:pb-24 gap-10">
-          <div className="flex flex-col-reverse md:flex-row items-center md:items-baseline gap-2 md:gap-3">
+          <div className="flex flex-col items-center gap-4">
+            <Image src="/assets/builders.svg" alt="builders icon" width={40} height={36} className="w-8 lg:w-10" />
             <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">The Team</h2>
-            <Image src="/assets/builders.svg" alt="builders icon" width={40} height={36} className="w-7 lg:w-9" />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
             {TEAM.map(member => (
@@ -287,9 +286,9 @@ const Home: NextPage<Props> = ({ posts }) => {
       {/* Build with us */}
       <div className="bg-skin" id="build-with-us">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-3xl mx-auto py-16 lg:py-24 gap-6 text-center">
-          <div className="flex flex-col md:flex-row items-center md:items-baseline gap-2 md:gap-3">
-            <Image src="/assets/builds-uploaded.svg" alt="builds icon" width={23} height={30} className="w-4 lg:w-5" />
+          <div className="flex flex-col items-center gap-4">
             <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
+            <Image src="/assets/builds-uploaded.svg" alt="builds icon" width={23} height={30} className="w-5 lg:w-6" />
           </div>
           <p className="text-lg m-0">
             We work with L2s, DAOs and companies that need developer tooling, apps, or education built. Tell us what you
