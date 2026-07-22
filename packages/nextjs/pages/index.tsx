@@ -59,7 +59,7 @@ const TEAM: { name: string; role?: string; src: string; github: string; x?: stri
     github: "technophile-04",
     x: "ShivBhonde",
   },
-  { name: "Spencer Faber", role: "Infra & Content", src: "/assets/team/spencer.png", github: "sfaber34" },
+  { name: "Spencer Faber", role: "Infra & Content", src: "/assets/team/spencer.jpg", github: "sfaber34" },
   { name: "Zak Griffith", role: "Operations", src: "/assets/team/zak.jpg", github: "ZakGriffith", x: "ZakAgain" },
 ];
 
