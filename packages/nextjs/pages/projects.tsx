@@ -45,8 +45,8 @@ const Projects: NextPage = () => {
           </p>
         </div>
       </div>
+      <ScaffoldEthSection prevBg="bg-[#EFFBCA]" />
       <CardRow projects={CARD_PROJECTS.slice(0, 3)} className="bg-base-300" />
-      <ScaffoldEthSection />
       <BgClientSection />
       <CardRow projects={CARD_PROJECTS.slice(3)} className="bg-base-100" />
       <EthTourSection />
