@@ -72,15 +72,15 @@ const Home: NextPage<Props> = ({ posts }) => {
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative min-h-[75vh] md:h-[75vh] flex flex-col">
+      <div className="relative min-h-[75vh] md:h-[75vh] md:min-h-[600px] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient pointer-events-none"></div>
         <Header transparent />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
-            <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl lg:text-5xl">
+            <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl xl:text-5xl">
               Education, products, and tools <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
-            <p className="text-center md:text-left z-10 text-base lg:text-xl max-w-md lg:max-w-xl mt-0 mb-2 bg-white/60 backdrop-blur-sm rounded-xl px-4 py-3 md:bg-transparent md:backdrop-blur-none md:px-0 md:py-0">
+            <p className="text-center md:text-left z-10 text-base xl:text-xl max-w-md xl:max-w-xl mt-0 mb-2 bg-white/60 backdrop-blur-sm rounded-xl px-4 py-3 md:bg-transparent md:backdrop-blur-none md:px-0 md:py-0">
               BuidlGuidl is a long-term technical partner to the Ethereum Foundation, companies, and protocols. We
               scope, build, and maintain products, tools, and education programs.
             </p>
@@ -185,9 +185,9 @@ const Home: NextPage<Props> = ({ posts }) => {
       <div className="bg-base-300" id="projects">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
           <div className="gap-4 flex flex-col items-center">
-            <div className="flex items-baseline gap-1 md:gap-3">
+            <div className="flex flex-col md:flex-row items-center md:items-baseline gap-2 md:gap-3">
               <Image src="/assets/ranking-featured-icon.svg" alt="rankings icon" width={40} height={40} />
-              <h2 className="text-3xl lg:text-5xl font-semibold my-0">Featured projects</h2>
+              <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">Featured projects</h2>
             </div>
             <p className="lg:w-3/5 text-center m-0">
               Open source tools, apps and education programs we build and maintain for the Ethereum ecosystem.
@@ -234,8 +234,8 @@ const Home: NextPage<Props> = ({ posts }) => {
         <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-base-300"></div>
         <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
         <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto pt-6 pb-16 lg:pt-10 lg:pb-24 gap-10">
-          <div className="flex items-baseline gap-2 md:gap-3">
-            <h2 className="text-3xl lg:text-5xl font-semibold my-0">The Team</h2>
+          <div className="flex flex-col-reverse md:flex-row items-center md:items-baseline gap-2 md:gap-3">
+            <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">The Team</h2>
             <Image src="/assets/builders.svg" alt="builders icon" width={40} height={36} className="w-7 lg:w-9" />
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
@@ -287,7 +287,7 @@ const Home: NextPage<Props> = ({ posts }) => {
       {/* Build with us */}
       <div className="bg-skin" id="build-with-us">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-3xl mx-auto py-16 lg:py-24 gap-6 text-center">
-          <div className="flex items-baseline gap-2 md:gap-3">
+          <div className="flex flex-col md:flex-row items-center md:items-baseline gap-2 md:gap-3">
             <Image src="/assets/builds-uploaded.svg" alt="builds icon" width={23} height={30} className="w-4 lg:w-5" />
             <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
           </div>
