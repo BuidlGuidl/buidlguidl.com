@@ -5,15 +5,12 @@ import Image from "next/image";
  */
 export const Footer = () => {
   return (
-    <div className="bg-[#182232] lg:p-12 p-8 flex items-center justify-center text-[16px] rounded-t-3xl">
+    <div className="bg-[#182232] lg:p-12 p-8 flex items-center justify-center text-[16px]">
       <div className="grid grid-cols-12 lg:gap-8 gap-3 max-w-7xl">
         <div className="col-span-12 lg:col-span-6 flex flex-col">
           <div className="flex flex-col">
             <Image src="/assets/logo-white.svg" alt="BuidlGuidl logo" width={150} height={150} />
-            <p className="text-white lg:w-1/2">
-              A curated group of Ethereum builders creating products, prototypes, and tutorials to enrich the web3
-              ecosystem.
-            </p>
+            <p className="text-white lg:w-1/2">Products, tools, and education for the Ethereum ecosystem.</p>
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6">
@@ -28,12 +25,6 @@ export const Footer = () => {
               </a>
               <a href="https://speedrunethereum.com/" target="_blank" rel="noreferrer" className="m-0">
                 Speedrun Ethereum
-              </a>
-              <a href="https://grants.buidlguidl.com" target="_blank" rel="noreferrer" className="m-0 opacity-60">
-                Grants <span className="text-xs">(closed)</span>
-              </a>
-              <a href="/batches" target="_blank" rel="noreferrer" className="m-0 opacity-60">
-                Batches <span className="text-xs">(closed)</span>
               </a>
             </div>
             <div className="flex flex-col col-span-12 sm:col-span-4 text-white space-y-2 font-thin">
@@ -65,12 +56,6 @@ export const Footer = () => {
               <p className="m-0 text-info font-normal">Social</p>
               <a href="https://twitter.com/buidlguidl" target="_blank" rel="noreferrer" className="m-0">
                 Twitter
-              </a>
-              <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="m-0">
-                Telegram
-              </a>
-              <a href="https://discord.gg/84Abq4VbMQ" target="_blank" rel="noreferrer" className="m-0">
-                Discord
               </a>
               <a
                 href="https://www.youtube.com/@austingriffith3550/playlists"

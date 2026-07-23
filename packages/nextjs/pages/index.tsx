@@ -1,68 +1,120 @@
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
-import { JourneyCard } from "~~/components/JourneyCard";
-import { LearnMoreCard } from "~~/components/LearnMoreCard";
 import { MetaHeader } from "~~/components/MetaHeader";
-import TrackedLink from "~~/components/TrackedLink";
+import { BlogMeta, getAllBlogs } from "~~/services/blog";
+import { formatBlogDate } from "~~/utils/blog";
+import { PROJECTS } from "~~/utils/projects";
 
-type Stats = {
-  builderCount: string;
-  buildCount: string;
-  streamedEth: number;
-  buildersIncrementMonth: number;
-  buildsIncrementMonth: number;
-  streamedEthIncrement: number;
-};
+const HOW_WE_WORK = [
+  {
+    title: "We prototype fast",
+    description: "We get a working prototype in your hands early, then iterate together until it's right.",
+  },
+  {
+    title: "We're AI-native",
+    description:
+      "We use AI heavily across our whole workflow, and dive deeper than off-the-shelf tools: building our own harnesses, agents, and AI-powered products.",
+  },
+  {
+    title: "We're ecosystem veterans",
+    description:
+      "We've been building in the Ethereum ecosystem for 8+ years, working alongside the Ethereum Foundation, client teams, and protocol devs.",
+  },
+  {
+    title: "We care about the work",
+    description: "We only take on work we believe in, and we give it the same care we put into our own products.",
+  },
+];
 
-const Home: NextPage<{
-  stats: Stats;
-}> = ({ stats }) => {
-  const [scrollY, setScrollY] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+const FEATURED_PROJECTS = PROJECTS.filter(project => project.featured);
+const OTHER_PROJECTS = PROJECTS.filter(project => !project.featured);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+// Alphabetical by first name.
+const TEAM: { name: string; role?: string; src: string; github: string; x?: string }[] = [
+  {
+    name: "Austin Griffith",
+    role: "Founder",
+    src: "/assets/team/austin.jpg",
+    github: "austintgriffith",
+    x: "austingriffith",
+  },
+  { name: "Carlos Sánchez", role: "CTO", src: "/assets/team/carlos.jpg", github: "carletex", x: "_carletex_" },
+  {
+    name: "Damian Martinelli",
+    role: "Blockchain Engineer",
+    src: "/assets/team/damian.jpg",
+    github: "damianmarti",
+    x: "damianmarti",
+  },
+  { name: "Pablo Alayeto", role: "Product", src: "/assets/team/pablo.jpg", github: "Pabl0cks", x: "pabl0cks" },
+  { name: "Rinat", role: "Full-stack Engineer", src: "/assets/team/rinat.jpg", github: "rin-st" },
+  {
+    name: "Shiv Bhonde",
+    role: "Full-stack Engineer",
+    src: "/assets/team/shiv.jpg",
+    github: "technophile-04",
+    x: "ShivBhonde",
+  },
+  { name: "Spencer Faber", role: "Infra & Content", src: "/assets/team/spencer.jpg", github: "sfaber34" },
+  { name: "Zak Griffith", role: "Operations", src: "/assets/team/zak.jpg", github: "ZakGriffith", x: "ZakAgain" },
+];
 
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
+interface Props {
+  posts: BlogMeta[];
+}
 
-    handleResize(); // Initial check
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
+const Home: NextPage<Props> = ({ posts }) => {
   return (
     <>
       <MetaHeader />
       {/* Hero section with header */}
-      <div className="relative h-[75vh] flex flex-col">
-        <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient"></div>
-        <Header />
+      <div className="relative min-h-[75vh] md:h-[75vh] md:min-h-[600px] flex flex-col">
+        <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient pointer-events-none"></div>
+        <Header transparent />
         <div className="bg-[url(/assets/hero-new.png)] bg-[#EFFBCA] bg-cover bg-center flex-grow mt-[-50px]">
-          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 mt-[-30px]">
-            <h1 className="text-center md:text-left z-10 lg:text-5xl text-4xl">
-              Learn, build, and <br /> thrive on Ethereum
+          <div className="flex flex-col justify-center items-center md:items-start md:justify-left mx-6 h-full md:ml-14 py-12 md:py-0 md:mt-[-30px]">
+            <h1 className="text-center md:text-left z-10 text-3xl sm:text-4xl xl:text-5xl">
+              Products, tools, and education <br className="hidden md:inline" /> for the Ethereum ecosystem
             </h1>
-            <a
-              href="#start-building-on-ethereum"
-              className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4"
-            >
-              Get started
+            <p className="text-center md:text-left z-10 text-base xl:text-xl max-w-md xl:max-w-xl mt-0 mb-2 bg-white/60 backdrop-blur-sm rounded-xl px-4 py-3 md:bg-transparent md:backdrop-blur-none md:px-0 md:py-0">
+              BuidlGuidl is a long-term technical partner to the Ethereum Foundation and teams across the ecosystem. We
+              scope, build, and maintain production dapps, open-source tooling, and education programs.
+            </p>
+            <a href="#build-with-us" className="btn btn-secondary btn-md px-8 hover:opacity-100 w-fit mt-4 z-10">
+              Build with us
             </a>
           </div>
         </div>
-        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center"></div>
+        <div className="absolute h-1/4 w-full bottom-0 left-0 hero-bottom-gradient flex items-end justify-center pointer-events-none"></div>
+      </div>
+
+      {/* Trusted by */}
+      <div className="bg-white">
+        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-6 lg:py-7 flex flex-col items-center gap-3">
+          <p className="m-0 text-xs">TRUSTED BY</p>
+          <div className="flex flex-wrap gap-x-10 gap-y-4 lg:gap-x-14 items-center justify-center">
+            <Image
+              src="/assets/ef-logo.png"
+              alt="Ethereum Foundation logo"
+              width={200}
+              height={200}
+              className="h-14 w-auto"
+            />
+            <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} className="h-10 w-auto" />
+            <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} className="h-10 w-auto" />
+            <Image
+              src="/assets/arbitrum-foundation-logo.svg"
+              alt="Arbitrum Foundation logo"
+              width={170}
+              height={44}
+              className="h-9 w-auto"
+            />
+          </div>
+        </div>
       </div>
 
       {/* Quote section*/}
@@ -81,7 +133,7 @@ const Home: NextPage<{
           {/* Quote Text */}
           <div className="md:max-w-[80%] lg:max-w-[70%] flex flex-col items-center lg:items-start">
             <p className="font-thin text-xl lg:text-2xl text-center lg:text-left mb-10 lg:mb-4">
-              “BuidlGuidl is educating Ethereum developers, creating state-of-the-art tools, and building cool things
+              “BuidlGuidl is educating Ethereum builders, creating state-of-the-art tools, and shipping products
               onchain!”
             </p>
             <p className="m-0 text-xl font-medium">Austin Griffith</p>
@@ -90,360 +142,161 @@ const Home: NextPage<{
         </div>
       </div>
 
-      {/* Build on Ethereum */}
-      <div className="bg-white pb-16" id="start-building-on-ethereum">
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-28 lg:px-12 flex flex-col items-center lg:items-start">
-          <div className="bg-[url(/assets/spaceship.png)] bg-no-repeat bg-right-top lg:max-w-[460px] bg-[length:85px] lg:bg-[length:100px] max-w-[380px] pb-10">
-            <div className="mt-6 lg:mt-0">
-              <h2 className="text-3xl lg:text-5xl text-center lg:text-left lg:max-w-md pr-8 lg:pr-0">
-                Build on Ethereum
-              </h2>
-              <p className="text-center lg:text-left lg:w-3/4">
-                Build real on-chain applications through hands-on challenges. Learn to create decentralized exchanges,
-                stablecoins, and prediction markets and so much more.
-              </p>
-            </div>
-          </div>
-          {/* Cards container */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:max-w-5xl">
-            {/* Card */}
-            <JourneyCard
-              name="Build a DEX"
-              src="/assets/chall-dex.png"
-              description="Build an exchange that swaps ETH to tokens using liquidity pools and automated market makers."
-              link="https://speedrunethereum.com/challenge/dex"
-            />
-            <JourneyCard
-              name="Stablecoins"
-              src="/assets/chall-stablecoins.svg"
-              description="Build a decentralized stablecoin backed by collateral with liquidation mechanics."
-              link="https://speedrunethereum.com/challenge/stablecoins"
-            />
-            <JourneyCard
-              name="Prediction Markets"
-              src="/assets/chall-prediction-markets.svg"
-              description="Create a prediction market where users bet on outcomes with dynamic pricing."
-              link="https://speedrunethereum.com/challenge/prediction-markets"
-            />
-          </div>
-          {/* Speedrun Ethereum Banner */}
-          <TrackedLink
-            id="Speedrun-Ethereum-Banner"
-            href="https://speedrunethereum.com"
-            className="flex items-center gap-3 bg-primary/10 hover:bg-primary/20 transition-colors rounded-full px-6 py-3 mt-8 w-fit"
-          >
-            <span className="text-lg">🏃</span>
-            <span className="font-medium">Explore all challenges on Speedrun Ethereum</span>
-            <span className="text-lg">→</span>
-          </TrackedLink>
-        </div>
-      </div>
-
-      {/* Scaffold-ETH 2 */}
-      <div className="bg-[#FFD2B3]">
-        <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-white"></div>
-        <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
-        <div className="container max-w-[90%] lg:max-w-6xl m-auto py-16 lg:py-20 lg:px-12 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6">
-            <h2 className="text-2xl lg:text-5xl lg:w-3/4 text-center lg:text-left">
-              The stack for prototyping to production
-            </h2>
-            <ul className="list-disc list-outside flex flex-col space-y-3 m-auto lg:mx-0 pl-8 lg:pl-4 max-w-[300px] lg:max-w-none">
-              <li>
-                A modern, clean version of scaffold-eth with <br /> RainbowKit, Wagmi, NextJS and TypeScript
-              </li>
-              <li>Open source tooling built and maintained by BuidlGuidl</li>
-            </ul>
-            <div className="text-center lg:text-left">
-              <TrackedLink
-                id="Scaffold-ETH-2"
-                href="https://scaffoldeth.io"
-                className="btn btn-accent btn-md lg:self-start px-8 hover:opacity-100"
-              >
-                Start using SE-2
-              </TrackedLink>
-            </div>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="flex items-center gap-2 mb-6">
-              <Image src="/assets/se2-logo.svg" alt="Scaffold-ETH 2 logo" width={40} height={40} />
-              <p className="text-2xl lg:text-3xl font-semibold mb-0 mt-2">Scaffold-ETH 2</p>
-            </div>
-            <div className="max-w-[400px] lg:max-w-none">
-              <Image src="/assets/se2-ui.png" alt="Scaffold-ETH 2 screen" width={900} height={900} />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Tour section */}
-      <div className="bg-[url(/assets/background-clouds-mobile.png)] lg:bg-[url(/assets/background-clouds.png)] bg-no-repeat bg-cover bg-center">
-        <div className="container max-w-[80%] lg:max-w-6xl m-auto py-10 lg:py-14 lg:px-12 flex flex-col-reverse lg:flex-row items-center justify-between gap-5 lg:gap-0">
-          <div className="space-y-6">
-            <div className="hidden lg:block mb-4">
-              <Image src="/assets/eth-logo.svg" alt="Ethereum logo" width={48} height={48} />
-            </div>
-            <h2 className="text-3xl lg:text-5xl lg:w-3/4 text-center lg:text-left">Ethereum on Tour</h2>
-            <p className="text-center lg:text-left">
-              Bringing Ethereum curriculum, <br /> tools, and mentorship to you!
-            </p>
-            <div className="text-center lg:text-left">
-              <TrackedLink
-                id="Eth Tour website"
-                href="https://tour.buidlguidl.com"
-                className="btn btn-primary btn-md lg:self-start px-8 rounded-full hover:opacity-100"
-              >
-                See our next dates
-              </TrackedLink>
-            </div>
-          </div>
-          <div
-            className="flex flex-col items-center max-w-[400px] mr-6 lg:mr-0 lg:max-w-none lg:pr-10"
-            style={{
-              transform: `translateY(${scrollY * -0.05 + (isMobile ? 200 : 150)}px)`,
-              transition: "transform 0.1s ease-out",
-            }}
-          >
-            <Image src="/assets/airship.png" alt="Eth Tour airship" width={500} height={500} />
-          </div>
-        </div>
-      </div>
-
-      {/* Feature Builds */}
-      <div className="bg-base-300">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
-          <div className="gap-4 flex flex-col items-center">
-            <div className="flex items-baseline gap-1 md:gap-3">
-              <Image src="/assets/ranking-featured-icon.svg" alt="rankings icons" width={40} height={40} />
-              <h2 className="text-3xl lg:text-5xl font-semibold my-0">Featured Builds</h2>
-            </div>
-            <p className="lg:w-3/5 text-center m-0">
-              Powered by Scaffold-ETH, these forkable builds are one of the easiest ways to launch a project.
-            </p>
-          </div>
-          {/* Card Container */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-8">
-            {/* Card */}
-            <BuildCard
-              name="abi.ninja"
-              description="Interact with any contract on Ethereum with a friendly UI/UX"
-              src="/assets/build-abiNinja.png"
-              link="https://abi.ninja/"
-            />
-            <BuildCard
-              name="hacked wallet recovery"
-              description="Recover assets from a compromised wallet using Flashbots"
-              src="/assets/build-walletHackedRecovery.png"
-              link="https://hackedwalletrecovery.com/"
-            />
-            <BuildCard
-              name="address.vision"
-              description="Search for an address or ENS to show their token and NFT holdings in most popular EVMs"
-              src="/assets/build-addressVision.png"
-              link="https://address.vision/"
-            />
-          </div>
-          <TrackedLink id="buidlguidl:projects" href="https://speedrunethereum.com/builds" className="link mt-8">
-            See all projects
-          </TrackedLink>
-        </div>
-      </div>
-
-      {/* Cohort Streams*/}
+      {/* How we work */}
       <div className="bg-white">
-        <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-          <div className="space-y-6 lg:max-w-[40%] flex flex-col items-center lg:items-start">
-            <h2 className="text-2xl lg:text-4xl xl:text-5xl text-center lg:text-left">Cohort Streams</h2>
-            <div className="text-center px-1 max-w-lg lg:max-w-none lg:w-11/12 lg:px-0 lg:text-left">
-              <p className="m-0 mb-3">
-                BuidlGuidl Cohort Streams are a novel funding mechanism that stream ETH to builders making an impact on
-                specific objectives.
-              </p>
-              <p className="m-0 mb-6">
-                We use Cohort Streams to fund internal initiatives but also external{" "}
-                <TrackedLink
-                  id="Cohort-Streams-HackerHouse"
-                  href="https://hackerhouse.buidlguidl.com/"
-                  className="underline underline-offset-4"
-                >
-                  up-and-coming
-                </TrackedLink>{" "}
-                <TrackedLink
-                  id="Cohort-Streams-ZKCrypto"
-                  href="https://zkcrypto-streams.buidlguidl.com/"
-                  className="underline underline-offset-4"
-                >
-                  high-impact
-                </TrackedLink>{" "}
-                devs.
-              </p>
-              <p className="m-0 mb-6">
-                You can{" "}
-                <TrackedLink
-                  id="Cohort-Streams-Mercs"
-                  href="https://github.com/BuidlGuidl/mercs.buidlguidl.com"
-                  className="underline underline-offset-4"
-                >
-                  fork the repo
-                </TrackedLink>{" "}
-                and make your own cohort stream too!
-              </p>
-              <p className="m-0 mb-3">
-                In true BuidlGuidl fashion, we built the cohort streaming app{" "}
-                <TrackedLink
-                  id="Cohort-Streams-Youtube"
-                  href="https://www.youtube.com/watch?v=MBlR7UWBvrU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99&index=6"
-                  className="underline underline-offset-4"
-                >
-                  live on camera
-                </TrackedLink>
-                .
-              </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm mb-0">SUPPORTED BY</p>
-              <div className="flex flex-col items-center lg:items-start">
-                <Image src="/assets/ef-logo.png" alt="EF logo" width={200} height={200} />
+        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-6xl mx-auto pt-10 pb-16 lg:pt-12 lg:pb-24 lg:px-12">
+          <Image src="/assets/diamond.svg" alt="" width={48} height={48} className="w-10 lg:w-12 mb-12 lg:mb-16" />
+          <div className="grid sm:grid-cols-2 gap-x-16 gap-y-10">
+            {HOW_WE_WORK.map(item => (
+              <div key={item.title}>
+                <h3 className="text-lg lg:text-xl font-semibold mt-0 mb-2">{item.title}</h3>
+                <p className="m-0">{item.description}</p>
               </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
-            <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-              <Image src="/assets/streams.png" alt="streams illustration" width={700} height={700} />
-            </div>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Cohorts */}
+      {/* Latest from the blog */}
       <div className="bg-base-100">
-        <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-            {/* Partnerships Text Content */}
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
-                Partnering with
-                <br /> ecosystem heroes
-              </h2>
-              <p className="m-0 lg:pr-8 mb-3">
-                BuidlGuidl is looking for L2s and Ethereum protocols to partner with to help grow your developer
-                ecosystem.
-              </p>
-              <p className="m-0 lg:pr-8 mb-6">
-                We can build educational content and apps on your EVM chain to help more builders ship more apps!
-              </p>
-              <p className="lg:mb-3 mt-12 lg:mt-8 text-sm">ECOSYSTEM SUPPORT FROM</p>
-              <div className="flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start">
-                <Image src="/assets/op-logo.svg" alt="Optimism logo" width={48} height={48} />
-                <Image src="/assets/ens-logo-dao.png" alt="ENS logo" width={96} height={64} />
-                <Image
-                  src="/assets/arbitrum-foundation-logo.svg"
-                  alt="Arbitrum Foundation logo"
-                  width={170}
-                  height={44}
-                />
-              </div>
-              <TrackedLink
-                id="co-fund-email"
-                href="https://telegram.me/austingriffith"
-                className="btn btn-primary btn-md px-8 mt-8 hover:opacity-100"
+        <div className="container max-w-[90%] lg:max-w-6xl mx-auto py-10 lg:py-12 lg:px-12 flex flex-col lg:flex-row lg:items-start gap-6 lg:gap-16">
+          <div className="shrink-0">
+            <h2 className="text-2xl lg:text-3xl my-0">From the blog</h2>
+            <Link href="/blog" className="text-sm underline underline-offset-4">
+              View all posts →
+            </Link>
+          </div>
+          <div className="flex-1 divide-y divide-base-content/10">
+            {posts.slice(0, 5).map(post => (
+              <Link
+                key={post.slug}
+                href={post.url}
+                className="group flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-x-6 gap-y-1 py-3 first:pt-0 last:pb-0"
               >
-                Support BuidlGuidl
-              </TrackedLink>
-            </div>
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/cohorts.png" alt="cohorts illustration" width={700} height={700} />
-              </div>
-            </div>
+                <span className="font-medium group-hover:underline underline-offset-4">{post.title}</span>
+                <span className="text-sm text-base-content/60 shrink-0">{formatBlogDate(post.date)}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Stats Streamed / Builder / Builds  */}
-      <div className="bg-white">
-        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-7xl mx-auto py-16 lg:py-28 lg:px-12 gap-6">
-          <div className="flex flex-col gap-8 md:flex-row justify-between items-start mt-4 lg:w-4/5">
-            <div className="flex items-start gap-3">
-              <Image src="/assets/diamond.svg" alt="diamon icon" width={40} height={40} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">
-                  {stats.streamedEth.toFixed(2)}Ξ
-                </h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Streamed</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builders.svg" alt="builder icon" width={45} height={45} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.builderCount}</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builders</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3">
-              <Image src="/assets/builds-uploaded.svg" alt="build icon" width={30} height={30} className="mt-1" />
-              <div className="flex flex-col items-start">
-                <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-primary">{stats.buildCount}</h2>
-                <p className="text-sm my-0 -mt-1 lg:-mt-2 font-medium">Builds Uploaded</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* BG Client */}
-      <div className="bg-base-300">
-        <div className="mx-auto lg:max-w-7xl">
-          <div className="container max-w-[90%] lg:max-w-7xl m-auto py-16 lg:py-20 xl:pl-24 lg:pl-16 flex flex-col-reverse lg:flex-row items-center gap-5 lg:gap-0">
-            <div className="space-y-6 md:max-w-[70%] lg:max-w-[40%] flex flex-col items-center lg:items-start text-center lg:text-left">
-              <h2 className="text-2xl lg:text-4xl xl:text-5xl">
-                BuidlGuidl <br /> {'"Client"'}{" "}
-              </h2>
-              <p className="m-0 lg:pr-8 mb-3">One line command to run an Ethereum full node!</p>
-              <div className="flex gap-6 mt-8">
-                <TrackedLink
-                  id="BG-Nodes"
-                  href="https://client.buidlguidl.com"
-                  className="btn btn-md btn-secondary px-8 hover:opacity-100"
-                >
-                  Run Ethereum
-                </TrackedLink>
-                <Image src="/assets/bg-client-logo.svg" alt="BG Client logo" width={150} height={150} />
-              </div>
-            </div>
-            <div className="flex flex-col items-center lg:pl-16 xl:pl-12 2xl:pl-24 lg:-mr-12 xl:-mr-16 2xl:-mr-24">
-              <div className="max-w-md lg:max-w-md xl:max-w-xl 2xl:max-w-2xl">
-                <Image src="/assets/bg-client-2.png" alt="BG Client running on a computer" width={700} height={700} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Learn More  */}
-      <div className="bg-skin">
+      {/* Featured projects */}
+      <div className="bg-base-300" id="projects">
         <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-6xl mx-auto py-16 lg:py-24 lg:px-12 gap-6">
-          <p className="font-thin text-xl my-0">LEARN MORE</p>
-          {/* Card Container */}
-          <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center mt-4">
-            {/* Card */}
-            <LearnMoreCard
-              name="🧪 BG Labs"
-              src="/assets/bg-labs.png"
-              description="A series of videos to help you get started in the ecosystem and keep learning."
-              link="https://www.youtube.com/watch?v=4hl61AmEGwU&list=PLJz1HruEnenD77QAsqnk7KG8rSOMk0B99"
-            />
-            <LearnMoreCard
-              name="🚢 Shipping Log"
-              src="/assets/shipping-log.png"
-              description="Check out our newsletter to be updated on our tools, hackathons and more."
-              link="https://buidlguidl.substack.com/"
-            />
-            <LearnMoreCard
-              name="📡 BuidlGuidl on X"
-              src="/assets/bg-client-card.png"
-              description="Follow us on X for updates on Ethereum developer experience and onbaording!"
-              link="https://x.com/buidlguidl"
-            />
+          <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">Featured projects</h2>
+          <Image
+            src="/assets/ranking-featured-icon.svg"
+            alt="rankings icon"
+            width={40}
+            height={40}
+            className="w-8 lg:w-10"
+          />
+          <div className="flex gap-8 flex-wrap justify-center mt-2 lg:mt-4">
+            {FEATURED_PROJECTS.map(project => (
+              <BuildCard
+                key={project.name}
+                name={project.name}
+                description={project.description}
+                src={project.src}
+                link={project.link}
+                metrics={project.metrics}
+                imageFit={project.imageFit}
+                imageBg={project.imageBg}
+              />
+            ))}
           </div>
+          <p className="text-center m-0 max-w-2xl">
+            Plus{" "}
+            {OTHER_PROJECTS.map((project, index) => (
+              <span key={project.name}>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4 whitespace-nowrap"
+                >
+                  {project.name}
+                </a>
+                {index < OTHER_PROJECTS.length - 2 ? ", " : index === OTHER_PROJECTS.length - 2 ? " and " : "."}
+              </span>
+            ))}
+          </p>
+          <Link href="/projects" className="btn btn-secondary btn-md px-8 hover:opacity-100">
+            View all projects
+          </Link>
+        </div>
+      </div>
+
+      {/* Team */}
+      <div className="bg-[#FFD2B3]" id="team">
+        <div className="-mt-12 bg-repeat-x h-20 bg-[35%_top] bg-base-300"></div>
+        <div className="-mt-12 bg-[url(/assets/sre-path.png)] bg-repeat-x h-20 bg-[35%_top]"></div>
+        <div className="container flex flex-col items-center max-w-[90%] lg:max-w-5xl mx-auto pt-6 pb-16 lg:pt-10 lg:pb-24 gap-10">
+          <div className="flex flex-col items-center gap-4">
+            <Image src="/assets/builders.svg" alt="builders icon" width={40} height={36} className="w-8 lg:w-10" />
+            <h2 className="text-3xl lg:text-5xl font-semibold my-0 text-center">The Team</h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 w-full">
+            {TEAM.map(member => (
+              <div key={member.name} className="flex flex-col items-center gap-3">
+                <Image
+                  src={member.src}
+                  alt={member.name}
+                  width={96}
+                  height={96}
+                  className="w-24 h-24 rounded-full object-cover"
+                />
+                <div className="text-center">
+                  <p className="m-0 font-semibold leading-tight whitespace-nowrap">{member.name}</p>
+                  {member.role && <p className="m-0 text-sm">{member.role}</p>}
+                </div>
+                <div className="flex gap-3">
+                  <a
+                    href={`https://github.com/${member.github}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${member.name} on GitHub`}
+                    className="opacity-60 hover:opacity-100"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                    </svg>
+                  </a>
+                  {member.x && (
+                    <a
+                      href={`https://x.com/${member.x}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${member.name} on X`}
+                      className="opacity-60 hover:opacity-100"
+                    >
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                      </svg>
+                    </a>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Build with us */}
+      <div className="bg-skin" id="build-with-us">
+        <div className="container flex flex-col items-center justify-center max-w-[90%] lg:max-w-3xl mx-auto py-16 lg:py-24 gap-6 text-center">
+          <div className="flex flex-col items-center gap-4">
+            <h2 className="text-2xl lg:text-4xl m-0">Build with us</h2>
+            <Image src="/assets/builds-uploaded.svg" alt="builds icon" width={23} height={30} className="w-5 lg:w-6" />
+          </div>
+          <p className="text-lg m-0">
+            We work with L2s, DAOs and companies that need developer tooling, apps, or education built. Tell us what you
+            need.
+          </p>
+          <a href="mailto:admin@buidlguidl.com" className="btn btn-primary btn-md px-8 mt-2 hover:opacity-100">
+            Get in touch
+          </a>
         </div>
       </div>
 
@@ -460,20 +313,9 @@ const Home: NextPage<{
   );
 };
 
-export const getStaticProps: GetStaticProps<{ stats: Stats }> = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BG_BACKEND_API}/api/stats`);
-
-  if (!res.ok) throw new Error(`Failed to fetch stats, received status ${res.status}`);
-
-  const stats = (await res.json()) as Stats;
-
-  return {
-    props: {
-      stats,
-    },
-    // 6 hours refresh.
-    revalidate: 21600,
-  };
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const posts = getAllBlogs();
+  return { props: { posts } };
 };
 
 export default Home;

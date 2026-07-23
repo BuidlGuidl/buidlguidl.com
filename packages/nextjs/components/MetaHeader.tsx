@@ -13,7 +13,7 @@ const baseUrl = "https://buidlguidl.com/";
 
 export const MetaHeader = ({
   title = "BuidlGuidl",
-  description = "A curated group of Ethereum builders creating products, prototypes, and tutorials to enrich the web3 ecosystem.",
+  description = "Products, tools, and education for the Ethereum ecosystem.",
   image = "thumbnail.png",
   twitterCard = "summary_large_image",
   children,
