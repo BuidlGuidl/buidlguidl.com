@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,7 +51,9 @@ export const Header = ({ transparent = false }: { transparent?: boolean }) => {
           >
             {MENU_LINKS.map(link => (
               <li key={link.label}>
-                <Link href={link.href}>{link.label}</Link>
+                <Link href={link.href} onClick={() => (document.activeElement as HTMLElement)?.blur()}>
+                  {link.label}
+                </Link>
               </li>
             ))}
           </ul>
