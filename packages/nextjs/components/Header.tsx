@@ -9,6 +9,7 @@ const MENU_LINKS = [
   { label: "Projects", href: "/#projects" },
   { label: "Team", href: "/#team" },
   { label: "Blog", href: "/blog" },
+  { label: "Guides", href: "/guides" },
   { label: "Contact", href: "/#build-with-us" },
 ];
 
