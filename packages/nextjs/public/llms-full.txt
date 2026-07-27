@@ -1,0 +1,19 @@
+# BuidlGuidl
+
+> BuidlGuidl is a long-term technical partner to the Ethereum Foundation and teams across the ecosystem. We build and maintain Scaffold-ETH 2 (the Ethereum dapp starter kit) and SpeedRun Ethereum (learn to build on Ethereum through hands-on challenges), plus open source tooling and education programs.
+
+## Tools
+- [Scaffold-ETH 2](https://scaffoldeth.io): open source toolkit for building Ethereum dapps, with RainbowKit, Wagmi, Viem, NextJS, and TypeScript. Docs at https://docs.scaffoldeth.io
+- [SpeedRun Ethereum](https://speedrunethereum.com): learn to build on Ethereum by completing hands-on Solidity challenges, from a simple NFT to a full DEX
+
+## Site
+- [Home](https://buidlguidl.com/): products, tools, and education for the Ethereum ecosystem
+- [Projects](https://buidlguidl.com/projects): the open source tools, apps, and education programs we build and maintain
+- [Blog](https://buidlguidl.com/blog): writing from the BuidlGuidl team on tooling, education, and research
+- [Batches](https://buidlguidl.com/batches): a program for builders who have completed SpeedRun Ethereum, the next step toward open source dApp development
+
+## Blog posts
+- [Evaluating agent skills: testing whether they are actually useful](https://buidlguidl.com/blog/evaluating-agent-skills)
+- [Building an AI Agent From Scratch](https://buidlguidl.com/blog/building-ai-agent-from-scratch)
+- [RAG From the Ground Up](https://buidlguidl.com/blog/rag-from-the-ground-up)
+- [Shifting to an AI-Native Ethereum Developer Stack](https://buidlguidl.com/blog/ai-native-ethereum-stack)

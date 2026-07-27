@@ -127,6 +127,7 @@ const Devon2024 = () => {
         title="BuidlGuidl x Devcon | Discount Tickets Claim"
         description="BuidlGuidl has partnered with Devcon SEA to offer discounted tickets for BuidlGuidl
             members!"
+        path="/devcon"
       />
       <div className="min-h-screen relative bg-base-100/70 bg-[url(/assets/hero-image-light.png)] bg-bottom bg-no-repeat bg-[length:200%_auto] md:bg-contain">
         <div className="relative navbar w-full navbar-end z-10">

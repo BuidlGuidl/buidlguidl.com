@@ -35,6 +35,7 @@ const Projects: NextPage = () => {
       <MetaHeader
         title="Projects - BuidlGuidl"
         description="Open source tools, apps and education programs we build and maintain for the Ethereum ecosystem."
+        path="/projects"
       />
       <div className="hero-fade">
         <Header transparent />

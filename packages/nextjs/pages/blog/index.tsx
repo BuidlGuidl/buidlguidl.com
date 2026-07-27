@@ -16,6 +16,7 @@ const Blog: NextPage<Props> = ({ posts }) => {
       <MetaHeader
         title="Blog - BuidlGuidl"
         description="Writing from the BuidlGuidl team: tooling, education and research for the Ethereum ecosystem."
+        path="/blog"
       />
       {/* Title band, hero-style fade behind the header */}
       <div className="hero-fade">

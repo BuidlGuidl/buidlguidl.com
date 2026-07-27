@@ -37,3 +37,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+# next-sitemap generated output (regenerated on each build)
+public/sitemap.xml
+public/sitemap-*.xml

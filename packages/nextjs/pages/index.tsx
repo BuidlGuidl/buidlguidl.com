@@ -4,10 +4,12 @@ import type { GetStaticProps, NextPage } from "next";
 import { BuildCard } from "~~/components/BuildCard";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
+import { JsonLd } from "~~/components/JsonLd";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { BlogMeta, getAllBlogs } from "~~/services/blog";
 import { formatBlogDate } from "~~/utils/blog";
 import { PROJECTS } from "~~/utils/projects";
+import { organizationSchema } from "~~/utils/seo";
 
 const HOW_WE_WORK = [
   {
@@ -70,7 +72,9 @@ interface Props {
 const Home: NextPage<Props> = ({ posts }) => {
   return (
     <>
-      <MetaHeader />
+      <MetaHeader title="BuidlGuidl: Learn and Build on Ethereum" path="/">
+        <JsonLd data={organizationSchema} />
+      </MetaHeader>
       {/* Hero section with header */}
       <div className="relative min-h-[75vh] md:h-[75vh] md:min-h-[600px] flex flex-col">
         <div className="absolute h-1/4 w-full top-0 left-0 hero-top-gradient pointer-events-none"></div>
