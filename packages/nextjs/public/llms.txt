@@ -9,5 +9,6 @@
 ## Site
 - [Home](https://buidlguidl.com/): products, tools, and education for the Ethereum ecosystem
 - [Projects](https://buidlguidl.com/projects): open source tools and apps we build and maintain
+- [Guides](https://buidlguidl.com/guides): practical guides on learning and building on Ethereum
 - [Blog](https://buidlguidl.com/blog): writing on tooling, education, and research
 - [Batches](https://buidlguidl.com/batches): a program to level up as an open source dApp developer
