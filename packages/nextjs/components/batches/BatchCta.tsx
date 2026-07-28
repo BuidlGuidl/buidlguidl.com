@@ -4,9 +4,38 @@ import TrackedLink from "~~/components/TrackedLink";
 interface BatchCtaProps {
   openBatchNumber: number | null;
   openBatchStartDate: string | null;
+  isPaused?: boolean;
 }
 
-export const BatchCta = ({ openBatchNumber, openBatchStartDate }: BatchCtaProps) => {
+export const BatchCta = ({ openBatchNumber, openBatchStartDate, isPaused = false }: BatchCtaProps) => {
+  // Show paused state when batches are paused
+  if (isPaused) {
+    return (
+      <div className="mt-16 mb-16 card bg-[#5f5fd3] px-6 lg:pl-6 py-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
+        <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="max-w-full lg:max-w-[65%] text-center lg:text-left">
+            <h3 className="card-title text-2xl text-white mb-3 justify-center lg:justify-start">
+              🚂 Batches Taking a Pit Stop
+            </h3>
+            <p className="text-white/90">
+              We&apos;re preparing the next adventure! In the meantime, start your journey with Speedrun Ethereum and be
+              ready when we return.
+            </p>
+          </div>
+          <div className="flex justify-center lg:justify-end w-full lg:w-auto">
+            <TrackedLink
+              id="apply-next-batch"
+              href="https://speedrunethereum.com/"
+              className="btn btn-sm bg-white text-[#5f5fd3] hover:bg-gray-100 transition-colors duration-300 inline-flex items-center justify-center whitespace-nowrap"
+            >
+              Go Speedrun Ethereum
+            </TrackedLink>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="mt-16 mb-16 card bg-gradient-to-r from-primary to-secondary px-6 lg:pl-6 py-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
       <div className="card-body py-0 px-0 lg:py-0 lg:px-10 flex flex-col lg:flex-row items-center justify-between gap-6">

@@ -20,6 +20,7 @@ export const articleSchema = (meta: BlogMeta) => ({
   "@type": "BlogPosting",
   headline: meta.title,
   description: meta.description,
+  image: `${SITE_URL}/api/og?title=${encodeURIComponent(meta.title)}`,
   datePublished: meta.date,
   url: `${SITE_URL}${meta.url}`,
   publisher: {

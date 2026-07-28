@@ -1,10 +1,17 @@
 # BuidlGuidl
 
-> BuidlGuidl builds and maintains Scaffold-ETH 2 (the Ethereum dapp starter kit) and Speedrun Ethereum (learn to build on Ethereum through hands-on challenges).
+> BuidlGuidl is a long-term technical partner to the Ethereum Foundation and teams across the ecosystem. We scope, build, and maintain production dapps, open-source tooling, and education programs, including Scaffold-ETH 2 (the Ethereum dapp starter kit) and Speedrun Ethereum (learn to build on Ethereum through hands-on challenges).
 
-## Tools
+## Tools & products
 - [Scaffold-ETH 2](https://scaffoldeth.io): open source toolkit for building Ethereum dapps with NextJS, Wagmi, Viem, and RainbowKit
 - [Speedrun Ethereum](https://speedrunethereum.com): learn to build on Ethereum through hands-on Solidity challenges
+- [ENS Builder Grants](https://builder.ensgrants.xyz/): the grants platform ENS runs to fund public goods in the Ethereum and Web3 ecosystems
+- [BuidlGuidl Client](https://client.buidlguidl.com): one line command to run an Ethereum full node
+- [abi.ninja](https://abi.ninja/): interact with any contract on Ethereum with a friendly UI/UX
+- [Ethereum Job Board](https://www.ethereumjobboard.com/): find the best jobs in Ethereum, and post your own openings
+- [Ethereum on Tour](https://tour.buidlguidl.com): bringing Ethereum curriculum, tools, and mentorship to you
+- [Hacked Wallet Recovery](https://hackedwalletrecovery.com/): recover assets from a compromised wallet using Flashbots
+- [Capture The Flag](https://ctf.buidlguidl.com/): reclaim the flags from the BuidlGuidl fortress by solving Ethereum coding challenges
 
 ## Site
 - [Home](https://buidlguidl.com/): products, tools, and education for the Ethereum ecosystem

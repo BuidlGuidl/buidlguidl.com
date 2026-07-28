@@ -9,6 +9,9 @@ import { Header } from "~~/components/Header";
 import { MetaHeader } from "~~/components/MetaHeader";
 import TrackedLink from "~~/components/TrackedLink";
 
+// Toggle this to true when batches are paused
+const BATCHES_PAUSED = true;
+
 interface BatchData {
   id: number;
   name: string;
@@ -40,6 +43,7 @@ interface PageProps {
 const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+  const isPaused = BATCHES_PAUSED;
 
   const filteredBatchData = batchData.filter(batch => batch.status === "closed");
 
@@ -59,6 +63,14 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
         description="Explore BuidlGuidl Batches to enhance your skills as a web3 developer. Join our program and collaborate with other Ethereum builders."
         path="/batches"
       />
+      {/* Paused Banner */}
+      {isPaused && (
+        <div className="bg-[#5f5fd3] text-white text-center py-3 px-4">
+          <p className="text-sm md:text-base font-medium">
+            🚂 <strong>Batches are taking a pit stop!</strong> We&apos;re preparing the next adventure, stay tuned!
+          </p>
+        </div>
+      )}
       {/* Hero section with custom header */}
       <div className="relative flex flex-col items-center pb-48">
         <div className="absolute inset-0 bg-gradient-to-b from-[#EAFFA9] via-[#f3ffca] to-[#EDEFFF]"></div>
@@ -127,7 +139,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
           </div>
 
           {/* Next Batch CTA */}
-          <BatchCta openBatchNumber={openBatchNumber} openBatchStartDate={openBatchStartDate} />
+          <BatchCta openBatchNumber={openBatchNumber} openBatchStartDate={openBatchStartDate} isPaused={isPaused} />
         </div>
       </div>
 
@@ -249,7 +261,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       <div className="bg-[#EDEFFF] pt-16 lg:pt-8 pb-16">
         <div className="container max-w-[90%] lg:max-w-6xl mx-auto px-4 lg:px-12">
           {/* Next Batch CTA */}
-          <BatchCta openBatchNumber={openBatchNumber} openBatchStartDate={openBatchStartDate} />
+          <BatchCta openBatchNumber={openBatchNumber} openBatchStartDate={openBatchStartDate} isPaused={isPaused} />
 
           <div className="flex justify-center items-center mb-8">
             <Image src={"/assets/bg-batches-winners.svg"} alt={"Winners"} width={50} height={50} className="mr-3" />
