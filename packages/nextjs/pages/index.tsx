@@ -72,7 +72,11 @@ interface Props {
 const Home: NextPage<Props> = ({ posts }) => {
   return (
     <>
-      <MetaHeader title="BuidlGuidl: Learn and Build on Ethereum" path="/">
+      <MetaHeader
+        title="BuidlGuidl: Ethereum Development Partner"
+        description="Long-term technical partner to the Ethereum Foundation and teams across the ecosystem. We scope, build, and maintain production dapps, tooling, and education."
+        path="/"
+      >
         <JsonLd data={organizationSchema} />
       </MetaHeader>
       {/* Hero section with header */}
