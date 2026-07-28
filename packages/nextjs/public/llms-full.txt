@@ -15,6 +15,7 @@
 
 ## Guides
 - [How to Build on Ethereum in 2026: A Complete Beginner Roadmap](https://buidlguidl.com/guides/how-to-build-on-ethereum): a practical roadmap for learning by shipping real contracts with Speedrun Ethereum, then building full-stack dapps with Scaffold-ETH 2
+- [The Cleanest Full-Stack Ethereum App Architecture (2026)](https://buidlguidl.com/guides/full-stack-ethereum-architecture): how to structure a full-stack Ethereum app, the Scaffold-ETH 2 monorepo layout for contracts, frontend, tests, and an indexer, and how the pieces stay in sync through typed hooks
 
 ## Blog posts
 - [Evaluating agent skills: testing whether they are actually useful](https://buidlguidl.com/blog/evaluating-agent-skills)
