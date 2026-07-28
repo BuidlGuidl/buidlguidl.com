@@ -19,3 +19,6 @@
 - [Guides](https://buidlguidl.com/guides): practical guides on learning and building on Ethereum
 - [Blog](https://buidlguidl.com/blog): writing on tooling, education, and research
 - [Batches](https://buidlguidl.com/batches): a program to level up as an open source dApp developer
+
+## Guides
+- [How to Build on Ethereum in 2026: A Complete Beginner Roadmap](https://buidlguidl.com/guides/how-to-build-on-ethereum): a roadmap for learning by shipping real contracts with Speedrun Ethereum, then building full-stack dapps with Scaffold-ETH 2
