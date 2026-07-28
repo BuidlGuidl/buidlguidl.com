@@ -6,9 +6,11 @@ import rehypePrism from "rehype-prism-plus";
 import remarkGfm from "remark-gfm";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
+import { JsonLd } from "~~/components/JsonLd";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { BlogHeading, BlogMeta, getAllBlogSlugs, getBlogBySlug } from "~~/services/blog";
 import { formatBlogDate, slugify } from "~~/utils/blog";
+import { articleSchema } from "~~/utils/seo";
 
 const LightboxImage = ({ src, alt }: { src?: string; alt?: string }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -311,7 +313,10 @@ const BlogPost: NextPage<Props> = ({ source, meta, headings, wordCount }) => {
         title={`${meta.title} - BuidlGuidl`}
         description={meta.description}
         image={`api/og?title=${encodeURIComponent(meta.title)}`}
-      />
+        path={meta.url}
+      >
+        <JsonLd data={articleSchema(meta)} />
+      </MetaHeader>
 
       <ProgressBar />
 

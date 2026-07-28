@@ -6,6 +6,8 @@ type MetaHeaderProps = {
   description?: string;
   image?: string;
   twitterCard?: string;
+  // Route path (e.g. "/blog/slug") used to build the self-referencing canonical.
+  path?: string;
   children?: React.ReactNode;
 };
 
@@ -16,9 +18,11 @@ export const MetaHeader = ({
   description = "Products, tools, and education for the Ethereum ecosystem.",
   image = "thumbnail.png",
   twitterCard = "summary_large_image",
+  path,
   children,
 }: MetaHeaderProps) => {
   const imageUrl = baseUrl + image;
+  const canonicalUrl = path ? new URL(path, baseUrl).href : undefined;
 
   return (
     <Head>
@@ -43,6 +47,7 @@ export const MetaHeader = ({
         </>
       )}
       {twitterCard && <meta name="twitter:card" content={twitterCard} />}
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
       {children}
     </Head>

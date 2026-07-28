@@ -57,6 +57,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
       <MetaHeader
         title="BuidlGuidl Batches | Level Up Your Web3 Skills"
         description="Explore BuidlGuidl Batches to enhance your skills as a web3 developer. Join our program and collaborate with other Ethereum builders."
+        path="/batches"
       />
       {/* Hero section with custom header */}
       <div className="relative flex flex-col items-center pb-48">
@@ -65,6 +66,8 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
         <Header />
         <div className="container relative flex items-center max-w-[90%] lg:max-w-6xl px-4 py-16 min-h-[60vh] lg:py-20 lg:px-32">
           <div className="space-y-4 z-10 relative">
+            {/* Visible title is an SVG wordmark, so this h1 carries the page topic for crawlers */}
+            <h1 className="sr-only">BuidlGuidl Batches</h1>
             <Image src="/assets/bg-batches-onboarding.svg" alt="BG Onboarding" width={330} height={200} priority />
             <div className="relative">
               <Image src="/assets/bg-batches-text.svg" alt="Batches text" width={700} height={400} priority />
