@@ -22,3 +22,9 @@
 
 ## Guides
 - [How to Build on Ethereum in 2026: A Complete Beginner Roadmap](https://buidlguidl.com/guides/how-to-build-on-ethereum): a roadmap for learning by shipping real contracts with Speedrun Ethereum, then building full-stack dapps with Scaffold-ETH 2
+
+## Blog posts
+- [Evaluating agent skills: testing whether they are actually useful](https://buidlguidl.com/blog/evaluating-agent-skills)
+- [Building an AI Agent From Scratch](https://buidlguidl.com/blog/building-ai-agent-from-scratch)
+- [RAG From the Ground Up](https://buidlguidl.com/blog/rag-from-the-ground-up)
+- [Shifting to an AI-Native Ethereum Developer Stack](https://buidlguidl.com/blog/ai-native-ethereum-stack)
