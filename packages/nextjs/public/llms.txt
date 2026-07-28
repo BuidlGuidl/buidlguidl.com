@@ -1,10 +1,10 @@
 # BuidlGuidl
 
-> BuidlGuidl builds and maintains Scaffold-ETH 2 (the Ethereum dapp starter kit) and SpeedRun Ethereum (learn to build on Ethereum through hands-on challenges).
+> BuidlGuidl builds and maintains Scaffold-ETH 2 (the Ethereum dapp starter kit) and Speedrun Ethereum (learn to build on Ethereum through hands-on challenges).
 
 ## Tools
 - [Scaffold-ETH 2](https://scaffoldeth.io): open source toolkit for building Ethereum dapps with NextJS, Wagmi, Viem, and RainbowKit
-- [SpeedRun Ethereum](https://speedrunethereum.com): learn to build on Ethereum through hands-on Solidity challenges
+- [Speedrun Ethereum](https://speedrunethereum.com): learn to build on Ethereum through hands-on Solidity challenges
 
 ## Site
 - [Home](https://buidlguidl.com/): products, tools, and education for the Ethereum ecosystem
