@@ -106,5 +106,6 @@ Either. Both work with Scaffold-ETH 2. Foundry is fast and lets you write tests 
 
 - **Learn:** start the free challenges at [speedrunethereum.com](https://speedrunethereum.com). Do the first one today.
 - **Build:** scaffold your project with [Scaffold-ETH 2](https://scaffoldeth.io) and keep the [docs](https://docs.scaffoldeth.io) open in a tab.
+- **Structure it:** when you are ready to build something real, see [how to structure a full-stack Ethereum app](/guides/full-stack-ethereum-architecture).
 
 Build on Ethereum is not one giant leap. It is a first small contract, then a slightly bigger one, deployed somewhere real each time. Start the first challenge, and you will have shipped something before the day is out.
