@@ -456,7 +456,8 @@ const NODE_INFRA: RecapSectionData = {
   navTitle: "Ecosystem Support",
   intro: (
     <>
-      We improved the BuidlGuidl Client UX and launched a free distributed mainnet RPC that{"'"}s powered by BG Clients.
+      We improved the BuidlGuidl Client UX and launched a free distributed mainnet RPC that{"'"}s powered by BG Client
+      nodes.
     </>
   ),
   tabs: [
@@ -477,7 +478,7 @@ const NODE_INFRA: RecapSectionData = {
                 <DarkLink href="https://apps.apple.com/us/app/bg-client/id6756518184">Mac and iOS app</DarkLink> for
                 monitoring node status
               </>,
-              "Kept the execution (Geth & Reth) and consensus (Prysm & Lighthouse) clients current all year.",
+              "Kept the execution (Geth & Reth) and consensus (Prysm & Lighthouse) clients current all year",
             ]}
           />
         </>
@@ -493,38 +494,17 @@ const NODE_INFRA: RecapSectionData = {
       content: (
         <>
           <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
-            A community-powered RPC endpoint served by BG Client nodes. It started from an empty repo in January 2025
-            and grew into the pool service that routes, verifies, and pays for every request.
+            A free mainnet RPC endpoint, served entirely by the community-run nodes in the BG Client network.
           </p>
 
-          <TerminalLabel>Request Routing</TerminalLabel>
           <TaskList
             tasks={[
-              "Built the pool from scratch: socket.io check-ins, a live map of connected nodes, and per-request timeouts",
-              "Raced each request across three nodes and returned the fastest response, later tuned down to a single node with random spot check sets",
-              "Added a caching layer for eth_call, eth_getBalance, eth_getStorageAt, eth_getBlockByNumber and friends, keyed by params and block number",
-              "Added dynamic timeouts for slower methods and a retry when the first node times out",
-            ]}
-          />
-
-          <TerminalLabel>Trust & Verification</TerminalLabel>
-          <TaskList
-            tasks={[
-              "Compared responses key by key across nodes and raised Telegram alerts on mismatches",
-              "Blocked block number spoofing by checking each node's reported head against the mode of the pool",
-              "Scored nodes fast or slow by their timeout percentage over the trailing week, and filtered out stale or partial check-ins",
-            ]}
-          />
-
-          <TerminalLabel>Rewards & Public Data</TerminalLabel>
-          <TaskList
-            tasks={[
-              "Replaced owner points with Bread minted on Base: staged to a database, batched, ENS resolved, with mint capacity preflight and nonce error recovery",
+              "Launched the RPC and immediately started handling mainnet requests at no cost to users",
               <>
-                Shipped the endpoints behind the client and{" "}
-                <DarkLink href="https://rpc.buidlguidl.com/">rpc.buidlguidl.com</DarkLink>: /poolNodes, /nodeContinents,
-                /rpcsitestats, /yournodes with per-node system stats, and /watchdog
+                Started rewarding BG Client node runners who support the BG RPC with the{" "}
+                <DarkLink href="https://bread.buidlguidl.com/">Bread</DarkLink> ERC-20 token
               </>,
+              "Improved response speeds with caching and smarter request routing",
             ]}
           />
         </>
