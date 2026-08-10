@@ -467,7 +467,7 @@ const NODE_INFRA: RecapSectionData = {
       content: (
         <>
           <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
-            One line command to run an Ethereum full node, with a terminal dashboard for monitoring.
+            One line command to run an Ethereum full node with a terminal dashboard for monitoring.
           </p>
 
           <TaskList
@@ -494,7 +494,7 @@ const NODE_INFRA: RecapSectionData = {
       content: (
         <>
           <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
-            A free mainnet RPC endpoint, served entirely by the community-run nodes in the BG Client network.
+            A free mainnet RPC endpoint, served entirely by community-run BG Client nodes.
           </p>
 
           <TaskList
