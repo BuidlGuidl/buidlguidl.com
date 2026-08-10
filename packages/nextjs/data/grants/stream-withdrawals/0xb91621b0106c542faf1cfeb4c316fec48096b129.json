@@ -1,0 +1,65 @@
+[
+  {
+    "tx": "0xc0820d6e061a4dc820f378896fa569eb8c06485f0b5faa81d65a411bafac5c74",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.1,
+    "reason": "stream & ens rescue",
+    "timestamp": 1682061419
+  },
+  {
+    "tx": "0xa829408b6a48e2a7d00dfdc64ca4ec4e4602577291029a8a5641e84fea966b3c",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.1,
+    "reason": "Surge control and cost allocation ",
+    "timestamp": 1672095395
+  },
+  {
+    "tx": "0x03477fb9fa5ae1701775b21218cce6e8e115482ff5a6d9a7a81beebb2faf146c",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.15,
+    "reason": "ride allocation and isolation - turbo",
+    "timestamp": 1671555563
+  },
+  {
+    "tx": "0x78c95fdabb312abcc5d2b6aed506600139bf730bab08c4f597b368dbb2d9d414",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.15,
+    "reason": "Mapping functionality and workflow security - Turbo",
+    "timestamp": 1670916443
+  },
+  {
+    "tx": "0xc2733b4b263246a3c57fcaf5bb0995f7daee6eda0357115da1624385adfcccec",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.25,
+    "reason": "Turbo Web3: design, functionality and workflow",
+    "timestamp": 1669971959
+  },
+  {
+    "tx": "0x21fc5f3acf42dedea9c7cc9455a646daa2f32acc67f68ce7f87d50050f51d810",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.25,
+    "reason": "Working on a eth ride sharing model",
+    "timestamp": 1668853367
+  },
+  {
+    "tx": "0x3a5c038d54359f63c637bd8c4f73ba8005056983414fcf311b248c9ce9109d7a",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.25,
+    "reason": "https://github.com/austintgriffith/maas/pull/52  damn-vulnerable-defi",
+    "timestamp": 1667376695
+  },
+  {
+    "tx": "0x46b7c2165ea574ee67f0fa6a8ea2bc8d535619bf7af0499d123e6454f3e5ba08",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.25,
+    "reason": "minimalistic marketplace, smart contract security with ethernaut",
+    "timestamp": 1666166387
+  },
+  {
+    "tx": "0x39228af1480ca5794ca7917b346794d8eeef20216be0819e119ed4a66764ebe8",
+    "builder": "0xb91621b0106c542faf1cfeb4c316fec48096b129",
+    "amount": 0.5,
+    "reason": "Speed ran through Ethereum. Speed Builds - Nft Properties randomized with chainlink datafeeds. Building a minimal marketplace",
+    "timestamp": 1664784335
+  }
+]

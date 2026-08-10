@@ -1,0 +1,730 @@
+[
+  {
+    "tx": "0x4c8342b0716695963841acaa9f0619f951ed76a59740e264f6bf0e1df5ded202",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Implemented real-time movement so no more rover/avatar, making the UX an order of magnitude better (live on testnet): https://github.com/tenetxyz/biomes-contracts/pull/11, started work on grand exchange chip chest contract: https://github.com/tenetxyz/biomes-experience/tree/grand-exchange-chest",
+    "timestamp": 1727805179
+  },
+  {
+    "tx": "0x44ddf54f9d5cbc5d8cd2cd659fa750800a1b236c22731e271194a1dd308d79d2",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "We were able to use these funds to support various grant projects, including a ZK proof of SXG website data in Cairo (github.com/crema-labs/sxg-cairo), and advocating for more cryptographic signatures at the IETF (blog post incoming).",
+    "timestamp": 1727073515
+  },
+  {
+    "tx": "0x8914d89410c7c2e8c9a7c520d25041d4a9ca21e07096531918ad5ffa91f8568a",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Launched the new version of biomes (with smart items) to mainnet: https://biome1.biomes.aw/, https://github.com/tenetxyz/biomes-experience, https://github.com/tenetxyz/biomes-contracts",
+    "timestamp": 1725132491
+  },
+  {
+    "tx": "0xceb28a0e4590151c137006fda8c0c261548478e311b9709148970f8ab5c2bb9a",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Add custom ERC20 and ERC721 metadata, and support batch calling approve and transfer for better UX. Create two custom chips: buy/sell chest where which mints an ERC721 and allows only one item purchase, and a bank chest which mints an ERC20 for every game item. Launched to mainnet: https://biome1.biomes.aw/, https://github.com/tenetxyz/biomes-experience, https://github.com/tenetxyz/biomes-contracts",
+    "timestamp": 1725130799
+  },
+  {
+    "tx": "0x83d128d0a011633e8751ef271c498b04d26193ad4c1efc253077b28d6e9ee20d",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Change chests to work via general chips representation smart contracts. Ported over existing shop chests to use chips, and added force fields + chips. Switched to reading MUD tables instead of getters: https://github.com/tenetxyz/biomes-experience, https://github.com/tenetxyz/biomes-contracts",
+    "timestamp": 1721691227
+  },
+  {
+    "tx": "0x04f29c84c4b411a353d6c557fedca930c38d8569238a47694e798d740cde71c5",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Collaborated on adding force fields, chests, doors to biomes so players can create and govern their own places: https://github.com/tenetxyz/biomes-scaffold",
+    "timestamp": 1721520743
+  },
+  {
+    "tx": "0x36940f8f18206e2c3e0d1196b66e27f04bea4d78804acef38c664b2b000e0aa2",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Expanded Blockhead's Farcaster client to include several types of feeds: trending, recent, casts in a channel, casts by a user and casts personalized for a user; users can mix and match indexers and feed algorithms from Airstack, Neynar, OpenRank and Pinata. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1720021967
+  },
+  {
+    "tx": "0xc93816e4ac0c40db7e906c6150cae05e3e4e5113acb8e69796a7397a67aa77cf",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Worked on more experiences (world extensions to Biomes) post-launch. Main one was adding a core primitive for an economy: shops! Added simple ETH shops, a shop based on a bonding curve, and a tokenized commodity based shop. https://github.com/tenetxyz/biomes-scaffold/pull/11",
+    "timestamp": 1719092255
+  },
+  {
+    "tx": "0xf73e90c261d84de0da5d5ca5171f88f79a6ab71209b66b9f46b1effcfbb0d0e5",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "helped with Launching Biome-1 to Redstone mainnet with 4 experiences built using our scaffold-eth experiences template. https://github.com/tenetxyz/biomes-scaffold",
+    "timestamp": 1718837891
+  },
+  {
+    "tx": "0x7d30db8781850dfd90f68707cfa5dcad48d70e9d4da8b5cf78bbe7d05077423c",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Built 2fa.emailwallet.org with team, that lets you use zk email as a Gnosis Safe signer. Code at https://github.com/zkemail/email-wallet/tree/feat/safe-2fa/packages",
+    "timestamp": 1718837075
+  },
+  {
+    "tx": "0x6264b8d693164318e39f56855b08247d87108a3eb79fbed06b78d1de6c0213ae",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Launched Biome-1 to Redstone mainnet with 4 experiences built using our scaffold-eth experiences template. Updated scaffold-eth template to handle importing JSON to auto fill in write forms, support local dev, and now working on DAO template https://github.com/tenetxyz/biomes-scaffold",
+    "timestamp": 1716369287
+  },
+  {
+    "tx": "0x1e5de661d195bcbc0ddd660dd5cb252e8093879946cb921155d053ef1766cae7",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.5,
+    "reason": "Built a new version of words3–an infinite onchain word game",
+    "timestamp": 1716259295
+  },
+  {
+    "tx": "0x6b33734a894b3f61aa20d385067b34ef7d2c370cde44f4d69f55a57290cea74c",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Built an explorer for onchain attestations on Sign Protocol with a graph visualization. Accounts and schemas are nodes; attestations are sets of directed edges. https://ethglobal.com/showcase/nbi9f",
+    "timestamp": 1714376159
+  },
+  {
+    "tx": "0xd375ba0ff1d9e55cc2539221b6f1b6b583847619e94498843d93e3375e3cfa75",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Worked on getting biomes ready for mainnet launch on may 1st. Gas optimizations to the contracts: https://github.com/tenetxyz/biomes-contracts and helped Wand build scaffold eth template https://github.com/tenetxyz/biomes-scaffold",
+    "timestamp": 1713718595
+  },
+  {
+    "tx": "0x65c1cebd77c477af5e87fea190141153432124a92c6926673e0931145f06bc01",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "worked on getting biomes ready for mainnet launch on may 1st, and build dev tools using scaffoldeth for anyone to extend the game: https://github.com/tenetxyz/biomes-scaffold/",
+    "timestamp": 1713648263
+  },
+  {
+    "tx": "0x8bec6b7a9510b9126d6bab47569b6fec311b11070cfbdd2750a40f6a48c2de6f",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Presented account recovery with zk email at zk summit Athens! Also helped run a 900K domain-selector scrape of DKIM keys. Those are at https://github.com/zkemail/ . Also published simplewdiff to brew: https://github.com/Divide-By-0/homebrew-simplewdiff",
+    "timestamp": 1713130523
+  },
+  {
+    "tx": "0x8a1250087cd5d3a3f760674205cbaf9b51ec5d4b66e262f9787377488578deba",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Overhauled wallet connection logic. Added support for EIP-6963 to discover EIP-1193 provider objects from browser extension wallets. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1711781339
+  },
+  {
+    "tx": "0xfefb6d73e99c735e0ab5b68eba075930635478f93da1ba545f0e76ac1c09878d",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.254,
+    "reason": "Worked on the new version of words3 and yonk",
+    "timestamp": 1711526963
+  },
+  {
+    "tx": "0x0e6813411cc251427a0cfccb58da1d2e9fe5de6aa111d8a37e222a6184a8c24f",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "Farcaster Tourney Chess960 frame (mints NFT if you can beat the engine): https://github.com/fiveoutofnine/onframe-tourney; Farcaster chess frame (https://github.com/fiveoutofnine/onframe-chess); fully onchain audio + visual + data NFT: https://github.com/fiveoutofnine/555",
+    "timestamp": 1711514639
+  },
+  {
+    "tx": "0x687872dce7e76f949dfc1fb992ec60c376a5ef308325e906255c40f62c97d296",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Worked on the final release. Playtest at: https://biomes.everlon.xyz",
+    "timestamp": 1711041647
+  },
+  {
+    "tx": "0x22ebea6f840c5e1bcbd7cc28b6c28c6d1a8793f653b8048a5e73180fb5d91f5d",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Added an optional system hooks feature where users can register/unregister their own hooks to MUD: https://github.com/tenetxyz/mud/pull/31. Added crafting, changed move to teleport, and login/logoff: https://github.com/tenetxyz/everlon-contract. Playtest at: https://biomes.everlon.xyz",
+    "timestamp": 1711039007
+  },
+  {
+    "tx": "0x7f680c83acb6bce63d2997e1bddd31b955c4786593137439a1a86198e5874775",
+    "builder": "0x97735c60c5e3c2788b7ee570306775e687095d19",
+    "ens": "plotchy.eth",
+    "amount": 0.5,
+    "reason": "Little slither CTF to ease the hurdles of getting started making custom detectors https://github.com/plotchy/learn-slither",
+    "timestamp": 1710290963
+  },
+  {
+    "tx": "0x36205db36ddd734482c13e0eca0dadbae4e70427a274c76c541dd52aec0779e9",
+    "builder": "0xc3ffd59bd2ab6fb4187672723276d953142fddde",
+    "ens": "philogy.eth",
+    "amount": 0.5,
+    "reason": "Developed and released BALLS, a state of the art toolkit for generating optimal bytecode: https://github.com/philogy/balls. Made API to more comfortably be able to use transient storage in Solidity 0.8.24 already: https://github.com/Philogy/transient-goodies",
+    "timestamp": 1710290219
+  },
+  {
+    "tx": "0xda49c12920d4a1da8ae91752df7bd60d2af38f6de9c7b2fc5ccedf920ab9caeb",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.5,
+    "reason": "Built yonk, a fully onchain social app on the app store: joinyonk.com",
+    "timestamp": 1710208187
+  },
+  {
+    "tx": "0xfd3972afd9b11daa71ba2fa3bb8847d1420e265d92d7995ee7943c1b18eabc8e",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0,
+    "reason": "Built yonk, a fully onchain social app on the app store: joinyonk.com",
+    "timestamp": 1710208103
+  },
+  {
+    "tx": "0x464403d30f9f0b8d1f86841d8c6919bc8566ed47cf4ffba9242bc5684a39c1ce",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Rewrote emailwallet.org to work with reply-to-email instead (https://github.com/zkemail/emailwallet.org), shipped a simple claim demo for ETH Denver",
+    "timestamp": 1710114359
+  },
+  {
+    "tx": "0x0178796e6be95febb4df01bf801f7439de5550285464b3cbbcd61a6bae74f930",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Improved EVM network navigation and filtering on Apps view. Added basic support for Farcaster Frames within Farcaster feeds. Created new TypeScript REST clients for Zapper and Zerion APIs. Prototyped a Farcaster Frame for Blockhead Explorer URLs that displays balances and NFTs held by an account, using a novel SvelteKit-based OpenGraph image rendering pipeline. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1708561787
+  },
+  {
+    "tx": "0xf43f6da7e9f1a79201afdc7d6bb935f27c627505a98f15839bdef93ae14beed3",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Worked on the new iterations of explore.everlon.xyz based on player feedback. Githubs on: https://github.com/tenetxyz/zuse/pull/353, https://github.com/tenetxyz/zuse/pull/352.",
+    "timestamp": 1708431227
+  },
+  {
+    "tx": "0x7f81fa2606f4d5d18f146516216b2cf50ea44922785cfe8ef719b27e714bf881",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Completed couple iterations on agent controller UX from user feedback: https://github.com/tenetxyz/zuse/pull/353. Now working on last part of game loop: crafting, https://github.com/tenetxyz/zuse/pull/352. Then, tooling for players to deploy smart contracts. Try it out and join TG for updates: https://tenet.aw/#play",
+    "timestamp": 1708387895
+  },
+  {
+    "tx": "0x503ba3ae7732dde5b7a69e8752f7aabddb24f5fd2d51bb3279fed03e407fcb6c",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Updated the PLUME ERC: https://github.com/ethereum/ERCs/pull/242 and updated bugs in zk email https://github.com/zkemail/zk-email-verify and deployed the dkim registry https://registry.prove.email/upload from https://github.com/zkemail/dkim-lookup",
+    "timestamp": 1707422927
+  },
+  {
+    "tx": "0x63619c2b29a571c19581048545f0a2fea21856b29d64bcd9d2ebd342937bdc1d",
+    "builder": "0xf51c53b2c184aa43a7d24aa4f0cf13d0e8b56c51",
+    "ens": "zemse.eth",
+    "amount": 0.5,
+    "reason": "worked on a bunch of projects in last few months https://github.com/zemse/halo2-utils https://github.com/zemse/aws-informer https://github.com/zemse/partial-mpt https://github.com/zemse/etherscan-scrapper",
+    "timestamp": 1706677055
+  },
+  {
+    "tx": "0xd7b149e7522a19a97ec2db5a4ba3d5b28d03e7952b0bfcf2c2bb31cbfe1b9194",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Created TypeScript REST client for all new Class A and Class B endpoints from the Covalent API. Organized and refactored normalization functions for all data sources. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1705640711
+  },
+  {
+    "tx": "0x77388b6c53cccbc28644a72d26c86aa8fdbe0ad998c63c91b826c409f90deb5b",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Worked on release of first sandbox: monuments. Play test coming soon! https://github.com/tenetxyz/zuse/pull/350",
+    "timestamp": 1705263335
+  },
+  {
+    "tx": "0x7c2c6efcde0f0384bf7b37f28a2bc8cc72f8dcd77fe9b3a2b0a6af9b9a54bdd7",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "worked with dhvani on: release of first sandbox: monuments. Play test coming soon! https://github.com/tenetxyz/zuse/pull/350 and all details updating on tenet.aw",
+    "timestamp": 1705257179
+  },
+  {
+    "tx": "0xf67b434751d0f660e85a6b2184533e63929bd4e13d52fd8e8e567a30c44388db",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "worked with david to ship anonpaper.com, that lets you anonymously comment on twitter, primarily for academia rn (without zk for now). made a downloader for streameth since their button didnt download hd for me: https://github.com/Divide-By-0/streameth-downloader. worked with nozee.xyz team to make production ready!",
+    "timestamp": 1704586919
+  },
+  {
+    "tx": "0x81874fd0f04dfb3f2420b94d3dc65ba917747bb3509fecf2ebdbe2b8a36a06ea",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 0.5,
+    "reason": "smart types https://github.com/jtriley-eth/smart-types",
+    "timestamp": 1703912735
+  },
+  {
+    "tx": "0x35f596760a8dd10f7d4234354e4c6dbb113c128bd21ceea157bf8a4e999f3ed1",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Worked With Dhvani on Launching Zuse and Everlon. ZUSE is a framework for building worlds with strong digital physics. https://github.com/tenetxyz/zuse",
+    "timestamp": 1702469207
+  },
+  {
+    "tx": "0xb9cf87e7f4e0f24a3973626ada97c10111feccb921873379990babcbcaf0de01",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Launched ZUSE! ZUSE is a framework for building worlds with strong digital physics. https://github.com/tenetxyz/zuse",
+    "timestamp": 1702430003
+  },
+  {
+    "tx": "0x0cb5b9e5be8ac87f796c938a37a722581443ebacd90164848d00b170dd5e72b4",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Added a read-only Farcaster client to Blockhead. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1702421831
+  },
+  {
+    "tx": "0xf9ea308a86e13608be16107ac119985ef0eedeb01eebe35bb9bf4173ea060853",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Audited and shipped emailwallet.org on Arbitrum; over 300 txes on the first 2 weeks. Shipped and audited zk email sdk V1 fully, with zkp2p on Base mainnet.",
+    "timestamp": 1701640667
+  },
+  {
+    "tx": "0x1aa7b7b72c9143675649bf21168538ea0824aafb295808ed569987cb10d329c7",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.3,
+    "reason": "Launched drawtech, the first mobile onchain game",
+    "timestamp": 1699757219
+  },
+  {
+    "tx": "0x0567969204a667cf6a902eca7ec3f1645b21408e16bde187c2801c89efd26c29",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "worked with dhvani on Added pokemon, and farmers example. Demo'd at MUD community call https://www.youtube.com/watch?v=Sk9FKJlNPXE. Open sourcing in two weeks at Devconnect launch: https://github.com/tenetxyz/voxel-aw",
+    "timestamp": 1699469243
+  },
+  {
+    "tx": "0x767663feff54edce8b7b47fd20077e3acdf46630f5dabf6a57a3680db2f90244",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "UX improvements: smarter routing and redirection logic, automatic parsing and format detection for URLs and search inputs. Explorer improvements: EIP-3091 compatibility, support for non-EVM blockchain architectures (starting with Filecoin). New primitives: DIDs, verifiable credentials, capability objects. Improved TypeScript types and data normalization logic for blocks, transactions, token balances and NFT balances. Consolidated several legacy transaction views. Migrated most fetching logic to Tanstack Query. https://github.com/darrylyeo/blockhead",
+    "timestamp": 1699295579
+  },
+  {
+    "tx": "0xd32173f4276b42b970c4301103e1190da6f1b30e707c96a7df5c38ce0487fe45",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Added pokemon, and farmers example. Demo'd at MUD community call https://www.youtube.com/watch?v=Sk9FKJlNPXE. Open sourcing in two weeks at Devconnect launch: https://github.com/tenetxyz/voxel-aw",
+    "timestamp": 1698711539
+  },
+  {
+    "tx": "0xf38e3a9c953508e5e98d779a8ef1900996a37529a0e08d4a7b60e3a26f1398c1",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "Rewrote Huff compiler in Python: (https://github.com/philogy/py-huff#motivation),  small contributed to zkemail: https://github.com/zkemail/email-wallet/pull/6, continued building out open circuit breaker library: (https://github.com/defi-Circuit-Breaker/erc7265), created convenient library for EVM assembly in Rust (https://github.com/philogy/evm-glue)",
+    "timestamp": 1698257675
+  },
+  {
+    "tx": "0xc55a6ffef4e9761d540b7d516162faa461dfe24739bf821453fc7cefb33b861f",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Published PLUME as official ERC 7524. Put up the updated email wallet on emailwallet.org, and helped prepare email wallet circuits and contracts for V1 audit.",
+    "timestamp": 1697725127
+  },
+  {
+    "tx": "0x76abceefce6be28b5f12b52d15eb6bbcda33a68b5a54865d6a812d086efbaf77",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Revamped Apps page including collapsible views and a Network select menu. Prototyped a Uniswap V3 frontend as the first interactive UI for a DeFi protocol. https://ethglobal.com/showcase/blockhead-ny23-9u62f",
+    "timestamp": 1696382867
+  },
+  {
+    "tx": "0xdd4779c066e95ddecb49fdba2b5d06e05bbff3536cde897d0a1c43fd8c8b530a",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "Added batch add functions + key update to colormap registry: https://github.com/fiveoutofnine/colormap-registry/releases/tag/v0.0.2 & deployed to ETH mainnet and Base @ 0x00000000A84FcdF3E9C165e6955945E87dA2cB0D w/ colormaps registered",
+    "timestamp": 1696292435
+  },
+  {
+    "tx": "0x1492a215778ac598ef1d6eaca2685ff8dd1497a4f0e127c3f018e36936d6fddc",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "worked together with dhvani on: More details on project page: https://ghhg.notion.site/ghhg/Tenet-Fall-2023-66825cbd868f41c88db4c9aab4eb6e67 Open sourcing repo in coming month once contracts are cleaned and checked https://github.com/tenetxyz/voxel-aw",
+    "timestamp": 1696282655
+  },
+  {
+    "tx": "0x5e4b050e4dc919282d3e5a556217bcab2e69512c0cf51680aa72ee8c3835f563",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "separated spatial framework from the examples, and added conservation laws (mass, energy, velocity).  More details on project page: https://ghhg.notion.site/ghhg/Tenet-Fall-2023-66825cbd868f41c88db4c9aab4eb6e67 Open sourcing repo in coming month once contracts are cleaned and checked https://github.com/tenetxyz/voxel-aw",
+    "timestamp": 1695693707
+  },
+  {
+    "tx": "0x46508929c14169e15f31b4dbec0edd7c72760cfaff8756a9e75814063da1a9d3",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Published a blog post breaking down the state of zk proving systems today: https://blog.aayushg.com/posts/zk. Summarized our projects and progress at https://prove.email. Improved and bugfixed https://sendeth.org.",
+    "timestamp": 1694975747
+  },
+  {
+    "tx": "0xab8a97276bb818b13360fbcfd6b4c55bb7a8c1ac11c45e349c48fd37e873d796",
+    "builder": "0x46792084f2fa64244ec3ab3e9f992e01dbfb023d",
+    "ens": "saucepoint.eth",
+    "amount": 0.5,
+    "reason": "Finished v4 experiment, have a pending v4 contribution, and deployed a one-click leverage contract. Details: https://saucepoint.notion.site/July-through-August-2023-8eeee8ca2ef14a74b0b541d1ac1fde41",
+    "timestamp": 1693618139
+  },
+  {
+    "tx": "0x0283e875528f24f75be968631425927b7a3d81ce80661f1ef46cbb8a8332bc35",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Continuing to streamline TypeScript types, internal data structures and state management across the app. Migrated from ethers.js to viem + abitype for onchain queries and interactions. Added support for several OP Stack-based chains. Wrote a full-featured REST client in TypeScript for the Etherscan/Blockscan family of APIs (with autocomplete help from GitHub Copilot!). https://ethglobal.com/showcase/blockhead-ko74p",
+    "timestamp": 1693543463
+  },
+  {
+    "tx": "0x38cdd34eb9807f24b777c59b8abbf2914c8572b618206a1024724d4cbce161ba",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "Continued working on developing and promoting the ERC7265 standard, also developed and published 2 new repos: 1. Mega Dropper (https://github.com/philogy/mega-dropper) a highly optimized airdropper contracts in Huff 2. Version Detector (https://github.com/philogy/version-detector/) a library to help developers easy detect the EVM version at runtime which can be useful to mitigate deployment configuration errors",
+    "timestamp": 1693231115
+  },
+  {
+    "tx": "0xeab95ea630b98ada3aa78d8f00345150069dc6f35fc09998f15ee2266c61a140",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/tenetxyz/biomes-game; https://github.com/tenetxyz/everlon-v0 -- worked on the designs/specs for v2 of the app, with a totally new UI for programming agents, stabilizing the cellular automata and agent oriented programming smart contract framework",
+    "timestamp": 1692929015
+  },
+  {
+    "tx": "0xd919eefb783cace5d60c0a714b6de16ccd8afcaaba85353df3f96c08ff006dcb",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Fixed snapsync module and added multi key support for keysintable module for MUD https://github.com/tenetxyz/mud, looking into biomes client to use as the client for the Minecraft app https://github.com/tenetxyz/biomes-game",
+    "timestamp": 1692748187
+  },
+  {
+    "tx": "0xd438dbc7b2837bdb5f30fee94cffc236c1f67111896afb51686841e4eb1db618",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "I deployed (with lermchair) the https://sendeth.org demo. All code OSS on github.com/zkemail as usual.",
+    "timestamp": 1692339551
+  },
+  {
+    "tx": "0x901f3f78fb8763eab6cd59b72f4b3efa7c0486c64c60e0c74b2277bde6d1dca3",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "Launched https://tx.cool and open-sourced: https://github.com/fiveoutofnine/tx.cool",
+    "timestamp": 1691724083
+  },
+  {
+    "tx": "0xf9fcd4fb516e2b4002a8ffe7a6973a6149f2db010b5ae7e64100b01442f4a2ee",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.5,
+    "reason": "Continued work on Words3 & Network States. Specifically, readied the Words3 client to launch in the next week.",
+    "timestamp": 1691358239
+  },
+  {
+    "tx": "0x6798b756ad1a4dd44072795e2ec1cc48e1ad6fa905b9051ed30d0f58de071964",
+    "builder": "0x46792084f2fa64244ec3ab3e9f992e01dbfb023d",
+    "ens": "saucepoint.eth",
+    "amount": 0.5,
+    "reason": "uni v4 contributions: saucepoint.notion.site/June-to-July-2023-a4cedc692a894071ba9680cbd8c96d90",
+    "timestamp": 1690598207
+  },
+  {
+    "tx": "0x7533ba8476966f1841e4ace99a2ac3b26f0e0a7f477383720fa3f3766a9c7205",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Built an IPFS explorer, file browser, file uploader, CID decoder tool and an in-browser IPFS node at HackFS! https://ethglobal.com/showcase/blockhead-hackfs-2023-edg0v",
+    "timestamp": 1690530791
+  },
+  {
+    "tx": "0x6b0c349bdcd299d25ee5c16988f18b1bd2a430d534718ac5a7995c66e4e6fe50",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "Finished developing core logic for METH (https://github.com/philogy/meth-weth), deployment procedure, more testing & verification next. Also built and published SSTORE3 (https://github.com/philogy/sstore3) a library that lets you efficiently store large amounts of data for retrieval in your contracts. Finally got my contribution to the Huff compiler merged: https://github.com/huff-language/huff-rs/pull/280",
+    "timestamp": 1690241771
+  },
+  {
+    "tx": "0xedc1d07fbdc503a668443218fbe74d5eefd8709bdd1c15a2df0c0a3697b35b19",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 0.5,
+    "reason": "uni v4 flash loans",
+    "timestamp": 1690223723
+  },
+  {
+    "tx": "0xfa0db0e23b41d16d8197bab064bf275b42abc63cae6faa68cfff98ff0a052c76",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "working with Wand on an on-chain Minecraft that has extendible physics and and graphics. github links: https://github.com/tenetxyz/add-to-everlon, https://github.com/tenetxyz/everlon-blocks/tree/main",
+    "timestamp": 1690051535
+  },
+  {
+    "tx": "0x87089943d909bc5144690185210a2902bb68089ba6b6fbec007ef3ec074a87a9",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "imagine minecraft but as a \"standard onchain library\" so players can add their own blocks and block physics (like redstone, or flux, or magic, or mana systems) and have it instantly show up for everyone. github links: https://github.com/tenetxyz/add-to-everlon, https://github.com/tenetxyz/everlon-blocks/tree/main",
+    "timestamp": 1689200003
+  },
+  {
+    "tx": "0x7086f4b8a73e9636f7d9b8254c3e264f87a891b426b2372b1aec64967b39c262",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Oops I withdrew 0 in the last tx so this is the real withdraw.",
+    "timestamp": 1689116123
+  },
+  {
+    "tx": "0x6f401b2ad48fd4845d915ea5e9bbf9c834a9139a821606cfe7c05d651c5bde90",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0,
+    "reason": "I shipped our beta trial for the anonymous zk-email wallet and started small scale user testing. Dm me if you want to try it out (@yush_g)! We also released our SDK on NPM: https://www.npmjs.com/~yushg and all the code is still oss at https://github.com/zkemail/.",
+    "timestamp": 1689115763
+  },
+  {
+    "tx": "0x0341f2c43541a61619b2f8fdcf855e08dc20c1fad0bc85ce349ef315aec6339a",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "On-chain generative, ASCII characters: https://github.com/fiveoutofnine/adopt-a-hyphen",
+    "timestamp": 1689019811
+  },
+  {
+    "tx": "0xa0b1618633710c67ad68d20ac28c81f11ccef1c304848014eebfc18ded8bf50b",
+    "builder": "0x97735c60c5e3c2788b7ee570306775e687095d19",
+    "ens": "plotchy.eth",
+    "amount": 0.5,
+    "reason": "First withdraw! Shipped pyrometer SOLC JSON support (https://github.com/nascentxyz/pyrometer/pull/64), Improved the Foundry Fuzzer (https://github.com/foundry-rs/foundry/pull/5246), created omniscan - a way to run pyrometer on all of eth mainnet (https://github.com/nascentxyz/omniscan), refreshed simple-security-toolkit (https://github.com/nascentxyz/simple-security-toolkit/pull/12)",
+    "timestamp": 1688597939
+  },
+  {
+    "tx": "0x68b7e5ae9ed75f611843bf28ccc5c0e08574f3c41a6f29287fe4103d27af6dc7",
+    "builder": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+    "ens": "smallbraindev.eth",
+    "amount": 0.5,
+    "reason": "First withdrawal!! Work on the new versions of words3 (still private repo) and open sourced a lite version of an on-chain game called network states (lite version here: https://github.com/smallbraingames/network-states-lite), found at networkstates.wiki. Full version of both incoming!!",
+    "timestamp": 1688015159
+  },
+  {
+    "tx": "0xa8e8ebbf5284576d288441ba67c1768cc6ac6245f1f141130658ab2c1cae3d44",
+    "builder": "0x46792084f2fa64244ec3ab3e9f992e01dbfb023d",
+    "ens": "saucepoint.eth",
+    "amount": 0.5,
+    "reason": "optimistic liqs & v4 hook stuff  https://saucepoint.notion.site/May-to-June-2023-70b47bd207264484bb12901f7d85108a",
+    "timestamp": 1687886687
+  },
+  {
+    "tx": "0xbda797e94c2d53a26ede7a092648b0868c91e1ad6f65a169ae5f7c3c2914dddc",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 0.5,
+    "reason": "Ether Deck https://github.com/jtriley-eth/ether-deck",
+    "timestamp": 1687117451
+  },
+  {
+    "tx": "0x60edc1b3fbed99be3fe45ad020f02988f1b8bb1c41f18ddd4f67f589a3c64a37",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "Helped Aayush with zkEmail: https://github.com/Philogy/zkemail-optimizer. As well as got my foundry PR merged: https://github.com/foundry-rs/forge-std/pull/375. Continued work on METH: https://github.com/Philogy/meth-weth",
+    "timestamp": 1687101071
+  },
+  {
+    "tx": "0xe64eefd457ae5684dfbfcaa791f3850dda56d8f74a4282604cc521b4d46c49c4",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Updated our zk regex tool at zkregex.com/min_dfa to be compatible with the escaping and indexing in both the circom and halo2 generator. Wrote upgradable email command extension contracts in solidity. Rewrote relayer to check user info on chain before generating a zk proof. Work is all at github.com/zkemail!",
+    "timestamp": 1686355907
+  },
+  {
+    "tx": "0xc248a9f65139ca07029dd95372afd1cb30319b932d800bcd3960c61499cd4172",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Collaborated with Dhvani and Curtis on: https://github.com/tenetxyz/opcraft-redstone (adding extendible block physics to onchain voxel world); opcraft-mud2 (porting onchain voxel world to mud2); https://github.com/tenetxyz/minecraft-chain-tee-link (have creations in opcraft that you can simulate on minecraft in a TEE)",
+    "timestamp": 1686334583
+  },
+  {
+    "tx": "0x6409e2868160348e7b2ceb6bea36707486f6ef88d858f90c60c7eb1b552cd987",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.5,
+    "reason": "Forked OPCraft and added a general way to add your own block interactions. Did a demo with redstone. https://github.com/tenetxyz/opcraft-redstone",
+    "timestamp": 1686184787
+  },
+  {
+    "tx": "0xa69c3e2a283a81ec00c1bb11085a1df9604fa57519b7b63d85ee34e581c5f76c",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Contributed to EIP-6963, a standard that allows multiple browser extension wallet providers to register themselves without race conditions. https://eips.ethereum.org/EIPS/eip-6963",
+    "timestamp": 1685220899
+  },
+  {
+    "tx": "0x70a8726cca222e09e17f5ad4004d39760f8b94c90b12af5ed5037b0f8beef8e1",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "Designed on-chain message exploration: https://www.figma.com/file/ZrcxjHCwCU4pJhHxzgoyQF/tx.cool?type=design&node-id=0-1. Have some work in a private repo (demo @ https://www.tx.cool/chat/fiveoutofnine.eth) that'll be ported over to https://github.com/fiveoutofnine/tx.cool after some style refreshes",
+    "timestamp": 1684638287
+  },
+  {
+    "tx": "0xb181a207b1c12715b2c76fc3264fde440b981fc4ae2395f3f8bd4def3e14eeb8",
+    "builder": "0x46792084f2fa64244ec3ab3e9f992e01dbfb023d",
+    "ens": "saucepoint.eth",
+    "amount": 0.5,
+    "reason": "from ETH Denver: https://github.com/bEsPoKeN-tOkEns/token-tester",
+    "timestamp": 1684625387
+  },
+  {
+    "tx": "0xe5419a4d8cd314ea0f57c9064989aebc79a767fba87f71eac2cf797430471b92",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Continued to maintain https://github.com/zkemail/ -- deployed autoscaled, dockerized rapidsnark provers that spin up spot instances, quickly prove, then spin down. Also deployed wallet contracts as well as bugfixes to the demo on zkemail.xyz.",
+    "timestamp": 1683738563
+  },
+  {
+    "tx": "0xa63348e8ddd50c38da438d99358e4a6a9f573888ae6d838cd271f5dbc8cb1032",
+    "builder": "0xd0040c2127cfcb87d1ce71f8360059178897a39a",
+    "ens": "high-byte.eth",
+    "amount": 0.5,
+    "reason": "people seem to think I'm worthy. I shall forward this to people more worthy of this stream. my contributions to society: https://github.com/hananbeer/protomerkle & (on same git) sign-pixels, soundphrase, terraseed, sqlidity, zerem, evm2",
+    "timestamp": 1683737759
+  },
+  {
+    "tx": "0xb102ee035e30c0e60ff19bdb84c75a829ee255ced54886b219d86cb71fc54b56",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 0.3811,
+    "reason": "New Multi-token Standard: https://github.com/jtriley-eth/ERC-6909",
+    "timestamp": 1683734327
+  },
+  {
+    "tx": "0x79473cefa56959b342ed2e133023f985fdb09df1146fdcc46708630aa90e83dc",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "Made a few improvements to logging lib from last month and opened PR to add to forge-std. Started working on open-source tax tool fatcat: https://github.com/fatcat-money/ and built a highly optimized ERC-4337 multisig wallet: https://github.com/DeReg-io/container-wallets/",
+    "timestamp": 1683732575
+  },
+  {
+    "tx": "0x828cc0ba083fe7c71e4a0cedeaba0f809080b31c68b3886065c7d39c38f89eff",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.4997,
+    "reason": "Looked into nitriding repo to figure out attestations work. Description of project in README.md Link: https://github.com/tenetxyz/minecraft-tee",
+    "timestamp": 1683171143
+  },
+  {
+    "tx": "0xd71e095a54271ad7b448b6814051c33381302ae440ccafc354bbec86d546ca43",
+    "builder": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+    "ens": "wandcrafting.eth",
+    "amount": 0.5,
+    "reason": "Dockerized Minecraft to make it run in a TEE, and tested in AWS. Description of project in README.md  Link: https://github.com/tenetxyz/minecraft-tee",
+    "timestamp": 1683170831
+  },
+  {
+    "tx": "0xd71e095a54271ad7b448b6814051c33381302ae440ccafc354bbec86d546ca43",
+    "builder": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+    "ens": "dhvanipa.eth",
+    "amount": 0.000263,
+    "reason": "Looked into nitriding repo to figure out attestations work. Description of project in README.md Link: https://github.com/tenetxyz/minecraft-tee",
+    "timestamp": 1683170831
+  },
+  {
+    "tx": "0x7fbc13c96749f7c63bdcc6a65c7dc6ce37346905138d2aa7d891398fd51d0873",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 0.5,
+    "reason": "Added new features to Blockhead at ETHTokyo! https://ethglobal.com/showcase/blockhead-ethtokyo-2023-kx4rh https://github.com/darrylyeo/blockhead",
+    "timestamp": 1682485271
+  },
+  {
+    "tx": "0x2d0a31cbce98e3dafdb520018e669d50dfeea7e60ad81d2891317fb7b8f214e4",
+    "builder": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+    "ens": "fiveoutofnine.eth",
+    "amount": 0.5,
+    "reason": "Built a feedback incentivization mechanism for a hackathon: https://github.com/fiveoutofnine/flywheel",
+    "timestamp": 1682020199
+  },
+  {
+    "tx": "0x2b10167d0be97aae2ad5c169662b77da3ffa9ce9bad4fd89eae7a351d193bb5c",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 0.5,
+    "reason": "optimized huff stuffs: https://github.com/jtriley-eth/libhuff",
+    "timestamp": 1681758539
+  },
+  {
+    "tx": "0xc03c8aca10c0bbd3daf9df55baaffb43078a6f6e27a6b8378d46bcb71364cc29",
+    "builder": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+    "ens": "dereg-grants.eth",
+    "amount": 0.5,
+    "reason": "General contriboutions in April, I continued to work on METH (https://github.com/philogy/meth-weth) the hyper-optimized implementation of Wrapped Ether as well as wrote a memory-safe logging lib (https://github.com/philogy/forge-safe-log) for foundry to help devs debug low-level code.",
+    "timestamp": 1681124675
+  },
+  {
+    "tx": "0x5f821495a93f5a70343607d55e5dbcfaab8849672635f132f213814835c1a29a",
+    "builder": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+    "ens": "0xyush.eth",
+    "amount": 0.5,
+    "reason": "Last month, I finished and open sourced a halo2-base64 implementation: https://github.com/zkemail/halo2-base64 . I have a few more projects cooking that build atop these but are in progress, stay tuned!",
+    "timestamp": 1681116191
+  }
+]

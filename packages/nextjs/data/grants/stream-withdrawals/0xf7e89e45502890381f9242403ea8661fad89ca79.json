@@ -1,0 +1,42 @@
+[
+  {
+    "tx": "0x423b94e73812f58228760faec67317c6de83f1e270c7228c3aaef1868a15d865",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.117576,
+    "reason": "Burner Wallet - UX Improvements, Intro Modal, Landing Page",
+    "timestamp": 1717895519
+  },
+  {
+    "tx": "0xd961fd7a789cef37798dccdf9a294bcb0a904a36aaf2554f87fd51235d4037ff",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.25,
+    "reason": "scaffold-base frames, burner wallet work",
+    "timestamp": 1716016343
+  },
+  {
+    "tx": "0x698fc7b763500ff4f2c7f83a9c4ae7fef5d66d508ba1edb01503709ca7779836",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.5,
+    "reason": "Frames for Scaffold ETH + Speed Run ETH. Work on new Burner Wallet",
+    "timestamp": 1712799551
+  },
+  {
+    "tx": "0x2ca6cf71909842b3e7388c67387f0bdd7f13887b7234868282da407803f47f20",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.1,
+    "reason": "3D Coin Component for Event Wallet",
+    "timestamp": 1682461487
+  },
+  {
+    "tx": "0x7d9f474dc383aecbb9ec77f826145f15b878b75c92a1d882714f153c7c46092d",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.5,
+    "reason": "Next.js Ethereum Starter update and video",
+    "timestamp": 1664655599
+  }
+]

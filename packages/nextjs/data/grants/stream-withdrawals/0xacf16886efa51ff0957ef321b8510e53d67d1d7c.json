@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x88799dd05aab6413d9a8f359fb63a7d9a227dd5daeb0f54e143eaf2cde266747",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 1.5,
+    "reason": "",
+    "timestamp": 1717785155
+  },
+  {
+    "tx": "0x1af904c686cb4f8adc6f4ca58d294ffb39450379ec5b9bb91cbcb3506fb82610",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.485526,
+    "reason": "Updated optimism sdk build for deploying/depositing/withdrawing erc20s",
+    "timestamp": 1650426438
+  },
+  {
+    "tx": "0x3d1e5d699183caea08bd92676d3a434aae70a47b196b2dd34c197cca90cfd2ce",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.309883,
+    "reason": "https://bazaar.buidlguidl.com/build/7ApVuyXkXFrE4KTPohPo",
+    "timestamp": 1649276175
+  },
+  {
+    "tx": "0xfa7a79fbc543dc844166189a0e452c81bc8a70e7dad57123cbc1001aaba32f3a",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.503368,
+    "reason": "https://bazaar.buidlguidl.com/build/dh7JG8nkkaELuT9WXKZC",
+    "timestamp": 1648002640
+  }
+]

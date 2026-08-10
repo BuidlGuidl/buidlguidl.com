@@ -1,0 +1,234 @@
+[
+  {
+    "tx": "0x89beb4393021ba03b2186a3248cc1c47a628ced2e9fb05c59b5a5ce58bb4df93",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.35,
+    "reason": "Last withdrawal, forever thankful with the guild",
+    "timestamp": 1717782587
+  },
+  {
+    "tx": "0x1ba61343e88f31861eddff16bae4d5cb00966e0fd0b1be59346b3c02c1b5a4cd",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.4,
+    "reason": "Deployed V2 of Easy2Pay to Arbitrum (https://easy2pay.vercel.app/)",
+    "timestamp": 1715139347
+  },
+  {
+    "tx": "0xfe6cc8561d016cd1e301ee53ab14d5e09659acb8a1905f7a22d5188258b1e399",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Improvements and presentation of Easy2Pay",
+    "timestamp": 1713828803
+  },
+  {
+    "tx": "0xb5462baba00665d88fc37f4944f8433b5fca3a7c334161715d4b55aba2a2bc8e",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.2,
+    "reason": "Feet2Walk (work in progress)",
+    "timestamp": 1712887679
+  },
+  {
+    "tx": "0x32fec3e155327b2a7f78fa4270fd4b6607059541b4a090b3d4dc57be853257d3",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Deployed V1 of Easy2Pay (https://easy2pay.vercel.app/)",
+    "timestamp": 1710377987
+  },
+  {
+    "tx": "0x5ec11a7bd43de1e531b053628fac682639329cdecd87c6d7e07de74d59e3bbe9",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.3,
+    "reason": "Improved TicTacToe UI and added TokenAmount component, which was also proposed as part of SE-2 in this PR: https://github.com/scaffold-eth/scaffold-eth-2/pull/760. Migrated Newbies Lounge Trello to GitHub Issues for each repo.",
+    "timestamp": 1709882759
+  },
+  {
+    "tx": "0x502f96808fcde53e9a3e7b76b452aed9fdc87b11fff210ca64088a121f8d5ef6",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.2,
+    "reason": "Published \"Getting to know Scaffold-ETH 2\" video: https://www.youtube.com/watch?v=X_PbD1udkHA",
+    "timestamp": 1708996895
+  },
+  {
+    "tx": "0x86ba094519e9482ac1b0fb14187ffc70f720f12ffde1192cc2532be133404037",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.3,
+    "reason": "Improvements and presentation of TicTacToe",
+    "timestamp": 1706818895
+  },
+  {
+    "tx": "0x637878a4bd2ef344d6c5a86016355f4587d4dd0ecf88226862eb55004ccccbc7",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Improved Newbies Lounge Notion document. Worked on “Easy2Pay”, “Sportsbook” and “TicTacToe” with Newbies Lounge members. Dependency fix on “Punk wallet”.",
+    "timestamp": 1705509611
+  },
+  {
+    "tx": "0x72f433db368720f0d59d6b74fd1ea4ae7d5cb87f8fb644c2a09fd225ea3f6e94",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.07,
+    "reason": "🐣 Created a Notion document https://lulox.notion.site/lulox/Newbie-s-Lounge-68ea7c4c5f1a4ec29786be6a76516878 and a Trello task list https://trello.com/invite/b/s0vot1BA/ATTI366c508087a404ccf9343def4d76d1ce6F7899AA/newbies-lounge to help guide the Newbie's Lounge! 🐱",
+    "timestamp": 1703511539
+  },
+  {
+    "tx": "0x2a77553d05e473af80719a89fa55ba601049d22b720cd0706f2bac2e55188404",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.11,
+    "reason": "Updated \"0 to BuidlGuidl\" curriculum and guided buidloors on Newbie's Lounge on Telegram",
+    "timestamp": 1703072951
+  },
+  {
+    "tx": "0x5e915e1031532c33025596c6b073e3beab30c423fded71907cd381949d1fb4de",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Made a group to code Khafundme, Graveboxd, and finish up TicTacToe",
+    "timestamp": 1702526975
+  },
+  {
+    "tx": "0x03aae59279b86c5e33ef62da03003f75bd4ce1095e5499a5ac4f50ff60835257",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.45,
+    "reason": "Hug your loved ones. My house is open for BuidlGuidl meetings, love you guys, this is the best I've ever had",
+    "timestamp": 1701343487
+  },
+  {
+    "tx": "0x5249b390eea12666eab420cb8987e7df6024965ccc2810abf26f5195465d1a04",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Tic Tac Toe ",
+    "timestamp": 1700147375
+  },
+  {
+    "tx": "0x055481547f2213e560bf2a30a24b23cf4d5c7f917498e9d8a6141b7961b02d5d",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Tic Tac Toe (to be published soon)",
+    "timestamp": 1698855539
+  },
+  {
+    "tx": "0x085a0da65ac1332b9d1d3c6013603b6d2701d451f8d85d4d14142e424c0c100e",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.2,
+    "reason": "Improvements to \"0 to BuidlGuidl\" frontend",
+    "timestamp": 1697753495
+  },
+  {
+    "tx": "0x649dbf218dac68f23f90b41cac9236e646db24b85ea4015c0828cdcf26a72027",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.15,
+    "reason": "Added tests to “0 to BuidlGuidl” and “Sportsbook”",
+    "timestamp": 1696956335
+  },
+  {
+    "tx": "0xbf3013a9ecd4489e2de5854c219be2e154fca183d1d4b86d317da5fb62516b98",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.12,
+    "reason": "New withdraw functionality for Sportsbook contract and frontend https://github.com/luloxi/sportsbook",
+    "timestamp": 1696346519
+  },
+  {
+    "tx": "0x255c991ca13ce0cdb8f7349379077bc9d915ddbab4b5f46cc18ff647e5df9540",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.15,
+    "reason": "Worked on issue #46 and #67 https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting",
+    "timestamp": 1695398927
+  },
+  {
+    "tx": "0x496eeba2d3ce9a1c555b66bb030e6aabf6b9f570aad3e2ecca4a0921f3daf18a",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Made 0 to BuidlGuidl into an onboarding dApp with a Dynamic SVG NFT https://github.com/luloxi/0-to-BuidlGuidl",
+    "timestamp": 1693858391
+  },
+  {
+    "tx": "0xd9f2da87a97a723f89d389247721f63d37e5dcaff9c31fe072205f577ffcf2f8",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Dynamic SVG NFT frontend prototype with Scaffold-ETH 2 with Foundry https://github.com/luloxi/se2-moodnft",
+    "timestamp": 1692773831
+  },
+  {
+    "tx": "0x01ddc20329aa35cc7b37e4a0c62741c066a3624365a0ce3a6381c4dfdd226c39",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.1,
+    "reason": "Bug fix in Khazi from evolution-DAO: https://github.com/luloxi/evolution-DAO/tree/khazi",
+    "timestamp": 1691657807
+  },
+  {
+    "tx": "0x2c8f50b04890dccb00b275c7ce9e9cf5199d9186903eef01ebe83da997203175",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.3,
+    "reason": "Created a frontend and a new version of Sportsbook using SE-2 https://github.com/luloxi/sportsbook",
+    "timestamp": 1688877587
+  },
+  {
+    "tx": "0x7318852d7ae1f3e7fa50d1c312177d9064a649af0b6dd912ad08f4f4ae7927f2",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.15,
+    "reason": "Published second version of \"0 to BuidlGuidl\" article to Medium https://medium.com/@lulox.eth/0-to-buidlguidl-get-a-monthly-eth-stream-building-public-goods-ec0d7b85e1e4",
+    "timestamp": 1688153663
+  },
+  {
+    "tx": "0x2d289be3e0e2a08547f121daa031ca26f3dcf9680918d697c36fb4795bf01e38",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Converted Khazum from evolution-DAO into a lesson on building a Simple DAO: https://github.com/luloxi/evolution-DAO/tree/khazum | Minor improvements and corrections to Khazi from evolution-DAO: https://github.com/luloxi/evolution-DAO/tree/khazi",
+    "timestamp": 1686187439
+  },
+  {
+    "tx": "0x73b677d525fc54e19bd7237c01f39b1f502e32a09c090c5b70d6848e4e6d1c8e",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.12,
+    "reason": "First version of \"0 to BuidlGuidl\" article https://lulox.notion.site/0-to-BuidlGuidl-4e1e835ba37c414199fe7a63cb5807e3",
+    "timestamp": 1685390723
+  },
+  {
+    "tx": "0x90b1f6224fd1e788444052d3d6bb6b75dcba66da125f6662fbb0c0f4800e41f3",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.19,
+    "reason": "Converted Khazi from evolution-DAO into a SpeedrunEthereum-like lesson on building a Minimum Viable DAO https://github.com/luloxi/evolution-DAO/tree/khazi",
+    "timestamp": 1684732391
+  },
+  {
+    "tx": "0xe25ce27badb6d606ac5a946e004692b9cdd13d8cdd7efeca7918a4222683e2ec",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.14,
+    "reason": "Completed Khazi build for evolution-DAO https://github.com/luloxi/evolution-DAO/tree/khazi",
+    "timestamp": 1684292171
+  },
+  {
+    "tx": "0xb42d50857a2ddfc758a3d5864891482ca838fdf6e52e90d8cc3289dcab209052",
+    "builder": "0xfbd9ca40386a8c632cf0529bbb16b4bedb59a0a0",
+    "ens": "lulox.eth",
+    "amount": 0.25,
+    "reason": "Planned evolution-DAO, completed Khazum build, and started Khazi https://buidlguidl.com/build/0XiixjBqbKqluguYpmFE Layed out migration and improvement plan for Sportsbook https://buidlguidl.com/build/TeO63e0zuipeKI1alGUc",
+    "timestamp": 1683654347
+  }
+]

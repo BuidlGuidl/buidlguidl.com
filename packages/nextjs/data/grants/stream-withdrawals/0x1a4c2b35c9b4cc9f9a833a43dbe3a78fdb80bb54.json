@@ -1,0 +1,82 @@
+[
+  {
+    "tx": "0xb4868cdbe0874145ff62f2d367fd38e958d1866bbddd1c8a06e3122b8285b153",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.5,
+    "reason": "moving to https://nouns.build/dao/base/0xc0cf442e851318eab3d710b49cea7d5315b6e967 controlled base multisig base:0x1c0201A8C2A46885Fd5b5344623fd06a88Dc04E2",
+    "timestamp": 1717718819
+  },
+  {
+    "tx": "0x44bb99c8fe0d46d25a03362923a6cbaf5399ef892c28ff780189c028e921a5ff",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.23,
+    "reason": "Build: https://app.buidlguidl.com/build/fgnsb9QMC0CQhQJaGl74 gnosis scribe",
+    "timestamp": 1707094955
+  },
+  {
+    "tx": "0xb3e706cb3ffd0e866e22235610d0e48e9265203b58261a0b1240d0c0ee4f4106",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.2,
+    "reason": "Conditional Token Positions on Gnosis - https://app.buidlguidl.com/build/4zmj8adSCZwswZFqVUJ4",
+    "timestamp": 1693197695
+  },
+  {
+    "tx": "0x9ffa929129791b3d3e309013688d9bd8a3f8eb73899d5133b3a3c32929bc24ce",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.123,
+    "reason": "Coding Clairvoyance on Gnosis Agent https://app.buidlguidl.com/build/xw7WM7aj9BpQbtn6IvvR",
+    "timestamp": 1692981263
+  },
+  {
+    "tx": "0xce29e7b98135534080055fc2af69c98104e25682454bedb003be933000630de8",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.14,
+    "reason": "https://github.com/OwlWilderness/se-2/tree/gnostic-svg; https://github.com/OwlWilderness/se-2/tree/your-gnostic-contract; ",
+    "timestamp": 1691471651
+  },
+  {
+    "tx": "0xd4ce44a7ac32151c0806ec412210200f1f50b045c86f742704765dd4f706caf7",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.5,
+    "reason": "Buidl Guidl Infinity Key Integration: https://github.com/OwlWilderness/se-2/tree/buidl-ik ; https://polygonscan.com/token/0x15c395ebc9dac320f839cc08767385d2fd53f221?a=11",
+    "timestamp": 1690742843
+  },
+  {
+    "tx": "0x54ab48f85bdd8d5381552e6f164f137cf197d2bf8516a16d352363f95ecee46e",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.236978,
+    "reason": "mana - max mana burn ",
+    "timestamp": 1683405707
+  },
+  {
+    "tx": "0xe3531f7bf9ebca73cf34b01236a16544ebbb9eaedb75ca939b509486acd316d9",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.5,
+    "reason": " Track Buidls https://buidlguidl.com/build/4jO2Q7tOrJNrR0TqTnUA (see metadata for tokens 1-7 for more buidl detail on this withdraw.   Working on zkevm integration - items 309/310 se2 / item 32 in punk-wallet",
+    "timestamp": 1682078963
+  },
+  {
+    "tx": "0x2d933fd1556ccfbee21ebbb12553842c66edb2cfcdf21cc62b03810f3dbafc28",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.3,
+    "reason": "1155 chaotic staker https://buidlguidl.com/build/sxs0m8KOCdZj2QIJ6MnT",
+    "timestamp": 1660998564
+  },
+  {
+    "tx": "0x0be0b959ef2ef94efb18b311a620306ab217d9ea4b9be1ed39026961491d2e3d",
+    "builder": "0x1a4c2b35c9b4cc9f9a833a43dbe3a78fdb80bb54",
+    "ens": "quantumtekh.eth",
+    "amount": 0.2,
+    "reason": "Nft voting app poc https://buidlguidl.com/build/5kDZSaE98G7bZIz5P9Wd",
+    "timestamp": 1659541363
+  }
+]

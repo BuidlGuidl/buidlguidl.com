@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xa4086da9eda6128384ac9f7b9087cd2a589d1457cfc63635c287e53dd99dccd1",
+    "builder": "0x9bb7746b03d2cd0142178682ed04675f67cc5406",
+    "ens": "ultravviolett.eth",
+    "amount": 0.5,
+    "reason": "Optimism Onchain Impact Dashboard",
+    "timestamp": 1718722319
+  },
+  {
+    "tx": "0x40ec6fcf83d561cf6fe6bdb96a4d6329ed599e9446c02242cfe228bd74ae62d5",
+    "builder": "0x9bb7746b03d2cd0142178682ed04675f67cc5406",
+    "ens": "ultravviolett.eth",
+    "amount": 0.3,
+    "reason": "UX/UI investigation and improvements + Filters implementation (OP Impact-calculator)",
+    "timestamp": 1713207863
+  },
+  {
+    "tx": "0xcad565c1abebf2d34ae2a6463d3c74545be7900c47903e5459d02ebb22eddac6",
+    "builder": "0x9bb7746b03d2cd0142178682ed04675f67cc5406",
+    "ens": "ultravviolett.eth",
+    "amount": 0.2,
+    "reason": "flashbot recovery design (part 2): illustrations, logo...",
+    "timestamp": 1696230623
+  },
+  {
+    "tx": "0x29f2b5051e14c4180fff7d628ca90fa578cd016d517cf840ff217bf39e07af0a",
+    "builder": "0x9bb7746b03d2cd0142178682ed04675f67cc5406",
+    "ens": "ultravviolett.eth",
+    "amount": 0.4,
+    "reason": "flashbot recovery design (part 1)",
+    "timestamp": 1693328459
+  }
+]

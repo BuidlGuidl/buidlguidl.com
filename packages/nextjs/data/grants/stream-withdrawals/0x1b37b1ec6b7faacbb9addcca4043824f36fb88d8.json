@@ -1,0 +1,346 @@
+[
+  {
+    "tx": "0xc4f7f14f4304b20bc906f5c6b6d32b87ddbac749b78a4bf40d3a1387d99bc13f",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.584889,
+    "reason": "Last withdrawal . withdrawing and giving back to buidlguidl ",
+    "timestamp": 1717773875
+  },
+  {
+    "tx": "0x0a4a29f87abb77ab6baa0e7f9232372525e8758499817ba356dd55838bf394c4",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/supernovahs/eigensdk-rs/pull/4",
+    "timestamp": 1715349215
+  },
+  {
+    "tx": "0xeca46593441a202ab9bb0e2038e3b10e484b08530c2b6c1c54168b470190f196",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/supernovahs/eigensdk-rs services crate ",
+    "timestamp": 1714553219
+  },
+  {
+    "tx": "0xcaff639bef5214e855ce8fd5286c81c3a4647b6d9a06423542f129ea82c9bbcf",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.214814,
+    "reason": "https://github.com/paradigmxyz/reth/pull/7779 https://github.com/paradigmxyz/reth/pull/7713 https://github.com/supernovahs/eigensdk-rs",
+    "timestamp": 1713956447
+  },
+  {
+    "tx": "0xb79ac4d7b2d6c7ca5b9f2c20c53606c57b177b6ee64c31d96f90af3ecb627d04",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/supernovahs/eigensdk-rs https://crates.io/crates/eigensdk-signerv2 crates deployment init repo moved to personal",
+    "timestamp": 1711905131
+  },
+  {
+    "tx": "0x1375ca24c01a2b146a09fe9b862acb75d318d3a66e63d7231bf3696c4ec074d0",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": " avs registry writer , elcontract https://github.com/anjaneyalabs/eigensdk-rs ",
+    "timestamp": 1711199411
+  },
+  {
+    "tx": "0x6222890f4b32956c6d1b0a393f2f5bd6e0d218b44d0a7e710e1fa6b4a1b8fea3",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.2,
+    "reason": "avsregistry chainiocrate https://github.com/anjaneyalabs/eigensdk-rs",
+    "timestamp": 1710823175
+  },
+  {
+    "tx": "0x0db06d6f671e01a7c7e2faecccecb6ba3a56f647b0b5ab72297d4ad4c7309a78",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.2,
+    "reason": "Prelim work on eigensdk-rs https://github.com/anjaneyalabs/eigensdk-rs/tree/main",
+    "timestamp": 1710331967
+  },
+  {
+    "tx": "0xbbd33dcc534982b2f970fe3e77c78f0c628c7ac4c0d6585a46fc68a47f4078d3",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/paradigmxyz/reth/pull/6133 https://github.com/paradigmxyz/reth/pull/6503 (cotd) , some eigen layr research ",
+    "timestamp": 1708967387
+  },
+  {
+    "tx": "0xb7499d7b9e8ac28da276c1e5f42558e81d15616388c4557111d7e765599e2742",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/paradigmxyz/reth/pull/6091 cotd",
+    "timestamp": 1708491779
+  },
+  {
+    "tx": "0xdd39d5ae5b8b3ba85607e751a9ef40dd44ff8174abf9fa0b224d20b56a4232b0",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/paradigmxyz/reth/pull/6503 https://github.com/paradigmxyz/reth/pull/6091(cotd) https://github.com/jtriley-eth/mutexer/pull/1 ",
+    "timestamp": 1707639059
+  },
+  {
+    "tx": "0x0503ff01a5c55aabc246cb2ce88f6f705f8625d3ed06390a9b0e09b6301f0fff",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/paradigmxyz/reth/pull/6092 https://github.com/paradigmxyz/reth/pull/6184 https://github.com/paradigmxyz/reth/pull/6091",
+    "timestamp": 1706098223
+  },
+  {
+    "tx": "0x60d2823d982c4097969faa8f84c8178b3cb2e6a4b89f5cd84736fd6544e628eb",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.199123,
+    "reason": "https://github.com/paradigmxyz/reth/pull/5971 https://github.com/paradigmxyz/reth/pull/6015 https://github.com/alloy-rs/alloy/pull/120 ",
+    "timestamp": 1705583039
+  },
+  {
+    "tx": "0xdbd27016de6b57460f86721944425be79432811e44477e8a6f7438fb0a30e862",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/paradigmxyz/reth/pull/5576(contd) https://github.com/paradigmxyz/reth/pull/5969  https://github.com/paradigmxyz/reth/pull/5952#discussion_r1444476143 https://github.com/paradigmxyz/reth/pull/5975",
+    "timestamp": 1704788123
+  },
+  {
+    "tx": "0x79d22aa4b93e47a57e0f342371acd0bc6ca93b9b57f8b91d6b5d2e5e7c02bac3",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/supernovahs/DeathNote",
+    "timestamp": 1703087963
+  },
+  {
+    "tx": "0x1c88b9938ca7ab73fd81154d35256bb8609d37dfb519eca3cc2fe62b2482ff10",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.299282,
+    "reason": "https://github.com/paradigmxyz/reth/pull/5576",
+    "timestamp": 1702215407
+  },
+  {
+    "tx": "0xe3e8ab484d322bca47dc0abb764b94f7b4dab80520b02edc10604c0d160f51bd",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 1,
+    "reason": "https://github.com/paradigmxyz/reth/pull/5074 https://github.com/paradigmxyz/reth/pull/5098 https://github.com/paradigmxyz/reth/pull/4985 https://github.com/paradigmxyz/reth/pull/5302 https://github.com/paradigmxyz/reth/pull/5356",
+    "timestamp": 1700034851
+  },
+  {
+    "tx": "0x5f4a8978c7cda6a5192e153602d40e150c483715bb4f78c4abe80ffd52fff2f2",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.7,
+    "reason": "https://github.com/paradigmxyz/reth/pull/5025 https://github.com/paradigmxyz/reth/pull/5031 https://github.com/paradigmxyz/reth/pull/4986 ",
+    "timestamp": 1697470679
+  },
+  {
+    "tx": "0xb47cf4962c649c434b556ae43a254721b0e3227b913896d8a92f8b3030abf7e4",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/paradigmxyz/reth/pull/4867(continued)  https://github.com/paradigmxyz/reth/pull/4922 https://github.com/paradigmxyz/reth/pull/4950 ",
+    "timestamp": 1696861631
+  },
+  {
+    "tx": "0x8b4b51045a3049f84e724b432ce4460ecbbe240b1e576236c222925cd1fc8ebf",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/alloy-rs/core/pull/304 https://github.com/paradigmxyz/reth/pull/4823 https://github.com/paradigmxyz/reth/pull/4867",
+    "timestamp": 1696163591
+  },
+  {
+    "tx": "0x4cdf6cce7a8da14e59063d640ec10d27f6516da014dde9f1edf47791209abcef",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/paradigmxyz/reth/pull/4685 https://github.com/paradigmxyz/reth/pull/4758",
+    "timestamp": 1695645515
+  },
+  {
+    "tx": "0xb08ca9d4f589256cf80d209b04e93d58c8d74b4e4827ca15cfa46f5142d7c1c6",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.35,
+    "reason": "https://github.com/paradigmxyz/reth/pull/4186 https://github.com/paradigmxyz/reth/pull/4631",
+    "timestamp": 1695029063
+  },
+  {
+    "tx": "0x695a7b9d79f18419a12c39a2acf469d6cce9ea6c3675a912b7d29c903c8156d7",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/paradigmxyz/reth/pull/4186 https://github.com/paradigmxyz/reth/pull/4232",
+    "timestamp": 1693577651
+  },
+  {
+    "tx": "0x5d9a365169f4937a4cd7aac21458d7f16a0892c29ecafe981370000f22f516b9",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/paradigmxyz/reth/issues/3235  https://github.com/paradigmxyz/reth/pull/4059  https://github.com/paradigmxyz/reth/pull/4088   https://github.com/paradigmxyz/reth/pull/4143  https://github.com/BuidlGuidl/streams-to-optimizooors/pull/1",
+    "timestamp": 1691682791
+  },
+  {
+    "tx": "0xd260e6556b4e3e8caa9ba97e38a98387cbddd996cc143da3b912735e10bcd968",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/paradigmxyz/reth/pull/3643  https://github.com/paradigmxyz/reth/pull/3707",
+    "timestamp": 1690464023
+  },
+  {
+    "tx": "0xac0431b39ab546630925e64ea6f761bfb15ab2f8844bdff006c8ac464aa2c4e9",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/lPOIPBIeScIqjd9e5aOn Provider library ✅",
+    "timestamp": 1688474831
+  },
+  {
+    "tx": "0xa4bc51e0c0148d8f8e3c289230154b6a1e8c4c0d2eeeeef10c0c9e1db7762bf7",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 1.5,
+    "reason": "Calldata parser https://github.com/supernovahs/CalldataParser Rust library for starknet - starknet-rs. work on API Implementation https://github.com/supernovahs/starknet-rs Looking for contributors ",
+    "timestamp": 1684613315
+  },
+  {
+    "tx": "0x9d3881287d199fbc21d3679acefc9fe0cfff87505e43279f81b170a11a633e75",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.9,
+    "reason": "Building https://github.com/supernovahs/SignatureCollider https://github.com/supernovahs/Sudoku-Verifier-Noir https://github.com/supernovahs/contract-x-contract ",
+    "timestamp": 1681828343
+  },
+  {
+    "tx": "0x0943172553fd1cb7fe5a358bf2d7a346efc61eaa4deddd897daae512d349c658",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "Working on Uniswap V3 huff libs https://github.com/supernovahs/UniswapV3-HUff and bgpool contracts  https://github.com/supernovahs/BuidlGuidlPoolContract  ",
+    "timestamp": 1679836295
+  },
+  {
+    "tx": "0x383dc4b2a27eb125c013025d2dc4d8317cc75135b28a74312cd7e04145914102",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": "https://buidlguidl.com/build/VZp8Bx6jxhvId2pylUae https://buidlguidl.com/build/9PXVU3K5OVglwkHbB4Oi",
+    "timestamp": 1677428051
+  },
+  {
+    "tx": "0xd94b73fb7793fef0f5a3ecaabeabe1d30afc4d5b58b822b21a033fa11d177e6f",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 1,
+    "reason": " Working on seaportbook.com",
+    "timestamp": 1676382299
+  },
+  {
+    "tx": "0x3286c5f97e27be3aee204e7687f5086a2b90eb0f89462d8dba77a9e0af597c47",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.151893,
+    "reason": "https://docs.google.com/presentation/d/1Mlx7xEPWKkXprh4NANCJGlQNgBp4i9JYCtuNqG2lDLw/edit?usp=sharing",
+    "timestamp": 1675612835
+  },
+  {
+    "tx": "0x06a3aac7df0e51272a397990d1f76439ba82f0fc3c45bcce71f198cd94f71cfc",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.35,
+    "reason": "https://buidlguidl.com/build/smpItXfZ6yysYFh4md6l   https://buidlguidl.com/build/9Y6ZXUBXgFyxeOP2qh6i ",
+    "timestamp": 1673961131
+  },
+  {
+    "tx": "0xb3b086669987cdf8b8eccaca4f59dfa6b07d3f96ad2e077e97ab3a36b41f3c13",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.45,
+    "reason": "https://buidlguidl.com/build/US0nQyKZfdZVibOWxT3G",
+    "timestamp": 1668187391
+  },
+  {
+    "tx": "0xa55a2936e41a871a9ec475d1ad5370d90220ae4ec205b589b9eadcb47d5fee3f",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.7,
+    "reason": "1. WorldAds https://buidlguidl.com/build/i7qdcBbcRYkmN5vB6tZi  2. ZK Voting Tweaks https://buidlguidl.com/build/O0nTQfsYqMMqNRCUqECF 3 . Natspec https://buidlguidl.com/build/ZJGfE6G8LFPimTM169Qq",
+    "timestamp": 1665253067
+  },
+  {
+    "tx": "0x737909c47b1bdebc8f319f8f5dfe4ec8cd1f35362cf29d3fdd7f9b8d3acfa73d",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.2,
+    "reason": "Payment to UX Developer for ZK voting",
+    "timestamp": 1664992103
+  },
+  {
+    "tx": "0x96b4a889e8f3311cfb21e8aa21685476069dd8363c128731b6ade7944c28f439",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.75,
+    "reason": "Continued ZK-Vote UI + Front end Works ",
+    "timestamp": 1662927539
+  },
+  {
+    "tx": "0x64b0954387885714eb1c5668d58240f45cef4d7c7c4b1d3c7e051bcb9e1cb564",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.5,
+    "reason": "Zk-Voting V1 https://buidlguidl.com/build/O0nTQfsYqMMqNRCUqECF",
+    "timestamp": 1660847202
+  },
+  {
+    "tx": "0x470d7926964ec47f610dde5b03e742974009c7df78595aba3658ccb17bba6fe9",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/supernovahs/BuidlGuidl-Stream-contract/tree/master",
+    "timestamp": 1659273894
+  },
+  {
+    "tx": "0x95c72dbed6e3cb00491cd9191adf51e3973829d1807b4d5785b0f44ca8ac5a55",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.3,
+    "reason": "https://buidlguidl.com/build/DnNsYs9yXdypht2NgkH6",
+    "timestamp": 1657121394
+  },
+  {
+    "tx": "0x6a1d12671b99a1617fbf3db11797f70f759323ba1e4ebf5d59b21df5ae19c411",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.4,
+    "reason": "https://buidlguidl.com/build/JDyvmxkfabABUMGNW4s0",
+    "timestamp": 1653463722
+  },
+  {
+    "tx": "0x6d245235aa4d61c009eca826a43741dae7773e75b7e528874b4880c33cb933a4",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.1,
+    "reason": "https://buidlguidl.com/build/PUaWnBOEjA60G6aGVF6A",
+    "timestamp": 1652701285
+  },
+  {
+    "tx": "0x6c169e62a03a6210a461fc29a69c598434477d27518e4d2f5cc13de35c109bb1",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.45,
+    "reason": "MultiSig(Uniswap+GunDb)  https://bazaar.buidlguidl.com/build/UuR88gpLlXUi0TrxITrJ   Quadratic Funding  https://bazaar.buidlguidl.com/build/UcFmSEjIO5Z4L4BzW5n7  Quadratic Attention Payments(Web3Ads) https://bazaar.buidlguidl.com/build/nV1lYFxAh9VZFuNOILzt  Foundry Starter Kit https://bazaar.buidlguidl.com/build/M8DHBjXgRGpUf7fl3qEZ",
+    "timestamp": 1649601193
+  }
+]

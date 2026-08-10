@@ -1,0 +1,162 @@
+[
+  {
+    "tx": "0xbfc489a992cf0ff9ed5948ebea46407c71f78a03a2b59c218ceb5c708f819f01",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 1.5,
+    "reason": "audit for https://github.com/p2e-inferno/ref-protocol",
+    "timestamp": 1718821355
+  },
+  {
+    "tx": "0x4d1c129f8ebd4f1f365cbcaab1b5b4428659b13c405876b75b93257753169d34",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "audit for eth denver project contracts of a bg member https://github.com/tantodefi/whitelistFactory & https://github.com/tantodefi/EverVote",
+    "timestamp": 1712294651
+  },
+  {
+    "tx": "0xcd7cdeeaab141ad210c8e8f616426a002e3b11f464d88c477189227d601c34ad",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/luloxi/Easy2Pay/pull/5",
+    "timestamp": 1704452483
+  },
+  {
+    "tx": "0x0fb2d76e477ba29b05c54c5fe2ff752cb986a883e80eb73cef37b3ff0bb8b82d",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.15,
+    "reason": "smart contract review for https://github.com/luloxi/Easy2Pay/tree/main/packages/foundry/contracts, details mentioned in newbies lounge tg channel",
+    "timestamp": 1704091199
+  },
+  {
+    "tx": "0x16eb914aa172391e72ff760b6819a90cd940c40be027ef391a9a16b6786abf86",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/BuidlGuidl/ens-stream-cohort/pull/2 & deployed security braek cohort stream contract (https://optimistic.etherscan.io/address/0x9c9733177e1f27b01ed6f910e7c7c91c561ac4b5#code)",
+    "timestamp": 1703223755
+  },
+  {
+    "tx": "0x637da07bd483471bbab41291371a07f192757cf9a019f2b9c88f7e099290f8c4",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/seanmc9/erc20-escrow-trade/pull/1 (security & gas review discussions in solidity coordination games channel)",
+    "timestamp": 1702924751
+  },
+  {
+    "tx": "0x1ffe1cbb3b90871e6b44e967e9501cd9f9dcbc74790d2bd1b0889891252c0905",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.35,
+    "reason": "security and gas optimisation review for https://github.com/BuidlGuidl/flashbot-recovery-bundlerhttps://github.com/BuidlGuidl/flashbot-recovery-bundler & https://github.com/BuidlGuidl/flashbot-recovery-bundler/pull/3",
+    "timestamp": 1700204051
+  },
+  {
+    "tx": "0xc7fa608aff4ed5245c4bd5193a83ab9e20804194e5f21636918ef51cbf10d078",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.3,
+    "reason": "security review for https://github.com/lstephanian/SPOG",
+    "timestamp": 1698059771
+  },
+  {
+    "tx": "0xbc4b5f8a9762b16a240d37771c50559200812a19a398e6d8b4c4b48d40a61222",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "security review for https://github.com/BuidlGuidl/LaunchPod/pull/49 & review for https://github.com/Avelous/Eth-Splitter/pull/13",
+    "timestamp": 1696147763
+  },
+  {
+    "tx": "0x1afd4de61112eda8859867a6b3f23fd25cb8cad7b34e49c11c926876a3454215",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/BuidlGuidl/hacker-houses-streams/pull/31 & security review for https://github.com/BuidlGuidl/LaunchPod/blob/staging/packages/hardhat/contracts/YourContract.sol",
+    "timestamp": 1695272411
+  },
+  {
+    "tx": "0xc3286be300bbfc91834026db588628abe531b845b8dd61a6984307325adc4c9c",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.35,
+    "reason": "in depth security review for https://github.com/escottalexander/taskmarketplace",
+    "timestamp": 1694591771
+  },
+  {
+    "tx": "0x7063aed6afbccda206d5539103b6c515da1c78c32aa9f340eae7e6ba60bb93d1",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.3,
+    "reason": "security review for https://github.com/Maker-Studios/token-legacy",
+    "timestamp": 1693736411
+  },
+  {
+    "tx": "0xc78e4fac98663d2b9fd5f7dfd3c455cb36e6f41251442b62dc402eb148f9c8a8",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/BuidlGuidl/hacker-houses-streams/pull/28",
+    "timestamp": 1692984071
+  },
+  {
+    "tx": "0x01822be3c1d15942f0bd06364a131bcbf053fb4d00111ca0c664f41fb3e0a38f",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/Avelous/Eth-Splitter/pull/5 & https://github.com/Avelous/Eth-Splitter/pull/7",
+    "timestamp": 1684216247
+  },
+  {
+    "tx": "0x4a39e9dadae25b2481957d5bc9aef65d4c06b67a97396ff5980d1bcd1ca7af10",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.35,
+    "reason": "https://github.com/austintgriffith/maas/pull/45 & https://github.com/austintgriffith/maas/pull/46 ",
+    "timestamp": 1666115339
+  },
+  {
+    "tx": "0xf39b3708c8bb7d82d685f19ec95ecec718e6e2ea58ae4bdefe59666a9127621f",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.27,
+    "reason": "https://github.com/austintgriffith/maas/pull/41",
+    "timestamp": 1664683535
+  },
+  {
+    "tx": "0xb5992835a16a7a5c25c28be86daf16f3a466afc0ed06202d7814cf48019b6418",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.35,
+    "reason": "Gas Golfing (https://github.com/scaffold-eth/buidlguidl-v3/pull/51 & https://github.com/austintgriffith/maas/pull/28)",
+    "timestamp": 1661138468
+  },
+  {
+    "tx": "0xee2319cc2d38404d8e881a3784bad336a45768d169d90a437394c39fd3e159dd",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.4,
+    "reason": "Gas Golfing https://github.com/sfaber34/scaffold-eth/pull/3. &. https://github.com/sfaber34/scaffold-eth/pull/6. &.   https://github.com/scaffold-eth/buidlguidl-v3/pull/51",
+    "timestamp": 1659027206
+  },
+  {
+    "tx": "0x4ccd9e718a525675da6e6046e9b588225087e3fa19349309be5d6aceec83b804",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "gas optimization and testing contracts(https://github.com/DanieleSalatti/gitcoin-grants-conviction)",
+    "timestamp": 1653307602
+  },
+  {
+    "tx": "0x613e649562dd76e7e4710dae061b54e641fbe1e4d861e9ad0a6cf94451da387d",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 1.2,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/public-goods-staking",
+    "timestamp": 1646969574
+  }
+]

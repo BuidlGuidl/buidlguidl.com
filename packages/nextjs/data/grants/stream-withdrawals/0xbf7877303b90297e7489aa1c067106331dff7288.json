@@ -1,0 +1,186 @@
+[
+  {
+    "tx": "0x7158c192b80c4a4eb2a1b535e021efae70c84bf6050912808d69f6d6e2f50b0f",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 2,
+    "reason": "NodeNotes project & streams wrap up 🙏🏾",
+    "timestamp": 1712949803
+  },
+  {
+    "tx": "0x54316545bca271655bd33f6ce3255037a052f6050d0b81177481251665f4ef23",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 2,
+    "reason": "Lagos dev sessions with Leyeconnect / profile picture NFT contract imp / Onboard lettieee.eth / Aika (Venmo clone with web3 imp & Lit protocol MPC for optional message encryption) / some evmgateway trial runs",
+    "timestamp": 1703854115
+  },
+  {
+    "tx": "0x7579c4460641daf0210f0d9da47fe7595617c49f6f4a1ecb939fb438fbd0fc8e",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "cohort streams UI implementation + mypage3 + EVM Gateway init",
+    "timestamp": 1701337187
+  },
+  {
+    "tx": "0x4673c882dec25f66b9032e4cdf537b0dc5988242900a40c411d50e166b2eeaa3",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1.014286,
+    "reason": "Cohort streams rework + mypage3 ENS imp",
+    "timestamp": 1700211443
+  },
+  {
+    "tx": "0x290bd9a2d4f41473eddf5dbf4f384e70448e895e911a625e8830411698da5d21",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "0xafro works & usepage3 ENS implementation",
+    "timestamp": 1698735527
+  },
+  {
+    "tx": "0x694a633b8e96da00d77302e1f476e3aa8e0527580c825fdf47d880e826f8a1fa",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "usepage3 ENS implementation",
+    "timestamp": 1697498147
+  },
+  {
+    "tx": "0x3c30ed4fe66e53629fe823260fe724232f105950ac2b37cf40a426f39465d7c6",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "TokenLegacy finalities / 0xafro designs review & contracts implementation + code reviews",
+    "timestamp": 1696085495
+  },
+  {
+    "tx": "0x6014c3f00ccef59d79c3b4ce54969a9ab45bfbc25c0ce21f581e1af34c1aeb39",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Spork PR reviews / Pasta CLI tool dev / tokenlegacy contract update review / page3 review & contracts implementation",
+    "timestamp": 1695009503
+  },
+  {
+    "tx": "0x53bd1a597361a6866be5cc02baf8cf94b75094bc4566149d7c3da21ac144fc3f",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "0xafro assists & Spork staking",
+    "timestamp": 1693539647
+  },
+  {
+    "tx": "0x42cf8c6f2bd560f0683fd14a9166673e3be46e62168c5ed65e5e7b8d7d5ca2d4",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1.5,
+    "reason": "It's a spoon, it's a fork... it's a spork staking app deployment & debugging",
+    "timestamp": 1692147323
+  },
+  {
+    "tx": "0x1576728289d5c7451d7d8ed19d13f58077c160c418c62ea86c04af0d0ae41b57",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Technical onboarding about smart contracts, subgraph and UI integrations for 0xafro team",
+    "timestamp": 1690780079
+  },
+  {
+    "tx": "0x45cf6072b741a275ef6d440517972575b4393a1d67579ceb30067ddc7f645b73",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "0xafro explorations, onboarding & contract dev",
+    "timestamp": 1689597683
+  },
+  {
+    "tx": "0x5d0af2762ddb1fd69abe10fecf4222a4af8a0377c892dba02ed69574712b249b",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.2,
+    "reason": "Onboarding 0xAfro devs - ENS & gas fees",
+    "timestamp": 1688833307
+  },
+  {
+    "tx": "0x80c90e16e24f425eabdcda677169be5a7bc8c6294bda3b8455689a137f30666d",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Safe Hooks | Pool Stream contract update (projects & log implementation) | TokenLegacy branding and design",
+    "timestamp": 1688138783
+  },
+  {
+    "tx": "0x9247b2f02a198958273a4dd9764f9a0b65c9bc2559572f1b0dfcbc467d820787",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "SE2 TokenWill contracts & UI project",
+    "timestamp": 1687362083
+  },
+  {
+    "tx": "0x620de3771693136fade74f81d7c17aeaab8b24173a866dc0af8ea7b877bb4b1c",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Initial attempt at pool stream: https://pool-stream.vercel.app",
+    "timestamp": 1686690131
+  },
+  {
+    "tx": "0x1d3740bc1a10af673549347966376c16135506db97b9f59d79a578e54e72f693",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "Batch resolver contracts/docs/sample app",
+    "timestamp": 1672537643
+  },
+  {
+    "tx": "0xbd772db2100051a93e9948c1bd19672aaf39db5dc1799e55f16eb9a462b655bd",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Multidrop v2.0 kickoff - contracts & design",
+    "timestamp": 1668010055
+  },
+  {
+    "tx": "0xd4ec13d8576e46cd431bd8eb512984902f33d2691e2e7367e338019c905d8242",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Poets & Poems build | Gitcoin donor MVP | Multi-call hooks update | Scaffold-eth console cleanup",
+    "timestamp": 1658030246
+  },
+  {
+    "tx": "0x55c8d732a6fd9287de19aa92ca35f93573bf8fb28fd64d36b4d63e34470f960b",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 1,
+    "reason": "Ticketing App / Multicall hook / Roundtable fixes",
+    "timestamp": 1652471029
+  },
+  {
+    "tx": "0x3c9d93c264b32af40902878d85eddd6bc859fa35f25870a562fc2347fc81aedf",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "Rountable gatekeeping features & admin controls + multi-address import component",
+    "timestamp": 1648231549
+  },
+  {
+    "tx": "0xd3496cb67b98827e300c22fe38504e45bde7a1555fb40e7a67d8c3c84b61850c",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "Roundtable app update + Expo React Native/ Scaffold-ETH starter kit",
+    "timestamp": 1647752846
+  },
+  {
+    "tx": "0xeb0af6d61b6ddcb54045916d3558e061370b6dd04ef9546f90542d8736027f76",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "roundtable (https://roundtable.surge.sh) + retfund NFT dev",
+    "timestamp": 1647048060
+  }
+]

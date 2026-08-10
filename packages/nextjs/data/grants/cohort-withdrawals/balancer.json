@@ -1,0 +1,26 @@
+[
+  {
+    "tx": "0x9e23c160425691dc8574a9f0d1870a56150c6775026f1673bb054f79fa7c0a1b",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 1,
+    "reason": "1️⃣ Full stack development, documentation, and demo videos for Scaffold Balancer v3 🏗️ https://github.com/balancer/scaffold-balancer-v3 2️⃣ PR, reviews, & ideas used for eth tech tree Challenges 👉 https://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/19 3️⃣ PR & reviews for the foundation for eth tech tree autograder 👉 https://github.com/BuidlGuidl/eth-tech-tree-backend/pull/7",
+    "timestamp": 1720415483
+  },
+  {
+    "tx": "0x2061bce664c0a4c954dff0a5077719bd484f907a54c464d4f8c5f6200955f16e",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1,
+    "reason": "April 2024 work with tech tree challenges, and extra work related to Balancer Grant as per Dev Rel as a Service with BUIDL GUIDL (balancer repo still private) & tech tree tutorial #1: https://github.com/BuidlGuidl/eth-tech-tree-challenges/tree/multisend and tutorial #2 (PR waiting for final review): https://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/35",
+    "timestamp": 1719952487
+  },
+  {
+    "tx": "0x01c00a3c904cc9b5911bfe88bc9d1b95b473a4acf535cb7a574d6d0bb84aff09",
+    "builder": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+    "ens": "darrylyeo.eth",
+    "amount": 1,
+    "reason": "Initial prototype of Balancer pool lookup and swap functionality built on top of Scaffold-ETH-2. https://github.com/darrylyeo/scaffold-balancer-2",
+    "timestamp": 1700167511
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "tx": "0xaa6ecc5112d2b06db9cf745264905ccbeb28140b3b99ea12b6bc3e6d7562d0bc",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.5,
+    "reason": "Thank you for all the support !",
+    "timestamp": 1718098007
+  },
+  {
+    "tx": "0xaf1d40cba15f195275df7d8c7c2eb788f83e07828f55d1e4661ac8ec1d60cf3c",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.75,
+    "reason": "https://github.com/Naim-Bijapure/frame-quiz building and exploring frames with dynamic quize",
+    "timestamp": 1717175027
+  },
+  {
+    "tx": "0xc1f2a8aa53421fc7632d4018d240c80bb6add1ec60523e9c0e7c09178dd59c6c",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1,
+    "reason": "basePay build:https://app.buidlguidl.com/build/pgflpYiqpYV4PiDPBqwO",
+    "timestamp": 1713504671
+  },
+  {
+    "tx": "0x35a6d0fd1ec1fe22fdf19085fe07b4ef9b00edc8ed9b082805000a46f1db02b1",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.75,
+    "reason": "4337 with passkey build: https://app.buidlguidl.com/build/XKknPtQEDc7Ow7R4s4LC",
+    "timestamp": 1710602567
+  },
+  {
+    "tx": "0x8c91f6f3725687a75838c569d4b80b0ac495ae5a729749060e95f81920065f12",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.75,
+    "reason": "working on passkey integration with smart contract wallet  demo: https://passkey-wallet-2.vercel.app https://github.com/Naim-Bijapure/passkey-wallet",
+    "timestamp": 1708168943
+  },
+  {
+    "tx": "0x4fc474b85ca32ab899d02df985577411076d33913d16edb80c5952ee38002dad",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.75,
+    "reason": "#impersonator-vision pr :  https://github.com/austintgriffith/impersonator-vision/pull/5 # nft bound wallet with passkey https://github.com/Naim-Bijapure/impersonator-vision/tree/nft-bound-wallet-6551 # passkey with burner wallet https://github.com/Naim-Bijapure/passkey-wallet",
+    "timestamp": 1705427051
+  },
+  {
+    "tx": "0x0b1d27b11a93437a1108fa9870f00ae1e70cb623cbdacf75115ab5eaad88d950",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "wallet webauthn buidl : https://app.buidlguidl.com/build/F2TbFdgKyvHOyNlqukVw",
+    "timestamp": 1702746983
+  },
+  {
+    "tx": "0x3dc436d8de0f32d9bdeffa895163eca81fc2b551eeee5aa435cc86d00140c349",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "#dice demonstration build to guess private keys https://app.buidlguidl.com/build/MuGgMXLmGKohAXL3LG1h https://github.com/Naim-Bijapure/dice-demonstration ## working on zk-session-wallet build https://github.com/Naim-Bijapure/zk-wallet-sesson",
+    "timestamp": 1700067179
+  },
+  {
+    "tx": "0xbf4633146c27a02b16ecd73d832a231c3fd79b94a0df6bf9da80d17f16d75837",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "# integrated polls in event polls : https://github.com/Naim-Bijapure/event-wallet/tree/feature/polls # address vision prototype with covalent api: https://app.buidlguidl.com/build/y5cnihLQ4OhN7LHR3QbV",
+    "timestamp": 1697353835
+  },
+  {
+    "tx": "0x707f8f9bbd27883d0a338762c256b59ff7ad564fcff60f5d25608ba937743710",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "zksync-era gasless voting poll build: https://app.buidlguidl.com/build/MiYvrzYcWd6UuYermx0B",
+    "timestamp": 1694754263
+  },
+  {
+    "tx": "0x12965a76009c665eaa9388ef18db279fbf0c2100fe457bbaaf99102e618d8181",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "multisig zksync era build with gasless wallet transcactions. https://app.buidlguidl.com/build/3Vidr7b08WETXToDkakx",
+    "timestamp": 1692124175
+  },
+  {
+    "tx": "0xf2f11bdf24d90d7a9ffa73f7f23d718b0222b1e9f1a5f6555b7918bd7c6b8c9f",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "working and exploring on zksync-era governance build : https://github.com/Naim-Bijapure/zksync-era-governence  multisig-se2 fixes https://github.com/Naim-Bijapure/multisig-se2/issues/12 https://github.com/Naim-Bijapure/multisig-se2/issues/11 https://github.com/Naim-Bijapure/multisig-se2/issues/10 https://github.com/Naim-Bijapure/multisig-se2/issues/9 https://github.com/Naim-Bijapure/multisig-se2/issues/8",
+    "timestamp": 1689524831
+  },
+  {
+    "tx": "0xca5f716af3eac2bd14fcf5f46b10db9e8d78427d04fe5fd818c09f39d9ffbce2",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "#### may work: multisig-se2 improvements https://github.com/Naim-Bijapure/multisig-se2/issues/1 https://github.com/Naim-Bijapure/multisig-se2/issues/2 https://github.com/Naim-Bijapure/multisig-se2/issues/3 https://github.com/Naim-Bijapure/multisig-se2/issues/4 https://github.com/Naim-Bijapure/multisig-se2/issues/5 https://github.com/Naim-Bijapure/multisig-se2/issues/6 https://github.com/Naim-Bijapure/multisig-se2/issues/7 https://github.com/Naim-Bijapure/multisig-se2/issues/8 https://github.com/Naim-Bijapure/multisig-se2/issues/9 added iframe and wallet connect integration",
+    "timestamp": 1686932519
+  },
+  {
+    "tx": "0x1d1542e96c3361cceacae066087e27df82df111b35156fe11a8a80e17f9ad210",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "April work multisig-se2: https://github.com/Naim-Bijapure/multisig-se2 1. Custom nonce on proposal creation. 2. Edit nonce on existing transactions (add any nonce on any tx and execute  in any order). 3. Cancel a transaction. 4. On proposal creation, get the default nonce as the current nonce + number of transactions in the pool. 5. Select multiple transactions and execute them in batch. 6. Share any wallet URL. 7. Also, added many small UI/UX improvements like:    1. Show loading states on proposal or wallet creation.    2. Highlight current nonce transactions in light  green shade and canceled transactions in light red shade.    3. Nonce order validation on batch execution.    4. If the shared link's wallet user is not the owner, disable execution buttons and more.",
+    "timestamp": 1684214891
+  },
+  {
+    "tx": "0x7f2916be39bcb74428e047eabaeb7bcd6fcf190daffed838f512366300650b0c",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "march work : https://buidlguidl.com/build/zSyjYlcBukTmuMcpVMn2 ",
+    "timestamp": 1681567883
+  },
+  {
+    "tx": "0x857819ce0e6b3c229a52af2f4836c07251a49cc6a171ba6e54d2a3f4b5fee7b7",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "# feb work: Simple dao build https://buidlguidl.com/build/ix6NJFWTQLxTzCJQtUPx multisig pr's: https://github.com/BuidlGuidl/multisig.lol/pull/31 https://github.com/BuidlGuidl/multisig.lol/pull/32 https://github.com/BuidlGuidl/multisig.lol/pull/33 https://github.com/BuidlGuidl/multisig.lol/pull/29",
+    "timestamp": 1678809563
+  },
+  {
+    "tx": "0x6fb701ce758baf2175eb2c15c47e7dc2055c36b05c61535fd9fa9f4d7815a20a",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "## Eth denvar send claim build https://github.com/Naim-Bijapure/foodtruck-ethDenvar ## multisig new sidebar view from scratch https://github.com/Naim-Bijapure/multisig.lol/tree/multisig-sidebar-ui",
+    "timestamp": 1676182595
+  },
+  {
+    "tx": "0x45484eb52f4634730799dcdb6dcccea279561f3b2b95f58b9810eb454d238ae2",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "#### December work invisible nft build:  https://github.com/Naim-Bijapure/invisible-nft  1. multisig safe apps https://github.com/Naim-Bijapure/scaffold-eth/tree/multisig-safe-apps  2. scholarship single wallet build https://github.com/BuidlGuidl/multisig.lol/tree/scholarship-buidlguidl async load tx:   https://github.com/BuidlGuidl/multisig.lol/pull/10 https://github.com/BuidlGuidl/multisig.lol/pull/15 3. wallet name change pr: https://github.com/BuidlGuidl/multisig.lol/pull/6 4. move network selected on top :  https://github.com/BuidlGuidl/multisig.lol/pull/11 https://github.com/BuidlGuidl/multisig.lol/pull/13 5. add manage page and button on current selected: https://github.com/BuidlGuidl/multisig.lol/pull/14 6. get gas price from 3rd party: https://github.com/BuidlGuidl/multisig.lol/pull/12 7.gas price hook update: https://github.com/BuidlGuidl/multisig.lol/pull/16 8. multisig minor react version fix:  https://github.com/BuidlGuidl/multisig.lol/pull/18",
+    "timestamp": 1673271491
+  },
+  {
+    "tx": "0x8feae4c772bec3f8f25a54028e15bc47554e5d38039bd787e0ad59fa33fdc020",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "#### novamber work 1. multisig: 5pr:     * useEvent hook fix: https://github.com/austintgriffith/maas/pull/57                         https://github.com/austintgriffith/maas/pull/58    * remove wallet pr: https://github.com/austintgriffith/maas/pull/59    * improve import issue:pr: https://github.com/austintgriffith/maas/pull/60    * share wallet pr: https://github.com/austintgriffith/maas/pull/71    * iframe custom nonce: https://github.com/austintgriffith/maas/pull/73    * tx sign error fix: https://github.com/austintgriffith/maas/pull/72    * hotfix: wallet name too long:https://github.com/BuidlGuidl/multisig.lol/pull/6    * yarn lock issueL:https://github.com/BuidlGuidl/multisig.lol/pull/5 2. SE-2 fix: 2pr's    a. rainbowkit balance update:  https://github.com/scaffold-eth/se-2/pull/43    b. localhost polling on live : https://github.com/scaffold-eth/se-2/pull/44    * rainblowkit header bar pr:https://github.com/scaffold-eth/se-2/pull/43    * wrong network pr:https://github.com/scaffold-eth/se-2/pull/56  3. safe-apps scaffold-eth and punk wallet https://github.com/Naim-Bijapure/punk-wallet/blob/feature/--gnosis-safe-modal/packages/react-app/src/App.jsx",
+    "timestamp": 1670656931
+  },
+  {
+    "tx": "0xd8e2e5c4ebd31ffd04d1bf3643e6ecc91cbbde324ff3e376778604991e70584c",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "1. SE-2 :3pr': https://github.com/scaffold-eth/se-2/pull/16 https://github.com/scaffold-eth/se-2/pull/12 https://github.com/scaffold-eth/se-2/pull/11 2. multisig oct/nov 5 pr's https://github.com/austintgriffith/maas/pulls?q=is%3Apr+is%3Aclosed+author%3ANaim-Bijapure 3. multisig debugging  4. nft manager canto hackathon build https://buidlguidl.com/build/ij8GuFcmRcm8vWda8aT6 https://buidlguidl.com/build/xcBD3Emmri5ZLavQvQKF",
+    "timestamp": 1668059351
+  },
+  {
+    "tx": "0x64573769efab24f4cc6f51fa1d069465224371a732ea317d6d4418438834d1d4",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "september work:  1.  multisig september pr's: https://github.com/austintgriffith/maas/pulls?q=is%3Apr+author%3ANaim-Bijapure+is%3Aclosed 2. feedback loop:  https://buidlguidl.com/build/8KqI2YCe5Pt1bOprmFsy 3. nft-whitelist: https://buidlguidl.com/build/QxVbuVO6vQmjKbF9wJnn 4. nft-whitelist gasless: https://buidlguidl.com/build/1iuD4kRh11uCbhhP4pey 5. scaffold-eth rpc pr:https://github.com/scaffold-eth/scaffold-eth/pull/883 6. nft-whitelist gnosis-safe: https://buidlguidl.com/build/neO1pmCtTFlOEVBNWLMU ",
+    "timestamp": 1665036659
+  },
+  {
+    "tx": "0x5d6d7cfadee6d5fa1fdf37ae6bbe56a3712cb141155bc4a45f30d6390b3cec5b",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 1.5,
+    "reason": "lukso hackathon: https://buidlguidl.com/build/p5R6Ij6v4onsVZGKLjTc ,  augast mulsig fixes: https://github.com/austintgriffith/maas/pulls?q=is%3Apr+is%3Aclosed+author%3ANaim-Bijapure",
+    "timestamp": 1662307389
+  },
+  {
+    "tx": "0xb8341817877408e644f9de425c9327bb24e25b9f26b272e12114eae81b298af7",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.5,
+    "reason": "working on NARF:https://github.com/Naim-Bijapure/scaffold-eth-next  ||||| created debug-eth-contract package: https://github.com/Naim-Bijapure/debug-eth-contract",
+    "timestamp": 1659693754
+  },
+  {
+    "tx": "0xc812871d8dd01176ce60e67819209ea7d5cd6df71101154132ce5215a5690916",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.5,
+    "reason": "worked on NARF stack . bulding scafold-eth-next with foundry",
+    "timestamp": 1657095003
+  },
+  {
+    "tx": "0xce0c74af797b8c5ab3ba2b382fa2612f5de9e58066a8e626a98977c5b2da4767",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.5,
+    "reason": "maas-x build: https://github.com/Naim-Bijapure/maas-typescript",
+    "timestamp": 1654275581
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "tx": "0x434063795daa83ad0ca819af7cda9d08256c94e9455c2f957cccd67a7d19e738",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1119,
+    "reason": "https://github.com/Ifechukwudaniel/learning_noir",
+    "timestamp": 1700912591
+  },
+  {
+    "tx": "0xaabdf4d4ae4d321eb1c3ac2577c72db97a7dea534fd3b4523f83884e12f8ecf9",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.11,
+    "reason": "https://github.com/BuidlGuidl/event-wallet/pull/71",
+    "timestamp": 1700012039
+  },
+  {
+    "tx": "0xaa1c9394f21bb1237c7fbf74ad3b5436b35d35ec24029bdcf372d987862a94be",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.16,
+    "reason": "Daniel is trying to. beat the hackers",
+    "timestamp": 1699448267
+  },
+  {
+    "tx": "0x9e55b9fa0e6db16798c2f66067b706e593af7b4c300737ef442dab19ec49adb3",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.0339,
+    "reason": "Daniel is trying to. beat the hackers ",
+    "timestamp": 1698609299
+  },
+  {
+    "tx": "0xaa23ec0691888bfc1d4e73e4429dd63481e3498763b2dd07f4fbdfc0aa216f41",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.0092,
+    "reason": "Daniel is try to beat the hacker",
+    "timestamp": 1698436247
+  },
+  {
+    "tx": "0x1750759bed61669267c457c0a40b78db198eca6861a0d144e12003cff7c566f3",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.005,
+    "reason": "NBA https://github.com/blahkheart/ETHGlobal-Superhack-2023",
+    "timestamp": 1698387383
+  },
+  {
+    "tx": "0x514484b78ad208a9394d5a58ba61e669af4a7de64711a581a765c1ac7a0991a3",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.01,
+    "reason": "https://github.com/Ifechukwudaniel/BitArt https://github.com/BuidlGuidl/address-vision-port/issues/2 https://github.com/BuidlGuidl/event-wallet/pull/61",
+    "timestamp": 1698386855
+  },
+  {
+    "tx": "0xf44853e8a3ccad9a37ef9dcf12af2f90d654772187983782dcc1b4e249a268bc",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.05,
+    "reason": "https://github.com/Ifechukwudaniel/BitArt",
+    "timestamp": 1698386195
+  },
+  {
+    "tx": "0x92ca89fbf6df01aaeae26a988db74bc8286b5ffca8452784a3f4207b2f039758",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.15,
+    "reason": "https://github.com/Ifechukwudaniel/BitArt",
+    "timestamp": 1698386111
+  },
+  {
+    "tx": "0x83675a96bce7267e69a0260e734ba814a690eac6d5fb1e337dd37d4e649f0b98",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.35,
+    "reason": "https://github.com/Ifechukwudaniel/BitArt, https://github.com/BuidlGuidl/address-vision-port/issues/2,https://github.com/BuidlGuidl/event-wallet/pull/61",
+    "timestamp": 1697318315
+  },
+  {
+    "tx": "0xb29ce0eea4151b4f1d8beab13aaf6344e7d2fc1ced2271fdadf4cbb3e353da47",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.11,
+    "reason": "NBA  https://github.com/blahkheart/ETHGlobal-Superhack-2023",
+    "timestamp": 1696266659
+  },
+  {
+    "tx": "0x2da46844e0642e7bf0a712a554b2d01ab7a1948efb8a31985657c5a028308332",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "Trading View Chart For Dinamiko ",
+    "timestamp": 1695667895
+  },
+  {
+    "tx": "0x0573519b691f6ad285f4e450d3979d8d7cda716289aec5ece4e24c633dd406b1",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.3,
+    "reason": "eth accra workshop",
+    "timestamp": 1694526359
+  },
+  {
+    "tx": "0x05c84eba8a1cd96cd4387898b12267e3f6030d19c1cc630b8fa698728ef16ee4",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.2,
+    "reason": "Funding for eth accra workshop and web 3 lagos trip",
+    "timestamp": 1693463639
+  },
+  {
+    "tx": "0x0df5c51583cf6eb7dc1c4e990660e423562f5b068dd53fd814c54000601f9c8d",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.2,
+    "reason": "i have been working on Dinamiko simulation tool",
+    "timestamp": 1692106739
+  },
+  {
+    "tx": "0xb0c65ce8893dc2c6feb61be69ffe7bf461a6994c4c644ea5fa260470eba98f0b",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "https://github.com/scaffold-eth/se-2-challenges/pull/48",
+    "timestamp": 1691736287
+  },
+  {
+    "tx": "0xad2a4fd0da58b423c500433da5045fb10cae30729c857d49dfa2258858312435",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.2,
+    "reason": "i have been working on Dinamiko simulation tool",
+    "timestamp": 1690642655
+  },
+  {
+    "tx": "0x761f93c1b31de154b784459b0efb4a88db318a2efce2c3874c9b8f8d2751b498",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "Started working on moving challenges from  scaffold eth v1 to v2 , This are the issue https://github.com/scaffold-eth/se-2-challenges/iss https://github.com/scaffold-eth/se-2-challenges/issues/19, https://github.com/scaffold-eth/se-2-challenges/issues/20 ",
+    "timestamp": 1689521615
+  },
+  {
+    "tx": "0x3190c0ad013149d584283e7f6fd4c459b6204db6bfa18b8416ac4d36bd120241",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "Paid  for That  Sock Game Ui",
+    "timestamp": 1689073931
+  },
+  {
+    "tx": "0x9fb532b014eb978769ead6564f8cf505f15ba3cb278d9617c74a5eff35fd952f",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "Am working on Dinamiko",
+    "timestamp": 1688158619
+  },
+  {
+    "tx": "0x4e4de3a235177560335de233711d5af6a88fe1991e468d85c19f8c77a3b80331",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.1,
+    "reason": "Dinamiko",
+    "timestamp": 1687719479
+  },
+  {
+    "tx": "0x9c965f1ffd89ec11ed9365e8b8a83a91f57edefa9b2585a0554f7e5112e5b213",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.4,
+    "reason": "Dinamic",
+    "timestamp": 1687190567
+  },
+  {
+    "tx": "0xf74aaa859be7a6286ca5d7e94d511e9c0d05c5911351995b2a6e6f8a9902bc7d",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.2,
+    "reason": "Ethereum Oracle",
+    "timestamp": 1685173055
+  },
+  {
+    "tx": "0xbea60e36fe5fc8b26911f690752dca02f2288b8c46a32153de8bf3f91cb7a808",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.3,
+    "reason": "Ethereum Oracles",
+    "timestamp": 1684073519
+  },
+  {
+    "tx": "0x30d1a499fb5884c7aadae43763ffb764684c87de7b7e8203fbfe29dff66d0263",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.5,
+    "reason": "ThatSocks Nft",
+    "timestamp": 1682444807
+  },
+  {
+    "tx": "0x5cb3fa14a327ba8bda1ebb2457ed975adaa795cb7358a644f2431cb6e3bd72a4",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.2,
+    "reason": "That Sock Nft",
+    "timestamp": 1679853083
+  },
+  {
+    "tx": "0x16aa42d73f231be9fcb283b4ca5c46fc0da2dd40165c2c653acb9eb6695d090f",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.3,
+    "reason": "That Sock Nft",
+    "timestamp": 1678972331
+  },
+  {
+    "tx": "0xb8806759c76cb35c30d795b2cafac77db97178c894dc481655f30b830c92d02c",
+    "builder": "0xa709ff766777c40bac916558d9262ec4868496b4",
+    "amount": 0.5,
+    "reason": "i worked on thatsock nft ",
+    "timestamp": 1677222251
+  }
+]

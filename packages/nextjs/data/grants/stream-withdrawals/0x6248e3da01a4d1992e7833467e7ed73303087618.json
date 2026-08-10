@@ -1,0 +1,10 @@
+[
+  {
+    "tx": "0xd6412ae7679298ee235f320b6821e2b100f4c62e13597d9d726249cd3f72d144",
+    "builder": "0x6248e3da01a4d1992e7833467e7ed73303087618",
+    "ens": "mwrites.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/mwrites/punkwallet-swiftui",
+    "timestamp": 1652356301
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "tx": "0x1eee2f8e77577312cdb4ff9de877631da697591f08ed42da65ae7cd3c55d47ba",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.0252,
+    "reason": "clearing out ",
+    "timestamp": 1769639783
+  },
+  {
+    "tx": "0x6f4c95fdce9a5e8c16e402f02746f0a6ffbe1a0e17591d440d69e3f9cbc601a1",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Added RPC rate limiting to deal with DDOS attack and improved request validation in pre-proxy (https://github.com/austintgriffith/geth-node-ssl-proxy/tree/bg-rpc-proxy), improved monitoring in RPC (https://github.com/sfaber34/bg-rpc-pool, https://github.com/sfaber34/bg-rpc-web-server), minor client maintenance (https://github.com/BuidlGuidl/buidlguidl-client)",
+    "timestamp": 1767224099
+  },
+  {
+    "tx": "0xc81c5fbd61e0458c1689b3450058b711c733f1112fbdd1c976616a6bcb9b89ea",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Nodes: testing new client versions, erigon, user support (https://github.com/BuidlGuidl/buidlguidl-client). Improving metrics/ip tracking for proxy and RPC services (https://github.com/sfaber34/bg-rpc-web-server, https://github.com/sfaber34/rpc-ssl-proxy). Buenos Aires ",
+    "timestamp": 1764607139
+  },
+  {
+    "tx": "0xb998cbf8febee633eec4dc83237b4d8b60e36ea864d03471d5b48d78d311b4a5",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Minor BG client updates/tweaks (https://github.com/BuidlGuidl/buidlguidl-client), RPC request metering and key system (https://github.com/sfaber34/bg-rpc-pool, https://github.com/sfaber34/rpc-token-manager), getting more nodes running in Fort Collins [having many problems with office network, moved a few to home], experimenting with TG bot to help with university calls (https://github.com/sfaber34/tg-address-scraper)",
+    "timestamp": 1761945359
+  },
+  {
+    "tx": "0xc5df932a6067e822887955c54fa5dc15e3e100d7db6f59ce1e1d884d55963278",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Improved RPC when users send invalid/unsupported methods and fixed some bugs with bread minting (https://github.com/sfaber34/bg-rpc-pool, https://github.com/austintgriffith/geth-node-ssl-proxy). Updated bg-client execution clients and supported users through the reth missed state error (https://github.com/BuidlGuidl/buidlguidl-client). Small improvement to pre-proxy for origin handling (https://github.com/sfaber34/rpc-ssl-proxy).",
+    "timestamp": 1759273115
+  },
+  {
+    "tx": "0xbc3c8b481ccf78025507e0e11f32d771fe04e1d314b120cc6877928a9abe8977",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Finished up rpc/bread related sites (https://github.com/BuidlGuidl/bread, https://github.com/BuidlGuidl/rpc-website). RPC maintenance (https://github.com/sfaber34/bg-rpc-pool). Minor client bug fixes (https://github.com/BuidlGuidl/buidlguidl-client)",
+    "timestamp": 1756675403
+  },
+  {
+    "tx": "0xabc0e532d467a9fae3144ab92ba5c72ef991ff1165c4e3fadb51dd7d1123bcb5",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Added alchemy fallback/switch mechanism to RPC pre-proxy and proxy (https://github.com/sfaber34/rpc-ssl-proxy, https://github.com/sfaber34/bg-rpc-proxy). Integrated bread automatic minting in RPC (https://github.com/sfaber34/bg-rpc-pool). Frontend edits for RPC/bread stuff (https://github.com/sfaber34/rpc-website, https://github.com/sfaber34/bread-website). Minor client maintenance, updates, and integrated bread instead of points (https://github.com/BuidlGuidl/buidlguidl-client)",
+    "timestamp": 1754002271
+  },
+  {
+    "tx": "0x15e1e3152a87a37a179d3ae84e4072ff3f8250ff9bf6a96573d53721d6ca3a34",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "RPC improvements: telegram alerts, locking it down, staging bread integration, improved caching, detecting and dealing with troubled nodes (https://github.com/sfaber34/bg-rpc-pool, https://github.com/sfaber34/rpc-ssl-proxy). Bread contract (https://github.com/sfaber34/bread-minter, https://github.com/sfaber34/rpc-website).",
+    "timestamp": 1751408135
+  },
+  {
+    "tx": "0xb24ed6e7f06d79f6b87d1657a941262765f4244a0f7718cac1f850059906838b",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.4871,
+    "reason": "RPC edits to better handle problem nodes (https://github.com/austintgriffith/geth-node-ssl-proxy/tree/bg-rpc-proxy), Prototypes of RPC funder repos (https://github.com/sfaber34/rpc-website and https://github.com/sfaber34/rpc-ssl-proxy), minor help with tour site (https://github.com/BuidlGuidl/tour)",
+    "timestamp": 1748624423
+  },
+  {
+    "tx": "0x331f95e01db671c059bb1d23864fb1e04d65aab3c85cf9a32825f09d5c31fe63",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Fixed some issues with RPC node req selection (https://github.com/sfaber34/bg-rpc-pool), log service memory issues (https://github.com/sfaber34/bg-rpc-logs). Updated client for pectra upgrade and fixed issues causing too many block number requests to RPC (https://github.com/BuidlGuidl/buidlguidl-client).",
+    "timestamp": 1746054635
+  },
+  {
+    "tx": "0xfbcc92aee2d2ffab390220f0d3c4e64958375f59e5fd0c9a78399756dc833c24",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.4877,
+    "reason": "Continued work on BG RPC: https://github.com/sfaber34/bg-rpc-cache, https://github.com/sfaber34/bg-rpc-pool, https://github.com/sfaber34/bg-rpc-logs, https://github.com/sfaber34/bg-rpc-web-server",
+    "timestamp": 1743430715
+  },
+  {
+    "tx": "0xe6b463bd5bd130472e6d3e38bd8a342afedb52ce279ee13a053ae35206f1566e",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "BG RPC v2: https://github.com/sfaber34/bg-rpc-cache, https://github.com/sfaber34/bg-rpc-web-server, https://github.com/sfaber34/bg-rpc-logs, https://github.com/sfaber34/bg-rpc-pool ",
+    "timestamp": 1740859847
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Working on BG RPC redesign to use micro service design so that it doesn't turn into spaghetti (committing as user Ubuntu). https://github.com/austintgriffith/geth-node-ssl-proxy/tree/bg-rpc-proxy https://github.com/sfaber34/bg-rpc-logs",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "BG Client maintenance (https://github.com/BuidlGuidl/buidlguidl-client/tree/staging). BG RPC cleanup, restructure, added a dashboard - preparing to improve RPC functionality (https://github.com/austintgriffith/geth-node-ssl-proxy)",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.4984,
+    "reason": "Devcon 7. Maintenance for BG Client (https://github.com/BuidlGuidl/buidlguidl-client). Restructuring RPC code (https://github.com/austintgriffith/geth-node-ssl-proxy/tree/bg-rpc-restructure)",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1.5,
+    "reason": "Improving the reliability and restructuring RPC code (https://github.com/austintgriffith/geth-node-ssl-proxy/tree/bg-rpc-restructure). Modifications to BG client to improve rpc logic and added client version control (https://github.com/BuidlGuidl/buidlguidl-client/tree/staging). Hardware work to get ready for devcon.",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1,
+    "reason": "Improvements on the BG client repo (https://github.com/BuidlGuidl/buidlguidl-client). Backend work to make p2p connections between BG clients.",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.5,
+    "reason": "Continued work on BG Client improvements https://github.com/BuidlGuidl/buidlguidl-client",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.5,
+    "reason": "More nodes work to get the first alpha shipped https://github.com/BuidlGuidl/buidlguidl-client/releases/tag/v0.2.0-alpha",
+    "timestamp": 1738603571
+  },
+  {
+    "tx": "0x9f354fa0b38ccd0599cb06a338d1d241c8a26bfb65892fac953066c2982987de",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 1,
+    "reason": "Continued work on https://github.com/BuidlGuidl/buidlguidl-client and babysitting nodes",
+    "timestamp": 1738603571
+  }
+]

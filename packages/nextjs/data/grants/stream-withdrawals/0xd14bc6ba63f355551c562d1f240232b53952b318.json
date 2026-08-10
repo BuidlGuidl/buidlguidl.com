@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0xd54cd43ca0c0bfa0804785de576360cb23caa3a6f62ef5c8495035329e5802bd",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.07,
+    "reason": "Worked on the OPRPGF project",
+    "timestamp": 1699490015
+  },
+  {
+    "tx": "0x60d31d493063d3422f61f4de0cbf0966783237dc30ec50e9eb142c1a4cc1b370",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.5,
+    "reason": "Worked on the OPRPGF project and submitted  BirthdayNFT App. ",
+    "timestamp": 1698763115
+  },
+  {
+    "tx": "0xf7018bcbd6f66de99c7f08440180b5342922c8215c00fbfb9e9d06dd50631599",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.48,
+    "reason": "Submitting my previous work. Birthday NFT App and PetsFundMe. Plus contributed to the Retro Discovery Voting project.",
+    "timestamp": 1696118987
+  },
+  {
+    "tx": "0x0b9388cca4987a47b24f4b32905010ffaccde08a49de86803031477019786ce1",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0,
+    "reason": "0.4766",
+    "timestamp": 1696118231
+  },
+  {
+    "tx": "0x719e4a5283f252010c26512bed3347659883d61ae64f3e87d432e7c2cc1902c2",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.45,
+    "reason": "Contribute to OP-RetroPGF3-Discovery-Voting Project FE and some backend queries. Also build the DAO community.",
+    "timestamp": 1693705163
+  },
+  {
+    "tx": "0xd9f45d90198abeb4985047009824fcfb308fe6053c3595825b9993eb9a6c6698",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.5,
+    "reason": "Worked on the frontend for OP-RetroPGF3-Discovery-Voting ",
+    "timestamp": 1691295467
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "tx": "0x64545e25ae3571692bcb982b18e9d0b600d6d86ac5ff4a787581bc8a9455d248",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5142,
+    "reason": "SpaceLoogies https://github.com/damianmarti/space-loogies",
+    "timestamp": 1722540155
+  },
+  {
+    "tx": "0xf3c12f0b6d41c820f04e165880da552b8c5aaf9c36bea4e7869faf0e455ef768",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.75,
+    "reason": "May work: SpaceLoogies (WIP) https://github.com/damianmarti/space-loogies Akindo hacks review. ",
+    "timestamp": 1717436027
+  },
+  {
+    "tx": "0xfcd0133aa4ae2c5dfac4e5ba3ad6d6e901649015bf679a764becf6924cfb5b32",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "April work: BG whispers (https://github.com/austintgriffith/buidlguidl-whispers/pull/1). Scaffold-base smart wallet (https://github.com/BuidlGuidl/scaffold-base/pull/2). Kudzu-indexer (https://app.buidlguidl.com/build/Xja9tpEXoP0iimGHeReR) and Kudzu-exchange (https://github.com/austintgriffith/kudzu-exchange). Loogie-blo (https://app.buidlguidl.com/build/z0EdYm9Ki5tg8QZ4oybU). SpaceLoogies (WIP)",
+    "timestamp": 1714680107
+  },
+  {
+    "tx": "0x3c0adad8886f3a7dbe6dfe46c8ee6734019165d62a667efe963638562b7747f1",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "March work: Events tracker app (https://app.buidlguidl.com/build/AJflWhgX7esuj0y9rC8f), add crafting to meme-coin trading game (https://github.com/damianmarti/fruit-market2/pull/21), Scaffold-Base started kit (https://github.com/BuidlGuidl/scaffold-base)",
+    "timestamp": 1712172359
+  },
+  {
+    "tx": "0x263e51c3dfbc2486ba53eb3c159217d5285204c9b4ec0def944cfd0cb349e89b",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "February work: memecoin trading game improvements https://github.com/damianmarti/fruit-market2 and lands https://github.com/damianmarti/fruit-market2/tree/lands-tokens",
+    "timestamp": 1709899631
+  },
+  {
+    "tx": "0x7d33afce4fe5bad1ea9dd8ac586b0fa8c5253819323d02ef1292d792bc013670",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "January work: Fruit market game migration to latest SE-2 and trading bots integration https://github.com/damianmarti/fruit-market2",
+    "timestamp": 1707254135
+  },
+  {
+    "tx": "0x46f7d115afc3dc2c74e987686a9d4eb431d62067b440b0e89fa72fce47c0cbdf",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.25,
+    "reason": "December work: free off-chain ENS for BuidlGuidl members https://github.com/damianmarti/ens-offchain-resolver  Fruit market game migration to latest SE-2 (WIP) https://github.com/damianmarti/fruit-market2",
+    "timestamp": 1704392123
+  },
+  {
+    "tx": "0x0a9fc25c58949c9a0fa86159f6edbfe6941026ed9ab7477e8b1e64142bc39fc5",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "November work: Fruit market game https://github.com/BuidlGuidl/fruit-market and help with tg fruit bot https://github.com/ferric-sol/dcbot-grammy Betting room https://app.buidlguidl.com/build/TpqYFzQ8gidMIg4axfS2 Dice Game using RANDAO as a randomness source SE-2 https://app.buidlguidl.com/build/NpGDQHQ1140K9QaG5kth fruit game zupass claim prototype https://github.com/damianmarti/fruit-market-land/tree/zupass-claim ",
+    "timestamp": 1701870587
+  },
+  {
+    "tx": "0xed230f179cd46e51558196aa4b97e780681c150e43817d7bcd91480d0d1b0495",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "October work: Game wallet https://github.com/BuidlGuidl/event-wallet/tree/game-wallet SE-2 contributions and PR reviews. Betting room (WIP) https://github.com/damianmarti/betting-room",
+    "timestamp": 1699275167
+  },
+  {
+    "tx": "0x28633c3cf88a5d697efb5554a6d26b686102aa62441e024e61c7a2b435285ca6",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "September work: Game wallet https://github.com/BuidlGuidl/event-wallet/tree/game-wallet  SE-2 PR reviews. ENS off-chain resolver (WIP) https://github.com/damianmarti/ens-offchain-resolver",
+    "timestamp": 1696515587
+  },
+  {
+    "tx": "0x127102523fe826005a63f960812e8e9986a4101813032927c7a12f78ace345b0",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "August work: dapp using EAS to attest BG members. Burner wallet sign component. OP RPG voting project and SE-2 PR reviews. Add check-in, sign component, swaps, and token leaderboard to the game wallet. Publish and curate the Morra game subgraph to the decentralized network. BG L2 Add to wallet component.",
+    "timestamp": 1693837211
+  },
+  {
+    "tx": "0xb9244b6eee387a40c29df8aee90bb9074e76cb7ed641ed6fde2c1c8a274cea89",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "July work: Talk wallet features: leaderboard check-ins, add alias to address, questions admin, answering questions, questions leaderboard. Migrating Morra game subgraph to decentralized network. OP rpgf voting.",
+    "timestamp": 1690900163
+  },
+  {
+    "tx": "0x4ae19db5834f81dc783d446fe66830de7ea540f757a03399d5b91bab0a667685",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "June work: SE-2 small contributions and PR reviews. Hacker houses updated on repo data. Research about on-chain games. Event wallet cleanup. Game wallet, add muti-token support. Talk wallet, open burner wallet, user check-ins.",
+    "timestamp": 1688776787
+  },
+  {
+    "tx": "0x92d99be7f0b78d8bc2061f996a7534f33b69754bb8a6b4099b4b104c44adfca4",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "May work: SE-2 contributions and PR reviews. EDCON Event wallet (https://github.com/BuidlGuidl/event-wallet) . MUD2 canvas prototype (https://buidlguidl.com/build/STVyEAbXZ1z17SRv4xQF). ",
+    "timestamp": 1686145607
+  },
+  {
+    "tx": "0xb8d0a99e9e726970ad24155718137d93eb061db8f8fd796d80f13a0583fb9449",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "April work: SE-2 contributions and PR reviews. Hacker houses withdraw events. Hackathon projects review. TicketKiosk build. Subgraphs SE-2. create-se2-app proof of concept script. MUD tutorial build https://github.com/damianmarti/emojimon/tree/tutorial   ",
+    "timestamp": 1683550283
+  },
+  {
+    "tx": "0x405d3b9f9ca51c657700667d284136bf461d3119d536715e88dd39bd4f688fdd",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.2,
+    "reason": "March work. ETHDenver: food truck dapp, Bufficorn traits swap, BuidlGuidl booth, testnet dropper. Learning mud. SE-2 contributions and SE PR reviews.  ",
+    "timestamp": 1680971711
+  },
+  {
+    "tx": "0x41597617e4b1f7415a94887a8829b0b898b53bf8c70489810c32332873bb792b",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "February work. Bufficorn traits swap project. zkSync project for ETHDenver food purchase https://github.com/scaffold-eth/scaffold-eth/tree/zksync-test-damu PR reviews at scaffold-eth.",
+    "timestamp": 1678806479
+  },
+  {
+    "tx": "0xe44b0a4855949e6cb7abbdf6387b22570a7535690ca574398f03d7dea8755dea",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "January work. Emotilon NFT Game Goerli testing version online https://emotilon-v1.surge.sh. Bufficorn traits swap project. zkSync project for ETHDenver food purchase https://github.com/scaffold-eth/scaffold-eth/tree/zksync-test-damu PR reviews at scaffold-eth. ",
+    "timestamp": 1676157611
+  },
+  {
+    "tx": "0x233d7eda049830a222f210272ec41cdbd382f35de4eba9b5b6fd898fc9fcec47",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "December work. More work on the Emotilon NFT Game. Bufficorn traits swap project. Contributions to Scaffold-eth2. PR reviews at scaffold-eth. Gas price fix at scaffold-eth. Optimistic Loogies indexer and implementation on the OptimisticLoogies website. ",
+    "timestamp": 1672685291
+  },
+  {
+    "tx": "0xd0c3792df03c4a4e6d9eebb300eb20d20b986c56e94bc7662808f5f7f05690bc",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "November work. Emotilon NFT prototype (https://github.com/scaffold-eth/scaffold-eth/tree/emotilon) and Emotilon board contract prototype (https://github.com/scaffold-eth/scaffold-eth/tree/emotilon-board). Bufficorn traits swap project. First small PR at Scaffold-eth2.",
+    "timestamp": 1669938395
+  },
+  {
+    "tx": "0x3a5b4bf753ef73717dea2b2e2d12a96dd43663d55c2f009f14031dc306fedfee",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "October work: building another game with NFTs.",
+    "timestamp": 1667306987
+  },
+  {
+    "tx": "0x5c43292d62ceb4519dbb9c44854e754829c5264bcd8c3d977568b3f1fb5df3d1",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "September builds: Improvements to Morra game, Dice Game using future RANDAO as randomness source, MandalaMerge NFT, add new levels on BuidlGuidl NFTs site.",
+    "timestamp": 1664558747
+  },
+  {
+    "tx": "0xaaeda174d694c67c3021a98c0bf28a0d968408d572eb307da78a6737100d7525",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "August work: \"Building Composable SVG NFTs with Scaffold-ETH\" workshop at ETHLatam and Morra Game.",
+    "timestamp": 1661795871
+  },
+  {
+    "tx": "0x43f6c7301a0aadf5fb54a324bf69937e0aca27ca7109013dfd14750539877b2f",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "July builds: JuiceBox NFTs Starter Kit, NFT BuidlGuidl website, PixelRoll, fix on Rock, Scissors, Paper build, Morra prototype.",
+    "timestamp": 1659547914
+  },
+  {
+    "tx": "0xfbbe0a8f233f5887ce5b68320e95d7b453d2ea2ef409ab1915ff213e65403fa6",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "June Builds: FancyEarrings, Dice Game using block.difficulty and Dice Game using future block.difficulty",
+    "timestamp": 1657028238
+  },
+  {
+    "tx": "0xa5370c626282fa5c34736bd14e71bbee6d047a0090dd4e5621cf1d07e1fe39c7",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "SailorLoogies improvements. Add subgraph and multicalls. LoogieBoard game. ",
+    "timestamp": 1654291872
+  },
+  {
+    "tx": "0x4b6780b2bb58a5d9bfac75fd918ad43027f2249c0b91f0c1dbff31f0560711c0",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "April work on SailorLoogies Game, awards and game UI https://github.com/scaffold-eth/scaffold-eth/tree/sailor-loogies",
+    "timestamp": 1651589749
+  },
+  {
+    "tx": "0x25b1dc673cf25d657f3a245db040944e6de87185d59e311d7cbf8bb699636b00",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "March work on LoogieShip NFT, LoogieCoin and SailorLoogies Game (WIP) https://github.com/scaffold-eth/scaffold-eth/tree/sailor-loogies",
+    "timestamp": 1648854909
+  }
+]

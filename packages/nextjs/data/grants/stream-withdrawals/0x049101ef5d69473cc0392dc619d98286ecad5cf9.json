@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x93001451b16a254809597500a73365382271cd3550cb9328f8f96deb2799f261",
+    "builder": "0x049101ef5d69473cc0392dc619d98286ecad5cf9",
+    "ens": "stevenslade.eth",
+    "amount": 0.5,
+    "reason": "1. Import multisigs to localstorage: https://github.com/austintgriffith/maas/pull/9 2. Reducing renders of transaction list items to prevent re-rendering issues: https://github.com/austintgriffith/maas/pull/10",
+    "timestamp": 1676355779
+  },
+  {
+    "tx": "0xe7636e11c87248602531c5e43a50f20cdb49da81433cf7af09ba58b3d750c9e2",
+    "builder": "0x049101ef5d69473cc0392dc619d98286ecad5cf9",
+    "ens": "stevenslade.eth",
+    "amount": 0.5,
+    "reason": "1. Scaffold-ETH x Tailwind: https://github.com/stevenpslade/scaffold-eth-tailwind 2. Multisig.lol improvements: https://github.com/austintgriffith/maas/pull/8 and https://github.com/austintgriffith/maas/pull/6",
+    "timestamp": 1651983513
+  }
+]

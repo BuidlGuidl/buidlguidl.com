@@ -1,0 +1,258 @@
+[
+  {
+    "tx": "0xb8d920f7ed7a96cb6fbe3644f1b9e33d973268ed3b040d6668f5ffcf5545312c",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.1433,
+    "reason": "Updated the noir lang repo with ressources",
+    "timestamp": 1673651279
+  },
+  {
+    "tx": "0x61c288c2afb62a5e484ebe6994c8d89694b1d501ea62888ce1420f538d747c9f",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.34,
+    "reason": "Working on an NFT template to facilitate drops on evm compatible chains",
+    "timestamp": 1672445075
+  },
+  {
+    "tx": "0x476c1d6fb317845e7a7c69bd956ccdc65da2b59d99aefa8d0daaa10dfedbb872",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.07,
+    "reason": "back at building. NFT gen art collection + article on Universal profiles",
+    "timestamp": 1670654927
+  },
+  {
+    "tx": "0x1d310b953176ef48e226c2d0c14056c1f0c616aca54bda9d3d2d7df2bb34ba47",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.088,
+    "reason": "Echidna/fuzzing artcle",
+    "timestamp": 1670269811
+  },
+  {
+    "tx": "0x48a561794e2c206a61ebd4b3d5a7afcc98aac91eac1fe5cef3475290dad4209f",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.098,
+    "reason": "Another security article otw",
+    "timestamp": 1669814111
+  },
+  {
+    "tx": "0xaf4b5477e38f8e7c3d02d25cc24775b600e653ed486cc4a0543cf24eadbbddf6",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.074,
+    "reason": "Security article",
+    "timestamp": 1669306979
+  },
+  {
+    "tx": "0x046327824f090d8dec4b276423a906a34b80f144e0d598c26b6c7fd28ce78758",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.13,
+    "reason": "finishing up security build",
+    "timestamp": 1668936887
+  },
+  {
+    "tx": "0x7f55d0bb9512883fa7942998b0ecbbe89526eb6e21218ba49dafd4e3b04e9361",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.15,
+    "reason": "Working on a security build/launching arise",
+    "timestamp": 1668253343
+  },
+  {
+    "tx": "0x23dca3ff7dc10b897129146332b6b15ac994ec965bd4f417c37b87baaf5548c9",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.156,
+    "reason": "Brushing up a security research article + art drop",
+    "timestamp": 1667472143
+  },
+  {
+    "tx": "0xe4dbb3cebc68176984452b166645bbf7a042c9c7a33f1816c3a9e049d0a98baf",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.132,
+    "reason": "working on nextjs build",
+    "timestamp": 1666664111
+  },
+  {
+    "tx": "0xa79c2fbc9ce29a397c4727ada3c8580542551a6db1090c998377ece133927102",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.122,
+    "reason": "Diving into smart contract security + tinkering with generative art",
+    "timestamp": 1665980195
+  },
+  {
+    "tx": "0xc3c27925e54eeb851ec1bf996f322800c2393d0a7fc5a4956c8c43a4219d3115",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.17,
+    "reason": "Design test & threejs build",
+    "timestamp": 1665397559
+  },
+  {
+    "tx": "0x7d75f1a0827ff072586a8af1a54887435e68689f4e775b5605f00f997dc75c38",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.177,
+    "reason": "Building Kubehaus & a decentralized bounty board",
+    "timestamp": 1664463047
+  },
+  {
+    "tx": "0x0a199195df20d7c59f2112f8b0dabc82023dca87662cedb90660cf49f69db7c3",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.15,
+    "reason": "Design & art",
+    "timestamp": 1663589651
+  },
+  {
+    "tx": "0x9d1625bb1403e1ec633054284c8e1ce3182815b25040d8f27c0f7dc39089d67f",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.074,
+    "reason": "Working on a mev-boost build:  https://github.com/le-kag/flashbots-mevboostxbundler",
+    "timestamp": 1662947594
+  },
+  {
+    "tx": "0x869ff4c962bccbb6e43a5d9dbe1a360205b9d9b6f3845ee32194b2a6b62ed9ff",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.237,
+    "reason": "Finishing up the generative-art template",
+    "timestamp": 1662387345
+  },
+  {
+    "tx": "0xfbb2666d912f79987be7a8a9db43c39c489551b51a670d6fd942f6141c62c408",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.22,
+    "reason": "New build and 'Artblocks' style on-chain art",
+    "timestamp": 1661169179
+  },
+  {
+    "tx": "0x28a77355e7fb880ea1933b0bef957a6fe61bbbe8e31b1e51bc79f2b5e1ac1906",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.29,
+    "reason": "UI with NextJS, design research",
+    "timestamp": 1660038833
+  },
+  {
+    "tx": "0x29c9d2dcf28f06e7a3504c1ceb3e61074463be8ce38bd4597609feb1316d23c1",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.15,
+    "reason": "NFTs to raise funds for BG & made the UI",
+    "timestamp": 1658513753
+  },
+  {
+    "tx": "0xfd19f9770df1848c8cfadad8cff228a5b9360ddfbb06d3095ae579a1144a0d8b",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.142,
+    "reason": "UI stuff + Juicebox project",
+    "timestamp": 1657736800
+  },
+  {
+    "tx": "0xfd19f9770df1848c8cfadad8cff228a5b9360ddfbb06d3095ae579a1144a0d8b",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.142,
+    "reason": "UI stuff + Juicebox project",
+    "timestamp": 1657736800
+  },
+  {
+    "tx": "0xb8662ee100322006d58caef42659094e4c894e13975cc266cbb1dea17766783e",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.14,
+    "reason": "Improving an NFT branch with Tailwind CSS",
+    "timestamp": 1657018423
+  },
+  {
+    "tx": "0x9f8101a259640f95b3916f9d39947d72fb237da918ea39e46ed67090a33de2cc",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.23,
+    "reason": "Working on an NFT project",
+    "timestamp": 1656281872
+  },
+  {
+    "tx": "0xe2263710f621d73bfd24603c9d647a0a53264b807e87de5310cea3f226d86d3f",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.33,
+    "reason": "Brushing up the conviction voting dashboard",
+    "timestamp": 1655111614
+  },
+  {
+    "tx": "0x74f662092a28dc7abb558462c2096cab426152b3fd9d2c1a042cb103cb5fa8ef",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.5,
+    "reason": "Builtwithscaffoldeth - catalog",
+    "timestamp": 1653368589
+  },
+  {
+    "tx": "0x37fd07eb517069501adafc60ce46cf061625af1755ba9e22ff3ee82208311ad6",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.21,
+    "reason": "Finishing up the Soulbound NFT branch and working Builtwithscaffoldeth.com",
+    "timestamp": 1649105517
+  },
+  {
+    "tx": "0xe31bc17fee856bbeb59f990f0f377ad37dc3f8368ce1798fb7d1e0d66858e13a",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.499861,
+    "reason": "Wrote the speedrun ethereum article and I'm building up a Soulbound NFT branch",
+    "timestamp": 1647998965
+  },
+  {
+    "tx": "0xb0613fcacb106ff6ab571f499f074c264a6fb65ff0e5990c9ae375c8cb8df19d",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.48,
+    "reason": "aicrystals.xyz + helped with the multisig challenge/build + Working on some SE fix/bugs + Implemented an anti-spam bot in SE channel + Setting up a Mirror.xyz for buidlguigl",
+    "timestamp": 1644969935
+  },
+  {
+    "tx": "0x1fec9d72ea1e91f1a833047d0303e9490278f5f6f46e611a77814369eb04c659",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.463975,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-challenges/pull/49 + Working on setting up Multi-Sig Challenge + Bugs",
+    "timestamp": 1642471054
+  },
+  {
+    "tx": "0x6be7d0065eb1ec0f5e9296b82b527e4b1b8fec91d890066d43857044443a9969",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.5,
+    "reason": "Worked on the Giga NFT branch: https://github.com/scaffold-eth/scaffold-eth-examples/tree/Giga-NFT-project",
+    "timestamp": 1640052681
+  },
+  {
+    "tx": "0x5642346d9842208cac286d007dac4fc468f9eebac3e8ce12886cfc1e1079040e",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.499936,
+    "reason": "Worked on the Optimism Starter Kit: https://github.com/Chris-Kag/Optimism-starter-kit (approved for stream)",
+    "timestamp": 1637453372
+  },
+  {
+    "tx": "0xbdef554555a353f1380e3c737c6bf2b13ccd617a08122bf484f7606fa54dc574",
+    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
+    "ens": "lekag.eth",
+    "amount": 0.499452,
+    "reason": "Worked on the ETH price chart and currently building the dashboard that checks the SSLs and the backend.",
+    "timestamp": 1629239555
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "tx": "0x2f60d632bf5aa9e8e68b4adabf7f18c0a5b45156a037bf272857954f070c9654",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.1,
+    "reason": "Extra December: Project management, review platform feedback, Review PRs. #7",
+    "timestamp": 1737458759
+  },
+  {
+    "tx": "0xaed55878cce70e00a79a24c3143248b2e5560b4f313ed655667d0370b9b1c750",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.12,
+    "reason": "Extra November: Project management, support keynote preparation, ENS demo for weekly call, PRs. #91 #96. Review PRs. #68 #88 #91 #92 #95",
+    "timestamp": 1734720887
+  },
+  {
+    "tx": "0xc6c5b82e4a3404521d7860dee15f99370eb69b27904d8f70bc2316d412d0e6ce",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.2,
+    "reason": "Extra October: Project management, PRs. #72 #79. Review PRs. #77 #81",
+    "timestamp": 1732110455
+  },
+  {
+    "tx": "0x08920f148b563579bb7413663bc2711c22775d2d5a077021381dc5351e39a9af",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.2,
+    "reason": "#77, #88, #92 (wip)",
+    "timestamp": 1730759747
+  },
+  {
+    "tx": "0x2b9975a2ee53102072787fa9434323278c563ef499075d14ac58b95f3c99eb84",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.2,
+    "reason": "Extra September work: Project management, PRs. #65 #71. Review PRs. #68",
+    "timestamp": 1728896267
+  },
+  {
+    "tx": "0xdf4e6468a4a0ec8ffadf3b946b5b6459f160d2294ea29a6530ad1b4d512ad6ab",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.33,
+    "reason": "Extra August work: Project management, PR #63 #60 #58, Review #31 #33 #36 #37 #38 #39 #44 #49 #50 #55 #59",
+    "timestamp": 1726007891
+  },
+  {
+    "tx": "0x7112c8cee1e81eb906d6e1ac7e7913676216e1b9fdd23f81a220663d7b13acae",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "#35, #37, #38, #39, #44, #47, #49, #50, #51, #54, #55, #56, #59",
+    "timestamp": 1725878699
+  },
+  {
+    "tx": "0xe81bad180bc7199208df9f66935627c369f9480117a4fae59add0c93b5f9a8ab",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "#23, #26, #29, #31, #32, #33, #34, #35 (wip)",
+    "timestamp": 1723115639
+  },
+  {
+    "tx": "0x513315c2396205b88fdfc06f01aa71af58f75d86e8948d523622d63f9dc2504e",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.6,
+    "reason": "July work: ENS grants site UI design for main landing page, application page, grant details, grants gallery and admin's pending proposals pages.",
+    "timestamp": 1722526403
+  },
+  {
+    "tx": "0x6e3319b9eff7a8b92d7cca4de0589f032c94cc8a7083b5b393812716a47f0884",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.25,
+    "reason": "ENS Off-chain resolver using SE-2 https://ethglobal.com/showcase/ens-resolver-nbwam",
+    "timestamp": 1698168251
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "tx": "0x1c68ccafe370e8e2d6ccc225344d31b531d0dd3a066dbd18d396435b452b0f63",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "solid ens - rs build ",
+    "timestamp": 1714489391
+  },
+  {
+    "tx": "0xc8257ffe66794e1a22e8b8a49c631d87fbd15bffb010171e51d1aeb5f33cddb0",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "solidwill build",
+    "timestamp": 1708959575
+  },
+  {
+    "tx": "0x9f606c86742efcef5f8637646ffe531f5a0217032d5cde3e64f8a9412b0fef76",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "solid-DCA build",
+    "timestamp": 1706281871
+  },
+  {
+    "tx": "0xebafba26917e5814f85378906ca5e0f29936ce01a4e471c0cd6262c8db9e2331",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "arbitrum stylus + se2, erc4626-rs",
+    "timestamp": 1702992683
+  },
+  {
+    "tx": "0x5ddb20442203b7bfd5f9179415ba9c5a867b4c6c536ed35a24a535e0dfde49a5",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "GasslessVault build",
+    "timestamp": 1695973319
+  },
+  {
+    "tx": "0x72f9228e4ccc16dfbb26afca5acbe8b7f04e3589803e47ba3b702f1c671ed15b",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "SolidInterest build",
+    "timestamp": 1693378955
+  },
+  {
+    "tx": "0x51e2a1319996f16c27e6e165d8f9e155f151a81aa17580fa5c6bbdb4b73bbd2e",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "levered vault",
+    "timestamp": 1688139563
+  },
+  {
+    "tx": "0x728e81336efbf91b21216eca56842498651dbeded4aac9d5fc2310ed1a7a52e4",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "solidvault build",
+    "timestamp": 1685465123
+  },
+  {
+    "tx": "0x52f157c4088c2ff08db9da0d71ec3b09095e7bdbc403f78118c26456d47e8e87",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "SolidStreaming build",
+    "timestamp": 1682605355
+  },
+  {
+    "tx": "0xd933454571a4337ca336e23159c8a8142308ed2ad3cb05ceb88864f6e547cbdd",
+    "builder": "0x51efaffe68e654180bc85e9c83bf46c83a5987e7",
+    "ens": "solidoracle.eth",
+    "amount": 1,
+    "reason": "completed SRE, submitted other projects, deployed SolidCircles on Optimism",
+    "timestamp": 1679988167
+  }
+]

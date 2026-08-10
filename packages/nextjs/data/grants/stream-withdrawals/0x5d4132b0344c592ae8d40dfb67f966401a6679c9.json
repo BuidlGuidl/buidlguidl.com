@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0x2348afc20346109ba75c86cabc78a38850c61b1ff0f5158a85afa6b591f4a24b",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.3,
+    "reason": "https://platinum-eth.vercel.app/posts/2simpleNFT plat-eth challenge0",
+    "timestamp": 1716947051
+  },
+  {
+    "tx": "0xd4d5263cd07e732d827953ebe6ffe45d764918fb1a2bee6085c4c7f78003ba99",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.5,
+    "reason": "Platinum-Eth MVP https://platinum-eth.vercel.app/",
+    "timestamp": 1713813443
+  },
+  {
+    "tx": "0x52f52219dfd467001ee40e4e506e538c23acca9659c19c46932a4d6a2ddc07fc",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.2,
+    "reason": "dice challenge guiding questions rough draft https://github.com/ayechanst/speedrun-eth-guide/blob/main/dice-guide.md",
+    "timestamp": 1711087667
+  },
+  {
+    "tx": "0x1c037ffb848943b27df8a11b119225b1a4285eab2207ae99c7770d1a454e7654",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.25,
+    "reason": "dev rel content and planning https://www.youtube.com/watch?v=7p6CbwfiHdw https://www.youtube.com/watch?v=Q7D6dAm8rYw&t=571s https://medium.com/@ayechansant/where-to-start-learning-about-blockchains-a4b752fa8337",
+    "timestamp": 1708967279
+  },
+  {
+    "tx": "0x2a917d89c668ad52fd357b7cbcea7355b505c0660bf6d8fd8de5fbaa3c724292",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.125,
+    "reason": "https://youtu.be/F7qbe1GLhwE?si=kCbui2GLq8BxUEXM se2 sample workshop!",
+    "timestamp": 1708040771
+  },
+  {
+    "tx": "0xa7a0f55c86519768ff2d230c85c47f14a005006a027f66cbc015924a701a2161",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.125,
+    "reason": "https://nextjs-ji39vo07f-ayechanst.vercel.app/",
+    "timestamp": 1707266687
+  },
+  {
+    "tx": "0x2eda65ffcb3426d4d29a8b9ac06a7b589064e67c0aecce9905ab38a0f679b129",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.125,
+    "reason": "dex4 improvements final draft done ",
+    "timestamp": 1707160379
+  },
+  {
+    "tx": "0xa19b59397b71bb9a72e8ebcffca0622441433c6cb3312dcb19ca61a7f5393097",
+    "builder": "0x5d4132b0344c592ae8d40dfb67f966401a6679c9",
+    "ens": "ayechan.eth",
+    "amount": 0.375,
+    "reason": "rough draft for dex challenge revision submitted: https://github.com/ayechanst/speedrun-eth-guide/blob/main/dex-guide.md",
+    "timestamp": 1704908663
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "tx": "0xcf2ccf5c41e0c143dfdc3c038cfa912afa8c497d8c5d3800efb265788b62e809",
+    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
+    "ens": "buidlguidl.zakgriffith.eth",
+    "amount": 0.65,
+    "reason": "Moving funds to Mercs Cohort",
+    "timestamp": 1755638675
+  },
+  {
+    "tx": "0x65106e1e67c589d6a83f52fcad90094dc57170d49c50ba4c727bdee365f4cf9b",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.65,
+    "reason": "Oracle challenge - Add TooltipInfo component - #12, update PriceWidget - #13, setup initial tabs - #14, fix simulation error - #15, make highlight colors more descriptive - #18, integrate uniswap fetching price - #19, fix decimals and fetching price: - #26, add whitelist table and highlight active vs stale reporters - #32, editable prices, whitelist simulation - #34, add checks for adding nodes and fix price - #40. PR reviews: - #16, #17, #21, #30, #31 ----- stablecoin challenge - fix graph initial price - #7, remove circulating in supplygraph - #8 ------- scaffold-eth-2 - add not found page - #1120 ---------- SRE - review PR on dex guides --------- bg-v3 - update text in anonymousMenu - #130 ------ address-vision-port - fix balance decimal formatting based on integer - #88 ----- supersocks: Add 16 different design, fix readme instructions and dependencies, restyling #1, #2, #3, #4, #5.",
+    "timestamp": 1753635659
+  },
+  {
+    "tx": "0xe0792a375142b302a91acc03ea59cdf0c2b04824d0e57a001f64e631612fe799",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.6,
+    "reason": "Stablecoin challenge - add tests for the stablecoin challenge - #12, display current price, improve pop up, primary style for swap and transfer buttons - #13, Remove unused custom errors, resolve the unreadable issue, remove check for minting - #15, fix tests for empty methods - #16. PR Reviews: #11, #14, #17............  se-2-challenges(lending): fix types in collateral graph - #3............  se-2-challenges(stablecoin): fixes for the feedback - #4, add animation for MyUSD price - #5, add animation for token balance instead of price - #6............  nifty-ink: batch transaction for minting - #107, update endpoints - #109, update coins-sdk - #110, add zoom functionality to canvas - #112",
+    "timestamp": 1751221643
+  },
+  {
+    "tx": "0x1a9254f34fbd1118edf075831471400c2e7d5b020babcad4136113cd5fb568db",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.3,
+    "reason": "Stablecoin Challenge - update frontend for the new contracts - #5, Update on rate controls, fix in MintOperations, improve table display - #6, display borrow and save rates, add toggle for displaying rates, add loading state and empty states for graph, add legend to the graph, update tooltip, set width for userpositionstable to avoid glitch in resizing - #7, restyle the page, add \"Repay All\", made it responsive - #9, fix bug with 0 on graph, update toolip text and table - #10. PR reviews: #3, #4, #8",
+    "timestamp": 1748170103
+  },
+  {
+    "tx": "0xc6ada2f3b597796f3aa6080f3c46dce5ec442dc7521ad62a18393583a83bb16c",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.33,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix price fetching and update inking free text, remove previous way of funding, fix offchain faucet - #96, make create page as the main page - #97,  add possibility to upload large files - #98, add zora ink view page - #100, switch network before executing transaction (not on entering the page) - #104, restyle zora page, add fork button, add share modal component, make it responsive, add dynamic loadtime based on number of total drawing lines - 106",
+    "timestamp": 1748169899
+  },
+  {
+    "tx": "0x7f678697b1de7acb9121965bd65a38b156105355726c0a7a9fcb4c8332e206e7",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix filenames for file uploading - #78, fix: link for single ink - #80, add explore zora inks - #82, fix create page styling - #84,  restyle create page - #86, fix gnosis inks api - #90, refactor bg feedback - #92, signature type error - #93, remove metadata verification - #95.",
+    "timestamp": 1745687699
+  },
+  {
+    "tx": "0x41172e5a602009caea89de0c32d7f448de21ee9c0e4d030313f2fa067b011e88",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.25,
+    "reason": "lending challenge - use % in the graph, fix the color for the ratio change on borrow CORN, display ratio change in repay CORN, fix the graph on openLeveragePosition and close LeveragedPositio. stablecoin challenge - setup repo, refactor smart contract, frontend, and test. burner-connector - fix the bug which is not allowing to execute transactions in the second chain.",
+    "timestamp": 1745078915
+  },
+  {
+    "tx": "0xe3b22a2f137b8251c9abdde4a9d9d9fc0df2360583177bcd88be0d9733700c93",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.36,
+    "reason": "https://github.com/AzimovS/lending-challenge. Fix colors and change buttons - #22. PR reviews: check everything before merging and provide a feedback - https://github.com/scaffold-eth/se-2-challenges/pull/280  https://github.com/BuidlGuidl/nifty-ink. PRs: UI fixes, ipfs-uploader updates and relevant fixes - #70, zora form fetching - #71, same headers for all chains, notifications for wrong chain, error notification is wallet is not connected, zora collections in artist page, fix image  links, fix ink names - #72 #73, release all updates to prod, fix overlay of view inks - #75, add coins support and show zora posts related to zora coins - #76",
+    "timestamp": 1742580095
+  },
+  {
+    "tx": "0x1815bb97306fe5e957b507211e6e65a4e7d3100b798d974e95259082480198bc",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.36,
+    "reason": "https://github.com/AzimovS/lending-challenge. Setup the repo for the lending challenge. Added  inital frontend part. PRs: oracle - #3. User position table - #9. myusd operations - #10, fix oracle and myusdc - #11, refactor smart contracts to lending - #12, refactor frontend to lending- #13, update collateral graph to use log scale - #14, fix collateral graph - #20. PR reviews: #1, #6, #7, #15, #16, #17, #18, #19",
+    "timestamp": 1741725791
+  },
+  {
+    "tx": "0x3b12f544ba7a530d0e8cbbae32e3802d81d2ff337eb703b7fe318035c1b048b1",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.275,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: topup the faucet (It already funded more than 200 times since the beginning), change transaction links from blockscout to gnosisscan, remove outline from InkCanvas, remove forms and add chain selection, and refactor form components for publishing, tests with ipfs-uploader and use it to upload in nifty on base, fix styling portrait mode, for gnosis use ipfs-uploader as well, update IPFS and view inks URL - #70.",
+    "timestamp": 1740089603
+  },
+  {
+    "tx": "0xdf0fb629ddd95ca142fcb9b7d738294567be8f99f5b582ee5cb7ca9b784ce26e",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: Got the issue with the Zora SDK on Base Sepolia and tried to solve it with different versions, waited for new versions, and opened an issue, changing to the Base chain resolved the issue. Fixed an error with the indexsupply query. Updated to the latest version of the Zora SDK. Fixed the loader during ink creation. Fixed the filenames for pinnedFiles. After creating ink, added a button to help create another ink.  - #70.",
+    "timestamp": 1739102507
+  },
+  {
+    "tx": "0xd35f89f1a164e2b6f4d3fd69b15e3053f8fdc692a48286db8b83e5338fc10daa",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix plausible script - #68. fix redirects, so it will work for the NFT on Opensea - #69. first demo for the zora support on nifty ink on staging - #70. fix plausible for doodle exchange - #59",
+    "timestamp": 1737662831
+  },
+  {
+    "tx": "0x530f433c550986670687e5d9c4a120bfa549d8f7baa326dda6dd922acec75c00",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: add plausible script to track analytics and fix total stats - #67. Also, working on a new network: add possibility to create ink on existing collection, display success message after confirmation, fix package which display the ink on zora, make ink adaptive, display the final image instantly, and verify that the new modal works on gnosis as well - https://github.com/AzimovS/nifty-ink/commits/newNetwork/",
+    "timestamp": 1736201951
+  },
+  {
+    "tx": "0x250cd0e0b026f52e2a358d5efe017afa29e9efef1ab47c0e83386465ae915c8e",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: progress on adding a new network in nifty ink (add modal for creating inks for gnosis and zora, refactor the code, add a possibility to select a collection from the existing one, add a new package for the ink view on zora): https://github.com/AzimovS/nifty-ink/tree/newNetwork",
+    "timestamp": 1735663535
+  },
+  {
+    "tx": "0xf1190ec402267ed400eaee6ab775b1bcf9a1d6e60926985c3317b6b96e443595",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.12,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: new fix based on a feedback that inking is free - #66. Work for the deploying on the new chain",
+    "timestamp": 1734294947
+  },
+  {
+    "tx": "0xf92d0cb23b979c1b768c1afb0010a9924842a19e9dfd62bdda91b1d49a4e0dbd",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: added a copy link button and changed the positions of other buttons (like and twitter). fix: hide mint button if ink reached the limit.  Added chat to header for better visibility. Updated burner-connector version and fixed bugs with displaying private key section. Added a link to punk wallet in private key modal for wallet management. Added welcome message to notify that the users might get the xDai from faucet (if they entered to the website for the first time). Funded the faucet  for small amount (should be enough for at least 3 months) - #66",
+    "timestamp": 1733675267
+  },
+  {
+    "tx": "0x5463d96611d4d0f8a97f3f556eb251b81c1bda11e2602816509610472426e9f1",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.11,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: Fixed issues with loading inks without metadata for artists. Improved loading behavior for the first and last batch of inks. Fixed the recent activities section. - #65",
+    "timestamp": 1733088695
+  },
+  {
+    "tx": "0xbfb0e86fbfdc29e69f8e68c622cb02616388886d2290c6625032d17bc70e7cf8",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.13,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix z-index for Like button, view private key for burner wallets - #64",
+    "timestamp": 1732744595
+  },
+  {
+    "tx": "0xe1b18dcc0b2526b2ad9546614247aef2760cd5c5b18ff01a6e1f05b84585999c",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.2,
+    "reason": "Research on uploading inks for a new chain",
+    "timestamp": 1732128275
+  },
+  {
+    "tx": "0xd1c06745af253c048c65a02315187bd3555280db73318199ea955bf982efc640",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.21,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix usage of types for canvasdrawlines and lines, add darktheme for antd components, fix bg color in dark mode for artist and collectors - #63.   https://github.com/BuidlGuidl/doodle-exchange. Review PR and make many tests: #56.",
+    "timestamp": 1731364163
+  },
+  {
+    "tx": "0x221b63327f1854b1cd6d32e0bd62ace3e7b3d1807678b7960e12816689bed990",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.35,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange. PRs: add analytics - #48, add daily doodles - #52, add retry option after submitting the drawing - #53, fix: multiple drawings in leaderboard - #54. Review PRs: #47, #49.",
+    "timestamp": 1730326127
+  },
+  {
+    "tx": "0x18175a542e10df1bc34501eb886cda15d086a492d477d1c54b2c7dd6a6cacfab",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: code refactoring for the whole create page, fix hotkeys, use webworker for saving drawing - #62.",
+    "timestamp": 1729625615
+  },
+  {
+    "tx": "0xc517a6a4eb14d388a079a183b51c6344c61934250063af34726516671e2906d9",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: add debounce to avoid lags during drawing - #61.",
+    "timestamp": 1729455695
+  },
+  {
+    "tx": "0x444bc7aa18172fcb656662e0e466d2db963c216d010aec79b63dcad666fb8275",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix load more button for main, artist, and holdings page, fix dark theme for artist page, hide copy button for address, fix ethereum holdings page, add skeleton loader for header menu links - #60.",
+    "timestamp": 1728827399
+  },
+  {
+    "tx": "0x63f7883c5ea13aaa9f970870077e95eafa3bf41ff827dd7bde9bfd564eec37ff",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.15,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix likes on main page, add infinity scroll in holdings page, add infinity scroll in artist page, fix dark theme for ink page, fix dark theme for holdings page, update tabs on inks page - #59.",
+    "timestamp": 1728333239
+  },
+  {
+    "tx": "0xa0faf5d705b5ba875ace236312a0b8ccd8f62172dc7cf849c1b3f76e60165d99",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange. PRs: hide qr after starting the game on the host page, updated the banned words, notify about empty drawing, close connection and redirect to results - #45. Review PRs: #44, #46.",
+    "timestamp": 1728076487
+  },
+  {
+    "tx": "0xb2b122e0da28d9320cd82fa999c0f5d0fd666e5b7c5cedf5ad04c8548db51d2a",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.35,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix query params in Stats page and main page, add timeout for fetching metadata, fix sale selector - #58. -------- https://github.com/BuidlGuidl/doodle-exchange. PRs: Add possibility to see the past games for all users, set lazyradius to 0, decrease loogie size in header, add loogie to drawing results, show loogies in lobby and host page, blur game words on host page - #40, Fix play scoring (assigning 3 or 1), remove numbers from usernames - #41, fix lobby styling and host page, host page players styling, clear drawing board after skipping word - #42. Review PRs: #39, #43.",
+    "timestamp": 1727126771
+  },
+  {
+    "tx": "0x5adea067e241f4520071e9d7b919d6437f15267f7fa369ed2d4948102582dba0",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/BuidlGuidl/nifty-ink. PRs: fix load more button in artist page, remove dividers in artist and holdings page, use next/image for optimization, fix margin for dividers in inks page, remove upgrade buttons, fix styling of text, so it will look better on dark theme - #56, Added infinityscroll on main page, removed error with localstorage initialization, made responsive stats page, styling for dark theme stats page - #57 ",
+    "timestamp": 1726648055
+  },
+  {
+    "tx": "0x8f9397104be094ea2c29f4418a22f4e7912a2d2514fb66cecdb0416148425a81",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange. PRs: Add option to select difficulty (easy, medium, and hard) and relative dictionaries - #31, fix notification duration, separate drawings list for each round and separate by correct/incorrect, use address component in Lobby and Host pages - #32, remove \"Join Game\" section - #33, fix notification position and single mode styling - #38. Review PRs: #34, #36, #37.   https://github.com/BuidlGuidl/nifty-ink. Release all the past changes to dev.nifty.ink",
+    "timestamp": 1725964547
+  },
+  {
+    "tx": "0x881c726244b2eb8fa932aaa9cb5b45382ea671cd2d78170b2bc12c8d2ecc604f",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.35,
+    "reason": "doodle exchange work: Added single player mode and updated dictionary - https://github.com/BuidlGuidl/doodle-exchange/pull/22, Added firebase to config to make easier for set up and contribution, added function that will check if the guess correct or not, show game word on the host page, show that user own specific address in lobby and result page, update readme - https://github.com/BuidlGuidl/doodle-exchange/pull/24, Display all drawings and reveal the correct result only after the round is finished - https://github.com/BuidlGuidl/doodle-exchange/pull/26, Show leaderboard total score, don't allow users to join after the game has ended - https://github.com/BuidlGuidl/doodle-exchange/pull/30",
+    "timestamp": 1725006263
+  },
+  {
+    "tx": "0x6691b9f60d5ffa951d9907123adb9af3f712ea7af329f6ecaea3c0cde5c934e1",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.25,
+    "reason": "Doodle Exchange work: Added slider to select number of rooms - https://github.com/BuidlGuidl/doodle-exchange/pull/16, Fixed the connection issues by updating the ably to v2 - https://github.com/BuidlGuidl/doodle-exchange/pull/18, Display list of drawings on the host page - https://github.com/BuidlGuidl/doodle-exchange/pull/19, Added confetti, Remove the empty line, which is used for the countdown text, Display try again button properly, Display only incorrectly classified images, Show incorrectly classified image in results - https://github.com/BuidlGuidl/doodle-exchange/pull/20",
+    "timestamp": 1724435855
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xa2dd03d428039665124f2f97ec4b605f0256dfd91af088c137b3dcbd91ea5c2a",
+    "builder": "0x2c538df2338342037339965c4a97f07a95e4cf38",
+    "ens": "stevepham.eth",
+    "amount": 0.5,
+    "reason": "Write foundry tests for DEX challenge, write README.md onboarding students to foundry through DEX challenge, researching autograding optionality && process (deferred to later date but most details understood / troubleshot) / original PR w/ smaller commits: https://github.com/scaffold-eth/scaffold-eth-challenges/pull/293 / new PR w/ consolidated commits (README updated after properly): https://github.com/scaffold-eth/scaffold-eth-challenges/pull/297 / Actual branch: https://github.com/scaffold-eth/scaffold-eth-challenges/tree/sp/dex-foundry-tests",
+    "timestamp": 1676344355
+  },
+  {
+    "tx": "0xcd31ae337d9d332c8bcf23005cc46ed7b0aaa6012f0d8e5ba94e9648b8c7fd44",
+    "builder": "0x2c538df2338342037339965c4a97f07a95e4cf38",
+    "ens": "stevepham.eth",
+    "amount": 0.1,
+    "reason": "kick-off of crypto societies idea, discuss w/ Austin, x0r (friend w/ a16z), Ryan Coordinator, some industry (defi protocol) devs, created first loom but need to refine. Also time helping with running DEX challenge telegram here and there over the last 77 months / https://github.com/squirtleDevs/Crypto-Societies",
+    "timestamp": 1669214639
+  },
+  {
+    "tx": "0x194814c74faf9556e4d604c236a9f95e0634ff73459a29d7a33fac5f8084996f",
+    "builder": "0x2c538df2338342037339965c4a97f07a95e4cf38",
+    "ens": "stevepham.eth",
+    "amount": 0.4,
+    "reason": " worked on foundry local tests (closed PR to work on autograde) && coordinating for autograde / https://github.com/scaffold-eth/scaffold-eth-challenges/pull/190/files",
+    "timestamp": 1669179239
+  },
+  {
+    "tx": "0xc88e792827b5c05587934953616fe73f0ad03b9c2834cc2ae1fec7139974b710",
+    "builder": "0x2c538df2338342037339965c4a97f07a95e4cf38",
+    "ens": "stevepham.eth",
+    "amount": 0.341148,
+    "reason": "SRE DEX Challenge revamp with m00npapi et al. Work includes: detailed README (written with PoV of challenger in mind), functioning front-end, smart contract solutions to reference if needed, and smart contract templates to ensure functionality with front-end code. Link to repo: https://github.com/squirtleDevs/scaffold-eth/tree/challenge-3-single-pool-dex",
+    "timestamp": 1647915828
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "tx": "0x78f0f87ffe550c7801dcdf0a2563d464053a8aacc84f516123471e0ee7daa51b",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.15,
+    "reason": "Continued work on Layerzero ONFTs & Started working on SpeedRunEthereum SVG NFTs challenge's migration",
+    "timestamp": 1700513111
+  },
+  {
+    "tx": "0x99acff47419e8e1c10e27020ce4c9875e81a3a44e6156cb0fc3eefc68b7cce36",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.35,
+    "reason": "Working on Layerzero ONFTs. Reference link: \"https://layerzero.gitbook.io/docs/evm-guides/layerzero-omnichain-contracts/onft/deployment-guide\"",
+    "timestamp": 1699702019
+  },
+  {
+    "tx": "0x977e06d726a43d7c701d575d41aaadd48bfc0e0b737a55d73640df1ea821e0cd",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.15,
+    "reason": "Continued work on Layerzero OFT ",
+    "timestamp": 1697898167
+  },
+  {
+    "tx": "0x04dc701eff12cfd57c36459e8d6be8665e32cd32d30d6065e6fb056e5ae78866",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.35,
+    "reason": "Layerzero Omnichain Fungible Token based cross chain token transfer",
+    "timestamp": 1697109587
+  },
+  {
+    "tx": "0x4d2d33658cc051225bceecfc100311a5d98ff11187fd91d2cd3c3e5ae862f49c",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.15,
+    "reason": "Testing new SRE challenges last",
+    "timestamp": 1695297923
+  },
+  {
+    "tx": "0xe7b7de7c4040f5da8960d9d7fce6e240a9162ec1da6efdfeff6f85fd14784db0",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.35,
+    "reason": "working on the LayerzApp v2.0 new features",
+    "timestamp": 1694603639
+  },
+  {
+    "tx": "0x1790dcf251fbb3d2f9964744d9eca2a4e631d62f7fa7f1226ae07649cd817a9d",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "New Buidl (LayerzApp) - https://app.buidlguidl.com/build/dG9DgNnhZCf0XIReGhG9 /// Continued contribution to the migration of SRE challenges /// Contribution to 'Builders Who Completed Challenges' app - https://github.com/technophile-04/builders-chall-completed/pull/1",
+    "timestamp": 1692698855
+  },
+  {
+    "tx": "0x363a6ef28045d2cf6bdd923809e57b02fdf6066998fd175e506a9758b897d2ab",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "Contribution to the migration of SRE challenges to SE-2 => https://github.com/scaffold-eth/se-2-challenges/pull/15",
+    "timestamp": 1690105739
+  },
+  {
+    "tx": "0x630b4933256ccd32dd931a1ca66d3d03c6cb3641796c64f071bf9ca4bd3c7d73",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.35,
+    "reason": "Happy Wanderer Dex implementation's new features (Admin Panel - PostgreSQL connections for admin panel, Bug Fix)  /// New Scaffold-Eth Memes",
+    "timestamp": 1687859771
+  },
+  {
+    "tx": "0xfc414b04baae1fe874377bf37866bf641ac42f75fa360f62b1329dc004463e0d",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.4,
+    "reason": "Happy Wanderer DEX - https://buidlguidl.com/build/2jvwHLG0a5u11H4Z44da /// StudiBrew DEX - https://buidlguidl.com/build/c1K8CbACZ694L9Iozwov  /// Continues Assisting to Telegram Channel",
+    "timestamp": 1685877155
+  },
+  {
+    "tx": "0xa8cd0a7cc8e401fd92a18871102b07701f0940972abec4da818857da5aace165",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "1- Medium article about scaffold-eth, buidlguidl: \"Zero to Hero With a Tool: Scaffold-Eth\" Link: https://medium.com/@mertcanciy/zero-to-hero-with-a-tool-scaffold-eth-ce47f6113d59 // 2- BuidlGuidl Memes // 3- Assisting on Telegram Channel // 4- Research about Token Splitting",
+    "timestamp": 1683625631
+  },
+  {
+    "tx": "0xf07df658a23c54ea078f491672b06aa87827adfc1efc8fc79cc8fc74d3c431dc",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.25,
+    "reason": "Thanks a lot!",
+    "timestamp": 1682110463
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "tx": "0x83d7fcdc340ff7ee544a60495b40bd8135b1fa02a2184e34e5dba64a8821d511",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.4532,
+    "reason": "stream closed to withdrawing remaining funds.",
+    "timestamp": 1723800215
+  },
+  {
+    "tx": "0xc1906eb7ae4f7e7335bac2894bd264010a6892fbab7a1bd3af7a6647136692ec",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.5,
+    "reason": "Stream closed, so donating back to buidlguidl.eth",
+    "timestamp": 1717838783
+  },
+  {
+    "tx": "0x3fb710d1298ce284ccd56c501695c4ed093bd619e181502103349931857765d1",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/scaffold-eth/se-2-challenges/pull/97,https://github.com/scaffold-eth/se-2-challenges/pull/104",
+    "timestamp": 1696660691
+  },
+  {
+    "tx": "0xfe46423649fa66982e9239ad7fa5f9ee0d7528b534245a466a1f66a43c19008c",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.2,
+    "reason": "Rebuildied Challenge 0,1,2 with SE2.",
+    "timestamp": 1696067579
+  },
+  {
+    "tx": "0xea8e2b55be93d42a87be1f8ded029510da8052cfb412bd75fd829c694e77e13c",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.2,
+    "reason": "Payment state channel challenge completed.",
+    "timestamp": 1679835887
+  },
+  {
+    "tx": "0xdc0a7e5b1ae3c0f97696e2e555f9e561b3005738cd4d6d91f866eb4d51edd495",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.2,
+    "reason": "Support from Jan,23 to March 23.",
+    "timestamp": 1679739107
+  },
+  {
+    "tx": "0x6429a78e36c8e3e72d0c43b4a41c13bea4e469535f3042d73ca5ba1c550c74f5",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.2,
+    "reason": "December support and final submission of parrot NFT",
+    "timestamp": 1672757447
+  },
+  {
+    "tx": "0x66d558a9fc211499fc5ba0dd7d58ecb469eebe37ab54603f11d87477b2ce1b08",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.25,
+    "reason": "Add more color pallet received from Andy",
+    "timestamp": 1670062823
+  },
+  {
+    "tx": "0xbd0776bc248bd8d79d2464f819fca59b43b8e886fc96ec2cbddc43db6810bc53",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.3,
+    "reason": "Arrogant Parrot NFT composable on chain build",
+    "timestamp": 1669451999
+  },
+  {
+    "tx": "0x983451b733a47a6a1c061f3fe5547fec9b3283bfb74c455d1975596184bd4da1",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.3,
+    "reason": "https://parrot-svg-nft.surge.sh/ building",
+    "timestamp": 1662045503
+  },
+  {
+    "tx": "0xe8dd95dba746e76a97613ed8e15475d7a8c74fb024f29c7f7ac245c5deb4a05a",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.1,
+    "reason": "Support for SRE challenges for last 4 months",
+    "timestamp": 1662045317
+  },
+  {
+    "tx": "0xe114f5826e067a3958ec31978f35254278da0759097d3a3077fef6ff2f5138a8",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.1,
+    "reason": "1 PR for SRE and Chat support for april, 2022",
+    "timestamp": 1652513331
+  },
+  {
+    "tx": "0xdde814a9b4655cf5436f606392c660608023bf724ddbee332c53706e31de1b3b",
+    "builder": "0x54179e1770a780f2f541f23cb21252de12977d3c",
+    "ens": "bowtiefriday.eth",
+    "amount": 0.06344,
+    "reason": "ScaffoldEth Support through chat and github reported issue https://github.com/scaffold-eth/scaffold-eth/issues/720",
+    "timestamp": 1648375351
+  }
+]

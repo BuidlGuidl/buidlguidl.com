@@ -1,0 +1,106 @@
+[
+  {
+    "tx": "0xb1b2d4cf9d15a14831a3b4f1704a8209af74179a955bd457c1fc6f0053b14b50",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.3881,
+    "reason": "EOS",
+    "timestamp": 1724009471
+  },
+  {
+    "tx": "0x9dc9cb98b4365a68c4e33b13565c3a05985363ab432ee5f7d1da2a9440ad3664",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 1.5,
+    "reason": "End of stream",
+    "timestamp": 1719532931
+  },
+  {
+    "tx": "0x87d033b68d212dd7a2f3cfef614e84ba65381c00a02dbe0e41d68b46da8f72ce",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.25,
+    "reason": "Spork Staking V2 - Initial work",
+    "timestamp": 1680370583
+  },
+  {
+    "tx": "0xee7c1f62ad860c14db11ad5b835e266d6e89e7580cce80503f69cd6abcbe9c1e",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 1.5,
+    "reason": "Spork Staking for SporkDAO / ETHDenver, delegation.tools, OptimisticArt",
+    "timestamp": 1669760891
+  },
+  {
+    "tx": "0xca86c9d63937210a7d2b343a593686ac7a8e454f57018f5d25002516a6df0072",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.5,
+    "reason": "Regen Recipes - Iteration 1 (https://github.com/DanieleSalatti/regen-recipes)",
+    "timestamp": 1659645697
+  },
+  {
+    "tx": "0xd76a534cabd49cad71fe05c99b05e4bc650ba02f4a3475aa7be4db616636fecd",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.5,
+    "reason": "Initial work on Impact DAO token sets / ReFi - demo here: https://www.youtube.com/watch?v=rDftFqR2QcE",
+    "timestamp": 1658652958
+  },
+  {
+    "tx": "0xce04088185a8b030f7f00e88bcd716fa1c3474615526e7464b6952d4b617487b",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.75,
+    "reason": "https://voting.gitcoin.co",
+    "timestamp": 1654328994
+  },
+  {
+    "tx": "0x1c43cb1785ca95c7d53d6eef42bd1feb8757243f18b5e186a24e36b235c12d84",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.75,
+    "reason": "Work on Conviction Voting prototype for Gitcoin w/ subgraphs on Rinkeby and Mainnet, first iteration of script to fetch data for voting power calculation (https://github.com/DanieleSalatti/gtc-data-fetcher); various UX changes and fixes.",
+    "timestamp": 1653270171
+  },
+  {
+    "tx": "0x1e334f9d71b5a56a7a0e8bd4f42518d084457b1614e8d0fdb4c6281b5cc5e878",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.361855,
+    "reason": "Conviction Voting prototype - https://gtc.v37.io/",
+    "timestamp": 1651610066
+  },
+  {
+    "tx": "0x3d5db8a712c050fc726a1020a6179cb7ad98727bdaf2bf4dbd19efd72c04ade5",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.2501,
+    "reason": "Conviction Cloud - Iteration 3: https://github.com/scaffold-eth/scaffold-eth-examples/tree/quadratic-conviction-cloud; https://danielesalatti.com/blog/conviction-voting/",
+    "timestamp": 1650488603
+  },
+  {
+    "tx": "0x4247005da89c7faa96350ce62c4fddcfdc93570f2794d441163292710e51c36e",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.194368,
+    "reason": "Conviction Cloud - Iteration 2",
+    "timestamp": 1649737931
+  },
+  {
+    "tx": "0x4c93892d1b5a64ddbdcd9b2d9dc6c54378be8e50c55b40112eacecebc3ea3dcd",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.092189,
+    "reason": "Conviction Cloud - Iteration 1",
+    "timestamp": 1649382827
+  },
+  {
+    "tx": "0xe60eb5870a24014c3e0e827ed070128b96169c5819683f422f0ecd04acec1dd9",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.21035,
+    "reason": "SRE faucet (https://github.com/0xDarni/scaffold-eth-typescript/tree/faucet and https://faucet.v37.io/) + PRs",
+    "timestamp": 1649208053
+  }
+]

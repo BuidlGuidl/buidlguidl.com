@@ -1,0 +1,122 @@
+[
+  {
+    "tx": "0xff7c7e8572ac3648e8f5a724916455b513fd187aec6554b9915e34c06d2512ea",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "Creating an article on basics of fuzzing with Medusa and doing a fuzzing campaign on token streams contracts",
+    "timestamp": 1706517899
+  },
+  {
+    "tx": "0xc3d45bcb13f67d7355ec3b31e3b01b72fce5618e7ad31efc707f694da317c06e",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.48,
+    "reason": "https://github.com/lokithe5th/testing/tree/part-3-foundry-fuzzing",
+    "timestamp": 1703837711
+  },
+  {
+    "tx": "0x3ff3a4e50ccdb913170419ddea1665d40604065d856cad289e6f5902a07f2268",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/lokithe5th/testing/tree/part-2-token-tests",
+    "timestamp": 1701346523
+  },
+  {
+    "tx": "0x4d240325af2d6c884cf87cbacc1bde3182481fdf1ddbfbd8339e55c2d3f7c884",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "https://app.buidlguidl.com/build/pQSSkTnU6ASVP27n2iCQ",
+    "timestamp": 1698750575
+  },
+  {
+    "tx": "0x3de13726dd34769700c277367a3287e01c5bf44fbf4b39d72f6175d50048e3cd",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "Security Review: https://hackmd.io/@lourenslinde/taskmarketplace",
+    "timestamp": 1695708371
+  },
+  {
+    "tx": "0x9303c6b54cd930d55dc5f7f5e1c3f83048f985563316e6922f5489f5f30a5dc6",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "https://hackmd.io/xghhV_ESRkKqKk_Zx4RTXw?view",
+    "timestamp": 1692963395
+  },
+  {
+    "tx": "0x6c5aaded1a0cb07b4b104095c9d07188bfb964059d62e13b2b0b346d52398710",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.485,
+    "reason": "https://github.com/lokithe5th/TokenSwap --> extracting the gas-efficient SVG aspects for plug and play template contract",
+    "timestamp": 1690288439
+  },
+  {
+    "tx": "0x15ace53348798acc8c8addd1906f6117f3e08a7cea99a5d1b6da2c2cae76a7c6",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.45,
+    "reason": "https://buidlguidl.com/build/VwZw4JJAY62uykOJEPq7",
+    "timestamp": 1687952351
+  },
+  {
+    "tx": "0xf1b44d5764ad184a45f7bcf4120df5b7c3d55959d6b1b5a79dc73d49e63c122a",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "Reworking \"Harvestors\" for a more user-friendly tax-loss harvesting experience. Needs a revamp after memcoin craze.",
+    "timestamp": 1685439167
+  },
+  {
+    "tx": "0xdce064b261fd3f78915241f73266ff82b3865f52382a404ae75cef60a9b00ab0",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.45,
+    "reason": "building efficient-deploy svg strings library",
+    "timestamp": 1682332163
+  },
+  {
+    "tx": "0xfd9240f72a80f453c67c59e8e219b62fd3a34953e7f581e2775481e7ae2322d2",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.42,
+    "reason": "https://buidlguidl.com/build/HZ1uSYSmEoHpKpw9zkK7",
+    "timestamp": 1679842055
+  },
+  {
+    "tx": "0xaac9cd3d23238015e84b07827054381c40bab14b3c31d759ccf9a4f7a9596f28",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.2,
+    "reason": "ethdenver admin panel backend",
+    "timestamp": 1677743039
+  },
+  {
+    "tx": "0x0771429e8cd17e158d4f9ed13d6f05f6437c2ec95afa00b750c84f6d65161b3a",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.48,
+    "reason": "gas-comparison branch for bit packs, eth-denv, working on AMMs build",
+    "timestamp": 1676618279
+  },
+  {
+    "tx": "0x493846b2e16bce908d431f83680294c5472e68358e69c04e1e6f675200b7a95f",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/lokithe5th/packed-voting",
+    "timestamp": 1674111923
+  },
+  {
+    "tx": "0x9b8c50e57632afc39664ead5601cf8fb1a54d247c22fbd3e3c803752d3acc5b3",
+    "builder": "0x809f55d088872ffb148f86b5c21722caa609ac72",
+    "ens": "lourens.eth",
+    "amount": 0.5,
+    "reason": "Funding research and development of Supply Chain attestation using Scaffold-Eth. Working on this full time at the moment after finishing another project. Repo can be found here, still early WIP: https://github.com/lokithe5th/supchain",
+    "timestamp": 1670506679
+  }
+]

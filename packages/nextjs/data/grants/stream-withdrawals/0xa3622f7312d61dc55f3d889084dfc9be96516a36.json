@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x4b5c00308c984b606de6c3ed3234b81a4c4254869a3f3fb3ea812d6a6d83ecdc",
+    "builder": "0xa3622f7312d61dc55f3d889084dfc9be96516a36",
+    "ens": "magduszka.eth",
+    "amount": 0.5,
+    "reason": "Once upon a time miscellaneous works on telegram.",
+    "timestamp": 1717759847
+  },
+  {
+    "tx": "0x622ceae0c94afbca806e1f529d065fbb0288acf427e3fe64369297e5e77ece6d",
+    "builder": "0xa3622f7312d61dc55f3d889084dfc9be96516a36",
+    "ens": "magduszka.eth",
+    "amount": 0.334336,
+    "reason": "castle and hot air balloon inks: https://nifty.ink/ink/QmVBJ47v9v1cHjFCY6rCSSzPz1DPuvjMm2urTBEHniNMvo https://nifty.ink/ink/QmVAhmZswAzvU4gvocJoaLUK6zw8r5C3vRd9QJGVqFUkmY",
+    "timestamp": 1647980376
+  }
+]

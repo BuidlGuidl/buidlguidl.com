@@ -1,0 +1,865 @@
+{
+  "grants": [
+    {
+      "title": "2048Wars",
+      "description": "Onchain competitive 2048 game where players compete for a shared prize pot. Traditional sliding puzzle mechanics - first to reach 2048 tile wins the current pot.\n\nKey Features:\n- BuilderScore threshold prevents bot/sybil attacks\n- Weekly win cooldown per player ensures fair distribution\n- Small entry fee (i.e. 0.001 ETH per game)\n- Growing pot system: 5% creator fee, 5% seeds next week's pot, 90% to winner\n- If no winner, pot rolls over to next week\n- Created as a Farcaster mini app\n\nTech Stack: JavaScript frontend + Solidity smart contracts\n\nPersonal Goal: Practice and advance my JS/TS & Solidity skills building an onchain game",
+      "amount": 0.08,
+      "builder": "0x1F3bfa0620f95fda15E67F3e8FA459A258559E94",
+      "status": "completed",
+      "completedAt": 1767052800,
+      "buildLink": "https://speedrunethereum.com/builds/a00d555b-e2ac-4b32-886b-ce66a1e5e5fa"
+    },
+    {
+      "title": "YieldGuard: An AI-Driven Cross-Protocol Yield Optimization Agent",
+      "description": "YieldGuard is an AI-powered asset management solution for DeFi. Leveraging advanced machine learning and risk management, it analyzes yields across Ethereum protocols and Layer 2 networks, identifying optimal allocations while accounting for gas fees, impermanent loss, and market volatility. Key features include an adaptive AI engine that predicts yield trends and adjusts strategies in real time; risk-adjusted optimization that integrates metrics like gas costs and impermanent loss; seamless cross-protocol integration via MPC Wallet APIs; and a transparent, intuitive dashboard offering real-time insights and customizable parameters, empowering exact, real-time investment management tailored for diverse investors.",
+      "amount": 0.15,
+      "builder": "0x8b3C2CB21b6Cb04AE412e41565A804F0bC6D2244",
+      "status": "completed",
+      "completedAt": 1767052800,
+      "buildLink": "https://speedrunethereum.com/builds/978a9dcb-f94a-4d7f-a006-70b2247f2aee"
+    },
+    {
+      "title": "Fiidbak",
+      "description": "Fiidbak is an identity-verified feedback platform where creators upload products as ERC1155 tokens and users provide quality reviews. Both creators and reviewers must verify identity (self protocol) to prevent spam and ensure authenticity.\nUsers earn progressive NFT badges based on approved feedback: Seedling (1 review), Wood (5), Bronze (15), etc. Feedback automatically approves after reaching fixed number of vote, and only Wood+ badge holders can vote on feedback quality, with weighted voting power. Product owners have feedback approval rights too. \nThe platform transforms anonymous feedback into verifiable, merit-based contributions while scaling quality control through progressive user empowerment rather than centralized moderation.",
+      "amount": 0.08,
+      "builder": "0x21dfd1CfD1d45801f46B0F40Aed056b064045aA2",
+      "status": "completed",
+      "completedAt": 1766016000,
+      "buildLink": "https://speedrunethereum.com/builds/c6e23a78-ac5d-45d0-bb94-6a788d14d488"
+    },
+    {
+      "title": "EthIndexer",
+      "description": "EthIndexer revolutionizes blockchain data access by enabling users to index blockchain data simply by typing natural language commands, without writing complex queries. It instantly processes your input and auto-generates API endpoints that both frontend and backend applications can consume—making blockchain data integration effortless and fast.EthIndexer is an AI-driven platform that empowers developers, analysts, and businesses to index and structure blockchain data on demand. Users describe what they want indexed—whether it’s activity for specific addresses or particular data fields—and EthIndexer automatically creates tailored REST APIs to expose this data for seamless integration.",
+      "amount": 0.075,
+      "builder": "0xeA411A6D2D2EDe6720848bd3a9EcAB420d288Cb9",
+      "status": "completed",
+      "completedAt": 1766016000,
+      "buildLink": "https://speedrunethereum.com/builds/56090a77-c591-486f-b4f4-a2b96310cd2a"
+    },
+    {
+      "title": "Gasless Polls: A Practical EIP-712 Implementation for Community Voting",
+      "description": "My project is a Gasless Poll dApp to eliminate voting gas fees. Users sign free, off-chain EIP-712 messages, it gets batched together for a single, efficient on-chain transaction.\nThis project's goal is twofold: to solve a real user experience problem and to create a clean, open-source Scaffold-ETH 2 learning template for the BuidlGuidl community, demystifying gasless design patterns. Blockchain provides the core trust layer via cryptographic proof, immutable settlement, and transparency.\nMy 2-week plan is to deliver a functional MVP: a Solidity contract, a Node.js relayer, and a React frontend, complete with a detailed README and demo video. Future plans include decentralizing the relayer with GSN and adding token-gated voting for DAOs",
+      "amount": 0.1,
+      "builder": "0xEdb85C2bE4861c707eD792142526A985D4E8C18e",
+      "status": "completed",
+      "completedAt": 1764720000,
+      "buildLink": "https://speedrunethereum.com/builds/7d336d3d-a582-4643-b1d2-1ff400b6dbac"
+    },
+    {
+      "title": "Zero Knowledge Proof Learning Platform & Scaffold-ETH ZkApp Starter Kit",
+      "description": "The goal of this project is to create an open-source learning platform and development toolkit to help developers:\n\n    Learn the mathematical prerequisites for Zero-Knowledge Proofs (ZKPs).\n\n    Understand ZKPs from both a developer’s and a mathematical perspective.\n\n    Build a starter kit on top of scaffold eth for quickly developing ZK applications (zkApps).",
+      "amount": 0.15,
+      "builder": "0x5042cC432523A0A1Aa2874630128Fec0b6aB8bE9",
+      "status": "completed",
+      "completedAt": 1760918400,
+      "buildLink": "https://speedrunethereum.com/builds/2a307c5f-0f30-4425-9baf-ad1fac0e6bc0"
+    },
+    {
+      "title": "Assist melanke.eth to review PR's in Batch 20",
+      "description": "I was invited by melanke.eth with opportunity to assist him in reviewing the PR's of Batch 20.\nTasks I will help out with but not limited to: \n-> Resolve issues of Batch 20 batchmates and guide them to successfully complete the batch issues.\n-> Review PR's and provide detailed feedback to batch mates.\nI reviewed PR's in batch 19 as well and was guided by melanke.eth to efficiently review PR's and learn.\nI have completed speedrun Ethereum projects and, currently tackling eth tech tree challenges.\nI would be happy to contribute more to the community and learn to become a 100x developer.",
+      "amount": 0.08,
+      "builder": "0xD6bdfc73ddDf721Fc757f8559fd3C91Ed43b82e4",
+      "status": "completed",
+      "completedAt": 1760486400,
+      "buildLink": "https://speedrunethereum.com/builds/fc136c1d-842e-4ab8-83ac-6903b8d49652"
+    },
+    {
+      "title": "Streamlined Token Interactions with EIP-2612",
+      "description": "I propose building GaslessSwap, a dApp showcasing EIP-2612 (Permit) for gasless ERC-20 interactions. It includes a token faucet, permit-based token swap, and a gasless transaction dashboard to highlight gas savings and improved UX. This project explores EIP-2612, EIP-712, and gas optimization, serving as a tutorial for developers. Initial goals: deploy an ERC-20 token with Permit, build a swap contract, and create a React frontend. Future plans include gasless staking and DEX integration. Perfect for learning, sharing, and impact!",
+      "amount": 0.15,
+      "builder": "0x24e765Fcd00106D7175837848ec9073f9fEb9d8e",
+      "status": "completed",
+      "completedAt": 1752796800,
+      "buildLink": "https://speedrunethereum.com/builds/862be098-e1f9-4484-bbe0-11be83bc1e38"
+    },
+    {
+      "title": "Festivify: NFT Greetings for Every Celebration",
+      "description": "The Festival Greetings NFT dApp reimagines how we send festival messages using Web3. Instead of fleeting cards or texts, users mint personalized NFT greeting cards for occasions like Sallah, Christmas, and New Year. These cards, stored on decentralized networks like IPFS, are permanent, verifiable, and emotionally meaningful. The dApp includes a message composer, wallet integration, and one-click minting and sending. With future features like festival rewards, analytics, and public showcases, the platform blends cultural tradition with blockchain innovation, introducing users to digital collectibles in a fun and heartfelt way.",
+      "amount": 0.15,
+      "builder": "0x85ba183Fb4c16D435B076DDe459dAfc8eFF864d8",
+      "status": "completed",
+      "completedAt": 1751328000,
+      "buildLink": "https://speedrunethereum.com/builds/e0bbc173-4897-449f-abfe-7b41fe7ac454"
+    },
+    {
+      "title": "Fully decentralized betting game that doesn't rely on Chainlink.",
+      "description": "We know the recommended way to work with randomness on Ethereum is using Chainlink VRF. But I believe that by playing with incentives and the order of interactions, it's possible to create a betting game that runs autonomously. I want to test this proof of concept, deploy it on Sepolia, experiment with its dynamics with some friends, and, if successful, deploy it on L2 networks, where I believe it can work.",
+      "amount": 0.15,
+      "builder": "0x2Bc096A12C5b37F035180aDeF70EB2B88351e5B8",
+      "status": "completed",
+      "completedAt": 1751328000,
+      "buildLink": "https://speedrunethereum.com/builds/733eee67-940f-4cc1-9855-ca4d403fb531"
+    },
+    {
+      "title": "chETHGPT",
+      "description": "I have this idea to build on top of the state channels challenge in SRE. \n\nIn the challenge there is a \"guru\" and a \"rube\" that pays for the guru's wisdom.\n\nIn this idea the guru would be a chatGPT API and the rube a user asking questions... It would be basically a wrapper of chatGPT but you would use the state channel and ETH for payment\n\nIt would be cool because you will pay only for each character that you receive.",
+      "amount": 0.15,
+      "builder": "0x4b2b0D5eE2857fF41B40e3820cDfAc8A9cA60d9f",
+      "status": "completed",
+      "completedAt": 1750636800,
+      "buildLink": "https://speedrunethereum.com/builds/b2a20cb4-cf38-4d08-96ab-805ba20c193f"
+    },
+    {
+      "title": "MerkleProofX is a platform the process of generating, managing Merkle proof",
+      "description": "MerkleProofX is a no-code platform that simplifies the generation, management, and verification of Merkle proofs for Web3 projects. It allows developers, platforms, and communities to securely run airdrops, create whitelists, and set up token-gated access without writing custom smart contracts or backend scripts.\n\nThrough MerkleProofX, users can upload wallet addresses, automatically generate a Merkle tree and root, and retrieve proofs. Features include on-chain storage of Merkle roots, API integration for dynamic proof generation, and pre-built smart contracts for claim verification. Developers can either deploy our lightweight verifier contract or use our APIs to fetch and verify proofs directly in their frontend apps.",
+      "amount": 0.15,
+      "builder": "0x6BF7d6b94282BD48ff458599aDafA268BcB009FF",
+      "status": "completed",
+      "completedAt": 1750636800,
+      "buildLink": "https://app.buidlguidl.com/build/xq0PrbGFBMQjxOpZ2CNG"
+    },
+    {
+      "title": "Paywalled Content Frame for Farcaster/Warpcast",
+      "description": "As a batch12 final project i aim to build a warpcast frame v2 which:\n\n- allows a user to post something (and pay a post fee, let's say 100 $degen)\n- lock the content behind the paywall\n\nAnother user will be able to pay to view it (let's say x = 100 $degen)\n\nThen:\n- if he likes the content - he can share it and get commission from everyone who unlocks the frame.\n- if he does not like it - he can get a refund.\n\nAll these functions will be implemented in a smart contract.\n\nThe code will be opensource to help others to learn how to use smartcontracts with frames v2.",
+      "amount": 0.15,
+      "builder": "0x4b7b07D8BAf51975eeAb0E1eb4B481A5aC691ED6",
+      "status": "completed",
+      "completedAt": 1749600000,
+      "buildLink": "https://speedrunethereum.com/builds/0870bb75-aec8-47f2-9862-42eebf988355"
+    },
+    {
+      "title": "Code Review and Developer Support on Batch-13",
+      "description": "I was invited by Philip to contribute on the Code Reviews and supporting the developers of Batch-13.",
+      "amount": 0.15,
+      "builder": "0x2Bc096A12C5b37F035180aDeF70EB2B88351e5B8",
+      "status": "completed",
+      "completedAt": 1741132800,
+      "buildLink": "https://app.buidlguidl.com/build/Lr5UT0nN1FPyN7HLlOgg"
+    },
+    {
+      "title": "DefiVerse",
+      "description": "The DeFi ecosystem’s complexity makes it inaccessible to many, with challenges such as limited hands-on learning options, fragmented resources, and minimal security education. DefiVerse addresses these gaps by creating an interactive on-chain learning platform that combines practical DeFi experiences with structured, progressive modules. In 2 weeks, I plan to launch an MVP that can st a solid foundation for newbie in defi, by learning all basics required to start defi such as protocols, liquidity pools, lending, flashloan, security basics... Over time, DefiVerse will expand to include simulations, multi-protocol support, specialized learning tracks, on-chain certifications and hands-on exercises within a safe environment.",
+      "amount": 0.15,
+      "builder": "0x186a761645f2A264ad0A655Fb632Ca99150803A9",
+      "status": "completed",
+      "completedAt": 1739491200,
+      "buildLink": "https://app.buidlguidl.com/build/qtH43UptvQP2YWtCGHiW"
+    },
+    {
+      "title": "EduMate",
+      "description": "EduMate revolutionizes education through blockchain technology, creating innovative NFT-based attendance tracking. Students receive unique NFTs for class participation, providing immutable, secure digital proof of achievements. Key features include:\n\n- Automatic NFT minting for attendance\n- Tamper-proof record-keeping\n- Real-time accessibility for students and administrators\n- Gamified learning with reward mechanisms\n- Smart contract-driven administrative processes\n\nBenefits:\n\n- Institutions gain transparent, simplified management\n- Students earn collectible, verifiable credentials\n- Employers receive authentic achievement records\n\nThe platform transforms educational engagement by leveraging blockchain's security and NFT technology.",
+      "amount": 0.15,
+      "builder": "0x8Bb563DC969cC3b3e7275474c3847b44dBCB9441",
+      "status": "completed",
+      "completedAt": 1738108800,
+      "buildLink": "https://app.buidlguidl.com/build/iFuvAjI0FnacGcCR9m2K"
+    },
+    {
+      "title": "Scaffold Chat",
+      "description": "For my final project as part of batch 5 I would like to build a chat room application \n\nThe flow of the application is as follows:\n\n- when users log in on connecting their wallets, they see a list of existing chat rooms\n- user can either join an existing chat room or create a new chat room \n- in the chat room users see a list of all other users in the chat room and can also contribute to the chat",
+      "amount": 0.15,
+      "builder": "0xaF108Dd1aC530F1c4BdED13f43E336A9cec92B44",
+      "status": "completed",
+      "completedAt": 1738108800,
+      "buildLink": "https://app.buidlguidl.com/build/hSCsjCdZBlrOQcFsSKig"
+    },
+    {
+      "title": "Scaffold ETH 2 extension: signature builder",
+      "description": "A Scaffold-ETH 2 extension to test EIP-712 signatures. \n\nMy first idea is a simple form to generate the domain, a form to generate the data, and a button to sign. When the user signs, the signed data is displayed on the screen and console.",
+      "amount": 0.15,
+      "builder": "0x021584e57b2219957784951639385027607266e6",
+      "status": "completed",
+      "completedAt": 1735516800,
+      "buildLink": "https://app.buidlguidl.com/build/FUXtg78nAQM0zRP4NP3O"
+    },
+    {
+      "title": "Upgrade Scaffold-Lens to Lens V3",
+      "description": "Lens V3 represents a big upgrade and a move to a dedicated chain based on zkSync. I'm applying for a grant for the initial phase of upgrading Scaffold-Lens to support Lens Network and Lens Protocol V3.\n\nV3 expands on the concept of \"Lens Modules\" with \"Actions\" and \"Rules\" which are smart contracts that allow for deep customization of Publications, Accounts, Feeds, Groups, and Graphs.\n\nGrant tasks:\n\n1. Add support for zkSync to Hardhat\n2. Deploy all Lens V3 contracts to run a local Lens Protocol\n3. Deploy example \"Action\" and \"Rule\" contracts\n\nBeyond this grant I plan to add support for creating custom Apps, Feeds, and app-specific Graphs as well as adding the ability to create Accounts, register Usernames, create Groups, and publish Posts.",
+      "amount": 0.15,
+      "builder": "0xdaA5EBe0d75cD16558baE6145644EDdFcbA1e868",
+      "status": "completed",
+      "completedAt": 1735516800,
+      "buildLink": "https://app.buidlguidl.com/build/7SRqYYVlt5KqrbeeqHDZ"
+    },
+    {
+      "title": "StakeSmart: Unified Platform for Staking Protocol Comparison and ROI Insigh",
+      "description": "StakeSmart is an all-in-one platform that aggregates popular staking protocols like Aave, Lido, and EtherFi, enabling users to compare real-time ROI, fees, and staking terms. Through a clear and intuitive interface, StakeSmart empowers users to explore staking opportunities across multiple protocols, select the best options for their goals, and maximize returns. The platform demystifies staking for all experience levels, offering transparency, ease of access, and informed decision-making for DeFi investors",
+      "amount": 0.15,
+      "builder": "0x28482B1279E442f49eE76351801232D58f341CB9",
+      "status": "completed",
+      "completedAt": 1735516800,
+      "buildLink": "https://app.buidlguidl.com/build/H1quSNVo4ySUljHW74Qb"
+    },
+    {
+      "title": "Setting Up and Onboarding BuidlGuidl Nodes with RPC Operators in Nigeria",
+      "description": "This project is focused on advancing Ethereum’s decentralization in Nigeria by deploying two BuidlGuidl nodes and onboarding local operators to support RPC services. It includes purchasing high-performance hardware, configuring and syncing nodes, and engaging two Nigerian node operators committed to maintaining these nodes . \nKey Steps:\n1. Procure Hardware:   \n2. Node Setup and Syncing\n3. Onboard Node Operators\n4. Maintenance and Monitoring",
+      "amount": 0.55,
+      "builder": "0x9AC1a0DC6473D347Db612C389c914212776CAC4f",
+      "status": "completed",
+      "completedAt": 1734652800,
+      "buildLink": "https://app.buidlguidl.com/build/NyvKOYXWpzNZDbJwILHM"
+    },
+    {
+      "title": "Scaffold-NFT",
+      "description": "Scaffold-NFT will be a fork of SE2 which seeks to make the development of NFT projects as easy and intuitive as SE2 does for general smart contracts. Of course, Scaffold-NFT will laser in NFT development by providing template NFT smart contracts for ERC721, ERC115, dn404, and other NFT-like styles. Additionally, the frontend development side of the project will contain useful components to, again easily and intuitively, interact with NFT smart contracts and display the data retrieved from them. Finally, someone should be able to use the website to upload to IPFS, by integrating the nft.storage api.\n\nThe combination of all of these factors will make it so that the developer can go through the entire processes of building, testing, and deploying, their NFT projects quickly and easily customize them to fit their project's requirements. Alongside, having a handy framework on the frontend for rendering NFT data and intuitive controls for the user.\n\nThank you very much for your consideration.\nJacob Homanics",
+      "amount": 0.25,
+      "builder": "0xc689c800a7121b186208ea3b182fAb2671B337E7",
+      "status": "completed",
+      "completedAt": 1732665600,
+      "buildLink": "https://app.buidlguidl.com/build/VKVHbZcjnrtUbUSwE1e5"
+    },
+    {
+      "title": "Mafia Card Game",
+      "description": "Mafia is a cool card game, which can be played in 4 players minimum, and can be extended to a lot of players!\n\nWhat is really cool about Mafia game is that you don't actually need cards to play it and having a chat with a lobby is enough to start the game running.\n\nWhy this game on web3?\n1. DAO - each player has to vote to eliminate the villain\n2. Secrecy - every player's identity is hidden\n3. Communication - all players need to communicate using channels (assassins, police, doctors, quorum)\n4. Stake - a game is not that fun and competitive without prizes",
+      "amount": 0.25,
+      "builder": "0xFFf6a812685f045acE23A65312ca9B1F506cC67d",
+      "status": "completed",
+      "completedAt": 1732665600,
+      "buildLink": "https://app.buidlguidl.com/build/DdgN2U9fG3wbVXF13Qrc"
+    },
+    {
+      "title": "FootPool",
+      "description": "FootPool is a decentralized sports betting platform on Ethereum, using a 1X2 system inspired by the Spanish quiniela. Users place bets on football matches, and funds are pooled together. Winners, who predict results correctly, receive automated payouts through smart contracts. FootPool's features include weekly betting pools, multi-match predictions, trustless payouts, no intermediaries, and full transparency due to blockchain technology. Additional functionality includes scalable pool sizes, fair odds distribution, and open access for anyone with an Ethereum wallet. Blockchain ensures data security, tamper-proof results, and a decentralized betting experience.\n\nYou can read more at: https://docs.footpool.xyz/",
+      "amount": 0.15,
+      "builder": "0xaa4C60b784E2b3E485035399bF1b1aBDeD66A60f",
+      "status": "completed",
+      "completedAt": 1732492800,
+      "buildLink": "https://app.buidlguidl.com/build/8NEdHSv4I4bKz6mMnsOv"
+    },
+    {
+      "title": "Node Research in Rwanda",
+      "description": "I am purchasing a UPS for my node, this will provide an uninterrupted power supply and act as a backup for power outages. This aims to increase uptime and reduce unexpected downtimes.",
+      "amount": 0.25,
+      "builder": "0xCA7632327567796e51920F6b16373e92c7823854",
+      "status": "completed",
+      "completedAt": 1731888000,
+      "buildLink": "https://app.buidlguidl.com/build/QakQ3u53hdujhHmX0129"
+    },
+    {
+      "title": "SoundChain",
+      "description": "SoundCloud on chain. Soundcloud started as a musician-first platform for indie artists trying to gain a following. Then it became popular and sold out (I don't blame them!) Now, Web3 is positioned to reshape the landscape but still hasn't gripped the mind of the average person. So I ask, what is the one thing that everyone on this planet likes? Music! It's the perfect tool for capturing the imagination of people who otherwise wouldn't give crypto a second thought. I want to build a basic prototype to leverage IPFS and share music on chain, completely circumventing a notoriously predatory music industry, and guaranteeing ownership for creators. Isn't that the true spirit of Web3?",
+      "amount": 0.15,
+      "builder": "0xd1B41bE30F980315b8A6b754754aAa299C7abea2",
+      "status": "completed",
+      "completedAt": 1729728000,
+      "buildLink": "https://app.buidlguidl.com/build/QmpbuZ7TAvzBcta0rFyj"
+    },
+    {
+      "title": "Scam Hunter Token",
+      "description": "It's about the creation of a smart token that before any interaction with any DAPP, it gets the contract of the Dapp by using chainlink functions and Etherscan, than makes an HTTP request to OpenAI, for a security analyse and feedback the user on frontend.",
+      "amount": 0.15,
+      "builder": "0x8488B81757074B0558ebB05D59A81F43F55bf0C8",
+      "status": "completed",
+      "completedAt": 1729728000,
+      "buildLink": "https://app.buidlguidl.com/build/zXT3qH9vwLWqvx8eso0W"
+    },
+    {
+      "title": "Akuntabel - Web3 Accountability dApp",
+      "description": "\"Akuntabel\" is a decentralized accountability dApp that empowers users to set and achieve personal goals through a blockchain-based funding mechanism. By leveraging smart contracts, the app fosters accountability and motivation.\n\nKey Features:\n- Decentralized Goal Setting: Users create personal goals (e.g: Write for 7 days, complete course, complete ethereum speedrun, etc) on the blockchain for transparency.\n- Smart Contract Funding: Users stake some eth as collateral, locked in a smart contract until goal completion.\n- Accountability Judges: Users invite judges to approve achievement, requiring consensus to release funds via a multi-signature mechanism.\n\nDapp Flow Draft: https://drive.google.com/file/d/1mW-eYfuLy3n8uQ9CUl_Gm9b8_wQaNhoz",
+      "amount": 0.15,
+      "builder": "0x80Ad2861Ab5D4EeA61330A4bd7d6969357C463C3",
+      "status": "completed",
+      "completedAt": 1727913600,
+      "buildLink": "https://app.buidlguidl.com/build/s47onmaBya906VbFEHJ4"
+    },
+    {
+      "title": "node hardware grant",
+      "description": "node hardware grant",
+      "amount": 0.35,
+      "builder": "0x4bdB8234AD81F26985d257F36a2d2d8c30365546",
+      "status": "completed",
+      "completedAt": 1727136000,
+      "buildLink": "https://app.buidlguidl.com/build/IRStz8M0Lnkp8TiYu4jt"
+    },
+    {
+      "title": "Setup a BG node client in LATAM",
+      "description": "Hardware grant to set a BG node client in LATAM.\n\nHardware selected based on hardware requirements from https://docs.rocketpool.net/guides/node/local/hardware",
+      "amount": 0.37,
+      "builder": "0x5dCb5f4F39Caa6Ca25380cfc42280330b49d3c93",
+      "status": "completed",
+      "completedAt": 1727136000,
+      "buildLink": "https://app.buidlguidl.com/build/Lak2b4tou8IhyP3zOkaH"
+    },
+    {
+      "title": "Support for Swag, and Essentials for Eth Accra",
+      "description": "I am  are seeking support to facilitate my trip  Eth Accra Hackathon. This funding will help cover essential costs , event swag, and other necessary items",
+      "amount": 0.15,
+      "builder": "0x329F9f2C5Fc16DB303dAb2cF7Ccb6C12E6045129",
+      "status": "completed",
+      "completedAt": 1726012800,
+      "buildLink": "https://app.buidlguidl.com/build/dJ4j2cvCnXRNUFZq2M5Y"
+    },
+    {
+      "title": "AuthFusion",
+      "description": "This project is aimed to bridge the auth process between web 2 and 3. This is a project in which the users can generate an NFT for their gmail, here only one NFT can be minted per gmail account. The users can only generate their NFT if they have connected their wallet and have also done their auth process for the selected gmail. After successful auth process the user can then use that NFT for verification in the web2 just using the existing wallet address. This binding of gmail could give the wallet address an additional layer of authenticity. This approach can unite the web2 and web3 identity of an individual in an easier manner. This could be extended for other socials as well.",
+      "amount": 0.15,
+      "builder": "0xBC428Bb80B1cc3C29164820528819Abf6b20cB88",
+      "status": "completed",
+      "completedAt": 1725926400,
+      "buildLink": "https://app.buidlguidl.com/build/VFIUGqajIAs931NXO59Q"
+    },
+    {
+      "title": "Proposal for Node hardware",
+      "description": "Hardware equipment to run a node to enhance data storage, ensure continuous power supply, and improve network connectivity.\n\nItems and Costs:\n\n2TB Hard Drive workstation: $680\nReason: Expand data storage capacity to prevent data loss.\nUPS (Uninterruptible Power Supply): $250\nReason: Protect against power outages and ensure the workstation is still online if there are any power glitches.\nStarlink Adapter: $60\nReason: For connecting the Starlink to Nokia beacon2 which provides port forwarding.",
+      "amount": 0.23,
+      "builder": "0xf4030DdD79fc7Fd49b25C976C5021D07568B4F91",
+      "status": "completed",
+      "completedAt": 1722988800,
+      "buildLink": "https://app.buidlguidl.com/build/fEHhd96bzYSdrAYGpv8I"
+    },
+    {
+      "title": "Insurance policy",
+      "description": "I would like to make an app whose objective is to ensure a farmer against the weather, specifically rain conditions.\nAnd the contract would be made for soyabeans at the begining. But in the future could be expanded for other kind of crops.\nSo, the idea is that the farmer pays a fee before the campaign starts (so, before a deadline). Afterwards, when the campaign ends, we entered the mm of water falled in that campaign. If the mm of water exceeds or is under the adviceable level for the soyabean, the farmer get an amount of money. Otherwise, the farmer get nothing, like any insurance works.\nTo me is a nice project to start, and I would keep it simple at the begining but could be expanded in the future.\n\nThanks!\n\nHugo.",
+      "amount": 0.15,
+      "builder": "0x033ebeaBCC05eBaF5628b7bDDfacaDF1426efAA4",
+      "status": "completed",
+      "completedAt": 1722988800,
+      "buildLink": "https://app.buidlguidl.com/build/DEDJtIptAJXLnWfyguv4"
+    },
+    {
+      "title": "CryptoSubScribe",
+      "description": "CryptoSubScribe is a decentralized subscription management platform built on Ethereum using Scaffold-ETH. It allows users to create and manage cryptocurrency-based subscriptions, leveraging state channels for efficient, low-cost transactions. The platform includes a mock subscription provider to demonstrate functionality for services not yet accepting crypto payments.",
+      "amount": 0.15,
+      "builder": "0x84fF709680E9378734Bae1D3B55C6568d21671c3",
+      "status": "completed",
+      "completedAt": 1722988800,
+      "buildLink": "https://app.buidlguidl.com/build/rUQC4x9eHEtsZcPNKN3C"
+    },
+    {
+      "title": "BG node hardware to run an ethereum client in Nigeria",
+      "description": "This is to fund the procurement of capable hardware for a BG node to run an Ethereum client in Nigeria, targeting more geographical locations.",
+      "amount": 0.23,
+      "builder": "0xAbd80183650e319080B5384ae208f50B42A14A7a",
+      "status": "completed",
+      "completedAt": 1721347200,
+      "buildLink": "$undefined"
+    },
+    {
+      "title": "Video: Intro to SE-2 in Portuguese",
+      "description": "A full lesson in Portuguese on how to set up a Scaffold-ETH 2 project to build a dApp, explaining how to configure and use the components for building a new project.\n\nTopics to cover:\nScaffold-ETH 2 structure\nComponents\nWallet configuration\nNetwork configurations\nManaging keys in the environment\nHow to create a new smart contract using Hardhat\nHow to deploy the new smart contract\nHow to use the debugger\nReact and NextJS syntax for creating a new page\nUsing Wagmi and Viem for blockchain interactions\nUsing Scaffold-ETH 2 components\n\nVideo recorded in PT-BR language.",
+      "amount": 0.25,
+      "builder": "0x33a8Cdd353Fb8842DCea6163FA76ED10e81EDcF1",
+      "status": "completed",
+      "completedAt": 1721260800,
+      "buildLink": "https://app.buidlguidl.com/build/jJxdz1eEhH7dOIARGyqq"
+    },
+    {
+      "title": "Supplement EF Grant For On-The-Ground Work in Rwanda",
+      "description": "Supplement EF grant for on-the-ground work in Rwanda and help BuidlGuild run local nodes there. We had a call for 1 ETH on OP",
+      "amount": 0.75,
+      "builder": "0xCA7632327567796e51920F6b16373e92c7823854",
+      "status": "completed",
+      "completedAt": 1721174400,
+      "buildLink": "$undefined"
+    },
+    {
+      "title": "SE-2 decentralized hosting",
+      "description": "SE-2 currently utilizes Vercel, a centralized hosting solution. This project aims to enable the publication of SE-2 dapps on decentralized storage, specifically focusing on an IPFS solution facilitated by the fleek.xyz service.",
+      "amount": 0.15,
+      "builder": "0x981ab0D817710d8FFFC5693383C00D985A3BDa38",
+      "status": "completed",
+      "completedAt": 1721001600,
+      "buildLink": "https://app.buidlguidl.com/build/y382BQzD9Ir9lmjBWTqG"
+    },
+    {
+      "title": "Airline System",
+      "description": "Hello,\n\nI am considering creating an airplane ticket purchasing site. Users will be able to search for tickets based on the information they select. They can also choose extras like additional baggage allowance and in-flight entertainment systems when purchasing tickets. Purchased tickets will be visible in the \"my flights\" section. Users will have the option to cancel their flights if they wish.\n\nNow we come to the best part :) . Users will be able to check in for their flights one day before departure. They will see a seat map screen and can select their preferred seat.\n\nThis project, in general, will be one of the most detailed projects ever done in \"bg grants.\" Thank you for reading. I am excited to see if I get approved.",
+      "amount": 0.15,
+      "builder": "0x2787b58E6c7c9e0C824f2187BA99a2076B23491c",
+      "status": "completed",
+      "completedAt": 1720742400,
+      "buildLink": "https://app.buidlguidl.com/build/iGBwOs5fZKea5wP0hdR8"
+    },
+    {
+      "title": "Startup Equity On-chain - Vesting and Cliff",
+      "description": "This is an educational project aimed at developing smart contracts that establish Vesting and Cliff logics for a startup's equity tokens. In addition to developing this project, the idea is to explain concepts involving startups, as well as to clarify the development of smart contracts and how to integrate them with the front-end.\n\nDeliverables/Milestones:\n\n- Smart contracts in Solidity;\n- A functional front-end to interact with the key functionalities of the project;\n- README - Theoretical documentation (concepts of vesting and cliff) and technical documentation (code).\n- Demo Video.",
+      "amount": 0.25,
+      "builder": "0xd4A9f1f16c971f68FeF19882CBC019E616A85095",
+      "status": "completed",
+      "completedAt": 1720742400,
+      "buildLink": "https://app.buidlguidl.com/build/WAgnx48RJ1sQ9K7PBZag"
+    },
+    {
+      "title": "Workshop and mentorship at ETH Samba",
+      "description": "By incorporating easy-to-understand tutorials on linking smart contracts to front-ends, the workshop directly addresses a significant pain point for developers to create quick projects to the ETH Samba hackathon.\n\nRound trip Bogotá - Rio de Janeiro: $800 USD\nAirbnb (6 Nights): $600 USD\nExpenses: $300 USD\nStickers: $100 USD\nTotal: $1,800 USD",
+      "amount": 0.5,
+      "builder": "0xfE1d177037DF1ABbdde4c0E4AFcdE9447F8511D0",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/E2Xkp2DpPXyZSTfP1lpw"
+    },
+    {
+      "title": "zk-voting.com | Onchain base vote",
+      "description": "A zk-based meme voting website, for voting on hot topics with absolute privacy.",
+      "amount": 0.25,
+      "builder": "0x396E5C4EC6965b46Ff95d71f0cBF219d19DD5071",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/wOp1BbIUa7JjAHjnSCa7"
+    },
+    {
+      "title": "SpeedRun Particle Auth: Hands-On Web3 Authentication",
+      "description": "This final project from BG Batch 4 initiates the SpeedRun Particle Network platform with 'Challenge 1: Particle Auth,' an interactive tutorial teaching developers to integrate social logins and manage wallet creation in Web3 applications. Participants will learn to integrate Particle Auth with Scaffold ETH, covering authentication flows, wallet setup, and management. It's the beginning of a series exploring further Particle Network services, aiming to enhance developers' skills in decentralized identity management and Web3 interaction. The ultimate goal is to deepen practical Web3 knowledge, inspired by the success of SpeedRun Ethereum, paving the way for continued development within the BuidlGuidl community.",
+      "amount": 0.25,
+      "builder": "0xeA2f0BB0144fbff64E6f6F492B999674f9393882",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/ZMXQIREw80HgpH4dBPxb"
+    },
+    {
+      "title": "BitTip: Crypto Platform for Direct Creator Support",
+      "description": "$14",
+      "amount": 0.25,
+      "builder": "0x2Ca3355E6e09e54bE4A70F44d6709DABA08fC786",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/eXfYAIDhuTIVpd1I8HgH"
+    },
+    {
+      "title": "Learn Chalink!",
+      "description": "Learn Chainlink! is being built as a final project of batch 4, designed to teach Chainlink functionalities through a hands-on tutorial. Inspired by Speed Run Ethereum, the project introduces Challenge #0 - Flip The Coin Crypto, where users build a game to predict Ethereum's price movements using Chainlink Functions. This educational initiative combines tutorial checkpoints and game development, enhancing learning about smart contracts and blockchain technology. \n\nFor more details, please visit: \n\nhttps://solstice-mechanic-02b.notion.site/Learn-Chainlink-16c221ac92854285beda241c7ef5399b",
+      "amount": 0.25,
+      "builder": "0xF3b64dD5AF39d8fF0c614F7637e339e31466c4C3",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/mEkYMoK0woUdzb99Ecil"
+    },
+    {
+      "title": "Lets create a story",
+      "description": "Hey 👋 \n\nThe idea is to create a collaborative storytelling experience. It could be used for events, children or community building.\n\nEach user submits inspiration (string, keywords, etc) via a smart contract and the front end will listen to the event submitted where the users addition and the combined “inspirations” and will use an LLM to write a story and generate one or more images suitable. \n\nThe idea for now is to save the generated story and media offchain. But looking at the event history we can see how the story evolves over time and give the user a way to look at previous versions of the story. \n\nI think this shared story building using the LLM as the orchestrator could be fun, and using a smart contract as the way to gather inspiration creates both something of a version history and a way to interact with credentials. Could use a whitelist perhaps? \n\nWould love input and ideas ❤️\n\n/perstarkse batch#4 builder",
+      "amount": 0.25,
+      "builder": "0xADAa82d99Ca31379EC8417515A75A7ce3A4b4044",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/5IXV0AolyWngGrRmfNXb"
+    },
+    {
+      "title": "Skill verification system",
+      "description": "A lot of people claim to have a skills that they add to their resumes / profiles etc. Goal is to have a platform that allows verifiers ( peers) that verify each others skills that they post. Higher verifications get shown in the profile of the user. \nFor example -- say I post that i can work on solidity. I will put proof of work  that others can verify.\nI will also put the rating of the skill that i rank myself -- say 8/10.\nOthers will verify and give their ratings.\nThe goal is to also have the user mint a NFT of all the skills that they have and also showcasing how many people support/verify that.Lastly with all the users skill the user can mint an NFT that can be kept updating as the user adds skills and gets more verifications",
+      "amount": 0.25,
+      "builder": "0x95E08FA8ac4301acC5b943f860Cd8AC84433e3CF",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/aHWt0xtbN2LoUJzKp8Er"
+    },
+    {
+      "title": "Image Generation App",
+      "description": "Image Generation App\n\nIn the app, users will have points that will be tracked using blockchain technology. These points can be purchased with ETH. Users can then use these points to generate images. I am planning to connect to the DALL-E API, which will assist in generating the images. [EXTRA] there will be an option for users to view images generated by other users, provided they choose to share them.",
+      "amount": 0.25,
+      "builder": "0xe5F7e675A48b180eD2C81d0211E23b44ECE9c926",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/obf89PvfqT9bDkMOReTK"
+    },
+    {
+      "title": "Procrastination Slayer : (ProdigiKill)",
+      "description": "$15",
+      "amount": 0.25,
+      "builder": "0xc26816404F551a7b3964B0D665380e9e3aca17b3",
+      "status": "completed",
+      "completedAt": 1717632000,
+      "buildLink": "https://app.buidlguidl.com/build/AsitDByTSKNUo1RuDlGj"
+    },
+    {
+      "title": "Scaffold Eth 2 wrapper for MACI Protocol",
+      "description": "A SE2 starter kit for maci, where people can -\na) register to the maci contract (that gives them rights to vote)\nb) the admin can create polls\nc) people can vote on the polls\nd) after the poll voting phase has ended, show results\ne) admin interface to see all the running polls, and see status",
+      "amount": 0.5,
+      "builder": "0x396E5C4EC6965b46Ff95d71f0cBF219d19DD5071",
+      "status": "completed",
+      "completedAt": 1715731200,
+      "buildLink": "https://app.buidlguidl.com/build/LPoia03Y8bVgrC1MDiCk"
+    },
+    {
+      "title": "savvy",
+      "description": "An interface for the EVM in the browser, to simulate and visualize your onchain activity, with special emphasis on the costs associated with it.\n\nThink ~ Etherscan + Remix + Foundry.\n\nBasically, it's a way to interact with a forked EVM chain, in a local-first environment, with a comprehensive set of actions/hacks/utilities exposed by Tevm—which is doing all the heavy lifting.\n\nThe state of each chain is the initial fork + all the local transactions, which are displayed in the history with all the details (data, errors, logs, inputs...).\n\nAnd also, and that's one of the main points of savvy, details on the gas usage of each transaction (fee, L1 submission fee if relevant...).\n\nYou can think of it as a way of simulating a set of transactions, and visualizing the results, without having to actually send them to the network.\n\nWith no setup (wallet, signatures, etc.), in the browser, from any account (impersonation), with any amount of native tokens.\n\nAnd much more to come; see https://docs.svvy.sh/progress",
+      "amount": 0.25,
+      "builder": "0xcbFFa910Ee7546AF659B82E4E7ed54cF8524Aab6",
+      "status": "completed",
+      "completedAt": 1713830400,
+      "buildLink": "https://app.buidlguidl.com/build/GxdMOP42LZU51fbsHmUD"
+    },
+    {
+      "title": "SE-2 Ported to Svelte",
+      "description": "I'm an avid user of Svelte, and I believe it can be a better framework for developing for the future (Web3) if only it had a better ecosystem. I already made a basic port of Wagmi (which I'll improve in the near future) that you can find here: https://github.com/ByteAtATime/wagmi-svelte\n\nI'm hoping I can get a grant to port SE-2 to Svelte. The current main problem is that there is no RainbowKit for Svelte, but I'm hoping I can replace that with Web3Modal until I can develop a port.\n\nThe reason I'm asking for a grant is because I'm developing all this open-source and in my free time, and I'm hoping I can continue to do this without having to bend to whatever a company wants me to do. (Sorry, I'm not completely fluent in English, but I hope you understand what I'm trying to say.)",
+      "amount": 0.25,
+      "builder": "0x598cb95773D9b66a27a5780DB5EED2d018685879",
+      "status": "completed",
+      "completedAt": 1713830400,
+      "buildLink": "https://app.buidlguidl.com/build/LxuJmxuUOL7S0U6fWC5l"
+    },
+    {
+      "title": "Video: Introduction to scaffold-eth in Spanish",
+      "description": "I will create an introductory video explaining how to use scaffold-eth. The content will be created in Spanish and will consist of a video between 35 and 60 minutes. With the aim of encouraging more Spanish-speaking and Latin American developers to know and use scaffold-eth. Language is a barrier for those who do not understand English and want to access quality content.\n\nThe objective of the video is to make available quality content in Spanish about scaffold-eth that perpetuates over time, and to invite the Spanish-speaking community to become BuidlGuidl members\n\nI have experience giving workshops online and in person, I have been in Argentina, Uruguay, Peru, Mexico, Spain and the USA doing workshops representing Chainlink as a developer expert. I also have a Youtube channel, you can check it here: youtube.com/@observdev",
+      "amount": 0.25,
+      "builder": "0x4EAB594cD1eeCC078eA96D46c7827D72466e2e28",
+      "status": "completed",
+      "completedAt": 1713830400,
+      "buildLink": "https://app.buidlguidl.com/build/Syi0PJezDrMUtwfEyAUt"
+    },
+    {
+      "title": "D-Auction Platform",
+      "description": "Decentralized Auction Platform named D-Auction is a smart contract-based solution for conducting decentralized auctions of non-fungible tokens (NFTs). This platform allows users to create auctions for their NFTs, participate in bidding, and claim ownership of the NFTs upon winning the auctions",
+      "amount": 0.25,
+      "builder": "0x8757F328371E571308C1271BD82B91882253FDd1",
+      "status": "completed",
+      "completedAt": 1707004800,
+      "buildLink": "https://app.buidlguidl.com/build/ZW4MfCMCU209bKP8Va8M"
+    },
+    {
+      "title": "Switch Dapp",
+      "description": "Switch is a web app for sending deferred transactions. The user has a simple UI for setting a transaction which will be triggered and excecuted later based on speficied: 1) Time delay or 2) On-chain variable output. Implements Chainlink Functions and Automation.",
+      "amount": 0.25,
+      "builder": "0xbE7fD3889C01F032184544DC0005F0d47daCcf09",
+      "status": "completed",
+      "completedAt": 1707004800,
+      "buildLink": "https://app.buidlguidl.com/build/ItKedxWVEaX9OcCrphMu"
+    },
+    {
+      "title": "Event Management Dapp",
+      "description": "An app to create, manage, and sell tickets for events and buy them along with many functionalities",
+      "amount": 0.25,
+      "builder": "0x3b529ac4F8dc0C40Fec0f1192029755275A0c3Cd",
+      "status": "completed",
+      "completedAt": 1706918400,
+      "buildLink": "https://app.buidlguidl.com/build/6JZBiYsLbfZ06SrQGyGz"
+    },
+    {
+      "title": "ZeroTrust Accounts",
+      "description": "ZeroTrust Accounts will provide a decentralized, secure, and self-sovereign approach to Ethereum smart contract accounts",
+      "amount": 0.25,
+      "builder": "0xC6e64eBeFaFaB3d646adadca5D93A7c44f62544f",
+      "status": "completed",
+      "completedAt": 1706832000,
+      "buildLink": "https://app.buidlguidl.com/build/BeyVyZuAvbFnUWjVbJ7U"
+    },
+    {
+      "title": "Public Good supportUs",
+      "description": "Decentralized public goods funding application. Campaign owners can set funds needed",
+      "amount": 0.25,
+      "builder": "0x1CeF0e6072810013487f7632350f9336AD6CADAD",
+      "status": "completed",
+      "completedAt": 1706832000,
+      "buildLink": "https://app.buidlguidl.com/build/nLsqcBkuoNb8nWVAuJg0"
+    },
+    {
+      "title": "Duel - Bet dApp",
+      "description": "This dApp allows users to make bets on the future price of Ethereum (ETH). Users can: - Create bets: Choose a future date and ETH price, and stake an amount of ETH. - Resolve bets: When the chosen date arrives, bets can be finalized according to the ETH price at the target date. - Win or lose: If the ETH price is above the chosen price when the bet is chosen as \"Higher\", the user wins the bet and receives the staked ETH plus winnings. I will be glad to hear your feedbacks. Have fun!",
+      "amount": 0.25,
+      "builder": "0x5D70E3b540f58beCd10B74f6c0958b31e3190DA7",
+      "status": "completed",
+      "completedAt": 1706745600,
+      "buildLink": "https://app.buidlguidl.com/build/MINVRoKfXZOgO6nsxUp0"
+    },
+    {
+      "title": "0xPoker",
+      "description": "A Commit and Reveal Poker Game! Live on the Optimism chain =) Took inspiration from the RockPaperScissors",
+      "amount": 0.25,
+      "builder": "0x2b30efBA367D669c9cd7723587346a79b67A42DB",
+      "status": "completed",
+      "completedAt": 1706659200,
+      "buildLink": "https://app.buidlguidl.com/build/EkbuyFm9gYwn27nja7m3"
+    },
+    {
+      "title": "15 Puzzle",
+      "description": "The famous sliding puzzle with 15 squares. Base starter writes your moves to the blockchain.",
+      "amount": 0.25,
+      "builder": "0x2F142f9F52af0845B7b8b1353E349Ca1Cb8EFE92",
+      "status": "completed",
+      "completedAt": 1706572800,
+      "buildLink": "https://app.buidlguidl.com/build/fhiWGoHrfdGM2iuFZTGT"
+    },
+    {
+      "title": "Buidl Guild English Auction",
+      "description": "English auction platform where users can create an auction on NFTs.",
+      "amount": 0.25,
+      "builder": "0x55fF7E28e7cd43C104dC89Aa69285E0E6EBa064e",
+      "status": "completed",
+      "completedAt": 1706572800,
+      "buildLink": "https://app.buidlguidl.com/build/g9EmnJROMeqydxP1BGSx"
+    },
+    {
+      "title": "Voting App",
+      "description": "A polling app that allows users to create polls, vote, and view the results on topics that matter to them. Built with solidity and nextjs, it features transparent voting mechanisms and real-time results visualization.",
+      "amount": 0.25,
+      "builder": "0x5638Bf706056d01b2DaB817915244B3E21a56FE8",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/LQane0FtluzI8l3kwQGL"
+    },
+    {
+      "title": "Scaffold-XOC",
+      "description": "The open-source frontend for the first decentralized stablecoin pegged to the Mexican Peso ($MXN). This dapp is La Dao's playground to grow DeFi in Mexico",
+      "amount": 0.25,
+      "builder": "0xC863DFEE737C803c93aF4b6b27029294f6a56eB5",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/xQ7KIxSjvUqOVjPUl3R2"
+    },
+    {
+      "title": "Revolution Roulette",
+      "description": "On chain russian roulette with unique items as powerups. Settle minor bets with some fun on optimism 😎",
+      "amount": 0.25,
+      "builder": "0xfbCE2693FBEd73E3D464d662235DC5ADC5454C01",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/H7AtTDtQOQ0h6wRT1A0G"
+    },
+    {
+      "title": "🥗 Food Mart",
+      "description": "An online restaurant food application that enables wallet integration, with images stored on IPFS. Additionally, the web app provides the option to view the calorie count per serving for each dish.",
+      "amount": 0.25,
+      "builder": "0xFC7BC662fA06137F769366A46B19924371E880bd",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/AuyB2d2IydtOEvePeyNN"
+    },
+    {
+      "title": "Querying Smart Contract Parameters From TheGraph",
+      "description": "Basic understanding of the 🚩 Challenge #3: The Graph with basic explanations that are going to be helpful for the newcomers.",
+      "amount": 0.25,
+      "builder": "0x63191383EDbd8531C442868d87555f1EA2f6ad4E",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/nEjaQfkyzMgt3vcbAqLd"
+    },
+    {
+      "title": "External Contract UI",
+      "description": "A tool to improve the developer experience on scaffold-eth 2 by providing a tool to interact with external contract addresses",
+      "amount": 0.25,
+      "builder": "0x38D9cFf58D233AF0B9c1434EEDE012009D23c971",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/UeQnRI5ISO93XHYcVTRj"
+    },
+    {
+      "title": "DEGEN-STATION",
+      "description": "Degen Station is a raffle contract that allows for any individual to stake a certain amount of Eth with hopes of winning the grand prize which is 96% of the total stakes in the contract. Winners of each batch are also rewarded with an nft which. The is also a in built point system which is expected to tract users usage so that can be rewarded with the protocol tokens when it goes life.",
+      "amount": 0.25,
+      "builder": "0xdDE7B987A01717EEfCcA1Dc5280c164E2cCD133e",
+      "status": "completed",
+      "completedAt": 1705881600,
+      "buildLink": "https://app.buidlguidl.com/build/i2ChwolQO0qR1Qbp0qCQ"
+    },
+    {
+      "title": "dstealth.xyz",
+      "description": "Privacy is still a difficult problem to solve on blockchains.\n\nRecent advances like ERC-5564 and Stealth Addresses help solve that problem.\n\nThe top privacy focused wallet on BASE providing account abstraction and stealth address features is fluidkey - they help users generate a new address each new time they receive funds, but this feature also presents new challenges for senders.\n\nIf sending money to someone's stealth address is the same as sending tokens to a entirely new 'fresh' address with no transaction history - what happens if the recipient claims you never paid them?\n\nDstealth helps solve this problem by using zkfetch (zktls) to prove that you ran a regex and retrieved an address from a users .fkey.id domain. (does tons more)",
+      "amount": 0.1,
+      "builder": "0x9B2FB7a8d227cDaA8002f80e8c8A99a19Bb1b969",
+      "status": "active"
+    },
+    {
+      "title": "Creating Privacy Paymaster for voting app similar to PrivacyPool app",
+      "description": "Implementing a trustless ERC-4337 Paymaster for Privacy Pool application — fully on-chain, no relayers required. The `Privacy Pool Paymaster` is an ERC-4337 paymaster contract designed to sponsor Privacy Pool withdrawal operations. The Problem: Privacy Pools currently rely on centralized relayers, limiting permissionless access and decentralization.  The Fix: A custom on-chain Paymaster that validates Privacy Pool withdrawal proofs using verifiable, on-chain logic only. Benefits for users, apps & devs: - Compatible with any account - Refunds unused gas automatically - No external APIs or markups - Fully transparent, composable, and decentralized\n- We will be building a similar paymaster for users of the anonymous voting application.",
+      "amount": 0.08,
+      "builder": "0xC6e64eBeFaFaB3d646adadca5D93A7c44f62544f",
+      "status": "active"
+    },
+    {
+      "title": "Gasless DeFi Micro-Investment Pools for Communities",
+      "description": "We propose building a Gasless Community Micro-Investment dApp that enables small groups—such as friends, local clubs, or online communities (Telegram/Discord DAOs)—to pool ETH or stablecoins and invest together in DeFi strategies like yield farming, staking, or DEX liquidity provision. The platform removes one of the major pain points in DeFi: gas costs, by leveraging meta-transactions or ERC-4337 account abstraction. This allows each user to interact with the protocol—depositing or withdrawing—without needing to pay gas themselves, making it especially appealing to users with small amounts of capital. The protocol is powered by the ERC-4626 vault standard, which allows strategies to be modular and easily swapped out",
+      "amount": 0.075,
+      "builder": "0xba230e7c7E39D09443d8Da0a332DD787BD1352cb",
+      "status": "active"
+    },
+    {
+      "title": "RealToken: Transparent Fractional Ownership for Real Estate",
+      "description": "This project will develop a blockchain-based tokenization framework for real estate assets, enabling fractional ownership with built-in compliance mechanisms, such as KYC-based transfer restrictions.\n\nMVP Scope\nThe initial phase will include:\n\nA smart contract on an EVM-compatible blockchain to represent fractional ownership of properties.\nA simple frontend for minting and transferring tokens, starting with a basic whitelist for KYC-approved participants.\nA transfer validation mechanism to ensure only verified investors can trade these tokens.\nA dividend distribution feature to facilitate automatic and transparent rental income disbursements to fractional owners using blockchain-based streams.",
+      "amount": 0.15,
+      "builder": "0xDe87Ad56AA4332Ad71ECD61B03Fd5016E10d426d",
+      "status": "active"
+    },
+    {
+      "title": "DEX Price Alert dApp: Real-time Token Price Notifications",
+      "description": "A decentralized application built on Scaffold-ETH 2 that allows users to set price alerts for any token pair on popular DEXes. Users can create personalized alerts for price targets, percentage changes, or volatility thresholds.\n\nKey Features:\n1 Monitor multiple token pairs across major DEXs\n2 Set customizable price alerts with various trigger conditions\n3 Real-time price tracking using DEX price feeds\n4 Email/browser notifications when alerts trigger\n5 User-friendly interface for managing multiple alerts\n\nBuilt using Scaffold-ETH 2, the project will include smart contracts for alert management, a clean frontend interface, and notification infrastructure. All code will be open-source with clear documentation for community use and expansion.",
+      "amount": 0.15,
+      "builder": "0x5cc8Be96B1C9A68F57a73b5bEa60cF5D890055A1",
+      "status": "active"
+    },
+    {
+      "title": "Solidity Debugger with Visualized State Changes",
+      "description": "Problem Statement:\nExisting Solidity debugging tools like Hardhat and Foundry lack intuitive state visualization, making it harder for developers, especially beginners, to debug efficiently and learn optimization techniques.\n\nProposed Solution:\nCreate a debugging tool that visually represents state changes across transactions. Add features such as real-time gas optimization suggestions, contract interaction flows, and educational snippets for error resolution.\n\nImpact:\nLowers the barrier to entry for Ethereum developers by simplifying debugging.\n\nReduces deployment costs by optimizing contracts before mainnet deployment.\n\nBuilds community knowledge with educational content integrated into the tool.",
+      "amount": 0.15,
+      "builder": "0x7429CbD5eD20736645723E972bE60B7F6BF5959c",
+      "status": "active"
+    },
+    {
+      "title": "FairDrop: Simplifying Reward Distribution",
+      "description": "FairDrop is a platform offering Airdrop as a Service, simplifying token distribution for projects. Projects can input the details of their airdrop campaigns, such as the token contract address, and upload a CSV of whitelisted recipient addresses. The platform then allows recipients to securely claim their rewards through an intuitive interface. By eliminating the technical complexities and risks associated with traditional airdrop methods, FairDrop ensures a seamless and accurate distribution process.\n\nFairDrop streamlines token distribution, enabling projects to engage communities effectively regardless of technical expertise while fostering trust and promoting the adoption of accessible and reliable blockchain technologies.",
+      "amount": 0.15,
+      "builder": "0x21Be2291f91EA2A1d1EB65DbBea2dA8886Ad7a3E",
+      "status": "active"
+    },
+    {
+      "title": "Admin Dashboard for Paymaster Using Scaffold-ETH",
+      "description": "Hi, my name is Peter, and I am submitting a proposal for the final project for Batch #10.\n\nThe idea is to create an admin dashboard for a Paymaster, allowing users to top up their balances, moderate usage, and view activity. The dashboard will use Scaffold-ETH as the base template.\n\nThe Paymaster contract will be based on the reference implementation (https://github.com/eth-infinitism/account-abstraction).\n\nThank you for your consideration!",
+      "amount": 0.15,
+      "builder": "0x26BfbD8ED2B302ec2c2B6f063C4caF7abcB062e0",
+      "status": "active"
+    },
+    {
+      "title": "Cross Chain Wikipedia",
+      "description": "I've recently went through a full cycle of learning about cross chain transfers and protocols in general. I went from just knowing how to use a bridge to knowing exactly how a bridge works, by reading the documentation of the protocol, examining the call data, etc... I found that generally when you try to read the docs of a cross chain protocol, they all have their own language, and its very difficult to digest for someone new, specially to implement something on top of it. \nI want to create a wiki, that goes from the most simple concept of a cross chain protocol, demystifying it, maybe even creating the most simplest form of a cross chain protocol, and expand from there to the many and most famous cross chain protocols there are.",
+      "amount": 0.15,
+      "builder": "0xcefb233406133224AE9b19444d836F6a33593F13",
+      "status": "active"
+    },
+    {
+      "title": "Loans for renting houses",
+      "description": "In Argentina, to rent a property you have to take out a guarantee insurance that costs up to 3 times the value of the monthly rent. My proposal is to create a smart contract that works as a guarantee, where the tenant stakes the guarantee amount, in case he stops paying the rent. Meanwhile, the funds will be deposited in aave so that they do not lose value. At the end of the contract, if the tenant complied with the conditions, he will be able to recover his stake.\n\nThis application proposes to solve a real-life problem through the implementation of a smart contract.\n\nTechnology that I should learn to use:\n- Interact with usdc\n- deposit usd in aave",
+      "amount": 0.15,
+      "builder": "0xDFbE6c0A54F9f4f758753aE56eDD02Dd92C29be3",
+      "status": "active"
+    },
+    {
+      "title": "Gasless Cross-Chain Token Creation Framework For Devs (dApp, API, Widget)",
+      "description": "I want to build a framework designed to simplify meta-transaction-based cross-chain token creation specifically for developers, available through a dApp, API, or widget. Currently, users need to acquire cryptocurrency to pay gas fees for creating tokens, which makes onboarding new users complex and discourages users. My solution tries to remove these obstacles by allowing developers to integrate token creation functionality in their product. Utilizing meta-transactions, users only need to sign a message, while a relayer takes care of the blockchain transaction, covering gas fees. This solution streamlines token creation, making blockchain integration more accessible, and efficient for products and help attract new user-base to the platform.",
+      "amount": 0.15,
+      "builder": "0x5D56b71abE6cA1Dc208Ed85926178f9758fa879c",
+      "status": "active"
+    },
+    {
+      "title": "Blockchain-Powered Charity Platform",
+      "description": "ZakatChain represents a unique opportunity to bring blockchain technology to a large, untapped market through a use case that resonates deeply with Islamic values and practices. \nBy focusing on Zakat, we're not just building another crypto project – we're creating a gateway for millions to experience the benefits of Web3 while fulfilling their religious obligations.\nThis project will demonstrate the real-world utility of blockchain beyond speculation, potentially accelerating mainstream acceptance and use of cryptocurrencies on a global scale. Through ZakatChain, we aim to set a new standard for transparency, efficiency, and trust in charitable giving, while simultaneously driving significant blockchain adoption across the Muslim world.",
+      "amount": 0.15,
+      "builder": "0xDE26619C377F3BE82EeC1ef59aAD46a20681DAD7",
+      "status": "active"
+    },
+    {
+      "title": "Decentralized torrent platform",
+      "description": "This document outlines a decentralized torrent platform leveraging Ethereum for torrent metadata and IPFS/Arweave for descriptions. The frontend searches Ethereum and selected torrent sites, highlighting those found on Ethereum and scraping others for missing torrents. Users can add new torrents to the blockchain, ensuring greater availability and persistence.\n\nFuture enhancements include automated scraping funded by user donations and a “Hall of Fame” recognizing top contributors. This feature encourages active participation, building a robust, decentralized torrent repository on Ethereum.\n\nYou can find complete system design here: https://phantom-slip-78f.notion.site/Decentralized-Torrent-Platform-e1533e7b70d145acaf7708bfa747ba89",
+      "amount": 0.15,
+      "builder": "0x8EC90502356657Cc30f22444A8e073FE89322333",
+      "status": "active"
+    },
+    {
+      "title": "Online Food Ordering System Proposal",
+      "description": "Hello, I want to create an online food ordering website. The user will come to the restaurant, then user will be able to order the dishes from the website. While completing the order, website will ask for user's table number. After the order is created, it will appear on the manager’s screen. Here, manager will be able to view the details of the order. Once the order is completed, the manager can mark it as delivered and remove it from the screen. This is my plan. If you have any suggestions, I would be happy to hear them. Thank you.",
+      "amount": 0.15,
+      "builder": "0xfb8b972b0D1cF9BB242A40F7AEA8E9a1bF89E0E3",
+      "status": "active"
+    },
+    {
+      "title": "Web 3 Survey Application",
+      "description": "Hello everyone, I want to create a Web3 survey application. If users provide consistent answers, they will receive a certain ETH reward. Some questions will be interrelated to measure whether users are answering consistently. If it is determined that a user has provided inconsistent answers, they will be blacklisted and will no longer be able to participate in the survey. Thank you very much for all the help you’ve provided so far.  See ya.",
+      "amount": 0.15,
+      "builder": "0x357bc010520575Ea5720aC3F7cb48fcedfc711Ed",
+      "status": "active"
+    },
+    {
+      "title": "Code Playground for dApp Development",
+      "description": "An in-browser playground for dApp development that provides the ability to start dev work (including front-end code) within seconds!\n\nHOW?\nSend someone a link that will automatically:\n\n1. Open StackBlitz\n2. Start a Hardhat Network, `yarn chain`\n3. Run `yarn deploy`\n4. Run `yarn start`\n5. DONE, you now have a full IDE in seconds\n\nBENEFITS:\n- Other tools (Remix) only focus on Smart Contract dev, but that's only HALF of the dev flow.\n\n- Providing shared/repro links to common issues/examples will GREATLY improve the dev experience when debugging problems.\n\nISSUES:\n1. This will require continued investigation into producing examples that fully work with WebAssembly (a limitation in web containers)\n\n2. Non-localhost network comms are tricky",
+      "amount": 0.15,
+      "builder": "0xF25f95C59f4f1C4010527DAa26e7974cB37c2Ae1",
+      "status": "active"
+    },
+    {
+      "title": "Trustless Token System",
+      "description": "The platform enables the creation of decentralized token systems using blockchain technology for a wide range of applications. Users can easily create custom tokens for purposes such as food tokens, loyalty programs, event tickets, or community currencies. It supports transactions with USDT, ensuring seamless token issuance and management. Blockchain technology guarantees transparent and immutable transaction records, protecting against fraud and manipulation. The platform also should have an intuitive mobile app with NFC and QR scan capabilities, making token utilization straightforward and enhancing operational efficiency across different use cases.",
+      "amount": 0.15,
+      "builder": "0x472cAde746560419a407CA7103c87c79c794C418",
+      "status": "active"
+    },
+    {
+      "title": "MarketMaker",
+      "description": "MarketMaker is a marketing platform designed for project owners who may lack the necessary connections or experience in marketing and PR. MarketMaker, hosts content creators and communities with high engagement, allowing project owners to utilize their marketing budget efficiently and profitably on a platform that benefits both parties. Project owners can open their own pools to let the content creators or communities create their own contents in a share of pool prize.",
+      "amount": 0.15,
+      "builder": "0x61F4c9bB022dFF50d213F007E6b5004b54543E3C",
+      "status": "active"
+    },
+    {
+      "title": "MarketMaker",
+      "description": "MarketMaker is a marketing platform designed for project owners who may lack the necessary connections or experience in marketing and PR. MarketMaker, hosts content creators and communities with high engagement, allowing project owners to utilize their marketing budget efficiently and profitably on a platform that benefits both parties. Project owners can open their own pools to let the content creators or communities create their own contents in a share of pool prize.",
+      "amount": 0.15,
+      "builder": "0x798E07432440e382300784d6226Ef393669FEdb4",
+      "status": "active"
+    },
+    {
+      "title": "Scaffold-Eth Desktop App",
+      "description": "Hey gang, I'm 3vil7win, and this is my first proposal coming from batch 7.\n\nI'd like to 'port' SE-2 to electron using at least one of the following wallet technologies: metamask electron sdk, walletconnect, or frame (it is not trivial to add extensions to an electron app, though it may be a possible expansion).\n\nThis project could be a good starting point for other developers to build desktop and mobile versions of dapps.\n\nElectron apps are both an approach to frontend decentralization and a springboard to get dapps listed on mobile and other app platforms. I think these capabilities are definitely good extensions for SE-2.\n\nI appreciate any thoughts y'all might have. Thanks!",
+      "amount": 0.15,
+      "builder": "0x423775bd841f9d3c3120c103A14a64EBc7B4F40A",
+      "status": "active"
+    },
+    {
+      "title": "Privacy-Centric Data Marketplace: Secure and Rewarding Data Exchange for AI",
+      "description": "I aim to build a privacy-centric data marketplace where users can contribute valuable data through surveys. These surveys will be created by users of the platform, who will also attach monetary rewards to incentivize data contribution. Developers will be able to purchase these datasets directly from the survey creators. To ensure data privacy, I plan to use encryption and Fully Homomorphic Encryption (FHE), which will allow developers to use the data without seeing or storing it, thus maintaining privacy and preventing data piracy. This marketplace is designed to facilitate both organized and unorganized data trading, targeting AI/ML developers and everyday users who want to contribute data securely.",
+      "amount": 0.15,
+      "builder": "0x9B28C43d4526202c316b9ab0ECCB757C4D9c5155",
+      "status": "active"
+    },
+    {
+      "title": "Treasure: Stake and Earn",
+      "description": "Treasure is an app that enables users to exchange Ethereum (ETH) for a specific token, stake this token for a defined period, and earn rewards based on an Annual Percentage Rate (APR). In addition to regular staking rewards, the app introduces a gamified element where users have a chance to win a bonus reward when the total amount of staked tokens reaches a predefined threshold. Users can also exchange the tokens back to ETH, ensuring liquidity and flexibility.",
+      "amount": 0.15,
+      "builder": "0xDbD3834299D363B4Fb84Aef9309d3068E52CFc0C",
+      "status": "active"
+    },
+    {
+      "title": "iTheirs - IDea sharing platform.",
+      "description": "iTheirs is a platform that allows you to create ideas that you think about. \nThose ideas that comes to your mind about a product or an invention that you want to be able to share with others or that you want to tag to a particular firm or company. This is what iTheirs gives you the ability to create.\nYou create these ideas and can either mark them as public or private, but either way. The ideas you create are stored on the blockchain and they are bound to you.\nBenefits:\n1. Because your idea on iTheirs becomes bound to you. If a company decides to reward an idea. They know who to reward.\n2. iTheirs allow sharing of ideas without barriers.\n3. iTheirs helps to know like-minded individuals and foster better relationships among such individuals.",
+      "amount": 0.15,
+      "builder": "0x09D577A4BC5422bf724ADe3735E22d7C6c8B7698",
+      "status": "active"
+    },
+    {
+      "title": "Video-Game Competitive Rank NFT's",
+      "description": "As a gamer, you know that your in-game rank is more than just a number. It's a reflection of your dedication, skill, and progress within your favorite games. With Video-Game Rank NFTs, you can now immortalize your gaming profile rank as a unique, dynamically updating NFT. Players want to show off this rank using this NFT.\nThis NFT will dynamically display the rank of the user in game. The primary games that we can target is Dota2 it has free and open API's to get information.  We can allow the user to authenticate using Steam OpenID Auth to validate if they own that account and mint their own rank NFT which can display their in-game competitive rank. We can have the nft update periodically (every day or so) to automatically update the rank.",
+      "amount": 0.15,
+      "builder": "0x4e97cE84631F7EF26B43F66a0623F00261EdfD6e",
+      "status": "active"
+    },
+    {
+      "title": "Feedback Forge - Decentralized Feedback Platform",
+      "description": "Feedback Forge is a decentralized platform for providing and managing feedback in community-driven projects. Users can leave feedback with a 0-5 star rating and an optional comment. To ensure quality, only users with a certain reputation or those who stake Feedback Forge Tokens (FF) can give feedback. Users earn FF tokens for their contributions, incentivising active participation. This platform promotes transparency and continuous improvement by leveraging blockchain technology. Support for Feedback Forge will drive innovation in decentralized feedback mechanisms, that could be maybe used within BuidlGuidl ecosystem. For now, it's just an idea, for MVP I would like to buidl. I'm open to any feedback, pun intended, myself. Cheers!",
+      "amount": 0.15,
+      "builder": "0x872f1fFdeEe35a6074658B4FB185E2582Db7896A",
+      "status": "active"
+    },
+    {
+      "title": "OnChain Crowdfunder",
+      "description": "I'm looking to build a platform where people can share ideas that they need funding and others can invest in those ideas.\n\nWe know that sometimes to get a product out, there is a minimum investment needed. So if the investment goal isn't met, the ones who invested will receive their refund automatically.\n\nIf the goal is met, the money will go to the project owner (might need to stay in a contract so he can't rugpull) and the invertors receive a ERC (20 or 721).\n\nThe basic build will be the frontend where people can request funds / funds and the contracts on the backend.",
+      "amount": 0.15,
+      "builder": "0xa63f3deC58506f43B721025ae9cBAd9F4F7C658a",
+      "status": "active"
+    },
+    {
+      "title": "Dynamic NFT based on Weather API",
+      "description": "I would like to use chainlink functions with Scaffold-eth to consume a weather API and use the data to transform a user-dynamic NFT (different NFT for day and night and metadata). This is a basic proof of concept and if all goes well I want to use this template for a web3 game idea. The repo could be used as a template for anyone wanting to use scaffold eth and chainlink functions and get started quickly. Thank you.",
+      "amount": 0.25,
+      "builder": "0x6075F7cBD3026783e45312Bfb689ACC5ADcD8649",
+      "status": "active"
+    },
+    {
+      "title": "A decentralized token metadata provider",
+      "description": "Currently, projects like TrustWallet and etherscan.io control if a token has a logo, and other information related to the token. \n\nA very centralized and expensive  process for new tokens with no guarantee that the token data will be updated after spending ~$500-2,500USD for each pull request.\n\nI propose making this decentralized, storing logos on IPFS, allowing the contract deployer and owner the ability to update information about their token using a smart contract and a Scaffold-ETH frontend.",
+      "amount": 0.25,
+      "builder": "0x822e7a7209d6C3Da71979AD443D1D3e81E78e2FD",
+      "status": "active"
+    },
+    {
+      "title": "Xplorer",
+      "description": "Xplorer is a blockchain explorer designed with a focus on DeFi users, especially those in lending protocols. Initially launching as a minimum viable product (MVP), Xplorer aims to validate its innovative approach by tracking and documenting interactions between blockchain addresses and mainstream web2 applications like Uber and Amazon. This initial phase involves assigning points to blockchain addresses based on their off-chain activities, which are crucial for understanding a user's broader financial behavior.\n\nThe MVP will leverage this data through smart contracts to compute an on-chain trust score for each address. This score aids DeFi platforms in refining lending terms, enhancing risk management, and offering personalized services.",
+      "amount": 0.25,
+      "builder": "0xF99aF52Ab7bbd7535797538946aBa7958a2DAD8c",
+      "status": "active"
+    },
+    {
+      "title": "jekyll-frames",
+      "description": "Jekyll plugin to enable any Jekyll website to work with Frames.",
+      "amount": 0.25,
+      "builder": "0x2Abdb157b2603e17d531d4fc51a4fc6174c3dAEA",
+      "status": "active"
+    },
+    {
+      "title": "Grey hat",
+      "description": "A smart contract that any protocol could implement in the event of an exploit. Hackers can deposit the exploited funds into the smart contract and automatically receive a portion of the funds back as a bounty. Additionally, the hacker could negotiate the percentage they receive.\n\nThis project aims to encourage hackers to return the funds.",
+      "amount": 0.25,
+      "builder": "0x4f099cFbC4043e60c52EF47EBC593ba0Bda5C85e",
+      "status": "active"
+    },
+    {
+      "title": "Light",
+      "description": "Light enables users to interact with all EVM chains like it is one through a EVM chain abstraction stack: https://github.com/LightDotSo/LightDotSo",
+      "amount": 0.5,
+      "builder": "0x4fd9D0eE6D6564E80A9Ee00c0163fC952d0A45Ed",
+      "status": "active"
+    }
+  ],
+  "stats": {
+    "totalGrants": 108,
+    "totalEthGranted": 130.61,
+    "activeGrants": 32,
+    "completedCount": 70,
+    "completedEth": 15.645
+  }
+}

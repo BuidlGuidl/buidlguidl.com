@@ -19,6 +19,32 @@
 - [Blog](https://buidlguidl.com/blog): writing on tooling, education, and research
 - [Batches](https://buidlguidl.com/batches): a program to level up as an open source dApp developer
 - [2025 Recap](https://buidlguidl.com/2025): what BuidlGuidl shipped in 2025
+- [Grants Archive](https://buidlguidl.com/grants): every grant, cohort, and builder stream BuidlGuidl funded, with the builders' own work logs
+
+## Cohorts
+Each cohort was a shared contract streaming ETH to a group of builders. Builders wrote down what they worked on when withdrawing; those logs are on each cohort page.
+- [0xAfro](https://buidlguidl.com/grants/cohorts/0xafro): 3 builders, 12 ETH streamed
+- [Autonomous Worlds (Jessy)](https://buidlguidl.com/grants/cohorts/autonomous-worlds): 7 builders, 7 ETH streamed
+- [Balancer](https://buidlguidl.com/grants/cohorts/balancer): 3 builders, 3 ETH streamed
+- [Batches](https://buidlguidl.com/grants/cohorts/batches): 4 builders, 16.8 ETH streamed
+- [BG Media](https://buidlguidl.com/grants/cohorts/media): 7 builders, 8.5 ETH streamed
+- [BG Outreach](https://buidlguidl.com/grants/cohorts/outreach): 3 builders, 11 ETH streamed
+- [ENS](https://buidlguidl.com/grants/cohorts/ens): 6 builders, 4 ETH streamed
+- [Infrastructure (Jessy)](https://buidlguidl.com/grants/cohorts/infrastructure): 4 builders, 9 ETH streamed
+- [Jessy's Hacker House](https://buidlguidl.com/grants/cohorts/jessys-hacker-house): 16 builders, 43.4 ETH streamed
+- [LaunchPod](https://buidlguidl.com/grants/cohorts/launchpod): 2 builders, 4 ETH streamed
+- [Mercs](https://buidlguidl.com/grants/cohorts/mercs): 9 builders, 52.1 ETH streamed
+- [Nifty Ink](https://buidlguidl.com/grants/cohorts/niftyink): 2 builders, 8.5 ETH streamed
+- [Nodes](https://buidlguidl.com/grants/cohorts/nodes): 1 builder, 25.5 ETH streamed
+- [Not Just Notfellows](https://buidlguidl.com/grants/cohorts/not-just-notfellows): 7 builders, 7 ETH streamed
+- [Owners](https://buidlguidl.com/grants/cohorts/owners): 5 builders, 30 ETH streamed
+- [Play Full](https://buidlguidl.com/grants/cohorts/play-full): 13 builders, 8.7 ETH streamed
+- [Sanctum](https://buidlguidl.com/grants/cohorts/sanctum): 11 builders, 29.5 ETH streamed
+- [Sand Garden](https://buidlguidl.com/grants/cohorts/sandgarden): 11 builders, 136.3 ETH streamed
+- [Security & Optimizooors (Jessy)](https://buidlguidl.com/grants/cohorts/security-optimizooors): 2 builders, 2 ETH streamed
+- [Ship Yard](https://buidlguidl.com/grants/cohorts/shipyard): 4 builders, 4 ETH streamed
+- [Workshops](https://buidlguidl.com/grants/cohorts/workshops): 3 builders, 19.1 ETH streamed
+- [ZK & Cryptography (Jessy)](https://buidlguidl.com/grants/cohorts/zk-cryptography): 15 builders, 20.8 ETH streamed
 
 ## Blog posts
 - [Evaluating agent skills: testing whether they are actually useful](https://buidlguidl.com/blog/evaluating-agent-skills)

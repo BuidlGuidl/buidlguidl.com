@@ -1,0 +1,26 @@
+[
+  {
+    "tx": "0x7860fde15728a84f796bed94ba874387fedeee1466682c573dbc54469ad62701",
+    "builder": "0x40f9bf922c23c43acdad71ab4425280c0ffbd697",
+    "ens": "acuna.eth",
+    "amount": 0.4,
+    "reason": "donate back to the pool",
+    "timestamp": 1718033267
+  },
+  {
+    "tx": "0x3dbfd8272c71d1ab4699867edca3f62aae57ea67456544820dcc78f56e02ab69",
+    "builder": "0x40f9bf922c23c43acdad71ab4425280c0ffbd697",
+    "ens": "acuna.eth",
+    "amount": 0.35,
+    "reason": "voting with money! https://bazaar.buidlguidl.com/build/grlJK8A79tnorpS0RRRS",
+    "timestamp": 1648230647
+  },
+  {
+    "tx": "0xe187f5157abdd1f7bd1b8f90b0c991a2aa589238f953f4900f0d525db1aab9e8",
+    "builder": "0x40f9bf922c23c43acdad71ab4425280c0ffbd697",
+    "ens": "acuna.eth",
+    "amount": 0.25,
+    "reason": "multisig with gundb! https://github.com/gjacuna/multisigchallenge",
+    "timestamp": 1646959817
+  }
+]

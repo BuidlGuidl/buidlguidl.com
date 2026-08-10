@@ -1,0 +1,210 @@
+[
+  {
+    "tx": "0x4ec52ecaece17ad4c2cf946b26d430d11555409069d319e70498bced13663316",
+    "builder": "0x0e936b7f8f6f4fed74aad5be183651666e617654",
+    "amount": 0.5,
+    "reason": "My playful future is Moons Protocol: https://github.com/JoelAlexander/moons-contracts/blob/main/src/Moons.sol  Currently hosted at https://www.moons-protocol.xyz (YMMV)  Implements a shared spending pool where participants may freely access a limited allowance of funds once per Moon  An exploration in funding mechanisms that dont require voting and promote participant agency within the bounds of a group mission",
+    "timestamp": 1738636379
+  },
+  {
+    "tx": "0xdd6ee080619c6fab5d8bc9b73b71c730972bc3f25da82b7f13f50ca76bbc7207",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Attack on NFT Wallet', an on-chain game where you battle with other NFT wallets (ERC6551) for ETH rewards.    https://github.com/codechefsong/AttackonNFTWallet",
+    "timestamp": 1713412461
+  },
+  {
+    "tx": "0x03c35b63d6a6c6897b22e0046db90a95abad6b77cd7e24f67b7fd34aa2c4d7eb",
+    "builder": "0xd3cc90e1428ba18fcfb0611e067ed6c12ad8c1fb",
+    "amount": 0.3,
+    "reason": "Built Radio.Radar, a more playful way to interact with communities discord content streamed as an endless stream. Use it to escape, play and get inspiration from the community. Withdrawing this to build it into an open tool where any community can add a bot, create an account and people let people tune into their channels without joining the community. https://radio.radardao.xyz/",
+    "timestamp": 1711505631
+  },
+  {
+    "tx": "0x74c149e1f0eab47c1b31ce356a524a08121edcbaad51f14fa15dbec3df67b7ac",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Build Bloom', an on-chain game where you explore the world to gather resources and build your own virtual town.  https://github.com/codechefsong/BuildBloom",
+    "timestamp": 1711421971
+  },
+  {
+    "tx": "0x75ef5923afa5cb9b0754e74e8691151ce9a3ded38760748b413b11db16761bd0",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Bloom Boom Bloomville', an on-chain game where players build gardens, plant and grow flowers, and earn bloom points. https://github.com/codechefsong/Bloom-Boom-Bloomville",
+    "timestamp": 1710293501
+  },
+  {
+    "tx": "0xb7e9264de287d524c2c9e5a41c6c1282c41cae29f14514761d186e9eee52b3d9",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Inferno Roll', an on-chain game. Survive the advancing lava by rolling dice to move your character and outlast other players.  https://github.com/codechefsong/Inferno-Roll",
+    "timestamp": 1708221099
+  },
+  {
+    "tx": "0xb2380a7b7b95d82c0dae897df5fe39ae075dd7449b02c608996187c027626394",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Food Frenzy Feast', an on-chain game where players choose 10 random foods from a table and receive bonus points for matching foods. https://github.com/codechefsong/Food-Frenzy-Feast",
+    "timestamp": 1706651787
+  },
+  {
+    "tx": "0x4bf659403f76529af05510525fab076ceb997458841ce02bad5b7d87b8e3e70c",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Quantum Space Gems,' an on-chain game set in space, where players embark on a journey to planets, collecting precious gems. https://github.com/codechefsong/Quantum-Space-Gems",
+    "timestamp": 1705104221
+  },
+  {
+    "tx": "0x73c67d5a754fd3e5b85b29fa5b1789830f3d03386fcf7691a259012b2c3c0e84",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.25,
+    "reason": "I developed 'Present Bandit,' an on-chain Christmas-themed NFT game. Mint your Santa ERC-721, steal presents, and race to the finish.  https://github.com/codechefsong/Present-Bandit",
+    "timestamp": 1702940009
+  },
+  {
+    "tx": "0x703b761be7d044dddac1a013509bb197199b96479b9aaa136915fce3cfa9e938",
+    "builder": "0x2a333b3f9833558d583a6badabecd62ce7a377b8",
+    "amount": 0.5,
+    "reason": "I, along with my fellow team members from the Sparkling Water bootcamp, implemented Groth16, a zk-SNARK, as part of Lambdaworks open-source library of zk primitives, based on Rust. https://github.com/lambdaclass/lambdaworks/pull/612",
+    "timestamp": 1699368129
+  },
+  {
+    "tx": "0x39d6fa6832279a5938f37c29bb77922de9357170318209b7acb163c4c2fe2e70",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.3,
+    "reason": "I developed 'Trick or Treat Scavenger,' a Halloween-themed NFT board game.  In this game, players roll a four-sided dice to move around the game board.  The board features various spaces, including house spaces where players can collect 10 candies as ERC20 tokens, and thief spaces where players must pay the thief with their candies.  Players also have the option to hire a thief to steal candies from other players.  To join the game, each player must own a Pumpkin Buckets NFT, which utilizes ERC6551 to enable the NFT to hold candies.  https://github.com/codechefsong/Trick-or-Treat-Scavenger",
+    "timestamp": 1699235707
+  },
+  {
+    "tx": "0xea7f1b3f987e609e35e89ad4dd59d05c0abfd7f32489828e6a75a08b525bc796",
+    "builder": "0xc12bc4ea7658285182c9ecd167d9b4093e2c5613",
+    "ens": "samaritual.eth",
+    "amount": 0.63,
+    "reason": "Radar Launch \"CreatureKin\" Project Winner: https://radarlaunch.app/project/64f0d0a861f574ce6d916d28",
+    "timestamp": 1697442805
+  },
+  {
+    "tx": "0x48eef7a4d5328713a7d993334370fe2fe9d093fc2dfc4798e436a698eb87b167",
+    "builder": "0x9e47bb28836a094e206a3a63858bf3ef165a3e5b",
+    "amount": 0.63,
+    "reason": "We optimized the https://www.digest.publics.world/ website, worked on a new partnership for V2 (soon to be released). And got off the ground in anticipation for our official launch to our first community initiative. You can join the Publics community of readers and curators to share your ideas and build together. Here's our RADAR Launch Submission for reference: https://radarlaunch.app/project/64fa126b2079751a84cceebf",
+    "timestamp": 1697124233
+  },
+  {
+    "tx": "0x0003852c3ee834f16706a9536b388542dc23e504e9f4f99144dd72a7560e0b4c",
+    "builder": "0x1b4a302d15412655877d86ae82823d8f6d085ddd",
+    "ens": "aronshelton.eth",
+    "amount": 1.26,
+    "reason": "Withdrawing based on outcome of jokerace contest for projects building A More Playful Web, Together. Using funds to continue to build out ghostcontext.xyz. https://radarlaunch.app/project/6509fbe82079751a84cd2a53 |  https://jokerace.xyz/contest/polygon/0xA9bb34C9645c52BC9D7662fdBBd18255533D3dfE | https://github.com/GhostContext/ghostcontext",
+    "timestamp": 1696952019
+  },
+  {
+    "tx": "0x63d412e7ef5ad42871f43d8050a668b146673821826246cea0ef48d71d29e659",
+    "builder": "0x497a7dee2f13db161eb2fec060fa783cb041419f",
+    "amount": 0.63,
+    "reason": "Withdrawing to start planning for Art Basel in Miami. https://radarlaunch.app/project/64f5d0741d4a91b760c778f6",
+    "timestamp": 1696932471
+  },
+  {
+    "tx": "0xd80eeaca3556306ef8e7aee8468ea0ce6f17cc79f47344b22b0572e8869669bc",
+    "builder": "0x5f3371793285920351344a1eaaaa48d45e600652",
+    "ens": "thebluebook.eth",
+    "amount": 0.3,
+    "reason": "Completed https://earthart.africa, with gifts sent to NFdao, Gitcoin and Bonfire. NFT to fund aforestation on Lamu Island, Kenya. Much of the work was coordination with local communities on the ground and navigating the intricacies at the intersection of web3 and irl space. A unique drop, which includes M Pesa and credit cards as payment options. All funds withdrawn here will go back towards the project itself, which I did pro bono.",
+    "timestamp": 1696442889
+  },
+  {
+    "tx": "0x8e082e82168dae71e80ddd8d43d81a187b060d77f5105bc02e4c71cb3aca6564",
+    "builder": "0x5f3371793285920351344a1eaaaa48d45e600652",
+    "ens": "thebluebook.eth",
+    "amount": 0.2,
+    "reason": "Finally got https://www.sati-ai.app/ over the line. Overhauled the whole UI, used SE2, implemented NFT memorialization of GPT conversations with a specific system prompt based on deep research and high play, which makes it a wonderful wisdom guide in the Theravadan tradition of Buddhism.",
+    "timestamp": 1696442673
+  },
+  {
+    "tx": "0xf5a168db1d9709523e3b5858849c1ea3252733301c5f81149351421d47b46e5c",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.15,
+    "reason": "Developed NFT vs NFT, an on-chain game where you can purchase power-ups and engage in battles with other NFTs. The game uses ERC6551, enabling your NFTs to possess power-ups as NFTs. https://github.com/codechefsong/NFTvsNFT",
+    "timestamp": 1696208773
+  },
+  {
+    "tx": "0xf1b805ba010ca80646a3fc322928d636734498a2d30b254c992e5dc7a3f23a16",
+    "builder": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+    "ens": "codechefsong.eth",
+    "amount": 0.15,
+    "reason": "Developed Food Scramble, an on-chain board game where you collect ingredients (ERC20 tokens) and combine them to create unique hamburger NFTs. The game uses ERC6551, allowing your NFTs to gather ingredients and other NFTs.  https://github.com/codechefsong/Food-Scramble",
+    "timestamp": 1694307273
+  },
+  {
+    "tx": "0xb675ccf2f00f10c0dcf1e0bb0bbadfc84209e137f38e022497fd5722d5c24b90",
+    "builder": "0xd3cc90e1428ba18fcfb0611e067ed6c12ad8c1fb",
+    "amount": 0.4694,
+    "reason": "Finished creating the open source and public ‘THE NEW PLAYERS’ brief - Launching today: https://radarlaunch.app/pool/64d501ee081e901b9fdfaea9   See it here: https://docsend.com/view/hpkv9gtxdgdpszn8   In this brief we're focused on a future of NPCs inside and outside of gaming, empowered by AI & ERC 6551s...And the big question is, what happens when AI NPCs can have a bank account & identity card?  Inside is 4 what ifs with 3 case studies each and packed with questions to get your mind whirring. We hope to inspire brilliant builders from everywhere to build towards a better futures with NPCs in it.",
+    "timestamp": 1691764221
+  },
+  {
+    "tx": "0x13dca3f9380d580a94dc1e6ae149f0312308e7cafaa9d62dbce1b9998ab88b47",
+    "builder": "0xd3cc90e1428ba18fcfb0611e067ed6c12ad8c1fb",
+    "amount": 0.268813,
+    "reason": "First round & research of creating a research brief to explore the future of gaming, NPCs, ERC6551s and how we can inspire builders to make the future of gaming better  Next stage is to filter in on what ifs and imagination playgrounds  Check out the miro here:https://miro.com/app/board/uXjVM2YUXUQ=/  next stage is brief creation",
+    "timestamp": 1690529105
+  },
+  {
+    "tx": "0x1adb66be12d8f3c852221fbe4c7d1c115cceca179de39ffa0355a421f13910ee",
+    "builder": "0xf5d332a17b77de7f861bc3965cf6fdea02ebe72a",
+    "ens": "mattweatherall.eth",
+    "amount": 0.25,
+    "reason": "Two rounds of ideation and research for A More Play-Full Future, to inspire our fellow buidlers ft. ideas like the gwei waiting game, ERC6551 short stories, play to vote, and send-your-enemies-glitter onchain. Sharing work-in-progress and insights & ideas in this Miro Board: https://miro.com/app/board/uXjVM-RHcyc=/ (feel free to jump in and let us know what’s exciting you / what you’d like to see more of)",
+    "timestamp": 1688002771
+  },
+  {
+    "tx": "0x2e52aaf8918a90f234daaa5eed9a04268f6987989801e3de1abc628bd3308feb",
+    "builder": "0xd3cc90e1428ba18fcfb0611e067ed6c12ad8c1fb",
+    "amount": 0.25,
+    "reason": "two rounds of ideation and research for a more play-full future. Refinement of thinking and visual cues particularly into dynamic onchain experiences, wallet security games and screenmint (on onchain curation of your snapshots in a tumblr-esq) webpage. Next i'll further research into play-full onchain reactions and playing with standards set with seriousness    ",
+    "timestamp": 1687965699
+  },
+  {
+    "tx": "0x6db842b06892c2adcf920bf981f34aa7ecb276853c1fe8ccf8249ee6ee15bb2f",
+    "builder": "0x5f3371793285920351344a1eaaaa48d45e600652",
+    "ens": "thebluebook.eth",
+    "amount": 0.15,
+    "reason": "Built https://earthart.africa and begun transferring skills to Kenya + a new builder wanting to make NFTs for prints from Mali. Hacked the no-code Mintplex contracts, simplified and removed fees, put them in SE2 and created a subgraph component, all in pursuit of a graduated learning curve from no-code tools to full on SE2 experts...",
+    "timestamp": 1686666957
+  },
+  {
+    "tx": "0xf957c55df284a6ee795c583f8c917e459534eb9d7de301208d30075ce68c5c00",
+    "builder": "0x1e55c85801a2c4f0bec57c84742a8ef3d72de57b",
+    "ens": "paulgadi.eth",
+    "amount": 0.02,
+    "reason": "Making self-aware NPCs! Started my own tooling, brevity, to more easily play with ERC-6551: https://github.com/polats/brevity Also check out: https://twitter.com/polats/status/1664373986258501635",
+    "timestamp": 1685725000
+  },
+  {
+    "tx": "0x0da671290588e368e5ed74cbacad6af947c1671138b76b659bd6d5db76e3d846",
+    "builder": "0x5f3371793285920351344a1eaaaa48d45e600652",
+    "ens": "thebluebook.eth",
+    "amount": 0.0035,
+    "reason": "Pilfering SE2 components for Honour interface: https://github.com/kernel-community/honour/commit/57125a779a4184db27a9b8a0480f946ea0023a57",
+    "timestamp": 1685724265
+  },
+  {
+    "tx": "0x0907de90fe30c6e5049c3c229b91f4588cb165033802d8f55e665138ed51c9bc",
+    "builder": "0x5f3371793285920351344a1eaaaa48d45e600652",
+    "ens": "thebluebook.eth",
+    "amount": 0.002,
+    "reason": "Allowing Austin to backseat drive and comment on my git-fu: https://github.com/kernel-community/play-full-futures",
+    "timestamp": 1685117657
+  }
+]

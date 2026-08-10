@@ -1,0 +1,90 @@
+[
+  {
+    "tx": "0x00f659090c3ff74c6e2ae626a774c2a7eb22bc85712034c6ee91c811d3684416",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.5,
+    "reason": "Working on Nifty ink app:- https://www.figma.com/file/93nKArFHsb5IzzwGi9Algq/Nifty.Ink?node-id=202%3A2012&t=hJqoUraPJkFQi17B-1",
+    "timestamp": 1678967903
+  },
+  {
+    "tx": "0xbe57453d574c819e94ea620b5b4f23a09c7e38a67b59a2509790aabcea6faf3c",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.5,
+    "reason": "Working on Nifty.ink and till now made landing page, collections page, sorted the top navigation bar, stats page and the visuals.",
+    "timestamp": 1676369543
+  },
+  {
+    "tx": "0x5e7c3418d73711caadac0fd10c009582007ac7b44da6c19df7610c5a9bd414b4",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.5,
+    "reason": "Did primary research (main goals, problems current version has, who are the main users, what will be the sections and what will be the sub sections for each sections in the website). Also started working on the visuals for this.",
+    "timestamp": 1673695703
+  },
+  {
+    "tx": "0xb88c00ea171ac0efffa89fa4c74575d041e894d281ea3d8da506462c68d2c83d",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.38,
+    "reason": "Working on showcasing planets metadata of Exos",
+    "timestamp": 1670922443
+  },
+  {
+    "tx": "0x314ff2e2e5a1257f0a0d92b217775cfb6924862a7409570659b4a90bbf344896",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.12,
+    "reason": "Made prototype for the landing page of EXOS (https://www.figma.com/proto/IzJAoJA1VofNhL8l5tvjHJ/Exos?node-id=317%3A384&scaling=min-zoom&page-id=317%3A383&starting-point-node-id=317%3A392)",
+    "timestamp": 1670922203
+  },
+  {
+    "tx": "0xdcd69ba9a3cbce34611870c798a4ce68dcf94c0b3a5a2595e7190bc35ac3c465",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.5,
+    "reason": "Made prototype for the landing page of EXOS (https://www.figma.com/proto/IzJAoJA1VofNhL8l5tvjHJ/Exos?node-id=317%3A384&scaling=min-zoom&page-id=317%3A383&starting-point-node-id=317%3A392)",
+    "timestamp": 1668271415
+  },
+  {
+    "tx": "0xb4bc9638ec59914e89d9930f4d1397d01b2beefea30c95185b324ef3a5db75a4",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.18,
+    "reason": "Come up with high fidelity wireframes (designs) for Exos- Mint and code description screen.",
+    "timestamp": 1666684727
+  },
+  {
+    "tx": "0x03a624a8ef868590f9430420ddea078b1e9243fd8d1b6e0902dde1f1e1ad31f3",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.5,
+    "reason": "Come up with high fidelity wireframes (designs) for Exos- Mint and code description screen.",
+    "timestamp": 1664010539
+  },
+  {
+    "tx": "0x2f3c702d8711b0fee4d258a69c00c7e20104615c25bdd99d82094f66d77fda0f",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.335634,
+    "reason": "Did research and made high fidelity wireframe in Figma for EXOS Nft.",
+    "timestamp": 1661612941
+  },
+  {
+    "tx": "0xd022cdac65b83be337da469c0ef61a82b6a6ba327a9bb9086381cea707d9261e",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.302011,
+    "reason": "Made high fidelity wireframe in figma for speed run ethereum website.",
+    "timestamp": 1660064566
+  },
+  {
+    "tx": "0x5fd3214676d6379e5e615b5fe6ce1ed4eb0a92261f5ac7461e86ed8c4e7bec7b",
+    "builder": "0x6ee18ffdb859eea9e37c2e4c0d15ba7d5f7ef082",
+    "ens": "yashii.eth",
+    "amount": 0.151148,
+    "reason": "Research and came up with the idea for speedrun ethereum website",
+    "timestamp": 1659544403
+  }
+]

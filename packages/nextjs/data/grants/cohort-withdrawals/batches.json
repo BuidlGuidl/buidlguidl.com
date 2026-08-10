@@ -1,0 +1,330 @@
+[
+  {
+    "tx": "0x22afdba1234af04b953ccedbe6921b051a0e915dfefa52c7bb412fda2a827f09",
+    "builder": "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3",
+    "ens": "sign.zakgriffith.eth",
+    "amount": 0.7184,
+    "reason": "Clearing cohort value",
+    "timestamp": 1786384103
+  },
+  {
+    "tx": "0x8d6abe0145c7395aea63405f633fd4e4e670d0176a9ec706a85a4652638e6cec",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.75,
+    "reason": "Batch 23",
+    "timestamp": 1770039611
+  },
+  {
+    "tx": "0xadfb8d7c135c0a78ea4f329070786f44d0ce229c38fb33f5dc6461534f98bb73",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch work and grants coaching",
+    "timestamp": 1767642899
+  },
+  {
+    "tx": "0x2b33ec87c9a7d110ef3e9b2219f1bd13048b4fe2c08d49a46a78f4ca967b5aad",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.65,
+    "reason": "Batch 22",
+    "timestamp": 1766060699
+  },
+  {
+    "tx": "0x4e409c37e37b01714126e3e292ea91f832ebf5f9f0097701765e14abbb30610d",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch work and grants coaching",
+    "timestamp": 1764782735
+  },
+  {
+    "tx": "0xb1bedbf560a26720999daea8563acdfdef90f5b9ff1e33a059cb813127f2b1e1",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.313,
+    "reason": "Batch 20 and Batch 21",
+    "timestamp": 1764155375
+  },
+  {
+    "tx": "0x1e67936cbb6284ffd7c314193bd2f2be9cf4336a5b27eadfce50d01e7d78e66a",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.3019,
+    "reason": "Batch 21",
+    "timestamp": 1762189715
+  },
+  {
+    "tx": "0x1a57068d5ec5924b43cf582e191280004558224d46cf4e6f046749fd5839dba9",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch work and grants coaching",
+    "timestamp": 1762152191
+  },
+  {
+    "tx": "0x3c65e533019486bb01d78295fc0211931d9c32465f9474fa19b15e8fedf5a7f8",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.3851,
+    "reason": "Batch 20",
+    "timestamp": 1760624639
+  },
+  {
+    "tx": "0xb890c978de6b5a2dd553f32af433503cd16220acecb496074f8853dc7429ce91",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch work and grants coaching",
+    "timestamp": 1759003631
+  },
+  {
+    "tx": "0x3503756786792a37b834ba96ba03e0a53dd96f3bcc5efa0db228d82b94188091",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.5,
+    "reason": "Mentoring Batch 19",
+    "timestamp": 1758628103
+  },
+  {
+    "tx": "0x23eaf9b874d13fabd38354d83b494b81f92de4dd3371745ef1a752200ed85e8a",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Setup, track batches 17,18,19, coach batch builds and grants, host calls and give feedback",
+    "timestamp": 1756306943
+  },
+  {
+    "tx": "0xa0402c3a10dcc286fbb4c307fa5f5390514bcb55615b2cd174ada2455025fbf3",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.5,
+    "reason": "Mentoring Batch 18",
+    "timestamp": 1755337475
+  },
+  {
+    "tx": "0x669406cf11329abd15a6fdc3da07b757268d5f06297fa9815005c06ac0a17794",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.48,
+    "reason": "Mentoring Batch 17",
+    "timestamp": 1752151187
+  },
+  {
+    "tx": "0x1af2dcaed0639ba9c85d0164958129feaa0ed22ba1b2a8da12febe45d303f87f",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Ran Batch 15,16",
+    "timestamp": 1750279631
+  },
+  {
+    "tx": "0xf7703f6301973a1a1f6613267a998b5a4ec858d9ec7e347ce07067c858f2be22",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.3,
+    "reason": "Mentoring Batch 16",
+    "timestamp": 1749658787
+  },
+  {
+    "tx": "0x1e3053bb97a45d2d44e91dbf32d06910f6bedd5f838786bb235bf000feb28ecd",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.2737,
+    "reason": "Mentoring Batch 15",
+    "timestamp": 1746744875
+  },
+  {
+    "tx": "0x8d4877f1b9f2a4b03f9f9fcd68fc984b4ee869dfa97ce8f26528d3abed06bbdb",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.1579,
+    "reason": "The remaining from Batch14",
+    "timestamp": 1744379687
+  },
+  {
+    "tx": "0xff30ac6d284d1ff3117e0cc14d9e78403cc650e7e08bfd37d933779803cca5a4",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.45,
+    "reason": "Running batch 14",
+    "timestamp": 1744364843
+  },
+  {
+    "tx": "0x2f9a03baf078962789c52b55f711a0e13f25cc76512f34333f781695790bcbdf",
+    "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+    "ens": "melanke.eth",
+    "amount": 0.22,
+    "reason": "The Batch is completed. https://batch14.buidlguidl.com/",
+    "timestamp": 1743706187
+  },
+  {
+    "tx": "0x960a745e216905cb1e3fb595d4b1fe1ef0edda8b563cff4d759c9f06dde315bf",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Running Batch 13",
+    "timestamp": 1741943747
+  },
+  {
+    "tx": "0x47f41677d98b354498a30c556dd8cd90a1e6b5dc4df64d1e863a1d4d4c1b6fc3",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Running Batch 12 and prepare Batch 13",
+    "timestamp": 1738861919
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "End of Batch 12; hanging up the Batch Dad hat for now. Thanks so much for the opportunity to support and onboard these buidlers! It's been an honor.",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 12 Week 3: PRs and cheerleading",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 12 ongoing, predominantly PR reviews",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.45,
+    "reason": "Finishing up Batch 11, Setup of Batch 12, Management of Batch 12, PRs",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Launch batch 12: first wave of PRs, cheerleading, and trying to activate members that haven't jumped in yet",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.45,
+    "reason": "Ran Batch 11",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch 10, set up, all reviews, management, Batch 11 set up",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Wrap up Batch 10, hand off for 11",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 10, ENS, feedback",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 10 week 2, including a light slap on the hand for a particularly impatient fellow",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Batch 9 management and support with reviewing PRs",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 10 prep and launch",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 9 wrap up, 1-on-1 guidance",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 9: PR reviews, ENS, blocked a turd trying to double-dip in Batch 9 and 10",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Support of Batch 8,9, code reviews, setup, tracking participation",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Big week of Batch 9 engagement; quite a few eager beavers diving in and needing cat-herding.",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 9 set up",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 8 wrap-up, including a bunch of sweet cross-batch feedback on the last PR. The most active batch I've seen so far!",
+    "timestamp": 1738614203
+  },
+  {
+    "tx": "0x84f8304fb280f7578a277a68714276c59b4156c3b055f9c04aa44c6e118812aa",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Support of Batch 7, 8, reviewing PRs, reviewing grants application and giving feedback",
+    "timestamp": 1738614203
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0xf423a9dd2eac99a54181546f616b4ec2b6172527f8cb2f7cc3199659ff5cdbae",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 1,
+    "reason": "Token Types: https://app.buidlguidl.com/build/ZH2CLq8MFOrYZFbaH9Pj",
+    "timestamp": 1717355723
+  },
+  {
+    "tx": "0x0e0a6d03af88b149699a28a7b4c5830a044fdf455f87078b94b736297ef09b50",
+    "builder": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+    "ens": "jtriley.eth",
+    "amount": 1,
+    "reason": "Smart Types (Build Submission Soon tm): https://github.com/jtriley-eth/smart-types",
+    "timestamp": 1692511535
+  }
+]

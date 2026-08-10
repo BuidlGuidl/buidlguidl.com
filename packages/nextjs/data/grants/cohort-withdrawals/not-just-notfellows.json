@@ -1,0 +1,154 @@
+[
+  {
+    "tx": "0x826a4a760d1cec7afbbbbf763d176443cd834da88ae6bfa84df95727a7dad3ef",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.0838,
+    "reason": "created https://github.com/0xfuturistic/sandwich-resistant-uniswap-v2",
+    "timestamp": 1723090571
+  },
+  {
+    "tx": "0xb5971ebc2a42d38e40d4c9b275970f95bc15283955b23b823094ed04bfcc0736",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "created https://github.com/ethereum-optimism/transience",
+    "timestamp": 1720879499
+  },
+  {
+    "tx": "0x695dd8251f815a4785c190bb75fb30657c6125379bd32ddb5b9dbeb8aeda5e61",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.4699,
+    "reason": "created https://github.com/0xfuturistic/mev-tax",
+    "timestamp": 1718250863
+  },
+  {
+    "tx": "0x8de18af58766202b2258dee065d6c5765bd8ec20fb6ab2700aa2cb0bfd2f56c7",
+    "builder": "0x988d7077e5027dd0bacd22b917af3768531dfc32",
+    "amount": 0.05,
+    "reason": "built translation tool on Warpcast: https://github.com/MattWong-ca/translate-bot",
+    "timestamp": 1716695063
+  },
+  {
+    "tx": "0x8e5a792714d81fd6ad547f8b0a3e6c09e859e3331135dc6d0702f1caa947db21",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "contributed to https://github.com/ethereum-optimism/optimism",
+    "timestamp": 1715814683
+  },
+  {
+    "tx": "0xf859d497e33b9214eea55cb57bd73c502c8727bf4c172d1fe7a87aed0a4c9ee8",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "contributed to https://github.com/ethereum-optimism/optimism",
+    "timestamp": 1712719307
+  },
+  {
+    "tx": "0x12e4fbaae2707f78850d4c0dd5c8bab7b7b5acf40fc3076482039b94b59f5dab",
+    "builder": "0x9345ee731dcfc6b227f0dbff8615a0672beb473c",
+    "amount": 0.5,
+    "reason": "Made a tool on top of GHO : https://github.com/proxima424/gho-hack // ~~ some research articles",
+    "timestamp": 1707418919
+  },
+  {
+    "tx": "0x31e645d92c41034d9198c31592d01a5933bf499dc1ddb5cd80e1fc185281d599",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.3997,
+    "reason": "created https://github.com/0xfuturistic/prime-field-arithmetic",
+    "timestamp": 1707068339
+  },
+  {
+    "tx": "0x9b2ac9b0a522a76bdaa4eeb8311140cbeb781d5778327a052f2f4bdfccccaba3",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.39,
+    "reason": "contributed to https://github.com/a16z/Lasso",
+    "timestamp": 1705008047
+  },
+  {
+    "tx": "0xb757658ab06bb2d5fe3f3b1369e63ab240f4d85be9cf8971832cfb09831d72af",
+    "builder": "0x9345ee731dcfc6b227f0dbff8615a0672beb473c",
+    "amount": 0.5,
+    "reason": "Dynamic onchain NFT which shows a wallet's age. To be deployed on mainnet + articles on OP stack",
+    "timestamp": 1704229823
+  },
+  {
+    "tx": "0x69645da05d6152c52b547cb5dced858604087840523ced3e2f2688ec09a8593f",
+    "builder": "0x988d7077e5027dd0bacd22b917af3768531dfc32",
+    "amount": 0.05,
+    "reason": "commits in https://github.com/MattWong-ca/familyshare",
+    "timestamp": 1703998283
+  },
+  {
+    "tx": "0x26ce7ed7c48804c3832de5019b02237e7d1395926ba1d5b61606edf206ebbc04",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.2766,
+    "reason": "created https://github.com/0xfuturistic/nounish-rollup",
+    "timestamp": 1702974599
+  },
+  {
+    "tx": "0x30b78b2e6953ac3426aa24154579049e0eeeec88f4e96f5e3970b3cec01f6bfd",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "created https://github.com/0xfuturistic/sequencer-commitments",
+    "timestamp": 1701540551
+  },
+  {
+    "tx": "0xd34b3977058673d0fc2add934c4ea14c2b3bb27f2225e094f6dfa02abcc42306",
+    "builder": "0x9345ee731dcfc6b227f0dbff8615a0672beb473c",
+    "amount": 0.5,
+    "reason": "ZK-Game to be deployed within 1 week.",
+    "timestamp": 1701098051
+  },
+  {
+    "tx": "0xc1a71f8149bb3c50d440370d02477d4c10347f18c57bcb32c67258e6cd1d398e",
+    "builder": "0x988d7077e5027dd0bacd22b917af3768531dfc32",
+    "amount": 0.05,
+    "reason": "restarting from prev hackathon: https://github.com/MattWong-ca/familyshare",
+    "timestamp": 1701031103
+  },
+  {
+    "tx": "0x6dc7fc352605f107113bd4ab2e5265a36cbba6770b9a2eeb1285b35bf649fa65",
+    "builder": "0x9aea70d31eb643666058a652bdf8e95df65ccd2e",
+    "amount": 0.2,
+    "reason": "created project to work on decentralised frontend infra: https://github.com/srijancse/swapfront",
+    "timestamp": 1699594319
+  },
+  {
+    "tx": "0x4a1395413651c929a9bf19aed4e83bd410ad7d6bf139e37acee5e8d4b7e6ebe0",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "created https://github.com/0xfuturistic/zkUniswap",
+    "timestamp": 1698869783
+  },
+  {
+    "tx": "0xdc99cb141ed5ae098c99055d13914ee10c41ec45e05f7dac06bb386447d6793c",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.48,
+    "reason": "created https://github.com/0xfuturistic/emily",
+    "timestamp": 1696263179
+  },
+  {
+    "tx": "0x56a53d2f15aa0fd374dcf25112bfd57c5213adb02f816b1699e5e61a2e7f93f0",
+    "builder": "0x988d7077e5027dd0bacd22b917af3768531dfc32",
+    "amount": 0.05,
+    "reason": "Created https://github.com/MattWong-ca/swift-tickets for hackathon",
+    "timestamp": 1694216951
+  },
+  {
+    "tx": "0x54173c70925a8b648d64271e01de74d5cae26efafe2b2da1753e8a5358aa7b45",
+    "builder": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+    "ens": "dvt.eth",
+    "amount": 0.5,
+    "reason": "created https://github.com/0xfuturistic/solhooks",
+    "timestamp": 1693768607
+  }
+]

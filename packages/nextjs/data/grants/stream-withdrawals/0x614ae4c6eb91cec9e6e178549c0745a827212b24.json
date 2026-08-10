@@ -1,0 +1,74 @@
+[
+  {
+    "tx": "0x715243f3846a3976bb3ead75dc8e556225c7e9a6288a7c98a7afba7dd15ede69",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.45,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/zk-commitable-nft",
+    "timestamp": 1646515903
+  },
+  {
+    "tx": "0x1d6e7626b7315e68687c5b794b57694b8bc446ecc600f8dd960c605dfc7207ad",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/zk-game-example & https://github.com/calvbore/dittoV0",
+    "timestamp": 1643789694
+  },
+  {
+    "tx": "0x23ce24a9bbff70a49f2dd284330d558a23cf7a7fbbb4ba59d24e7f37fff2ffee",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.341438,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/zk-prove-membership & https://github.com/scaffold-eth/scaffold-eth-examples/tree/zk-voting-example",
+    "timestamp": 1641014515
+  },
+  {
+    "tx": "0x3a88fb3e33cbd0324ed2c2aeafba52e83e859d14f3b73c92cadb6ea9e4debbaa",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/vdf-verifier-example & https://github.com/scaffold-eth/scaffold-eth-examples/tree/zk-prove-membership",
+    "timestamp": 1637309447
+  },
+  {
+    "tx": "0xb51d13974408bd7ffe1cf931de047b3ab681e531ed1c6fd6f45ce07a0482e756",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/pull/421 & https://github.com/scaffold-eth/scaffold-eth/pull/432 & https://github.com/scaffold-eth/scaffold-eth/pull/447 & https://github.com/scaffold-eth/scaffold-eth/tree/circom-starter-kit & https://github.com/scaffold-eth/scaffold-eth/tree/circom-contract-tutorial",
+    "timestamp": 1634269713
+  },
+  {
+    "tx": "0x71065a43df64b570d9678e7126a9550701083527470ca490f433e5799d76602c",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/pull/407 & https://github.com/scaffold-eth/scaffold-eth/pull/402 & https://github.com/scaffold-eth/scaffold-eth/tree/circom-starter-kit",
+    "timestamp": 1631675464
+  },
+  {
+    "tx": "0xc853c67bb5264d621bf05d1d551abeff4af47afae8d65e7ff3d0f3385daaebd5",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/pull/294 & https://github.com/austintgriffith/scaffold-eth/tree/circom-starter-kit & https://github.com/austintgriffith/eth-hooks/pull/21",
+    "timestamp": 1627698460
+  },
+  {
+    "tx": "0x4ba36ee6af786947ad9bce367627d5edc3097a59c21d3a54e8822f1a4f74e394",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/eth-hooks/pull/11 & https://github.com/austintgriffith/scaffold-eth/pull/220",
+    "timestamp": 1624610841
+  },
+  {
+    "tx": "0x23a06f7371ab4b6d7136a39622e300763e55b4b511ece3d715b30675a1a5e4d2",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.3009,
+    "reason": "https://github.com/austintgriffith/eth-hooks/pull/7",
+    "timestamp": 1622005825
+  }
+]

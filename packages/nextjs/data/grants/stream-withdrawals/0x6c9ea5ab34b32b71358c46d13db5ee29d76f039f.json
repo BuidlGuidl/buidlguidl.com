@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0x51f9d8cb30335ce0122252656749fede8ea79df433d18acff3ec10a3d96be04b",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 1,
+    "reason": "AppStore release of Scaffold Wallet https://apps.apple.com/us/app/scaffold-wallet/id6444080870",
+    "timestamp": 1671728075
+  },
+  {
+    "tx": "0x62a005888cd082c15a67f72bbd08e7e82d7c1925c00c0cbdebbc5f8821a10b92",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 1.2,
+    "reason": "🔥📱💸 Beta version of Scaffold Wallet React Native with Wallet Connect, MultiChain support, Biometric Security, Txn Signing/Speed up  https://github.com/danielkhoo/scaffold-eth-react-native-wallet",
+    "timestamp": 1654833995
+  },
+  {
+    "tx": "0x376983d5839663a723c995906e2d09f9cd9ae5a562d0a2abf9ab6a07101e0c21",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.8,
+    "reason": "🔥📱💸 Built initial alpha version of Punk Wallet iOS with React Native and Wallet Connect with easily forkable repo https://github.com/danielkhoo/scaffold-eth-react-native-wallet",
+    "timestamp": 1649522152
+  },
+  {
+    "tx": "0x89f6cf380de77efbb03d5f33a61383855174876e3164f1bdd14cce7e0f49a09e",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.1,
+    "reason": "🛠📈 Built out a v1 Dune Analytics Dashboard for the BuidlGuidl https://dune.xyz/jadenkore/BuidlGuidl",
+    "timestamp": 1647337378
+  },
+  {
+    "tx": "0xf1bfdca6b5f39fb059cbb28934887897b3e998494f78b655d0ab926c93449364",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.2,
+    "reason": "📚 Wrote up walkthrough Medium post for BuidlGuidl Dynamic SVG NFT https://jadenkore.medium.com/creating-a-dynamic-nft-that-updates-in-real-time-based-on-chain-data-3d989c04f137",
+    "timestamp": 1647005396
+  },
+  {
+    "tx": "0x9622dd393ebab53a2264bf47f10686bff5d917670745b123aff949e45b00a644",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.2,
+    "reason": "🏗️ 🏰 Built a dynamically updating BuidlGuidl Tabard NFT for mainnet Ethereum. Mintable by all builders with an Eth stream at https://buidlguidltabards.surge.sh/ --- Contract at https://etherscan.io/address/0x06a13a0fcb0fa92fdb7359c1dbfb8c8addee0424#code",
+    "timestamp": 1646360525
+  },
+  {
+    "tx": "0x11b85785450f256a4102d99e21b7059e01ac494e68f0e45207a36503b0d817fa",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.2,
+    "reason": "📚 Wrote RockPaperScissors Commit/Reveal Tutorial Readme and Medium post   https://jadenkore.medium.com/building-a-rock-paper-scissors-smart-contract-with-scaffold-eth-12fe6f90d673  ---  https://github.com/danielkhoo/scaffold-eth/tree/rock-paper-scissors#readme",
+    "timestamp": 1644292853
+  },
+  {
+    "tx": "0xca0563e142e60dc312623c2360e9c637a9bd1e17f81c3ab42c345ac04f0bbddd",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.2,
+    "reason": "🛠 Built out RockPaperScissors Commit/Reveal Contract and dApp frontend https://github.com/danielkhoo/scaffold-eth/tree/rock-paper-scissors",
+    "timestamp": 1644292748
+  }
+]

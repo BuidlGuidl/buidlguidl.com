@@ -1,0 +1,154 @@
+[
+  {
+    "tx": "0x678a92bdfb3a8b185c793d3807f8773bb5926113e9795d2c12d2cd908c8c93a2",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1.5,
+    "reason": "BG Backend work, hackathon payouts + KYC work, Stream deployments, Hackathon judging, Q1 Q2 BG tax catchup, and clearing simple stream.",
+    "timestamp": 1720636955
+  },
+  {
+    "tx": "0x98f06b250031aff2fb05ef3cf5761ad87880d55d9fad9ce53e20d6fa4342289a",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "Extra node work, hackathons, KYC, socials backen",
+    "timestamp": 1717426463
+  },
+  {
+    "tx": "0x32a3fa90be71f7d148f8f158588f101eaf2e0b4f7cf9f117b2fd1af6a077e58e",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "Finished 2023 BG Tax Reports - 2023 Financial work",
+    "timestamp": 1710342299
+  },
+  {
+    "tx": "0x18ca24a14c96c497df906c0fabf31a9aae5ff9090ec917071ddd1fbf244982f4",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "BuidlGuild Taxes Sprint",
+    "timestamp": 1706655563
+  },
+  {
+    "tx": "0xe3eb41033db846201c6c9c43c7a140a6175a0fde3f8c4410b4a0b5bd7f674091",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "LaunchPod deploy.  Batch0 work.  Financial calculations.",
+    "timestamp": 1702404803
+  },
+  {
+    "tx": "0x65979e37d0f060627bb92a2a251e43a88f4cd23f7988f9e814bafa96a8c5c009",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "OP & LaunchPod going to the finishline",
+    "timestamp": 1698955403
+  },
+  {
+    "tx": "0xa50080f7f3c84f075d54c4b1a8d3d8d6f218b6a8a9ef97c2180d8c60d6d45bae",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "OP Voting Project PRs, Issues, among the usuals",
+    "timestamp": 1695322895
+  },
+  {
+    "tx": "0xdf762b69e63dd239ddc611591ad3a8e5c56ef04dd17d4963713b8946001abc74",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "Gist github PR guidelines, Youtube repping ",
+    "timestamp": 1689614915
+  },
+  {
+    "tx": "0x9705355780d79a9b1c4b83dc6ff2a4f554fc70d28483e98072d7d231cf81509a",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "SE2 DAO Site, Polling Site  https://buidlguidl.com/build/9ExMQzLPFfIRe2n7o5pu  https://buidlguidl.com/build/CvcaKiBJXPX2S1qCc8mv",
+    "timestamp": 1684764971
+  },
+  {
+    "tx": "0xc5258e6165e646e2ef7f5a9c279e8abc477d57f919b9eb10707b105c20f487a1",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "2022 BuidlGuidl Tax Prep",
+    "timestamp": 1679238095
+  },
+  {
+    "tx": "0x3af8c6d12b264668cc692101f42f0578a8b06f72b36d3a35d7c62463bedaff82",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 0.75,
+    "reason": "ETHDenver Kiosk parts order and setup",
+    "timestamp": 1676475431
+  },
+  {
+    "tx": "0x65ce9b07a9874282eaeab3231b9654f325e1c6df6e4f21bc52eae0bc5a8eab95",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "YouTube repping on BG Labs/BTF videos",
+    "timestamp": 1673542547
+  },
+  {
+    "tx": "0xb5d2b9be356c40d1a491bf1a8a9f47631c108ac44c6fb1546ddb76f888321225",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "State challenge curation - Tech Tree work - Dex grading curation",
+    "timestamp": 1668188051
+  },
+  {
+    "tx": "0x58c1c736f5dd55bb6f07b5b5ca09c0e306656ce40c83ffd6886738c2421e9d53",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 0.5,
+    "reason": "BG Core Grading utilities, BG Member list creation - Still Grading and iterating challenge",
+    "timestamp": 1660168183
+  },
+  {
+    "tx": "0xbc5802b2fca0ed5aff92998b396b8d525d8d666f4c247b8edb02478b6f80a6bb",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1.5,
+    "reason": "Dice Game Challenge complete, Dice Game level in eth.dev.  Challenge support to new builders / general housekeeping.",
+    "timestamp": 1654524264
+  },
+  {
+    "tx": "0xc518777b89ecc8ecd77af9ed8f267708f3842d68053e462f25cc8a3b31a23dfb",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1.5,
+    "reason": "Dice Game Challenge / Ch0-2 maintenance and user assistance",
+    "timestamp": 1651769294
+  },
+  {
+    "tx": "0x0aa7c1e0cff3ed1f28e5ec58dc61d68a5d5c00a95a669b8b86a42c7313412ac0",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 1,
+    "reason": "Challenge Curation / Assistance.  Telegram assistance.  Working on Dice Challenge",
+    "timestamp": 1649859437
+  },
+  {
+    "tx": "0x2c4f4b20a1f024d074019e307ec2e7ca77d171080e42d271ec5f3f038ff43f26",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 0.993797,
+    "reason": "Challenge Maintenance / Guidance to new builders / Day to Day stuff",
+    "timestamp": 1647884993
+  },
+  {
+    "tx": "0x26479b7d4545a681d092ca4496e95083c010caec6f1b49ac0fb0912c58f4b452",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 0.498268,
+    "reason": "Challenge 0-2 JS/TS grading and support.  Telegram support.  Diving into the SVG NFT branch.  Also breaking and the subsequent fixing of challenge 0 😬.",
+    "timestamp": 1646936257
+  }
+]

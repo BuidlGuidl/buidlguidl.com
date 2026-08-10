@@ -1,0 +1,90 @@
+[
+  {
+    "tx": "0xc032ced60d6a60fff9d4d3a9b8e85eeae25f576e2309a164307b26b8da39fabc",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.5,
+    "reason": "Working on Nifty.ink and continued work on On-Chain Mechs",
+    "timestamp": 1717738427
+  },
+  {
+    "tx": "0xf470c8e9b7c77d15e714e03ea97985c7a3230616a27426a1a83c9c6cd5041457",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.3,
+    "reason": "Further svg Design and concept work on On-Chain Mechs",
+    "timestamp": 1696499123
+  },
+  {
+    "tx": "0x72eef847560bc8a8e26ae10bdd97013f1bd81ed3a3ecf415012576e19b3603a0",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.3,
+    "reason": "Design Doc and prelim concept/design of BG SoulBound NFT badge",
+    "timestamp": 1693422983
+  },
+  {
+    "tx": "0x777672beddaebf37c67c5b7dde2b342aeb1cd4ba55738120ccd1b74387a82632",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.3,
+    "reason": "Concept, layer architecture and SVG work on manga-inspired generative pfp project, in process.",
+    "timestamp": 1691134535
+  },
+  {
+    "tx": "0xc871e0c4c184f658ec9dd739034ed176cf8cc27173849c995d27fafe3e3562f0",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.5,
+    "reason": "continued work on NFT project images/tshirt designs and BG notify Bot",
+    "timestamp": 1661504928
+  },
+  {
+    "tx": "0xc75323e8f21cd19979d57f9eb9e295c4c46afe825925b0ec0d50cb48ba9e43fa",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.5,
+    "reason": "Guild NFTs project images - processing",
+    "timestamp": 1658504263
+  },
+  {
+    "tx": "0x521aa23e20bc1514acd01556aac8c2fdfc27023b18ad83f26da30280dc86cd7e",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.3,
+    "reason": "0.05 E x  5 failed stream withdrawal transactions for Drawings done for Buidl Guidl Website. Guardian with Orb, Cyclops upcycle Hard red, Guardian dragon, Cadet scholar, Inafntry and Monk.",
+    "timestamp": 1651817654
+  },
+  {
+    "tx": "0x1ee1b3d2311d80787534e9a774907dab53901fa94ca169aba725f34a7c6be776",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.07,
+    "reason": "Guradian with Orb and Cyclops upcycle and Hard Red for Cadet - Images for BuidlGuidl",
+    "timestamp": 1648136059
+  },
+  {
+    "tx": "0xe8f21d907f0eba6dcbb327279951e36ec601555e131b20d55ef138a81108c8d8",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.05,
+    "reason": "Guardian Dragon for Buidl Guidl Website",
+    "timestamp": 1647347660
+  },
+  {
+    "tx": "0x0968441c0137dab2f27675e6fcfe552334db55e4169759d9affac4eb5217c5fa",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.05,
+    "reason": "Cadets drawing for BuidlGuidl website",
+    "timestamp": 1646930328
+  },
+  {
+    "tx": "0xcb7720e5f72fd930e00d9fa44797c80abf3d6106f8c625cfac5571809a909cc2",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.1,
+    "reason": "Infantry and Monks inks for BuidlGuidl.com",
+    "timestamp": 1646655296
+  }
+]

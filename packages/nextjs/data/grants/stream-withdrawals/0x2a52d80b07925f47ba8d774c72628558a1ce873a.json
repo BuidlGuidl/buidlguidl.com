@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x7e5cce0cf215a17ce7f95120d11b99dcc58914ca8d3571502631ae6741c790dd",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.49,
+    "reason": "Transparent Upgradeable Proxy Factory build",
+    "timestamp": 1707083963
+  },
+  {
+    "tx": "0x136accdad49fc02edb67b4f07d77d6c1e14796f326aad52c9c4a451f65bfbdf7",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.5,
+    "reason": "Building Contract Clone Starter",
+    "timestamp": 1704516251
+  },
+  {
+    "tx": "0xeff6c9f47f57b34a7254ce80d2d20edc6771f0d73c9cbc7a8129a8328ea4ec83",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.45,
+    "reason": "contributions to Telegram builders' issues/questions and OP RPGF contribution",
+    "timestamp": 1701565499
+  },
+  {
+    "tx": "0x5032cc0180db882144ae1d25184df47ac80d6befa40abedead0abc3302fa760e",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.05,
+    "reason": "contributions to Telegram channel and OP RPGF contribution, stream test",
+    "timestamp": 1701478355
+  }
+]

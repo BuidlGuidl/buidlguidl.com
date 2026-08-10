@@ -1,0 +1,114 @@
+[
+  {
+    "tx": "0xc115433c23350ca98729539d3dd9bbcd8f182caed30b42a24ae1c9a4af4b3431",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.35,
+    "reason": "Launchpod PRs - #69 Updated to se2 latest version; #75 contributions and token balance auto refresh And UX changes - modal exit on overlay click and added input fields autofocus; #79 Resolved 'no hacker stream' display before loading completes and removed modals' z-index ----- Dice Hunt: Hack the private key - https://github.com/Avelous/dice-demonstration/tree/av-demo-live ",
+    "timestamp": 1700203703
+  },
+  {
+    "tx": "0xee4e50a02fc6c334cfffde8c410c68e6e2f76e01b36bef5651b1183b9f2debc2",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.5,
+    "reason": "Launchpod Prs - #46 Added Admin functions to homepage; #54 Ui enhancements - positioning of header and admin button handling; #56 Fixes to Admin display, errors when adding creators and flexibility of erc20 functions; #65 Changed font style and sizes; #66 Fixed token balance and Stream data auto refresh ——— Prototyping a dice demo",
+    "timestamp": 1698388727
+  },
+  {
+    "tx": "0x7d9078c65c1bbf5a34539f091696ce1f135cfdd7485dc94c565f16d1708c25e1",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.5,
+    "reason": " CTF and security continued research,, SE2 migration of existing projects, & hands on cleaning up launchpod ui ",
+    "timestamp": 1695764723
+  },
+  {
+    "tx": "0x49f74438e2267cca23c789ed59eb44df9f53995b4e6716fd2ce5ef25bb3f8d4d",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.4,
+    "reason": "further developments on launchpod and revisiting eth splitter",
+    "timestamp": 1693214135
+  },
+  {
+    "tx": "0x27b31a62f02199a6b00bf13385a54c0f56fcf48a5846b4e28c9871684689c449",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.25,
+    "reason": "https://github.com/BuidlGuidl/LaunchPod/pull/17 && https://github.com/BuidlGuidl/LaunchPod/pull/21 && ",
+    "timestamp": 1691074187
+  },
+  {
+    "tx": "0x8cfe63db5d83da574109286abe501691d38fc899746a0308351f35dcaaa6b150",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.05,
+    "reason": "launchpod OP & ENS testing and continued research",
+    "timestamp": 1690376999
+  },
+  {
+    "tx": "0xd67fcc549b36cad723fff7a217fe32bd43e2a3f639a8980e9485200a45d74444",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.45,
+    "reason": "gasless and security research | fixing and contributing ui/ux fixes to launchpd : https://github.com/BuidlGuidl/LaunchPod/pull/11 ",
+    "timestamp": 1689599327
+  },
+  {
+    "tx": "0xc34e67625c43f54d4270fb85051ee44b4dc80526afb547aedad1080f433c1377",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.3,
+    "reason": "Testing the waters of ethereum security and learning about Secereum.",
+    "timestamp": 1687179851
+  },
+  {
+    "tx": "0x95cc63eb8132ada97132580f4e8ae52a9bef7dde644ece31bbc1ff695915210f",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.4,
+    "reason": "ETHSplitter - ethsplitter.vercel.app Updates:  Multi-chain support for switching networks. Code refactoring and improved UX. Added a comprehensive Readme documentation.",
+    "timestamp": 1685620763
+  },
+  {
+    "tx": "0x924b93b39729a957c22464479849fed3a2657cbf204ca1c798f5868c1dbafd68",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.3,
+    "reason": "prototyping a multidrop for eth and token splitting",
+    "timestamp": 1683536375
+  },
+  {
+    "tx": "0xf5cfc43e901601aac23139bac0e3c1f2f85a68483860c0950348b12cf724f612",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.1,
+    "reason": "Working with flashbots; ens rescue avelous.eth",
+    "timestamp": 1682063051
+  },
+  {
+    "tx": "0x9f2bd0533f3c725cf2910fc8a23355219e80c4d02539427c06a0d7e805a80a82",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.4,
+    "reason": "the COH S6 - starter kit with se-2 for easy dapp development: https://youtu.be/aRue4IdNEXA",
+    "timestamp": 1681414187
+  },
+  {
+    "tx": "0xaa211338cbadcad0590ce7dfa0b7eb4b3d95152bb535526c781bb8d0380b4a93",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.45,
+    "reason": "Shopping app on chain: shoppr0x.vercel.app , add products in stock and buyers pay eth for them. ",
+    "timestamp": 1679466179
+  },
+  {
+    "tx": "0xdc493e5297604618d744e4c3e4fc3c1c050f2adb8a45a096e7f891722d852b4f",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.15,
+    "reason": "working on a sign in with ethereum shoppr",
+    "timestamp": 1677356855
+  },
+  {
+    "tx": "0x3af01b3102718e5fcfc85e9cd9c910488c5fc7f43313f3c20812f10e4dcbb14a",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.4,
+    "reason": "Worked with mcyande and okuri, on That Socks Nft - ui elements and alchemy nft api handling. Bow tie friday show of for thatsocks nft and token-splitter: https://buidlguidl.com/build/CKGARtMdqJfX4h9p98Ms",
+    "timestamp": 1676278943
+  },
+  {
+    "tx": "0xe5e90313a1cbf4758d384299898d22d7939c3c4fae73491434e579f437855838",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/rEJZYLyiIe0Oy3ijUvp6 Token-splitter & cancel-tx ui for multisig.lol",
+    "timestamp": 1674146147
+  }
+]

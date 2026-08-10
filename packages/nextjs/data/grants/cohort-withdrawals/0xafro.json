@@ -1,0 +1,242 @@
+[
+  {
+    "tx": "0x26efa76a009f2a6eaea717bd3f7a7678971254acb0fd890bbc8990fe05e4f434",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.0014,
+    "reason": "",
+    "timestamp": 1737154051
+  },
+  {
+    "tx": "0xc07ed789817478acc5d61a8dab7647574137fb930440cdb3801c58d0cfe607a0",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "Completed work on NodesNote",
+    "timestamp": 1709289269
+  },
+  {
+    "tx": "0x35744600610b1fc956a85c716b786b8993aec8efe53774b04d4a4a333421d778",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "monthly team manager tasks",
+    "timestamp": 1709283623
+  },
+  {
+    "tx": "0x866212b30ece2e2a283255a1631d9ebc8c0843f0824c1143428bb1d37624e2db",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0,
+    "reason": "monthly team manager tasks",
+    "timestamp": 1709283575
+  },
+  {
+    "tx": "0x2a81aeca3626a7049f69ee86c02710512e6cbc3dc0cb9de9ec1f5446be256925",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0,
+    "reason": "monthly team manager tasks",
+    "timestamp": 1709283525
+  },
+  {
+    "tx": "0xb190e35fb2fbc20afdeaf24d5e107c56a4477bbf1ed629242b66499d46e07c3f",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0,
+    "reason": "monthly team manager tasks",
+    "timestamp": 1709283485
+  },
+  {
+    "tx": "0x9e38a43a21c9a1e275a3600ab0b724c38e8c7d503252d9e57cb0d55131298455",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Facilitated upgrades and bug fixes across web3 components in token legacy.  Plus web3 blog dev work",
+    "timestamp": 1709165931
+  },
+  {
+    "tx": "0xbca148f18e79ae17b8977197326ec66b5d5acd7630e5066ce57b1d2b3eba0111",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.4,
+    "reason": "Dev Completion of multidrop and new 0xafro ui",
+    "timestamp": 1706710051
+  },
+  {
+    "tx": "0xbff61cbfe6b28b4222a36997e402c7a23cc0c2d6f3db8091843d0e9fac7f4ac5",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "Completion of token legacy website",
+    "timestamp": 1706692755
+  },
+  {
+    "tx": "0xc14e39f44e7f5d3363c19c77fdfc4f63e5357695c2a5dea54803d556fb9f242f",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Completion of Technical Implementation for Token legacy and it's landing page",
+    "timestamp": 1706684797
+  },
+  {
+    "tx": "0x512bc1fe0420a25cb33fdb61e9b2c0840bc111adf39ff90ea335e3199dd6f7ff",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.1,
+    "reason": "migrating multidrop ui to scaffold-eth",
+    "timestamp": 1706422221
+  },
+  {
+    "tx": "0xeb8a1229b66fb1c44fe7720574df5db0fba48c5a35d443a98ad6bb04c7768caa",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.1,
+    "reason": "Aika design (complete)",
+    "timestamp": 1704189395
+  },
+  {
+    "tx": "0x312b99356661dc11e4eb20098798b629914e64ba311b5cdd88358fc2d19d773b",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "facilitating dev sessions for redesigned stream web3 implementation",
+    "timestamp": 1703949941
+  },
+  {
+    "tx": "0x59d6395e14b63ec2c1097ac4a27002241dae7cf4acdc8fffea2046f9260b344a",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Dev work on 0xafro website template",
+    "timestamp": 1703925425
+  },
+  {
+    "tx": "0x515c5c4335fa590735bdb7afc9a83ce5ca7e4f26b36ec3da5aed2c4da6048b81",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.4,
+    "reason": "Design work for aika",
+    "timestamp": 1703596263
+  },
+  {
+    "tx": "0xce2ae04fff27c0513bd0d9a5dd48a08c28d06e489ec261f48c03c04ca0143c94",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "Worked on 0xafro design",
+    "timestamp": 1701445883
+  },
+  {
+    "tx": "0x4f23ff75dae265bcd0c15e3fc7023a930cdb8c2b1b29eacb090d85f5c041f541",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Completion of Technical implementation management of myPage3, Subgraph design",
+    "timestamp": 1701331753
+  },
+  {
+    "tx": "0x797567782033cadfec8de8b42832e66157958f57e738d767df4f4089e97f2fd0",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Implementation of nft storage and IPFS to in myPage3 project",
+    "timestamp": 1701330933
+  },
+  {
+    "tx": "0xc99515c3bd9acae1cf763121e9c2c4a1b1b47c81ca344c2aea45b13e2c694d26",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "ENS design integration for usepage3",
+    "timestamp": 1698840965
+  },
+  {
+    "tx": "0x76161f636df7401ba934c43a3ee927f7031e4c589e771267c28e372f63f79d37",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Blockchain implementation of usePage3 with Sacffold eth : https://github.com/Maker-Studios/usepage3-scaffold",
+    "timestamp": 1698736897
+  },
+  {
+    "tx": "0x3a378f346aa9340dbdbcc89f0439d543a855f573af909f2821e71d39526d563f",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Technical Implementation for usePage3",
+    "timestamp": 1698736491
+  },
+  {
+    "tx": "0xd306234efe935610acb405459b95d4d025acdfa835fa5646a084d614036ae9b2",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "Pasta UI, usepage3 and 3rd stoecUI",
+    "timestamp": 1696245613
+  },
+  {
+    "tx": "0xe787c701b34f5cb258eafa4997cef3f24aa636418afad816c2f955fb9a6d4d18",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Technical implementation management of Usepage3, Subgraph design",
+    "timestamp": 1696141517
+  },
+  {
+    "tx": "0x2ec294e23ec658dca02685c451f97d9a9100e9707037478ed379375bbc4bc3e5",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Completion of Token Legacy UI dev, Implementation of Usepage3 and Pasta designs (WIP)) ",
+    "timestamp": 1696141251
+  },
+  {
+    "tx": "0xd1c3457d7f78285cfd0da450db18237609359ffe347a4286ae2091160296f353",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "3rd store UI design",
+    "timestamp": 1693555131
+  },
+  {
+    "tx": "0x9619c1d456cf30d771be948f8632ed92377ae01f29108343826b09053d108086",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Completion of Technical implementation management of token legacy, Subgraph design and 3rd store implementation",
+    "timestamp": 1693516887
+  },
+  {
+    "tx": "0xe16d179f168eda5a1dab9f7ba6db1e57d8223b13f35d745d4c2ae96405cbe3f6",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "Token Legacy completion and 3rd store UI implementation https://github.com/Maker-Studios/token-legacy",
+    "timestamp": 1693515491
+  },
+  {
+    "tx": "0x2ab92143c11c1205aa84bc63a61ccb081be2e4a6611fa6b247ef0ad503eea034",
+    "builder": "0x3d5060137257ac81eb999e29bd068b568741854d",
+    "ens": "mazikvng.eth",
+    "amount": 0.5,
+    "reason": "Technical implementation management of token legacy, Subgraph design",
+    "timestamp": 1690734865
+  },
+  {
+    "tx": "0x3b00a69d58d47d5439511561b28032e35534227f81da66d330488c7a417c49be",
+    "builder": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+    "ens": "leyeconnect.eth",
+    "amount": 0.5,
+    "reason": "Token legacy web app designs & 0xfeed WIP",
+    "timestamp": 1690733991
+  },
+  {
+    "tx": "0xb5bb74959b6ea7dcbaa5b34d31416e6783a952da408889e9830c85d39ec78529",
+    "builder": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+    "ens": "moscode.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/Maker-Studios/token-legacy, Token Legacy UI development, Web3 Components",
+    "timestamp": 1690729397
+  }
+]

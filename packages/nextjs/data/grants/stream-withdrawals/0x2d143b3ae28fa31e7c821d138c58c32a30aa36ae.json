@@ -1,0 +1,250 @@
+[
+  {
+    "tx": "0xd9d40ce2dc2d5f498ef9545014d349445b0bc2c8ae98b011b4a7fce87ea18901",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.25,
+    "reason": "BG Batch #6 ",
+    "timestamp": 1717826927
+  },
+  {
+    "tx": "0xe7214ab8363f40a75c51aa8ed074d053ba59e7e9692ff85ca730cf6a2b8e6259",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter (#20)",
+    "timestamp": 1716754367
+  },
+  {
+    "tx": "0x35afdecf7f4c7f0fba51d6ae59bfe6e247cf260394e770447c4fd3fc8fec002b",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 1,
+    "reason": "Builder Podcast - Stani and Capsule Pod  ",
+    "timestamp": 1715794439
+  },
+  {
+    "tx": "0x41836b673075d99dcc08b494a5f543f05f4b275fc5e1d40e105ff9d366ec6824",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter (#19)",
+    "timestamp": 1714233155
+  },
+  {
+    "tx": "0xac8d107e0e085da2bcdd1248e28c356f6901a107054749671d670110d89bdd98",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 1,
+    "reason": "BG Batches Work, BG Podcast",
+    "timestamp": 1712328935
+  },
+  {
+    "tx": "0x8a568eca32adb34ceffba2d86a541e541db419bda615cad9a7eee3d93a942e9f",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter (#18)",
+    "timestamp": 1710526607
+  },
+  {
+    "tx": "0x3d910e53928e42877a287fda753369e8a5bd42822006f591c91ddd7af5c33c1e",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.5,
+    "reason": "BG Newsletter, Batches Work (Batch#3, Batch#2)",
+    "timestamp": 1709388539
+  },
+  {
+    "tx": "0x35395e38cbb35dc20b2fc3e044cfd8928097f0e0e7070ee43551262692715dab",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG Newsletter, Batches Work",
+    "timestamp": 1708082231
+  },
+  {
+    "tx": "0x66f7b0ad0e8b12b14f99cb0535a1d1dafcac7f32a2684aeb466abc90dc07c35c",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter - end of year recap ",
+    "timestamp": 1703728979
+  },
+  {
+    "tx": "0x11d514bf3eaa92bb20e95c3be85af17c2e99a6dafab7c0673586125ed20be400",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BuidlGuidl Newsletter, Batches Work ",
+    "timestamp": 1702562867
+  },
+  {
+    "tx": "0x7b0af0b0dadb760ba10ad4a6fe004e575f5da6a4589f05cb5cae6fda4e3f6d84",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BuidlGuidl Newsletter, Batches, SE2 doc work",
+    "timestamp": 1698832439
+  },
+  {
+    "tx": "0xaaa7d423a23cdb26a4d770962aafcade0e36cdb0f3e1bdf7bb9dabe9d6584467",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.5,
+    "reason": "Scaffold-eth 2 Documentation & bg newsletter ",
+    "timestamp": 1698232763
+  },
+  {
+    "tx": "0x27d7df00600dd0065322bc95a1027b4d69201e2f03695c1f26398dabe6da4582",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter",
+    "timestamp": 1696260911
+  },
+  {
+    "tx": "0x61761bf8f5e8509804e5abb6710589a48226c732f1f8d5d290aaaa2490a34684",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.5,
+    "reason": "BG newsletter",
+    "timestamp": 1694615111
+  },
+  {
+    "tx": "0x6979509d268457c9a2fdde352d5388cb912e0d3a311d116773e116830012465b",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Working on SE2 Documentation and hackerhouse writeups",
+    "timestamp": 1693577723
+  },
+  {
+    "tx": "0xc0a72cda904c6a01ae3d900abd940387a89cd189589a34dbc34b2340ed4e4d7b",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Scaffold-eth 2 Documentation & BG Newsletter",
+    "timestamp": 1692448007
+  },
+  {
+    "tx": "0xc757f368ff005c80937e66b330ad9ba21c842b88b789e8a42e9a2e1ef04a6751",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Newsletter & Hackerhouse writeups",
+    "timestamp": 1691163383
+  },
+  {
+    "tx": "0x0b2325bf95e6bba125f66b0061393d9eb1044fa3a5b3d6c8b4e467d26f8f42e0",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG Newsletter",
+    "timestamp": 1689948215
+  },
+  {
+    "tx": "0xc69267bfb0cc228784551200a030e82bc48e6d8b4523380b3dc37d53f1f760ae",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 1,
+    "reason": "Scaffold-eth 2 Documentation: https://github.com/scaffold-eth/se2-docs",
+    "timestamp": 1688434799
+  },
+  {
+    "tx": "0x607c20fc188b064f08c8333eaa07a0d2392f6557b30986281874baa92f008d35",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 1,
+    "reason": "Hackerhouse Builder Writeups & Working on SE2 documentation",
+    "timestamp": 1687199999
+  },
+  {
+    "tx": "0x0a7040e616ee307263e18ee9c5672e3914beccfebef188f53db632915a15b75a",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG newsletter: https://buidlguidl.substack.com/p/bg-shipping-log-11 & ENS DAO proposal",
+    "timestamp": 1685979995
+  },
+  {
+    "tx": "0x8ca0627176bb5d07c7d6be34b0f2c4d121afbb0e3fea0e581724127d8f1eb224",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Buidler Spotlight - BG Newsletter",
+    "timestamp": 1683951839
+  },
+  {
+    "tx": "0x0e21f3584212363b5ed98cc33da74ff3f805ae46e7d075b03868a8356556e3ed",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Builder Spotlight & BG newsletter",
+    "timestamp": 1682388347
+  },
+  {
+    "tx": "0x93c97c7c24b433e60cf2a174b70dc5ca9c7aa9ae0bff4084ab03bc8af8369740",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "March BG Work: BuidlGuidl Newsletters, BG labs, Ethdenver",
+    "timestamp": 1680601499
+  },
+  {
+    "tx": "0x37b34db3060d769e9a58f0b68ba4007250e1ab3c6c4bd2c8b7d5e91288929706",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "ETHDenver buidlweek organization & work",
+    "timestamp": 1678716287
+  },
+  {
+    "tx": "0xd7a34914de5366369a34e95433f79d7d0a7d46f411ccb7906c37ca0badcb8cba",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 1,
+    "reason": "Ethereum getting started resources (https://github.com/edakturk14/ethereum-developer-resources), SRE & BG at Conference, BG Labs (https://github.com/BuidlGuidl/devrellab)",
+    "timestamp": 1672048679
+  },
+  {
+    "tx": "0x425a7dec77363e5632aa4e022b305189f2dd9fb4de0f5973090687a72e9c0538",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "Ethereum Developer resources (https://github.com/edakturk14/ethereum-developer-resources), BG FAQ, Scaffold-eth live stream (https://www.youtube.com/watch?v=OEreIC-IBXI&ab_channel=CryptoCurrencyCertificationConsortium) ",
+    "timestamp": 1669708199
+  },
+  {
+    "tx": "0x6744d3a77584b61673295352de213c974854dd16764672d18e80c42e657593ad",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.75,
+    "reason": "BG Newsletter 3 & 4, Scaffold-ETH Docs (https://docs.scaffoldeth.io/scaffold-eth/))",
+    "timestamp": 1667806475
+  },
+  {
+    "tx": "0xfb87726eb56b58147458553083c0fdd2fe560f941352bb67d84c1cb22e1da202",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.25,
+    "reason": "BG Newsletter: https://buildguidl.substack.com/p/bg-shipping-log-2",
+    "timestamp": 1662493966
+  },
+  {
+    "tx": "0x910dc9b3bee12fd79ad35b7f56c6fbeb4f9d8f1f7deec3a671edf40e004b2b24",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.25,
+    "reason": "May work on web2 to web3 curriculum: https://github.com/austintgriffith/web2-to-web3-curriculum",
+    "timestamp": 1654325505
+  },
+  {
+    "tx": "0xb64b1a32f430a505fe9f0a5705d01453674abe7b41443961649ce47218e14191",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.1,
+    "reason": "video session on scaffold eth: https://www.youtube.com/watch?v=TmkyER4KjxQ&t=24s&ab_channel=AustinGriffith",
+    "timestamp": 1649787826
+  }
+]

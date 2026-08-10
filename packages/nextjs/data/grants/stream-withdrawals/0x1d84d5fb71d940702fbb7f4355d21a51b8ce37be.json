@@ -1,0 +1,98 @@
+[
+  {
+    "tx": "0x0e087b7ef7d4d75d03badb36e62e2944033cd6974d368e180a32e58909418598",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.6435,
+    "reason": "open source educational tooling with ronkathon with bounties and collaboration",
+    "timestamp": 1725069515
+  },
+  {
+    "tx": "0x8cecd321e32cb1de595dcceec16f42a09595e0c1218be3844c7a806d5a7337d8",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 1,
+    "reason": "buildin'",
+    "timestamp": 1713874031
+  },
+  {
+    "tx": "0xc8a94beb58c1166bacf172b9796b0f33a304f0ec6673d5400da3aaa01a54ffa6",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 1,
+    "reason": "building",
+    "timestamp": 1710853439
+  },
+  {
+    "tx": "0x9e8ce04fa6af6764f4884bb3dd47ae0720e8e2d911a5a0e95a7065713f2e3952",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.61,
+    "reason": "Building + Jessy's Hacker House",
+    "timestamp": 1707785771
+  },
+  {
+    "tx": "0x66f8402b2c15c6a7c5384b06598783d754fbd1fbb8d70592f5511e16fa58efc3",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 1,
+    "reason": "Building + Jessy's Hacker House",
+    "timestamp": 1706204039
+  },
+  {
+    "tx": "0xffb6a4881f337484e9593d1e8d6e173fb351272aab0c3bbe549d3036263a0c40",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.7465,
+    "reason": "Building + Jessy's Hacker House",
+    "timestamp": 1703422715
+  },
+  {
+    "tx": "0x5c752ab160d14a1e11f1666f6eeffda2d9b8fd84465d229be7aad8e5c82fa4ce",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.3447,
+    "reason": "building / Jessy's Hacker House DevConnect",
+    "timestamp": 1702140779
+  },
+  {
+    "tx": "0xbd59388da24959fd924610f4bbcdadfa826737d3cee742899bd816ea120b6ebe",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.7973,
+    "reason": "building / Jessy's Hacker House DevConnect",
+    "timestamp": 1700594183
+  },
+  {
+    "tx": "0xeeb09a19749cad4c901392beda4bda3a985106047523d0055da53ee0509daf92",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 1,
+    "reason": "Building/Planning",
+    "timestamp": 1698527459
+  },
+  {
+    "tx": "0xee7575ed7e51c2ef96816683c731ec5ba6819721b08d4272a65fe77818e859d4",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.8847,
+    "reason": "Continuing open source building",
+    "timestamp": 1695737999
+  },
+  {
+    "tx": "0xbd82737531098f21d9da35166a86a6a149b536e844a6c5c7d6d08d83432cd4d8",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 0.9733,
+    "reason": "Continuing open source building",
+    "timestamp": 1693444787
+  },
+  {
+    "tx": "0x80431413127d3c37753a15cfb54a1f88c7aa15fa67cc3465e28a69405c915f06",
+    "builder": "0x1d84d5fb71d940702fbb7f4355d21a51b8ce37be",
+    "ens": "autoparallel.eth",
+    "amount": 1,
+    "reason": "Working at Jessy's Hacker House",
+    "timestamp": 1690921787
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "tx": "0x0f286597a89799722bd9f2a94c24099d3859dda77cc629e9c1af6af048c9a066",
+    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
+    "ens": "buidlguidl.zakgriffith.eth",
+    "amount": 0.26,
+    "reason": "Cohort clearing",
+    "timestamp": 1769638103
+  },
+  {
+    "tx": "0x6a3b9e8a3fd69ef73895231935ef79881aed4df79aafea6fe2369742d9bae4a2",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "",
+    "timestamp": 1769530019
+  },
+  {
+    "tx": "0x672953d0fc5f80348a070224575b23a65e7010e0061b714a163b96e8e4741923",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.25,
+    "reason": "BuidlGuidl Client design work ",
+    "timestamp": 1767197699
+  },
+  {
+    "tx": "0x5b36b4b0aa29c325762f30f3145bcffcd3af1538833809470071cf73f6849af7",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.1,
+    "reason": "Advents dot fun video editing and design help ",
+    "timestamp": 1766232467
+  },
+  {
+    "tx": "0x7eaed87c8b4f2294b64858155c556019f74f37cc28ae63749481fffe5ff6e24c",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.25,
+    "reason": "Scaffold Eth x Devconnect Argentina workshop and  x402 hackathon animated poaps and design help ",
+    "timestamp": 1763553311
+  },
+  {
+    "tx": "0xd92ef2c0a1cc4e579b3f4e5bdc38a6594e52691915853f455c93d1bd1d917ec0",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "Sept-Oct work : BuildETH San Francisco x Scaffold-Eth and ETH Latam Sao Paolo workshops POAPs | Devcon Argentina 2025 BG merch : CTF designs ( Tshirts , stickers , hats , badges and banners ) and other design help .",
+    "timestamp": 1760652731
+  },
+  {
+    "tx": "0x7c851178e486a117b21c2927bccd9f30ceaf5b830bee0459a1230216f02fd933",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.25,
+    "reason": " August work : Devcon merch  ( Bread Tshirt and hoodies designs ( front and back ) ) | cohorts.fun logo | unfurl images design  ",
+    "timestamp": 1756905059
+  },
+  {
+    "tx": "0xba5963998fe503b06d4c3ac78aba8eada43758a868760bf0dbd894cd0b104694",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "Cohorts.fun page design | web 2 to web 3 short video outro | Ethereum Tour stickers and Tshirt designs |  BG Bread website Oven 3d wireframe animation .",
+    "timestamp": 1754909303
+  },
+  {
+    "tx": "0x70bb3f565cbd5d96d62974b58a4642afcd4c180e9398b38763c41d837a4bbef3",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "built an interactive web experience for SpeedRunEthereum : https://my.spline.design/untitled-xIr8XpyxXDDzyDTmhQ9TbwQd/ || EthGlobal New York and Devconnect event assets ( Animated poaps for scaffold Eth workshops )  ",
+    "timestamp": 1752261635
+  },
+  {
+    "tx": "0x57ff605a7b1fd3c7815bb14dd11802d919a8e0b2fce1d993f92c7b3192f4d6b4",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.25,
+    "reason": "Eth Prague + Eth Global Prague + EthCC animated Poaps and design help",
+    "timestamp": 1747055291
+  },
+  {
+    "tx": "0xdb83444ab597184af847ecece64f53cf8122f268454aa9d13f03e564610688db",
+    "builder": "0x835d28ca7450fb7fb759539b0d4af8bb22ea0280",
+    "ens": "andrealb.eth",
+    "amount": 0.2,
+    "reason": "Extra March: SE-2 video tutorial first contact",
+    "timestamp": 1746185423
+  },
+  {
+    "tx": "0x89341fd1b006ff26f0606fffaf26630e8b57aeffb044d28af2b40635d8666219",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "Builders camp website 8 animated pixel art planets / Hawaii Blockchain Youth Summit animated workshop POAP /  Ethereum Development 101 animated workshop POAP",
+    "timestamp": 1742383907
+  },
+  {
+    "tx": "0x64eecfc5d246c92a669d45c19850b2b8968ae7af1c18419cf4121846a95d1a68",
+    "builder": "0x835d28ca7450fb7fb759539b0d4af8bb22ea0280",
+    "ens": "andrealb.eth",
+    "amount": 0.25,
+    "reason": "Extra February: Help with Midjourney tile game, isometric tile prompting and editing.",
+    "timestamp": 1741113755
+  },
+  {
+    "tx": "0x309e7719887cdb7fdb520453c2a5724133f9bbb69a9166e8663f64b382496364",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.2,
+    "reason": "BG website design work ",
+    "timestamp": 1738545263
+  },
+  {
+    "tx": "0x0388388ad86446296a4faa0e564c2331281dd10572ba727fd8dfe6555d12e4bb",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.1,
+    "reason": "SE ETH DENVER animated POAP for workshop ",
+    "timestamp": 1738101155
+  },
+  {
+    "tx": "0x7c922e0b24f894dae36178e3e57d6c4e9a0c1baa6ffff555cd372f63cbc658d9",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.2,
+    "reason": "Kevin's builders basecamp website assets ",
+    "timestamp": 1737589163
+  },
+  {
+    "tx": "0x6fa155e5a9831485d3b2db28e5997e146f28b8f5095401e3ddd28f0516e40939",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.3,
+    "reason": "BG Client illustration creation --- satellite video modification --- SE Onboard Taipei workshop animated poap and other design help kshop animated poap ",
+    "timestamp": 1735078091
+  },
+  {
+    "tx": "0xc291ddb0251ba44127ca7de10807cb5e2e9a13d3c318e1b1e081d30d32c2136e",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.2,
+    "reason": "SE Eth Global Bangkok animated Poap , SE Devcon bangkok animated Poap , BG meme templates",
+    "timestamp": 1732473383
+  },
+  {
+    "tx": "0xee5f0d9d04eb654154f0b9e93faf1b8ac31a1109f73feb746ac6bf89620bc80f",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.5,
+    "reason": "BG client website design assets  / BG CTF website design assets / new BG Swag design / CTF event POAP / other design help ",
+    "timestamp": 1730314403
+  },
+  {
+    "tx": "0x415353f1dd29c5976d2a59e2d91792ade27001ba201ce39c64da2240dc2ff6ed",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.2,
+    "reason": "SE Eth Singapore animated POAP , SE ETH San Francisco animated POAP",
+    "timestamp": 1727979695
+  },
+  {
+    "tx": "0xc0433f95c74bfb6063b74afd773c4865a937c7b8573cf21612d32297075dcb18",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.15,
+    "reason": "SE ETHWarsaw workshop animated Poap / website design help ",
+    "timestamp": 1725473303
+  },
+  {
+    "tx": "0xe9d0aa5d4bc44137ce285482eee2e7a595bc33c7567342805233398982a98593",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 0.5,
+    "reason": "Buidler Interviews",
+    "timestamp": 1724436887
+  },
+  {
+    "tx": "0xb6f53423943eaa8e4a6f163ffec3a299711b249ea70acfe2d777a9a232ee4301",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.4,
+    "reason": "SE EDcon tokyo animated poap , SE BG workshop poap , Speedrun ethereum large prints , svg logo code optimizing and other design help .",
+    "timestamp": 1722879875
+  },
+  {
+    "tx": "0x5413d88f4f68c56d92bb1c8eda97505eccdd4d32bcb22bb0f83aff4f5b8bd34b",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.5,
+    "reason": "Work for Brussels (Twitter posts, individual posts, luma,poap) and Tokyo Post for Twitter and Luma",
+    "timestamp": 1722873419
+  },
+  {
+    "tx": "0xe363e4ec07275c183a7ef9c0b88692cc05a1bd4b81a376cb67e0d0c8fc2bedd8",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.2,
+    "reason": "SE ETH Prague and SE EthCC 7 animated poaps",
+    "timestamp": 1721247923
+  },
+  {
+    "tx": "0xe2b0f4fa64cdf1b4e87c979a142d073df51953d3ea4fcfc9a6c8e7d24f370776",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 0.24,
+    "reason": "Hot Ship - episode 1",
+    "timestamp": 1720784231
+  },
+  {
+    "tx": "0xcd00f36112f715d5b6fe082c3361d84bc558e292de787a7b442ad7100f0f2b07",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 0.5,
+    "reason": "Buidl Base Camp",
+    "timestamp": 1719520679
+  }
+]

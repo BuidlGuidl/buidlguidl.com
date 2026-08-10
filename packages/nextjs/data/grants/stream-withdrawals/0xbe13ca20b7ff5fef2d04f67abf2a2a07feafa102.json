@@ -1,0 +1,202 @@
+[
+  {
+    "tx": "0x10c3d072f3b4e8cd4630c41f056905751958d0ef9d3d069ea4664700a7bf0723",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.9006,
+    "reason": "emptying old stream",
+    "timestamp": 1724416259
+  },
+  {
+    "tx": "0x97575b79c22fae3e1e463aeed96eebcaaa9233f147ae08899341b123dd29c6da",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 1.5,
+    "reason": "emptying old stream",
+    "timestamp": 1720315859
+  },
+  {
+    "tx": "0x4639623c8886443486ffd89b9b11d1c4cf700316600b4c128d901a08b526fe53",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/se-2/pull/28",
+    "timestamp": 1666268435
+  },
+  {
+    "tx": "0x671585742e1b7ee3e89fc4d29bde0dfadde95dbe849124389b02a2498406ad52",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "se-2 work.  Burner wallet with rainbow / wagmi. Autoconnect for burner wallet https://github.com/scaffold-eth/se-2/pull/8. Meetings",
+    "timestamp": 1664588039
+  },
+  {
+    "tx": "0xd91332022095fe4680bd0ce09418a9c3598f59f436273ae35e49942a598ac52a",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.1,
+    "reason": "Created video for foundry and CLI changes.  https://www.youtube.com/watch?v=bEd6wV2H28g https://twitter.com/ShravanSunder/status/1570038105159176193?s=20&t=0z3KeJ6PF9V1AMjNd11yCg",
+    "timestamp": 1663238639
+  },
+  {
+    "tx": "0x5916d0263390507a793651c59d1ade32bb803807e9ff036b0d926a5d825bca0c",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "Finished work on foundry / command line branch.  Continued work on https://github.com/scaffold-eth/scaffold-eth-typescript/pull/103 🎉",
+    "timestamp": 1663036950
+  },
+  {
+    "tx": "0x3f6155dc1091707f1c97ae7d5d3c3357c9b1d8a99ace2042442993b7e82a4a62",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Continued work on https://github.com/scaffold-eth/scaffold-eth-typescript/pull/103",
+    "timestamp": 1661176352
+  },
+  {
+    "tx": "0xeb569b5c2733a629a2c6d7c318c9bee0a800e8fa3f14e6b263fec34252802257",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "[🏁 1.]created eth-ui mono repo https://github.com/scaffold-eth/eth-ui/issues/236 [🏁 2. ] continued work on foundry integration into scaffold-eth-typescript https://github.com/scaffold-eth/scaffold-eth-typescript/pull/103",
+    "timestamp": 1660526601
+  },
+  {
+    "tx": "0x914d27681e4e1844303a2b2c8333a02e12a9d8424affa64f4161db9af04694f9",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Working on foundary integration and scaffold commands https://github.com/scaffold-eth/scaffold-eth-typescript/pull/103",
+    "timestamp": 1659927097
+  },
+  {
+    "tx": "0x5b43244eead854ca5d1da29bf1bd4fd1e502886e4f1247818f12a2161f7499cb",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Eth-hooks Fix issues with burner signer, finished up contractAppContext to zustand, fixed issue with build",
+    "timestamp": 1659610493
+  },
+  {
+    "tx": "0x64343be83fe742807927137babf0072a5b89ea13c8f0226ffce208996177c6c5",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "[🏁 1.] Work on eth-hook and scaffold-eth-typescript bugs, updates and improvements https://github.com/scaffold-eth/scaffold-eth-typescript/issues/106 [🏁 2.] Continue work on https://github.com/scaffold-eth/scaffold-eth-typescript/issues/93",
+    "timestamp": 1658584175
+  },
+  {
+    "tx": "0xe9a64c50135189e537f47480c19bc61641a1bd79e94f36edd4e46d6cf32d6efe",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Continue working on forge version of scaffold-eth-typescript, some work on eth-headless, and design integration with wagmi",
+    "timestamp": 1657632258
+  },
+  {
+    "tx": "0x54fdec7d64801cbbf63ce842bcaa783f7691f1be019ca16d95c53a2e8e590337",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Working on forge version of scaffold-eth-typescript. Researching wagmi",
+    "timestamp": 1655943968
+  },
+  {
+    "tx": "0x098229033c23a54362d2ce08e66cd68024a67c95a4175972c6690624955a5dce",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Finished nextjs branch and merged it!  🎉 Also updated eth-hooks and eth-components for both cjs/esm outputs",
+    "timestamp": 1654953065
+  },
+  {
+    "tx": "0x84ecc66fbecc31d3570b2e597dde741e194c73a10d90385cc5323c53eae16e79",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "Continued work on nextjs.  fixes for libs regarding esm/cjs compatibility.  [🏁 1.] https://github.com/scaffold-eth/eth-hooks/pull/221 [🏁 2.] https://github.com/scaffold-eth/eth-components/pull/52 [🏁 3.] https://github.com/scaffold-eth/scaffold-eth-typescript/pull/91",
+    "timestamp": 1654540376
+  },
+  {
+    "tx": "0xfee6beaa375e10b5d1f96e5f8a00ac7e9f4c1010b4c1ded41c3764b0d28ab0df",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.397,
+    "reason": "next js and eth-headless",
+    "timestamp": 1653946716
+  },
+  {
+    "tx": "0x7fbf4cec611ed272f8ecf126a31c656c193deb61b01b734160ac658fae9995af",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.6,
+    "reason": "Work on scaffold-eth-typescript next js version.  https://github.com/scaffold-eth/scaffold-eth-typescript/pull/91 Additionally bug fixes to eth-hooks",
+    "timestamp": 1652925925
+  },
+  {
+    "tx": "0xc1ac3f46ebeb6270002ae9990ba9f2972f917f45e533b7afa20fe1c738a5bc91",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "[🏁 1.] Prep and presentation for hack money https://www.youtube.com/watch?v=a7W9nTX8qLk&t=2 [🏁 2.] fixes to web3 modal cache in eth-hooks https://github.com/scaffold-eth/eth-hooks/issues/213",
+    "timestamp": 1652156678
+  },
+  {
+    "tx": "0x5aa3e8d7145f5ce66d79f27139aad052f0de75978f3868501bb238a0ff351c91",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "[🏁 1.] Added callbacks and improvements to login and logout - [#207/login improvements by ShravanSunder · Pull Request #208 · scaffold-eth/eth-hooks · GitHub](https://github.com/scaffold-eth/eth-hooks/pull/208) \t- [ ] [#88/login by ShravanSunder · Pull Request #89 · scaffold-eth/scaffold-eth-typescript · GitHub](https://github.com/scaffold-eth/scaffold-eth-typescript/pull/89) \t- [ ] [#49/login updates by ShravanSunder · Pull Request #50 · scaffold-eth/eth-components · GitHub](https://github.com/scaffold-eth/eth-components/pull/50) [🏁 2.] updated documentation, docusarus site and added search and other features. [#169/generation improvements by ShravanSunder · Pull Request #209 · scaffold-eth/eth-hooks · GitHub](https://github.com/scaffold-eth/eth-hooks/pull/209)",
+    "timestamp": 1651728983
+  },
+  {
+    "tx": "0x9412fb3e02fb4c5db912804da9d8628f7b9a66bb0cd3ea746021f063f40abffd",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.5,
+    "reason": "updated to react 18 for scaffold-eth and packages [1. 🏁] scaffold-eth-typescript https://github.com/scaffold-eth/scaffold-eth-typescript/pull/87 [🏁 2.] https://github.com/scaffold-eth/eth-hooks/issues/204 [🏁 3.] https://github.com/scaffold-eth/eth-components/pull/48",
+    "timestamp": 1651398540
+  },
+  {
+    "tx": "0xd6a332aa02bcf193836badf163289042d0ef249ba5c178c94c5dab73d57ebc5f",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "[🏁 1.] released v0.3.0 of scaffold-eth-typescript [🏁 2.] updating packages in eth-hooks and scaffold-eth-typescript (for react 18) https://github.com/scaffold-eth/eth-hooks/pull/202",
+    "timestamp": 1650936436
+  },
+  {
+    "tx": "0x66c9f72e89963d09fcdf0ccc56f8f59a0db166ae13329ed4f439ec372d109e8d",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "Integrating improvements from LF Grow hackathon into scaffold-eth-typescript https://github.com/scaffold-eth/scaffold-eth-typescript/pull/84",
+    "timestamp": 1650332952
+  },
+  {
+    "tx": "0x97c94c9c40d8b06cdc87623cd2eda2f334c3be701078a12603405498858660c7",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.9,
+    "reason": "[🏁 1]Lens protocol hackathon and scaffold-eth-typescript lens protocol starter kit.  Worked with mark! :). https://github.com/ShravanSunder/hackathon-2022-03-lfGrow [🏁 2] started work on update and improvements to scaffold-eth-typescript and eth-hooks based on hackathon.  Doggfooding!  🐶",
+    "timestamp": 1648398473
+  },
+  {
+    "tx": "0x55e5996ba8ea2a12a044c357a2da5cc8d62c1823efb5e95e9f4a24967041d0e7",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.3,
+    "reason": "DefiNFT Road to web3 hack in Feb 2022-02.  Build  https://github.com/ShravanSunder/hackathon-2022-02-roadToWeb3",
+    "timestamp": 1647670395
+  },
+  {
+    "tx": "0xf1bed9ff6a7e9e9809698f8b13b287b8758c2b1fdadd1199f0f17810aa78af81",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.25,
+    "reason": "Eth hooks and scaffold maintenance, fixes",
+    "timestamp": 1646679119
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0x241cea89ea2fe37983906df51c615f4d25240b399bd3d661efe7ef52a4f9187d",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.125,
+    "reason": "",
+    "timestamp": 1718463239
+  },
+  {
+    "tx": "0x22d95ef40997251e7b6bf9f671aa27b28f39fbc4a3099bd57096dc4aa354d801",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.5,
+    "reason": "",
+    "timestamp": 1717795919
+  },
+  {
+    "tx": "0x5daa3ecd715d05a234821bf0b095cc193b0272a0b67f1d7ebfdea85b76a6091a",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.5,
+    "reason": "Solidity implementation of ERC4626 compliant Yearn V3 Vaults Contracts (Including Vault Factory) / Solidity Contracts / https://github.com/ldsanchez/vault-se2 ",
+    "timestamp": 1705641395
+  },
+  {
+    "tx": "0x5b67d7194edd8ad33dac274f1e3612f8f283a0f6046abcd05ad7b07f837ba1a5",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.5,
+    "reason": "Fiat Backed Stablecoin Manager / Foundry + Refactor + Unit Tests / https://app.buidlguidl.com/build/O19X0fN6UIgEn2VXb7tp",
+    "timestamp": 1702397675
+  },
+  {
+    "tx": "0x6603c5342128982715137a2e8c97b10a031f15db26dedeff887419e21b0854fe",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.5,
+    "reason": "Fiat Backed Stablecoin / Foundry + Refactor + Unit Tests / https://app.buidlguidl.com/build/O19X0fN6UIgEn2VXb7tp",
+    "timestamp": 1690820063
+  },
+  {
+    "tx": "0x2e350359bb93062be4fdf6a181aaf2f25e6b1a43b38be3398f6fe4dbd8c6c622",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.25,
+    "reason": "DOmagle Build / 2 Weeks / https://github.com/Naim-Bijapure/D-Chat",
+    "timestamp": 1661961452
+  },
+  {
+    "tx": "0x87862c8f3ab20feb4ac22e3f51498648fa849e6507007ab4be3424d8a49e2688",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.125,
+    "reason": "Scaffold-ETH-Next / 1 Week / https://github.com/Naim-Bijapure/scaffold-eth-next",
+    "timestamp": 1661961129
+  },
+  {
+    "tx": "0x0e32af05ea3081df8e22393947305ad64d794005025917f9f26d59900f5398d3",
+    "builder": "0x3970b226569a391c5446b9c68445d57f3e9d06e3",
+    "ens": "lscorpion.eth",
+    "amount": 0.5,
+    "reason": "Social Recovery Smart Contract Wallet / 4 Weeks / https://buidlguidl.com/build/kFRXsBNz6URNjzzJd0g5",
+    "timestamp": 1658886855
+  }
+]

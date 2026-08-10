@@ -1,0 +1,74 @@
+[
+  {
+    "tx": "0x5d953deb7cd075fbe6f1fa0b40412e29a19db8c7f04f2323c2f613e9e4ff16c8",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1) Continued work on LaunchPod for Oct-Nov https://github.com/BuidlGuidl/LaunchPod/tree/staging 2) Work on Business Entity Accounting smart contract for Oct-Nov https://github.com/cacosta88/accounting-smart-contract 3) EVM + smart contract security research for Oct-Nov. 4) Leveling up front-end skills for Oct-Nov",
+    "timestamp": 1700069615
+  },
+  {
+    "tx": "0x81ac3b44cfc0e691fbda1bc075cee69f8f678e2239b7288720582963aeac25da",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1) Continued work on LaunchPod for the month of August and September 2) Prototyping accounting functions within a smart contract  3) Improving front-end skills 4) EVM research",
+    "timestamp": 1695420035
+  },
+  {
+    "tx": "0x95f9c7411764d7f1b52bf34585b196b5026c98036abeba4ee01195e7edb0401a",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "continued work on launchpod, revisiting ethsplitter with yul and huff, learning next.js",
+    "timestamp": 1690911995
+  },
+  {
+    "tx": "0x19b33e2a79d70ff1031de808654f2cde09e8745be85b5d60ce43ae8f630bf8a3",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "Eth only LaunchPod: https://github.com/BuidlGuidl/LaunchPod | LaunchPod eth + erc20 smart contract and test file: https://github.com/cacosta88/scaffold-eth-2-native-erc20-launchpod/blob/main/packages/hardhat/contracts/YourContract.sol  https://github.com/cacosta88/scaffold-eth-2-native-erc20-launchpod/blob/main/packages/hardhat/test/YourContract.ts | writing assignments ",
+    "timestamp": 1687975019
+  },
+  {
+    "tx": "0x4088e6eef6e0aa5329e2a6ccb6f6ba76aaa72e200c79f7e547a608957a1a3f51",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1) Smart contract for EthSplitter build + front-end testing: https://buidlguidl.com/build/hhMB6Z3jJsrsoUqehhrw  2) Smart contract for squad streaming build + front-end testing: https://github.com/cacosta88/wenbugfixsir/blob/main/packages/hardhat/contracts/YourContract.sol  ",
+    "timestamp": 1685334791
+  },
+  {
+    "tx": "0x720de23b533e2c415bd70a19a431383bb3eaf3aa3f46931f805983586f36fc43",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "ethsplitter contract, tic tac toe contract, eth tax app ",
+    "timestamp": 1682708339
+  },
+  {
+    "tx": "0xe5d7d565fc34087544c2f6ffcd7d2951a1c9247678bd8cd7675d78d80e285351",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "Further development of an Ethereum tax app prototype during January, February, and March : https://ethtaxapp.herokuapp.com/ ",
+    "timestamp": 1679504183
+  },
+  {
+    "tx": "0xcb89d0c3d1a5d6c13c71e97c305ce6eeb0698bed30ff6988950c575471903c39",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "Development of an Ethereum tax app prototype during October, November, and December: https://ethtaxapp.herokuapp.com/",
+    "timestamp": 1670822855
+  },
+  {
+    "tx": "0x70caed39514b5968d99e0b82e55de447184f2d977bbcb55de696d7da0673f64b",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "(1) Build covering Chainlink VRFv2 and generative+animated SVG NFTs. Code smart contract and front end for random number game and on-chain NFT minting.   https://gamefyassetacquisition.surge.sh/tldr (2) Working through and providing feedback on challenge 9 (Guru`s funded channels using off-chain vouchers) ",
+    "timestamp": 1665671795
+  }
+]

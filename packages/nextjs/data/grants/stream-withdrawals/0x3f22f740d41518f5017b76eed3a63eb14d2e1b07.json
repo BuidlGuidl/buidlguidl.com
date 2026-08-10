@@ -1,0 +1,370 @@
+[
+  {
+    "tx": "0x922181d1cdabbd956e708427ab35b3d1cfd8ba18cbcf136a12196b03c229f390",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at scroll side event ETH Denver",
+    "timestamp": 1718204591
+  },
+  {
+    "tx": "0x40d40907961412fd03ca8fc14f237451815cd5bfe8c6e5a68513cb48fe9ac7bf",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.25,
+    "reason": "Spoke at ETH Denver, Buidl week, phala side event, DeFi day workshop",
+    "timestamp": 1717708799
+  },
+  {
+    "tx": "0x4cd9a2ac08e856205a66d3126e8e3f18d19c6c761253d5aa8b7f01e5efd15a2f",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Gave full day Urbe.eth Bootcamp in Rome",
+    "timestamp": 1715268707
+  },
+  {
+    "tx": "0x6ed5c280d80d4f058b115a90c2ec3e2a569bab1a60593f8b743d0414d5cb4ffd",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "spoke at ETH Global Istanbul + Hack Factory event",
+    "timestamp": 1712171411
+  },
+  {
+    "tx": "0xcd8f010617e4b49b639251aa6c263ab21bf2ecbd492c9d479ffbca3449b98542",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Spoke at ETH Cinco de Mayo and Chainlink Turkey event",
+    "timestamp": 1709453555
+  },
+  {
+    "tx": "0x28ed3176adf9d13b30f67184998bb4fbb28551825fb201131dc8e77a7ef3aa42",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "gave workshop at ETHRome and pre-hackathon event",
+    "timestamp": 1706654879
+  },
+  {
+    "tx": "0xc3d077c8c9ed101052231fc8d5464060002a39489d7e52f7b35384070fe6e614",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "spoke at Zero to dapp workshop EthCC + Bcamp.dev workshop online",
+    "timestamp": 1703786159
+  },
+  {
+    "tx": "0xbbb66bfbe7f22b123d33df846f1dc5aa6e2c74794e65c55eeb6366e071263e05",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Created Scaffold-ETH Solidity Challenges repo",
+    "timestamp": 1701198863
+  },
+  {
+    "tx": "0x008addbcdb6093bf7259ad3d101dfbb8bb06b7b85c6eff44d7c5ececf028c83d",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "spoke at ETHGlobal Waterloo",
+    "timestamp": 1701126923
+  },
+  {
+    "tx": "0xa3ddfb21cb6bf811597bbab76517e8d9299434c2eb057adef7584fa56c16c1ff",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at ETH Seattle",
+    "timestamp": 1698599135
+  },
+  {
+    "tx": "0xb2265641a235c97f12ffa231d62ad86398f6578842fa7591670354c8b8b35c35",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "Spoke at ETH Chicago",
+    "timestamp": 1698421943
+  },
+  {
+    "tx": "0x790fbefa7489402e70ed504293130eb046af8716149c6f23e282c2f53150e836",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at HoW3 workshops on se2",
+    "timestamp": 1696838111
+  },
+  {
+    "tx": "0x95082643808317950de437854cb576d482f137f7828dee4e72f3ec7fb2e3a532",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "spoke at ETH Portland Intro to Scaffold-ETH 2 ",
+    "timestamp": 1695225491
+  },
+  {
+    "tx": "0x8db384ca81b61c18005ec4513b63648c8afe9f9e88f1c756ee200c50cb162ce1",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Workshop at RenderATL on intro to full stack dapp development ",
+    "timestamp": 1693360523
+  },
+  {
+    "tx": "0xcad1efeae6116208cf9f6d8f4a3afcc794775d99db5758ff134c970674561995",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "spoke at ETH Belgrade and DeSci World Belgrade",
+    "timestamp": 1690462979
+  },
+  {
+    "tx": "0x87303029cfcf00047621ff4d643f58cc422b91ffd59080e19c49d2b1aba5a1ab",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "spoke at ETHDam - Intro to Scaffold-ETH 2",
+    "timestamp": 1687294211
+  },
+  {
+    "tx": "0x88d6dd0230b59dfb7ed5523f188ffd177006bfb6f53eaeb281930d60b1f09385",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "spoke at ETH Austin and BuildETH, House of Web3",
+    "timestamp": 1684495859
+  },
+  {
+    "tx": "0xb6ad62a440413bb7caf6d60bfb7fe8ccc2f64afecc45164c6c2406aac97b61d2",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at Scaling Ethereum / spoke at BAF Webinar ",
+    "timestamp": 1680911579
+  },
+  {
+    "tx": "0xbed2fcec6a9671fb61829826f8e6c68e82725078e532080cb4798a2086ba7505",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at metagame online workshop / spoke at Conf42: Blockchain, intro to scaffold-eth",
+    "timestamp": 1679064371
+  },
+  {
+    "tx": "0x3e7a47c101b5a2bb39056a1da8c4abae693227b855d5416453ba70a8b8833f09",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at bogota speed run Ethereum online workshop",
+    "timestamp": 1679064059
+  },
+  {
+    "tx": "0x19e0bbe00336ee44f8682685270ad4915c0eb5dfae51cab9a712ec84deb4506a",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at ETH SD Meetup intro to scaffold-eth",
+    "timestamp": 1677910511
+  },
+  {
+    "tx": "0x40479e22b56ce96a918ab684ea76e4299b4aa56923aba936eff9e54fb3d2f576",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at C4 webinar on scaffold-eth + buidlguidl",
+    "timestamp": 1675981619
+  },
+  {
+    "tx": "0xe1582333a90d09235f07a71ac65160408dcad743d597ed88f67aebe6289c0dce",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Metahackathon workshop on Scaffold-ETH",
+    "timestamp": 1675324667
+  },
+  {
+    "tx": "0x21d1041954cad51a1aa754f2bf42c22f2d6a7f63afb1da002281e97eff3d0f00",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at ETH Vancouver",
+    "timestamp": 1675324607
+  },
+  {
+    "tx": "0x4e5e56b02a7c3cc8ce74ea6edf63ef05b10d36533ed9bc5f93955a4aeb88e089",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at House of Web3 full stack dapp workshop",
+    "timestamp": 1673223515
+  },
+  {
+    "tx": "0x0401200844ae232f88204955354498a37d0227b21072a56e2d952e50ad4e0414",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at ETH SF",
+    "timestamp": 1672035335
+  },
+  {
+    "tx": "0x16b413db1b9f43b3d7e0de03b054961fc86d4d6bbe5d356ca24d9fd8226c5a2f",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at API world virtual scaffold-eth x The Graph demo",
+    "timestamp": 1670524763
+  },
+  {
+    "tx": "0x222b48577098074afe4a1df7d91504a158f5abca1cacbb7232374311ddea3c58",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Spoke at Hack on Chain 2022 virtual ",
+    "timestamp": 1670295143
+  },
+  {
+    "tx": "0x451aefce003b9f02ac2640d2472cd2f46f7389b4311851527144c3a119f61e06",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at Puerto Rico IEEE Web3 Blockchain hackathon 2.0",
+    "timestamp": 1669482947
+  },
+  {
+    "tx": "0x723680762b68655c5bc4077477a1d4419b37c94c6f98c81d253f2b8cee8589fb",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "API World 2022, Scaffold-ETH + The Graph",
+    "timestamp": 1668578711
+  },
+  {
+    "tx": "0x694c9df4850e86d3ba212ca7a24aacd7d3f5181d2704f36f84d503e02422dd02",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Spoke at Hack Squad, workshop intro to scaffold-eth",
+    "timestamp": 1667327339
+  },
+  {
+    "tx": "0x6d78eccabd259333618039af810dc8ae48cc504eb516b78872e11bb109658b0f",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at Devcon 2022",
+    "timestamp": 1666663667
+  },
+  {
+    "tx": "0xae314248fad328af75771b4622d9c4a906c88c76380fa0283d8075fe584eeea1",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at ETH Bogota 22",
+    "timestamp": 1665437879
+  },
+  {
+    "tx": "0xe6cf2b49a9b676c62dcd9ad354970b927ce9276761e91de0b58667bdd651d829",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at Hack the North in Toronto",
+    "timestamp": 1664073899
+  },
+  {
+    "tx": "0x00a2b41bed926bd22a372f3e8133aae3512bf92fa76b137daa8213cffe723047",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Spoke at that.us webinar, getting started programming on Ethereum ",
+    "timestamp": 1663278647
+  },
+  {
+    "tx": "0x014f871cd5024deb6b25f2a295a0e461f8693ba0bf2a9025c8e71ce3a872e07c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at ETH Online 2022 Kevin x Austin",
+    "timestamp": 1662506199
+  },
+  {
+    "tx": "0x8569fa34068a4db3666c0b411096b1d57a2a878942656d77d435777af065d7ff",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at Ignition Hacks, Toronto high school hackathon, intro to Ethereum and scaffold-eth",
+    "timestamp": 1661806408
+  },
+  {
+    "tx": "0x8cf8e6ecaed6a9e66af96687df3034181f12a9c18aa90fa1b75eb739ee428df0",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at IEEE web3 PR hackathon, intro to scaffold-ETH",
+    "timestamp": 1661806322
+  },
+  {
+    "tx": "0x09b88def8b03ce432364de9ddc9b832ade38f209e72382559eb547373ad51952",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at ETH Mexico",
+    "timestamp": 1661449263
+  },
+  {
+    "tx": "0x0cdb86ea7926f6d6b3976c51e41780af8099161144b8a54186d36d8d9664a167",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Simple NFT and Buyer mint NFT Webinars",
+    "timestamp": 1659980091
+  },
+  {
+    "tx": "0xc58de25598f1231304062a3bc2e0b3c3bf0c89eea111b10d7dbcd9acd3f477e2",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "webinar, Build on Web3 with Javascript Frameworks using Scaffold-ETH",
+    "timestamp": 1658593930
+  },
+  {
+    "tx": "0xbeab69df6920b74b6f79fdad8f4542a965f0cda625ae67498af62ee930810c4c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at ETH NYC",
+    "timestamp": 1657169639
+  },
+  {
+    "tx": "0x9ba56b0e2a19de5dc051f0c0f2a9ba5dc8bd6b3cee6cf00d38270dd5eab68a5d",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at Growic Solidity Workshop, Intro to Scaffold-ETH",
+    "timestamp": 1654633168
+  },
+  {
+    "tx": "0xde8ca234d6f7f0284ea115230a41add1793e599dac31a6a03506cc0a99378da2",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "speaking at Graph Hack 22",
+    "timestamp": 1654204044
+  },
+  {
+    "tx": "0x311e8745dc12129da2ab76c5c423940a553aea3f93ff02ab08c831a95c6224d8",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "speaking at JAMHacks 6",
+    "timestamp": 1653067365
+  },
+  {
+    "tx": "0x61474f1a8efa8b18f5a4efb83615f5716955011488b9fd4d0909bab10cd65d06",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at HackMoney ETH Global Hackathon (virtual)",
+    "timestamp": 1651853867
+  }
+]

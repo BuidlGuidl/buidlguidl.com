@@ -1,0 +1,26 @@
+[
+  {
+    "tx": "0x2fd460a953630777f4acd57d5f707a1b9b3c1db96dac33387a3e0eba235c0fdb",
+    "builder": "0x07d503a5eada1d5741307ce085f5ecb8d950558f",
+    "ens": "sabbirahmed.eth",
+    "amount": 0.5,
+    "reason": "1. EIP712 Version of Multisig.lol  2. Staking Contract with Permit2 3. Vesting Vault with a cliff  4. ERC20 with Tax on transfer 5. Some defi hack reproduction using foundry",
+    "timestamp": 1674348587
+  },
+  {
+    "tx": "0x1997871c4ee3942b2e4dd58603501ef4934dcaa64dae15e843cd1fd10d27890d",
+    "builder": "0x07d503a5eada1d5741307ce085f5ecb8d950558f",
+    "ens": "sabbirahmed.eth",
+    "amount": 0.304907,
+    "reason": "Created a new app on top of Lens Protocol using Scaffold-ETH Typescript. https://bazaar.buidlguidl.com/build/vcOx8fCR4Uy2H8g9dtsc",
+    "timestamp": 1649610855
+  },
+  {
+    "tx": "0xc1f1d842e3846c1e2db42ab7dac21b0e07e5900f207a86e7b5e3a8f213f78828",
+    "builder": "0x07d503a5eada1d5741307ce085f5ecb8d950558f",
+    "ens": "sabbirahmed.eth",
+    "amount": 0.194613,
+    "reason": "Multisig build with scaffold-eth  https://bazaar.buidlguidl.com/build/WCTuBoN5OvtgigrZHwDg",
+    "timestamp": 1647362614
+  }
+]

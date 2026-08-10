@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x249669565bf24d8b97d5a69be590b12d119e8e8926f16d1a26c4f1c0bdb3c0ab",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.2,
+    "reason": "Eth tech tree challenges work + review https://github.com/BuidlGuidl/eth-tech-tree-challenges",
+    "timestamp": 1717440347
+  },
+  {
+    "tx": "0x2d62199fca1cc31b66d56a5e911dcb5fe51cc17a0097cb10223e6a567d34eeed",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.3,
+    "reason": "Initial work on a new build, experimenting with using a Github App to automatically send tokens to project contributors when PRs are merged. https://github.com/swellander/cointribute",
+    "timestamp": 1715716751
+  },
+  {
+    "tx": "0x06f6a04e85e838f8ffb4715ce62cef8e15a7712fc4e7d81a14054b84d8dc0e51",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.3,
+    "reason": "Impact calculator PRs and review: https://github.com/BuidlGuidl/impact-calculator/pull/80, https://github.com/BuidlGuidl/impact-calculator/pull/75, https://github.com/BuidlGuidl/impact-calculator/pull/67, https://github.com/BuidlGuidl/impact-calculator/pull/70. Also worked on Repo Gate, adding the option to configure the token used: https://github.com/swellander/repo-gate/pull/1",
+    "timestamp": 1712286515
+  },
+  {
+    "tx": "0xbe7b23b91745148ef313c8fb47b4feca308917914b2e2ba61e9ed4dc7f4bd322",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.2,
+    "reason": "Worked on the Impact Calculator project: https://github.com/BuidlGuidl/impact-calculator/pull/19, https://github.com/BuidlGuidl/impact-calculator/pull/31, https://github.com/BuidlGuidl/impact-calculator/pull/42, https://github.com/BuidlGuidl/impact-calculator/pull/57, https://github.com/BuidlGuidl/impact-calculator/pull/58, https://github.com/BuidlGuidl/impact-calculator/pull/59, https://github.com/BuidlGuidl/impact-calculator/pull/61",
+    "timestamp": 1710384335
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "tx": "0x08469e74dd1cb11d158b844a50bbf7d99ddf9821a9b5d10f342af72ab9c84d74",
+    "builder": "0x87198e7be697d0168eb7e57e1896dd48a7b8be6a",
+    "amount": 0.25,
+    "reason": "sweep",
+    "timestamp": 1681598831
+  },
+  {
+    "tx": "0xe7de4aa795bf3e6d34c2e6d2ff8fedd720e8d1591673a2a5dd538fb055f9ee20",
+    "builder": "0x87198e7be697d0168eb7e57e1896dd48a7b8be6a",
+    "amount": 0.25,
+    "reason": "Scripting and Indexing || Learning to listen to onchain events and watching mempools; working on a node",
+    "timestamp": 1677707303
+  },
+  {
+    "tx": "0x7c81bdf2c282be5f45128e96e393dd17b0db8824bec93790deb06ae6d93ee9d9",
+    "builder": "0x87198e7be697d0168eb7e57e1896dd48a7b8be6a",
+    "amount": 0.5,
+    "reason": " Speedrun ethereum challenges completion; Meta Multisig (http://multisig-service.surge.sh/), State Channel service provider app and worked on the smart contracts for \"ThatSocks svg composable Nft\" with the help of olga for the designs and avelous for ui (https://thatsocks-nft.surge.sh/ - https://github.com/yandmch/That-Socks-NFT)",
+    "timestamp": 1676377799
+  }
+]

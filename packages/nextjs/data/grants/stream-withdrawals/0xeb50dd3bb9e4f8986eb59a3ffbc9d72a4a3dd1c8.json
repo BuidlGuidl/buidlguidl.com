@@ -1,0 +1,10 @@
+[
+  {
+    "tx": "0x3b3c7fb7c4851d1ee7f90a8e3bdda3f073d76777fb7b8158f36668f19d9958af",
+    "builder": "0xeb50dd3bb9e4f8986eb59a3ffbc9d72a4a3dd1c8",
+    "ens": "snook1.eth",
+    "amount": 0.5,
+    "reason": "Last withdraw",
+    "timestamp": 1717727327
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "tx": "0x1345da43ef5afb76466208d3b16412ea856950dd731c57a3016e2cda9eb6ef36",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.049,
+    "reason": "https://github.com/BuidlGuidl/buidlguidl-client",
+    "timestamp": 1725061007
+  },
+  {
+    "tx": "0x813c755063133d828ddc1fc6f75af643debb6fc15be01a6d75c404951f0cae44",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.5,
+    "reason": "BG Nodes (https://github.com/BuidlGuidl/buidlguidl-client/) dev branch testing, logging issues, bug fixes. Nodes hardware assembly/testing, user support. Misc copy proofing for conference material, press",
+    "timestamp": 1722380459
+  },
+  {
+    "tx": "0x01fedffadbac81bdac628801fe54e0684509fddd1d762b48d8589f59193105b5",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.5,
+    "reason": "Initial prototype of nodes.buidlguidl.com",
+    "timestamp": 1713473627
+  },
+  {
+    "tx": "0xa15d29fcd4edcdb27a172ad40649f8b669e387f10accffa12343de0542d51e3f",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.057026,
+    "reason": "https://github.com/scaffold-eth/se2-docs/pull/44/",
+    "timestamp": 1701989099
+  },
+  {
+    "tx": "0x1f8c62514e13411f0ecae24237b5d36dfff44d4583b02af707ad779f711ca77c",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.031093,
+    "reason": "Grammar for ens.buidlguidl.com and buidlguidl.com",
+    "timestamp": 1697846807
+  },
+  {
+    "tx": "0x9b665fcb3d5575c5ba9a9be31d0546b699feb56eaea2e9846b4f0db4301f5d12",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.215809,
+    "reason": "Continued work on Exos (https://github.com/sfaber34/scaffold-eth/tree/exos-random-optimized) to prepare for release",
+    "timestamp": 1656445562
+  },
+  {
+    "tx": "0x58fbf79a5f82931b6cf68d5a5dee07a3b35520896bd01dc762d3c5288b04618d",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.469111,
+    "reason": "https://github.com/sfaber34/scaffold-eth/tree/exos",
+    "timestamp": 1652658129
+  },
+  {
+    "tx": "0x837388f33c062eeb3426c11e988f9bac9b5467168219374d5ea8b1794b966033",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.21,
+    "reason": "More content checks/edits for SRE and BG3",
+    "timestamp": 1647127301
+  },
+  {
+    "tx": "0x7718f428191f517fff81970dc7c4598142b5495247cb883660add8d5a5aa6a0c",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.5,
+    "reason": "working on SRE challenge 2 to learn Solidity basics. Sharing possible sticking points/content edits",
+    "timestamp": 1646003040
+  },
+  {
+    "tx": "0xe18079d9e3ffc9815c8384e05fdb087bde1caf2bac60a9a24b34db67bc09ba1d",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.26,
+    "reason": "working through first few challenges to help new builders",
+    "timestamp": 1643774122
+  },
+  {
+    "tx": "0xa49f211c4bcd0c37e43092d344682a06f6094a78afb8ee6ba5333b309b5d7384",
+    "builder": "0x38c772b96d73733f425746bd368b4b4435a37967",
+    "ens": "spencerfaber.eth",
+    "amount": 0.20792,
+    "reason": "challenge updates mostly grammar and spelling",
+    "timestamp": 1643325733
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "tx": "0x57e9e4cdea5e5bb5786e1199c8ee5460d7c58df44473f7b70db85c8219402bb6",
+    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
+    "ens": "buidlguidl.zakgriffith.eth",
+    "amount": 1.2,
+    "reason": "Stream clearing",
+    "timestamp": 1769637713
+  },
+  {
+    "tx": "0xa798c267efdd128f899c6df5a1ec817874b7d23e5f2d406bdeba67d0b302cf3b",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.4,
+    "reason": "Continued work on the Ethereum Bazaar project: https://github.com/BuidlGuidl/ethereum-bazaar/pull/5, https://github.com/BuidlGuidl/ethereum-bazaar/pull/9, https://github.com/BuidlGuidl/ethereum-bazaar/pull/11, https://github.com/BuidlGuidl/ethereum-bazaar/pull/12",
+    "timestamp": 1763146057
+  },
+  {
+    "tx": "0x6dc0aea1fa1a23f66d86f9c9d8966f2d8ceefc5412e3555a395571798380e37e",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.2,
+    "reason": "Setting up Privy and social login/wallet management for Ethereum Bazaar https://github.com/BuidlGuidl/ethereum-bazaar/pull/2",
+    "timestamp": 1762381191
+  },
+  {
+    "tx": "0x1e0163ac667280feacd08ef9df916fbde87bd367cf3d387038210dd1db6daaac",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.1,
+    "reason": "Getting up and running with the Ethereum Bazaar project + https://github.com/BuidlGuidl/ethereum-bazaar/pull/1",
+    "timestamp": 1761698407
+  },
+  {
+    "tx": "0x0ac272253da74ee7898c599c61e5359bdc80cf2ec3d2b2e145698758875f82ba",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.1,
+    "reason": "Work on Safe-Signer, preparing the repo to be packaged and published to NPM. ",
+    "timestamp": 1760382335
+  },
+  {
+    "tx": "0xade577ef3dd31c3cbb679e876ce9428cdd1931ef6cb00f3243f06ab6e2ea6b18",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.5,
+    "reason": "- Continued work on the new Oracle SRE challenge (https://github.com/BuidlGuidl/oracle-challenge) #16, #17, #21, #42, #45, #47, #48, #55, #57, #60, #61\n\n- Work on the Eth Tech Tree CLI (https://github.com/BuidlGuidl/eth-tech-tree) #122, #123, #127, #130\n\n- Work on the ETT Advanced Streaming Challenge (https://github.com/BuidlGuidl/eth-tech-tree-challenges) #88\n\n- Work on the ETT Backend (https://github.com/BuidlGuidl/eth-tech-tree-backend) #47 #48\n\n- Work on the Safe Signer repo that we'll integrate with ETT (https://github.com/escottalexander/safe-signer) #1, #2",
+    "timestamp": 1757545911
+  },
+  {
+    "tx": "0xfa2d0933f50d1ceaf5b97505104dede3138a0681799ce995c138fdb1238e1e7a",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.5,
+    "reason": "First draft of the new SRE Oracle Challenge\nhttps://github.com/BuidlGuidl/oracle-challenge\nhttps://github.com/swellander/oracle-challenge/",
+    "timestamp": 1752020025
+  },
+  {
+    "tx": "0x617df94b94fb3d62606f8e99f857ae82ef25c854930db78b08226853afd6148f",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.5,
+    "reason": "Work on the new Lending SRE Challenge. https://github.com/AzimovS/lending-challenge",
+    "timestamp": 1741749681
+  },
+  {
+    "tx": "0x7920f5db06e36d4c425312267dce43a47a43ecb09b9cc1c94fb02d5644f16cff",
+    "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+    "ens": "websurfer.eth",
+    "amount": 0.5,
+    "reason": "Work on the Onchain Impact Dashboard project. Authored or reviewed the following PRs:\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/9\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/27\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/32\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/35\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/46\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/51\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/55\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/96\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/10\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/13\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/34\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/69\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/73\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/95\nhttps://github.com/BuidlGuidl/onchain-impact-dashboard/pull/99\n\nWork on the Eth Tech Tree project:\nhttps://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/33\nhttps://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/41\nhttps://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/19\nhttps://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/31",
+    "timestamp": 1722123811
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "tx": "0x29449c8ece6305f6c795e34d65eeb845b02fa2939437e1e78ae4ecfb3c1b182f",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.5,
+    "reason": "winding down and donating back to buidlguidl.eth",
+    "timestamp": 1717710371
+  },
+  {
+    "tx": "0xe4232d4d8a98ca38de1d20abe98e099fd7e4546322169d0cae9fab7d5720a7a6",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/simple-marketplace-royalties",
+    "timestamp": 1649865704
+  },
+  {
+    "tx": "0x13d25a2d99d2412bbff002f49ea65e718e5918752a03b083d510e43d8d7b9351",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/flemjamins-with-burnable-nfts // canvas component added to https://github.com/scaffold-eth/scaffold-eth/tree/image-upload-ipfs",
+    "timestamp": 1636121011
+  },
+  {
+    "tx": "0x41eeb4d60c89d0d291dfb38055a58816dfac371094ab0a1a21bad8e05f11c0c5",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/simple-DAO-proposals //  Using an array of member addresses, quickly spin up a DAO, where members can vote on proposals",
+    "timestamp": 1632242491
+  },
+  {
+    "tx": "0x38e7995e85178e3411d3fe424ff45e1c3785ff53d1fc7024b534aa073b8e494c",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.27,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/image-upload-ipfs",
+    "timestamp": 1630326925
+  },
+  {
+    "tx": "0x3e2c010852941ad5e6ea97949004fba9e1892f1213b1543b2b0b135439770a80",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/defi-smile-donations // defi-smile-donations branch on scaffold-eth",
+    "timestamp": 1627574974
+  },
+  {
+    "tx": "0x49a6983464fe0bfdb165b945498818ba6f3e45303b9f7c8325a5b06a380e7f0a",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/ipfs-claim-token or ipfs-claim-token.surge.sh",
+    "timestamp": 1626195610
+  }
+]

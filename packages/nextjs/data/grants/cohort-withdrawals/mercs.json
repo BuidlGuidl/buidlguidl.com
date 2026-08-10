@@ -1,0 +1,842 @@
+[
+  {
+    "tx": "0x2eb91a72b864f8c54f7ddb5e4eebc31b00250c3ea8569d031cb12cd1834c9e19",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "July work: ENS 2024 grant withdrawal issue, Evaluate ETH skills - eval tasks: wallets (quiz x4 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/5 tasks: tools skill (quiz x4 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/6 tasks: testing skill (quiz x5 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/8 tasks: standards skill eval (goal + 2 quizzes) https://github.com/BuidlGuidl/ethskills-evals/pull/10 tasks: ship skill (quiz x4 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/11 tasks: security skill (quiz x6 + goal x2) https://github.com/BuidlGuidl/ethskills-evals/pull/12 tasks: indexing skill (quiz x3 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/28 tasks: addresses skill (quiz x5 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/30 eval: wallets (claude/opus-5) https://github.com/BuidlGuidl/ethskills-evals/pull/33 building-blocks-quiz-001: grade LP venue on Base evidence, not the rotted TVL claim https://github.com/BuidlGuidl/ethskills-evals/pull/37 tasks: audit skill (goal + quiz x3) https://github.com/BuidlGuidl/ethskills-evals/pull/39 tasks: concepts skill (quiz x2 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/41 tasks: l2s skill (quiz x3 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/44 eval: tools (claude/opus-5) https://github.com/BuidlGuidl/ethskills-evals/pull/45 CTF Arena https://github.com/BuidlGuidl/ai.ctf.buidlguidl.com/pull/2 Deploy to Base Sepolia https://github.com/BuidlGuidl/ai.ctf.buidlguidl.com/pull/4 Review and test: tasks: gas skill (quiz x3 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/2 tasks: frontend-ux skill (quiz x6 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/3 tasks: frontend-playbook skill (quiz x6 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/4 tasks: building-blocks https://github.com/BuidlGuidl/ethskills-evals/pull/7 asks: qa skill (quiz x5 + goal x2) https://github.com/BuidlGuidl/ethskills-evals/pull/9 tasks: noir skill (quiz x3 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/36 tasks: orchestration skill (quiz x2 + goal) https://github.com/BuidlGuidl/ethskills-evals/pull/38 Migrate the Ponder indexer to 0.17.2 https://github.com/BuidlGuidl/ai.ctf.buidlguidl.com/pull/3 Abi.ninja - Auto-fall-back to decompiled ABI for unverified contracts https://github.com/BuidlGuidl/abi.ninja/pull/202",
+    "timestamp": 1786026059
+  },
+  {
+    "tx": "0x254c05bd5ba0487cac4fc4e85c100af72959cd91fb069f29f99f33c26e5bc2f8",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "Fix duplicated logs in useContractLogs https://github.com/scaffold-eth/scaffold-eth-2/pull/1300 Check valid session before on-chain transactions https://github.com/BuidlGuidl/ens-pg/pull/155 Close grants applications And deployment issue https://github.com/BuidlGuidl/ens-pg/pull/156  Add grants applications closed message to home page https://github.com/BuidlGuidl/ens-pg/pull/158 Cache block explorer transaction total to avoid full-chain rescans on pagination https://github.com/scaffold-eth/scaffold-eth-2/pull/1301 Review and test: fix: homepage showing 0 stats / no proposals despite populated DB https://github.com/BuidlGuidl/arbitrum-dashboard/pull/36 feat: oracles migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/467 feat: over-collateralized-lending migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/462 feat: stablecoins migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/463 feat: prediction-markets migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/460 feat: zk-voting migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/461 feat: replace landing-page extensions with Skills, deprecate extensions https://github.com/scaffold-eth/scaffoldeth.io/pull/63 fix: generateTsAbis formatting https://github.com/scaffold-eth/scaffold-eth-2/pull/1303 fix: foundry abi formatting https://github.com/scaffold-eth/create-eth/pull/437 New ui tweaks https://github.com/scaffold-eth/scaffold-eth-2/pull/1304 Update bonding curve prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/394 Update streaming payments prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/395",
+    "timestamp": 1783431983
+  },
+  {
+    "tx": "0x6ffed84ac0ffc0223373f6a4b47223a70ea0a421bcec97f842b28fd9e9266797",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "Preparing social media posts, working on scaffold-eth docs, and planning content for the next month",
+    "timestamp": 1781503271
+  },
+  {
+    "tx": "0x568215809a92a05f56b9fde5518e3ae9131e4c523bd2585fe30c43a305d5baa2",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "May work: Send weekly stats to Telegram https://github.com/scaffold-eth/se2-projects/pull/19 Fix blockexplorer pagination when auto mining is set https://github.com/scaffold-eth/scaffold-eth-2/pull/1295 Arbitrum cohort indexer cost. Bg-ponder-indexer - Add endBlock to Optimism https://github.com/BuidlGuidl/bg-ponder-indexer/pull/12 - Review and test: challenge-zk-voting-foundry https://github.com/scaffold-eth/se-2-challenges/pull/441 Deps: next 15 → 16 and minor frontend updates https://github.com/scaffold-eth/scaffold-eth-2/pull/1280 Foundry support - Challenge-oracles https://github.com/scaffold-eth/se-2-challenges/pull/440 fix(foundry): resolve ABI when source file name differs from contract name https://github.com/scaffold-eth/create-eth/pull/423 Foundry support - Challenge-over-collateralized-lending https://github.com/scaffold-eth/se-2-challenges/pull/437 Foundry support - Challenge-stablecoins https://github.com/scaffold-eth/se-2-challenges/pull/438 UI tweaks/redesign https://github.com/scaffold-eth/scaffold-eth-2/pull/1282 Remove md/mdx ternary after moving to mdx https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/388 /builds sort and add header link https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/387 fix(hooks): surface price-fetch errors via isError instead of swallowing https://github.com/scaffold-eth/scaffold-ui/pull/108 feat: tokenization migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/468 feat: dex migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/459 feat: crowdfunding migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/466 feat: token-vendor migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/464 feat: dice-game migration to hh v3 https://github.com/scaffold-eth/se-2-challenges/pull/465 ENS-pg Grant final approve issue. Revalidate homepage data every 6 hours https://github.com/BuidlGuidl/arbitrum-dashboard/pull/33",
+    "timestamp": 1780512815
+  },
+  {
+    "tx": "0x5717cc9c979e1ca0cad89578c2ab84291f1a05c1f1412761133dccb48cb19f2d",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "April work - SE-2 Projects: Add and show stat with repositories saved last 30 days https://github.com/scaffold-eth/se2-projects/pull/18 Error search filename - SRE: Test and improve SVG NFT prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/372 Test and improve commit-reveal prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/373 Test and improve payment splitter prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/374Test and improve token vesting prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/383 Test and improve fractionalized NFT prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/385 Eliminate redundant description in execution loop https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/39 Raked Add opt-in provider request/response logging https://github.com/BuidlGuidl/raked/pull/25 Add debug-contracts instructions to README https://github.com/scaffold-eth/scaffold-ui/pull/102 - Test and review: Update Token-Weighted DAO build prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/376 Update token staking prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/371 Challenge dice game foundry https://github.com/scaffold-eth/se-2-challenges/pull/434 Challenge dex foundry https://github.com/scaffold-eth/se-2-challenges/pull/435 Update multisig build prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/377 Verbatim texts in AI Teaching mode https://github.com/scaffold-eth/se-2-challenges/pull/449 Update name-registry build prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/378 Challenge tokenization foundry https://github.com/scaffold-eth/se-2-challenges/pull/429 Challenge crowdfunding foundry https://github.com/scaffold-eth/se-2-challenges/pull/431 Foundry support - Challenge-prediction-markets https://github.com/scaffold-eth/se-2-challenges/pull/439 Tweaks to quadratic funding https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/381 fix: foundry block explorer contract details bytecode/opcodes https://github.com/scaffold-eth/create-eth/pull/415 hardhat v3 migration https://github.com/scaffold-eth/scaffold-eth-2/pull/1272 Fix wrong block explorer links in Contract and local chain fallback https://github.com/scaffold-eth/scaffold-ui/pull/101 Drop local getBlockExplorerAddressLink and per-call blockExplorerAddressLink props https://github.com/scaffold-eth/scaffold-eth-2/pull/1275 - Farm agents game https://github.com/damianmarti/farm-agents",
+    "timestamp": 1777903667
+  },
+  {
+    "tx": "0xaa7663268d4bc06a249b5ebf578f6d4965dee977dbf2dadda1f83a60b23a044d",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "# Proof of Work — BuidlGuidl Social  Contributor: port Period: 2026-01-19 → 2026-04-19 (three months) Withdrawal: 0.5 ETH  Scope: Editorial and media for the BuidlGuidl X account (@buidlguidl).  ---  ## Shipped  46 posts published to X across the three-month period.  - 37 of 46 were multi-post threads - 42 of 46 shipped with media - Three weekly recurring series: Challenge Spotlight, CTF Challenge Callout, Security Sunday - 16 ad-hoc announcements (product launches, ecosystem news)  ## Sample (last ~6 weeks)  - 2026-04-14 — 🪄 Challenge Spotlight: Multisig Wallet - 2026-04-10 — SpeedRun Ethereum challenges are now AI-ready (AGENTS.md) - 2026-04-07 — 🪄 Challenge Spotlight: ZK Voting - 2026-04-01 — SpeedRun Ethereum: Build Prompts launch - 2026-03-31 — 🪄 Challenge Spotlight: Prediction Markets - 2026-03-29 — Security Sunday: tx.origin - 2026-03-28 — BG CTF S2 — Season1NFTFlags walkthrough - 2026-03-24 — 🪄 Challenge Spotlight: Stablecoins - 2026-03-22 — Security Sunday: Flash Loans - 2026-03-17 — 🪄 Challenge Spotlight: Over-Collateralized Lending - 2026-03-15 — Security Sunday: Reentrancy - 2026-03-10 — 🪄 Challenge Spotlight: Oracles - 2026-03-08 — Security Sunday: Upgradeable Contracts - 2026-03-03 — 🪄 Challenge Spotlight: Build a DEX - 2026-03-01 — Security Sunday: Compromised Frontends - 2026-02-28 — BG CTF S2 Challenge #8 — Buenos Aires - 2026-02-24 — 🪄 Challenge Spotlight: Dice Game  Withdrawing 0.5 ETH.",
+    "timestamp": 1776582611
+  },
+  {
+    "tx": "0xfa7931b3f2a2d6a12af6216392f870924c4c7be4a08aaa0ce21ecc00ce6c8f7a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "SpeedrunEthereum: Test and improve and test SVG NFT prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/372 Test and improve commit-reveal prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/373 Test and improve payment splitter prompt https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/374 Review https://github.com/scaffold-eth/se-2-docs/issues/151 - SE2: Test Skills ERC-20 extension https://github.com/scaffold-eth/create-eth-extensions/pull/118 Test Skills ERC-721 extension https://github.com/scaffold-eth/create-eth-extensions/pull/119 Review Trim tier 2+3 skills to eval-proven content https://github.com/scaffold-eth/scaffold-eth-2/pull/1245 - ccexplorer: Add session copy button https://github.com/escottalexander/ccexplorer/pull/1 - ENS-pg: Stream contract review and test. Close applications during ENS DAO Retro https://github.com/BuidlGuidl/ens-pg/pull/153 Re-open grant applications https://github.com/BuidlGuidl/ens-pg/pull/154 Check resend rejected stages. Duplication issue. - SE2-projects: Update GITHUB token. Report errors to Telegram channel https://github.com/scaffold-eth/se2-projects/pull/15 Improve UI and design https://github.com/scaffold-eth/se2-projects/pull/16 - AI-CTF: solve with different agents, measure time and autonomy. Prizes. Soulbond NFTFlags. Changes and fixes. https://github.com/BuidlGuidl/ai.ctf.buidlguidl.com/pull/1 - Host workshop Vibecoding a Web3 dApp https://luma.com/10tjzkwe",
+    "timestamp": 1774975379
+  },
+  {
+    "tx": "0xfc3e5994a85047a952bf163f760a6b32923559de93f15bfff9618a1cd975c200",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.5,
+    "reason": "misc. work on remix lite, update https://github.com/ByteAtATime/bg-ctf to season 2",
+    "timestamp": 1767317663
+  },
+  {
+    "tx": "0x3e7b3c42bf51736c0e4df4ffce27c268b79736e4faf9a18f8272d60d377dac5f",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.4,
+    "reason": "December work - SE2-projects: Add default branch to repositories. Check for valid SE-2 projects, looking for scaffold config file. Add deleted stats. Update default branch when running scripts, Remove burger menu on mobile. Fix delete logic https://github.com/scaffold-eth/se2-projects/pull/8 Fix React Server Components CVE vulnerabilities https://github.com/scaffold-eth/se2-projects/pull/9",
+    "timestamp": 1766780495
+  },
+  {
+    "tx": "0x637f5d84ab31ec6a5d2f7267df84fb6fd37e3690771798f8a7c2b7084a4ce4fa",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/BuidlGuidl/private-key-dice/pull/79 - Burner auto-connect & connectors use burners only, Wallet & private key UX upgrade to safely read private key from localStorage and guard when mismatched with the connected address; Clear security warning with masked/unmasked toggle. Game UI / winner flow, fullscreen confetti, added manual resync…  Devconnect",
+    "timestamp": 1765271183
+  },
+  {
+    "tx": "0x6efedeca4b27f683959479106a0f4ebd4f573d7c1d5dff931a3943497dd91d4c",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "Bhutan land registry review. Address Vision: Add POAPs section https://github.com/BuidlGuidl/address-vision-port/pull/97 Max Extract. Based slot. Deposit and play with burner wallet https://github.com/austintgriffith/slot402/pull/2 ETH Spliiter: review https://github.com/BuidlGuidl/Eth-Splitter/pull/108 Bar selection and organization for the event. Devconnect.",
+    "timestamp": 1764770543
+  },
+  {
+    "tx": "0x58dc9a69c9797c5fb530e50ce5f3eb1dc1bf4ad71722c9424fa28494ffb3b8da",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/BuidlGuidl/private-key-dice/pull/78  - PKDICE: Switch to PostgreSQL, add kicked-player tracking, and make game-state updates atomic and channel-scoped. Harden join/reconnect logic, prevent invalid joins, and fix rejoin behavior. Refresh UI with a dark-neon theme, improved home/game pages, and reliable dark-mode. Clean up notifications and admin controls. ————- https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/118 https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/116 Review",
+    "timestamp": 1763782187
+  },
+  {
+    "tx": "0x731f06487fe342992c0884bdcc60f7067f20f35f8c32f0a1313d1e536e71b9df",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.57,
+    "reason": "Developer Tooling –  BigQuery fetching and filtering Retro Funding projects for each OP round, extending project metadata with LLM-generated tags using Ollama, plus an emergency pull request for Devcon logistics.",
+    "timestamp": 1763261987
+  },
+  {
+    "tx": "0xc474ec85112438f0336ac8e30e844c0674fbe06d6d44f31f31f35b18bf0a319a",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.35,
+    "reason": "Developer Tooling - https://github.com/BuidlGuidl/Developer-Tooling/commit/b6ffa3cfa104cdfe304260e4ed9f6e155469765f https://github.com/BuidlGuidl/Developer-Tooling/commit/4fa868e968e20690d39854c709ad403e82ef88be https://github.com/BuidlGuidl/Developer-Tooling/commit/ff6218d9ea7b540e7a3454358b4cf5a83cb85b0c https://github.com/BuidlGuidl/Developer-Tooling/commit/d970a5990ad6f58b0de499d31ac562686dadd08c -------- Split ETH - https://github.com/BuidlGuidl/Eth-Splitter/pull/108",
+    "timestamp": 1762876115
+  },
+  {
+    "tx": "0x2dcd6687423b91bcf5be9eafe04f1a556390eb1656c07d97559ee71c83c0536c",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "October work: Based Slot - Review contracts. Use burner wallet https://github.com/austintgriffith/based-slot/pull/1 ETH House SE-2 workshop. ETH-Splitter PR Reviews: https://github.com/BuidlGuidl/Eth-Splitter/pull/99 https://github.com/BuidlGuidl/Eth-Splitter/pull/98 https://github.com/BuidlGuidl/Eth-Splitter/pull/97 https://github.com/BuidlGuidl/Eth-Splitter/pull/100 https://github.com/BuidlGuidl/Eth-Splitter/pull/101 https://github.com/BuidlGuidl/Eth-Splitter/pull/102 https://github.com/BuidlGuidl/Eth-Splitter/issues/103 https://github.com/BuidlGuidl/Eth-Splitter/pull/105 https://github.com/BuidlGuidl/Eth-Splitter/pull/106 Overtime: review and doc, markets, quote, Bet, profile, multichain support, Claim, improvements, refactor. Top Odds, Ending Soon and Feeling Lucky. https://github.com/damianmarti/overtime-se2 Dev3pack workshops: Intro to blockchain and scaffold-ETH, Intro to EVM & Solidity, Building a dApp.",
+    "timestamp": 1762177475
+  },
+  {
+    "tx": "0x44809a1d3184d3c92d6d719ea3f1293bfd2bfb68297c5ed05dbfc129b827f4aa",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.65,
+    "reason": "Develper Tooling - https://github.com/buidlguidl/Developer-Tooling - Query OSO Projects data, Compile detailed and simplified data list ——— Split-ETH PRs:  https://github.com/BuidlGuidl/Eth-Splitter/pull/105 https://github.com/BuidlGuidl/Eth-Splitter/pull/106 https://github.com/BuidlGuidl/Eth-Splitter/pull/107 Reviews: https://github.com/BuidlGuidl/Eth-Splitter/pull/104 Ponder crash fix",
+    "timestamp": 1761653687
+  },
+  {
+    "tx": "0x81aafb65fb33e4772c9915481882814ba0a78ba27eea32666cb64ad4e955f8fa",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.1,
+    "reason": "Eth Splitter: PRs and Issues Fixed https://github.com/BuidlGuidl/Eth-Splitter/pull/100 https://github.com/BuidlGuidl/Eth-Splitter/pull/101 https://github.com/BuidlGuidl/Eth-Splitter/pull/102 https://github.com/BuidlGuidl/Eth-Splitter/issues/93",
+    "timestamp": 1760251463
+  },
+  {
+    "tx": "0x2f6be6f463eba2bda860956cb99bfc4e284e28a67c7900e572d88db921777873",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "September work: Ethereum.org Collectibles: Implement hats protocol, update badges categories. Challenge ZK Voting review  https://github.com/scaffold-eth/se-2-challenges/pull/365 ETH-Splitter: UI review: https://github.com/BuidlGuidl/Eth-Splitter/issues/93 Issues created: https://github.com/BuidlGuidl/Eth-Splitter/issues/94https://github.com/BuidlGuidl/Eth-Splitter/issues/95 PR reviews: https://github.com/BuidlGuidl/Eth-Splitter/pull/86 https://github.com/BuidlGuidl/Eth-Splitter/pull/85  https://github.com/BuidlGuidl/Eth-Splitter/pull/88  https://github.com/BuidlGuidl/Eth-Splitter/pull/87  https://github.com/BuidlGuidl/Eth-Splitter/pull/89  https://github.com/BuidlGuidl/Eth-Splitter/pull/91 https://github.com/BuidlGuidl/Eth-Splitter/pull/92",
+    "timestamp": 1759501655
+  },
+  {
+    "tx": "0x58e7a43862b5e55e969655e5998b562da7489e8dd6c12127626e291dce95f61e",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.2,
+    "reason": "ETH-Splitter – Bug fixes (cleaned up empty addresses after bulk addition, migrated old contacts storage to the new pattern), UX updates (asset selector tags for quicker selection, removed labels during address imports), and minor graphics improvements (header logo & favicon).",
+    "timestamp": 1759452503
+  },
+  {
+    "tx": "0x60d3b933d537071d4634371186748eb5e4e0bde5b3aefb0e1de49924788b9bc5",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.3,
+    "reason": "ZK challenge - frontend related fixes - #1, test the challenge ---------- Oracle challenge - add natspecs, reorganize Staking Challenge, make whitelist as a factory contract, create library which includes sort and getMedian, use customer errors, update deploy script, fix frontend, update readme checkpoints accrodingly, add tests for each checkpoint, add tests for whitelist and staking contracts, fix display balance of ORA - #9, readme fixes - #10 ------------ SRE guides: review guides related dice challenge - #301, review guide ERC4626 - #322",
+    "timestamp": 1759068323
+  },
+  {
+    "tx": "0x87147660bc6e1d2961189c4bd6022ab2e1960884e65f88190f62fa0b97e3e51a",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.85,
+    "reason": "ETH-Splitter: Ponder setup, implementation of the split history page, fixes for address and ether input handling, resolution of logo switching issues, addition of a transaction success display after completed splits, and introduction of the repeat feature from history (PRS #84, #85, #86, #87, #88, #89).  Cohorts: enforcement of subdomain uniqueness, enhanced page and card animations, and proper empty display improvements (PRS #111–#112).",
+    "timestamp": 1758492719
+  },
+  {
+    "tx": "0x3e8132218f928fd68febc4ffea118f9b973f8d7bd3a40da91bdd7d3b2a46e551",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.1,
+    "reason": "Finally fix issue on Remix Lite - starting on adding E2E tests to make sure issues like this don't happen again. Also contacted Venice on a possibility of collaborating.",
+    "timestamp": 1757298455
+  },
+  {
+    "tx": "0xcbb1e3eaa964fb31411e3a5bee2f3e4e0adc81cae82a3fa39b81966d5b371496",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "August work: Dev3pack workshops. Ethereum.org Collectibles: Fixes. Review PR fixes and refactors. Admin permissions. Hats protocol review, create hats tree. ETH Splitter upgrade review and testing.",
+    "timestamp": 1756747151
+  },
+  {
+    "tx": "0x537fe536e1c75ee683d586cd25424bfda4139689b619708923b06d5e4b424e57",
+    "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+    "ens": "aimv999.eth",
+    "amount": 0.45,
+    "reason": "Oracle challenge - Optimistic Oracle frontend - #41, Add simulation for optimistic - #43, update comments in smart contract: - #44, fix calculation of time left in OO - #46, frontend fixes - #52, fix scripts cleanup - #59, fix: reward, bond, and decider fee values - #63.  PR Reviews: - #42, #45, #47, #48, #55, #57, #60, #62. ------------- scaffold-ui - fix refocus for AddressInput - #21 ---------- scaffold-eth - fix refocus for AddressInput - #1152",
+    "timestamp": 1756648331
+  },
+  {
+    "tx": "0x48887da30ee8db47d2a8caf7f9bff38716ea6eee2b55ef70ffca57832c7e71d6",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.75,
+    "reason": "ETH-Splitter: Contacts with Labels – Wallets storage with labels to tag non-ENS wallets easily. Import & Export Lists – Upload or download wallet lists for storage and splitting. Detailed Split Review – New confirmation page. Upgraded SE-2 Footing, Split png image. Improved Asset Selection – Improved flow for configuring splits. - https://github.com/BuidlGuidl/Eth-Splitter/pull/82",
+    "timestamp": 1756270763
+  },
+  {
+    "tx": "0x7cb70c6cf44457455b76a3c00ed80a61810c76d2ffc20a7c59900d195bbe8424",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.2,
+    "reason": "Improvements to theme and withdrawn events fetching - cohorts.fun, Minor error fixes and deploying contracts to all supported chains",
+    "timestamp": 1754579327
+  },
+  {
+    "tx": "0x1d48ccae1e6d22d1d1d56f833a47b1344ec98a3741d04e00c39a8fd737189a2e",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "July work: Ethereum.org Collectibles: Improve scripts. Add API endpoints. Add admin to add new badges. Admin page. Badges page. Visual improvements. Deploy. Admin Improvements. Ethereum.org page. Ethereum.org page, light and dark theme, responsive. Connect wallet. Cron to update collectors. Dev3pack workshop: Spanish study plan https://icy-november-fd2.notion.site/Dev3pack-BuidlGuidl-Bootcamp-Espa-ol-238730143eb1808e924ad18060cf5f07",
+    "timestamp": 1754504795
+  },
+  {
+    "tx": "0xac09979dc48976fd475d36fa642d4bf76d939c5ed15be9f7420a733bde82aed4",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.19,
+    "reason": "Implemented some mobile resolution corrections, fixed token decimal display, resolved create form issues, and added validation.",
+    "timestamp": 1753683191
+  },
+  {
+    "tx": "0xfbcb6f3706eac30e91920f3fceba57ba176be7de21a599d4d949373775842c6f",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.5,
+    "reason": "Complete redesign of Remix Lite! A few things this changes: remove light mode (simplicity), change colors and spacing, improve positioning of variable list, improve error handling, recreate token management UI, and improve wallet switching UX.",
+    "timestamp": 1752798335
+  },
+  {
+    "tx": "0xdc521a86597960f82b57fab67ccb3156e9e13e2ca4c471f95c0454ec41b0eb5b",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.2,
+    "reason": "Wildcard in domains setup and testing && content(image and text) validation for builder applications and cohorts",
+    "timestamp": 1752678251
+  },
+  {
+    "tx": "0x60b3f763688bbf86a6eb27fcd8155fb051719e2fe3e3e5acbb5b5d17a68bde84",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.6,
+    "reason": " Admin analytics page for CAAS, Fixes to issue, #82, #84, #86, #87, #88, #89, #90, #91 at https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/85, https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/92, https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/98, https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/99 and A few PR reviews ",
+    "timestamp": 1752232079
+  },
+  {
+    "tx": "0xc03f2af4693acaa953618b027b0f9e731d4eae9179bdad52c2b257946085e911",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.75,
+    "reason": "June work: Ethereum.org Collectibles: review documentation/APIs. Create scripts to load initial data from GitPOAPs, POAPs and Gaxle - Arbritrum Cohort: Contract tests. Deployed contract to Arbitrum https://github.com/BuidlGuidl/arbitrum-cohort/pull/42 Get Cohort contract balance of USDC https://github.com/BuidlGuidl/arbitrum-cohort/pull/43 - ENS-pg: add milestones to ETH grants.",
+    "timestamp": 1752101219
+  },
+  {
+    "tx": "0xd16997523036c891a880984c32a695bb811eeece5f9d25cbf00cd6b41043cf6f",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Remix Lite redesign! https://github.com/ByteAtATime/remix-lite/tree/feat/redesign, based off https://www.figma.com/design/S2PUVkreb6pTb3ec6AcXtO/Remix.eth?node-id=0-1&p=f&t=hgmVP3l70i83JJmg-0",
+    "timestamp": 1750699739
+  },
+  {
+    "tx": "0x7988be67dd4cdf5ed827b6d3f3be9342126f7170533a9f220571c9d68193c46a",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.35,
+    "reason": "Loading page during cohort deployment, Extend events indexing to projectIDs while linking each withdrawal. Minor UI/UX and naming updates; deploying live. Fixes to Issues #73, #74, #75 - CAAS.",
+    "timestamp": 1750673195
+  },
+  {
+    "tx": "0x32bb3bcc82b2acc21f54b30faece6ac5241cba9dfbb414ca2d170cb79eb821bf",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.7,
+    "reason": "CAAS - Initialize wildcards in domains && setup of multi chain ponder for factories and individual cohorts",
+    "timestamp": 1749725207
+  },
+  {
+    "tx": "0x787c872191d9c403206622f5f95f14ec3ad4c246178f016db7b9b62986ac107e",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "May work: BG Tour: UNAM and Javeriana universities. Refund from ETH sent to students. ENS-pg and Arbritrum Cohort app work.",
+    "timestamp": 1749490139
+  },
+  {
+    "tx": "0x3c455ed115eecd5bf0c0d68ee839ef53071136c62c30a1d15fe0dd5be261748f",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.3,
+    "reason": "Cohorts - Link projects to withdrawals and requests, markup editor integration for notes, descriptions and applications",
+    "timestamp": 1748790635
+  },
+  {
+    "tx": "0x0d1251f62624fa889075ad1a3d30c9ba3001ecba279937523536fba3009cf319",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Continued work on Remix Lite. Implemented openzeppelin contracts, added UI to manage token balances and approvals, fixed EIP-7702 error, got shoutout by Austin at ETHGlobal",
+    "timestamp": 1748748611
+  },
+  {
+    "tx": "0xa82b926b73138e059f8b0540b17621666e93d1d41f18fa3cb712183de574d453",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Misc. features to remix-lite, working on adding openzeppelin contracts. featured on solidity-by-example",
+    "timestamp": 1747595267
+  },
+  {
+    "tx": "0x27fe6bed68f8913901d2008157e8aca33b1fb42c38df2c8b17b00111c5a9f883",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.5,
+    "reason": "Application Process & Github integration to Cohort Service && Pr #63 ---> #69",
+    "timestamp": 1747075883
+  },
+  {
+    "tx": "0x5bac42aa97e359e75ac21042ec3f41c5941f800e980e13d3cd20816bfe8d32ec",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "Prediction Markets: Review challenge and README. Add tokens to deployed contracts https://github.com/phipsae/challenge-prediction-market/pull/2 FrogJuice: Add README. Verify proof on contract and check known constants https://github.com/BuidlGuidl/frogcrypto-squeeze/pull/30 ENS-pg work.",
+    "timestamp": 1746808967
+  },
+  {
+    "tx": "0x81062a9961c39d22ec03229c8d5e162fb948c65798d6e6eaea9c671fdf26a157",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.9,
+    "reason": "Prediciton markets challenge: https://github.com/scaffold-eth/se-2-challenges/pull/286",
+    "timestamp": 1745953187
+  },
+  {
+    "tx": "0x3b31e5140053879157d336a7b43e2a21b6f2e2bb53d733196a94a0dcb9d82e26",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.6,
+    "reason": "DB, API and project page configuration for cohorts & Theme customization - Prs 53, 58, 59",
+    "timestamp": 1745789987
+  },
+  {
+    "tx": "0x34f08b905bbd9c600876c08f677632fc59d436e077a30c43dcce3f6f38140b94",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Getting back into the Remix Lite grind at https://remix.byteatatime.dev",
+    "timestamp": 1745557475
+  },
+  {
+    "tx": "0x58b8d26ca2cd019cdab5d23ceb0bd2c026e2ef3d81347826057d036151f24b87",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1353,
+    "reason": "Extensions: moltam89/extension-foundry, moltam89/extension-uniswapx, moltam89/externalExtensions-extension-uniswapx, moltam89/extension-scaffold-eth-agent-the-graph, UniswapX-scaffoldeth-extension, UniswapX-extension",
+    "timestamp": 1745515007
+  },
+  {
+    "tx": "0x421aec45040984545596d3027c0c73641e160037e661dc3c6d377c24804e8ada",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1842,
+    "reason": "Updated UniswapX extension (https://github.com/moltam89/scaffold-eth-2/tree/UniswapX) to match new extension mode (https://github.com/scaffold-eth/create-eth/pull/244)",
+    "timestamp": 1745164319
+  },
+  {
+    "tx": "0x6af607e8f8d35455f73ac7592a1d020d2d8febaeba83f9b1d1d35d6f6117dd97",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.85,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/244",
+    "timestamp": 1744730207
+  },
+  {
+    "tx": "0x10e2b29122353c3707125554401c367f068b0cc8ee48c5b7eba332a77158682f",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/moltam89/scaffold-eth-2/tree/fromScaffoldEth",
+    "timestamp": 1744405571
+  },
+  {
+    "tx": "0xf974292db8ee37143845112ed840d579ea1c24a535f7ab5b2a42cb94f27cdcf2",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.6,
+    "reason": "Challenge prediciton market https://www.notion.so/buidlguidl/Prediction-Market-Tutorial-Challenge-19d57f35d47680afb6ede95bb88c4322?pvs=4, https://github.com/phipsae/challenge-prediction-market in hardhat, tests",
+    "timestamp": 1744364999
+  },
+  {
+    "tx": "0xfb2f3977c0c75dbdacfdd2141daae26d96a981e744cf53d0792ddad9fa155d22",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.45,
+    "reason": "Audit findings fixes to cohort and cohortfactory contracts https://hackmd.io/HKd0hRwNT1qW20riecccYQ   #42, One time withdraw cohort pattern, request - approval pattern during deployments cohorts and PRs 41, 47, 48, 49 - Cohort service",
+    "timestamp": 1744283435
+  },
+  {
+    "tx": "0x38737aa7b7bbdbfa288b12efc44abe95d2746543656a6fc90842b1237f9f900a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "March work: Prediction market: price change and PR reviews. Race. Challenge review. Talk about blockchain, web3, and BG on University Day at Crecimiento. ENS-pg work.",
+    "timestamp": 1744210523
+  },
+  {
+    "tx": "0x398e08cb47a2da5f9065fff26ec6b24552e4ae3ddfe207d3c64a65df498439c5",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/moltam89/scaffold-eth-2/tree/fromScaffoldEth",
+    "timestamp": 1743779603
+  },
+  {
+    "tx": "0x8cb05e97c46b8b376462a48a144b2f552b0e7664352c9f6b29c460d1b9813580",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.35,
+    "reason": "https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/34",
+    "timestamp": 1743490775
+  },
+  {
+    "tx": "0x6db6556efc1294a9c42e2487ac5a2c46e7c3ea050bf143ba957aaa6c0dff44e8",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "prediction market with lp https://github.com/phipsae/prediction_market, prediciton market with order book https://github.com/phipsae/order-book-prediction-market",
+    "timestamp": 1742482463
+  },
+  {
+    "tx": "0x92c0497c0d8a8bc5fc61476fa28efc3a6b62c33e1bed3b5603a15637660d0301",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.7,
+    "reason": "Cohorts - https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/17 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/14 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/12 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/11 , and some reviews  ---- PKdice - PR #72 --> #77",
+    "timestamp": 1742219291
+  },
+  {
+    "tx": "0xb94e4496fd6c99de5ca28391dd0df9c3fc99a3f22595cb0328a0a495c5ba1460",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.8,
+    "reason": "Feb work: Prediction Market: review, fix probability and simplify contract, improvements and bugs. New token price based on token probabilities. New home page with user features. PR reviews.",
+    "timestamp": 1741615091
+  },
+  {
+    "tx": "0x8f84aac4d976fafcd6b2c53e2a2d8c72d432aa3b075d516b9248bef296dfa0e7",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.05,
+    "reason": "https://github.com/scaffold-eth/punk-wallet/pull/102",
+    "timestamp": 1741074323
+  },
+  {
+    "tx": "0xa530f7c1d42efadf6716c8c06cff0e13f217d74c69003a2a16934fe826220024",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.82,
+    "reason": "Cohorts - https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/3 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/4 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/5 , https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/9 ",
+    "timestamp": 1740333731
+  },
+  {
+    "tx": "0xfafd62914ab64d52d8a4e847e36a808179f000f090fe1274f581df4f5447cd4b",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Remix lite very alpha version at remix.byteatatime.dev",
+    "timestamp": 1739864651
+  },
+  {
+    "tx": "0x079ebf3e6bd68fc94fcc320c3ecb7b0e9316642ff8e8503c4c76d0f767d66ea3",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.95,
+    "reason": "Shorten batch program, working on prediciton market, writing proposal for allo protocol",
+    "timestamp": 1739209439
+  },
+  {
+    "tx": "0x85379f6ca5e0a8da6227e61833f661bf4be3b4376ce210a0b5eabe8ae125a77a",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.68,
+    "reason": "Working on Cohorts - https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/1, https://github.com/BuidlGuidl/Cohort-as-a-Service/pull/2, Contracts, UI, admin and user roles",
+    "timestamp": 1739025803
+  },
+  {
+    "tx": "0xe42a690b773c3f413889f17fc16f5124b8346024f4690f6c13c5e911eb6ee1e7",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.1,
+    "reason": "start on remix lite 🎉",
+    "timestamp": 1738619699
+  },
+  {
+    "tx": "0x7794733637858f88c815f5474cef951c315e4b46f8b3963e008d928d37c8a3e3",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/205",
+    "timestamp": 1737792311
+  },
+  {
+    "tx": "0x9421d1237990c3f40147174f1570bbb36f015f91397dceeec8fdc612745d331c",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.05,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/200",
+    "timestamp": 1737020411
+  },
+  {
+    "tx": "0xcce4ca3dcb5f1454f5f97ad10c7b0fb0c669bca5657870aca513b5f6212ac693",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Updated CTF to explain the CREATE2 opcode. Submitted PR #1034 to SE-2. Added database to signator.io, and update Snapshot.box with it.",
+    "timestamp": 1736968523
+  },
+  {
+    "tx": "0xcf39fc6c377aaa81f804901f3557c724acf59fd61d2469fd381848c486447a6d",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.95,
+    "reason": "Wokring on batch program, creating new issues, introduction of requirements, automation of the spreadsheet, overhaul of the batch page ",
+    "timestamp": 1736796191
+  },
+  {
+    "tx": "0x3d82d7079f816cdc92ea5a064c58a56044165146b271c17a66f4215f8fba688a",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 1,
+    "reason": "https://github.com/BuidlGuidl/private-key-dice/pull/65 https://github.com/BuidlGuidl/private-key-dice/pull/67  #65 --- #71",
+    "timestamp": 1736290055
+  },
+  {
+    "tx": "0xe2b08814eafe5f002c4f9b820fae45af619ccce69fc7de08f882bf8882005a59",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.05,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/193/",
+    "timestamp": 1736152955
+  },
+  {
+    "tx": "0x4a9b232358a86209d7e9fafaa5158e3eeac211054203f7d23f50ebd1d9065a86",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.15,
+    "reason": "EthIndia Hackathon projects review. BG talks at Aleph Crecimiento and Ethereum Argentina.",
+    "timestamp": 1736088383
+  },
+  {
+    "tx": "0x2b560072c56feb511a5186fbb287fb6ff950710428983bf5e6dcddfef8714953",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.03,
+    "reason": "pkdice - redeploying soon",
+    "timestamp": 1736055935
+  },
+  {
+    "tx": "0x50a0c3840efa82a8beeac6688d44ee49cf7f15821b7ff11ef29bf02314ba8dda",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.15,
+    "reason": "pkdice - reconfigured and deploying new backend version",
+    "timestamp": 1734688943
+  },
+  {
+    "tx": "0x776c550cbef8e019cb83b4bdd980eca8c599fb8bc04ffbe799a577440006ac53",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.25,
+    "reason": "Workshops at Ethereum Budapest Anniversary Meetup: https://www.meetup.com/ethereum-hungary/events/303463327",
+    "timestamp": 1734598091
+  },
+  {
+    "tx": "0x93258d35cb01ea17099a43e6120a918e60b816876c6a6f3936c340a749312c92",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "byteatatime.github.io/bg-ctf, done with reimplementation of signator.io (currently working on QoL improvements)",
+    "timestamp": 1734311231
+  },
+  {
+    "tx": "0x6fbf68aa233842fb763b0109ef56112850c7739ef7cc98899edeaa7c9391470b",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/171",
+    "timestamp": 1734297863
+  },
+  {
+    "tx": "0x349260ed0e67e22f38ed5a7dbde8c47eefd4357a626f7a0d10fa9cb5dc5fbe5d",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.9,
+    "reason": "Working on BGv3.5 (https://github.com/scaffold-eth/buidlguidl-v3/pull/118, https://github.com/scaffold-eth/buidlguidl-v3/pull/119), Batch program adjustments (update setup list, issue creation script) & management,  reviewing hackathon projects",
+    "timestamp": 1734248963
+  },
+  {
+    "tx": "0xe4cd33acd901eb5ccb34dcd812c3be7119431cf5efd99aee6bf37863a733a42a",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.25,
+    "reason": "https://github.com/scaffold-eth/create-eth/issues/167, https://github.com/moltam89/UniswapX-extension-base, https://github.com/moltam89/UniswapX-extension",
+    "timestamp": 1733640419
+  },
+  {
+    "tx": "0x13c3b215c0f78bac6049a1fa05b21035b8024f60e5b4339a7a0213bdcf5c7cb8",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/163, https://github.com/scaffold-eth/create-eth/pull/165",
+    "timestamp": 1733398151
+  },
+  {
+    "tx": "0xf0d80ad31fa172f59dea6a1a660f475a6491380a0c33fe59ffd584414c5af6ec",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.8,
+    "reason": "November work: frogjuice.fun, squeeze contract, tokens contracts, basic UI, Ponder index, leaderboards, newsfeeds, balances, deployment, migration to tokens with 18 decimals, etc. doodle exchange, PR reviews, and technical review. SE-2 workshop at Labitconf.",
+    "timestamp": 1733351123
+  },
+  {
+    "tx": "0x83c5526f1ac93e0c601783c8be46e9525dcb65ce93e62b8d7ef1d42f5d62e1f5",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.65,
+    "reason": "Doodle reconfiguration —— Node power setup completion —— pkdice next and backend upgrades",
+    "timestamp": 1733217215
+  },
+  {
+    "tx": "0xb1186f372c52f8d758ef02f7922b9b49712fdf35f0e279a7b5198ec1e6eba2dc",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.3,
+    "reason": "Workshop at Counterspell, CTF walkthrough",
+    "timestamp": 1733106191
+  },
+  {
+    "tx": "0xf9024e090fd4d4feba0944869dd2d25c9c3bcc66f7a66bf07c70692a56c67ec1",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.25,
+    "reason": "Preparing for UniswapX fill extension:https://github.com/moltam89/scaffold-eth-2/tree/UniswapX, Snapshots, setMockArbGasInfoCode, cleaning UI: https://github.com/scaffold-eth/scaffold-eth-2/commit/9288aae4a3f953ab8f5a9ee02a833707a8cc9004, helper repo for generating calldata:https://github.com/moltam89/smart-order-router-calldata/",
+    "timestamp": 1732723223
+  },
+  {
+    "tx": "0x987d723299227ada9dc5f1f4536a1f32121607ddaea153f540099a81c44afd62",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.25,
+    "reason": "Preparing for UniswapX fill extension, Create explanatory UI: https://github.com/moltam89/scaffold-eth-2/commit/3fbaa0e77bb49b7351173767b245c5387cf10f1f, https://github.com/moltam89/scaffold-eth-2/tree/UniswapX",
+    "timestamp": 1732003979
+  },
+  {
+    "tx": "0xce4ddaa690b6d29974327f3e33ca662e62aab01b7ee28655c6c3e347b0ae0baf",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 1,
+    "reason": "Create batches in BG app and have them linked to the banner, https://github.com/scaffold-eth/buidlguidl-v3/pull/116, https://github.com/scaffold-eth/buidlguidl-v3/pull/117, Roadmap for the EF 2025",
+    "timestamp": 1731891767
+  },
+  {
+    "tx": "0x61bf69b8990523a582cf6a5dfd3a64edd6e96f84a001ab8a7f1aa896978df183",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.2,
+    "reason": "@wagmi/svelte is almost ready for alpha, just waiting on awkweb to respond haha. also doing a workshop at Counterspell",
+    "timestamp": 1731861695
+  },
+  {
+    "tx": "0xab77f524dac19f60e3cb03cd4388801d41ec080ab5bb9ba62eae647e8ba7e550",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.2,
+    "reason": "Bg node - power supply setup",
+    "timestamp": 1731572819
+  },
+  {
+    "tx": "0xf035d5c09533087c5d061d4c9dce71823fa1dbbe48bfd5a142f1a68f8774852b",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.25,
+    "reason": "Preparing for UniswapX fill extension, test logic moved to the frontent: https://github.com/scaffold-eth/scaffold-eth-2/commit/c133a16237987a6e02405e05dba380e74e517911",
+    "timestamp": 1731426863
+  },
+  {
+    "tx": "0x58412b953befeef958596fe532f29f32589e6addab725c6cb239befb733517c0",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange/pull/56 - Timeout, rendering and error notification fix && Devcon",
+    "timestamp": 1731028727
+  },
+  {
+    "tx": "0x3037f693ee7dcfc427d22570bf1986a08084d6f2a045c7b2454632f3d9f0537d",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.75,
+    "reason": "October work: ETHRome judging, MACI platform setup, review and testing, HerDAO Speedrun Q/A, Labitconf workshop, FrogCryptoNFT draft contract.",
+    "timestamp": 1730750915
+  },
+  {
+    "tx": "0x5ce06ca7a386ca8f0befdd495f842f9722850ba7395fa50763a52b4c3ca5f1e9",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.2,
+    "reason": "One word: @wagmi/svelte. Hoping to release later this week",
+    "timestamp": 1730749871
+  },
+  {
+    "tx": "0xee008d0a3779267b55f475e9fd4f939d43984b9a669526d8451122f794a30fb4",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.3,
+    "reason": "Preparing for UniswapX fill extension, test for filling an intent: https://github.com/moltam89/scaffold-eth-2/tree/UniswapX",
+    "timestamp": 1730710439
+  },
+  {
+    "tx": "0x997fe6eeeb3495f82eb508a7dd72c8825985343988b6a898a74a0a45f746f21e",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.45,
+    "reason": "Doodle - Implement a one-minute round timeout across both host and player screens to maintain consistency in gameplay pacing. Ensure that the Ably connection is closed when a non-player account attempts to connect. Address and resolve the error occurring at the end of each round for smooth gameplay.",
+    "timestamp": 1730359655
+  },
+  {
+    "tx": "0x710fb1926bb3c7e7cd2ce04f172a5ad5657f19de62657b9575626b1b8ebb5344",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange/pull/49 - removal of drawings list auto scroll, Allow updating round even with poor host connection, allow access to finished games",
+    "timestamp": 1729795511
+  },
+  {
+    "tx": "0x2badb09b7494483d1c180ae46533118d087a9f8559fa61d343be5c9a364e23f1",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/moltam89/uniswap-v2-swap",
+    "timestamp": 1729370819
+  },
+  {
+    "tx": "0x1ed80f215a5a6381f1ed532842361aad28355a04d3012a1b0d2cf53884ac1b20",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/138, https://github.com/scaffold-eth/punk-wallet/pull/98",
+    "timestamp": 1729085603
+  },
+  {
+    "tx": "0x1e1b261f0d243775922b5f2af9e185633bbd216624e6a1728866dd4cbb5700b1",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 1,
+    "reason": "BG App - Database change: https://github.com/scaffold-eth/buidlguidl-v3/pull/112; BG App - Autosign Batches: https://github.com/scaffold-eth/buidlguidl-v3/pull/114; Budget Calculation BG 2024, 2025; Batch 10 Complete SetUp",
+    "timestamp": 1728840815
+  },
+  {
+    "tx": "0xd33880c78168b0f84471c5b374afc7959fc7baa687e70168794dc07385be7226",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.4,
+    "reason": "Completely overhaul firebase extension, a few prs, starting on bg onboarding guide",
+    "timestamp": 1728752123
+  },
+  {
+    "tx": "0x199b53c7abdd5745436d3fcebf661cef995bb1b1aa258952bb14fc8f60b439ba",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.5,
+    "reason": "Doodle - 5 seconds ingame auto refresh , drawings list sort menu by round words, drawings list red/green - incorrect/correct borders and Qr scanner for joining game  #47, removed uniqueness in username and fixed end or round error when player submits with few seconds left #46",
+    "timestamp": 1728677327
+  },
+  {
+    "tx": "0x08575caaeb98f64cad90dfcd17779a1914f21ffafc4a821e3401c50762eac097",
+    "builder": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+    "ens": "byteatatime.eth",
+    "amount": 0.1,
+    "reason": "Burner wallet #23, address.vision #72, help in tg, web components",
+    "timestamp": 1728164147
+  },
+  {
+    "tx": "0xc579d4e6cab46d79eef343a7e8b7015c92ccf04c3015074d170a72ad878fb348",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/moltam89/scaffold-eth-2/tree/uniswapV2Extension, https://github.com/scaffold-eth/punk-wallet/pull/97, https://github.com/scaffold-eth/create-eth/pull/129",
+    "timestamp": 1728112523
+  },
+  {
+    "tx": "0xf69d5a66740da7609efafc22a891ce971d3368086eb0ff3225ca4c9a418ba443",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.6,
+    "reason": "September work: Akindo judge waves 9 and 10. MACI-Wraper fixes and improvements. Randao random extension https://github.com/scaffold-eth/create-eth-extensions/pull/28",
+    "timestamp": 1727880371
+  },
+  {
+    "tx": "0xb0d537a12c63b10bc70382bd40b5b36c69298cca670e323d014a7ff7b5eb1c77",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.995,
+    "reason": "Doodle Exchange - round countdown deadtime before game start and new rounds, Fix game joining error #34, usernames for host and players #36, leaderboard  on player screen #37, Added users loogie image (loogie-bio) and extended username components list #39, Add pause feature between rounds, Display drawings in chronological order in form of text notifications and added a ban words list for moderation #43, Edits on usercard and game words display on host screen and drawing list ui updates  #44",
+    "timestamp": 1727254895
+  },
+  {
+    "tx": "0x8389a967f7c8bf8d5bdb62cb30633c5aaa3b29cd4e1a7b67030288e0850f4ec7",
+    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+    "ens": "monyo.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/scaffold-eth/create-eth/pull/122",
+    "timestamp": 1726660043
+  },
+  {
+    "tx": "0xe199ae0aafc16ce22d416f24d77f962e3e41296a7a88060fbb7e68d794b7f49c",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.8,
+    "reason": "Miro Board for EF, Support Batches",
+    "timestamp": 1726512071
+  },
+  {
+    "tx": "0xe017538d758297784242866703528991c014a5cba0986ab6f755418d87d031bd",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.7,
+    "reason": "https://github.com/BuidlGuidl/doodle-exchange/ - Fixes and Updates: Player points allocation, Word list selector and game fetching from database #23, #27, #29 ——— https://github.com/BuidlGuidl/Eth-Splitter/ - UI updates: Improved phone display and font consistency. Deployed EthSplitter to Base and Arbitrum, and added relevant support. #74",
+    "timestamp": 1725449927
+  },
+  {
+    "tx": "0xf3a1d7445870bb15a7e1aad036daf399f1bca251df088e3c2c5f29f2428255b8",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "August work: Akindo judge waves 7 and 8. MACI and MACI-Wraper. Talks and Workshops at Aleph:  BuidlGuidl and SpeedRunEthereum, SE-2 workshop, SpeedRunEthereum and SE-2 talk, Private Vote with MACI talk, Hackathon team building and ideas. PSE program talks: BuidlGuidl and SpeedRunEthereum, Private Vote with Maci. Migrate the Loogies index to Ponder.",
+    "timestamp": 1725295007
+  }
+]

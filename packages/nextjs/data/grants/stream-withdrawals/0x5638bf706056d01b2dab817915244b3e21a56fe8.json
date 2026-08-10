@@ -1,0 +1,10 @@
+[
+  {
+    "tx": "0xf1655ddf34858eec65a74e610e97afc6a5fcdac1a81e1588dca1250d1b8d5fec",
+    "builder": "0x5638bf706056d01b2dab817915244b3e21a56fe8",
+    "ens": "jengo.eth",
+    "amount": 0.3,
+    "reason": "supporting bg batch program",
+    "timestamp": 1717722587
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "tx": "0x98ba5a959b8de3b9c2d046eb345e9b70531570b9885b500c97766d31ca217cb2",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.5,
+    "reason": "flashbot sweep rescue",
+    "timestamp": 1702421219
+  },
+  {
+    "tx": "0xafcc3e4eea0670d716082fecd74ae27b6299b8492ee2b764f064de80e88122d3",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.5,
+    "reason": "exploring the implementation of a subgraph-based indexing system for an event book and conducting research on it & working on enhancing my language usage skill",
+    "timestamp": 1696175219
+  },
+  {
+    "tx": "0xbe156a752fb579c81624228b8fd9cbee56d8c0603ec294ab9c3532c9cb7c5d7a",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.35,
+    "reason": "Op stack continous research and study & revisit some prev builds",
+    "timestamp": 1693131263
+  },
+  {
+    "tx": "0xb109bd282aa23d9785e8466ef160b30b40bee705af7a22f2b870517bafc4e866",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.23,
+    "reason": "eth cli: beta version review  https://www.npmjs.com/package/ether-cli, added iterations for different errors and Opstack research ",
+    "timestamp": 1691298503
+  },
+  {
+    "tx": "0x47686c14541f80987a10b450d7409fed9f24de1f11b4d557009a1d7d9126aab4",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.12,
+    "reason": "review and refactoring; working on updating exisiting projects",
+    "timestamp": 1690171055
+  },
+  {
+    "tx": "0x137dd50aedac9cbee47fce85a2b6dd631deccc1ebcc24d059ee6ad366facc5e2",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.32,
+    "reason": "Worked on ui for https://app.buidlguidl.com/build/CM4W2KJWzUU8ORb0P73O and contributions to https://app.buidlguidl.com/build/46LoXgPsrfXaAU4ONeap",
+    "timestamp": 1689518999
+  },
+  {
+    "tx": "0x06368f0196a1e35a5e97c0eac10c34d7d46293811406bc3c3d081d6bcee2bcde",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.14,
+    "reason": "eth cli interactor",
+    "timestamp": 1687812995
+  },
+  {
+    "tx": "0x43129bea3b8694e88a55ed9eef161da5b18623bdb38307458bb67433366e08e6",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.18,
+    "reason": "eth cli interactor",
+    "timestamp": 1687092131
+  },
+  {
+    "tx": "0xecba51462f9b5087eb9c002cf1bb49d3542ac036bcb0202b39c72c10f50b430d",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.2,
+    "reason": "auditing and continued hacking through security challenges",
+    "timestamp": 1686152975
+  },
+  {
+    "tx": "0xa7d2b9051ce934c2d1c529287147dc293cd2e35c421a1f29f51edce1434b304c",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.335,
+    "reason": "hacking through smart contract security challenges && continous research on 3d nft models",
+    "timestamp": 1685100743
+  },
+  {
+    "tx": "0x2734fe0e05f5a9e97ae75d2338decd74c7a31b2cfe8585e50c90d1874d7a03c8",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.125,
+    "reason": "working on a minimal 3d model nft && updates on nft ai generator ",
+    "timestamp": 1683368387
+  },
+  {
+    "tx": "0x0ec5b209b06f5e3b4008d82be65eeff9d4610ccb6a9cdb071dd4ff530e0b763a",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.5,
+    "reason": "worked on a stable diffusion ai nft generator - https://buidlguidl.com/build/HVeF0E4W2YdRk51Sxbqy and a uniswap cloud interactor on netlify https://github.com/yandmch/Uniswap-Interactor",
+    "timestamp": 1682714027
+  },
+  {
+    "tx": "0x47c576b8c66418c5788e88b5b180c0b7b28e7c42706e18549e659530ef0b4f90",
+    "builder": "0x3eaf68de4f9b8e80a3c0f54ec0983d062e778359",
+    "amount": 0.5,
+    "reason": "Scripting: Transaction listener - https://buidlguidl.com/build/GHdaitj9da8anSLNjtnv | SE Challenges completion | Working on listenening to contract events",
+    "timestamp": 1680121127
+  }
+]

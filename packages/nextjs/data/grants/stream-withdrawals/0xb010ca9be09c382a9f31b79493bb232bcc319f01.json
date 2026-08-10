@@ -1,0 +1,42 @@
+[
+  {
+    "tx": "0xa9e3cdd66079c86349298eac7ff76bc03a720ab1e68ebee85203d75e97f53472",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.0523,
+    "reason": "test",
+    "timestamp": 1677388715
+  },
+  {
+    "tx": "0x8d93afc29eaab9aebff205ffbed0fbfa7a249a99c552a29537e5f05260248af4",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.0977,
+    "reason": "ethden prep",
+    "timestamp": 1676935979
+  },
+  {
+    "tx": "0x17db922dbd98ab59ee2f2242ed99126ac8723a5904ff9e98dec65d2161458f2a",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.22,
+    "reason": "ethers cook-book / ethden / eigenphi WIP",
+    "timestamp": 1676475647
+  },
+  {
+    "tx": "0xcd2448fb823ad18ba12a5529db5e9cce593c849634cebeae817f466c91f2bfbf",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.38,
+    "reason": "Presentations, writings, etc.. https://twitter.com/nowonderer/status/1620653375284191232?s=20&t=d9WGLc3-Ka3byYCcAPe77Q",
+    "timestamp": 1675296059
+  },
+  {
+    "tx": "0x134855d91c6b33aa8b488627e3258ee8dcd3915e612d7a8f64755f832f3f1443",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.25,
+    "reason": "https://twitter.com/nowonderer/status/1617950576100376576?s=20&t=QOJQsyyg9_sPm24QJXLDJw",
+    "timestamp": 1674614663
+  }
+]
