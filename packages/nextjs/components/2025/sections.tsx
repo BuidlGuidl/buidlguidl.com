@@ -499,7 +499,7 @@ const NODE_INFRA: RecapSectionData = {
 
           <TaskList
             tasks={[
-              "Launched the RPC and immediately started handling mainnet requests at no cost to users",
+              "Launched the BG RPC and immediately started handling mainnet requests at no cost to users",
               <>
                 Started rewarding BG Client node runners who support the BG RPC with the{" "}
                 <DarkLink href="https://bread.buidlguidl.com/">Bread</DarkLink> ERC-20 token
