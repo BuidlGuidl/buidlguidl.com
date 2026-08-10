@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 /**
  * Site footer
@@ -20,6 +21,12 @@ export const Footer = () => {
               <a href="https://speedrunethereum.com/builds" target="_blank" rel="noreferrer" className="m-0">
                 Builds
               </a>
+              <Link href="/batches" className="m-0">
+                Batches
+              </Link>
+              <Link href="/2025" className="m-0">
+                2025 Recap
+              </Link>
               <a href="https://github.com/scaffold-eth/scaffold-eth-2" target="_blank" rel="noreferrer" className="m-0">
                 Scaffold-ETH 2
               </a>
