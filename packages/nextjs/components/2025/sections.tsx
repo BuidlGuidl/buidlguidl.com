@@ -449,6 +449,91 @@ const ECOSYSTEM: RecapSectionData = {
   ],
 };
 
+const NODE_INFRA: RecapSectionData = {
+  id: "node-infra",
+  track: "Infrastructure Track",
+  title: "Ecosystem Support",
+  navTitle: "Ecosystem Support",
+  intro: (
+    <>
+      We improved the BuidlGuidl Client UX and launched a free distributed mainnet RPC that{"'"}s powered by BG Clients.
+    </>
+  ),
+  tabs: [
+    {
+      id: "bg-client",
+      title: "BG Client",
+      content: (
+        <>
+          <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
+            One line command to run an Ethereum full node, with a terminal dashboard for monitoring.
+          </p>
+
+          <TaskList
+            tasks={[
+              "Started powering the BG RPC with a network of BG Clients",
+              <>
+                Added Telegram alerts and a{" "}
+                <DarkLink href="https://apps.apple.com/us/app/bg-client/id6756518184">Mac and iOS app</DarkLink> for
+                monitoring node status
+              </>,
+              "Kept the execution (Geth & Reth) and consensus (Prysm & Lighthouse) clients current all year.",
+            ]}
+          />
+        </>
+      ),
+      links: [
+        { url: "https://client.buidlguidl.com/", label: "Website" },
+        { url: "https://github.com/BuidlGuidl/buidlguidl-client", label: "Github" },
+      ],
+    },
+    {
+      id: "bg-rpc",
+      title: "BG RPC",
+      content: (
+        <>
+          <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
+            A community-powered RPC endpoint served by BG Client nodes. It started from an empty repo in January 2025
+            and grew into the pool service that routes, verifies, and pays for every request.
+          </p>
+
+          <TerminalLabel>Request Routing</TerminalLabel>
+          <TaskList
+            tasks={[
+              "Built the pool from scratch: socket.io check-ins, a live map of connected nodes, and per-request timeouts",
+              "Raced each request across three nodes and returned the fastest response, later tuned down to a single node with random spot check sets",
+              "Added a caching layer for eth_call, eth_getBalance, eth_getStorageAt, eth_getBlockByNumber and friends, keyed by params and block number",
+              "Added dynamic timeouts for slower methods and a retry when the first node times out",
+            ]}
+          />
+
+          <TerminalLabel>Trust & Verification</TerminalLabel>
+          <TaskList
+            tasks={[
+              "Compared responses key by key across nodes and raised Telegram alerts on mismatches",
+              "Blocked block number spoofing by checking each node's reported head against the mode of the pool",
+              "Scored nodes fast or slow by their timeout percentage over the trailing week, and filtered out stale or partial check-ins",
+            ]}
+          />
+
+          <TerminalLabel>Rewards & Public Data</TerminalLabel>
+          <TaskList
+            tasks={[
+              "Replaced owner points with Bread minted on Base: staged to a database, batched, ENS resolved, with mint capacity preflight and nonce error recovery",
+              <>
+                Shipped the endpoints behind the client and{" "}
+                <DarkLink href="https://rpc.buidlguidl.com/">rpc.buidlguidl.com</DarkLink>: /poolNodes, /nodeContinents,
+                /rpcsitestats, /yournodes with per-node system stats, and /watchdog
+              </>,
+            ]}
+          />
+        </>
+      ),
+      links: [{ url: "https://rpc.buidlguidl.com/", label: "Website" }],
+    },
+  ],
+};
+
 const MISC: RecapSectionData = {
   id: "misc",
   track: "Dapp Building Track",
@@ -542,4 +627,4 @@ const MISC: RecapSectionData = {
   ],
 };
 
-export const RECAP_SECTIONS: RecapSectionData[] = [SPEEDRUN, SCAFFOLD_ETH, EDUCATIONAL, ECOSYSTEM, MISC];
+export const RECAP_SECTIONS: RecapSectionData[] = [SPEEDRUN, SCAFFOLD_ETH, EDUCATIONAL, ECOSYSTEM, NODE_INFRA, MISC];
