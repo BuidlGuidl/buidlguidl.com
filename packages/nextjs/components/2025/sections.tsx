@@ -507,6 +507,13 @@ const NODE_INFRA: RecapSectionData = {
               "Improved response speeds with caching and smarter request routing",
             ]}
           />
+          <TerminalLabel>2025 Stats</TerminalLabel>
+          <InlineStats
+            stats={[
+              { value: "5 million+", label: "requests served" },
+              { value: "3", label: "continents hosting supporting nodes" },
+            ]}
+          />
         </>
       ),
       links: [{ url: "https://rpc.buidlguidl.com/", label: "Website" }],
