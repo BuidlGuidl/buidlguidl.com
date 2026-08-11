@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x06597cdbde833bc4b1570f99b5762652af30f669d169d06ebef659bfd99d27f6",
+    "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
+    "ens": "calvinquin.argent.xyz",
+    "amount": 0.5,
+    "reason": "noir challenge contributions",
+    "timestamp": 1761331751
+  },
+  {
     "tx": "0x715243f3846a3976bb3ead75dc8e556225c7e9a6288a7c98a7afba7dd15ede69",
     "builder": "0x614ae4c6eb91cec9e6e178549c0745a827212b24",
     "ens": "calvinquin.argent.xyz",

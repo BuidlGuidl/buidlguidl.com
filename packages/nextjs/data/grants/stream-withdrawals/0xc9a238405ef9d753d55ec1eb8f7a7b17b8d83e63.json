@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x879bb751adb451d6d7d0c0db2d7816a558151ced2caf4ba586ceea10bf9091cc",
+    "builder": "0xc9a238405ef9d753d55ec1eb8f7a7b17b8d83e63",
+    "ens": "huxwell.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/moonshotcollective/scaffold-moonshot-starter",
+    "timestamp": 1647377752
+  },
+  {
+    "tx": "0x7d02f1ed3ad5fe8e79da8fdbb900d10f8b77b7a279724dfda1df12d78372dc9b",
+    "builder": "0xc9a238405ef9d753d55ec1eb8f7a7b17b8d83e63",
+    "ens": "huxwell.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/moonshotcollective/scaffold-moonshot-starter",
+    "timestamp": 1639889589
+  }
+]

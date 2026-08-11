@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-10T20:42:24.197Z",
+  "generatedAt": "2026-08-11T16:53:51.928Z",
   "ponderBlocks": {
-    "mainnet": 25727055,
+    "mainnet": 25733068,
     "optimism": 151240163
   },
   "sources": [
     "https://bg-ponder-indexer-production.up.railway.app/graphql",
     "https://buidlguidl-v3.ew.r.appspot.com",
-    "https://grants.buidlguidl.com"
+    "https://grants.buidlguidl.com",
+    "https://eth.blockscout.com/api/v2"
   ],
   "coverage": {
     "cohortWithdrawals": {
@@ -15,21 +16,21 @@
       "to": 1786384103
     },
     "streamWithdrawals": {
-      "from": 1622005825,
-      "to": 1735083899
+      "from": 1621743401,
+      "to": 1766177627
     },
     "grantsNotPubliclyListed": 6
   },
   "totals": {
-    "uniqueBuilders": 291,
+    "uniqueBuilders": 307,
     "cohorts": 22,
     "cohortBuilders": 113,
     "cohortWithdrawals": 814,
     "cohortEthStreamed": 462.236094,
     "cohortEthRemaining": 7.411853,
-    "streamBuilders": 121,
-    "streamWithdrawals": 1485,
-    "streamEthWithdrawn": 740.271165,
+    "streamBuilders": 137,
+    "streamWithdrawals": 1603,
+    "streamEthWithdrawn": 783.357695,
     "appBuilders": 1358,
     "appBuilds": 1263,
     "grants": 108,

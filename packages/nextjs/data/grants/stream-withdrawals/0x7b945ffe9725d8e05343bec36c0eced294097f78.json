@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xbd80028f579aa86ce5bae67ce37e1854b2696ce8b887170dbb7dcf8df7f0f6a8",
+    "builder": "0x7b945ffe9725d8e05343bec36c0eced294097f78",
+    "ens": "sadda11asm.eth",
+    "amount": 0.323,
+    "reason": "withdraw",
+    "timestamp": 1759588187
+  },
+  {
     "tx": "0xf47bae40f19dce8c19a8f638c6d23a0bec2ebf4ca4c58f32e6e35510c2b87a7a",
     "builder": "0x7b945ffe9725d8e05343bec36c0eced294097f78",
     "ens": "sadda11asm.eth",

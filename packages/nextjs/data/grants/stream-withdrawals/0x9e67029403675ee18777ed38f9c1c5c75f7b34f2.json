@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xfcb8c74e9fe4c483bee69f01f677e485619e4a11e6add649bfe572cca8c72baa",
+    "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
+    "ens": "powvt.eth",
+    "amount": 0.266667,
+    "reason": "empty",
+    "timestamp": 1759761911
+  },
+  {
     "tx": "0x29449c8ece6305f6c795e34d65eeb845b02fa2939437e1e78ae4ecfb3c1b182f",
     "builder": "0x9e67029403675ee18777ed38f9c1c5c75f7b34f2",
     "ens": "powvt.eth",

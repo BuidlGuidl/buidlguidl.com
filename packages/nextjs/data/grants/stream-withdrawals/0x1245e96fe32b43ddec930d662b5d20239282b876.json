@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x99502f1f8fe1d0b4cfef4616fa623f1e810a61ad16a8f9f9a81f6ecc7d700090",
+    "builder": "0x1245e96fe32b43ddec930d662b5d20239282b876",
+    "ens": "amogh.eth",
+    "amount": 0.05,
+    "reason": "",
+    "timestamp": 1685750171
+  },
+  {
+    "tx": "0x1373624fc87c0fac3ade8311891aedef949730a9f43ca220613acfaabae521ba",
+    "builder": "0x1245e96fe32b43ddec930d662b5d20239282b876",
+    "ens": "amogh.eth",
+    "amount": 0.499914,
+    "reason": "",
+    "timestamp": 1684179215
+  }
+]

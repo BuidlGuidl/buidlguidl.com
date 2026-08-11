@@ -198,5 +198,77 @@
     "amount": 0.25,
     "reason": "Eth hooks and scaffold maintenance, fixes",
     "timestamp": 1646679119
+  },
+  {
+    "tx": "0x2f788dfa4efb8deb513ba581ecea4d60cc0c4aed0da00b1d3cc95c182806543e",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.12578,
+    "reason": "[🏁 1.] fix issues with ipfs-http-client https://github.com/scaffold-eth/scaffold-eth-typescript/issues/44 [🏁 2.] eth-hooks and typescript bug fixes",
+    "timestamp": 1640994126
+  },
+  {
+    "tx": "0x031822279dc63a1af092e117a9868d3d2a065a0566afa3cb9c224a70aa2215a0",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.45,
+    "reason": "[🏁 1.] Finished tests for useOnRepetition and useBlockNumber https://github.com/scaffold-eth/eth-hooks/pull/87 [🏁 2.] fixes and new tests for useNonce, useTimestamp, useUserAddress https://github.com/scaffold-eth/eth-hooks/pull/88 [🏁 3.] Released eth-hooks v3 and eth-components v2 https://github.com/scaffold-eth/eth-hooks/pull/90 https://github.com/scaffold-eth/eth-components/pull/19 [🏁 4.] clean up old beta packages and devops fixes [🏁 5.] misc devops, presentation prep etc https://github.com/scaffold-eth/scaffold-eth-typescript/issues/21 [🏁 5.] planning and scoping https://github.com/scaffold-eth/scaffold-eth-typescript/issues/23",
+    "timestamp": 1636594856
+  },
+  {
+    "tx": "0x01267572719e61f89fcd716f93dfa3dac3c43c09dba3e25a15ed887cf2c8035b",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2798,
+    "reason": "🏁(1) eth-hooks v2 bugfixes: https://github.com/scaffold-eth/eth-hooks/issues/46 https://github.com/scaffold-eth/eth-hooks/issues/43 🏁 (2) eth-hooks v3-beta eth-components v2-beta PR and bugfixes https://github.com/scaffold-eth/scaffold-eth-typescript/pull/6 https://github.com/scaffold-eth/eth-hooks/pull/40 https://github.com/scaffold-eth/eth-components 🏁 (3) https://github.com/scaffold-eth/eth-components/issues/12",
+    "timestamp": 1634218810
+  },
+  {
+    "tx": "0x1619f8ff2ea8568133eb643d1d89e85097ecbabaff1c52bd469afa4c186d79fe",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.156,
+    "reason": "(1) eth-components beta https://github.com/scaffold-eth/eth-components/pull/3/",
+    "timestamp": 1632801583
+  },
+  {
+    "tx": "0xf4ff2767269d1b94cf7e3fc43877a0d57df263b12fc98dd9557fd6c60bfd50bc",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "(1) eth-hooks unit testing poc https://github.com/scaffold-eth/eth-hooks/issues/25 (2) updated eth-hooks jsdocs and generated docs: https://github.com/scaffold-eth/eth-hooks/pull/30 (3) https://github.com/scaffold-eth/eth-hooks/issues/31",
+    "timestamp": 1632199933
+  },
+  {
+    "tx": "0x63062e6b106dfff95daa2072b427fd1bd025c428fc459e52072bd42f9f2c6b1a",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.00008,
+    "reason": "(1) eth-hooks unit testing poc https://github.com/scaffold-eth/eth-hooks/issues/25",
+    "timestamp": 1632127606
+  },
+  {
+    "tx": "0xcfae8ac33536c2b1abb216fd37253022812406952387fa4fdd04dd8e7216a9ad",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.4,
+    "reason": "🏴(1) Eth-hooks npm next package 🏴(2) scaffold-eth stage branch https://github.com/austintgriffith/scaffold-eth/pull/351 🏴 (3) eth-hooks / stage bugfixes and testing 🏴 (4) eth-hooks unit tests",
+    "timestamp": 1630403469
+  },
+  {
+    "tx": "0xa166df17bdfc37c9ec1a932c994fbd472ffcb4b50e4bc0eba001e7c8d81a66f2",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.425,
+    "reason": "Updating eth-hooks: (1) updated eth-hooks https://github.com/austintgriffith/eth-hooks/pull/18 (2) updated vite-app and react-app to use new hooks: https://github.com/austintgriffith/scaffold-eth/pull/279 https://github.com/austintgriffith/scaffold-eth/pull/262 (3) updated react-app to v17 https://github.com/austintgriffith/scaffold-eth/pull/278",
+    "timestamp": 1626878426
+  },
+  {
+    "tx": "0x940ca044d6e1049bded267537b9ac61ef21f34e6ecf56a5517c0b13ff462e90f",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2,
+    "reason": "typescript version of scaffold-eth with hardhat-ts and vite-app-ts.  (1) branch: https://github.com/austintgriffith/scaffold-eth/tree/typescript (2) PR: https://github.com/austintgriffith/scaffold-eth/pull/223",
+    "timestamp": 1625729257
   }
 ]

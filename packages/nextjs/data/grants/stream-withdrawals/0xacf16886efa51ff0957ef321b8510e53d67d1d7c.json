@@ -1,5 +1,21 @@
 [
   {
+    "tx": "0x209b1220f4473adf7043a127488dcd1bfd13237d664641be9fba61b4dd78230b",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.311136,
+    "reason": "bg",
+    "timestamp": 1766177627
+  },
+  {
+    "tx": "0x701e211666ea4fee6914d6b0a1f423af01b5046b959763efc5d6e6eb576ea580",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.5,
+    "reason": "bg",
+    "timestamp": 1759672223
+  },
+  {
     "tx": "0x88799dd05aab6413d9a8f359fb63a7d9a227dd5daeb0f54e143eaf2cde266747",
     "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
     "ens": "grothe.eth",
@@ -30,5 +46,53 @@
     "amount": 0.503368,
     "reason": "https://bazaar.buidlguidl.com/build/dh7JG8nkkaELuT9WXKZC",
     "timestamp": 1648002640
+  },
+  {
+    "tx": "0x6d800ccd9d0e4cc27f8841352da45cd66696d839e88ed492d8b42796d9e8a733",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.162735,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-typescript-examples/tree/alchemy-nft-api",
+    "timestamp": 1645073519
+  },
+  {
+    "tx": "0xbbbc50f2cb1c975097a958be4872a91374fd75a64f2cb9603b035b69770edded",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.160146,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-typescript-challenges/tree/challenge-0-simple-nft",
+    "timestamp": 1642651342
+  },
+  {
+    "tx": "0x6e79c203c2272c83c783eece6677aa7b20d191234d202d8dfe20933e2451fe38",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.255775,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-typescript-challenges/tree/challenge-2-token-vendor and misc. fixes to TS challenge 1",
+    "timestamp": 1639974317
+  },
+  {
+    "tx": "0x11bca422ad9e7b5d9112a547bce7bf530307f0eded6675b4aaa4e7f6e8bbefcd",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.21179,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-typescript-challenges/tree/challenge-1-decentralized-staking  https://github.com/scaffold-eth/eth-components/pull/29",
+    "timestamp": 1638327639
+  },
+  {
+    "tx": "0x0265bf66f6e948958add071973bfb35c4eb23eef40dd93960e9d458f9ad31867",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.240725,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/dice-game",
+    "timestamp": 1637116947
+  },
+  {
+    "tx": "0xdf13ee5f5e994a14434ad177f9c30a1bb3e7b2daead1201c16b3371601661280",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.229121,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/blind-auction",
+    "timestamp": 1635655579
   }
 ]

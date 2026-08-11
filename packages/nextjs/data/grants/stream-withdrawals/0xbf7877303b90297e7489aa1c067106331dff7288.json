@@ -182,5 +182,69 @@
     "amount": 0.5,
     "reason": "roundtable (https://roundtable.surge.sh) + retfund NFT dev",
     "timestamp": 1647048060
+  },
+  {
+    "tx": "0x0be0b9642a187a187c7a976616dd743c0f88d38b03d89d5b514c4c882105ae13",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.241394,
+    "reason": "More eth-components logic & UI separation",
+    "timestamp": 1639281378
+  },
+  {
+    "tx": "0x443cded5c98e39e80ce6db21484f765606ed864e308f5ef5d6bd5b6464388542",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.2,
+    "reason": "PRs, builds and updates",
+    "timestamp": 1638027730
+  },
+  {
+    "tx": "0x6925889701c825886942c11e8054863858a986e5ec8ae9a95e9400f95e0a4f4c",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.25,
+    "reason": "prs, issues, clean ups and branch updates",
+    "timestamp": 1637386314
+  },
+  {
+    "tx": "0x9fc5fc20578dcc1971090da447ef4be55642291d6e5a4a5f57c8423f41dbeb12",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.25,
+    "reason": "NextJS branch clean up / NFT demo build on NextJS branch / issues and fixes",
+    "timestamp": 1636938387
+  },
+  {
+    "tx": "0x3b7d15cd9a4969a5b44a0d9588aad7218f383eaeed486694de1fdbe56d5ea377",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.110034,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/scaffold-Nextjs-simple-NFT",
+    "timestamp": 1636086722
+  },
+  {
+    "tx": "0xa5016ad2871d8f6d66e6e35c7277a2d06b7bc6dc1c32f132087504c2d3ebd4e1",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.03,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/pull/477",
+    "timestamp": 1633757385
+  },
+  {
+    "tx": "0xdece4ff34581edec9fb55a3e42e3eedd281963226a33f27133964b5923190aee",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.09,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/pull/467",
+    "timestamp": 1633395152
+  },
+  {
+    "tx": "0x441eb694b992a34145aebb55b9d25e73ea5da09455cd95168e7865715f232942",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/scaffold-nextjs",
+    "timestamp": 1632914341
   }
 ]

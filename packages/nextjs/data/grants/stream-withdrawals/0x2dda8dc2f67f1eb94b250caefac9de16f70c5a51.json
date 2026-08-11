@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xa6d160861d33f7ede66588394511b9e8ba5e513eba42e75e838090bb44f50277",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.444788,
+    "reason": "withdrawing the complete amount",
+    "timestamp": 1759761395
+  },
+  {
     "tx": "0xbfc489a992cf0ff9ed5948ebea46407c71f78a03a2b59c218ceb5c708f819f01",
     "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
     "ens": "viraz.eth",
@@ -158,5 +166,69 @@
     "amount": 1.2,
     "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/public-goods-staking",
     "timestamp": 1646969574
+  },
+  {
+    "tx": "0x69d19d0c7710b34763c8c503651489b18e81ce7ced9eaa0caf441703672e88b2",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.498595,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/erc20-retroactive-funding (UI WIP)",
+    "timestamp": 1639973647
+  },
+  {
+    "tx": "0x7674e1d25e7dfec56fc32a4de2cefbee69ea4bf7680483b16e39ff60b28f21e8",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/nft-retroactive-funding",
+    "timestamp": 1637388310
+  },
+  {
+    "tx": "0xda3ca7b39e03c279ae0829134afce26fe57328598410f2c71ea325e1cad433b6",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/buidl-guidl/reporting",
+    "timestamp": 1636267163
+  },
+  {
+    "tx": "0xbca42c32e5d1aea49b6713b3d7033d85541e89b20f777aa8c4a52d6c17ac4d23",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/bonding-curve-emoji-feast",
+    "timestamp": 1633164110
+  },
+  {
+    "tx": "0xddc20baa10ef70ce00114e358c9a534e36c9cefa9b28f4a6ec796aec6de433a1",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.499858,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/gnosis-starter-kit",
+    "timestamp": 1630560635
+  },
+  {
+    "tx": "0x3be77e345f4caa6b6ec89d0afd86ba6cf98fbbec737d9c1d12d27566ec7a81c1",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/diamond-starter-kit",
+    "timestamp": 1627529076
+  },
+  {
+    "tx": "0x89442560510b474f5be016dada8b2430dd5bd6ecf1c3ef2e78404ec075533dae",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/payment-channel and https://github.com/austintgriffith/scaffold-eth/tree/chains-and-deployments",
+    "timestamp": 1624864869
+  },
+  {
+    "tx": "0x250c9e1a8ed14c1feb16548ccf410ad6be3699f18e19463154dd4eb1dc276893",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.479669,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/signature-nft-auction",
+    "timestamp": 1621743401
   }
 ]

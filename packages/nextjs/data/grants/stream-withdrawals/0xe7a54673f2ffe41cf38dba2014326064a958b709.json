@@ -1,0 +1,10 @@
+[
+  {
+    "tx": "0xc654f96f96d724292bc9d905cfd965ebd8dd98ad5489fab327e8fe9da7d911a4",
+    "builder": "0xe7a54673f2ffe41cf38dba2014326064a958b709",
+    "ens": "danielrees.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/send-ether-reentrancy",
+    "timestamp": 1633558921
+  }
+]

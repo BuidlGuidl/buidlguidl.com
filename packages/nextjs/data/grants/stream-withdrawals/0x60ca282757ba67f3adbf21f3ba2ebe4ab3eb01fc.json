@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x9c49b18ff6207bb63e2b93878f1c20ec565255e6b3b436a8012ade0f9eccbb8b",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 0.020576,
+    "reason": "",
+    "timestamp": 1759527995
+  },
+  {
     "tx": "0xa51a7810f27177162edb5e67ad05d8674211be9b9e35509cf837576f66735c1c",
     "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
     "ens": "adamfuller.eth",

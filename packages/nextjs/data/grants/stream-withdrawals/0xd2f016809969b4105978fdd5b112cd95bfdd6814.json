@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x28272963c24b8ef4ab99cc5e2c58359a5dc80bda88fdb5246848cc5e3446d732",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.0175,
+    "reason": "D",
+    "timestamp": 1759755731
+  },
+  {
     "tx": "0xce4ceff9be492aff17ebafefbf8e10115f66105ddf45ecae237a66c741f328ff",
     "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
     "ens": "mrdee.eth",
@@ -190,5 +198,61 @@
     "amount": 0.5,
     "reason": "Ethdev assets and design / Eth hooks website design help / propositions for identicon project ( ongoing ) / https://i.postimg.cc/VkxkMnts/Latest-Work.png",
     "timestamp": 1653597195
+  },
+  {
+    "tx": "0x5907f2cc2b6903853cdeca09ecfa76b434c07c267cc5297cb7867b096868a55a",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 0.52,
+    "reason": "Eth.dev animated backgrounds + assets | Eth Hooks logo + website assets ",
+    "timestamp": 1646327704
+  },
+  {
+    "tx": "0x6f0be41712aa57918cbc4ff6d5b6abc7212100b0faddee06413e980da07a144a",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "Eth.dev artworks + Buidl 3d avatars",
+    "timestamp": 1642176339
+  },
+  {
+    "tx": "0xf45c2832137fd55a7de36db6f2ce9bf9551794213b89da191b073f8ff13f2a5c",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "degen-dice app |  speedrun Ethereum assets and badges | artwork and logos for FLEM token | svg animation for Loogie project |",
+    "timestamp": 1637983115
+  },
+  {
+    "tx": "0x6085ea7831bb04dfa2fc95d30125f94dfc01156fd8ba5390266a7970cec28fcb",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "Buidlguidl 3D avatars + animated 3D badges ",
+    "timestamp": 1634817353
+  },
+  {
+    "tx": "0x4b5b96c41ca448955d626760843b7c995ebc215e4eb33cd947d39c4bf8af516d",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "New equipment <3 ",
+    "timestamp": 1631188772
+  },
+  {
+    "tx": "0x8a6f28199f6bd1f13b73a4c6c5aa57871851d1a09fe8329041060a6e8252dd88",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "Eth.dev",
+    "timestamp": 1628072382
+  },
+  {
+    "tx": "0xf5af92b42ae5875086ed7b6e635f90e91c05eac753d38f2f71680a2314b6567f",
+    "builder": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+    "ens": "mrdee.eth",
+    "amount": 1,
+    "reason": "Eth.dev | butterfly NFTs | akita rescue ",
+    "timestamp": 1625085355
   }
 ]

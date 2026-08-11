@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xc74520b696edf150aab586dbaab36f1e386c412955b81b9cc7a9919bf2beb3c6",
+    "builder": "0x50eccad809d553335a8eb7bfec2cee5a6f2cde43",
+    "ens": "togzhan.eth",
+    "amount": 0.3658,
+    "reason": "-",
+    "timestamp": 1762370099
+  },
+  {
+    "tx": "0xeced0613b396311b4b31dc78f4637c511565ea385653de9947bb68c663fad339",
+    "builder": "0x50eccad809d553335a8eb7bfec2cee5a6f2cde43",
+    "ens": "togzhan.eth",
+    "amount": 0.5,
+    "reason": ".",
+    "timestamp": 1759516727
+  },
+  {
+    "tx": "0x13c1c8bb0eb3199f5b91c0d84c5c9502ca503329aca7d74fee23dba4c599d94c",
+    "builder": "0x50eccad809d553335a8eb7bfec2cee5a6f2cde43",
+    "ens": "togzhan.eth",
+    "amount": 0.248515,
+    "reason": "[Nifty ink : reorganized/changed layout of create ink page, made slider bigger (https://github.com/BuidlGuidl/nifty-ink/commit/6ffcd5e1165301c6747bcbfbf9c5120e6ab63820), added collectors leaderboard, recent color history (https://github.com/BuidlGuidl/nifty-ink/pull/1) ]",
+    "timestamp": 1629137743
+  },
+  {
+    "tx": "0x4ca44613521041d630dc4661dc7fee6eb5d5eeea18351217792c8b25f18836b6",
+    "builder": "0x50eccad809d553335a8eb7bfec2cee5a6f2cde43",
+    "ens": "togzhan.eth",
+    "amount": 0.385635,
+    "reason": "[https://github.com/austintgriffith/scaffold-eth/tree/nft-store-bonding-curve, https://github.com/austintgriffith/scaffold-eth/tree/commit-reveal-with-frontend ]",
+    "timestamp": 1624819645
+  }
+]

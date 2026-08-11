@@ -78,5 +78,29 @@
     "amount": 2,
     "reason": "March 2022 work on BGv3 (https://github.com/scaffold-eth/buidlguidl-v3)",
     "timestamp": 1648737200
+  },
+  {
+    "tx": "0xab939a7ad4c2de667c1cf5c24ec76c01e295f457b98c62e64833df7c8791ebfc",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "December 2021 work on: https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1640026648
+  },
+  {
+    "tx": "0xb6e7ed27a53d5e580b0bd3833472fce16797606bf86e3f8895f4b987cd73acc6",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1636712907
+  },
+  {
+    "tx": "0x3cee65082636b4d5cc4e300aa04aafb671159bc8c1ccf49c967d4bb50588ab89",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "Work on scaffold-directory. POC working live. https://github.com/moonshotcollective/scaffold-directory",
+    "timestamp": 1633536867
   }
 ]

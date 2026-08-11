@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xc76fdefcd879fffd2243a457e83ec2570f7d161fbcb0a7f5c2703b7342ba131e",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.071429,
+    "reason": "",
+    "timestamp": 1759917071
+  },
+  {
     "tx": "0x20756676c68687e23aacb46cc750e4e6c3eb4180ba26b3261bf773f2f786d304",
     "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
     "ens": "mridul.eth",

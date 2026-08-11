@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x641093430a5caf5693ac91d96e46388cce26b426acbf32639e2429cc37158124",
+    "builder": "0x26ad3416e70bd055dbc5e34c91d17d72adbe1478",
+    "ens": "xiangan.eth",
+    "amount": 0.5,
+    "reason": "Emergency",
+    "timestamp": 1738714091
+  },
+  {
     "tx": "0x2709e466dd1a791bef909b7b8caab738f1dd07e7e0fcae975374bb6b9b30d54f",
     "builder": "0x26ad3416e70bd055dbc5e34c91d17d72adbe1478",
     "ens": "xiangan.eth",

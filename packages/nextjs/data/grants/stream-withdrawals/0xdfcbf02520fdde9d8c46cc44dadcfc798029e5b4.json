@@ -1,0 +1,10 @@
+[
+  {
+    "tx": "0xb9f2bed5117adf4215c4ce03c1354ef12f9f0a71f1c770e453c9b881f718d74d",
+    "builder": "0xdfcbf02520fdde9d8c46cc44dadcfc798029e5b4",
+    "ens": "bboyle.eth",
+    "amount": 0.5,
+    "reason": "Challenge 5 Dex updated to latest master",
+    "timestamp": 1641232460
+  }
+]

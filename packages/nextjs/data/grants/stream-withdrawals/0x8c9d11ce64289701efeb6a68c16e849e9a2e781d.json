@@ -560,14 +560,6 @@
     "timestamp": 1665929027
   },
   {
-    "tx": "0x204f7370403f17dbbafe699ae40c1552cfdd27cbfe0c7949a2920fbd7ea11a7e",
-    "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
-    "ens": "monyo.eth",
-    "amount": 0.5,
-    "reason": "https://github.com/moltam89/tenderly-simulation",
-    "timestamp": 1665929027
-  },
-  {
     "tx": "0xd1a723fd53ca545c70f1b80151324641d8f8a0b067ef0bb8275090bb4e79b2f0",
     "builder": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
     "ens": "monyo.eth",

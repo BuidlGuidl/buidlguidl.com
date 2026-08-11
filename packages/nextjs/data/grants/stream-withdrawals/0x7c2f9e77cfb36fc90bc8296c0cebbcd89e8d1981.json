@@ -160,14 +160,6 @@
     "timestamp": 1657736800
   },
   {
-    "tx": "0xfd19f9770df1848c8cfadad8cff228a5b9360ddfbb06d3095ae579a1144a0d8b",
-    "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
-    "ens": "lekag.eth",
-    "amount": 0.142,
-    "reason": "UI stuff + Juicebox project",
-    "timestamp": 1657736800
-  },
-  {
     "tx": "0xb8662ee100322006d58caef42659094e4c894e13975cc266cbb1dea17766783e",
     "builder": "0x7c2f9e77cfb36fc90bc8296c0cebbcd89e8d1981",
     "ens": "lekag.eth",

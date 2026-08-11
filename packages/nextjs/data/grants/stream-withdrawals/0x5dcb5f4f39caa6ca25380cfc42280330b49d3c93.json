@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x6aba53e65fefdeb00337a39ee75d9a6be80ebdb5d7c609e81aee1bfe02721023",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.0714,
+    "reason": "remaining",
+    "timestamp": 1722540551
+  },
+  {
     "tx": "0x64545e25ae3571692bcb982b18e9d0b600d6d86ac5ff4a787581bc8a9455d248",
     "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
     "ens": "damianmarti.eth",
@@ -222,5 +230,61 @@
     "amount": 1.5,
     "reason": "March work on LoogieShip NFT, LoogieCoin and SailorLoogies Game (WIP) https://github.com/scaffold-eth/scaffold-eth/tree/sailor-loogies",
     "timestamp": 1648854909
+  },
+  {
+    "tx": "0x8d4e53a8d04e666cd3f33023d5091aaa521df116e56b06cd16a07b21478bd12a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "Claim OptimisticLoogies https://claim.loogies.io/ https://github.com/scaffold-eth/scaffold-eth/tree/loogies-claim",
+    "timestamp": 1648145615
+  },
+  {
+    "tx": "0xf1134945cbe8e79d5f31adf5c031115579c5d0e1ba3b64147016e02678bec780",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "FancyLoogies improvements and deploy to Optimism  https://www.fancyloogies.com/ https://github.com/scaffold-eth/scaffold-eth/tree/fancy-loogies   Roboto composable and interactive NFT https://roboto-svg.com/  https://github.com/scaffold-eth/scaffold-eth/tree/roboto Claim OptimisticLoogies for mainnet loogies owners on kovan optimism  https://loogies-claim.surge.sh/  https://github.com/scaffold-eth/scaffold-eth/tree/loogies-claim",
+    "timestamp": 1644850885
+  },
+  {
+    "tx": "0x1bbe056a6d326e22fc92be61dbe055576a17c5acbdc7e4e8d917161c8e6d83eb",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "FancyLoogies on Kovan Optimism https://fancyloogies-kovan.surge.sh/ https://github.com/scaffold-eth/scaffold-eth/tree/fancy-loogies",
+    "timestamp": 1641224222
+  },
+  {
+    "tx": "0x411d6ed993f32b41ad5946ec30d14c2e619dd563153b77f7188ca6195fbd304d",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.4,
+    "reason": "Staging Feast.buidlguidl on Rinkeby http://rinkeby.feast.buidlguidl.surge.sh/  Prod Feast.buidlguidl on mainnet http://feast.buidlguidl.surge.sh/  Optimistic Loogies released on Optimistic Ethereum optimistic.loogies.io  https://github.com/scaffold-eth/scaffold-eth/tree/optimistic-loogies https://github.com/scaffold-eth/scaffold-eth/tree/optimistic-loogies-master",
+    "timestamp": 1638726223
+  },
+  {
+    "tx": "0xb76470757026ae936b4dad2b2b3ff550bfa3c79a39ddb1c2956f27b5e0de036b",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "QD with voters and candidates https://github.com/scaffold-eth/scaffold-eth/tree/qd-off-chain-voters-and-candidates  Loogie mashup - composable svg nft https://github.com/scaffold-eth/scaffold-eth/tree/loogie-mashup",
+    "timestamp": 1636375455
+  },
+  {
+    "tx": "0x0d52258e11e7ba94880ad9043b56eb1cdeca8261cb30b12c55fff41ecdc028b9",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.2444,
+    "reason": "Improvements to QD off-chain https://github.com/carletex/quadratic-diplomacy/tree/votes-off-chain   Add members from a list of addresses from the clipboard on QD unified version  https://github.com/moonshotcollective/quadratic-diplomacy/pull/17  Save address with checksum when signing into room on Tip Party https://github.com/moonshotcollective/tip.party/pull/152  Loogies tanks: Improvemnts on movements https://github.com/scaffold-eth/scaffold-eth/pull/469 Add pseudo random color to loogie tanks https://github.com/scaffold-eth/scaffold-eth/pull/470   QD talk for Boske Web3 https://www.youtube.com/watch?v=5jNz4uJKeIM  Scaffold-eth talk for Boske Web3 https://www.youtube.com/watch?v=SOzhyr2G04c",
+    "timestamp": 1634060301
+  },
+  {
+    "tx": "0x51ca11a81502f3040d4f8cbac7c877b1eaf0fc1853e818c102e05b6b47a51525",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.35555,
+    "reason": "https://github.com/carletex/quadratic-diplomacy/tree/votes-off-chain",
+    "timestamp": 1632941130
   }
 ]

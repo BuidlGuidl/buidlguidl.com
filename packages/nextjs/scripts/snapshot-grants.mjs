@@ -18,6 +18,7 @@
 //   - grants site      the grant program, scraped from its server-rendered pages
 //
 import { COHORT_REGISTRY, findCohortEntry } from "./cohortRegistry.mjs";
+import { LEGACY_STREAMS } from "./legacyStreamRegistry.mjs";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -25,6 +26,8 @@ import { fileURLToPath } from "url";
 const PONDER_URL = "https://bg-ponder-indexer-production.up.railway.app/graphql";
 const V3_API = "https://buidlguidl-v3.ew.r.appspot.com";
 const GRANTS_SITE = "https://grants.buidlguidl.com";
+const BLOCKSCOUT_API = "https://eth.blockscout.com/api/v2";
+const WITHDRAW_TOPIC = "0x485f1bb6524c663555797e00171a10f341656e59b02d6b557a0a38ba7d5d9751";
 const RPC = {
   1: "https://ethereum-rpc.publicnode.com",
   10: "https://optimism-rpc.publicnode.com",
@@ -57,6 +60,7 @@ const assert = (condition, message) => {
   if (!condition) fail(message);
 };
 
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const round = (value, decimals = 6) => Number(value.toFixed(decimals));
 const weiToEth = wei => Number(BigInt(wei)) / 1e18;
 const sum = (items, pick) => round(items.reduce((total, item) => total + pick(item), 0));
@@ -182,6 +186,77 @@ async function fetchOnchainBalance(address, chainId) {
   );
   if (body.error) fail(`rpc ${chainId}: ${body.error.message}`);
   return BigInt(body.result);
+}
+
+// ---------------------------------------------------------------- legacy builder streams
+
+/**
+ * The first generation of builder streams, one SimpleStream contract per builder, listed on
+ * the original buidlguidl.com. The v3 app never indexed them, so they are read from the chain.
+ *
+ * Blockscout is used rather than a JSON-RPC node because these contracts date to 2021 and no
+ * keyless RPC will serve a full-history eth_getLogs. Everything it returns here is verified
+ * against the contract's own event data, so it is a transport, not a source of truth.
+ */
+async function fetchLegacyStreamLogs(streamAddress) {
+  let url = `${BLOCKSCOUT_API}/addresses/${streamAddress}/logs`;
+  const items = [];
+
+  for (let page = 0; page < 20; page++) {
+    const body = await fetchJson(url, undefined, `blockscout ${streamAddress}`);
+    items.push(...(body.items ?? []));
+    if (!body.next_page_params) break;
+    url = `${BLOCKSCOUT_API}/addresses/${streamAddress}/logs?${new URLSearchParams(body.next_page_params)}`;
+    await sleep(250);
+  }
+
+  return items.filter(log => log.topics?.[0] === WITHDRAW_TOPIC).map(decodeWithdrawLog);
+}
+
+/** Withdraw(address indexed to, uint256 amount, string reason) */
+function decodeWithdrawLog(log) {
+  const data = log.data.slice(2);
+  const word = at => data.slice(at * 64, (at + 1) * 64);
+
+  const amount = BigInt(`0x${word(0)}`);
+  const reasonAt = Number(BigInt(`0x${word(1)}`)) * 2;
+  const reasonLength = Number(BigInt(`0x${data.slice(reasonAt, reasonAt + 64)}`));
+  const reason = Buffer.from(data.slice(reasonAt + 64, reasonAt + 64 + reasonLength * 2), "hex").toString("utf8");
+
+  return {
+    tx: lower(log.transaction_hash),
+    builder: `0x${log.topics[1].slice(26)}`.toLowerCase(),
+    amount: round(Number(amount) / 1e18),
+    reason,
+    timestamp: Math.floor(new Date(log.block_timestamp).getTime() / 1000),
+  };
+}
+
+async function fetchLegacyStreams() {
+  const byBuilder = new Map();
+  let total = 0;
+
+  for (const entry of LEGACY_STREAMS) {
+    const withdrawals = await fetchLegacyStreamLogs(entry.stream);
+    assert(
+      withdrawals.length > 0,
+      `legacy stream ${entry.ens ?? entry.builder} (${entry.stream}) returned no withdrawals — ` +
+        `every one of these contracts was used, so this is a fetch failure, not an empty stream`,
+    );
+
+    // The recipient is the indexed topic, which is what the archive keys on. It matches the
+    // registry for all 40 today; if a stream ever paid someone else, keep the on-chain truth.
+    for (const withdrawal of withdrawals) {
+      const list = byBuilder.get(withdrawal.builder) ?? [];
+      list.push({ ...withdrawal, streamAddress: entry.stream });
+      byBuilder.set(withdrawal.builder, list);
+      total++;
+    }
+    await sleep(300);
+  }
+
+  log(`  ${LEGACY_STREAMS.length} legacy contracts · ${total} withdrawals · ${byBuilder.size} builders`);
+  return byBuilder;
 }
 
 // ---------------------------------------------------------------- grants site scraper
@@ -495,7 +570,7 @@ function buildCohorts(ponder, v3, ensIndex) {
   return { cohorts, builders, withdrawals };
 }
 
-function buildStreams(v3, ensIndex) {
+function buildStreams(v3, legacyByBuilder, ensIndex) {
   const capByAddress = new Map();
   const streamAddressByAddress = new Map();
   for (const builder of v3.builders) {
@@ -504,14 +579,24 @@ function buildStreams(v3, ensIndex) {
     if (builder.stream.cap !== undefined) capByAddress.set(key, round(Number(builder.stream.cap)));
     if (builder.stream.streamAddress) streamAddressByAddress.set(key, lower(builder.stream.streamAddress));
   }
+  // Fall back to the old site's contract for builders the v3 app never knew about.
+  for (const entry of LEGACY_STREAMS) {
+    if (!streamAddressByAddress.has(entry.builder)) streamAddressByAddress.set(entry.builder, entry.stream);
+    if (entry.ens && !ensIndex.has(entry.builder)) ensIndex.set(entry.builder, entry.ens);
+  }
 
   const withdrawalsByBuilder = new Map();
+  // The v3 feed serves a couple of events twice, so ingestion dedupes on its own key as well.
+  const seenEvents = new Set();
   for (const event of v3.events) {
     const address = lower(event.payload?.userAddress ?? "");
     if (!address) continue;
+    const eventKey = `${lower(event.payload.tx ?? "")}-${address}`;
+    if (event.payload.tx && seenEvents.has(eventKey)) continue;
+    seenEvents.add(eventKey);
     const list = withdrawalsByBuilder.get(address) ?? [];
     list.push({
-      tx: event.payload.tx ?? "",
+      tx: lower(event.payload.tx ?? ""),
       builder: address,
       ens: ensIndex.get(address),
       amount: round(Number(event.payload.amount ?? 0)),
@@ -520,6 +605,30 @@ function buildStreams(v3, ensIndex) {
     });
     withdrawalsByBuilder.set(address, list);
   }
+
+  // The two sources overlap: the v3 feed recorded some of the legacy contracts' withdrawals
+  // and not others. The transaction hash is the only key that identifies a withdrawal across
+  // both, since timestamps and amounts are reported differently.
+  let added = 0;
+  for (const [address, legacy] of legacyByBuilder) {
+    const list = withdrawalsByBuilder.get(address) ?? [];
+    const seen = new Set(list.map(w => w.tx).filter(Boolean));
+    for (const withdrawal of legacy) {
+      if (seen.has(withdrawal.tx)) continue;
+      list.push({
+        tx: withdrawal.tx,
+        builder: address,
+        ens: ensIndex.get(address),
+        amount: withdrawal.amount,
+        reason: withdrawal.reason,
+        timestamp: withdrawal.timestamp,
+      });
+      seen.add(withdrawal.tx);
+      added++;
+    }
+    withdrawalsByBuilder.set(address, list);
+  }
+  log(`  ${added} legacy withdrawals were missing from the v3 feed and have been merged in`);
 
   const builders = [];
   const withdrawals = {};
@@ -604,7 +713,10 @@ async function main() {
   }
   log(`  ${cohorts.length} cohort balances match the chain`);
 
-  const streams = buildStreams(v3, ensIndex);
+  log("→ legacy builder streams (on-chain)");
+  const legacyByBuilder = await fetchLegacyStreams();
+
+  const streams = buildStreams(v3, legacyByBuilder, ensIndex);
   log(`  ${streams.builders.length} app stream builders · ${Object.values(streams.withdrawals).flat().length} logs`);
 
   let grants = { completed: [], active: [], ecosystem: [], stats: null };
@@ -636,7 +748,7 @@ async function main() {
   const meta = {
     generatedAt: new Date().toISOString(),
     ponderBlocks: ponder.blocks,
-    sources: [PONDER_URL, V3_API, GRANTS_SITE],
+    sources: [PONDER_URL, V3_API, GRANTS_SITE, BLOCKSCOUT_API],
     coverage: {
       cohortWithdrawals: { from: Math.min(...cohortTimestamps), to: Math.max(...cohortTimestamps) },
       streamWithdrawals: { from: Math.min(...streamTimestamps), to: Math.max(...streamTimestamps) },
