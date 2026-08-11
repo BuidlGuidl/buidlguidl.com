@@ -88,7 +88,7 @@ const SPEEDRUN: RecapSectionData = {
   intro: (
     <>
       Our flagship educational product. In 2025, we doubled down by shipping targeted UX, SEO, and gamification
-      improvements: increasing reach, signups, and challenge submissions.
+      improvements increasing reach, signups, and challenge submissions.
     </>
   ),
   stats: [
@@ -103,15 +103,15 @@ const SPEEDRUN: RecapSectionData = {
       content: (
         <TaskList
           tasks={[
-            "Add a builder portfolio page and side quests",
-            "Migrate builds from BuidlGuidl v3 and categorize them",
-            "Create 23 Solidity guides and additional landing pages, driving a 100% increase in organic traffic",
-            "Support the launch of five new challenges (Thanks Elliott and Philip!)",
-            "Launch Google Ads campaigns and collaborate with Blockscout on referral traffic",
-            "Improve conversion tracking and traffic source attribution",
-            "Automate feedback collection from past Speedrunners to measure career impact and improve the platform",
-            "Upgrade SRE to Scaffold-ETH 2",
-            "Migrate challenges to extensions for easier maintenance with future Scaffold-ETH 2 upgrades",
+            "Added a builder portfolio page and side quests",
+            "Migrated builds from BuidlGuidl v3 and categorized them",
+            "Created 23 Solidity guides and additional landing pages, driving a 100% increase in organic traffic",
+            "Supported the launch of five new challenges (Thanks Elliott and Philip!)",
+            "Launched Google Ads campaigns and collaborated with Blockscout on referral traffic",
+            "Improved conversion tracking and traffic source attribution",
+            "Automated feedback collection from past Speedrunners to measure career impact and improve the platform",
+            "Upgraded SRE to Scaffold-ETH 2",
+            "Migrated challenges to extensions for easier maintenance with future Scaffold-ETH 2 upgrades",
           ]}
         />
       ),
@@ -150,14 +150,14 @@ const SCAFFOLD_ETH: RecapSectionData = {
           </p>
           <TaskList
             tasks={[
-              "Enable Scaffold-ETH 2 deployments to IPFS",
-              "Scaffold-ETH 2 it's showcased in the Mastering Ethereum v2 book",
-              "Implement encrypted private key support",
-              "Migrate to Tailwind v4 and DaisyUI v5",
-              "Migrate to Next.js 15",
-              "Improve documentation AI compatibility using llm-full.txt files",
-              "Add custom Cursor rules to enhance DX and enable easier one-shot dApp generation",
-              "Migrate documentation to the Vocs framework for improved styling, AI compatibility (ask ChatGPT), and dynamic unfurling",
+              "Enabled Scaffold-ETH 2 deployments to IPFS",
+              "Scaffold-ETH 2 was showcased in the Mastering Ethereum v2 book",
+              "Implemented encrypted private key support",
+              "Migrated to Tailwind v4 and DaisyUI v5",
+              "Migrated to Next.js 15",
+              "Improved documentation AI compatibility using llm-full.txt files",
+              "Added custom Cursor rules to enhance DX and enable easier one-shot dapp generation",
+              "Migrated documentation to the Vocs framework for improved styling, AI compatibility (ask ChatGPT), and dynamic unfurling",
             ]}
           />
         </>
@@ -174,11 +174,11 @@ const SCAFFOLD_ETH: RecapSectionData = {
           </p>
           <TaskList
             tasks={[
-              "Improve documentation for extension creators, including an args file example",
-              "Normalize template arguments and enable a more extensible system for extension developers",
-              "Fix GitHub API rate limit errors",
-              "Expose user-selected variables to extension developers via global variables",
-              "Add core extensions, including Porto, x402, and EIP-5792",
+              "Improved documentation for extension creators, including an args file example",
+              "Normalized template arguments and enabled a more extensible system for extension developers",
+              "Fixed GitHub API rate limit errors",
+              "Exposed user-selected variables to extension developers via global variables",
+              "Added core extensions, including Porto, x402, and EIP-5792",
             ]}
           />
         </>
@@ -197,16 +197,16 @@ const SCAFFOLD_ETH: RecapSectionData = {
           <TaskList
             tasks={[
               <>
-                Build Scaffold-ETH 2 usage tracker and send over 5000 repos using SE-2 to{" "}
+                Built a Scaffold-ETH 2 usage tracker and sent over 5000 repos using SE-2 to{" "}
                 <DarkLink href="https://github.com/electric-capital/open-dev-data">
                   electric-capital/open-dev-data
                 </DarkLink>
               </>,
               <>
-                Ship <DarkLink href="https://projects.scaffoldeth.io/">projects.scaffoldeth.io</DarkLink> with SE-2
+                Shipped <DarkLink href="https://projects.scaffoldeth.io/">projects.scaffoldeth.io</DarkLink> with SE-2
                 usage stats, adding stats and direct link to SE-2 homepage
               </>,
-              "Add 'Build an app on Ethereum in 8 minutes' video to homepage",
+              "Added 'Build an app on Ethereum in 8 minutes' video to homepage",
             ]}
           />
         </>
@@ -223,8 +223,8 @@ const SCAFFOLD_ETH: RecapSectionData = {
           </p>
           <TaskList
             tasks={[
-              "Monorepo setup with docs + example setup + packages setup",
-              "3 npm packages available (components, hooks, debug-contracts)",
+              "Shipped monorepo setup with docs + example setup + packages setup",
+              "Made 3 npm packages available (components, hooks, debug-contracts)",
             ]}
           />
         </>
@@ -239,7 +239,7 @@ const SCAFFOLD_ETH: RecapSectionData = {
           <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
             Lightweight wagmi connector for ephemeral burner wallets, enabling instant onboarding without extensions.
           </p>
-          <TaskList tasks={["Maintenance", "Add compatibility with EIP-5792"]} />
+          <TaskList tasks={["Maintenance", "Added EIP-5792 compatibility"]} />
         </>
       ),
       links: [{ url: "https://www.npmjs.com/package/burner-connector", label: "NPM package" }],
@@ -322,7 +322,7 @@ const EDUCATIONAL: RecapSectionData = {
 
           <TerminalLabel>BuidlGuidl Sessions at Devconnect</TerminalLabel>
           <TaskList
-            tasks={["Unveiling Scaffold UI", "Leveraging AI to build on Ethereum", "Capture the Flag session"]}
+            tasks={["Unveiling Scaffold-UI", "Leveraging AI to build on Ethereum", "Capture The Flag session"]}
           />
 
           <TerminalLabel>Other Events</TerminalLabel>
@@ -356,7 +356,7 @@ const ECOSYSTEM: RecapSectionData = {
   intro: (
     <>
       Partnering with key players to expand Ethereum{"'"}s reach. In 2025, we partnered with ENS, Arbitrum, Geode Labs,
-      and Ethereum.org building grant platforms, cohort programs, and developer resources that benefit the broader
+      and Ethereum.org, building grant platforms, cohort programs, and developer resources that benefit the broader
       ecosystem.
     </>
   ),
@@ -373,7 +373,7 @@ const ECOSYSTEM: RecapSectionData = {
           <TaskList
             tasks={[
               "Launched the new milestone-based USDC grants features",
-              "Added milestones and enhanced admin workflow to ETH grants",
+              "Added milestones and enhanced admin workflow to ETH Grants",
             ]}
           />
           <TerminalLabel>2025 Stats</TerminalLabel>
@@ -439,7 +439,7 @@ const ECOSYSTEM: RecapSectionData = {
               contributors
             </>,
             <>
-              Speedrun Ethereum and Scaffold-ETH are featured as main themes on{" "}
+              Speedrun Ethereum and Scaffold-ETH were featured as main themes on{" "}
               <DarkLink href="https://ethereum.org/developers/">ethereum.org/developers/</DarkLink>
             </>,
           ]}
@@ -456,8 +456,8 @@ const MISC: RecapSectionData = {
   navTitle: "Misc",
   intro: (
     <>
-      Side projects and experiments. Beyond our main initiatives, we maintained useful tools, explored emerging
-      platforms like Farcaster MiniApps, and started ideating programs for 2026.
+      Side projects and experiments. We maintained useful tools that reach beyond our main initiatives, explored
+      emerging platforms like Farcaster MiniApps, and started ideating programs for 2026.
     </>
   ),
   stats: [
@@ -486,7 +486,7 @@ const MISC: RecapSectionData = {
       content: (
         <>
           <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
-            Exploring the miniapp ecosystem after our Farcaster day at Devconnect by launching experimental games and
+            We explored the miniapp ecosystem after our Farcaster day at Devconnect by launching experimental games and
             interactive experiences.
           </p>
           <TerminalLabel>Launched Miniapps</TerminalLabel>
