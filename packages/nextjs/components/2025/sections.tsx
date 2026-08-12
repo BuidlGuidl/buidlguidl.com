@@ -449,6 +449,78 @@ const ECOSYSTEM: RecapSectionData = {
   ],
 };
 
+const NODE_INFRA: RecapSectionData = {
+  id: "node-infra",
+  track: "Infrastructure Track",
+  title: "Ecosystem Support",
+  navTitle: "Ecosystem Support",
+  intro: (
+    <>
+      We improved the BuidlGuidl Client UX and launched a free distributed mainnet RPC that{"'"}s powered by BG Client
+      nodes.
+    </>
+  ),
+  tabs: [
+    {
+      id: "bg-client",
+      title: "BG Client",
+      content: (
+        <>
+          <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
+            One line command to run an Ethereum full node with a terminal dashboard for monitoring.
+          </p>
+
+          <TaskList
+            tasks={[
+              "Started powering the BG RPC with a network of BG Clients",
+              <>
+                Added Telegram alerts and a{" "}
+                <DarkLink href="https://apps.apple.com/us/app/bg-client/id6756518184">Mac and iOS app</DarkLink> for
+                monitoring node status
+              </>,
+              "Kept the execution (Geth & Reth) and consensus (Prysm & Lighthouse) clients current all year",
+            ]}
+          />
+        </>
+      ),
+      links: [
+        { url: "https://client.buidlguidl.com/", label: "Website" },
+        { url: "https://github.com/BuidlGuidl/buidlguidl-client", label: "Github" },
+      ],
+    },
+    {
+      id: "bg-rpc",
+      title: "BG RPC",
+      content: (
+        <>
+          <p className="text-white/70 text-sm leading-relaxed mt-0 mb-6">
+            A free mainnet RPC endpoint, served entirely by community-run BG Client nodes.
+          </p>
+
+          <TaskList
+            tasks={[
+              "Launched the BG RPC and immediately started handling mainnet requests at no cost to users",
+              <>
+                Started rewarding BG Client node runners who support the BG RPC with the{" "}
+                <DarkLink href="https://bread.buidlguidl.com/">Bread</DarkLink> ERC-20 token
+              </>,
+              "Improved response speeds with caching and smarter request routing",
+            ]}
+          />
+          <TerminalLabel>2025 Stats</TerminalLabel>
+          <InlineStats
+            stats={[
+              { value: "5 million+", label: "requests served" },
+              { value: "3", label: "continents hosting supporting nodes" },
+            ]}
+          />
+        </>
+      ),
+      links: [{ url: "https://rpc.buidlguidl.com/", label: "Website" }],
+    },
+  ],
+};
+
 const MISC: RecapSectionData = {
   id: "misc",
   track: "Dapp Building Track",
@@ -542,4 +614,4 @@ const MISC: RecapSectionData = {
   ],
 };
 
-export const RECAP_SECTIONS: RecapSectionData[] = [SPEEDRUN, SCAFFOLD_ETH, EDUCATIONAL, ECOSYSTEM, MISC];
+export const RECAP_SECTIONS: RecapSectionData[] = [SPEEDRUN, SCAFFOLD_ETH, EDUCATIONAL, ECOSYSTEM, NODE_INFRA, MISC];
