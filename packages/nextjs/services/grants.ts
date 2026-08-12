@@ -92,7 +92,17 @@ export function getStreamBuilder(address: string): { builder: StreamBuilder; wit
 export function getProgramGrants(): ProgramGrantsData {
   const data = readJson<ProgramGrantsData>("program-grants.json");
   assertKeys(data, ["grants", "stats"], "program-grants.json");
-  return data;
+  const grants = data.grants.filter(grant => grant.status === "completed");
+  return {
+    grants,
+    stats: {
+      totalGrants: grants.length,
+      totalEthGranted: grants.reduce((total, grant) => total + grant.amount, 0),
+      activeGrants: 0,
+      completedCount: grants.length,
+      completedEth: grants.reduce((total, grant) => total + grant.amount, 0),
+    },
+  };
 }
 
 export function getEcosystemGrants(): EcosystemGrant[] {

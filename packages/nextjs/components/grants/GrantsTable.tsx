@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BuilderCell } from "./BuilderCell";
 import TrackedLink from "~~/components/TrackedLink";
 import { formatDate, formatEth } from "~~/utils/grants/explorer";
@@ -8,39 +8,41 @@ const PAGE_SIZE = 25;
 
 export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
   const [page, setPage] = useState(0);
+  const [selectedGrant, setSelectedGrant] = useState<ProgramGrant | null>(null);
   const totalPages = Math.ceil(grants.length / PAGE_SIZE);
   const visible = grants.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
 
+  useEffect(() => {
+    if (!selectedGrant) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSelectedGrant(null);
+    };
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [selectedGrant]);
+
   return (
     <div>
-      <ul className="list-none p-0 m-0 flex flex-col gap-3">
+      <ul className="list-none p-0 m-0 border-y border-base-content/10 divide-y divide-base-content/10">
         {visible.map(grant => (
           <li
             key={`${grant.title}-${grant.builder}`}
-            className="border border-base-content/10 rounded-xl p-4 flex flex-col sm:flex-row gap-2 sm:gap-5"
+            className="py-3 grid sm:grid-cols-[7rem_minmax(0,1fr)_10rem] gap-x-4 gap-y-1 items-center"
           >
-            <div className="sm:w-32 shrink-0 flex flex-row sm:flex-col items-baseline sm:items-start gap-3 sm:gap-1">
-              <span className="font-bold whitespace-nowrap">{formatEth(grant.amount)} ETH</span>
-              <span className="font-mono text-xs text-base-content/50">
-                {grant.completedAt ? formatDate(grant.completedAt) : "in progress"}
-              </span>
-              <BuilderCell address={grant.builder} ens={grant.ens} className="text-xs text-base-content/60" />
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="m-0 font-medium">{grant.title}</p>
-              <p className="mt-1 mb-0 text-sm text-base-content/70 leading-relaxed whitespace-pre-line">
-                {grant.description}
-              </p>
-              {grant.buildLink && (
-                <TrackedLink
-                  id="grants-build-link"
-                  href={grant.buildLink}
-                  className="inline-block mt-2 font-mono text-xs text-primary hover:underline"
-                >
-                  → view the build
-                </TrackedLink>
-              )}
-            </div>
+            <span className="font-bold whitespace-nowrap">{formatEth(grant.amount)} ETH</span>
+            <button
+              type="button"
+              onClick={() => setSelectedGrant(grant)}
+              className="min-w-0 text-left hover:text-primary transition-colors"
+              aria-label={`View details for ${grant.title}`}
+            >
+              <span className="font-medium block truncate">{grant.title}</span>
+              <span className="block truncate text-sm text-base-content/60">{grant.description}</span>
+            </button>
+            <span className="flex sm:flex-col gap-2 sm:gap-0 sm:items-end text-xs text-base-content/60">
+              <BuilderCell address={grant.builder} ens={grant.ens} className="text-xs" />
+              {grant.completedAt && <span className="font-mono">{formatDate(grant.completedAt)}</span>}
+            </span>
           </li>
         ))}
       </ul>
@@ -66,6 +68,55 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
           >
             Next →
           </button>
+        </div>
+      )}
+
+      {selectedGrant && (
+        <div
+          className="modal modal-open cursor-pointer"
+          role="presentation"
+          onMouseDown={event => {
+            if (event.target === event.currentTarget) setSelectedGrant(null);
+          }}
+        >
+          <section
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="grant-modal-title"
+            className="modal-box relative cursor-default"
+          >
+            <button
+              type="button"
+              onClick={() => setSelectedGrant(null)}
+              className="btn btn-ghost btn-sm btn-circle absolute right-3 top-3"
+              aria-label="Close grant details"
+              autoFocus
+            >
+              ✕
+            </button>
+            <p className="font-mono text-xs text-base-content/50 mb-2">
+              {formatEth(selectedGrant.amount)} ETH
+              {selectedGrant.completedAt ? ` · ${formatDate(selectedGrant.completedAt)}` : ""}
+            </p>
+            <h3 id="grant-modal-title" className="text-xl font-bold mt-0 pr-10">
+              {selectedGrant.title}
+            </h3>
+            <div className="mb-4">
+              <BuilderCell address={selectedGrant.builder} ens={selectedGrant.ens} />
+            </div>
+            <p className="text-sm text-base-content/70 leading-relaxed whitespace-pre-line">
+              {selectedGrant.description}
+            </p>
+            {selectedGrant.buildLink && (
+              <TrackedLink
+                id="grants-build-link"
+                href={selectedGrant.buildLink}
+                className="inline-block mt-2 font-mono text-xs text-primary hover:underline"
+              >
+                → view the build
+              </TrackedLink>
+            )}
+          </section>
         </div>
       )}
     </div>

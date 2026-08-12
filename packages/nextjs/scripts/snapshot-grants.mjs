@@ -733,7 +733,8 @@ async function main() {
   const streamTimestamps = Object.values(streams.withdrawals)
     .flat()
     .map(w => w.timestamp);
-  const programGrants = [...grants.completed, ...grants.active];
+  // Active grants that never delivered are deliberately omitted from the archive.
+  const programGrants = grants.completed;
 
   // 30 people appear in both a cohort and an app stream, and grant recipients overlap with
   // both, so the headline count has to be a union rather than a sum.
@@ -754,7 +755,9 @@ async function main() {
       streamWithdrawals: { from: Math.min(...streamTimestamps), to: Math.max(...streamTimestamps) },
       // The grants site only renders completed and active grants; proposed and rejected ones
       // live in a Firestore this snapshot has no access to.
-      grantsNotPubliclyListed: grants.stats ? grants.stats.totalGrants - programGrants.length : 0,
+      grantsNotPubliclyListed: grants.stats
+        ? grants.stats.totalGrants - grants.completed.length - grants.active.length
+        : 0,
     },
     totals: {
       uniqueBuilders: uniqueBuilders.size,
@@ -772,9 +775,9 @@ async function main() {
       streamEthWithdrawn: sum(streams.builders, b => b.totalWithdrawn),
       appBuilders: v3.stats.builderCount,
       appBuilds: v3.stats.buildCount,
-      grants: grants.stats?.totalGrants ?? 0,
+      grants: grants.completed.length + grants.ecosystem.length,
       grantsEth: grants.stats?.totalEthGranted ?? 0,
-      activeGrants: grants.stats?.activeGrants ?? 0,
+      activeGrants: 0,
       ecosystemGrants: grants.ecosystem.length,
       ecosystemEth: sum(grants.ecosystem, g => g.amount),
     },
@@ -798,9 +801,9 @@ async function main() {
     writeJson("program-grants.json", {
       grants: programGrants,
       stats: {
-        totalGrants: grants.stats.totalGrants,
-        totalEthGranted: grants.stats.totalEthGranted,
-        activeGrants: grants.stats.activeGrants,
+        totalGrants: grants.completed.length,
+        totalEthGranted: sum(grants.completed, g => g.amount),
+        activeGrants: 0,
         completedCount: grants.completed.length,
         completedEth: sum(grants.completed, g => g.amount),
       },

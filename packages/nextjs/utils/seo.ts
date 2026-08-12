@@ -14,9 +14,9 @@ export const organizationSchema = {
   sameAs: ["https://twitter.com/buidlguidl", "https://github.com/BuidlGuidl", "https://buidlguidl.substack.com"],
 };
 
-// Collection schema for the grants archive, listing each cohort's page so the detail routes
-// are discoverable from the overview.
-export const grantsArchiveSchema = (cohorts: { name: string; slug: string }[]) => ({
+// Collection schema for the public grants archive overview. Cohort detail pages are
+// intentionally omitted because they are archival pages marked noindex.
+export const grantsArchiveSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Grants given by BuidlGuidl",
@@ -27,12 +27,7 @@ export const grantsArchiveSchema = (cohorts: { name: string; slug: string }[]) =
     name: "BuidlGuidl",
     url: SITE_URL,
   },
-  hasPart: cohorts.map(cohort => ({
-    "@type": "CollectionPage",
-    name: `${cohort.name} cohort`,
-    url: `${SITE_URL}/grants/cohorts/${cohort.slug}`,
-  })),
-});
+};
 
 // Collection schema for a single cohort, with a breadcrumb back to the archive.
 export const cohortSchema = (cohort: CohortSummary) => ({

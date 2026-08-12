@@ -22,7 +22,7 @@
     "grantsNotPubliclyListed": 6
   },
   "totals": {
-    "uniqueBuilders": 307,
+    "uniqueBuilders": 276,
     "cohorts": 22,
     "cohortBuilders": 113,
     "cohortWithdrawals": 814,
@@ -33,9 +33,9 @@
     "streamEthWithdrawn": 783.357695,
     "appBuilders": 1358,
     "appBuilds": 1263,
-    "grants": 108,
+    "grants": 76,
     "grantsEth": 130.61,
-    "activeGrants": 32,
+    "activeGrants": 0,
     "ecosystemGrants": 6,
     "ecosystemEth": 114.96
   }

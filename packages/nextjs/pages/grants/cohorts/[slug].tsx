@@ -37,6 +37,8 @@ const CohortPage: NextPage<PageProps> = ({ cohort, builders, withdrawals }) => {
         image={`api/og?title=${encodeURIComponent(`${cohort.name} cohort`)}`}
         path={`/grants/cohorts/${cohort.slug}`}
       >
+        <meta name="robots" content="noindex,follow" />
+        <meta name="googlebot" content="noindex,follow" />
         <JsonLd data={cohortSchema(cohort)} />
       </MetaHeader>
 

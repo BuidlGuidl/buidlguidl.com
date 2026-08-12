@@ -50,7 +50,7 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
         image={`api/og?title=${encodeURIComponent("Grants Archive")}`}
         path="/grants"
       >
-        <JsonLd data={grantsArchiveSchema(cohorts.map(cohort => ({ name: cohort.name, slug: cohort.slug })))} />
+        <JsonLd data={grantsArchiveSchema} />
       </MetaHeader>
 
       {/* Title band, hero-style fade behind the header */}
@@ -145,9 +145,8 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
 export const getStaticProps: GetStaticProps<PageProps> = async () => ({
   props: {
     meta: getGrantsMeta(),
-    // Alphabetical, so the table reads as an index you can scan for a cohort by name.
     // Copied first: getCohorts() memoizes, and sorting in place would reorder the cache.
-    cohorts: [...getCohorts()].sort((a, b) => a.name.localeCompare(b.name)),
+    cohorts: [...getCohorts()].sort((a, b) => b.totalWithdrawn - a.totalWithdrawn || a.name.localeCompare(b.name)),
     grants: getProgramGrants(),
     ecosystem: getEcosystemGrants(),
     streamBuilders: getStreamBuilders(),
