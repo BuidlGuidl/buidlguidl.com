@@ -14,11 +14,16 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
 
   useEffect(() => {
     if (!selectedGrant) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     const closeOnEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") setSelectedGrant(null);
     };
     window.addEventListener("keydown", closeOnEscape);
-    return () => window.removeEventListener("keydown", closeOnEscape);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
   }, [selectedGrant]);
 
   return (
@@ -73,7 +78,8 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
 
       {selectedGrant && (
         <div
-          className="modal modal-open cursor-pointer"
+          className="modal modal-open cursor-pointer backdrop-blur-[2px]"
+          style={{ backgroundColor: "rgba(24, 34, 50, 0.68)" }}
           role="presentation"
           onMouseDown={event => {
             if (event.target === event.currentTarget) setSelectedGrant(null);
@@ -83,7 +89,7 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
             role="dialog"
             aria-modal="true"
             aria-labelledby="grant-modal-title"
-            className="modal-box relative cursor-default"
+            className="modal-box relative cursor-default !bg-white text-base-content shadow-2xl ring-1 ring-black/10"
           >
             <button
               type="button"
