@@ -128,12 +128,28 @@
     "timestamp": 1687294211
   },
   {
+    "tx": "0xc45f168d6caf80846bbca02c0565c71a45777c157441c3a21274dfd859857f76",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "spoke at chainlink Turkey event, virtual on scaffold-eth 2",
+    "timestamp": 1685222303
+  },
+  {
     "tx": "0x88d6dd0230b59dfb7ed5523f188ffd177006bfb6f53eaeb281930d60b1f09385",
     "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
     "ens": "shutterblock.eth",
     "amount": 1.5,
     "reason": "spoke at ETH Austin and BuildETH, House of Web3",
     "timestamp": 1684495859
+  },
+  {
+    "tx": "0x4a7f7a90ab6651ce14e22e46dcc7b0c32bc7777e485eb4340abe0b5e8c209574",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "Spoke at ETH Tokyo, Workshop on SE+SE2",
+    "timestamp": 1683567383
   },
   {
     "tx": "0xb6ad62a440413bb7caf6d60bfb7fe8ccc2f64afecc45164c6c2406aac97b61d2",
@@ -288,6 +304,14 @@
     "timestamp": 1662506199
   },
   {
+    "tx": "0x30346095cca7a009bfbdc010b9698b04696280f3ba190ec07442e87af77a0674",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "Hack Alpha X hackathon for Ethereum foundation",
+    "timestamp": 1662487697
+  },
+  {
     "tx": "0x8569fa34068a4db3666c0b411096b1d57a2a878942656d77d435777af065d7ff",
     "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
     "ens": "shutterblock.eth",
@@ -302,6 +326,14 @@
     "amount": 0.25,
     "reason": "spoke at IEEE web3 PR hackathon, intro to scaffold-ETH",
     "timestamp": 1661806322
+  },
+  {
+    "tx": "0x1efd4daee88d5b48a09345dd3526de5cec79b27cffbe76e0920dc988d4dcb036",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.25,
+    "reason": "spoke at Puerto Rico web3 hackathon ",
+    "timestamp": 1661449412
   },
   {
     "tx": "0x09b88def8b03ce432364de9ddc9b832ade38f209e72382559eb547373ad51952",

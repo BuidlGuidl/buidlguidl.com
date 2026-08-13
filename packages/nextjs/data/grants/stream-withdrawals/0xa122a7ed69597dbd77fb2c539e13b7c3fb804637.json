@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x9a8a24abd02cd0358e12d5d5142f936718784ebf2062ae4c085aa0f773955e99",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.3592,
+    "reason": "wp",
+    "timestamp": 1760553455
+  },
+  {
     "tx": "0x82d7941fdbd1cde35b85f09a2c6002f6a7301f82b815343df5bcc91be8406331",
     "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
     "ens": "portdev.eth",
@@ -30,6 +38,14 @@
     "amount": 1,
     "reason": "Scaffold-ETH 2 contributions, anvil ui.",
     "timestamp": 1690553183
+  },
+  {
+    "tx": "0xb0ffae6cab05ac843c437db0c91c30d102b5bd4b667fb7921e7703d3299f18d2",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.140727,
+    "reason": "empty old stream",
+    "timestamp": 1689193307
   },
   {
     "tx": "0x97291a4e4797e77501e632279e83162f263f71e2368c5d5c417ed958cacab3f8",

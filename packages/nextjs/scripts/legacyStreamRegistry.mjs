@@ -4,8 +4,9 @@
 // Each builder had their own SimpleStream contract and a <name>.buidlguidl.com subdomain.
 // These predate the v3 app, so its event feed never recorded them: 15 of these builders are
 // absent from v3 entirely, and several who are in v3 had an earlier contract that v3 replaced.
-// The old site's `BUILDERS` list was incomplete: comparing every SimpleStream deployed by the
-// same EOA against the snapshot recovered another 28 used contracts, 97 work logs and 28.51 ETH.
+// The old site's `BUILDERS` list and the v3 feed were incomplete: comparing every SimpleStream
+// deployed by their seven deployers against the snapshot recovered another 38 used contracts,
+// 113 work logs and 33.36 ETH.
 // Without this list that whole era of work logs is missing from the archive.
 //
 // Withdrawals are read straight from the contracts rather than from any backend.
@@ -50,6 +51,19 @@ export const LEGACY_STREAMS = [
   { builder: "0x523d007855b3543797e0d3d462cb44b601274819", stream: "0x7d78028473c40d605de5b3e443089a98bbce5eea", ens: "salatti.eth" },
   { builder: "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d", stream: "0xb5e2e5aaac005ee619cc61a489dab9a73851c9f4", ens: "monyo.eth" },
   { builder: "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae", stream: "0xcac27268ae818d4e55271b76a94927e2b3d5b33f", ens: "genlyai.eth" },
+
+  // Superseded v3-era contracts recovered from the other six stream deployers. These are cap
+  // changes/replacements whose Withdraw events were also absent from the v3 event feed.
+  { builder: "0x330ed6ac3675181d2599779bff217af78cf0af86", stream: "0xc2a6bea58e10ba6e3ffc733b9de4c7213a5c478c", ens: "franpastor.eth" },
+  { builder: "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637", stream: "0x272725d15ed2747cc88a0fb5d2758427604d87e2", ens: "portdev.eth" },
+  { builder: "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07", stream: "0x899684e8ff75f368580f89f8011b9b40a7c30c1c", ens: "shutterblock.eth" },
+  { builder: "0xd933a3ec19065dfaec5ccaa4bfd6cd1dd370d9f3", stream: "0xee241ae052765de18675a04aee8f92c0df31e445" },
+  { builder: "0x378d26155e4f3a5c24240ab2199616aadfbd4bca", stream: "0xe1c4439f10acd682b4a868e7d424d08a9756081d", ens: "naimbijapure.eth" },
+  { builder: "0x5404ea8289155b2918426640e559e6e6db0a5f3e", stream: "0x5a4ffd018dd079e703a1432dee9c02f1c741e050", ens: "okuri.eth" },
+  { builder: "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07", stream: "0x5090e445920f304ab66070c94eed9f0ff38728b4", ens: "shutterblock.eth" },
+  { builder: "0x2b459503577f42d1a8e6d73401d3d8f227970d4f", stream: "0x1fa548259672f607182fbf000ed562e8ea6a36a4", ens: "solidixen.eth" },
+  { builder: "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45", stream: "0x9429238d717e69fa245cb12d1fcdca235943265c", ens: "gnole.eth" },
+  { builder: "0x2a52d80b07925f47ba8d774c72628558a1ce873a", stream: "0xabd1a64105427ab4406ecf12f5a28d31c8c17edf", ens: "milespatterson.eth" },
 
   // Contracts listed on the original site.
   { builder: "0x411381d227af243e9383fdbb77313352e622d72f", stream: "0x538d822559eb7a2d594e7d68dcdf29b3296830d3", ens: "0xsama.eth", subdomain: "0xsama" },

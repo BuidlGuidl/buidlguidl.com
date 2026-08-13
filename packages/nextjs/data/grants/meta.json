@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T17:08:25.432Z",
+  "generatedAt": "2026-08-13T17:49:53.503Z",
   "ponderBlocks": {
-    "mainnet": 25747487,
+    "mainnet": 25747693,
     "optimism": 151240163
   },
   "sources": [
@@ -22,15 +22,15 @@
     "grantsNotPubliclyListed": 6
   },
   "totals": {
-    "uniqueBuilders": 279,
+    "uniqueBuilders": 280,
     "cohorts": 22,
     "cohortBuilders": 113,
     "cohortWithdrawals": 814,
     "cohortEthStreamed": 462.236094,
     "cohortEthRemaining": 7.411853,
-    "streamBuilders": 140,
-    "streamWithdrawals": 1700,
-    "streamEthWithdrawn": 811.871733,
+    "streamBuilders": 141,
+    "streamWithdrawals": 1716,
+    "streamEthWithdrawn": 816.722382,
     "appBuilders": 1358,
     "appBuilds": 1263,
     "grants": 76,

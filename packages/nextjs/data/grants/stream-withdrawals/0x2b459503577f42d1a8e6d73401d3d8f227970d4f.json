@@ -24,6 +24,14 @@
     "timestamp": 1682605835
   },
   {
+    "tx": "0x9cfba59ec6bc851113ae5e7f6346f130357a812ae49b5e547f0896692d9b5cfa",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 0.3,
+    "reason": "work on se-2 issues / PRs",
+    "timestamp": 1681421171
+  },
+  {
     "tx": "0x9bfbc3b4d9ceead1a31d5c465d84c27514f276314437ee963f2a8d2beaf0ddf5",
     "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
     "ens": "solidixen.eth",

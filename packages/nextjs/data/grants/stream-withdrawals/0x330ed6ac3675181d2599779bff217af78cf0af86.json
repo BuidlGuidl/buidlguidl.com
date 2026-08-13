@@ -64,6 +64,14 @@
     "timestamp": 1691717351
   },
   {
+    "tx": "0xee7edf6c4ed2046196a54b3681cb5cc60d4ac8f90d990eee44e6d76a7b819466",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.09,
+    "reason": "Tinkering with SE-2",
+    "timestamp": 1689618047
+  },
+  {
     "tx": "0x332dde9e7d19237af12ad96bf4d8b57862803277760222114294eefffcc88f95",
     "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
     "ens": "franpastor.eth",
@@ -88,6 +96,22 @@
     "timestamp": 1680429887
   },
   {
+    "tx": "0x6ec5faf52e01e7036e22e22cdaf587037b3272944c2d24248639586980166d2e",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.1,
+    "reason": "Android scaffold wallet play console config",
+    "timestamp": 1679847707
+  },
+  {
+    "tx": "0x42872a82b4201c5fd4ce34e5dab9c5aeea1e20c1e02d71cf21871f458643418d",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.05,
+    "reason": "Android config for Scaffold Wallet",
+    "timestamp": 1679847323
+  },
+  {
     "tx": "0x4a69e5510f9db90e0f92100e717e8522345218fb83d68bac08a4e81234982b4a",
     "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
     "ens": "franpastor.eth",
@@ -102,6 +126,14 @@
     "amount": 0.4,
     "reason": "ScafoldEthWallet V1 Part4 (https://github.com/BuidlGuidl/scaffold-wallet/pull/14)",
     "timestamp": 1675610267
+  },
+  {
+    "tx": "0x51f7d3c46827143b2794b8879af507319b7f478eb2f82d4f50a472eb67d9945e",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.200722,
+    "reason": "ScaffoldWallet V1 https://github.com/BuidlGuidl/scaffold-wallet/pull/14",
+    "timestamp": 1675108619
   },
   {
     "tx": "0xa739bfcf2543b0fea6488ab6d28048ad41ca7b273c8775cd036ac0459c941d7b",

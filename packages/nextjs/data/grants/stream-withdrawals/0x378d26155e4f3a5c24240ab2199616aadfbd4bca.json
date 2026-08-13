@@ -176,6 +176,14 @@
     "timestamp": 1662307389
   },
   {
+    "tx": "0x969bfb971c53d08ca20810f01287ace1fa8b7350ff1355ea1490d4b402d41c2b",
+    "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
+    "ens": "naimbijapure.eth",
+    "amount": 0.5,
+    "reason": "augast multisig pr's : https://github.com/austintgriffith/maas/pulls?q=is%3Apr+is%3Aclosed+author%3ANaim-Bijapure",
+    "timestamp": 1662307248
+  },
+  {
     "tx": "0xb8341817877408e644f9de425c9327bb24e25b9f26b272e12114eae81b298af7",
     "builder": "0x378d26155e4f3a5c24240ab2199616aadfbd4bca",
     "ens": "naimbijapure.eth",

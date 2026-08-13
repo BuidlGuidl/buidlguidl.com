@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x4b313a4bc6ebd2c70521ef1e7659127a7e449e6e97ceedb21edf8f7fcba66c8c",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.25,
+    "reason": "Withdraw",
+    "timestamp": 1759522343
+  },
+  {
     "tx": "0x738ba9e2a14b483d6f251211e146351a5cdf4e1e6052261f2fd9d9df0175cc1c",
     "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
     "ens": "okuri.eth",

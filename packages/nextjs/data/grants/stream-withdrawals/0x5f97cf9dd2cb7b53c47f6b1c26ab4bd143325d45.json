@@ -136,6 +136,14 @@
     "timestamp": 1696101875
   },
   {
+    "tx": "0x0fac09500660568503271287073a04d563031e9324c277731016edbea0f20163",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.35,
+    "reason": "Spork Staker V2 setup and improvements ",
+    "timestamp": 1693941875
+  },
+  {
     "tx": "0xd08034aaaa2ce2e5152475fb2e1456159ee1e912e3b644582288b2a78775c53a",
     "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
     "ens": "gnole.eth",

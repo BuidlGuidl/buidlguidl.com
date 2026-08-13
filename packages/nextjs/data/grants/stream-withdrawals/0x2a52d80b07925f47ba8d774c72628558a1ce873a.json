@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xac2403a9d50a30305585eeafbe6fc09c7d0b89937a4133cf1683d33978f4d06d",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.01,
+    "reason": "Left personal stream for Sanctum stream",
+    "timestamp": 1707880367
+  },
+  {
     "tx": "0x7e5cce0cf215a17ce7f95120d11b99dcc58914ca8d3571502631ae6741c790dd",
     "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
     "ens": "milespatterson.eth",
