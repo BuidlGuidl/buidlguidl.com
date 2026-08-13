@@ -579,9 +579,14 @@ function buildStreams(v3, legacyByBuilder, ensIndex) {
     if (builder.stream.cap !== undefined) capByAddress.set(key, round(Number(builder.stream.cap)));
     if (builder.stream.streamAddress) streamAddressByAddress.set(key, lower(builder.stream.streamAddress));
   }
+  const v3StreamBuilders = new Set(streamAddressByAddress.keys());
   // Fall back to the old site's contract for builders the v3 app never knew about.
   for (const entry of LEGACY_STREAMS) {
-    if (!streamAddressByAddress.has(entry.builder)) streamAddressByAddress.set(entry.builder, entry.stream);
+    // Recovered contracts are listed before the original site's registry entries, so later
+    // entries are the best-known/latest legacy contract. Never replace a v3 contract, though.
+    if (!v3StreamBuilders.has(entry.builder)) {
+      streamAddressByAddress.set(entry.builder, entry.stream);
+    }
     if (entry.ens && !ensIndex.has(entry.builder)) ensIndex.set(entry.builder, entry.ens);
   }
 

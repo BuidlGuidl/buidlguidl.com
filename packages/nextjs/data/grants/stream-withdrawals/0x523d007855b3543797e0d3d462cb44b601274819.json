@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x0a1d351ce04a45b761cd31497a9af43ef78c2245188e121466678573eff8b248",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.090262,
+    "reason": "Draining balance",
+    "timestamp": 1760443595
+  },
+  {
     "tx": "0xb1b2d4cf9d15a14831a3b4f1704a8209af74179a955bd457c1fc6f0053b14b50",
     "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
     "ens": "salatti.eth",
@@ -70,6 +78,14 @@
     "amount": 0.361855,
     "reason": "Conviction Voting prototype - https://gtc.v37.io/",
     "timestamp": 1651610066
+  },
+  {
+    "tx": "0xef2993ad4caf8439a2bad1558b4c17a59afb12ed6a4cb95a1db69897cc803b83",
+    "builder": "0x523d007855b3543797e0d3d462cb44b601274819",
+    "ens": "salatti.eth",
+    "amount": 0.162732,
+    "reason": "Gitcoin grants conviction cloud first hacked prototype, more coming soon",
+    "timestamp": 1651332184
   },
   {
     "tx": "0x3d5db8a712c050fc726a1020a6179cb7ad98727bdaf2bf4dbd19efd72c04ade5",

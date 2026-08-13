@@ -200,6 +200,54 @@
     "timestamp": 1646679119
   },
   {
+    "tx": "0xe497c56e8d5d362dc0e313ed89cc3934f40e05c36cc083d35d835c2c05a566dc",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.37,
+    "reason": "Eth hooks bugs, documentation. Video for cra eth hooks intro. ",
+    "timestamp": 1646000767
+  },
+  {
+    "tx": "0xf64a1aa455e8d9a1ee881db011bc17308565ea29ccce2b7878c1b4b76fb29626",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.45,
+    "reason": "eth-hooks v4 work and documentation, eth-component maintenance, ",
+    "timestamp": 1644414905
+  },
+  {
+    "tx": "0xc37388564e5909d9352a90d695160178aa9ea48ab2a421defc6af718f2679477",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.3125,
+    "reason": "eth-hooks v4 work + [🏁 1.] https://github.com/scaffold-eth/eth-hooks/issues/126 [🏁 2.] https://github.com/scaffold-eth/eth-hooks/issues/120",
+    "timestamp": 1643208325
+  },
+  {
+    "tx": "0x16deda989189cb81068ec74a536914d2facdbff1e3939ac8f1dd0105a6cb3f81",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.3378,
+    "reason": "[1. 🏁] eth-hooks v4 work, presentations, testing [2. 🏁] unit tests https://github.com/scaffold-eth/eth-hooks/issues/116",
+    "timestamp": 1642398349
+  },
+  {
+    "tx": "0x4af9f174bfccf6136114cc251bb0b2f3b1e674a8719d3630c74b34d6ddd801da",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.48,
+    "reason": "[🏁 1.] fixes to app https://github.com/scaffold-eth/scaffold-eth-typescript/issues/46 [🏁 2.] Finished eth-hooks v4 pre-release: https://github.com/scaffold-eth/eth-hooks/issues/115 https://github.com/scaffold-eth/eth-hooks/issues/94 https://github.com/scaffold-eth/eth-components/issues/23  [🏁 3.] a new caching mechanism with v4 https://github.com/scaffold-eth/eth-hooks/issues/114 ",
+    "timestamp": 1641534328
+  },
+  {
+    "tx": "0xca2f37946aed808d937c30a7c42f8708d75717a7a6f68c3560d19900f94e3aed",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.199,
+    "reason": "finished first beta of eth-hooks v4: https://github.com/scaffold-eth/eth-hooks/pull/103 [🏁 1.] https://github.com/scaffold-eth/eth-hooks/issues/93 [🏁 2.] https://github.com/scaffold-eth/eth-hooks/issues/101 [🏁 3.] https://github.com/scaffold-eth/eth-hooks/issues/95",
+    "timestamp": 1641169210
+  },
+  {
     "tx": "0x2f788dfa4efb8deb513ba581ecea4d60cc0c4aed0da00b1d3cc95c182806543e",
     "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
     "ens": "shravansunder.eth",
@@ -208,12 +256,84 @@
     "timestamp": 1640994126
   },
   {
+    "tx": "0x261f10a73dbcc2f7a6e25eaa6f11ae781462a9147500e123279a3b3afa850b1a",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.75,
+    "reason": "continuing work on eth-hooks v4 [🏁 1.] https://github.com/scaffold-eth/eth-hooks/issues/101 [🏁 2.] research and code for eth-sdk, typechain, and scaffold-eth typing for eth-hooks v4",
+    "timestamp": 1640409942
+  },
+  {
+    "tx": "0x1c6d9516a3e8d1503789c010804df1ac2c72a6d3b4f3b51d0f5fdbdf301af99c",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.75,
+    "reason": "Working on eth-hooks v4 [🏁 1.] https://github.com/scaffold-eth/eth-hooks/issues/94 [🏁 2.] https://github.com/scaffold-eth/eth-hooks/issues/102 [🏁 3.] Cleaned up hook patterns in v3: https://github.com/scaffold-eth/eth-hooks/issues/98 [🏁 4.] bug fixes to eht-components v2 https://github.com/scaffold-eth/eth-components/issues/26 [🏁 5.] added ethers compatability metamask network change in eth-hooks v3.  https://github.com/scaffold-eth/scaffold-eth-typescript/issues/30",
+    "timestamp": 1637630175
+  },
+  {
+    "tx": "0xa83d22fe89fda961139dd743ae97d34fd4d21eef2ed6983aa997566ea50b8abc",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2,
+    "reason": "[🏁 1.] fixing bugs with scaffold-eth-typescript https://github.com/scaffold-eth/eth-components/issues/22 [🏁 2.] Made headway for ContractContext https://github.com/scaffold-eth/eth-hooks/issues/93 [🏁 3.] meeting, planning, testing and starting work on eth-hooks v4",
+    "timestamp": 1637132572
+  },
+  {
+    "tx": "0x9349aff3fc2b1f1ffdb13be5b3d3cbbef1786bf7f3a785e0b79b770fc2338766",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.000048,
+    "reason": "[🏁 1.] fixing bugs with scaffold-eth-typescript https://github.com/scaffold-eth/eth-components/issues/22 [🏁 2.] Made headway for ContractContext https://github.com/scaffold-eth/eth-hooks/issues/93 [🏁 3.] meeting, planning, testing and starting work on eth-hooks v4",
+    "timestamp": 1637132367
+  },
+  {
     "tx": "0x031822279dc63a1af092e117a9868d3d2a065a0566afa3cb9c224a70aa2215a0",
     "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
     "ens": "shravansunder.eth",
     "amount": 0.45,
     "reason": "[🏁 1.] Finished tests for useOnRepetition and useBlockNumber https://github.com/scaffold-eth/eth-hooks/pull/87 [🏁 2.] fixes and new tests for useNonce, useTimestamp, useUserAddress https://github.com/scaffold-eth/eth-hooks/pull/88 [🏁 3.] Released eth-hooks v3 and eth-components v2 https://github.com/scaffold-eth/eth-hooks/pull/90 https://github.com/scaffold-eth/eth-components/pull/19 [🏁 4.] clean up old beta packages and devops fixes [🏁 5.] misc devops, presentation prep etc https://github.com/scaffold-eth/scaffold-eth-typescript/issues/21 [🏁 5.] planning and scoping https://github.com/scaffold-eth/scaffold-eth-typescript/issues/23",
     "timestamp": 1636594856
+  },
+  {
+    "tx": "0x36332b2fdefd7879c893fbde876047d4d5a0e3861382d360022476033c46c29d",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.25,
+    "reason": "[🏁 1.] created tests and fixed bugs for useContractLoader and useContractReader https://github.com/scaffold-eth/eth-hooks/pull/85",
+    "timestamp": 1636390347
+  },
+  {
+    "tx": "0x0516a11e990d7f0af60752bdc1038a4738d91b43f7436cc7dc72984212a23d0f",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2,
+    "reason": "[🏁 1.] tests for useBlockNumberContext https://github.com/scaffold-eth/eth-hooks/issues/61  [🏁 2.] updated tests for EthersAppContext, finished mock structure and finalized tests structure for context https://github.com/scaffold-eth/eth-hooks/issues/63 [🏁 3.] updated useEventListener and added test https://github.com/scaffold-eth/eth-hooks/pull/78",
+    "timestamp": 1635941985
+  },
+  {
+    "tx": "0xb7afe8a468f2307bc4a0f0d2e8c2ce98bc8baafb9b97616f80528abcb237c8bc",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.25,
+    "reason": "[🏁 1] update eth-hooks and eth-components to use esbuild compilation. [🏁 2] Bug fixes for eth-hooks v3-beta, eth-components v2-beta and scaffold-eth-typescript. [🏁 3.] sourcemaps for libraries for better dev exp. [🏁 4.] exported new test harness from eth-hooks so other libraries can use it [🏁 5.]  production build is working as dev build.  🏁PRs🏁 ✔ https://github.com/scaffold-eth/eth-components/pull/17 ✔ https://github.com/scaffold-eth/eth-components/pulls ✔ https://github.com/scaffold-eth/scaffold-eth-typescript/pulls",
+    "timestamp": 1635241960
+  },
+  {
+    "tx": "0xdd8c638f0f82de83014e1943053233af9e8c06be9e76cd13ed22f91a1c87ca4c",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.2,
+    "reason": "eth-hooks docs: 🏁 (1) created typedoc generator, commands and output for docs 🏁 (2) updated docs for all hooks and types https://github.com/scaffold-eth/eth-hooks/pull/55 🏁 (3) created gitbook docs https://docs.scaffoldeth.io/scaffold-eth-libraries/ 🏁 (4) created github pages for docs https://scaffold-eth.github.io/eth-hooks/",
+    "timestamp": 1634783488
+  },
+  {
+    "tx": "0x496e59a2b50d5a0cdb0ac8b31574db0f65a12520bd30c33d033d1f693a5e1653",
+    "builder": "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102",
+    "ens": "shravansunder.eth",
+    "amount": 0.000256,
+    "reason": "👏🏽 Previous Work: 🔗 http://shravansunder.buidlguidl.com/",
+    "timestamp": 1634392285
   },
   {
     "tx": "0x01267572719e61f89fcd716f93dfa3dac3c43c09dba3e25a15ed887cf2c8035b",

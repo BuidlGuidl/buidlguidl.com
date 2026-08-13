@@ -288,6 +288,14 @@
     "timestamp": 1664992103
   },
   {
+    "tx": "0x20306f92318e8648d06f03e7e291015f8d797b4a1680bd5cc9b3a01702352151",
+    "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
+    "ens": "supernovahs.eth",
+    "amount": 0.05,
+    "reason": "Clearing dust",
+    "timestamp": 1663951415
+  },
+  {
     "tx": "0x96b4a889e8f3311cfb21e8aa21685476069dd8363c128731b6ade7944c28f439",
     "builder": "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8",
     "ens": "supernovahs.eth",

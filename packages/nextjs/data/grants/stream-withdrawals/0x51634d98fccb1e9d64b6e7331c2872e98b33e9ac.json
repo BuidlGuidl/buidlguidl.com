@@ -80,6 +80,14 @@
     "timestamp": 1704901751
   },
   {
+    "tx": "0x1cffc6c6d934b881587e7a6b3b52b807a293d750fd2e9e4d809cda30b0fe8b94",
+    "builder": "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac",
+    "ens": "relwotwerdna.eth",
+    "amount": 0.172344,
+    "reason": "Cleaning out old stream (Fun Guys PFP set progress / BuidlBots assets)",
+    "timestamp": 1704380411
+  },
+  {
     "tx": "0x7b892a7983c89d263ca5d294e1a7e79b6c09db4c3e500c10a7cc5cfb54ef3312",
     "builder": "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac",
     "ens": "relwotwerdna.eth",
@@ -262,6 +270,30 @@
     "amount": 0.060947,
     "reason": "Balloon Game Art project upload",
     "timestamp": 1675042571
+  },
+  {
+    "tx": "0x2f60689b88599ab12dff00c706cbb4e577ebecb36a813b3a25e68ac417c02b32",
+    "builder": "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac",
+    "ens": "relwotwerdna.eth",
+    "amount": 0.2307,
+    "reason": "Parrot NFT Color Sets (https://atowler.com/eth-review/Parrot-NFT_Color-Sets.jpg)",
+    "timestamp": 1669770431
+  },
+  {
+    "tx": "0xf3bff7522a99417533e514c6b3bacc05b8a92b1eb55c7837fde46581e8d1486a",
+    "builder": "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac",
+    "ens": "relwotwerdna.eth",
+    "amount": 0,
+    "reason": "Parrot NFT Expanded Color Sets (https://atowler.com/eth-review/Parrot-NFT_Color-Sets.jpg)",
+    "timestamp": 1669764695
+  },
+  {
+    "tx": "0x19610985853d4cdafb43e63fdb9f7dbba7609873a8210c1abc5b135436b9265d",
+    "builder": "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac",
+    "ens": "relwotwerdna.eth",
+    "amount": 0.320441,
+    "reason": "Parrot NFT Theme Backgrounds - Round 2 (Punk & Pirate) (https://atowler.com/eth-review/ParrotNFT_BGs_Rnd_2.png)",
+    "timestamp": 1669504931
   },
   {
     "tx": "0x9d0f23e6a23ed0998b792da227cf93a6a66accac29acca9ac9874d6d984e1c51",

@@ -344,11 +344,203 @@
     "timestamp": 1633137784
   },
   {
+    "tx": "0x877e9b9fa6b126b085dc79da76811b50bf2c2c660c4f7f613bf2b1d182021f8b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.119135,
+    "reason": "Remove bal end of thus stream",
+    "timestamp": 1633137623
+  },
+  {
     "tx": "0xa0cf651e04d7e7fcacb52e8491da3bdf3af8274965c60f4491975d3af80421ca",
     "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
     "ens": "pharo.eth",
     "amount": 0.27543,
     "reason": "work on issues, pr's, road map, branch pruning and maintainence (week)",
     "timestamp": 1632592866
+  },
+  {
+    "tx": "0xac4e542dc3d70eee47b100f80f3473cf7d73d3c413d7477ada0409db119530a4",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.054695,
+    "reason": "transfer",
+    "timestamp": 1632424678
+  },
+  {
+    "tx": "0x576b069456dbab0776caf76e891ba4803e44cc6dab06c06a4079a70a882ad219",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.065827,
+    "reason": "issues and pr's",
+    "timestamp": 1632163247
+  },
+  {
+    "tx": "0x762e80a4cfbbc72a1a8c154ac05c3f97133091d5ef103cd9aa4f1f144d8ae9d9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.086653,
+    "reason": "repo maintainence",
+    "timestamp": 1631888698
+  },
+  {
+    "tx": "0x9b5b929a5980971957d298edf710adb98ae9c2a711223d0acad9c80c14ba5e7f",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.056467,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/issues/403",
+    "timestamp": 1631731143
+  },
+  {
+    "tx": "0x3ed3860ef0384fdabf872431d479ea96a6e30f5fed80877a12d28d8db76ad671",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.056695,
+    "reason": "https://github.com/moonshotcollective/tip.party/pull/44 /51 /62",
+    "timestamp": 1631129964
+  },
+  {
+    "tx": "0x1ab923a7348b2750f007ea731f7230d494a6a5d2b7275600dc635827d4141d2f",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.086735,
+    "reason": "Issues, PR's for Scaffold-Eth and MC",
+    "timestamp": 1631031507
+  },
+  {
+    "tx": "0x63686e899963b0af80315df5a4f0dfe58554d03785c3380cd1bc39957336d3a6",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.076088,
+    "reason": "https://docs.google.com/spreadsheets/d/1Cv5QhtgHzpxLsvy3GJIW7KjgWq4IMXY1iFoSCg3Me8U/edit?usp=sharing",
+    "timestamp": 1630698636
+  },
+  {
+    "tx": "0x84e18c42267c0f9404c47d4e69ed84c414d1f40d6efc034d98d5f549cb844b1c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.104758,
+    "reason": "https://github.com/moonshotcollective/tip.party/pull/44",
+    "timestamp": 1630620302
+  },
+  {
+    "tx": "0x9a6f547c8c749f882b37ec3c928f7578f75cb1e6cc28b9a8d8745ee00744fc00",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.146873,
+    "reason": "https://github.com/moonshotcollective/d-tips/pull/13",
+    "timestamp": 1630458721
+  },
+  {
+    "tx": "0x9e7130b6f30496650cbbcff6fb5e1c69dea3015f5618820608ffb7753cd52102",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.146878,
+    "reason": "some issues and pr's - community - maintenance",
+    "timestamp": 1630445282
+  },
+  {
+    "tx": "0x942b93c0d5f047073137bb299a4b15a24f141ad214c3c35d0027e790d3aa68d2",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.061992,
+    "reason": "Wallet connect additions and speed run",
+    "timestamp": 1628682125
+  },
+  {
+    "tx": "0x28cbb86953627d8418bce5b614ce49f07127e4cc005c4831be813c8d9437577c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.275124,
+    "reason": "Community, tokenlock branch, issues & pr's",
+    "timestamp": 1626736949
+  },
+  {
+    "tx": "0x7690f5c287806b119f605a3728f36b397f2d3f4f7c1157364b29aa4fa2e5ae2b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.138907,
+    "reason": "Community, Gitbook, issues and pull requests. Update chainlink branch.",
+    "timestamp": 1625077926
+  },
+  {
+    "tx": "0x4217964dffec5f69fdc1ed5f6a5591b6042f69f7aaa60a5c8daff2e618b2f174",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.057076,
+    "reason": "Old stream??",
+    "timestamp": 1623758601
+  },
+  {
+    "tx": "0xbb34e4d5dc1f9b21d22f3a1e02da7a8609effe78b47caa15e2525d43fa6c236b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.11763,
+    "reason": "work on Discord, add channels, organize, gather participants",
+    "timestamp": 1623684020
+  },
+  {
+    "tx": "0xb4744ad0630437640ef331294b6a7f5dc0d8721069791dc8c986c1613842ebd1",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.108926,
+    "reason": "freelancer branch help",
+    "timestamp": 1623028329
+  },
+  {
+    "tx": "0x0a8bb9a1fcbae42b749eb2eec7565463d3ea02a1d285a3f10551f672dfeb64b9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.035948,
+    "reason": "Start freelancer fork",
+    "timestamp": 1622728990
+  },
+  {
+    "tx": "0xba6ee67a6ed00d7ae1af0726660de9367085924661572251c6c436a0b3c7d163",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.156712,
+    "reason": "Start freelancer fork",
+    "timestamp": 1622728799
+  },
+  {
+    "tx": "0x41ab3b28c105948ec9213da17a46a0ca395aeeb79e85eccce86e6dc2a0c022b8",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.077164,
+    "reason": "Telegram, Issues and PR's",
+    "timestamp": 1622488706
+  },
+  {
+    "tx": "0xc3f25e0cee14ee601d69f306afd56d4bef7b5e32271bf62cf70411f9f0e6e5ae",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.076168,
+    "reason": "issues and pr's",
+    "timestamp": 1621954689
+  },
+  {
+    "tx": "0x2f7ff2b48303f6169dea979a78c98939f4dbd3183453047bac1aa17a5f6f5bd2",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.40787,
+    "reason": "redeploy",
+    "timestamp": 1621598643
+  },
+  {
+    "tx": "0xc021bf7f1d6a9f9f7d735d830988e5fd50e32d5a318eed56134c71d302554a68",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.010849,
+    "reason": "moving the rest",
+    "timestamp": 1621122254
+  },
+  {
+    "tx": "0x31e377d9f91d31502c83efb3a0db2ae4879606fbb0accbe2b01e979c49b4c38c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.489061,
+    "reason": "moving assets",
+    "timestamp": 1621121865
   }
 ]

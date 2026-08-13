@@ -16,6 +16,14 @@
     "timestamp": 1759672223
   },
   {
+    "tx": "0x321169b470dacd653a5045876ad5175fbcf0ff28f368f7dd8792aad286435ad1",
+    "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
+    "ens": "grothe.eth",
+    "amount": 0.415508,
+    "reason": "bg",
+    "timestamp": 1759672091
+  },
+  {
     "tx": "0x88799dd05aab6413d9a8f359fb63a7d9a227dd5daeb0f54e143eaf2cde266747",
     "builder": "0xacf16886efa51ff0957ef321b8510e53d67d1d7c",
     "ens": "grothe.eth",

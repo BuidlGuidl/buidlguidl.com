@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x8c422771bce6b1537a6ad671a3dfa094b507bee774c019cbba9e45e08e3c2d41",
+    "builder": "0x816a7dccddb35f12207307d26424d31d2b674dff",
+    "ens": "ryancoordinator.eth",
+    "amount": 0.2,
+    "reason": "It's all ✨Coordination✨! This Eth is specifically for costs for buidlers, including mainnet deployments, ENS reimbursements, etc 😘 Thanks for making this all possible! Looking forward to seeing how the university-credit scaffold adventure works out :)",
+    "timestamp": 1636377162
+  },
+  {
+    "tx": "0x49da7b1485b4b789240660b092a466e3f7178e4d2233e617751f3fafd6fa90de",
+    "builder": "0x816a7dccddb35f12207307d26424d31d2b674dff",
+    "ens": "ryancoordinator.eth",
+    "amount": 0.3,
+    "reason": "It's all ✨Coordination✨! This Eth is specifically for costs for buidlers, including mainnet deployments, ENS reimbursements, etc 😘",
+    "timestamp": 1632700565
+  }
+]

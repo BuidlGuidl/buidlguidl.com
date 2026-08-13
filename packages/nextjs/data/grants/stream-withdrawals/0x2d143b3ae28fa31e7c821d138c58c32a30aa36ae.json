@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x09a388b46d1ba2de0d772e1de1bbc933c49967f3633382103b2546556c6b552f",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.4,
+    "reason": "newsletter ",
+    "timestamp": 1759518563
+  },
+  {
     "tx": "0xd9d40ce2dc2d5f498ef9545014d349445b0bc2c8ae98b011b4a7fce87ea18901",
     "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
     "ens": "genlyai.eth",
@@ -222,6 +230,14 @@
     "amount": 0.75,
     "reason": "BG Newsletter 3 & 4, Scaffold-ETH Docs (https://docs.scaffoldeth.io/scaffold-eth/))",
     "timestamp": 1667806475
+  },
+  {
+    "tx": "0x4f3a70c079adaa58c56928fe7c1e77253eeb6b565e54ef3b2634808cfd629647",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.5,
+    "reason": "Working on Scaffold-eth 2 & Devcon Bogota BG booth ",
+    "timestamp": 1666730579
   },
   {
     "tx": "0xfb87726eb56b58147458553083c0fdd2fe560f941352bb67d84c1cb22e1da202",

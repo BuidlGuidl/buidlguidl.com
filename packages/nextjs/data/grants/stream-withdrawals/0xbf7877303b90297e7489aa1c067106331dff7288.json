@@ -184,12 +184,92 @@
     "timestamp": 1647048060
   },
   {
+    "tx": "0x37177e4d4da448f0cc8213083bbae25f93b1e2cacb14e11633b03b490f5c4268",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "idea roundtable / end of stream",
+    "timestamp": 1646374463
+  },
+  {
+    "tx": "0x72cb4d12c017ceeaf07adc750e8f45dcf6b1bf1e67335b10af902aabce402801",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.4,
+    "reason": "retroactive funding ERC721 wrap up",
+    "timestamp": 1645948752
+  },
+  {
+    "tx": "0xb6fe2e81fe6bb79b70ef434023b8dde4f4e26ee5c5aac333cbf1b41fc6da3b9d",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.3,
+    "reason": "bounty board / retfund ERC-721",
+    "timestamp": 1644627708
+  },
+  {
+    "tx": "0xe98303999017a931ff4c8de58d1d70efdb4e5a1f8390d4a5201ef5c72ef1f61b",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.2,
+    "reason": "Scaffold-eth builds + eth-components",
+    "timestamp": 1643415593
+  },
+  {
+    "tx": "0xd3d3b3b77a553d0b08c0133bb2815eb47461f9d29933f368512cc92aa548a0e4",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.4,
+    "reason": "New components (ERC20 token selector using tokenlist & multi address input) / useERC20Token hook",
+    "timestamp": 1642951800
+  },
+  {
+    "tx": "0x8d53125748f795838a84f17e9e4bff752a6aebd2b8861f23540d551b1fe3ee7b",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.349895,
+    "reason": "withdrawal fix",
+    "timestamp": 1642293946
+  },
+  {
+    "tx": "0x8d3d88eed3f909ec9b8e5d17bf5e3918e0363daaee33dc4bc87188f241d98e92",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.000105,
+    "reason": "retfund & eth-components",
+    "timestamp": 1642293651
+  },
+  {
+    "tx": "0x30c35711b6492eef9bc32168bf29320e620c3799dc58bcd609247dc1d57cda93",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.5,
+    "reason": "Eth-components wrap up & deployment - https://github.com/scaffold-eth/eth-components/releases/tag/3.0.0-beta16",
+    "timestamp": 1641269936
+  },
+  {
+    "tx": "0x1f07162e48132b944922daecca6a62561d9fc24d742c3635034c4dbe74241270",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.3,
+    "reason": "eth-components update & master update",
+    "timestamp": 1639857609
+  },
+  {
     "tx": "0x0be0b9642a187a187c7a976616dd743c0f88d38b03d89d5b514c4c882105ae13",
     "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
     "ens": "ghostffcode.eth",
     "amount": 0.241394,
     "reason": "More eth-components logic & UI separation",
     "timestamp": 1639281378
+  },
+  {
+    "tx": "0x33a51eb3f6548860edd5bc0bd3c335d2b3e7eec65dc4a719776202aa7780f8b3",
+    "builder": "0xbf7877303b90297e7489aa1c067106331dff7288",
+    "ens": "ghostffcode.eth",
+    "amount": 0.3,
+    "reason": "Working on eth-components logic and UI separation",
+    "timestamp": 1638812530
   },
   {
     "tx": "0x443cded5c98e39e80ce6db21484f765606ed864e308f5ef5d6bd5b6464388542",

@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xda796ad79d63fa6c5edee0010c5da0742ce5328965d6993d588dd94992dfb466",
+    "builder": "0x07d503a5eada1d5741307ce085f5ecb8d950558f",
+    "ens": "sabbirahmed.eth",
+    "amount": 0.5,
+    "reason": "",
+    "timestamp": 1759449095
+  },
+  {
     "tx": "0x2fd460a953630777f4acd57d5f707a1b9b3c1db96dac33387a3e0eba235c0fdb",
     "builder": "0x07d503a5eada1d5741307ce085f5ecb8d950558f",
     "ens": "sabbirahmed.eth",

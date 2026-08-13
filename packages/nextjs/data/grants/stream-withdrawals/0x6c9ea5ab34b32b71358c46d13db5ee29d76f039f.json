@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xf37d9565fd7bc07d5fcb0fab985cedd0c9438638432aaa52a6550bb2d91ef2e9",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 1.214,
+    "reason": "-",
+    "timestamp": 1737376979
+  },
+  {
     "tx": "0x51f9d8cb30335ce0122252656749fede8ea79df433d18acff3ec10a3d96be04b",
     "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
     "ens": "jadenkore.eth",
@@ -14,6 +22,14 @@
     "amount": 1.2,
     "reason": "🔥📱💸 Beta version of Scaffold Wallet React Native with Wallet Connect, MultiChain support, Biometric Security, Txn Signing/Speed up  https://github.com/danielkhoo/scaffold-eth-react-native-wallet",
     "timestamp": 1654833995
+  },
+  {
+    "tx": "0x75c2780e20bc026f4cd1bad9d32801adda26a7a2eb87799bf0550558cd72c3f2",
+    "builder": "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f",
+    "ens": "jadenkore.eth",
+    "amount": 0.1,
+    "reason": "🛠 Built Ethy, a tiny command line utility for common operations developing on Ethereum. Implemented as a commanderJS wrapper around the Ethers https://www.npmjs.com/package/ethy",
+    "timestamp": 1650100422
   },
   {
     "tx": "0x376983d5839663a723c995906e2d09f9cd9ae5a562d0a2abf9ab6a07101e0c21",

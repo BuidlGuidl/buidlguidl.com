@@ -1,5 +1,21 @@
 [
   {
+    "tx": "0x7a87ee0ccdca45fef13c02596270c28dd60a7778531b83f9caddbac8f24995b5",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.0476,
+    "reason": "Extra Dec 2023: Scaffold-ETH 2, Batch 0 reviews, abininja, burnerwallet, bonus bg website. ",
+    "timestamp": 1703621747
+  },
+  {
+    "tx": "0x1f6d94baeaa4e60d90db7124e371340233e4f17a046fe9d8def1501a48090fab",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.25,
+    "reason": "Extra November: SE-2 / Docs / Zupass / PWA base / onboarding batches",
+    "timestamp": 1701458795
+  },
+  {
     "tx": "0x6b272daf81cb66ef8645c019c438a5f907813c04333e98ddb7a5ba500da70358",
     "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
     "ens": "carletex.eth",
@@ -78,6 +94,22 @@
     "amount": 2,
     "reason": "March 2022 work on BGv3 (https://github.com/scaffold-eth/buidlguidl-v3)",
     "timestamp": 1648737200
+  },
+  {
+    "tx": "0xa80f5d7956a7bb7aaef6b532f84644cd2de07279146be2198c10dc28d6ef87db",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.75,
+    "reason": "Feb 2022 Work on BuidlGuidl v3",
+    "timestamp": 1645695981
+  },
+  {
+    "tx": "0x0adcfc48eec90c82f18aed771e7d669a2971bcfec8085a6c8db199874a9a2e7e",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.75,
+    "reason": "December 2021 work on: https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory)) && Speed run grader (https://github.com/austintgriffith/speedrun-grader)",
+    "timestamp": 1643620578
   },
   {
     "tx": "0xab939a7ad4c2de667c1cf5c24ec76c01e295f457b98c62e64833df7c8791ebfc",

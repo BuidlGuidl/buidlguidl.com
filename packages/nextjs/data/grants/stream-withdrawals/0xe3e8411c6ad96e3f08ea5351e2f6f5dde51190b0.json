@@ -1,10 +1,42 @@
 [
   {
+    "tx": "0x171a2c37298818d7d131b31a7f8f68bfdef84b099c8fb53cc043008bab0f9e23",
+    "builder": "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0",
+    "ens": "dvinubius.eth",
+    "amount": 0.01,
+    "reason": "HelloWorld",
+    "timestamp": 1783023395
+  },
+  {
     "tx": "0xdfa3c7170d5b432cf99a0ab8364ac32bcd24c6f83ee27133d92399551a42950c",
     "builder": "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0",
     "ens": "dvinubius.eth",
     "amount": 1.5,
     "reason": "buidlguidl upgrade withdrawal",
     "timestamp": 1717709339
+  },
+  {
+    "tx": "0xbcc6ea91ed4985d8d961d39b09dd915e4b7a50643ba00224888b660fd4a5799a",
+    "builder": "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0",
+    "ens": "dvinubius.eth",
+    "amount": 0.49969,
+    "reason": "Meta multisig factory (TS): https://github.com/dvinubius/meta-multisig-typescript --- 🛠 --- style fixes in eth-components (TS): https://github.com/scaffold-eth/eth-components/pull/42 & https://github.com/scaffold-eth/scaffold-eth-typescript/pull/69 --- 🛠 --- fix page load on nested routes (TS) https://github.com/scaffold-eth/scaffold-eth-typescript/pull/81 --- 🛠 --- bundling issue with scaffold-eth TS: https://github.com/scaffold-eth/scaffold-eth-typescript/issues/80",
+    "timestamp": 1646039601
+  },
+  {
+    "tx": "0x853c7b59f005fb2e9fdc5c104e2c24fd5a1f8056138bb3877e8637a6f6e20e58",
+    "builder": "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0",
+    "ens": "dvinubius.eth",
+    "amount": 0.09,
+    "reason": "🛠  Ported factory setup & tutorial to TS: https://github.com/dvinubius/contract-factory-tutorial-typescript --- 🛠  Improved UI and readme for JS version of tutorial: https://github.com/dvinubius/contract-factory-tutorial/commit/a7f60a3869faa3d69c34fcdd47ecc14d2e93db0b",
+    "timestamp": 1642548367
+  },
+  {
+    "tx": "0xfaa32ef012d862a2636fe71531d684c44520644a94403f8bd06c3ec519db6e18",
+    "builder": "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0",
+    "ens": "dvinubius.eth",
+    "amount": 0.4,
+    "reason": "Starter Kit + Tutorial for Smart Contract Factory (vanilla JS): https://github.com/dvinubius/contract-factory-tutorial",
+    "timestamp": 1642513390
   }
 ]

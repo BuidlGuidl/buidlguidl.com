@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0xd369a6eaf9403c39f6f9e1a01ea477a27f9177a64615d6dcd7de111eeb5b8f29",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.5,
+    "reason": "previously reverted",
+    "timestamp": 1768186331
+  },
+  {
     "tx": "0x8f6fbb74c56a39ccc656770595f077a05403d61f21ee47dcaf44ee78905a6111",
     "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
     "ens": "txbias.eth",

@@ -1,9 +1,11 @@
-// The original per-builder streams from the first BuidlGuidl site
-// (github.com/scaffold-eth/buidlguidl.com, `BUILDERS` in packages/react-app/src/constants.js).
+// The original per-builder streams from the first BuidlGuidl site and additional streams
+// recovered from the deployment history of their common deployer, 0x0F92...97Db.
 //
 // Each builder had their own SimpleStream contract and a <name>.buidlguidl.com subdomain.
 // These predate the v3 app, so its event feed never recorded them: 15 of these builders are
 // absent from v3 entirely, and several who are in v3 had an earlier contract that v3 replaced.
+// The old site's `BUILDERS` list was incomplete: comparing every SimpleStream deployed by the
+// same EOA against the snapshot recovered another 28 used contracts, 97 work logs and 28.51 ETH.
 // Without this list that whole era of work logs is missing from the archive.
 //
 // Withdrawals are read straight from the contracts rather than from any backend.
@@ -18,6 +20,38 @@
 
 /** @type {LegacyStreamEntry[]} */
 export const LEGACY_STREAMS = [
+  // Recovered from the common deployer's contract-creation history. Some builders had several
+  // successive streams; every contract below has Withdraw events absent from the v3 snapshot.
+  { builder: "0xf7e89e45502890381f9242403ea8661fad89ca79", stream: "0x2ec099fe9547a1ac760bd1c9bbe710218624bf3f", ens: "hunterchang.eth" },
+  { builder: "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b", stream: "0x45283840c879dba341170fafa62542f7714bfe8f", ens: "pharo.eth" },
+  { builder: "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613", stream: "0x7d6dadfb6df8ebe6fcb1c32af55252f04d79df85", ens: "ssteiger.eth" },
+  { builder: "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b", stream: "0x1b8bb82bf08d69bdfb0287f6c16fa739aa6e95f2", ens: "pharo.eth" },
+  { builder: "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b", stream: "0x733f7e1aedc49c7c777c29c4be2eb772666552f4", ens: "pharo.eth" },
+  { builder: "0x816a7dccddb35f12207307d26424d31d2b674dff", stream: "0x61335fba675dd9b2411e16ce81c86b2535e7d855", ens: "ryancoordinator.eth" },
+  { builder: "0xbe13ca20b7ff5fef2d04f67abf2a2a07feafa102", stream: "0x262f56c901847261080e366edab27d454a1315cd", ens: "shravansunder.eth" },
+  { builder: "0xb010ca9be09c382a9f31b79493bb232bcc319f01", stream: "0x949876f01d9bcc6fbe0889073e3b66b7a0a1290d", ens: "justn.eth" },
+  { builder: "0xbf7877303b90297e7489aa1c067106331dff7288", stream: "0x6739d7cbdfdcd558818819a57f4f3ed2d92a198c", ens: "ghostffcode.eth" },
+  { builder: "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51", stream: "0x8bec98b7dca7dff10c2499d1e2a9d97d96456742", ens: "viraz.eth" },
+  { builder: "0x60583563d5879c2e59973e5718c7de2147971807", stream: "0xdb0c858ffadaacaa957865659ab5cdef69b45402", ens: "carletex.eth" },
+  { builder: "0xb2a522c65b142e047991b2804c21c53d30a11de0", stream: "0x58ea476e698f4acfab5eb121fa2b3a3f2e84a3af" },
+  { builder: "0xe3e8411c6ad96e3f08ea5351e2f6f5dde51190b0", stream: "0xd2a4b1e4efb5bb65a5152f3bca7ebc48e3cff5a1", ens: "dvinubius.eth" },
+  { builder: "0x62769593d8d0a682ebe17935af40df57185ec169", stream: "0x139c9689d8d778157ecb63ee907c6e4428015ea3", ens: "txbias.eth" },
+  { builder: "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f", stream: "0x169f5cad54c43415401e606daeae95df493a970a", ens: "jadenkore.eth" },
+  { builder: "0x60583563d5879c2e59973e5718c7de2147971807", stream: "0x61f7e4a14cfc78a6f6b2ac46219328b76214a712", ens: "carletex.eth" },
+  { builder: "0xacf16886efa51ff0957ef321b8510e53d67d1d7c", stream: "0x7d5a72b17c1ac153c50e11ccbe756859782e3a49", ens: "grothe.eth" },
+  { builder: "0x53e90aa7eddedb58a2da1698028501c56c53978f", stream: "0x130a49071284a770fd07d6adaca8b23d4afbadd0", ens: "frogbaseball.eth" },
+  { builder: "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51", stream: "0x3759fd32297f20f1e1e778479d935cc940c05e5c", ens: "viraz.eth" },
+  { builder: "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da", stream: "0x61d7de768468451888a110db7b27f12b9423b6a6", ens: "danielsheldon.eth" },
+  { builder: "0x07d503a5eada1d5741307ce085f5ecb8d950558f", stream: "0xa6e9462adf5419195c85e81fb130c3e053348873", ens: "sabbirahmed.eth" },
+  { builder: "0x6c9ea5ab34b32b71358c46d13db5ee29d76f039f", stream: "0xc74a1cb3715de1d82182816582bb330d5086b081", ens: "jadenkore.eth" },
+  { builder: "0x73286f355b8b8459175170420ac4d3dba799e6da", stream: "0x8b1de673ebef92b00223bb34548ffbffc5cdf6a2" },
+  { builder: "0x1b37b1ec6b7faacbb9addcca4043824f36fb88d8", stream: "0xb551f1aecf2e2942fa432d4583b1c904fb5d2f32", ens: "supernovahs.eth" },
+  { builder: "0x51634d98fccb1e9d64b6e7331c2872e98b33e9ac", stream: "0xdff4a9cd530b1c24468e275f57b6b82a72bb2486", ens: "relwotwerdna.eth" },
+  { builder: "0x523d007855b3543797e0d3d462cb44b601274819", stream: "0x7d78028473c40d605de5b3e443089a98bbce5eea", ens: "salatti.eth" },
+  { builder: "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d", stream: "0xb5e2e5aaac005ee619cc61a489dab9a73851c9f4", ens: "monyo.eth" },
+  { builder: "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae", stream: "0xcac27268ae818d4e55271b76a94927e2b3d5b33f", ens: "genlyai.eth" },
+
+  // Contracts listed on the original site.
   { builder: "0x411381d227af243e9383fdbb77313352e622d72f", stream: "0x538d822559eb7a2d594e7d68dcdf29b3296830d3", ens: "0xsama.eth", subdomain: "0xsama" },
   { builder: "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc", stream: "0x754a8a09eae2ffefbde706a6ed40c0f0f3c58d7e", ens: "adamfuller.eth", subdomain: "adamfuller" },
   { builder: "0x1245e96fe32b43ddec930d662b5d20239282b876", stream: "0xa267be6ef185f7563354e90882c1d3332455b8f8", ens: "amogh.eth", subdomain: "amogh" },

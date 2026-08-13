@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x25c78a00e0f3d52e8b6cd3bcdeb827ce3b6f1abb3f3e118af34ffd654c3c022c",
+    "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
+    "ens": "danielsheldon.eth",
+    "amount": 0.03,
+    "reason": "Art reasons",
+    "timestamp": 1776165143
+  },
+  {
     "tx": "0xc032ced60d6a60fff9d4d3a9b8e85eeae25f576e2309a164307b26b8da39fabc",
     "builder": "0xd6ff63e080a8eef554ba928af1d2f1a3e228b1da",
     "ens": "danielsheldon.eth",

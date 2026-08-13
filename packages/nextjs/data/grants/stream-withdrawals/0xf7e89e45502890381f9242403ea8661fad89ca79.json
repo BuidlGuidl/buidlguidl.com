@@ -38,5 +38,21 @@
     "amount": 0.5,
     "reason": "Next.js Ethereum Starter update and video",
     "timestamp": 1664655599
+  },
+  {
+    "tx": "0xbf7e93c44552dba381fd2d7a1b1ca51cf76c49e8c76a4e03a42ef7bd41cb1cea",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/nextjs-typescript",
+    "timestamp": 1643792217
+  },
+  {
+    "tx": "0x400dcb7b0249c3bc06573408f70fd84b1a56cc468c9865b2be6832c7abc61dc9",
+    "builder": "0xf7e89e45502890381f9242403ea8661fad89ca79",
+    "ens": "hunterchang.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/nextjs-typescript",
+    "timestamp": 1626669081
   }
 ]

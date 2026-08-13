@@ -1,11 +1,35 @@
 [
   {
+    "tx": "0x77e93a0b23898e4e6935309efdb571810d71c1341ef1ba584b7755b351d59b19",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.1766,
+    "reason": "emptying the stream",
+    "timestamp": 1760337491
+  },
+  {
+    "tx": "0x4f254d61c71805a5da77316bc84e70102a6e59d5acca496bc8dfb9fef278a823",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 1,
+    "reason": "withdrawing the complete amount",
+    "timestamp": 1759761647
+  },
+  {
     "tx": "0xa6d160861d33f7ede66588394511b9e8ba5e513eba42e75e838090bb44f50277",
     "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
     "ens": "viraz.eth",
     "amount": 0.444788,
     "reason": "withdrawing the complete amount",
     "timestamp": 1759761395
+  },
+  {
+    "tx": "0x8c22cdb2270192fd7fe47395f31e085110608ed7966c9d7874703d3714487dc9",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.044286,
+    "reason": "withdrawing complete amount",
+    "timestamp": 1759761323
   },
   {
     "tx": "0xbfc489a992cf0ff9ed5948ebea46407c71f78a03a2b59c218ceb5c708f819f01",
@@ -166,6 +190,22 @@
     "amount": 1.2,
     "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/public-goods-staking",
     "timestamp": 1646969574
+  },
+  {
+    "tx": "0xe411b4487e73d1dab90c55c43adb2cfe506aa750eb073f5b971660f70a3f4597",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/definft (ethglobal hack with bg folks)",
+    "timestamp": 1645090427
+  },
+  {
+    "tx": "0xf3db6c77a941c88129f1a7c949aa7194c63ca9eaea1f25e2cbc921436c399334",
+    "builder": "0x2dda8dc2f67f1eb94b250caefac9de16f70c5a51",
+    "ens": "viraz.eth",
+    "amount": 0.44,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-examples/tree/erc20-retroactive-funding (Testing with ui, contract refactors)",
+    "timestamp": 1640420190
   },
   {
     "tx": "0x69d19d0c7710b34763c8c503651489b18e81ce7ced9eaa0caf441703672e88b2",

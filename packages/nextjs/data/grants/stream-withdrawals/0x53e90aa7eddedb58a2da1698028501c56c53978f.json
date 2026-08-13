@@ -1,5 +1,13 @@
 [
   {
+    "tx": "0x8dd6195e3b0a735a20ad46a4cfd0b8fa7cd273b48c733a931997c603f44f7124",
+    "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
+    "ens": "frogbaseball.eth",
+    "amount": 0.0079,
+    "reason": "Clearing old stream",
+    "timestamp": 1759526363
+  },
+  {
     "tx": "0x678a92bdfb3a8b185c793d3807f8773bb5926113e9795d2c12d2cd908c8c93a2",
     "builder": "0x53e90aa7eddedb58a2da1698028501c56c53978f",
     "ens": "frogbaseball.eth",
