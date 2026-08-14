@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { StatCard } from "~~/components/2025/StatCard";
+import { Screenshot, ScreenshotStrip } from "~~/components/grants/ScreenshotStrip";
 
 export interface ArchiveStat {
   value: string;
@@ -20,12 +21,13 @@ interface ArchiveSectionProps {
   title: string;
   intro: ReactNode;
   stats?: ArchiveStat[];
+  shots?: Screenshot[];
   children: ReactNode;
 }
 
 // White card section: track label + title + intro + stats + content.
 // Mirrors the 2025 recap's RecapSection; kept separate so that dated page stays free to change.
-export const ArchiveSection = ({ id, track, title, intro, stats, children }: ArchiveSectionProps) => (
+export const ArchiveSection = ({ id, track, title, intro, stats, shots, children }: ArchiveSectionProps) => (
   <section id={id} className="bg-white rounded-2xl shadow-md px-5 sm:px-10 py-8 sm:py-10 scroll-mt-8">
     <div className="flex items-center gap-4 mb-5">
       <span className="font-mono text-[10px] text-base-content/40 uppercase tracking-[0.2em]">{track}</span>
@@ -43,6 +45,8 @@ export const ArchiveSection = ({ id, track, title, intro, stats, children }: Arc
         ))}
       </div>
     )}
+
+    {shots && <ScreenshotStrip shots={shots} />}
 
     {children}
   </section>
