@@ -17,6 +17,7 @@ const TRACK_CHIPS = [
   { href: "#speedrun", label: "education" },
   { href: "#scaffold-eth", label: "tooling" },
   { href: "#ecosystem", label: "collabs" },
+  { href: "#node-infra", label: "infra" },
 ];
 
 const Recap2025: NextPage = () => {
