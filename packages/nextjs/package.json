@@ -11,6 +11,7 @@
     "format": "prettier --write . '!(node_module|.next|contracts)/**/*'",
     "check-types": "tsc --noEmit --incremental",
     "snapshot:grants": "node scripts/snapshot-grants.mjs",
+    "snapshot:ens": "node scripts/snapshot-ens-sponsorships.mjs",
     "vercel": "vercel",
     "vercel:yolo": "vercel --build-env NEXT_PUBLIC_IGNORE_BUILD_ERROR=true"
   },

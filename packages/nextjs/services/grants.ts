@@ -4,6 +4,7 @@ import {
   CohortBuilder,
   CohortSummary,
   EcosystemGrant,
+  EnsSponsorshipsData,
   GrantsSnapshotMeta,
   ProgramGrantsData,
   StreamBuilder,
@@ -19,13 +20,13 @@ const DATA_DIR = path.join(process.cwd(), "data/grants");
 
 const cache = new Map<string, unknown>();
 
-function readJson<T>(relativePath: string): T {
+function readJson<T>(relativePath: string, command = "snapshot:grants"): T {
   const cached = cache.get(relativePath);
   if (cached) return cached as T;
 
   const file = path.join(DATA_DIR, relativePath);
   if (!fs.existsSync(file)) {
-    throw new Error(`Missing grants snapshot file: ${relativePath}. Run \`yarn snapshot:grants\`.`);
+    throw new Error(`Missing grants snapshot file: ${relativePath}. Run \`yarn ${command}\`.`);
   }
 
   const parsed = JSON.parse(fs.readFileSync(file, "utf8")) as T;
@@ -35,10 +36,10 @@ function readJson<T>(relativePath: string): T {
 
 // The snapshot is written by a plain JS script and read as typed data here, so a shape change
 // on the writing side should fail the build loudly instead of rendering blanks.
-function assertKeys(value: unknown, keys: string[], label: string) {
+function assertKeys(value: unknown, keys: string[], label: string, command = "snapshot:grants") {
   const missing = keys.filter(key => !(key in (value as Record<string, unknown>)));
   if (missing.length) {
-    throw new Error(`Grants snapshot ${label} is missing ${missing.join(", ")}. Re-run \`yarn snapshot:grants\`.`);
+    throw new Error(`Grants snapshot ${label} is missing ${missing.join(", ")}. Re-run \`yarn ${command}\`.`);
   }
 }
 
@@ -107,4 +108,13 @@ export function getProgramGrants(): ProgramGrantsData {
 
 export function getEcosystemGrants(): EcosystemGrant[] {
   return readJson<EcosystemGrant[]>("ecosystem-grants.json");
+}
+
+// Written by `scripts/snapshot-ens-sponsorships.mjs`, on its own schedule: its sources are all
+// onchain, so unlike the rest of this snapshot it can still be rebuilt after the sites are gone.
+export function getEnsSponsorships(): EnsSponsorshipsData {
+  const data = readJson<EnsSponsorshipsData>("ens-sponsorships.json", "snapshot:ens");
+  assertKeys(data, ["generatedAt", "stats", "sponsorships"], "ens-sponsorships.json", "snapshot:ens");
+  if (!data.sponsorships.length) throw new Error("ENS sponsorships snapshot is empty.");
+  return data;
 }

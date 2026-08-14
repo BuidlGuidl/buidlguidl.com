@@ -89,6 +89,47 @@ export type EcosystemGrant = {
   xLink?: string;
 };
 
+export type EnsSponsorship = {
+  /** The registered name, with the .eth suffix. */
+  name: string;
+  /** Who registered it — the address BuidlGuidl had funded. */
+  address: string;
+  registeredAt: number;
+  /** ETH the registration itself cost, from the NameRegistered event. */
+  registrationCost: number;
+  registrationTx: string;
+  /** Funder label ("atg.eth") for a direct send, "scholarship" for the contract. */
+  fundedBy: string;
+  fundedEth: number;
+  fundedAt: number;
+  fundingTx: string;
+  /** Gap between the funding and the registration. Usually well under a day. */
+  daysToRegister: number;
+  /** This person later held a cohort stream, an app stream, or a grant. */
+  becameBuilder: boolean;
+};
+
+export type EnsSponsorshipsData = {
+  generatedAt: string;
+  /** Days a registration may trail its funding and still count as sponsored. */
+  matchWindowDays: number;
+  funders: string[];
+  sources: string[];
+  stats: {
+    names: number;
+    people: number;
+    /** Registered within a day of the ETH arriving. */
+    sameDay: number;
+    becameBuilders: number;
+    ethSent: number;
+    ethRegistrationFees: number;
+    firstAt: number;
+    lastAt: number;
+    byFunding: { direct: number; scholarship: number };
+  };
+  sponsorships: EnsSponsorship[];
+};
+
 export type GrantsSnapshotMeta = {
   generatedAt: string;
   ponderBlocks: { mainnet: number; optimism: number };

@@ -6,15 +6,24 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import { ArchiveSection } from "~~/components/grants/ArchiveSection";
 import { CohortTable } from "~~/components/grants/CohortTable";
 import { EcosystemGrantCards } from "~~/components/grants/EcosystemGrantCards";
+import { EnsSponsorshipsTable } from "~~/components/grants/EnsSponsorshipsTable";
 import { GrantsTable } from "~~/components/grants/GrantsTable";
 import { SectionNav } from "~~/components/grants/SectionNav";
 import { StreamBuildersTable } from "~~/components/grants/StreamBuildersTable";
 import { ARCHIVE_NAV, ARCHIVE_SECTIONS } from "~~/components/grants/sections";
-import { getCohorts, getEcosystemGrants, getGrantsMeta, getProgramGrants, getStreamBuilders } from "~~/services/grants";
+import {
+  getCohorts,
+  getEcosystemGrants,
+  getEnsSponsorships,
+  getGrantsMeta,
+  getProgramGrants,
+  getStreamBuilders,
+} from "~~/services/grants";
 import { formatEth } from "~~/utils/grants/explorer";
 import {
   CohortSummary,
   EcosystemGrant,
+  EnsSponsorshipsData,
   GrantsSnapshotMeta,
   ProgramGrantsData,
   StreamBuilder,
@@ -27,26 +36,28 @@ interface PageProps {
   grants: ProgramGrantsData;
   ecosystem: EcosystemGrant[];
   streamBuilders: StreamBuilder[];
+  ens: EnsSponsorshipsData;
 }
 
 const number = (value: number) => value.toLocaleString("en-US");
 
-const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, streamBuilders }) => {
+const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, streamBuilders, ens }) => {
   const t = meta.totals;
   // Positional, so this must stay in step with the order of ARCHIVE_SECTIONS.
-  const [cohortsCopy, streamsCopy, grantsCopy] = ARCHIVE_SECTIONS;
+  const [cohortsCopy, streamsCopy, grantsCopy, ensCopy] = ARCHIVE_SECTIONS;
 
   const heroStats = [
     { label: "eth_funded", value: formatEth(t.cohortEthStreamed + t.streamEthWithdrawn + t.grantsEth, 0) },
     { label: "builders_funded", value: number(t.uniqueBuilders) },
     { label: "work_logs", value: number(t.cohortWithdrawals + t.streamWithdrawals) },
+    { label: "ens_names", value: number(ens.stats.names) },
   ];
 
   return (
     <>
       <MetaHeader
         title="Grants & Cohorts Archive - BuidlGuidl"
-        description="Every grant, cohort, and builder stream BuidlGuidl funded, with the builders' own work logs. An archive of the cohort subdomains, the grants program, and the app streams."
+        description="Every grant, cohort, and builder stream BuidlGuidl funded, with the builders' own work logs, and the ENS names it paid for. An archive of the cohort subdomains, the grants program, and the app streams."
         image={`api/og?title=${encodeURIComponent("Grants Archive")}`}
         path="/grants"
       >
@@ -60,8 +71,9 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
           <h1 className="text-3xl sm:text-[2.5rem] sm:leading-[1.15] mb-4">Grants given by BuidlGuidl</h1>
           <p className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0">
             Over the years BuidlGuidl funded builders three ways: cohort streams, community and ecosystem grants, and
-            personal streams on the BuidlGuidl app. Those programs have ended and the sites that hosted them are being
-            retired, so everything they recorded lives here — including what each builder wrote about the work they did.
+            personal streams on the BuidlGuidl app — and before any of them, by quietly paying for a lot of
+            people&apos;s first ENS name. Those programs have ended and the sites that hosted them are being retired, so
+            everything they recorded lives here — including what each builder wrote about the work they did.
           </p>
 
           {/* Stats line - terminal style */}
@@ -131,6 +143,18 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
               <h3 className="text-lg mt-8 mb-4">Community grants</h3>
               <GrantsTable grants={grants.grants} />
             </ArchiveSection>
+
+            <ArchiveSection
+              {...ensCopy}
+              stats={[
+                { value: String(ens.stats.names), label: "names" },
+                { value: String(ens.stats.people), label: "people" },
+                { value: `${formatEth(ens.stats.ethSent, 1)} Ξ`, label: "sent" },
+                { value: String(ens.stats.becameBuilders), label: "became builders" },
+              ]}
+            >
+              <EnsSponsorshipsTable sponsorships={ens.sponsorships} />
+            </ArchiveSection>
           </main>
           {/* Spacer to keep the sections centered next to the nav */}
           <div className="hidden xl:block w-52 shrink-0" />
@@ -150,6 +174,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => ({
     grants: getProgramGrants(),
     ecosystem: getEcosystemGrants(),
     streamBuilders: getStreamBuilders(),
+    ens: getEnsSponsorships(),
   },
 });
 

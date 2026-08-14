@@ -222,6 +222,34 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
       },
     ],
   },
+  {
+    id: "ens",
+    track: "ens sponsorships",
+    title: "ENS names",
+    navTitle: "ENS names",
+    intro: (
+      <p className="my-0">
+        The smallest thing BuidlGuidl funded, and the one that came first. Austin would send a developer just enough ETH
+        to register their first ENS name, and they would register it — usually within the hour. From late 2022 it ran
+        through a contract behind <span className="font-mono text-[0.9em]">scholarship.buidlguidl.com</span>, so it no
+        longer had to be him doing the sending.
+      </p>
+    ),
+    shots: [
+      {
+        src: "/grants/scholarship-home.webp",
+        alt: "The scholarship site: “small eth grants for new devs to get an ens”, above a feed of the amounts sent",
+        caption: "scholarship.buidlguidl.com",
+        sourceUrl: "https://scholarship.buidlguidl.com/",
+      },
+      {
+        src: "/grants/scholarship-list.webp",
+        alt: "The scholarship feed further down: card after card of small ETH amounts sent to new developers",
+        caption: "scholarship · the feed",
+        sourceUrl: "https://scholarship.buidlguidl.com/",
+      },
+    ],
+  },
 ];
 
 export const ARCHIVE_NAV = ARCHIVE_SECTIONS.map(({ id, navTitle }) => ({ id, title: navTitle }));

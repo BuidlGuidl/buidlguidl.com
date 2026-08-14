@@ -20,7 +20,8 @@ export const grantsArchiveSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Grants given by BuidlGuidl",
-  description: "Every grant, cohort, and builder stream BuidlGuidl funded, with the builders' own work logs.",
+  description:
+    "Every grant, cohort, builder stream, and sponsored ENS name BuidlGuidl funded, with the builders' own work logs.",
   url: `${SITE_URL}/grants`,
   isPartOf: {
     "@type": "Organization",
