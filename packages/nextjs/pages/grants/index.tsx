@@ -14,7 +14,7 @@ import { ARCHIVE_NAV, ARCHIVE_SECTIONS } from "~~/components/grants/sections";
 import {
   getCohorts,
   getEcosystemGrants,
-  getEnsSponsorships,
+  getEnsNameBadges,
   getGrantsMeta,
   getProgramGrants,
   getStreamBuilders,
@@ -23,7 +23,7 @@ import { formatEth } from "~~/utils/grants/explorer";
 import {
   CohortSummary,
   EcosystemGrant,
-  EnsSponsorshipsData,
+  EnsNameBadgesData,
   GrantsSnapshotMeta,
   ProgramGrantsData,
   StreamBuilder,
@@ -36,7 +36,7 @@ interface PageProps {
   grants: ProgramGrantsData;
   ecosystem: EcosystemGrant[];
   streamBuilders: StreamBuilder[];
-  ens: EnsSponsorshipsData;
+  ens: EnsNameBadgesData;
 }
 
 const number = (value: number) => value.toLocaleString("en-US");
@@ -148,7 +148,7 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
                 { value: `${formatEth(ens.stats.ethSent, 1)} Ξ`, label: "sent" },
               ]}
             >
-              <EnsNameBadges sponsorships={ens.sponsorships} />
+              <EnsNameBadges names={ens.names} />
             </ArchiveSection>
           </main>
           {/* Spacer to keep the sections centered next to the nav */}
@@ -169,7 +169,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async () => ({
     grants: getProgramGrants(),
     ecosystem: getEcosystemGrants(),
     streamBuilders: getStreamBuilders(),
-    ens: getEnsSponsorships(),
+    ens: getEnsNameBadges(),
   },
 });
 

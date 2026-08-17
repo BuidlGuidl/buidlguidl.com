@@ -4,6 +4,7 @@ import {
   CohortBuilder,
   CohortSummary,
   EcosystemGrant,
+  EnsNameBadgesData,
   EnsSponsorshipsData,
   GrantsSnapshotMeta,
   ProgramGrantsData,
@@ -117,4 +118,13 @@ export function getEnsSponsorships(): EnsSponsorshipsData {
   assertKeys(data, ["generatedAt", "stats", "sponsorships"], "ens-sponsorships.json", "snapshot:ens");
   if (!data.sponsorships.length) throw new Error("ENS sponsorships snapshot is empty.");
   return data;
+}
+
+/** The sponsorships as the page needs them: the stats, and three fields per name. */
+export function getEnsNameBadges(): EnsNameBadgesData {
+  const { stats, sponsorships } = getEnsSponsorships();
+  return {
+    stats,
+    names: sponsorships.map(({ name, registeredAt, registrationTx }) => ({ name, registeredAt, registrationTx })),
+  };
 }

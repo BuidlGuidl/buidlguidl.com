@@ -130,6 +130,18 @@ export type EnsSponsorshipsData = {
   sponsorships: EnsSponsorship[];
 };
 
+/**
+ * What a name badge renders. The full records carry the funding trail as well, which is worth
+ * keeping in the snapshot but not worth shipping to the browser: 198 of them is ~100 kB of
+ * page data for three fields each.
+ */
+export type EnsNameBadge = Pick<EnsSponsorship, "name" | "registeredAt" | "registrationTx">;
+
+export type EnsNameBadgesData = {
+  stats: EnsSponsorshipsData["stats"];
+  names: EnsNameBadge[];
+};
+
 export type GrantsSnapshotMeta = {
   generatedAt: string;
   ponderBlocks: { mainnet: number; optimism: number };

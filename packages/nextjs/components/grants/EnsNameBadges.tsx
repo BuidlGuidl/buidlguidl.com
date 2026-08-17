@@ -1,21 +1,21 @@
 import TrackedLink from "~~/components/TrackedLink";
 import { explorerTxUrl, formatDate } from "~~/utils/grants/explorer";
-import { EnsSponsorship } from "~~/utils/grants/types";
+import { EnsNameBadge } from "~~/utils/grants/types";
 
-export const EnsNameBadges = ({ sponsorships }: { sponsorships: EnsSponsorship[] }) => (
+export const EnsNameBadges = ({ names }: { names: EnsNameBadge[] }) => (
   <div className="flex flex-wrap gap-2">
-    {sponsorships.map(sponsorship => (
+    {names.map(badge => (
       <div
-        key={sponsorship.registrationTx + sponsorship.name}
+        key={badge.registrationTx + badge.name}
         className="tooltip [--tooltip-color:#212638] [--tooltip-text-color:#EBECFD]"
-        data-tip={`Registered ${formatDate(sponsorship.registeredAt)}`}
+        data-tip={`Registered ${formatDate(badge.registeredAt)}`}
       >
         <TrackedLink
           id="grants-ens-name"
-          href={explorerTxUrl(sponsorship.registrationTx, 1)}
+          href={explorerTxUrl(badge.registrationTx, 1)}
           className="inline-block font-mono text-xs px-3 py-1 border border-base-content/15 rounded-full hover:bg-base-200/40 transition-colors"
         >
-          {sponsorship.name}
+          {badge.name}
         </TrackedLink>
       </div>
     ))}
