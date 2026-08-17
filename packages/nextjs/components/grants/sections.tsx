@@ -235,20 +235,6 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         longer had to be him doing the sending.
       </p>
     ),
-    shots: [
-      {
-        src: "/grants/scholarship-home.webp",
-        alt: "The scholarship site: “small eth grants for new devs to get an ens”, above a feed of the amounts sent",
-        caption: "scholarship.buidlguidl.com",
-        sourceUrl: "https://scholarship.buidlguidl.com/",
-      },
-      {
-        src: "/grants/scholarship-list.webp",
-        alt: "The scholarship feed further down: card after card of small ETH amounts sent to new developers",
-        caption: "scholarship · the feed",
-        sourceUrl: "https://scholarship.buidlguidl.com/",
-      },
-    ],
   },
 ];
 

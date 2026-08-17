@@ -6,7 +6,7 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import { ArchiveSection } from "~~/components/grants/ArchiveSection";
 import { CohortTable } from "~~/components/grants/CohortTable";
 import { EcosystemGrantCards } from "~~/components/grants/EcosystemGrantCards";
-import { EnsSponsorshipsTable } from "~~/components/grants/EnsSponsorshipsTable";
+import { EnsNameBadges } from "~~/components/grants/EnsNameBadges";
 import { GrantsTable } from "~~/components/grants/GrantsTable";
 import { SectionNav } from "~~/components/grants/SectionNav";
 import { StreamBuildersTable } from "~~/components/grants/StreamBuildersTable";
@@ -148,12 +148,10 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
               {...ensCopy}
               stats={[
                 { value: String(ens.stats.names), label: "names" },
-                { value: String(ens.stats.people), label: "people" },
                 { value: `${formatEth(ens.stats.ethSent, 1)} Ξ`, label: "sent" },
-                { value: String(ens.stats.becameBuilders), label: "became builders" },
               ]}
             >
-              <EnsSponsorshipsTable sponsorships={ens.sponsorships} />
+              <EnsNameBadges sponsorships={ens.sponsorships} />
             </ArchiveSection>
           </main>
           {/* Spacer to keep the sections centered next to the nav */}
