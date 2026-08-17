@@ -7,7 +7,9 @@ const STYLES: Record<ChainId, string> = {
 };
 
 export const ChainBadge = ({ chainId }: { chainId: ChainId }) => (
-  <span className={`inline-block font-mono text-[10px] uppercase tracking-wider px-2 py-1 rounded ${STYLES[chainId]}`}>
+  <span
+    className={`inline-block font-mono text-[9px] uppercase tracking-wide px-2 py-px rounded-full ${STYLES[chainId]}`}
+  >
     {CHAIN_NAMES[chainId]}
   </span>
 );

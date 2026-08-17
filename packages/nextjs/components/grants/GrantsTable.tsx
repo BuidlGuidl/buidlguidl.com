@@ -4,7 +4,7 @@ import TrackedLink from "~~/components/TrackedLink";
 import { formatDate, formatEth } from "~~/utils/grants/explorer";
 import { ProgramGrant } from "~~/utils/grants/types";
 
-const PAGE_SIZE = 25;
+const PAGE_SIZE = 15;
 
 export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
   const [page, setPage] = useState(0);
