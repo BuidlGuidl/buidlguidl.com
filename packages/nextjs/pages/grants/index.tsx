@@ -44,11 +44,10 @@ const number = (value: number) => value.toLocaleString("en-US");
 const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, streamBuilders, ens }) => {
   const t = meta.totals;
   // Positional, so this must stay in step with the order of ARCHIVE_SECTIONS.
-  const [cohortsCopy, streamsCopy, grantsCopy, ensCopy] = ARCHIVE_SECTIONS;
+  const [streamsCopy, cohortsCopy, grantsCopy, ensCopy] = ARCHIVE_SECTIONS;
 
   const heroStats = [
     { label: "eth_funded", value: formatEth(t.cohortEthStreamed + t.streamEthWithdrawn + t.grantsEth, 0) },
-    { label: "builders_funded", value: number(t.uniqueBuilders) },
     { label: "work_logs", value: number(t.cohortWithdrawals + t.streamWithdrawals) },
     { label: "ens_names", value: number(ens.stats.names) },
   ];
@@ -69,12 +68,10 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
         <Header transparent />
         <header className="w-full max-w-[860px] mx-auto px-5 sm:px-6 pt-4 pb-10 sm:pt-8 sm:pb-14">
           <h1 className="text-3xl sm:text-[2.5rem] sm:leading-[1.15] mb-4">Grants given by BuidlGuidl</h1>
-          <p className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0">
-            Over the years BuidlGuidl funded builders three ways: cohort streams, community and ecosystem grants, and
-            personal streams on the BuidlGuidl app — and before any of them, by quietly paying for a lot of
-            people&apos;s first ENS name. Those programs have ended and the sites that hosted them are being retired, so
-            everything they recorded lives here — including what each builder wrote about the work they did.
-          </p>
+          <ul className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0 list-disc pl-5">
+            <li>Over the years, BuidlGuidl has been funding developers in a few different ways.</li>
+            <li>This page is an archive of that.</li>
+          </ul>
 
           {/* Stats line - terminal style */}
           <div className="flex flex-wrap gap-x-5 gap-y-1 mt-5 font-mono text-xs sm:text-sm text-base-content/60">
@@ -107,18 +104,6 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
           <SectionNav sections={ARCHIVE_NAV} />
           <main className="w-full max-w-[860px] mx-auto xl:mx-0 flex flex-col gap-8">
             <ArchiveSection
-              {...cohortsCopy}
-              stats={[
-                { value: String(t.cohorts), label: "cohorts" },
-                { value: `${formatEth(t.cohortEthStreamed, 0)} Ξ`, label: "streamed" },
-                { value: String(t.cohortBuilders), label: "builders" },
-                { value: number(t.cohortWithdrawals), label: "work logs" },
-              ]}
-            >
-              <CohortTable cohorts={cohorts} />
-            </ArchiveSection>
-
-            <ArchiveSection
               {...streamsCopy}
               stats={[
                 { value: String(t.streamBuilders), label: "streamed to" },
@@ -128,6 +113,18 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
               ]}
             >
               <StreamBuildersTable builders={streamBuilders} />
+            </ArchiveSection>
+
+            <ArchiveSection
+              {...cohortsCopy}
+              stats={[
+                { value: String(t.cohorts), label: "cohorts" },
+                { value: `${formatEth(t.cohortEthStreamed, 0)} Ξ`, label: "streamed" },
+                { value: String(t.cohortBuilders), label: "builders" },
+                { value: number(t.cohortWithdrawals), label: "work logs" },
+              ]}
+            >
+              <CohortTable cohorts={cohorts} />
             </ArchiveSection>
 
             <ArchiveSection

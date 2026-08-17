@@ -13,21 +13,72 @@ export interface ArchiveSectionCopy {
 // Prose lives here rather than inline in the page, matching how the 2025 recap is organised.
 export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
   {
+    id: "streams",
+    track: "builder streams",
+    title: "BuidlGuidl streams",
+    navTitle: "Streams",
+    intro: (
+      <ul className="my-0 list-disc pl-5">
+        <li>
+          At first, BuidlGuidl funded people by deploying an individual smart contract for each builder and putting ETH
+          on it.
+        </li>
+        <li>
+          Builders built things that were relevant to the ecosystem and pulled from that stream, giving a reason for
+          each withdrawal.
+        </li>
+      </ul>
+    ),
+    shots: [
+      {
+        src: "/grants/app-v3-home.webp",
+        alt: "BuidlGuidl v3 home page with the castle drawing and counts of builders, builds and ETH streamed",
+        caption: "v3 · home",
+        sourceUrl: "https://v3.buidlguidl.com/",
+      },
+      {
+        src: "/grants/app-v3-builder.webp",
+        alt: "A v3 builder profile showing the stream rate, balance and unlocked amount above the builder's builds",
+        caption: "v3 · builder profile",
+        sourceUrl: "https://v3.buidlguidl.com/builders",
+      },
+      {
+        src: "/grants/app-v35-home.webp",
+        alt: "BuidlGuidl app v3.5 home page with the illustrated landscape and headline stats",
+        caption: "app v3.5 · home",
+        sourceUrl: "https://app.buidlguidl.com/",
+      },
+      {
+        src: "/grants/app-v35-builders.webp",
+        alt: "The v3.5 builders directory: a table of builders with their status, builds and cohort",
+        caption: "app v3.5 · builders",
+        sourceUrl: "https://app.buidlguidl.com/builders",
+      },
+      {
+        src: "/grants/app-v35-activity.webp",
+        alt: "The v3.5 activity feed listing builds submitted, edited and liked by builders",
+        caption: "app v3.5 · activity",
+        sourceUrl: "https://app.buidlguidl.com/activity",
+      },
+    ],
+  },
+  {
     id: "cohorts",
     track: "cohort streams",
     title: "Cohorts",
     navTitle: "Cohorts",
     intro: (
-      <>
-        <p className="mt-0">
-          Each cohort was a group of builders funded to work on a common field: ENS tooling, zero-knowledge
-          cryptography, security and gas optimization, node infrastructure, onchain games, media and outreach. A cohort
-          got its own shared stream, and its builders drew from it as they shipped.
-        </p>
-        <p className="mb-0">
-          Every withdrawal came with a note about the work it paid for. Those notes are kept here in full.
-        </p>
-      </>
+      <ul className="my-0 list-disc pl-5">
+        <li>
+          Later came cohorts: groups of builders funded to work on a common topic — ZK, node infrastructure, onchain
+          games, media, and more.
+        </li>
+        <li>
+          Each cohort shared one stream contract. Builders pulled from it as they shipped, each withdrawal with a
+          reason.
+        </li>
+        <li>(Note: we need to add a proper description on each individual cohort page.)</li>
+      </ul>
     ),
     shots: [
       {
@@ -141,65 +192,15 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     ],
   },
   {
-    id: "streams",
-    track: "builder streams",
-    title: "BuidlGuidl app streams",
-    navTitle: "App streams",
-    intro: (
-      <>
-        <p className="mt-0">
-          Before cohorts, BuidlGuidl streamed to builders individually through personal stream contracts on{" "}
-          <span className="font-mono text-[0.9em]">app.buidlguidl.com</span>. Each withdrawal carried the same kind of
-          work log a cohort withdrawal does.
-        </p>
-        <p className="mb-0">
-          These are the builders who withdrew from a personal stream, and everything they wrote down while doing it.
-        </p>
-      </>
-    ),
-    shots: [
-      {
-        src: "/grants/app-v3-home.webp",
-        alt: "BuidlGuidl v3 home page with the castle drawing and counts of builders, builds and ETH streamed",
-        caption: "v3 · home",
-        sourceUrl: "https://v3.buidlguidl.com/",
-      },
-      {
-        src: "/grants/app-v3-builder.webp",
-        alt: "A v3 builder profile showing the stream rate, balance and unlocked amount above the builder's builds",
-        caption: "v3 · builder profile",
-        sourceUrl: "https://v3.buidlguidl.com/builders",
-      },
-      {
-        src: "/grants/app-v35-home.webp",
-        alt: "BuidlGuidl app v3.5 home page with the illustrated landscape and headline stats",
-        caption: "app v3.5 · home",
-        sourceUrl: "https://app.buidlguidl.com/",
-      },
-      {
-        src: "/grants/app-v35-builders.webp",
-        alt: "The v3.5 builders directory: a table of builders with their status, builds and cohort",
-        caption: "app v3.5 · builders",
-        sourceUrl: "https://app.buidlguidl.com/builders",
-      },
-      {
-        src: "/grants/app-v35-activity.webp",
-        alt: "The v3.5 activity feed listing builds submitted, edited and liked by builders",
-        caption: "app v3.5 · activity",
-        sourceUrl: "https://app.buidlguidl.com/activity",
-      },
-    ],
-  },
-  {
     id: "grants",
     track: "grant program",
     title: "Grants",
     navTitle: "Grants",
     intro: (
-      <p className="my-0">
-        Community grants funded BuidlGuidl members to build something that contributes to the Ethereum ecosystem.
-        Ecosystem impact grants funded a handful of people and projects at a larger scale.
-      </p>
+      <ul className="my-0 list-disc pl-5">
+        <li>Community grants funded BuidlGuidl members to build something for the Ethereum ecosystem.</li>
+        <li>Ecosystem impact grants were a handful of bigger grants to people and projects at a larger scale.</li>
+      </ul>
     ),
     shots: [
       {
@@ -228,12 +229,13 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     title: "ENS names",
     navTitle: "ENS names",
     intro: (
-      <p className="my-0">
-        The smallest thing BuidlGuidl funded, and the one that came first. Austin would send a developer just enough ETH
-        to register their first ENS name, and they would register it — usually within the hour. From late 2022 it ran
-        through a contract behind <span className="font-mono text-[0.9em]">scholarship.buidlguidl.com</span>, so it no
-        longer had to be him doing the sending.
-      </p>
+      <ul className="my-0 list-disc pl-5">
+        <li>An ENS name — an identity — is one of the things we believe people should get on Ethereum.</li>
+        <li>
+          BuidlGuidl facilitated that first step, sending some ETH so people could register their ENS name and get
+          onboarded into Ethereum.
+        </li>
+      </ul>
     ),
   },
 ];

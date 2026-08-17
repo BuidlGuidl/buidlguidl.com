@@ -5,7 +5,7 @@ import { WithdrawalLog } from "~~/components/grants/WithdrawalLog";
 import { builderLabel, explorerAddressUrl, formatEth, formatMonth, shortAddress } from "~~/utils/grants/explorer";
 import { StreamBuilder, Withdrawal } from "~~/utils/grants/types";
 
-const PAGE_SIZE = 25;
+const PAGE_SIZE = 20;
 
 type StreamDetails = { builder: StreamBuilder; withdrawals: Withdrawal[] };
 
