@@ -13,7 +13,7 @@ export const EnsNameBadges = ({ sponsorships }: { sponsorships: EnsSponsorship[]
         <TrackedLink
           id="grants-ens-name"
           href={explorerTxUrl(sponsorship.registrationTx, 1)}
-          className="inline-block font-mono text-xs px-3 py-1 border border-base-content/15 rounded-full hover:border-primary hover:text-primary transition-colors"
+          className="inline-block font-mono text-xs px-3 py-1 border border-base-content/15 rounded-full hover:bg-base-200/40 transition-colors"
         >
           {sponsorship.name}
         </TrackedLink>

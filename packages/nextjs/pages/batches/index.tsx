@@ -271,7 +271,7 @@ const Batches = ({ batchData, openBatchNumber, openBatchStartDate }: PageProps) 
             Join a BuidlGuidl Batch to enhance your skills and collaborate with other web3 developers.
           </p>
           <div className="mt-0 lg:mt-8 max-w-full xs:max-w-[90%] md:max-w-[75%] xl:max-w-[60%] mx-auto">
-            <table className="min-w-full">
+            <table className="table-rounded min-w-full">
               <thead>
                 <tr className="text-base text-center">
                   <th className="py-3 px-2 xs:px-4">Batch</th>

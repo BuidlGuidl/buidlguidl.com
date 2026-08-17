@@ -32,7 +32,7 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
         {visible.map(grant => (
           <li
             key={`${grant.title}-${grant.builder}`}
-            className="py-3 grid sm:grid-cols-[7rem_minmax(0,1fr)_10rem] gap-x-4 gap-y-1 items-center"
+            className="py-3 grid sm:grid-cols-[7rem_minmax(0,1fr)_10rem] gap-x-4 gap-y-1 items-center hover:bg-base-200/40 transition-colors"
           >
             <span className="font-bold whitespace-nowrap">{formatEth(grant.amount)} ETH</span>
             <button
