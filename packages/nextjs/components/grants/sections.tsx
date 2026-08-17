@@ -31,6 +31,21 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     ),
     shots: [
       {
+        // v2 is gone and unarchivable — the Wayback captures kept the HTML shell but not the
+        // app bundle, so they replay blank. These two are a local run of the archived repo,
+        // reading the same stream contracts off mainnet that it always did.
+        src: "/grants/app-v2-home.webp",
+        alt: "BuidlGuidl v2.2: the Builds tab listing what builders shipped, each with a screenshot and a Fund button",
+        caption: "v2 · builds",
+        sourceUrl: "https://github.com/scaffold-eth/buidlguidl.com",
+      },
+      {
+        src: "/grants/app-v2-builders.webp",
+        alt: "BuidlGuidl v2.2: the Builders tab, one row per builder with their own stream, its cap and refill progress",
+        caption: "v2 · builders",
+        sourceUrl: "https://github.com/scaffold-eth/buidlguidl.com",
+      },
+      {
         src: "/grants/app-v3-home.webp",
         alt: "BuidlGuidl v3 home page with the castle drawing and counts of builders, builds and ETH streamed",
         caption: "v3 · home",
@@ -41,6 +56,12 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         alt: "A v3 builder profile showing the stream rate, balance and unlocked amount above the builder's builds",
         caption: "v3 · builder profile",
         sourceUrl: "https://v3.buidlguidl.com/builders",
+      },
+      {
+        src: "/grants/app-v3-build.webp",
+        alt: "The v3 page for the SpeedRunEthereum.com build: its cover art, description, likes and the builder who submitted it",
+        caption: "v3 · build",
+        sourceUrl: "https://v3.buidlguidl.com/build/S85zap8MoW9m12G1Cy4n",
       },
       {
         src: "/grants/app-v35-home.webp",
@@ -82,22 +103,12 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     ),
     shots: [
       {
+        // The live site is now BG Sand Garden, which is no longer a cohort, so this is the
+        // 2023 Wayback capture of the cohort site instead.
         src: "/grants/cohort-sandgarden.webp",
-        alt: "Sand Garden cohort site: green terminal-style page listing featured projects and collaborators",
-        caption: "sandgarden.buidlguidl.com",
-        sourceUrl: "https://sandgarden.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-sandgarden-members.webp",
-        alt: "Sand Garden members page: each builder with their stream cap and unlocked balance",
-        caption: "sandgarden · members",
-        sourceUrl: "https://sandgarden.buidlguidl.com/members",
-      },
-      {
-        src: "/grants/cohort-mercs.webp",
-        alt: "Mercs cohort site: red terminal-style page with the cohort stream contract and owner",
-        caption: "mercs.buidlguidl.com",
-        sourceUrl: "https://mercs.buidlguidl.com/",
+        alt: "Sand Garden cohort site in 2023: green terminal-style page funding a monthly UBI to handpicked open-source developers",
+        caption: "sandgarden · 2023",
+        sourceUrl: "https://web.archive.org/web/20230629155037/https://sandgarden.buidlguidl.com/",
       },
       {
         src: "/grants/cohort-hackerhouse.webp",
@@ -106,34 +117,10 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         sourceUrl: "https://hackerhouse.buidlguidl.com/",
       },
       {
-        src: "/grants/cohort-owners.webp",
-        alt: "Project Owners cohort site: streams for owning projects or cohorts within the BuidlGuidl",
-        caption: "owners.buidlguidl.com",
-        sourceUrl: "https://owners.buidlguidl.com/",
-      },
-      {
         src: "/grants/cohort-sanctum.webp",
         alt: "Sanctum cohort site with its illustrated hall, “a quiet place for special BuidlGuidl builders”",
         caption: "sanctum.buidlguidl.com",
         sourceUrl: "https://sanctum.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-nodes.webp",
-        alt: "Nodes cohort site describing the BuidlGuidl node client work, with its stream contract",
-        caption: "nodes.buidlguidl.com",
-        sourceUrl: "https://nodes.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-workshops.webp",
-        alt: "Workshops cohort site funding SpeedRunEthereum and Scaffold-ETH demonstrations and hackathons",
-        caption: "workshops.buidlguidl.com",
-        sourceUrl: "https://workshops.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-batches.webp",
-        alt: "Batches cohort site funding work on the management and expansion of the BG Batches program",
-        caption: "batches.buidlguidl.com",
-        sourceUrl: "https://batches.buidlguidl.com/",
       },
       {
         src: "/grants/cohort-outreach.webp",
@@ -146,12 +133,6 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         alt: "Play Full cohort site, run with Kernel and RADAR, funding playful open-source futures",
         caption: "play-full.buidlguidl.com",
         sourceUrl: "https://play-full.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-niftyink.webp",
-        alt: "Nifty Ink cohort site funding the NiftyInk BuidlGuidl cohort with ETH streams",
-        caption: "niftyink.buidlguidl.com",
-        sourceUrl: "https://niftyink.buidlguidl.com/",
       },
       {
         src: "/grants/cohort-media.webp",
@@ -176,12 +157,6 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         alt: "LaunchPod cohort site explaining monthly streams to open-source Ethereum developers",
         caption: "launchpod.buidlguidl.com",
         sourceUrl: "https://launchpod.buidlguidl.com/",
-      },
-      {
-        src: "/grants/cohort-shipyard.webp",
-        alt: "BG Ship Yard site funding focused, high-leverage open-source work",
-        caption: "shipyard.buidlguidl.com",
-        sourceUrl: "https://shipyard.buidlguidl.com/",
       },
       {
         src: "/grants/cohort-balancer.webp",
@@ -210,10 +185,16 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
         sourceUrl: "https://grants.buidlguidl.com/",
       },
       {
-        src: "/grants/grants-active.webp",
-        alt: "The active grants page: cards showing each grant's amount, builder and proposal",
-        caption: "grants · active",
-        sourceUrl: "https://grants.buidlguidl.com/active-grants",
+        src: "/grants/grants-ecosystem.webp",
+        alt: "The ecosystem impact grants section of the grants site: cards for Jessy's Hacker House, Solidity By Example, W1nt3r and others with the ETH each received",
+        caption: "grants · ecosystem impact",
+        sourceUrl: "https://grants.buidlguidl.com/",
+      },
+      {
+        src: "/grants/grants-community.webp",
+        alt: "The BuidlGuidl Community Grants section explaining who could apply, the process, the 50/50 payment and the 0.08 ETH starting amount",
+        caption: "grants · community grants",
+        sourceUrl: "https://grants.buidlguidl.com/",
       },
       {
         src: "/grants/grants-completed.webp",
