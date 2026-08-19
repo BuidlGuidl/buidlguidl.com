@@ -15,23 +15,17 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
   {
     id: "streams",
     track: "builder streams",
-    title: "BuidlGuidl streams",
+    title: "Builder Streams",
     navTitle: "Streams",
     intro: (
-      <ul className="my-0 list-disc pl-5">
-        <li>
-          At first, BuidlGuidl funded people by deploying an individual smart contract for each builder and putting ETH
-          on it.
-        </li>
-        <li>
-          Builders built things that were relevant to the ecosystem and pulled from that stream, giving a reason for
-          each withdrawal.
-        </li>
-      </ul>
+      <p className="my-0">
+        BuidlGuidl first funded builders using ETH issued through individualized smart contract streams. Devs pulled
+        from their streams after submitting work that furthered the ecosystem.
+      </p>
     ),
     shots: [
       {
-        // v2 is gone and unarchivable — the Wayback captures kept the HTML shell but not the
+        // v2 is gone and unachievable — the Wayback captures kept the HTML shell but not the
         // app bundle, so they replay blank. These two are a local run of the archived repo,
         // reading the same stream contracts off mainnet that it always did.
         src: "/grants/app-v2-home.webp",
@@ -89,17 +83,11 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     title: "Cohorts",
     navTitle: "Cohorts",
     intro: (
-      <ul className="my-0 list-disc pl-5">
-        <li>
-          Later came cohorts: groups of builders funded to work on a common topic — ZK, node infrastructure, onchain
-          games, media, and more.
-        </li>
-        <li>
-          Each cohort shared one stream contract. Builders pulled from it as they shipped, each withdrawal with a
-          reason.
-        </li>
-        <li>(Note: we need to add a proper description on each individual cohort page.)</li>
-      </ul>
+      <p className="my-0">
+        BuidlGuidl dev funding evolved into a cohort system. Builders were organized into groups working on common
+        topics like ZK, node infrastructure, onchain games, media, and many more. The group-oriented approach allowed
+        for greater collaboration and more polished results.
+      </p>
     ),
     shots: [
       {
@@ -172,10 +160,10 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     title: "Grants",
     navTitle: "Grants",
     intro: (
-      <ul className="my-0 list-disc pl-5">
-        <li>Community grants funded BuidlGuidl members to build something for the Ethereum ecosystem.</li>
-        <li>Ecosystem impact grants were a handful of bigger grants to people and projects at a larger scale.</li>
-      </ul>
+      <p className="my-0">
+        BuidlGuidl Grants connected builders with ecosystem members in need of public goods. Ecosystem Impact Grants
+        were a subset of high-impact grants that funded the development of larger-scale projects.
+      </p>
     ),
     shots: [
       {
@@ -210,13 +198,10 @@ export const ARCHIVE_SECTIONS: ArchiveSectionCopy[] = [
     title: "ENS names",
     navTitle: "ENS names",
     intro: (
-      <ul className="my-0 list-disc pl-5">
-        <li>An ENS name — an identity — is one of the things we believe people should get on Ethereum.</li>
-        <li>
-          BuidlGuidl facilitated that first step, sending some ETH so people could register their ENS name and get
-          onboarded into Ethereum.
-        </li>
-      </ul>
+      <p className="my-0">
+        Registering an ENS identity is a fundamental onboarding step. BuidlGuidl funded ENS registration fees for
+        hundreds of new devs.
+      </p>
     ),
   },
 ];

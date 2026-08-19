@@ -55,8 +55,8 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
   return (
     <>
       <MetaHeader
-        title="Grants & Cohorts Archive - BuidlGuidl"
-        description="Every grant, cohort, and builder stream BuidlGuidl funded, with the builders' own work logs, and the ENS names it paid for. An archive of the cohort subdomains, the grants program, and the app streams."
+        title="BuidlGuidl Grants Archive"
+        description="An archive of the grant methods BuidlGuidl has used over the years to fund Eth builders. Methods include direct Builder Streams, Cohorts, Ecosystem Impact Grants, and ENS registry funding. Archives include the builders' own work logs, Cohort overviews, examples of projects supported by larger-scale grants, and funded ENS names."
         image={`api/og?title=${encodeURIComponent("Grants Archive")}`}
         path="/grants"
       >
@@ -67,11 +67,11 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
       <div className="hero-fade">
         <Header transparent />
         <header className="w-full max-w-[860px] mx-auto px-5 sm:px-6 pt-4 pb-10 sm:pt-8 sm:pb-14">
-          <h1 className="text-3xl sm:text-[2.5rem] sm:leading-[1.15] mb-4">Grants given by BuidlGuidl</h1>
-          <ul className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0 list-disc pl-5">
-            <li>Over the years, BuidlGuidl has been funding developers in a few different ways.</li>
-            <li>This page is an archive of that.</li>
-          </ul>
+          <h1 className="text-3xl sm:text-[2.5rem] sm:leading-[1.15] mb-4">BuidlGuidl Grants Archive</h1>
+          <p className="text-base sm:text-lg text-base-content/70 leading-relaxed m-0">
+            BuidlGuidl has long been committed to funding new and inventive Ethereum developers. Take a look at how our
+            funding methods have evolved alongside the ecosystem.
+          </p>
 
           {/* Stats line - terminal style */}
           <div className="flex flex-wrap gap-x-5 gap-y-1 mt-5 font-mono text-xs sm:text-sm text-base-content/60">

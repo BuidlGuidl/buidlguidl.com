@@ -19,7 +19,7 @@ export const organizationSchema = {
 export const grantsArchiveSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Grants given by BuidlGuidl",
+  name: "BuidlGuidl Grants Archive",
   description:
     "Every grant, cohort, builder stream, and sponsored ENS name BuidlGuidl funded, with the builders' own work logs.",
   url: `${SITE_URL}/grants`,
@@ -39,7 +39,7 @@ export const cohortSchema = (cohort: CohortSummary) => ({
   url: `${SITE_URL}/grants/cohorts/${cohort.slug}`,
   isPartOf: {
     "@type": "CollectionPage",
-    name: "Grants given by BuidlGuidl",
+    name: "BuidlGuidl Grants Archive",
     url: `${SITE_URL}/grants`,
   },
   breadcrumb: {
