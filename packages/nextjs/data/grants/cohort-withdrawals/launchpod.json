@@ -1,13 +1,5 @@
 [
   {
-    "tx": "0x273c9a1792a7eb3a8d06c6d885798e4de2d5c648b3e2e00febfe60221341e7bb",
-    "builder": "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3",
-    "ens": "sign.zakgriffith.eth",
-    "amount": 2.03,
-    "reason": "Cleaning out final funds",
-    "timestamp": 1769637401
-  },
-  {
     "tx": "0xd61929b8adc6530ce076cd493250734ebd71d069ba51c8d60fbf3b88d29dfc91",
     "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
     "ens": "quizford.eth",

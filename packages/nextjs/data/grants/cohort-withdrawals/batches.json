@@ -1,13 +1,5 @@
 [
   {
-    "tx": "0x22afdba1234af04b953ccedbe6921b051a0e915dfefa52c7bb412fda2a827f09",
-    "builder": "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3",
-    "ens": "sign.zakgriffith.eth",
-    "amount": 0.7184,
-    "reason": "Clearing cohort value",
-    "timestamp": 1786384103
-  },
-  {
     "tx": "0x8d6abe0145c7395aea63405f633fd4e4e670d0176a9ec706a85a4652638e6cec",
     "builder": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
     "ens": "melanke.eth",

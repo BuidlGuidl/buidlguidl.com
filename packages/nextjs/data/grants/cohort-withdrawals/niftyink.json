@@ -1,13 +1,5 @@
 [
   {
-    "tx": "0xcf2ccf5c41e0c143dfdc3c038cfa912afa8c497d8c5d3800efb265788b62e809",
-    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-    "ens": "buidlguidl.zakgriffith.eth",
-    "amount": 0.65,
-    "reason": "Moving funds to Mercs Cohort",
-    "timestamp": 1755638675
-  },
-  {
     "tx": "0x65106e1e67c589d6a83f52fcad90094dc57170d49c50ba4c727bdee365f4cf9b",
     "builder": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
     "ens": "aimv999.eth",

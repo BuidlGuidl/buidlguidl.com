@@ -430,14 +430,6 @@
       "totalWithdrawn": 2.8
     },
     {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 1.2,
-      "addedAt": 1769637107,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 1.2
-    },
-    {
       "address": "0x4c63457245c278588023fb3a7ea0069e047576ac",
       "ens": "froop.eth",
       "cap": 1,
@@ -477,25 +469,9 @@
       "removed": true,
       "withdrawalCount": 13,
       "totalWithdrawn": 3.9
-    },
-    {
-      "address": "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3",
-      "ens": "sign.zakgriffith.eth",
-      "cap": 1,
-      "addedAt": 1786383983,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 0.7184
     }
   ],
   "launchpod": [
-    {
-      "address": "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3",
-      "ens": "sign.zakgriffith.eth",
-      "cap": 2.5,
-      "addedAt": 1769637343,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 2.03
-    },
     {
       "address": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
       "ens": "quizford.eth",
@@ -520,14 +496,6 @@
       "removed": true,
       "withdrawalCount": 1,
       "totalWithdrawn": 0.8
-    },
-    {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 0.5,
-      "addedAt": 1769637851,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 0.25
     }
   ],
   "niftyink": [
@@ -538,14 +506,6 @@
       "addedAt": 1723573655,
       "withdrawalCount": 30,
       "totalWithdrawn": 7.895
-    },
-    {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 1,
-      "addedAt": 1755638495,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 0.65
     }
   ],
   "sandgarden": [
@@ -614,14 +574,6 @@
       "totalWithdrawn": 3.45
     },
     {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 3.5,
-      "addedAt": 1769623051,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 3.067
-    },
-    {
       "address": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
       "ens": "inc.carletex.eth",
       "cap": 0,
@@ -670,14 +622,6 @@
       "addedAt": 1718306867,
       "withdrawalCount": 2,
       "totalWithdrawn": 0.45
-    },
-    {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 1,
-      "addedAt": 1769637659,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 0.26
     },
     {
       "address": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
@@ -946,14 +890,6 @@
       "addedAt": 1725463679,
       "withdrawalCount": 6,
       "totalWithdrawn": 2.903
-    },
-    {
-      "address": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-      "ens": "buidlguidl.zakgriffith.eth",
-      "cap": 3,
-      "addedAt": 1769637779,
-      "withdrawalCount": 1,
-      "totalWithdrawn": 2.5107
     }
   ],
   "outreach": [

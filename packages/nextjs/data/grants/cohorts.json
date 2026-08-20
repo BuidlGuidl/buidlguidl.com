@@ -7,12 +7,12 @@
     "subdomain": "sandgarden.buidlguidl.com",
     "url": "https://sandgarden.buidlguidl.com/",
     "blurb": "An open sandbox cohort for builders experimenting with new ideas.",
-    "builderCount": 11,
-    "withdrawalCount": 139,
-    "totalWithdrawn": 136.347,
+    "builderCount": 10,
+    "withdrawalCount": 138,
+    "totalWithdrawn": 133.28,
     "balance": 0.000679,
     "firstWithdrawalAt": 1704300853,
-    "lastWithdrawalAt": 1769624893,
+    "lastWithdrawalAt": 1768547145,
     "legacyAddresses": [
       "0x2ea63c9c9c114ae85b1027697a906420a23e8572"
     ]
@@ -49,20 +49,6 @@
     "lastWithdrawalAt": 1727805179
   },
   {
-    "slug": "owners",
-    "address": "0xd0ace9462d957485904b3437d4818ee2f9f2efed",
-    "chainId": 1,
-    "name": "Owners",
-    "subdomain": "owners.buidlguidl.com",
-    "url": "https://owners.buidlguidl.com/",
-    "builderCount": 5,
-    "withdrawalCount": 41,
-    "totalWithdrawn": 29.999928,
-    "balance": 0.000072,
-    "firstWithdrawalAt": 1725025379,
-    "lastWithdrawalAt": 1769638031
-  },
-  {
     "slug": "sanctum",
     "address": "0xa90f607224a0236b08ae02178ab57aef712f86d3",
     "chainId": 1,
@@ -74,6 +60,20 @@
     "balance": 0.00231,
     "firstWithdrawalAt": 1700009387,
     "lastWithdrawalAt": 1721946935
+  },
+  {
+    "slug": "owners",
+    "address": "0xd0ace9462d957485904b3437d4818ee2f9f2efed",
+    "chainId": 1,
+    "name": "Owners",
+    "subdomain": "owners.buidlguidl.com",
+    "url": "https://owners.buidlguidl.com/",
+    "builderCount": 4,
+    "withdrawalCount": 40,
+    "totalWithdrawn": 27.489228,
+    "balance": 0.000072,
+    "firstWithdrawalAt": 1725025379,
+    "lastWithdrawalAt": 1761747203
   },
   {
     "slug": "nodes",
@@ -114,12 +114,12 @@
     "subdomain": "workshops.buidlguidl.com",
     "url": "https://workshops.buidlguidl.com/",
     "blurb": "Builders running workshops and live coding sessions for the community.",
-    "builderCount": 3,
-    "withdrawalCount": 22,
-    "totalWithdrawn": 19.05,
+    "builderCount": 2,
+    "withdrawalCount": 21,
+    "totalWithdrawn": 18.8,
     "balance": 0,
     "firstWithdrawalAt": 1738693259,
-    "lastWithdrawalAt": 1769637911,
+    "lastWithdrawalAt": 1767028283,
     "legacyAddresses": [
       "0x1497f3831918e5220573ca6cdee15f16b2dbb063"
     ]
@@ -132,12 +132,12 @@
     "subdomain": "batches.buidlguidl.com",
     "url": "https://batches.buidlguidl.com/",
     "blurb": "Streams for the mentors running the BuidlGuidl Batches program.",
-    "builderCount": 4,
-    "withdrawalCount": 41,
-    "totalWithdrawn": 16.8,
+    "builderCount": 3,
+    "withdrawalCount": 40,
+    "totalWithdrawn": 16.0816,
     "balance": 0,
     "firstWithdrawalAt": 1738614203,
-    "lastWithdrawalAt": 1786384103,
+    "lastWithdrawalAt": 1770039611,
     "legacyAddresses": [
       "0xe98994c7e30a7f0a108ff3bf20773cd521494a5a"
     ]
@@ -196,20 +196,6 @@
     "lastWithdrawalAt": 1738636379
   },
   {
-    "slug": "niftyink",
-    "address": "0x882d6ab20ce8af9cb32e6ee3dc85f090427bcd1a",
-    "chainId": 1,
-    "name": "Nifty Ink",
-    "subdomain": "niftyink.buidlguidl.com",
-    "url": "https://niftyink.buidlguidl.com/",
-    "builderCount": 2,
-    "withdrawalCount": 31,
-    "totalWithdrawn": 8.545,
-    "balance": 0,
-    "firstWithdrawalAt": 1724435855,
-    "lastWithdrawalAt": 1755638675
-  },
-  {
     "slug": "media",
     "address": "0xa6efa453c25658f725590a5821cf408818f25fef",
     "chainId": 1,
@@ -217,12 +203,26 @@
     "subdomain": "media.buidlguidl.com",
     "url": "https://media.buidlguidl.com/",
     "blurb": "Video, writing, and other media about building on Ethereum.",
-    "builderCount": 7,
-    "withdrawalCount": 27,
-    "totalWithdrawn": 8.5,
+    "builderCount": 6,
+    "withdrawalCount": 26,
+    "totalWithdrawn": 8.24,
     "balance": 0,
     "firstWithdrawalAt": 1719520679,
-    "lastWithdrawalAt": 1769638103
+    "lastWithdrawalAt": 1769530019
+  },
+  {
+    "slug": "niftyink",
+    "address": "0x882d6ab20ce8af9cb32e6ee3dc85f090427bcd1a",
+    "chainId": 1,
+    "name": "Nifty Ink",
+    "subdomain": "niftyink.buidlguidl.com",
+    "url": "https://niftyink.buidlguidl.com/",
+    "builderCount": 1,
+    "withdrawalCount": 30,
+    "totalWithdrawn": 7.895,
+    "balance": 0,
+    "firstWithdrawalAt": 1724435855,
+    "lastWithdrawalAt": 1753635659
   },
   {
     "slug": "not-just-notfellows",
@@ -266,34 +266,6 @@
     "lastWithdrawalAt": 1737458759
   },
   {
-    "slug": "launchpod",
-    "address": "0x751e87af85b97054b30ad822291696482625e947",
-    "chainId": 10,
-    "name": "LaunchPod",
-    "subdomain": "launchpod.buidlguidl.com",
-    "url": "https://launchpod.buidlguidl.com/",
-    "builderCount": 2,
-    "withdrawalCount": 9,
-    "totalWithdrawn": 4,
-    "balance": 0,
-    "firstWithdrawalAt": 1702582751,
-    "lastWithdrawalAt": 1769637401
-  },
-  {
-    "slug": "shipyard",
-    "address": "0x55cb9cb337cdb0a41cac89ffac4627744b50b566",
-    "chainId": 10,
-    "name": "Ship Yard",
-    "subdomain": "shipyard.buidlguidl.com",
-    "url": "https://shipyard.buidlguidl.com/",
-    "builderCount": 4,
-    "withdrawalCount": 9,
-    "totalWithdrawn": 4,
-    "balance": 0,
-    "firstWithdrawalAt": 1722123811,
-    "lastWithdrawalAt": 1769637713
-  },
-  {
     "slug": "balancer",
     "address": "0xf32409271be1bb02f15922a6ea38be79e664a247",
     "chainId": 1,
@@ -308,6 +280,20 @@
     "lastWithdrawalAt": 1720415483
   },
   {
+    "slug": "shipyard",
+    "address": "0x55cb9cb337cdb0a41cac89ffac4627744b50b566",
+    "chainId": 10,
+    "name": "Ship Yard",
+    "subdomain": "shipyard.buidlguidl.com",
+    "url": "https://shipyard.buidlguidl.com/",
+    "builderCount": 3,
+    "withdrawalCount": 8,
+    "totalWithdrawn": 2.8,
+    "balance": 0,
+    "firstWithdrawalAt": 1722123811,
+    "lastWithdrawalAt": 1763146057
+  },
+  {
     "slug": "security-optimizooors",
     "address": "0xaf18f0f1f096fac34e816c7409348d313ef7c84f",
     "chainId": 1,
@@ -318,5 +304,19 @@
     "balance": 3,
     "firstWithdrawalAt": 1695619931,
     "lastWithdrawalAt": 1719160943
+  },
+  {
+    "slug": "launchpod",
+    "address": "0x751e87af85b97054b30ad822291696482625e947",
+    "chainId": 10,
+    "name": "LaunchPod",
+    "subdomain": "launchpod.buidlguidl.com",
+    "url": "https://launchpod.buidlguidl.com/",
+    "builderCount": 1,
+    "withdrawalCount": 8,
+    "totalWithdrawn": 1.97,
+    "balance": 0,
+    "firstWithdrawalAt": 1702582751,
+    "lastWithdrawalAt": 1744145349
   }
 ]

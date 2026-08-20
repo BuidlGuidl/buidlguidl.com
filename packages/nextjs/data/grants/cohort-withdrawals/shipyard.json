@@ -1,13 +1,5 @@
 [
   {
-    "tx": "0x57e9e4cdea5e5bb5786e1199c8ee5460d7c58df44473f7b70db85c8219402bb6",
-    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-    "ens": "buidlguidl.zakgriffith.eth",
-    "amount": 1.2,
-    "reason": "Stream clearing",
-    "timestamp": 1769637713
-  },
-  {
     "tx": "0xa798c267efdd128f899c6df5a1ec817874b7d23e5f2d406bdeba67d0b302cf3b",
     "builder": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
     "ens": "websurfer.eth",

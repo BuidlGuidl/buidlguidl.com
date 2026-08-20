@@ -1,13 +1,5 @@
 [
   {
-    "tx": "0x1e53cc3d2faa4be56b693231401402d4065ef4bd8ec1f9e49d688f56b705f0bd",
-    "builder": "0x11e91fb4793047a68dfff29158387229ea313ffe",
-    "ens": "buidlguidl.zakgriffith.eth",
-    "amount": 0.25,
-    "reason": "Cohort clearing",
-    "timestamp": 1769637911
-  },
-  {
     "tx": "0x8d07d97e60fc6a9579d52412f951784c2c8c8788009889523e4d6a02e70fd694",
     "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
     "ens": "shutterblock.eth",

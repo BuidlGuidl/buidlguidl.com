@@ -33,6 +33,31 @@ const RPC = {
   10: "https://optimism-rpc.publicnode.com",
 };
 
+// As each cohort wound down, an admin withdrew the leftover balance back to the treasury
+// through the cohort's own withdraw function, tagging it with a bookkeeping note
+// ("Cohort clearing", "Cleaning out final funds"). On-chain they are indistinguishable from a
+// builder withdrawal, so the indexer reports them as work — inflating every affected cohort's
+// builder count, withdrawal count, and ETH-streamed total. They are dropped by transaction
+// hash, and the admin's builder row goes with them wherever a sweep was their only withdrawal.
+const TREASURY_SWEEP_TXS = new Set([
+  "0xcf2ccf5c41e0c143dfdc3c038cfa912afa8c497d8c5d3800efb265788b62e809", // niftyink   0.65
+  "0xf4c8b148e74cede13ad45e25927fb3e56183eb15eb3b93d2f65bb44382b60a56", // sandgarden 3.067
+  "0xecddf877c59e9d1e5c9469decf27ecf59810a84bd7162139735918189611e7bd", // owners     2.5107
+  "0x273c9a1792a7eb3a8d06c6d885798e4de2d5c648b3e2e00febfe60221341e7bb", // launchpod  2.03
+  "0x57e9e4cdea5e5bb5786e1199c8ee5460d7c58df44473f7b70db85c8219402bb6", // shipyard   1.2
+  "0x0f286597a89799722bd9f2a94c24099d3859dda77cc629e9c1af6af048c9a066", // media      0.26
+  "0x1e53cc3d2faa4be56b693231401402d4065ef4bd8ec1f9e49d688f56b705f0bd", // workshops  0.25
+  "0x22afdba1234af04b953ccedbe6921b051a0e915dfefa52c7bb412fda2a827f09", // batches    0.7184
+]);
+
+// The addresses that signed the sweeps above. Only these lose their builder row when they end
+// up with no withdrawals left; everyone else stays, since a builder added to a cohort who never
+// withdrew is a real part of the record.
+const TREASURY_SWEEP_ADDRESSES = new Set([
+  "0x11e91fb4793047a68dfff29158387229ea313ffe", // buidlguidl.zakgriffith.eth
+  "0x7d0fdcdcb8876365e131091c9e10aa9aa8e863c3", // sign.zakgriffith.eth
+]);
+
 const OUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "grants");
 const PAGE_SIZE = 1000; // ponder rejects anything above this
 const MAX_PAGES = 50;
@@ -141,10 +166,17 @@ async function fetchPonder() {
     "address amount cohortContractAddress timestamp ens",
     "timestamp",
   );
-  const withdrawals = await ponderPaginate(
+  const allWithdrawals = await ponderPaginate(
     "cohortWithdrawals",
     "id builder amount cohortContractAddress reason timestamp",
     "timestamp",
+  );
+  // `id` is `<tx>-<logIndex>`; sweeps are one withdrawal each, but match on the tx either way.
+  const withdrawals = allWithdrawals.filter(w => !TREASURY_SWEEP_TXS.has(w.id.split("-")[0]));
+  const swept = allWithdrawals.length - withdrawals.length;
+  assert(
+    swept === TREASURY_SWEEP_TXS.size,
+    `treasury sweeps: matched ${swept} of ${TREASURY_SWEEP_TXS.size} — check TREASURY_SWEEP_TXS`,
   );
 
   return {
@@ -525,6 +557,11 @@ function buildCohorts(ponder, v3, ensIndex) {
     }
 
     const cohortBuilders = [...byAddress.values()]
+      // A sweeper who withdrew nothing else here was never a builder in this cohort.
+      .filter(
+        builder =>
+          !TREASURY_SWEEP_ADDRESSES.has(builder.address) || cohortWithdrawals.some(w => w.builder === builder.address),
+      )
       .map(builder => {
         const mine = cohortWithdrawals.filter(w => w.builder === builder.address);
         return {

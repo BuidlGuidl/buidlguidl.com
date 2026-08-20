@@ -13,7 +13,7 @@
   "coverage": {
     "cohortWithdrawals": {
       "from": 1681116191,
-      "to": 1786384103
+      "to": 1786026059
     },
     "streamWithdrawals": {
       "from": 1621121865,
@@ -22,11 +22,11 @@
     "grantsNotPubliclyListed": 6
   },
   "totals": {
-    "uniqueBuilders": 280,
+    "uniqueBuilders": 278,
     "cohorts": 22,
-    "cohortBuilders": 113,
-    "cohortWithdrawals": 814,
-    "cohortEthStreamed": 462.236094,
+    "cohortBuilders": 111,
+    "cohortWithdrawals": 806,
+    "cohortEthStreamed": 451.549994,
     "cohortEthRemaining": 7.411853,
     "streamBuilders": 141,
     "streamWithdrawals": 1716,
