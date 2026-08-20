@@ -29,7 +29,7 @@ export const COHORT_REGISTRY = [
     displayName: "Mercs",
     chainId: 1,
     subdomain: "mercs",
-    blurb: "The BuidlGuidl's own dev team, streaming to the builders who keep the guild's products shipping.",
+    blurb: "BuidlGuidl's dev team responsible for shipping and improving core projects.",
     legacyAddresses: ["0x8d84f7e545f69746e4a1cad0f7ac9a83ccdf2c65"],
   },
   {
@@ -38,14 +38,15 @@ export const COHORT_REGISTRY = [
     displayName: "ENS",
     chainId: 1,
     subdomain: "ens",
-    blurb: "Builders funded to work on ENS tooling and integrations.",
+    blurb: "Builders working on ENS tooling and integrations.",
   },
   {
     address: "0x2be18e07c7be0a2cc408c9e02c90203b2052d7de",
     slug: "jessys-hacker-house",
     displayName: "Jessy's Hacker House",
     chainId: 1,
-    blurb: "Jessy's flagship cohort, funding up-and-coming devs to stay free agents and build in the open.",
+    blurb:
+      "Jessy's flagship cohort giving up-and-coming devs the support to stay free agents and build whatever calls to them.",
   },
   {
     address: "0x3ddb71fb2b6fb530615fc1deb9461d6489eda1ff",
@@ -59,7 +60,7 @@ export const COHORT_REGISTRY = [
     displayName: "Play Full",
     chainId: 10,
     subdomain: "play-full",
-    blurb: "Onchain games and playful experiments.",
+    blurb: "Exploring onchain games and other playful experiences.",
   },
   {
     address: "0x4b195bb4dd0a8fd739433c6854ca15decbba52e8",
@@ -67,7 +68,7 @@ export const COHORT_REGISTRY = [
     displayName: "Nodes",
     chainId: 1,
     subdomain: "nodes",
-    blurb: "Running and documenting Ethereum nodes.",
+    blurb: "Developing tools for running Ethereum nodes and a free distributed RPC.",
     legacyAddresses: ["0x24f0aec2e06c25c60f54e37870ca555b2d9ba609", "0x77a01ea7050b71067e6eb78cd78aad34a39a3899"],
   },
   {
@@ -75,6 +76,7 @@ export const COHORT_REGISTRY = [
     slug: "infrastructure",
     displayName: "Infrastructure (Jessy)",
     chainId: 1,
+    blurb: "Developing infrastructure for DeFi protocol integrations.",
   },
   {
     address: "0x55cb9cb337cdb0a41cac89ffac4627744b50b566",
@@ -82,6 +84,7 @@ export const COHORT_REGISTRY = [
     displayName: "Ship Yard",
     chainId: 10,
     subdomain: "shipyard",
+    blurb: "Shipping operational tools and new Speedrun Ethereum challenges.",
   },
   {
     address: "0x5c2584671d4a43c67b92d8a053b16546a1162b3b",
@@ -89,7 +92,7 @@ export const COHORT_REGISTRY = [
     displayName: "Batches",
     chainId: 1,
     subdomain: "batches",
-    blurb: "Streams for the mentors running the BuidlGuidl Batches program.",
+    blurb: "Providing one-on-one support for members of the BuidlGuidl Batches program.",
     legacyAddresses: ["0xe98994c7e30a7f0a108ff3bf20773cd521494a5a"],
   },
   {
@@ -105,7 +108,7 @@ export const COHORT_REGISTRY = [
     displayName: "Workshops",
     chainId: 1,
     subdomain: "workshops",
-    blurb: "Builders running workshops and live coding sessions for the community.",
+    blurb: "Running live workshops and coding sessions to support the builder community.",
     legacyAddresses: ["0x1497f3831918e5220573ca6cdee15f16b2dbb063"],
   },
   {
@@ -114,6 +117,7 @@ export const COHORT_REGISTRY = [
     displayName: "Nifty Ink",
     chainId: 1,
     subdomain: "niftyink",
+    blurb: "Building an onchain multiplayer game that explores AI-human interaction.",
   },
   {
     address: "0x964d0c9a421953f95daf3a5c5406093a3014a5d8",
@@ -130,7 +134,7 @@ export const COHORT_REGISTRY = [
     displayName: "BG Media",
     chainId: 1,
     subdomain: "media",
-    blurb: "Video, writing, and other media about building on Ethereum.",
+    blurb: "Creating videos, blogs, and other media devoted to building on Ethereum.",
   },
   {
     address: "0xa90f607224a0236b08ae02178ab57aef712f86d3",
@@ -138,6 +142,7 @@ export const COHORT_REGISTRY = [
     displayName: "Sanctum",
     chainId: 1,
     subdomain: "sanctum",
+    blurb: "Building tools to support BuidlGuidl operations and outreach.",
   },
   {
     address: "0xacc9cc4983d57cea0748b8cd1adb87ada5b1a67c",
@@ -150,6 +155,7 @@ export const COHORT_REGISTRY = [
     slug: "security-optimizooors",
     displayName: "Security & Optimizooors (Jessy)",
     chainId: 1,
+    blurb: "Worked on a Uniswap hooks contract and ran bounty programs for discovering smart contract vulnerabilities.",
   },
   {
     address: "0xcb59f4bab420abdb3c6ae0997cc9ac7526d5e163",
@@ -157,6 +163,7 @@ export const COHORT_REGISTRY = [
     displayName: "Autonomous Worlds (Jessy)",
     chainId: 1,
     subdomain: "autoworld-streams",
+    blurb: "Builders launching onchain autonomous world gaming experiences.",
   },
   {
     address: "0xd0ace9462d957485904b3437d4818ee2f9f2efed",
@@ -164,6 +171,7 @@ export const COHORT_REGISTRY = [
     displayName: "Owners",
     chainId: 1,
     subdomain: "owners",
+    blurb: "Team members keeping BuidlGuidl's operations running smoothly.",
   },
   {
     address: "0xe54f8b7fddf75257c7f248a197553ac467296053",
@@ -171,6 +179,7 @@ export const COHORT_REGISTRY = [
     displayName: "BG Outreach",
     chainId: 1,
     subdomain: "outreach",
+    blurb: "Conducting outreach activities, both virtually and at community events.",
   },
   {
     address: "0xf32409271be1bb02f15922a6ea38be79e664a247",
@@ -178,12 +187,14 @@ export const COHORT_REGISTRY = [
     displayName: "Balancer",
     chainId: 1,
     subdomain: "balancer",
+    blurb: "Developed a Scaffold-ETH 2 balancer pool lookup and swap app.",
   },
   {
     address: "0xfe2d6743d7180e07be769bf59d3c0f560b199434",
     slug: "zk-cryptography",
     displayName: "ZK & Cryptography (Jessy)",
     chainId: 1,
+    blurb: "Exploring the applications of ZK and cryptography.",
   },
 ];
 
