@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BuilderAvatar } from "./BuilderAvatar";
 import { StatCard } from "~~/components/2025/StatCard";
 import TrackedLink from "~~/components/TrackedLink";
 import { WithdrawalLog } from "~~/components/grants/WithdrawalLog";
@@ -76,8 +77,11 @@ export const StreamBuildersTable = ({ builders }: { builders: StreamBuilder[] })
                   <button
                     type="button"
                     onClick={() => setSelectedBuilder(builder)}
-                    className={`text-left hover:text-primary ${builder.ens ? "font-medium" : "font-mono text-xs"}`}
+                    className={`flex items-center gap-2 text-left hover:text-primary ${
+                      builder.ens ? "font-medium" : "font-mono text-xs"
+                    }`}
                   >
+                    <BuilderAvatar address={builder.address} />
                     {builderLabel(builder.address, builder.ens)}
                   </button>
                 </td>
@@ -146,8 +150,9 @@ export const StreamBuildersTable = ({ builders }: { builders: StreamBuilder[] })
             </button>
             <h3
               id="stream-modal-title"
-              className={`text-2xl mt-0 mb-3 pr-10 ${selectedBuilder.ens ? "" : "font-mono"}`}
+              className={`flex items-center gap-3 text-2xl mt-0 mb-3 pr-10 ${selectedBuilder.ens ? "" : "font-mono"}`}
             >
+              <BuilderAvatar address={selectedBuilder.address} />
               {label}
             </h3>
             <div className="flex flex-wrap gap-x-5 gap-y-1 mb-6 font-mono text-xs text-base-content/60">

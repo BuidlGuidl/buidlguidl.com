@@ -45,7 +45,7 @@ export const GrantsTable = ({ grants }: { grants: ProgramGrant[] }) => {
               <span className="block truncate text-sm text-base-content/60">{grant.description}</span>
             </button>
             <span className="flex sm:flex-col gap-2 sm:gap-0 sm:items-end text-xs text-base-content/60">
-              <BuilderCell address={grant.builder} ens={grant.ens} className="text-xs" />
+              <BuilderCell address={grant.builder} ens={grant.ens} avatarSize={16} className="text-xs" />
               {grant.completedAt && <span className="font-mono">{formatDate(grant.completedAt)}</span>}
             </span>
           </li>

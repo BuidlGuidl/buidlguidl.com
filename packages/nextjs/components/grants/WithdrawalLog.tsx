@@ -33,7 +33,7 @@ export const WithdrawalLog = ({ withdrawals, chainId, showBuilder = true }: With
             key={withdrawal.tx + withdrawal.timestamp}
             className="border border-base-content/10 rounded-xl p-4 flex flex-col sm:flex-row gap-3 sm:gap-5"
           >
-            <div className="sm:w-40 shrink-0 flex flex-row sm:flex-col items-baseline sm:items-start gap-3 sm:gap-1">
+            <div className="sm:w-40 shrink-0 flex flex-row sm:flex-col items-center sm:items-start gap-3 sm:gap-1">
               <span className="font-bold whitespace-nowrap">{formatEth(withdrawal.amount)} ETH</span>
               <span className="font-mono text-xs text-base-content/50">{formatDate(withdrawal.timestamp)}</span>
               {showBuilder && (
@@ -41,6 +41,7 @@ export const WithdrawalLog = ({ withdrawals, chainId, showBuilder = true }: With
                   address={withdrawal.builder}
                   ens={withdrawal.ens}
                   chainId={chainId}
+                  avatarSize={16}
                   className="text-xs text-base-content/60"
                 />
               )}
