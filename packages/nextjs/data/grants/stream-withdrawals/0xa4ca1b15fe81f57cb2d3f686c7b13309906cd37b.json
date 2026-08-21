@@ -1,0 +1,546 @@
+[
+  {
+    "tx": "0x011fa3c8fee2e42220560fe02e0849ab922e2ba24157286c8b13059c6a3dd5fa",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.4097,
+    "reason": "clean up stream",
+    "timestamp": 1723161083
+  },
+  {
+    "tx": "0x1fc198083400733991815808135021cbdb0d9e4d88e1780f57cb810a36e3778b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1.5,
+    "reason": "Clean up",
+    "timestamp": 1717711859
+  },
+  {
+    "tx": "0xba7938a5aad621137607041d27a436549c67a501b5e36a3e190a10b4b95c3fad",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1,
+    "reason": "working on cross chain plug and play solutions",
+    "timestamp": 1678491755
+  },
+  {
+    "tx": "0x8c6b426ad5379d974dae7b1f05af794f1a1a635c6536862eb22bf88aff405134",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.75,
+    "reason": "work on some pull requests and issues, assist community members and BG where I can",
+    "timestamp": 1674879227
+  },
+  {
+    "tx": "0x5988226f1505e57cb457578a5ae856e69bd6376e0556a57c058e146631435413",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1,
+    "reason": "repo maintenance, community support and some prs",
+    "timestamp": 1670517191
+  },
+  {
+    "tx": "0xe618c49738c40309d3b5ebb57be5de170929a2f5f8eb9f704cc4b55701eaf300",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1,
+    "reason": "repo maintenance, user support, growic SE support, BG support and just being a monk 🧘🏼",
+    "timestamp": 1665249779
+  },
+  {
+    "tx": "0xda9b718c5566d2cab6d9b0fb3a24adc6cb0f6f86a5149218c28c85e27cdfcb66",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1,
+    "reason": "scaffold-eth developer support and repo maintenance. Community support. New builds incoming 🏗 ",
+    "timestamp": 1662063450
+  },
+  {
+    "tx": "0xfc9b626e5cf31a7755450552a9607df3834eb8e07d6f63e93120f4b23d635a07",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 1,
+    "reason": "Pull requests, issues, wagmi branch [wip], lit 🔥 protocol starter kit and other SE tasks 👨🏼‍💻",
+    "timestamp": 1659977159
+  },
+  {
+    "tx": "0xf931dedd1567b5038a2dae886591f70c5fbccb21f4cef3f07fde0668f8bb0a8d",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.624264,
+    "reason": "help others contribute to Scaffole-Eth 🏗 work on Pull Requests and Issues and other miscellaneous itiems",
+    "timestamp": 1656962552
+  },
+  {
+    "tx": "0xd66091e5e46ea0ef6e1e59eb95a16e23adafc08072a817e5ecf8f62acf4d69d7",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.75,
+    "reason": "work on getting the new eth-hooks into the vanilla js version of SE 🏗 Review pull requests and assist with issues.",
+    "timestamp": 1655480283
+  },
+  {
+    "tx": "0x285f407f1ced818d7ac61f35e33da6ec07fc4a62c69c0a9443027b7d2d86a5a7",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.5,
+    "reason": "working on eth-hooks to vanilla js, testing and managing pr's and responding to issues. Assisting devs work with SE successfully.",
+    "timestamp": 1653684959
+  },
+  {
+    "tx": "0xe262f1516e392165fa7a9b2898305f7de5aa29bb211cadd3a3ce065a97303854",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.250722,
+    "reason": "PR's, Issues and working on latest eth-hooks integration with vanilla js",
+    "timestamp": 1652721282
+  },
+  {
+    "tx": "0x839d92161966da7c5261ae991288aa0764fb4ba736d946be8a721cad2370b1eb",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.222902,
+    "reason": "Issue resolution, helping with Pull Requests, help in chat and work on foundry and eth-hooks-v4 getting merged into master",
+    "timestamp": 1651847202
+  },
+  {
+    "tx": "0xd01ae73fd7eefad0e1a5149e6e613f4284da9f3282a8844ad0996ea4c3431e2b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.174348,
+    "reason": "PR's, issues and some planning for foundry tests in SE. ",
+    "timestamp": 1651239247
+  },
+  {
+    "tx": "0xe3697fc4fe4c00b7c1545386ea3d1677a4ab7df62714ed5b430205ce643078cb",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.168963,
+    "reason": "work on some pull requests and issues, assist new community members and BG",
+    "timestamp": 1650643445
+  },
+  {
+    "tx": "0x40f1cd811bb93c45527433eb0d95f7b2f8a1d9bc684d23a9691a22d85faaed8e",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.665761,
+    "reason": "Pull Requests, Issues and assist with multiple repos under Scaffold-Eth org. Help to get the challenges repo updated. Assist with multiple tasks for 🏰 Buidl Guidl and 🏗 Scaffold-Eth. This is for two weeks 😁 pay. ",
+    "timestamp": 1650033097
+  },
+  {
+    "tx": "0x18527f51cd94becd0a50b3815a3a11bd552b7ecc756b998259e04bcbd1a52a52",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "Weekly pay",
+    "timestamp": 1648815155
+  },
+  {
+    "tx": "0x9b2869129b5ffdb92bdbe385cfc5536cfd23c761bc8776fb299457e5676047bc",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "issues, prs, and bears oh my",
+    "timestamp": 1648223022
+  },
+  {
+    "tx": "0x32b1ee621400775a8f4a001c2212fbe405a4d4dbbf7d1296a497cbc158447356",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "weekly contributions",
+    "timestamp": 1647610840
+  },
+  {
+    "tx": "0x1bc67944fe8142b0b2319956ad06a0f54fcba7006093d6b59f842aad500aafbc",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "weekly pull",
+    "timestamp": 1647035748
+  },
+  {
+    "tx": "0x472c362f3513107d13abd0f3727034f2d3a770a99ae286d6be589791369fa241",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.362,
+    "reason": "weekly and last one from this stream",
+    "timestamp": 1646932890
+  },
+  {
+    "tx": "0xd0201a65f8671a7388e9d596c73669d10a083eab33da4d310d370856baee5b0a",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "Weekly maintainer ",
+    "timestamp": 1645886252
+  },
+  {
+    "tx": "0x9a773be042de3704f50885716d72f1dd30f55a9dc992bc06c76fd338807d6d80",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly assistoooor 🧑🏼‍💻",
+    "timestamp": 1645288517
+  },
+  {
+    "tx": "0xa4c7fba4dbe6cc906936d07de8d1e03fad72c7f22eb3da713f317755bf36086a",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.24,
+    "reason": "weekly help with repos, challenges and misc.",
+    "timestamp": 1644603497
+  },
+  {
+    "tx": "0xf52d198e087f741bb3b5d99036817c5d7eae2b2ec383343cfcbbed8964f09bff",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.22,
+    "reason": "Weekly",
+    "timestamp": 1643979219
+  },
+  {
+    "tx": "0x72ce4b6eeb8cd6d99d837056b4fa42ef75b08882fc0290b43f1c2d869e31ae9b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly drip for many things 👩‍💻 Scaffold-Eth - speedrun - repos",
+    "timestamp": 1643399101
+  },
+  {
+    "tx": "0x9d31c2258eb769d8b064206bb7dad781b91a80d896bc03aa5b700ba22fd4c734",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.2,
+    "reason": "weekly ~ challenges, repo's and integrations",
+    "timestamp": 1642788970
+  },
+  {
+    "tx": "0xa00750467751e6e600ba916686c0d915df4e85f6633fe19588570df958550ee7",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly ~ speedrun, challenges, repos",
+    "timestamp": 1642274034
+  },
+  {
+    "tx": "0xe1ea2ef7c31a876f8475757c01ccba052cbf084623c030ed75889267b848de3d",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly",
+    "timestamp": 1641579964
+  },
+  {
+    "tx": "0x0b5673b87f7d7d7d8f1576a7ab5e812cda058e9642a8b6040bf76d86cfeed854",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly stipend ~ Happy New Year 🎉",
+    "timestamp": 1641001301
+  },
+  {
+    "tx": "0xa12efdb8091b0702753b1d612ec8e8b53d0a74601a6a44619194e0bf3eafa48a",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "Weekly tasks",
+    "timestamp": 1640611305
+  },
+  {
+    "tx": "0x0450e7f9d8672723b2a50ffbe7a56dba56b98628b3318415c51ff42d22db9cd1",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "speedrun oracle and challenge help. Support and maintenance.",
+    "timestamp": 1639752470
+  },
+  {
+    "tx": "0x730be36e9202ca9fbb558c9aba5a72bfd51baa59cf3241630499be4dccd71f8c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.3,
+    "reason": "Speed Run Oracle, PR's, Challenges, Onboarding, Support and maintenance tasks",
+    "timestamp": 1639151434
+  },
+  {
+    "tx": "0x6eb6da567a11ab602bf439ade89ab7ade37b9a6c0e88e5fc07c779eb4145b7ed",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.32,
+    "reason": "weekly tasks ~ challenges ~ oracle ~ coordination",
+    "timestamp": 1638548863
+  },
+  {
+    "tx": "0x461751cd00f030e096645aaae85368c1be7990f85c99d2f10b71c056ae4f0fcd",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.35,
+    "reason": "weekly taks - challenges, onboarding, scaffold-eth, etc..",
+    "timestamp": 1637943405
+  },
+  {
+    "tx": "0xb68976eace253141415a77d8f5ab49722cc65054cc1ad2bcb4a8bb4def75c79e",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.4,
+    "reason": "work on challenges, repo maintenance, issues, pr's and some onboarding",
+    "timestamp": 1637340421
+  },
+  {
+    "tx": "0x412b3f62d55361ddaf10e682313689946fd83746b7ee0ceb08ed8206fa21c055",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "update repos, prs, issues, ens, onboarding, challenges",
+    "timestamp": 1636734997
+  },
+  {
+    "tx": "0xfe0f1fe7b002581729c6fa8697d56d957df8e31cbf20448439d9d54136c5bda9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "weekly prs, issues and helpiing new members",
+    "timestamp": 1636149067
+  },
+  {
+    "tx": "0x306f82bc9d30bc8d807156fbee6c817e114343852f296c84f520c8d674f214a9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.22,
+    "reason": "maintenance, prs, and issues oh my",
+    "timestamp": 1635518227
+  },
+  {
+    "tx": "0x4222b88c3d2a31b1da75c7f0d2c3dd436aaebf8f33cd27f04696d2757e16a37e",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "pr's, issues and repo maintenance",
+    "timestamp": 1634907108
+  },
+  {
+    "tx": "0x06120269dcf9dbd1a8814520bf5f33caf51714906cf0df6e266fa62425263b52",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "Repo maintenance and miscellaneous ",
+    "timestamp": 1634301217
+  },
+  {
+    "tx": "0x6151c547a7c2d8da6d7c003cddfc1d4b04c31b8c65f7e7934fb3d16f985bf012",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "hooks, components, issues, prs, and updating branches",
+    "timestamp": 1633699338
+  },
+  {
+    "tx": "0x07ba9ce72ecbe17bee43d8c4856db916a4389bf370393fc83ddfe92443f5c64e",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.25,
+    "reason": "Repo Maintenance ",
+    "timestamp": 1633137784
+  },
+  {
+    "tx": "0x877e9b9fa6b126b085dc79da76811b50bf2c2c660c4f7f613bf2b1d182021f8b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.119135,
+    "reason": "Remove bal end of thus stream",
+    "timestamp": 1633137623
+  },
+  {
+    "tx": "0xa0cf651e04d7e7fcacb52e8491da3bdf3af8274965c60f4491975d3af80421ca",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.27543,
+    "reason": "work on issues, pr's, road map, branch pruning and maintainence (week)",
+    "timestamp": 1632592866
+  },
+  {
+    "tx": "0xac4e542dc3d70eee47b100f80f3473cf7d73d3c413d7477ada0409db119530a4",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.054695,
+    "reason": "transfer",
+    "timestamp": 1632424678
+  },
+  {
+    "tx": "0x576b069456dbab0776caf76e891ba4803e44cc6dab06c06a4079a70a882ad219",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.065827,
+    "reason": "issues and pr's",
+    "timestamp": 1632163247
+  },
+  {
+    "tx": "0x762e80a4cfbbc72a1a8c154ac05c3f97133091d5ef103cd9aa4f1f144d8ae9d9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.086653,
+    "reason": "repo maintainence",
+    "timestamp": 1631888698
+  },
+  {
+    "tx": "0x9b5b929a5980971957d298edf710adb98ae9c2a711223d0acad9c80c14ba5e7f",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.056467,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/issues/403",
+    "timestamp": 1631731143
+  },
+  {
+    "tx": "0x3ed3860ef0384fdabf872431d479ea96a6e30f5fed80877a12d28d8db76ad671",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.056695,
+    "reason": "https://github.com/moonshotcollective/tip.party/pull/44 /51 /62",
+    "timestamp": 1631129964
+  },
+  {
+    "tx": "0x1ab923a7348b2750f007ea731f7230d494a6a5d2b7275600dc635827d4141d2f",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.086735,
+    "reason": "Issues, PR's for Scaffold-Eth and MC",
+    "timestamp": 1631031507
+  },
+  {
+    "tx": "0x63686e899963b0af80315df5a4f0dfe58554d03785c3380cd1bc39957336d3a6",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.076088,
+    "reason": "https://docs.google.com/spreadsheets/d/1Cv5QhtgHzpxLsvy3GJIW7KjgWq4IMXY1iFoSCg3Me8U/edit?usp=sharing",
+    "timestamp": 1630698636
+  },
+  {
+    "tx": "0x84e18c42267c0f9404c47d4e69ed84c414d1f40d6efc034d98d5f549cb844b1c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.104758,
+    "reason": "https://github.com/moonshotcollective/tip.party/pull/44",
+    "timestamp": 1630620302
+  },
+  {
+    "tx": "0x9a6f547c8c749f882b37ec3c928f7578f75cb1e6cc28b9a8d8745ee00744fc00",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.146873,
+    "reason": "https://github.com/moonshotcollective/d-tips/pull/13",
+    "timestamp": 1630458721
+  },
+  {
+    "tx": "0x9e7130b6f30496650cbbcff6fb5e1c69dea3015f5618820608ffb7753cd52102",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.146878,
+    "reason": "some issues and pr's - community - maintenance",
+    "timestamp": 1630445282
+  },
+  {
+    "tx": "0x942b93c0d5f047073137bb299a4b15a24f141ad214c3c35d0027e790d3aa68d2",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.061992,
+    "reason": "Wallet connect additions and speed run",
+    "timestamp": 1628682125
+  },
+  {
+    "tx": "0x28cbb86953627d8418bce5b614ce49f07127e4cc005c4831be813c8d9437577c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.275124,
+    "reason": "Community, tokenlock branch, issues & pr's",
+    "timestamp": 1626736949
+  },
+  {
+    "tx": "0x7690f5c287806b119f605a3728f36b397f2d3f4f7c1157364b29aa4fa2e5ae2b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.138907,
+    "reason": "Community, Gitbook, issues and pull requests. Update chainlink branch.",
+    "timestamp": 1625077926
+  },
+  {
+    "tx": "0x4217964dffec5f69fdc1ed5f6a5591b6042f69f7aaa60a5c8daff2e618b2f174",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.057076,
+    "reason": "Old stream??",
+    "timestamp": 1623758601
+  },
+  {
+    "tx": "0xbb34e4d5dc1f9b21d22f3a1e02da7a8609effe78b47caa15e2525d43fa6c236b",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.11763,
+    "reason": "work on Discord, add channels, organize, gather participants",
+    "timestamp": 1623684020
+  },
+  {
+    "tx": "0xb4744ad0630437640ef331294b6a7f5dc0d8721069791dc8c986c1613842ebd1",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.108926,
+    "reason": "freelancer branch help",
+    "timestamp": 1623028329
+  },
+  {
+    "tx": "0x0a8bb9a1fcbae42b749eb2eec7565463d3ea02a1d285a3f10551f672dfeb64b9",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.035948,
+    "reason": "Start freelancer fork",
+    "timestamp": 1622728990
+  },
+  {
+    "tx": "0xba6ee67a6ed00d7ae1af0726660de9367085924661572251c6c436a0b3c7d163",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.156712,
+    "reason": "Start freelancer fork",
+    "timestamp": 1622728799
+  },
+  {
+    "tx": "0x41ab3b28c105948ec9213da17a46a0ca395aeeb79e85eccce86e6dc2a0c022b8",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.077164,
+    "reason": "Telegram, Issues and PR's",
+    "timestamp": 1622488706
+  },
+  {
+    "tx": "0xc3f25e0cee14ee601d69f306afd56d4bef7b5e32271bf62cf70411f9f0e6e5ae",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.076168,
+    "reason": "issues and pr's",
+    "timestamp": 1621954689
+  },
+  {
+    "tx": "0x2f7ff2b48303f6169dea979a78c98939f4dbd3183453047bac1aa17a5f6f5bd2",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.40787,
+    "reason": "redeploy",
+    "timestamp": 1621598643
+  },
+  {
+    "tx": "0xc021bf7f1d6a9f9f7d735d830988e5fd50e32d5a318eed56134c71d302554a68",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.010849,
+    "reason": "moving the rest",
+    "timestamp": 1621122254
+  },
+  {
+    "tx": "0x31e377d9f91d31502c83efb3a0db2ae4879606fbb0accbe2b01e979c49b4c38c",
+    "builder": "0xa4ca1b15fe81f57cb2d3f686c7b13309906cd37b",
+    "ens": "pharo.eth",
+    "amount": 0.489061,
+    "reason": "moving assets",
+    "timestamp": 1621121865
+  }
+]

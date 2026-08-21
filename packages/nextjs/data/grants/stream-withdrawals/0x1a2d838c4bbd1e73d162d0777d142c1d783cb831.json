@@ -1,0 +1,138 @@
+[
+  {
+    "tx": "0x4494eaf470e84958357b4252b08f21bd1f0d4e569a501487f908fea18e362880",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.7,
+    "reason": "January Work: Hacked at lfgho with Carlos & Eda - https://ethglobal.com/showcase/ghofund-wsxrh ------ SE-2 (PR's): App router migration final work: https://github.com/scaffold-eth/scaffold-eth-2/pull/535#issuecomment-1879794609 -- EthersV6 migration (hardhat) -- https://github.com/scaffold-eth/scaffold-eth-2/pull/692 -- Fix broken blockexplorer page - https://github.com/scaffold-eth/scaffold-eth-2/pull/699 -- CLI Backmerge - https://github.com/scaffold-eth/scaffold-eth-2/pull/685 ------ SE-2 (Reviews): #696, #697, #683, #637 ------ AbiNinja (PR's): allow locahost - https://github.com/BuidlGuidl/abi.ninja/pull/32 ------ AbiNinja (Review's): #34, #35, #36, #37, #44 ------ sandgarden.buidlguidl.com (PR's): Use Ponder indexer to fetch events - https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/6 -- Fetch events from old + new contract - https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/4 ------ SE-2 docs (PR’s): Recipe for reading `uint` - https://github.com/scaffold-eth/se2-docs/pull/48 -- Constructors args example - https://github.com/scaffold-eth/se2-docs/pull/54 ------ SE-2 docs (Review): #50, #52, #56 ------ SE-2 SRE (Reviews): Update multisig backend: https://github.com/scaffold-eth/se-2-challenges/pull/122, #126 ------ Little help with batches PR reviews",
+    "timestamp": 1707567203
+  },
+  {
+    "tx": "0x9221456c98a230c73d4f736df0f579a0f92926efc5cd216f35c60c42167c70a0",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.7,
+    "reason": "Impersonator (PR’s) : Merge latest SE-2 changes - https://github.com/austintgriffith/impersonator-vision/pull/3 — CleanUp and validation checks - https://github.com/austintgriffith/impersonator-vision/pull/9 ——— Scaffold-ETH-DEFI-Challenges(PR’s): Fix GH actions on foundry - https://github.com/scaffold-eth/Scaffold-ETH-DeFi-Challenges/pull/29 ——— Batch0BG basic help and small PR review : #25, #26, #21 SE-2 (PR’s): DaisyUI V4 - https://github.com/scaffold-eth/scaffold-eth-2/pull/656 — Displaying of custom error - https://github.com/scaffold-eth/scaffold-eth-2/pull/638 — Patch scaffoldConfig typeError - https://github.com/scaffold-eth/scaffold-eth-2/pull/641 — Patch getParsedError - https://github.com/scaffold-eth/scaffold-eth-2/pull/649 — Allow Iframe SE-2 (safeConnector) - https://github.com/scaffold-eth/scaffold-eth-2/pull/667 — JSDoc Cleanup - https://github.com/scaffold-eth/scaffold-eth-2/pull/665 — Hardhat Ignition Migration - https://github.com/scaffold-eth/scaffold-eth-2/pull/644 — Issue Template update - https://github.com/scaffold-eth/scaffold-eth-2/pull/651, Weekly CLI backmerge - #648, #671, #674 ——— SE-2 (Reviews) : #630, #653, #660, #665, #669, #647 ——— SRE Challenge (PR’s): Multisig transaction feedback - https://github.com/scaffold-eth/se-2-challenges/pull/118 ——— SRE Reviews: #112, #116 ——— SE-2 docs (PR’s): Desc about multichain config - https://github.com/scaffold-eth/se2-docs/pull/45 ——— SE-2 docs (Reviews) - #33, #44 ———  AbiNinja (PR’s) : Contract details page - https://github.com/BuidlGuidl/abi.ninja/pull/31 ——— AbiNinja (Review) : #21",
+    "timestamp": 1704737639
+  },
+  {
+    "tx": "0x3a05fd4295a2ebd1784b9cf8c01c5a43eeefedbc864017a8e3f3809c5bbeb220",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.8,
+    "reason": "Submited two builds : ZK Verification of NFT with Zupass ( https://app.buidlguidl.com/build/ki6FsaKV2aY1VrAuu3KB ) , FootyDAO Multichain example ( https://app.buidlguidl.com/build/gSdTRz2pQv1Obd71MZVn ) DevConnect Zupass SE-2 (PR’s): add extra auth checks in contract (https://github.com/BuidlGuidl/devconnect-zupass-se2/pull/2) , Add Devconnect event constants (https://github.com/BuidlGuidl/devconnect-zupass-se2/pull/1) ————— Zupass-SE-2 (PR’s) :  add example for verify proof on chain (https://github.com/BuidlGuidl/zupass-scaffold-eth-2/pull/10) , fix types error (https://github.com/BuidlGuidl/zupass-scaffold-eth-2/pull/9) ",
+    "timestamp": 1701976703
+  },
+  {
+    "tx": "0xf354c9d613a1924e0449de9c471e998cd6466dc361a16f5ef576ef5762aea89e",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.2,
+    "reason": "Worked on SE-2 PWA Burner Wallet — SE 2 PR and Reviews — SE-2 docs PR reviews  — Worked on scaffoldeth.io hooks section — SRE minor PR reviews are",
+    "timestamp": 1699559003
+  },
+  {
+    "tx": "0x2a001d5013acec7e4d73a606eb601f672aac7d009be6bb1950f2d5372bac4f47",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.8,
+    "reason": "SE-2 (PR’s) : add types to even data in useScaffoldEventHistory #533 — add compatibility with SAFE #346 — remove parseEther from useScaffoldContractWrite #548 — Update subgraph branch #533 — update hardhat, add Prettify type, fix ETH price on sepolia #546, #541, #532 — patch daisyUI break on prod #510 — backmerge latest changes to CLI (v0.0.20) #523  ———  SE-2 (PR’s Review): #529, #507, #512, #489, #522, #309, #534, #531, #540, #547, #555 ——  BG-Website (PR’s): hero section tweaks #17 — fetch dynamic stats #18 and minor PR reviews —— BG l2 Chain (PR’s) : add multchain functionality #5 — fix block explorer links #8  ——  SE-2 Challenges (PR’s ):  Chall 4 fix test to match autograder #88, chall 0 : fix vercel deployments #91 and minor other challenges reviews ",
+    "timestamp": 1696781327
+  },
+  {
+    "tx": "0x2c000533ca38953b658d0b52a3f36a104699b789f1533e80531300a8857a5066",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.45,
+    "reason": "Submited Build : https://app.buidlguidl.com/build/85brW7I76bS9OyMMsqEh ---------- SE-2 (PR’s ) : update the abi type for getContract in useScaffoldContract #460 — foundry contracts remapping to contracts dir #471 —  cli/merge foundry and main changes #473 —  fix overflow for read functions and add pre tag to show formated struct #478 — update example for using writeAsync in README.md #482 —  Add address log for generated wallet & gnosis, chiado in hardhat config #485 — Bump daisyui to v3 & update tailwindcss #490 — update wagmi & rainbow #491 — setup ci/cd with changeset for cli #494 — Update and typescript version #499 — Fix RainbowKitCustomConnectButton dropdown styles #500 --- SE-2 (PR’s Review) :  Foundry Updates #475 — Reduced README for Docs-website launch #486 — Foundry verify #489 ————— SE-2-Challenges : Migrated base-challenge-template to Wagmi V1, Viem and daisy UI v3 — Migrated challenge 0,1 & 4 for the same at #73 #74 #78 #79 —- SE-2-Challenges Reivew : Reviewed other chllenges migration  ————— SE-2 Website : Compoents section #13 ————— SE-2 docs, BG-website :  PR reviews and minor updates",
+    "timestamp": 1694457659
+  },
+  {
+    "tx": "0xea855532e1569efbd6e8bda4d7478491e73d92d1972d000990f6b735052857d1",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.5,
+    "reason": "July Work : Submitted a build Omnichain governor Standard : https://app.buidlguidl.com/build/iXhbPMeefCyhrE5fqdQI ——— SE-2 (PR’s) - CLI ,#420, #421, #425, #423, #437, #450, #452, #454, #458 :  CLI basic beta version with Carlos & Dani, Fix vercel deployments fails, CLI/lock viem and wagmi version, CLI/fix frontend network, cli/fix-foundry-yarn-generate, foundry use JS script for ListAccount instead of .sol, fix empty debug page when mismatch in localStorage and contractName, use targetNetwork instead of hardcoding dir name in template root, fix eth_accounts calls on localNetwork, Fix/useAccount & some other hooks hydration issue ——— Help in SE-2 PR review and creating issues ——- SE-2-Challengs(PR’s) : #6, #7, #25, #34 , #43:  challeng-1-decentralize-staking, Base template update, chall-1/fix wagmi cache issue on deploy --reset, challenge 1 betterments, chall-2/add SellToken UI —— Help in very few SE-2-challenge review ———- BuidlGuidl Website(PR’s) - #2, #3, #5, #7 : Test your Knowledge section, Featured Builds section, SE-2, supporting, stats and learn more section, basic footer ",
+    "timestamp": 1691171843
+  },
+  {
+    "tx": "0x97d92b61d144a430f00d23ad91ee3fabe549b830271802e253cd8f41e319143c",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.8,
+    "reason": "SE-2 UUPS Proxy : https://buidlguidl.com/build/zyTPGPqlWhyGPbfxIQQI Utils/LinkExternalContracts for se-2 :  https://buidlguidl.com/build/sN3POkKBY9djddPtWyQt  SE-2 Work Mid Mar-May start :  https://github.com/scaffold-eth/scaffold-eth-2/pull/248 ——  https://github.com/scaffold-eth/scaffold-eth-2/pull/253 ——   https://github.com/scaffold-eth/scaffold-eth-2/pull/257 —— https://github.com/scaffold-eth/scaffold-eth-2/pull/262 —— https://github.com/scaffold-eth/scaffold-eth-2/pull/266 —— https://github.com/scaffold-eth/scaffold-eth-2/pull/269 | 270  —— https://github.com/scaffold-eth/scaffold-eth-2/pull/292 ——  —— https://github.com/scaffold-eth/scaffold-eth-2/pull/311 —— https://github.com/scaffold-eth/scaffold-eth-2/pull/317 —— https://github.com/scaffold-eth/scaffold-eth-2/pull/329  and some pr review’s during this period",
+    "timestamp": 1688395775
+  },
+  {
+    "tx": "0x41d40f626b886d2f7fb484512c11961e62550ca08bd7b75252056eceec0b6ea7",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.5,
+    "reason": "SE-2 Work : 1) Use scaffold.config instead of env’s : https://github.com/scaffold-eth/scaffold-eth-2/pull/246 ----------------— 2) yarn vercel:yolo : https://github.com/scaffold-eth/scaffold-eth-2/pull/195 ----------------— 3) Handle Loading state for contract component : https://github.com/scaffold-eth/scaffold-eth-2/pull/178 ----------------— minor PR’s : https://github.com/scaffold-eth/scaffold-eth-2/pull/223 ---- https://github.com/scaffold-eth/scaffold-eth-2/pull/208  Jessy Hacker house Snappy UI : https://github.com/BuidlGuidl/hacker-houses-streams/pull/4 SuperBuild (ETHTokyo Hackathon build) : https://buidlguidl.com/build/83NB3rurjLbB4Ul4y3WR",
+    "timestamp": 1683653243
+  },
+  {
+    "tx": "0x353a278958c9cc690aef69291d57eaf8f780890aad993f65a6f0eb0922a37209",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.5,
+    "reason": "SE-2 Work : 1) Show display vars even when on wrong network : https://github.com/scaffold-eth/se-2/pull/135 ------------------- 2) Support array Inputs on debug page : https://github.com/scaffold-eth/se-2/pull/156 ------------------- 3) Handle Wagmi cache bug on debug page : https://github.com/scaffold-eth/se-2/pull/177   ------------------- 4) Helped on useScaffoldEventSubscriber hook : https://github.com/scaffold-eth/se-2/pull/162 ------------------- 5) Handle UI breaks & booleans on debug page : https://github.com/scaffold-eth/se-2/pull/166 && https://github.com/scaffold-eth/se-2/pull/164 ------------------- 6) Fix ambiguity for using custom Toast vs HotToast : https://github.com/scaffold-eth/se-2/pull/155 ***** Submited 2 builds built with se-2",
+    "timestamp": 1679724863
+  },
+  {
+    "tx": "0xa11db33b60443f03499e78cfbf9dec329389350d24f928db0b5d5ba91d1fd0dd",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.5,
+    "reason": "SE-2 Work : 1) Deploy to vercel thorugh cli - https://github.com/scaffold-eth/se-2/pull/133 ---------- 2) created basic iteration of scaffoldHooks for se-2 - https://github.com/scaffold-eth/se-2/pull/93 ---------- 3) Display read vars/funcs even if not connected - https://github.com/scaffold-eth/se-2/pull/135 ---------- 4) Create Local Faucet - https://github.com/scaffold-eth/se-2/pull/154 ---------- 5) Show Error if contract not present - https://github.com/scaffold-eth/se-2/pull/130",
+    "timestamp": 1676474651
+  },
+  {
+    "tx": "0x857540f5512f65e9eb840f8ed87e8642cc5d0d0cf0fcb8163253ac4a1f2d08fc",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.85,
+    "reason": "Worked on se-2 : 1) Implemented new design for debug page - https://github.com/scaffold-eth/se-2/pull/77 --------------- 2) Theme toggle - https://github.com/scaffold-eth/se-2/pull/83  --------------- 3) RPC on key press : https://github.com/scaffold-eth/se-2/issues/59 , https://github.com/scaffold-eth/se-2/pull/86#issuecomment-1374902738 --------------- 4)Bumped up the version of wagmi v0.6.x -> v0.10.x - https://github.com/scaffold-eth/se-2/pull/96 --------------- 5) Helped a bit on - https://github.com/scaffold-eth/se-2/pull/72 , https://github.com/scaffold-eth/se-2/pull/71",
+    "timestamp": 1674879035
+  },
+  {
+    "tx": "0xe9ce197a1d615ae085b2a7680149a5fc4ac1e60065a86b83bf6c2e1e103ef3a2",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.8,
+    "reason": "Completed 3 SE-2 issues : 1) Transactor - https://github.com/scaffold-eth/se-2/pull/55 ------ 2) Retech display vars - https://github.com/scaffold-eth/se-2/pull/57 ------ 3) Generic Toast : https://github.com/scaffold-eth/se-2/pull/73 *-*-*-*-*-*-* Worked on Optimistic Loogies redesing : https://github.com/scaffold-eth/scaffold-eth/pull/939",
+    "timestamp": 1671466895
+  },
+  {
+    "tx": "0xa4080866b2ad13f33040d550a19671d78b43a3685e51d76d646726e817e10c2c",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1,
+    "reason": "Worked on SRE : https://github.com/BuidlGuidl/SpeedRunEthereum/pull/177 -------- https://github.com/BuidlGuidl/SpeedRunEthereum/pull/180 ------- --------- Worked on SE-2 : https://github.com/scaffold-eth/se-2/pull/45 ------- https://github.com/scaffold-eth/se-2/pull/36",
+    "timestamp": 1669659515
+  },
+  {
+    "tx": "0xfdd3ba59e8f23e87bbfa4504469220e060ffeb519342ff928a9f07371f8b7c27",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.8,
+    "reason": "Working on se-2 contract component : https://github.com/scaffold-eth/se-2/pull/36 ---- reason : EthIndia ✈️",
+    "timestamp": 1667933639
+  },
+  {
+    "tx": "0xd18d0ae865784fea16e951b87a39c2ac3067a2b0c063d8d57d6d2673ec0f4bd0",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.3,
+    "reason": "Decreased the number of rpc calls by around 50% on Scaffold-eth(Thanks to Carlos and Naim) : https://github.com/scaffold-eth/scaffold-eth/pull/897 ---- Setup basic eth-tech-tree : https://buidlguidl.com/build/qUkjdBnmLjpjkEdjVY4q ---- Contributed to SE-2(Faucet and basic workflow) : https://github.com/scaffold-eth/se-2/pull/27 and https://github.com/scaffold-eth/se-2/pull/7",
+    "timestamp": 1666714871
+  },
+  {
+    "tx": "0x05f36524d2a701342ebed0b9b9f5466cdf25d6868e80302c4356d3a9e72fae5d",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.5,
+    "reason": "added gh-actions and husky to scaffold-eth : https://github.com/scaffold-eth/scaffold-eth/pull/864,  Updated scripts for TheGraph in se-typescript :https://github.com/scaffold-eth/scaffold-eth-typescript/issues/117, created PR for compatablility with gnosis safe apps : https://github.com/scaffold-eth/scaffold-eth/pull/889, created a small walkthough for ETHMAN : https://github.com/technophile-04/ethMan#introduction",
+    "timestamp": 1664380751
+  }
+]

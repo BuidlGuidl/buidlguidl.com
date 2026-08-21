@@ -1,0 +1,434 @@
+[
+  {
+    "tx": "0xa19abc7de2dd4458b6edb1e37320da7c0d4b2e5a20229bbc2d6de16d07f8de58",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.7371,
+    "reason": "End of an Era! Publishing interviews with Cassie Heart (Quilibrium), July (Faust), Stephane Gosselin (OneBalance), ProxyStudio (ProxySwap), and Jason Zhao (Story Protocol), and more soon. My thanks to BuidlGuidl, Austin Griffith, the EF, and fellow buidlers <3. See web3galaxybrain.com ",
+    "timestamp": 1718915411
+  },
+  {
+    "tx": "0x2fc50ea743a5925b01c0fa053289677c7e7b0761ba8dcf1817e2d617f3bb8ad1",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with HackMD Founder Jong Kai Yang https://web3galaxybrain.com ",
+    "timestamp": 1717177943
+  },
+  {
+    "tx": "0xeefd32906dc6ae9c8ba91b767f41af74b1cbbadd9e797ef70b2424b94003fcd7",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with rug.fun and mint.fun founder Luke Miles - https://web3galaxybrain.com ",
+    "timestamp": 1715891903
+  },
+  {
+    "tx": "0x8e290ead4dffcd0e05aa94f1eaa4df349a08590f50f2e59ec5dc0e51b610291c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published video interview with River.ph co-founders 0xTranqui and Salief Lewis https://www.youtube.com/watch?v=qdvzlXf3NsU",
+    "timestamp": 1714612799
+  },
+  {
+    "tx": "0xe630c77549adf3ac1dd8905fe1b166cf91eba26dd732dd420150e63cb75bc12c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Pete Horne, founder of 4th.energy - web3galaxybrain.com ",
+    "timestamp": 1713985151
+  },
+  {
+    "tx": "0x402f4e37beea0b3965f3d970ac1fc612191d6ef754f05340242a89e7691b31f3",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.25,
+    "reason": "Published VIDEO interview with Alex Masmej, founder of Drakula  https://www.youtube.com/watch?v=Rmfiw8FGVvI",
+    "timestamp": 1712958539
+  },
+  {
+    "tx": "0x461ac96750f6129e9d7870f21709c338de205a3a798f1d45ebaf29085c3fbcc9",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.4,
+    "reason": "Published Web3 Galaxy Brain 🌌🧠 with Cameron Robertson founder of Arx and Partha Ramanujam Founder and CTO of Etherspot https://web3galaxybrain.com",
+    "timestamp": 1711929839
+  },
+  {
+    "tx": "0x0d57784b7e6b1e7633819952b639d370d8867824bd4d0c68cb63775b784a175f",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.4,
+    "reason": "Published interviews with Conduit founder Andrew Huang and Efani founder Haseeb Awan https://web3galaxybrain.com/",
+    "timestamp": 1710795563
+  },
+  {
+    "tx": "0x834efb9e6d1d8a6b9a97f4712e55e93234845e76db53378abb8b3e7a68331a6c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.8,
+    "reason": "Published interviews with Draper and Facu from Smol, Nick Dodson from Fuel, Vidy Thatte from Trace, Jango from Juicebox",
+    "timestamp": 1709649335
+  },
+  {
+    "tx": "0xbfdd62f1aefd8f268bdf37335129a4256382d8c62051a177c35f67974bbe5f15",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.4,
+    "reason": "Published interviews with Lit Protocol Founders and early Farcaster Frames developers https://web3galaxybrain.com/",
+    "timestamp": 1707920867
+  },
+  {
+    "tx": "0xd7e63c430156ba61028df2b1ebdbabd9c369125b2e95ff02a2d8c3aea413b73d",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Brian Weickman Co-Founder of ZKP2P https://web3galaxybrain.com/Brian-Weickmann-Co-Founder-of-ZKP2P",
+    "timestamp": 1707416135
+  },
+  {
+    "tx": "0xc6882b78eb1be1f8d06e0a13f81994ad93a795f8d4392f130f7a078ec2606ddf",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Kristof Gazso of Pimlico https://web3galaxybrain.com/episode/Kristof-Gazso-Founder-of-Pimlico",
+    "timestamp": 1707416135
+  },
+  {
+    "tx": "0x14e7244d15c03ae242c255fcc81058574270dad382d71960c07ab6f3629ad029",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Dogan and Ulas from Clave https://web3galaxybrain.com/episode/Dogan-and-Ulas-from-Clave",
+    "timestamp": 1707188339
+  },
+  {
+    "tx": "0x4c58b9f4e86523d4e00d599a15f4dde5dc1c2f5e5aef709aeba3ecc32e44fd3b",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.75,
+    "reason": "Published interviews with Hilmar Orth (Gelato), Itai Turbahn (Dynamic), and Chris Chang & George Datskos (GhostLogs) https://web3galaxybrain.com/",
+    "timestamp": 1706639999
+  },
+  {
+    "tx": "0x449db488e08d31a1c8f8313cc12bac7608fcbcc33279f134afa7740cea672c70",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Eito Miyamura about EthGlobal Finalist project ZK Microphone https://web3galaxybrain.com/episode/Eito-Miyamura-ZK-Microphone",
+    "timestamp": 1705644539
+  },
+  {
+    "tx": "0xbec5a496fdb8ef8bd0bbfd1171dc7467d55e40bd5f11e2d88ccf70c5b827faa7",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Ryan Smith of Index Supply https://web3galaxybrain.com/episode/Ryan-Smith-Founder-of-IndexSupply",
+    "timestamp": 1705321931
+  },
+  {
+    "tx": "0x606a69f5afeccbddfb504fc2d83c1e51cf35d4bed348ab6c69a1a3c2b29acc31",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Nazar Ilamanov, Solidity and Web3 developer of Monobase https://web3galaxybrain.com/",
+    "timestamp": 1704760007
+  },
+  {
+    "tx": "0x2009e4ac22940335ac80cab40802dee6cf03b947765605e09048ea74274256c4",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with UFO blockchain radio founders Nick Hollins and Ivano Salonia https://web3galaxybrain.com/episode/Nick-Hollins-and-Ivano-Salonia-of-UFO",
+    "timestamp": 1704698003
+  },
+  {
+    "tx": "0xf55fa1e06928b71f4fa14464caffb09b6045991573bc3a7f745be764823d233b",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Turnkey founders about HSMs in the cloud https://web3galaxybrain.com/episode/Bryce-Ferguson-and-Jack-Kearney-CEO-and-CTO-of-Turnkey",
+    "timestamp": 1704602423
+  },
+  {
+    "tx": "0xe9d55feaa6f00a2fdf3eb8782f1b9b9396d210504f8afa987e22e696cfb4d953",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview + transcript with Dora CEO ConejoCapital about multichain indexing https://web3galaxybrain.com/episode/ConejoCapital-CEO-of-Dora",
+    "timestamp": 1703297387
+  },
+  {
+    "tx": "0xa9f1f8a4b160cd99bfd8edb1aed8b647cc0e721f031177d6254097f4cc3f6a50",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with ZeroDev founder Derek Chiang about the 4337 landscape https://web3galaxybrain.com/episode/Derek-Chiang-CEO-of-ZeroDev",
+    "timestamp": 1703295707
+  },
+  {
+    "tx": "0x87aaad0a112579f6dabc45ddaedb031236ab82100005a287f7d872d14c41e064",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.5629,
+    "reason": "Published searchable transcripts of all web3galaxybrain.com episodes ",
+    "timestamp": 1702078835
+  },
+  {
+    "tx": "0x846864857bc2c759a353d102b3c618024fb7d4781c0a40081fb7c82b8a17a5f4",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with @lightclients, @gregthegreek, and @josephdelong about 4337 vs 3074",
+    "timestamp": 1701398231
+  },
+  {
+    "tx": "0x391676f4c2a4f02e6ee1d390ebc0328a345d6453db875c07204d318765feb04f",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Ahmed Al-Balaghi, CEO of Biconomy, all about 4337 smart accounts from the perspective of the app dev web3galaxybrain.com ",
+    "timestamp": 1701311711
+  },
+  {
+    "tx": "0x1d4448f6fcf997c263bd07142b860fc3917dfc671ff07b55df96b1b6f9dbd9f4",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.19,
+    "reason": "Published interview with FirstMate founders about their creator-owned secondary market https://web3galaxybrain.com (new site!)",
+    "timestamp": 1700782019
+  },
+  {
+    "tx": "0x3bc1036f6912599b9f2f1334b00eed53715436203fe0460e273f0111e9dc1b4e",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Published interview with Nitya Subramanian about MPC and AA https://web3galaxybrain.com/episode/Nitya-Subramanian-Founder-of-Capsule",
+    "timestamp": 1700620007
+  },
+  {
+    "tx": "0x35891b4bc2aae452875d77599656a003c17bedf30ac90797d4ae36b1b97b987f",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Thirdweb co-founder Furqan Rydhan https://open.spotify.com/episode/4Z0CY0NbKnMMJDFT4IRIDr?si=54d20acaf50149d3",
+    "timestamp": 1700177747
+  },
+  {
+    "tx": "0xb663e664c657ee4925407587e1593981e293d96d436401654e46f34b5b3c85c4",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with EIP-7212 and p256Verifier authors DCPosch and Nalin B. https://open.spotify.com/episode/0ksPbpDC9vdFKgED0jLZuR?si=c0384ca054194d27",
+    "timestamp": 1700177543
+  },
+  {
+    "tx": "0xa1145579e7cac06fa13155b68eb701649d9e2de373a3f362530220d126dd499f",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Pedro Gomes about EIP-6963 https://open.spotify.com/episode/6xgGLUJlOBVBeVYJKOHKKc",
+    "timestamp": 1699254467
+  },
+  {
+    "tx": "0x8e39dc5a2c7195a0536bbfdd6dcb3395ee4b25ad4fdcd239a56db35de15f7277",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Rhinestone co-founder Konrad Kopp about 4337 & 6900 https://open.spotify.com/episode/3rlCBdKg9CBh4lsY210ko8",
+    "timestamp": 1699254431
+  },
+  {
+    "tx": "0xe8f5477db20359459528f4f66eaafbae73208f299b843d9f7836df83526ccb03",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Will Hennessy and Noam Hurwitz of Alchemy's AA team https://open.spotify.com/episode/6zYI5nvpsDLowV0IYORGpx",
+    "timestamp": 1699254371
+  },
+  {
+    "tx": "0x1d9030175aa3b2770f99671d4e428507d237913ac65718995f31c881825ce13c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with OG Ethereum artist Rhea Myers https://open.spotify.com/episode/7yMh5s7n2n4IKXopXvCzI5?si=30a3984b584c4e8a ",
+    "timestamp": 1698445031
+  },
+  {
+    "tx": "0x9c9697120c20d638de65a37b359b056f269f4e7db2f5b51eeb321800acaf5008",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with James McComish and Peter Ferguson about WebAuthn for 4337 accounts https://open.spotify.com/episode/64FsYOoGfFj1651EVQhOrT?si=e27f3e45a93a4d04",
+    "timestamp": 1698353123
+  },
+  {
+    "tx": "0x634c741f985f4606cc7dbf183639be2896508af5128588243eefbeec14b0684c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Sam Hart about lessons from Cosmos for EVM devs interested in L2 development https://open.spotify.com/episode/1eqSrJmzB3yEcu2uEWzc9p?si=330fdf4c51834194",
+    "timestamp": 1698353003
+  },
+  {
+    "tx": "0xf257ebbb8765ebae2f120f6f062437bfe535974eac3ef36727bcc796634b3372",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Scott Sunarto about L2 development https://open.spotify.com/episode/5P6npgK1dUwmuHHmMaUk8V?si=926454263a794cae",
+    "timestamp": 1698352943
+  },
+  {
+    "tx": "0x1d3b54a0e70547d280c57da480cbccedc4a7c33ca07bfbfd8aa8b81d711d7a81",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.91,
+    "reason": "Posted The Consumer Crypto Stack tech talk which has received 80k views, 85 RTs, 280 bookmarks, on twitter alone + farcaster & youtube distribution. ",
+    "timestamp": 1697409083
+  },
+  {
+    "tx": "0x04751693c438927908244970e17b3fc0290c62b523acc6684373b345b52c3aff",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.8,
+    "reason": "Interviews with Forum (Passkey 4337 Wallets), Rhea Myers (OG Blockchain Artist), and Sam Hart (Cosmos)",
+    "timestamp": 1696121159
+  },
+  {
+    "tx": "0xc937ba3a3ce63e97a43d76739499cc644fc8dc541060f999e4dce300b8fa4482",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.1,
+    "reason": "Participated in w1nt3r tech talk ",
+    "timestamp": 1695835859
+  },
+  {
+    "tx": "0x57e94a6cfcd20260fa77a6acd815c65a6e4fa0936cb609f50e50839b0f7b60f2",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Passkey & MPC expert Jose Aguinaga about the Passkey + AA wallet stack https://podcasters.spotify.com/pod/show/web3-galaxy-brain/episodes/Jose-Aguinaga-on-Passkeys--MPC--and-AA-Wallets-e29k8ts",
+    "timestamp": 1695835763
+  },
+  {
+    "tx": "0xb4938a80c9053f60524c8daab04c23db02dbda73fabe665c16e78fc7e45e4303",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Obvious.technology CEO and CTO Himanshu Retarekar and Jebu Ittiachen, who are building Passkey + AA smart wallets https://podcasters.spotify.com/pod/show/web3-galaxy-brain/episodes/Obvious-Smart-Wallets-with-Himanshu-Retarekar--Jebu-Ittiachen-e29g2os",
+    "timestamp": 1695835703
+  },
+  {
+    "tx": "0xe50807d60c72c8e238152f949fa050d552cce3ad384fe91fd048891a46a8d56c",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Passkey + AA wallet developer Vivian Phung, founder of Snowball/Igloo https://podcasters.spotify.com/pod/show/web3-galaxy-brain/episodes/Vivian-Phung--Founder-of-Snowball-e299tus/a-aabsbvm",
+    "timestamp": 1695835631
+  },
+  {
+    "tx": "0xcb020987578917baac40b1e817597e16034a69c8a15d3281364348505bc0c276",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Crypto Producer 0xiGami",
+    "timestamp": 1695835547
+  },
+  {
+    "tx": "0x75ed017972b691878d236eea464f359d339a32d80d508ad044d9e37d1a173666",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published EIP-7212 panel show with Ulaş Erdoğan, Jerome de Tychey, and Lionello Lunesu",
+    "timestamp": 1694399219
+  },
+  {
+    "tx": "0xbac51a142070cc2192eb951b9a76c59c2a74bd667c19fb2248d81bc7c77c6316",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Privy CEO Henry about SSO Shamir MPC and Passkey AA wallets for PWAs and apps",
+    "timestamp": 1693883435
+  },
+  {
+    "tx": "0x84eac2c7563c555712b872484ac8a76b65218d07a20230c4777849e110b87339",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Party Protocol",
+    "timestamp": 1693883315
+  },
+  {
+    "tx": "0x118727c330b5eccddfb60feb4a1f0bf58853e91e9d235bdf26433a37edb821bc",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.1,
+    "reason": "Updated Songcamp v4 sketch contract to pass tokenId parameter from URL param to a p5 sketch. Realized this won't work and will need a server to do this (like artblocks), bc opensea doesn't handle URL params returned by tokenuri when rendering animation_url inside an iframe. ",
+    "timestamp": 1692252059
+  },
+  {
+    "tx": "0x9cef91a2987c086fb4a97aefe0fd545e1ce9319eaba726bfb41456f80a74db54",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Sablier CTO and Solidity pro Paul R. Berg https://web3galaxybrain.com",
+    "timestamp": 1692251687
+  },
+  {
+    "tx": "0xc19127441d4495dc01a15e567c48060bcfa63b02c190814a91bfb7098bbc3ba6",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Ethscriptions founder Tom Lehman https://web3galaxybrain.com",
+    "timestamp": 1692251639
+  },
+  {
+    "tx": "0xaf577e2cfc9a52af5a1f0175449f6a03c122cab3b60e738c7dde3493edfee689",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Decent.xyz cross chain minting provider CTO Will Kantaros https://web3galaxybrain.com",
+    "timestamp": 1692251579
+  },
+  {
+    "tx": "0xcd81dd7c4fc3e6a112688ebd8ce4d0b2a70f31aaaa9e0c2c398adef62dc8ac22",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.15,
+    "reason": "Published interview with Metamask Snaps PM Montoya https://web3galaxybrain.com",
+    "timestamp": 1692251471
+  },
+  {
+    "tx": "0x0d5adb3a20e02efe6ab8e6c481458313b5b369ef86c003317f66dc7d66a311d6",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Distilled the new PWA dapp stack pioneered by friendtech in a series of viral tweets (already over 110k views) https://twitter.com/nnnnicholas/status/1691591282395619686 https://twitter.com/nnnnicholas/status/1691887931684704630",
+    "timestamp": 1692251171
+  },
+  {
+    "tx": "0xbf7e5f7e4584e6c5656ea9cca8f418e26c42b2903824ceae8563cfe19f467651",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.2,
+    "reason": "Wrote line-by-line breakdown of friendtech contract https://twitter.com/nnnnicholas/status/1690462060055040001",
+    "timestamp": 1692250751
+  },
+  {
+    "tx": "0x767a42d0c026b7ef8ab3480ebc24a7f72c798d51b865771e3a3c5e7fd56d6a57",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 0.3,
+    "reason": "Gave a talk to a small group of BG builders about interesting topics to work on: wallets, PWAs, and L2 based on several weeks research.",
+    "timestamp": 1692250703
+  },
+  {
+    "tx": "0x8bc65289b9455d5a0d405e66bfac2f5b5860a94db22a930f478fcc638851f436",
+    "builder": "0x2a90a1baa570aebe80550743ef4a4f02f272696a",
+    "ens": "nftdeveloper.eth",
+    "amount": 1.5,
+    "reason": "1. Wrote prototype CD burning NFT contract for Songcamp (private repo for now but will OSS when they're ready). 2. Put Juicebox Metadata Updater into production (https://github.com/nnnnicholas/juicebox-metadata-updater/). It keeps the JBProjects 721 and Juicebox Cards 1155 onchain metadata cache refreshed on OpenSea at a given interval, with leaky bucket pinging, a failed request retry queue, a Healthchecks.io email ping if its down for more than a given amount of time, and an Express API to force update. 3. Completed and launched https://juicebox.cards. 4. Next up I plan to simplify the JB Metadata Updater and make it into a more useful generic pm2 script / cron job which should be useful for any onchain NFT project whose metadata changes over time, and wants their metadata to be up to date on OpenSea (which doesn't offer a \"collection refresh\" endpoint). ",
+    "timestamp": 1689469907
+  }
+]

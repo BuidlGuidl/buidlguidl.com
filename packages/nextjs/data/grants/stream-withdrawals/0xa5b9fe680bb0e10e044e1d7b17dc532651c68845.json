@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x0d065c75481e510b14e1a7d8051e25e92b26c7209c2f8656773ae925cc3982cc",
+    "builder": "0xa5b9fe680bb0e10e044e1d7b17dc532651c68845",
+    "ens": "harmont.eth",
+    "amount": 0.5,
+    "reason": "issues for se-docs and se-extensions (also I'm being hacked)",
+    "timestamp": 1729415363
+  },
+  {
+    "tx": "0x7e64cabbffcae9ccc0289bd580d856ce24f6a3c2346ec72bf3445d0fdbb951bc",
+    "builder": "0xa5b9fe680bb0e10e044e1d7b17dc532651c68845",
+    "ens": "harmont.eth",
+    "amount": 0.5,
+    "reason": "scaffold-eth-2-noir, building and presenting at Bow Tie Friday.",
+    "timestamp": 1699191755
+  }
+]

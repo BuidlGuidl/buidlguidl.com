@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0x8f7ea1eed10129e76bced255f694c0b0bf2d52fa9463a0cee707cf23dbaab752",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Swap Functionality with LiFi SDK for Punk Wallet - https://github.com/phipsae/punk-wallet/tree/tokenSwap",
+    "timestamp": 1715617427
+  },
+  {
+    "tx": "0x256b646606ab54e2d6a721ba81e65a6329e2a5bbaadfae98aa657ff54f96845e",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "PunkWallet - maxCalc, GasCalc for native Tokens; TokenSwap functionality/ https://github.com/phipsae/punk-wallet/tree/preparationTokenSwap; https://github.com/phipsae/punk-wallet/tree/fix_max_calc",
+    "timestamp": 1712011163
+  },
+  {
+    "tx": "0x4f56b3f70843891633cbdb2df9447f2058eaacd10b1f1f4b5c3492bd6a9f26ec",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.3,
+    "reason": "PunkWallet: Switch ERC20 USDC (https://github.com/scaffold-eth/punk-wallet/pull/83); New Etherinput & MaxGasCal for Optimism, Base, Polygon, Ethereum - (https://github.com/phipsae/punk-wallet/tree/fix_max_calc)",
+    "timestamp": 1710203051
+  },
+  {
+    "tx": "0xf7464ef953a9a0388fd1b35a9509fdd22f5608149d17f70b430729e5a21b6fd9",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Working on PunkWallet, refactoring, tokenswitch and account abstraction",
+    "timestamp": 1706816231
+  },
+  {
+    "tx": "0xd7d6cf4abd5e4e0c96edb6ec5285f7f167e7afb121c83ca9bbe396e28a476f03",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.5,
+    "reason": "Working on Punk Wallet for SE2, added local storage, rainbowkit, mobile responsiveness, wallet connect still in work (more difficult than expected) https://github.com/phipsae/punk-wallet-se2-new",
+    "timestamp": 1704039851
+  },
+  {
+    "tx": "0x4403d9fe07707cdd49d6d3875ecd3859a4c23e9a3363073dee1dc9c7f208e82b",
+    "builder": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+    "ens": "baluu.eth",
+    "amount": 0.2,
+    "reason": "Built a first version of PunkWallet in SE2. https://github.com/phipsae/punk-wallet-se2-new",
+    "timestamp": 1701719075
+  }
+]

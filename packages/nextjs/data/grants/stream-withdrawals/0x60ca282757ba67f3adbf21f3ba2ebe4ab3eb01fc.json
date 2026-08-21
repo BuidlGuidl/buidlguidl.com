@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0x9c49b18ff6207bb63e2b93878f1c20ec565255e6b3b436a8012ade0f9eccbb8b",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 0.020576,
+    "reason": "",
+    "timestamp": 1759527995
+  },
+  {
+    "tx": "0xa51a7810f27177162edb5e67ad05d8674211be9b9e35509cf837576f66735c1c",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 2,
+    "reason": "late / nifty / 7702 / misc",
+    "timestamp": 1735083899
+  },
+  {
+    "tx": "0x2b975fb50be69037bf37849a184a625ac9966fe5455fca447b5f8f4a15cb3e4e",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 1,
+    "reason": "subgraph upgrade and miscellaneous",
+    "timestamp": 1655304658
+  },
+  {
+    "tx": "0x412b29a97abdf82dd02103f17c30b92e21ba086d2a0f5c807fe480d9c291e0c2",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 1,
+    "reason": "oe40.me & misc",
+    "timestamp": 1643063073
+  },
+  {
+    "tx": "0x5d44ea1dc38c4ce3613760f7bac333c0f1e6ad23d6046849569329c2a211a1a1",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 1,
+    "reason": "signatorio, merkler, nifty ink, misc",
+    "timestamp": 1638552342
+  },
+  {
+    "tx": "0xa35624cab93610a552f263ca67547f17f0ab6218ab95c69ae1b63c3d872473f6",
+    "builder": "0x60ca282757ba67f3adbf21f3ba2ebe4ab3eb01fc",
+    "ens": "adamfuller.eth",
+    "amount": 1,
+    "reason": "burny boys nifty ink and other stories",
+    "timestamp": 1631569114
+  }
+]

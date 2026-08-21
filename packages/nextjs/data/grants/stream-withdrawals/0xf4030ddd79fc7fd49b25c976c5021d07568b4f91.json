@@ -1,0 +1,258 @@
+[
+  {
+    "tx": "0x0795d3a1ae624d224ad4f919f72159693c458b515f812631ab89774bb181dc34",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.25,
+    "reason": "Liquidity Pool  A simple Dapp for adding liquidity and buying tokens. Users can buy any amount of token and can add liquidity to the token including other tokens https://github.com/KcPele/scafold-liquidity-pool",
+    "timestamp": 1715808959
+  },
+  {
+    "tx": "0x3583b10525371283d867ae69364fea5392530cf612cc407c7285fa74323f961d",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.5,
+    "reason": "impact calculator https://github.com/BuidlGuidl/impact-calculator/pull/82 added vector list display, Buidlguidl grant project Adcraft, Figma design payment",
+    "timestamp": 1713131459
+  },
+  {
+    "tx": "0xa5a49341181d10ae7c2b3af4eff02f83300be2ad6402053100ebecd9a8a6c995",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.432,
+    "reason": "impact calculator https://github.com/BuidlGuidl/impact-calculator/pull/44 https://github.com/KcPele/2048-scaffold-eth Scaffold-Eth 2048  2048 is played on a gray 4x4 grid with numbered tiles that slide smoothly when the player moves them through the arrows. After each move, a new tile appears in one of the empty spaces, with value being 2 or 4.",
+    "timestamp": 1710567419
+  },
+  {
+    "tx": "0x697dfc5f5eae0153ada77584a66b7a2c3c3de214e0822f61e9f2d5d45af97f51",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.418,
+    "reason": "Impact calculator https://github.com/BuidlGuidl/impact-calculator/pull/2 https://github.com/BuidlGuidl/impact-calculator/pull/23, Scaffold-Eth2 Frame on Farcaster https://warpcast.com/kcpele/0x7612bd90",
+    "timestamp": 1708302035
+  },
+  {
+    "tx": "0xffaeba3957a78f0dd458dd319c60bbd1001cfcd9a2939197a84c355a76a76a59",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.4,
+    "reason": "Scaffold-ETH2 wagmi migration, updated useScaffoldReadContract, useAutoConnect hook,  https://github.com/scaffold-eth/scaffold-eth-2/pull/701, impact calculator implementation https://github.com/BuidlGuidl/impact-calculator/pull/1. implemented the details page and impact card",
+    "timestamp": 1706504435
+  },
+  {
+    "tx": "0x2143f84cc764c586ce472b4489c5ea120b9c0b5c693239326ee17bbd19643ea7",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.17,
+    "reason": "Working on BuidlBots discussion and implementation, Continuous telegram support and work on scaffold-eth2",
+    "timestamp": 1705308443
+  },
+  {
+    "tx": "0x4560cb3c98c33d8907f6cfc69e194ccaf409d25967928907de75f642e442b7f6",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.48,
+    "reason": "Application for funding NBA (NFT Bound Account) wallet  and Work for OP-RetroPGF3-Discovery-Voting https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/180,",
+    "timestamp": 1703190155
+  },
+  {
+    "tx": "0x146b87f5b905412a14075bc99fc3226b301bea447822a5aed945e16034d5b4ff",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.48,
+    "reason": "Continuous development of OP-RetroPGF3-Discovery-Voting https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/179, updated the impact card section https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/178, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/170, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/169, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/162",
+    "timestamp": 1700716007
+  },
+  {
+    "tx": "0xb6be56eb73d55558950ae4b4123804fe5a5f331814d900dcb725f94815f2267c",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.37,
+    "reason": "NBA (NFT Bound Account) wallet at its core, addresses two vital challenges in the current web3 ecosystem: - The risk around or inability to transfer ownership of an account due to concerns of sharing private keys.  https://app.buidlguidl.com/build/X4QqYTJIxmTMUxQqlzNi ,  https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/131, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/125",
+    "timestamp": 1698208955
+  },
+  {
+    "tx": "0x8a2734f44a0c58a3274d12a49aba259c12f1a455265a3c00327a534a4a6400c4",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.1434,
+    "reason": "https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/113  Added share button and submit button to view ballot and also changed the background colors to white, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/114 Dark theme modal fix",
+    "timestamp": 1696946231
+  },
+  {
+    "tx": "0x9fe5b3c41661c253f260ea32bbe55282515f199fef988a393bbad0d54f1d1be0",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.4486,
+    "reason": "OP-RetroPGF3-Discovery-Voting: Navbar fix https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/63, list page ui https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/41, Edit modal fix https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/57, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/59",
+    "timestamp": 1695538895
+  },
+  {
+    "tx": "0x9baafd44df4deb7dbb7c1112087b140502c12c3605cc64c2b8b10e52ab161fdf",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.135,
+    "reason": "OP-RetroPGF3-Discovery-Voting card skeleton and Image error handle. Replaced image with general background to eleminate the error https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/35",
+    "timestamp": 1693217063
+  },
+  {
+    "tx": "0x44e330c39a16fb59badca36c2ca141cdee8d32566d520fdb87f1c9f75146f11a",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.151,
+    "reason": "https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/32, TG asistance ",
+    "timestamp": 1692516479
+  },
+  {
+    "tx": "0x0f53442c287893b622076a6980fcfd1b74955f488197213f5958ce09f08a8d33",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.2,
+    "reason": "OP-RetroPGF3-Discovery-Voting, Implemented the Success vote page https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/22, Created the base modals, success modal, confirm wallet modals and others https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/14, Implemented the project page with its side bars and modals https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/pull/6",
+    "timestamp": 1691733719
+  },
+  {
+    "tx": "0x1455c3222f4ab8e23a596e4820623a17e13805df0148fbb489378c2af7e801a8",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.2,
+    "reason": "Funding of trip to Lagos Nigeria for Ethglobals meetup. Working on the optimism project in coding(front-end development) and constant contribution on TG",
+    "timestamp": 1690736903
+  },
+  {
+    "tx": "0xd96b5dee9f27a3c52074437c601afb8b52711d4267e3d3ae7f8dccd77fa2f85c",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.222,
+    "reason": "Active development of hacker-houses-stream, building the new interface from figma https://github.com/BuidlGuidl/hacker-houses-streams/pull/7, Web3 memory game version 0.1, https://web3-memory-game-kcpele.vercel.app/memory-game, it is under active development in other to have an onchain game https://github.com/KcPele/web3-memory-game. Continuous support of members with errors while building  in the BG telegram channel",
+    "timestamp": 1689659171
+  },
+  {
+    "tx": "0x0d12fc349182cc68f21f678f38ff36a12f3f0f8247e1a0b53852d6ca6f2a1b55",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.145,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-2/pull/384",
+    "timestamp": 1689051227
+  },
+  {
+    "tx": "0x16c792e55017394a9a300eb025f5306a0832180bb12b6378661ea963d82175b5",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.11,
+    "reason": "Assisting members on telegram and giving help to new builders ",
+    "timestamp": 1687789499
+  },
+  {
+    "tx": "0x04cba33ebb425dcfaadd96429672e1828a4a853befe75aa95e7f934ab8a7c213",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.455,
+    "reason": "Contributing to the block explorer https://github.com/scaffold-eth/scaffold-eth-2/issues/366, Telegram and growic, Working progress uniswap clone https://buidlguidl.com/build/L3iUZsLu0KdoNRAScrD8",
+    "timestamp": 1687195211
+  },
+  {
+    "tx": "0xaf8d1a218ca3d54c6cac6eeab0c5ce9006cdfc79210dd5159cd20baad6d4f3dd",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.29,
+    "reason": "Multitoken tilt card https://github.com/austintgriffith/event-wallet/pull/4 assisting others on telegram",
+    "timestamp": 1684828475
+  },
+  {
+    "tx": "0xc4007dca73642216f39caf1fd02ad12e870979e95899a11d822d884ae6aa3093",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.243,
+    "reason": "https://github.com/austintgriffith/event-wallet/pull/4,   https://buidlguidlfunding-kcpele.vercel.app/,  https://github.com/scaffold-eth/scaffold-eth-2/pull/331 Continues assisting others on the telegram channel",
+    "timestamp": 1683347363
+  },
+  {
+    "tx": "0x523cf481b39931bea0b6c95fb03acd90a94f336b354988f1f5e703ab038470a9",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.257,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-2/pull/302  https://github.com/scaffold-eth/scaffold-eth-2/issues/301, https://github.com/scaffold-eth/scaffold-eth-2/pull/305https://github.com/scaffold-eth/scaffold-eth-2/pull/305  ",
+    "timestamp": 1682066987
+  },
+  {
+    "tx": "0xe4261b284792d822f2165456d5fbe6f29143cbf8c17b17bd44fe53167df82ba6",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.051,
+    "reason": "Hackathon submission",
+    "timestamp": 1680887459
+  },
+  {
+    "tx": "0xcfd663edef79e241799ec2ab3f992970a9127125f03a481c35a875005d73996f",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.168,
+    "reason": "BuidlGuidl hackathon, assisting in hack group and contributing to se-2 by creating pr and issues. Learning and advancing in bilding beautiful and friendly dapps UI",
+    "timestamp": 1680466019
+  },
+  {
+    "tx": "0x22c0a6dd074833f2a9d8997e643797d8f3165a10769c1aed7c6c1e6a2a13d889",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.281,
+    "reason": "Build a mini card game and contributing to se-2 https://buidlguidl.com/build/aJOFtdNL8TXNP2iO7sTT",
+    "timestamp": 1679599211
+  },
+  {
+    "tx": "0x49816f0320fce8921474381a5c31b891c06136d87456f20f59d98a76728280c7",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.284,
+    "reason": "Working on jukebox  https://github.com/scaffold-eth/jukebox    https://github.com/scaffold-eth/jukebox/pull/15",
+    "timestamp": 1678169951
+  },
+  {
+    "tx": "0x2dde396e0665e2f3c6acdc8d432ab4c86d5c4d2991edf3df243f794b9574a9f3",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.216,
+    "reason": "https://github.com/scaffold-eth/se-2/pull/162, https://github.com/scaffold-eth/se-2/pull/175",
+    "timestamp": 1676667239
+  },
+  {
+    "tx": "0xfc981f0f799c017a904d2a6c75c7f5e06064eb305289d1dd5e8a0425daaeffff",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.1,
+    "reason": "Discussion on se-2 and solving of bugs",
+    "timestamp": 1675572923
+  },
+  {
+    "tx": "0x389e67921ed1049668d980ca6963a1a7de5ca078b5cd395cdb3cf4c5b4c34b1c",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/MercuricChloride/eth_dev_tech_tree/pull/21        teaching growic student how to use scaffold-th during fallback, constructor and payable review. https://drive.google.com/file/d/1bZwObEz9QfYHi2CYLP75QFwQ0QoEItJ0/view",
+    "timestamp": 1675186271
+  },
+  {
+    "tx": "0x59dc63b80306c9429e32b9313f708799063471337303fe3e20a627d8eb651dc6",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.05,
+    "reason": "Bill payment. I just work on a little project and learnt about lens protocal. https://buidlguidl.com/build/dv8W4mNVhPuVvjTVvrZf",
+    "timestamp": 1674142799
+  },
+  {
+    "tx": "0xb259d13b0199505377c4a971efc08f90851dc0c7df080eb488184daa5ec38d84",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.15,
+    "reason": "subscription / upgrage on native scaffold-eth template / https://buidlguidl.com/build/pqk4mOKfnKM47iUXLjeF",
+    "timestamp": 1673423303
+  },
+  {
+    "tx": "0x55dcd70c456d82a7429e35ba4e480b215e3d43d8e902cd773591e25a10157c9b",
+    "builder": "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91",
+    "ens": "kcpele.eth",
+    "amount": 0.3,
+    "reason": "For data subscription and also to be used for my hackathon entry fee/methcreate is a video streaming blockchain app am currently trying to use scaffold eth/ https://methcreate-client.vercel.app",
+    "timestamp": 1672953851
+  }
+]

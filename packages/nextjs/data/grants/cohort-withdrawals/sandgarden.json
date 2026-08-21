@@ -1,0 +1,1106 @@
+[
+  {
+    "tx": "0x742a16af65cd119665519d303a6b512b5c80ed0b9b7ff0591817595c6020fb07",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Sre-2: #348; Se-2-challenges: #380, Oracle challenge review; Scaffold-UI: #89; Se-2-docs: #141; Advent: #63, #68, #72, #75; Ens-pg: #152; Grader: #34, #36; Abi.ninja: #194 (wip); Sandgarden: #23, #24; Ctf: #40; Bread: #1 (wip); Grants: #154; Code reviews",
+    "timestamp": 1768547145
+  },
+  {
+    "tx": "0x53b8cccbf6d04e256b7f20ec48f18f5bdf4660b57940817e6ab28d79b475332a",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.5,
+    "reason": "December Work: Add seasons for ctf.buidlguidl.com, adding new invaders for the new season, improve profile page for new users. Frontend styles for Advent Calendar miniapp. Snowman drawing game dev and deployment",
+    "timestamp": 1767500867
+  },
+  {
+    "tx": "0x271c8259ca67983170c79c32ebba2120cd03b9a5f68a6f496f98d980358bb31b",
+    "builder": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+    "ens": "andrealbiac.eth",
+    "amount": 1,
+    "reason": "December work: 🧬 x402 Hack: Luma assets, sponsor cards, workshop and speaker cards, site thumbnail, PR#10 (logo fix) —— 🏟️ Devconnect image edits, CTF images for X thread and video cards for all the session videos —— 🎟️ Advent app video edit with animated font, some effects and music. —— 🏃🏻‍♀️‍➡️ SRE: Crowd funding new image —— 💼 EADC website design changes and PR: https://github.com/phipsae/eadc-website/pull/1 —— Prague CTU video thumbnail. Prediction markets video thumbnail. Banner for newsletter (christmas). ",
+    "timestamp": 1767008983
+  },
+  {
+    "tx": "0xf61ae0edcd58e06966f326dcd1ededa89cb0ed2a8df8cec82cbc3ea6e01697e4",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "December work:CTF: Add season2 contracts and challenge pages https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27 Add seasons to extension https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/35 Test challenges with new extension. Deploy and verify contracts, and update deployedContracts everywhere. Deploy and test website. Add seasons to stats https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/38 PR reviews: https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/28 https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/29 https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/39 https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/40 - ENS-pg: Export to CSV https://github.com/BuidlGuidl/ens-pg/pull/150 Close applications until Jan 3rd https://github.com/BuidlGuidl/ens-pg/pull/151 PR Reviews: https://github.com/BuidlGuidl/ens-pg/pull/152 - SE-2: Upgrade React to 19.0.3 https://github.com/scaffold-eth/scaffold-eth-2/pull/1214 Upgrade Ponder to 0.15.17 https://github.com/scaffold-eth/create-eth-extensions/pull/112 PR Reviews: https://github.com/BuidlGuidl/address-vision-port/pull/98",
+    "timestamp": 1766780301
+  },
+  {
+    "tx": "0x245c1a47a1afee634373df4e934536c745e57872e9444cfd312fbfe1acf744ec",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Se-2: #1199, #1212; Create-eth: #350, #363; Sre-2: #346; Se-2-challenges: #380 (wip); Create-eth-extensions: #104; Scaffold-UI: #59, #67, #75, #78, #83; Advent: #16, #22, #23, #24, #28, #34 (closed), #35, #38, #49; Code reviews",
+    "timestamp": 1765895143
+  },
+  {
+    "tx": "0x47f4db13aa4f693a906dd642fee7292fb5420cba39d4408b639809cda10aa0b7",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.1,
+    "reason": "CTF: Devconnect Argentina prizes https://github.com/BuidlGuidl/ctf-argentina-internal/pull/30\nTest OP deployment and fixes (PRs #31 to #36) Get Ponder data from JSON on Leaderboard and Profile page https://github.com/BuidlGuidl/ctf-argentina-internal/pull/43 Banner. Devconnect. SE-2 projects: Remove source. Import csv script. Search initial commit script. Repo online script. Setup server and crons. Move and deploy to BG account.",
+    "timestamp": 1764770819
+  },
+  {
+    "tx": "0x84cbf75beac8d83806ce106c9c4067719b3d3b01c05fd97f5feb8e688c44bf83",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "oct15 - dec1\n\nmarketing-socials: Scheduling tweets, creating content related to: devconnect, batches, and crossposting to farcaster.\nPRs and relevant work: https://github.com/BuidlGuidl/address-vision-port/pull/96, https://github.com/BuidlGuidl/tour/pull/20, https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/344, https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/17, https://github.com/BuidlGuidl/devconnect.buidlguidl.com/pull/18, https://github.com/BuidlGuidl/devconnect.buidlguidl.com/pull/16,",
+    "timestamp": 1764752571
+  },
+  {
+    "tx": "0xc4ad9917dc9682b7f568bbf0204bbdccba7015eab99ed0fc91cf7b3abc7e480f",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.48,
+    "reason": "November Work: Frontend design for ZK App (Hidden Vote). x402 research and build for Devconnect. Hack Combinator - Frontend development and implement design.",
+    "timestamp": 1764685115
+  },
+  {
+    "tx": "0x1226a2e37e44bc9b4a290fa764062837ff3be6f93c8f6da620e56755cb038a2d",
+    "builder": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+    "ens": "andrealbiac.eth",
+    "amount": 1.05,
+    "reason": "November work: 🪲 Build combinator’s final design of 3 paths with Pablo’s wireframe. Further development of the final path, image work —— 🧬 x402 hack design vibe and site design: PR https://github.com/dabit3/x402hackathon/pull/3, image card templates for speakers. —— Bootcamp cards changes, CTF slides update, Students fair PPT template for devconnect —— Hidden vote app lading help —— 📹 Full editing of SE2 video in spanish and thumbnail. ",
+    "timestamp": 1764590525
+  },
+  {
+    "tx": "0xc707410cdca9a796e14f607ec8a1253acbeb35689d2ef564cc4313f1f2a620cb",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Se-2: #1193 (closed), #1199 (wip); Create-eth: #347, #350 (wip), #356; Sre-2: #316; Se-2-challenges: #368; Create-eth-extensions: #93, #98, #104 (wip); Scaffold-UI: #37, #54, #59 (wip), #61, #63 (closed), #65, #67 (wip), #73, #75 (wip); Grader: #31; Code reviews",
+    "timestamp": 1763192707
+  },
+  {
+    "tx": "0xa69e427d8e2084588daddc76e26296a4fea5b82c04d8f2c3ab1cd7138e0a5331",
+    "builder": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+    "ens": "andrealbiac.eth",
+    "amount": 1.15,
+    "reason": "October work: 📄 Merging and organising Figma files in a folder system —— 🧿 Hidden vote app logo and thumbnail design —— 🪲 Build combinator: design ideas for logo/brand and 3 paths concept heros, further design of 1st path —— 🏟️ Devconnect: BG Bootcamp site restyling (PR#11), event cards for X and Luma + updates. T-shirt swag (4-5 finished designs). CTF argentina site tweaks (PR#25) —— Tweaks on HodlApp for se-2 video filming.",
+    "timestamp": 1762520481
+  },
+  {
+    "tx": "0x928ef332ece6104b6e7c949778b6bb3ed61e8f796d9ff5b625813a94465d1bb2",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.08,
+    "reason": "Oct. Work: Remake of Eth.Build in Next.js so we can add new sections to it: https://github.com/BuidlGuidl/eth.build",
+    "timestamp": 1762187379
+  },
+  {
+    "tx": "0x1af5b22f0325cb71388adc6aac9b50ce48e57adf9018edf1d23138c08b94a562",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.7,
+    "reason": "October work: Challenge zk voting: review and testing. CTF Arg extension https://github.com/BuidlGuidl/ctf-argentina-internal/pull/27  SE2-projects: review and improve scripts to search SE-2 projects. Save data to DB. Create app to show project stats, top repositories, repositories by source, top owners, full repositories list. Deployed to https://se2-projects.vercel.app/ https://github.com/damianmarti/se2-projects ",
+    "timestamp": 1762178025
+  },
+  {
+    "tx": "0x66d7518460040c208ad3a7f730cb3550d0d0de2ad9c59ea608e3ffe89b6cfcf4",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.2,
+    "reason": "sept 11 - oct 15\nAddress.vision: 95\nDaily tweets and casts + scheduling(see tweets from sept11 to oct15)",
+    "timestamp": 1760553773
+  },
+  {
+    "tx": "0x62512f22f6277c930995e2969603ec8c5076af6275d313f699763f0468eb9961",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.75,
+    "reason": "Create-eth: #342, #343; Sre-2: #300, #305, #310, #316 (wip), #328; Se-2-challenges: #344, #350, #354, #366, #368 (wip), #372, oracles and zk-voting challenges reviews; Scaffold-UI: #37 (wip); Code reviews",
+    "timestamp": 1760430287
+  },
+  {
+    "tx": "0x4f835e5fa4c642c03419d348c967041ac643e1ddc6b8cc74a20edc8cea0da174",
+    "builder": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+    "ens": "andrealbiac.eth",
+    "amount": 0.25,
+    "reason": "September work: SRE Challenge page redesign (issue #303), SRE enterprise: updating colors + thumbnail. Tokenization challenge new image + assets. ZK challenge new image + assets. Updated purple challenge images in SRE repo + readmes PRs #358, #357, #315. —— BG Bootcamp PR #11 with tweaks. ETH Tour Málaga event banner —— Figma upgrading/ verifying admin work —— Build ethereum hackathon first thoughts.",
+    "timestamp": 1759923165
+  },
+  {
+    "tx": "0x64e0674444c131a24392563378af83a9657a762cf3d5cf7dae79a0192cd712d1",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "September work: CTF: Move new challenges to final order. Change challenge descriptions. https://github.com/BuidlGuidl/ctf-argentina-internal/pull/18 Move challenge 17 to 10, and remove receiver on NFT contract https://github.com/BuidlGuidl/ctf-argentina-internal/pull/19 Update Challenge 8  https://github.com/BuidlGuidl/ctf-argentina-internal/pull/20 New tweak to challenge 10  https://github.com/BuidlGuidl/ctf-argentina-internal/pull/21 New challenges order https://github.com/BuidlGuidl/ctf-argentina-internal/pull/23 New sorting from challenge 10 to 12 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/24  SE-2: Update Randao extension with new requestsHash header https://github.com/scaffold-eth/create-eth-extensions/pull/99  PR reviews: https://github.com/BuidlGuidl/ctf-argentina-internal/pull/22 https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/322",
+    "timestamp": 1759501437
+  },
+  {
+    "tx": "0x2ff4dc35f3e70d8dc022eb6dec3f78d7d103a3ff340733b28c87220002e99a6d",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "August 3 - Sept 11\naddress vision PRs: #91, #92, #93, #94\nabi.ninja: still working on some issues that arose when updating pkgs\ntwitter: scheduling posts for september, creating shorts for content \nfarcaster: scheduling posts for september, crossposting the content from twitter \nreviews: https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/301,",
+    "timestamp": 1757591403
+  },
+  {
+    "tx": "0xf40ee28758a0b4287f428ecc1ac86bab9209da69d9bb62842482b09d8c4f9661",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.75,
+    "reason": "August work: 🏃🏻‍♀️‍➡️ SRE page: Finish /start page tweaks #267 (old #210), new Challenge cards section in /start page (#268), Challenge page improvements ideas (issue #303), help on #292 grant badge + other issues support. —— 🚩 New Oracle challenge assets, start of ZK challenge assets. —— 💼 SRE enterprises: design review and tweaks: PRs #2 and #3 with new font, effects and colours, thumbnail and name ideas. —— 🎥 SE-2 video series: app prototype design + doc with assets for filming. Remaking thumbnail + ideas. —— 🥖 Help with BG Bread UI colors + unfurl. —— CTF telegram pfp, Launchpad telegram pfp.",
+    "timestamp": 1756828377
+  },
+  {
+    "tx": "0x7b7c7ec43bbf0f74d9010b8004f75a581ae412301fc74f196486b740801cd8b2",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1,
+    "reason": "August work: CTF: Add new Challenge 13 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/6  Add Challenge 15 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/8  Challenge 9 reloaded https://github.com/BuidlGuidl/ctf-argentina-internal/pull/10  Ideas new challenge. Fix challenge 2 flag number https://github.com/BuidlGuidl/ctf-argentina-internal/pull/12 Add new Challenge 16 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/13  Challenge 17 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/14  Challenge 12 update https://github.com/BuidlGuidl/ctf-argentina-internal/pull/15  Challenge 11 update https://github.com/BuidlGuidl/ctf-argentina-internal/pull/16  ENS-pg: Allow to see all grant description on home page https://github.com/BuidlGuidl/ens-pg/pull/143 Eth grants improvements https://github.com/BuidlGuidl/ens-pg/pull/145 Remove milestones data from eth grants and fix grant amount https://github.com/BuidlGuidl/ens-pg-admin-bot/pull/5 Add requestedFunds to grant notification https://github.com/BuidlGuidl/ens-pg/pull/146  PR reviews:  https://github.com/scaffold-eth/se-2-challenges/pull/343 https://github.com/BuidlGuidl/ctf-argentina-internal/pull/7  https://github.com/BuidlGuidl/ctf-argentina-internal/pull/11 https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/301 https://github.com/scaffold-eth/scaffold-eth-2/pull/1174",
+    "timestamp": 1756746885
+  },
+  {
+    "tx": "0x87fc2375e4769cb41050e187c5fb8ec7481f702402d91cab28310ca74c9731f5",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.7,
+    "reason": "Se-2: #1146, #1148, #1160; Create-eth: #316, #326, #332, #334 (wip), #336, #337, #338; Sre-2: #263, #264 (wip), #265, #272, #275, #282, #284, #289, #290, #296, #299, #300 (wip), #305 (wip), #307, #310 (wip); Se-2-challenges: #343, #344 (wip), #350 (wip), #354 (wip), #355 (wip); Create-eth-extensions: #98 (wip); Scaffold-UI: #23; Se-2-docs: #134; Grader: #27; Code reviews",
+    "timestamp": 1756473235
+  },
+  {
+    "tx": "0x9a3cafbcd26a317036ce88a3eed441ac0ebb562ab5b98763c938f68ab165258d",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.5,
+    "reason": "July Work: SRE - Fix infinite scroll on all builds page. New challenges accordion on Builder Profile. Reduce Builder Profile accordion size. Add recommended builds to Profile. Add XP bar to Profile",
+    "timestamp": 1754747927
+  },
+  {
+    "tx": "0x940cbaa77b4fe2ef140f92071b0cdb5513a2e8841605699cea2c17a3e5eddd5a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.65,
+    "reason": "July work: ENS-pg: Fix proposal requested amount https://github.com/BuidlGuidl/ens-pg/pull/140 Demo site/Ponder deploy and testing. Add new milestones to ETH grants in seed data https://github.com/BuidlGuidl/ens-pg/pull/142 Allow to see all grant description on home page https://github.com/BuidlGuidl/ens-pg/pull/143 SE-2: Add deployedOnBlock to deployedContracts on Hardhat https://github.com/scaffold-eth/scaffold-eth-2/pull/1132\nUse deployedOnBlock from deployedContracts in useScaffoldEventHistory https://github.com/scaffold-eth/scaffold-eth-2/pull/1134 Add deployedOnBlock to deployedContracts on Foundry https://github.com/scaffold-eth/scaffold-eth-2/pull/1138 Update useDeployedContractInfo and useScaffoldEventHistory with deployedOnBlock https://github.com/scaffold-eth/se-2-docs/pull/130 Use deployedOnBlock as startBlock https://github.com/scaffold-eth/create-eth-extensions/pull/85 CTF: Fix .env.example deployer key var name https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/22 Challenge 5 upgrade https://github.com/BuidlGuidl/ctf-argentina.buidlguidl.com/pull/3 PR reviews: https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/214",
+    "timestamp": 1754505105
+  },
+  {
+    "tx": "0x110e55ce670b6e64a64dae582187722088eed34cc1a12e0d4bf016396bef0b6f",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "July 3 - August 3 work:\nSchedule tweets and casts for X and Farcaster.\n\naddress.vision:\nhttps://github.com/BuidlGuidl/address-vision-port/commit/ceca81df99c41576418fc54926074b0743f5f106\nhttps://github.com/BuidlGuidl/address-vision-port/commit/d686e419e4151968318d4a3f096cf36223d09480\nhttps://github.com/BuidlGuidl/address-vision-port/commit/60bea7593f25ef52b20e1944c7f56f540baf14db\n\n\n",
+    "timestamp": 1754242951
+  },
+  {
+    "tx": "0x073da0b7f76ef507a024b9b0eccb5fc194c6275758e942f89d9a430652bbb99d",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.8,
+    "reason": "Extra July: 🏃🏻‍♀️‍➡️ SRE: New builder profile + Start page design work/discussions, new issues and sub-issues (#236, #237, #238, #239, #240, #241, #242, #243), Review PR #222. Tweaks on landing page (#210), small button tweak (#260). Telegram group icons fix. –––– 🎥 Shorts for YouTube: Help editing with Capcut for video 1 and 2, cutting and fixing typos, various meetings. Coordinating with Dhia for an outro (not used in the end) –––– 🌐 BG Cohorts UI help, logo and thumbnail, BG bread logo tweak, ETH Tour swag support + stickers.",
+    "timestamp": 1754242323
+  },
+  {
+    "tx": "0x1721bb2f7970860d8a876381b13d7733ce317eafd6f31ff17cca4123346cafea",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.7,
+    "reason": "Se-2: #1139 (wip), #1143; Create-eth: #281, #312, #316 (wip), #317, #326 (wip); Sre-2: #231; Se-2-challenges: #324, #325, #326, #327, #328, #329, #334, #336; Create-eth-extensions: #84, #86, #87, #88, #89, #90, #91, #92, #93 (wip); Scaffold-UI: #12, #17; Code reviews",
+    "timestamp": 1753791859
+  },
+  {
+    "tx": "0x46df660e664804ed9a44a51ebcee8d473817bcda98fb5784af4b48c56b5d76ad",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: #1117, #1118; Create-eth: #302; Sre-2: #195, #211, #213, #219, #224; Se-2-challenges: #304, #305, #308, #309, #310, #311, #312, #313, #314, #316, #317, #318, #319; Ens-pg: #134; Grader: #19, #21; Code reviews",
+    "timestamp": 1752358901
+  },
+  {
+    "tx": "0x0ab4ef07e5a1a97bc30127e928a8d4d99eeac47a32ffe8c6b16d6c71a9e6d372",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "June work: ENS-pg: Coordination call. Add remove funds function to LargeGrant contract https://github.com/BuidlGuidl/ens-pg/pull/112 Deploy to production. ETH grants rejection system https://github.com/BuidlGuidl/ens-pg/pull/120 Add milestones to ETH grants and change apply page https://github.com/BuidlGuidl/ens-pg/pull/124 Add milestones to ETH grant detail page https://github.com/BuidlGuidl/ens-pg/pull/126 Admin ETH Grants with milestones https://github.com/BuidlGuidl/ens-pg/pull/128  Withdraw from ETH grant milestones https://github.com/BuidlGuidl/ens-pg/pull/130 Add milestones when applying to a new stage https://github.com/BuidlGuidl/ens-pg/pull/136 Add milestones to ETH grant export markdown https://github.com/BuidlGuidl/ens-pg/pull/138 Add completed ETH grant milestone notification https://github.com/BuidlGuidl/ens-pg-admin-bot/pull/3 - PR Reviews: https://github.com/scaffold-eth/create-eth-extensions/pull/75 https://github.com/scaffold-eth/create-eth-extensions/pull/73 https://github.com/scaffold-eth/create-eth-extensions/pull/74 https://github.com/scaffold-eth/create-eth-extensions/pull/78 https://github.com/scaffold-eth/scaffold-eth-2/pull/1118 https://github.com/scaffold-eth/scaffold-eth-2/pull/1117 ",
+    "timestamp": 1752101155
+  },
+  {
+    "tx": "0x2c4a1e37bac34269fa091da393932241b61513885c8b494172db50bf364d555c",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.8,
+    "reason": "April 15 - July 3 work\nhttps://x.com/buidlguidl/status/1925212636209348609\nhttps://x.com/buidlguidl/status/1925933987379151010\nhttps://x.com/buidlguidl/status/1927018352767091029\nhttps://x.com/buidlguidl/status/1928198993600757934\nhttps://x.com/buidlguidl/status/1928427560620212269\nhttps://x.com/buidlguidl/status/1928431147085959673\nhttps://x.com/buidlguidl/status/1928446895275536766\nhttps://x.com/buidlguidl/status/1929928271627727200\nhttps://x.com/buidlguidl/status/1930287034725196122\nhttps://x.com/buidlguidl/status/1930690276319772689\nhttps://x.com/buidlguidl/status/1931077821318803533\nhttps://x.com/buidlguidl/status/1931365654457946580\nhttps://x.com/buidlguidl/status/1932118436555153880\nhttps://x.com/buidlguidl/status/1932452748555137531\nhttps://x.com/buidlguidl/status/1932834616546828449\nhttps://x.com/buidlguidl/status/1933190569838481416\nhttps://x.com/buidlguidl/status/1933539983635460347\nhttps://x.com/buidlguidl/status/1933902254806847664\nhttps://x.com/buidlguidl/status/1933915663333994498\nhttps://x.com/buidlguidl/status/1934264680320803187\nhttps://x.com/buidlguidl/status/1934627097760428125\nhttps://x.com/buidlguidl/status/1934989505821589553\nhttps://x.com/buidlguidl/status/1935351869087563969\nhttps://x.com/buidlguidl/status/1935714368030904668\nhttps://x.com/buidlguidl/status/1936076703270683034\nhttps://x.com/buidlguidl/status/1936092062493090148\nhttps://x.com/buidlguidl/status/1936438993555775876\nhttps://x.com/buidlguidl/status/1936801368213479745\nhttps://x.com/buidlguidl/status/1937172600477917225\nhttps://x.com/buidlguidl/status/1937526229315518797\nhttps://x.com/buidlguidl/status/1937888573455495668\nhttps://x.com/buidlguidl/status/1938250978324852958\nhttps://x.com/buidlguidl/status/1938613495760814322\nhttps://x.com/buidlguidl/status/1938975768610255200\nhttps://x.com/buidlguidl/status/1939338096056914079\nhttps://x.com/buidlguidl/status/1939700536288375177\nhttps://x.com/buidlguidl/status/1940062893233631611\nAlmost all of the above are crossposted to farcaster.",
+    "timestamp": 1751563453
+  },
+  {
+    "tx": "0x1702b6e232a49f0848f58141be0664be0a3f4d20fd01c1502f90f011f7bdd792",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 1,
+    "reason": "June Work - Scaffold ETH - Add intro video. SRE - Create new all builds page, adjust filters on builds page, add infinite scroll loading, Style new /start landing page, Initial design research and prototypes for builders profile. Try poap style badges for builders profile",
+    "timestamp": 1751521647
+  },
+  {
+    "tx": "0xebc5781832199226a75fab64829660fe98172a27f60c90e9f6c7385c0cf55887",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.3,
+    "reason": "Extra June: SE-2 video: further editing, adding zooms, titles, intro and cut failed deploy at the end. Wrote video guide for further recordings –– PMFers ep 14 banner –– UI/UX design for remix.eth → https://remix.byteatatime.dev –– SRE ads for Blockscout.com –– SRE: Replaced OCL image (#204), New landing page design + tweaks (#210), New builder profile proposal –– Doodle exchange first contact + name ideas for new domain –– Template twitter image for thread covers.",
+    "timestamp": 1751469501
+  },
+  {
+    "tx": "0xfd203e1561d0a36b3ee887e5fcd4044d43a1e122753907e5de9ee8d6780f7690",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: #1117 (wip); Create-eth: #274, #279, #281 (wip), #287, #295; Sre-2: #180, #189, #195 (wip), #197, #202; Se-2-challenges: #298, #304 (wip), #305 (wip), #308 (wip), #309 (wip), #310 (wip), #311 (wip), #312 (wip), #313 (wip), #314 (wip); Ens-pg: #55, #134 (wip); Code reviews",
+    "timestamp": 1750923967
+  },
+  {
+    "tx": "0x6bf1cd0b50bae437d95aec2af2b037e3b58cffcbc2bc8aa6f791e7c91473e32b",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "May work: ENS-pg: Tweak admin responsiveness https://github.com/BuidlGuidl/ens-pg/pull/94 New approval flow https://github.com/BuidlGuidl/ens-pg/pull/97 Fix milestone flow when an admin rejects after one approval https://github.com/BuidlGuidl/ens-pg/pull/98 Demo site - Fix TG bot notifications and add notifications to milestone completion https://github.com/BuidlGuidl/ens-pg/pull/104 Add large grant notifications to TG bot https://github.com/BuidlGuidl/ens-pg-admin-bot/pull/2 Export grants and large grants to markdown https://github.com/BuidlGuidl/ens-pg/pull/108 Make form textarea taller https://github.com/BuidlGuidl/ens-pg/pull/109 Add migration file with large grant tables https://github.com/BuidlGuidl/ens-pg/issues/110 - Arbritrum Cohort: Cohort contract https://github.com/BuidlGuidl/arbitrum-cohort/pull/17 Add ponder https://github.com/BuidlGuidl/arbitrum-cohort/pull/20 Show real data on components https://github.com/BuidlGuidl/arbitrum-cohort/pull/25 Builders socials and projects https://github.com/BuidlGuidl/arbitrum-cohort/pull/26 Add withdraw modal https://github.com/BuidlGuidl/arbitrum-cohort/pull/27 Add admin page to review pending withdrawals https://github.com/BuidlGuidl/arbitrum-cohort/pull/30 Show project title instead of project name https://github.com/BuidlGuidl/arbitrum-cohort/pull/31 De-dupe Builders https://github.com/BuidlGuidl/arbitrum-cohort/pull/37 Show a different message after withdrawal https://github.com/BuidlGuidl/arbitrum-cohort/pull/38 Add Telegram bot to notify new withdrawal requests https://github.com/BuidlGuidl/arbitrum-cohort/pull/40 Add tests to Cohort contract https://github.com/BuidlGuidl/arbitrum-cohort/pull/41 - PR reviews: https://github.com/BuidlGuidl/ens-pg/pull/105 https://github.com/scaffold-eth/scaffold-eth-2/pull/1091",
+    "timestamp": 1749489923
+  },
+  {
+    "tx": "0x9bb5d4775b9a3f486628bc3e17c9f8788f8899c80dda2d86134e290cfe428cf9",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Create-eth: #268, #270, #279 (wip); Sre-2: #179, #189 (wip); Create-eth-extensions: #70; Code reviews",
+    "timestamp": 1749413521
+  },
+  {
+    "tx": "0xeb5bad06036546bd3fc5c6524d5a2e358a2ecaa97b4db4638b1fafc9c2dabc3a",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.7,
+    "reason": "May Work: Arbitrum Cohort - Build stream contract info, streams section on homepage, adjust rainbowkit connect button styles, implement real data, style withdraw modal, style admin page, clean up types.",
+    "timestamp": 1749170589
+  },
+  {
+    "tx": "0x8f711d796cbbe41028567a7f3c4cd60fdec0cd1c12340e9181a4353338abba02",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.8,
+    "reason": "Extra May: RPC Website design and frontend (PR #1: https://rpc.buidlguidl.com) –– Unfurl for Abitrum's cohort + image for video banner, Eth Tour: new section for BG site (PR #71), fixed overflow (PR #15) –– SE-2 Cheatsheet and SRE flyers for Eth Prague –– PMFers: new Streamyard assets, banners for episodes 12 & 13 –– SE-2 video: animated outro and further editing + music tracks subscription. –– Batches section for sre.com to replace the old one.",
+    "timestamp": 1749041547
+  },
+  {
+    "tx": "0x2eeaa3a20f204f12c3e5dddd8380a01aff5427c4432893b093aa9258325757bb",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.9,
+    "reason": "Se-2: #1099; Create-eth: #264, #268 (wip), #269, #270 (wip), #272, #274 (wip); Sre-2: #171, #179 (wip), #180 (wip), #181 (wip); Ens-pg: #105; Grader: #15; Burner-connector: #38; Code reviews",
+    "timestamp": 1748603535
+  },
+  {
+    "tx": "0x5d0f8777b1cd0cc281f8045c731c474cdf89832afd77fd9b96a4e22fd15dfe52",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.5,
+    "reason": "Extra April: se-2-challenges. PRs. #283 Review PRs. #282 ------ SpeedRunEthereum-v2. PRs. #129 #119 #106 #105 #102 #91 #77 Review PRs. #130 #111 #103 #98 #96 #94 #89 #87 #81 ------ SpeedRunEthereum. PRs. #217 ------ buidlguidl-v3 Review PRs. #126 ------ scaffold-eth-2 Review PRs. #1078",
+    "timestamp": 1748294413
+  },
+  {
+    "tx": "0x4209a91ff35befd41fc9384faca08d6287b1c4ac9f78c6b1c32cecefff84fd99",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: #1095 (wip); Sre-2: #154, #161, #166, #167 (wip); Code reviews",
+    "timestamp": 1747218889
+  },
+  {
+    "tx": "0x5ac0bb1c0f0556529bda159caf8ae71da285bb181551b3f1f356641d90b83eef",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "ENS-pg: Complete large milestones https://github.com/BuidlGuidl/ens-pg/pull/59 Add large grants to admin approval page fixes https://github.com/BuidlGuidl/ens-pg/pull/50 Apply to new stage for USDC grants https://github.com/BuidlGuidl/ens-pg/pull/65 Fix progress bar total amount https://github.com/BuidlGuidl/ens-pg/pull/68 Use paid milestones on USDC granted stat https://github.com/BuidlGuidl/ens-pg/pull/69 Change delete milestone button style https://github.com/BuidlGuidl/ens-pg/pull/70 Confirmation dialog for large grants approvals https://github.com/BuidlGuidl/ens-pg/pull/73 Change dates format https://github.com/BuidlGuidl/ens-pg/issues/40 Large grant page tweaks https://github.com/BuidlGuidl/ens-pg/pull/75 Add milestone proposed deliverables to grant detail and admin review card https://github.com/BuidlGuidl/ens-pg/pull/77 Add USDC grants rejection system https://github.com/BuidlGuidl/ens-pg/pull/79 Fix Address component copying address to clipboard https://github.com/scaffold-eth/scaffold-eth-2/pull/1084 Fix purple dot on admin cards header for long texts https://github.com/BuidlGuidl/ens-pg/pull/80 Fill milestone completedAt field when completing a milestone https://github.com/BuidlGuidl/ens-pg/pull/87 Milestone approval issues https://github.com/BuidlGuidl/ens-pg/pull/86 Fix address copy on modals https://github.com/BuidlGuidl/ens-pg/pull/88 Milestones small visual changes https://github.com/BuidlGuidl/ens-pg/pull/93 - PR reviews: https://github.com/BuidlGuidl/ens-pg/pull/55 https://github.com/BuidlGuidl/ens-pg/pull/72 ",
+    "timestamp": 1746808857
+  },
+  {
+    "tx": "0xcf22c9edda125b3430287a288c44dce596934e77ab1ac8a00c015e4a1d4376e9",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.35,
+    "reason": "April work: Arbitrum cohort landing page design, FAQ page and further updates.  ———— Eth Tour implementations and fixes: PRs #11, #12 and #13.  ———— SRE Prediction markets help with UI (race cars visuals) + new thumbnail (#147) ————  PMFers banners for episodes 6-11 ————  SE-2 Docs video recording session + editing base for audio ————  SE-2 Cheatsheet flyer for printing (first version) ———— ENS Grants: help with Issues #52 and #54. Arbitrum SE extension thumbnail.",
+    "timestamp": 1746788697
+  },
+  {
+    "tx": "0xf605705db086f63e8f9508ef15d8f3f9bb15849970650f23b1a7a9db352300dc",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 1.5,
+    "reason": "April Work - Speed Run Ethereum V2 - Custom 404 page, UI tweeks, custom OG image for builder page. Scaffold ETH - Tailwind and Daisy UI upgrade review. ETH Job Board - Newsletter styles, update sticker images. Prediction Market Challenge - Styles and UI fixes. Arbitrum Cohort - Initial theme and styles, FAQ page, Contribution Log Section.",
+    "timestamp": 1746199903
+  },
+  {
+    "tx": "0x1718712a37a3fa0e7b30bc3e7e05232affbace3edf85cb2b37a20b05a5ac5b26",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.85,
+    "reason": "Se-2: #1077; Create-eth: #239, #248; Sre-2: #73, #87, #89, #96, #137, #152, #154 (wip); Create-eth-extensions: #58, #59; Ens-pg: #55 (wip); Code reviews",
+    "timestamp": 1745911573
+  },
+  {
+    "tx": "0xc72141ae43e1262203564e47f56b8a34c2bada2da5be2da492f328e2580b36c9",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.72,
+    "reason": "Extra March: SpeedRunEthereum-v2. PRs. #65 #54 #50 Review PRs. #51 #50 #47 #42 ------ se-2-challenges. Review PRs. #282 #279 ------ scaffold-eth-2. Review PRs. #1078 #1063 #1036\nWork on private repositories: ethereum-job-board, aigentsbcn",
+    "timestamp": 1745444051
+  },
+  {
+    "tx": "0xe137eedad23f1e6f14a4405266ad5f001f15a189a8f9c80866eafa53b3248eae",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.4,
+    "reason": "Jan 18 - April 15 work (3 months)\n\n-----------------------------------------\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- https://github.com/scaffold-eth/scaffold-eth-2/commit/3abda6eeb3ff89da9283e002edddf1a72a7b8f45\n---- https://github.com/scaffold-eth/scaffold-eth-2/commit/b4cc2dce9cef55f73bf89749d6a4eac6d6e0f4ae\n---- Forward user to creating a keystore if none exist: #1073\n---- Fix/keystores cli fix filename: #1063\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2025-01-18..2025-04-15+\n-----------------------------------------\n\n\n\n-----------------------------------------\nse-2-docs: scaffold-eth/se-2-docs\n\n---- Add basic info on bg ipfs: #122\n---- Add a hint for :yolo and :yolo --prod: #120\n---- Update docusaurus.config.js: #117\n---- Reviews: https://github.com/scaffold-eth/se-2-docs/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2025-01-18..2025-04-15+\n-----------------------------------------\n\n\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- Add Decompile button to network page: #174\n---- Up packages : #170\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2025-01-18..2025-04-15+\n-----------------------------------------\n\n\n\n-----------------------------------------\naddress-vision-port: BuidlGuidl/address-vision-port\n\n---- Feat/order previous searches: #82\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2025-01-18..2025-04-15+\n-----------------------------------------\n\n\n\n-----------------------------------------\ntwitter content(cross-posted to Farcaster):\n\nhttps://x.com/buidlguidl/status/1909984894861947361\nhttps://x.com/buidlguidl/status/1909268074831761443\nhttps://x.com/buidlguidl/status/1905636166801768681\nhttps://x.com/buidlguidl/status/1904911400948162846\nhttps://x.com/buidlguidl/status/1904895445928718778\nhttps://x.com/buidlguidl/status/1904186595475112384\nhttps://x.com/buidlguidl/status/1901665762726514714\nhttps://x.com/buidlguidl/status/1901298456850772196\nhttps://x.com/buidlguidl/status/1895866625221345355\nhttps://x.com/buidlguidl/status/1895180384712958283\nhttps://x.com/buidlguidl/status/1890430809145790699\nhttps://x.com/buidlguidl/status/1887894093428363359\nhttps://x.com/buidlguidl/status/1883907830765515254\nhttps://x.com/buidlguidl/status/1879914004107469084\n\n-----------------------------------------",
+    "timestamp": 1744729143
+  },
+  {
+    "tx": "0xf677339c46401f1b423421e5e4b9fb027a0f60de8730af167a0b27094a7f86a6",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 2.3,
+    "reason": "create-eth: scaffold-eth/create-eth\n\nMerged PRs:\n---- do strict equal insted of contains: #241 - https://github.com/scaffold-eth/create-eth/pull/241\n---- backmerge 08-04-25: #240 - https://github.com/scaffold-eth/create-eth/pull/240\n---- (beta) backmerge main: #236 - https://github.com/scaffold-eth/create-eth/pull/236\n---- skip relase action version packages: #231 - https://github.com/scaffold-eth/create-eth/pull/231\n\nReviews:\n---- Version Packages: #242 (closed) - https://github.com/scaffold-eth/create-eth/pull/242\n---- backmerge 08-04-25: #240 (closed) - https://github.com/scaffold-eth/create-eth/pull/240\n---- Update tsconfig template: #239 (closed) - https://github.com/scaffold-eth/create-eth/pull/239\n---- (beta) backmerge main: #236 (closed) - https://github.com/scaffold-eth/create-eth/pull/236\n---- Comments for hardhat config: #232 (closed) - https://github.com/scaffold-eth/create-eth/pull/232\n---- skip relase action version packages: #231 (closed) - https://github.com/scaffold-eth/create-eth/pull/231\n---- Version Packages: #229 (closed) - https://github.com/scaffold-eth/create-eth/pull/229\n\n---\n\nSpeedRunEthereum-v2: BuidlGuidl/SpeedRunEthereum-v2\n\nMerged PRs:\n---- await for isValidEIP function: #85 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/85\n---- activity page convert date to UTC in `ALL` view sql query: #78 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/78\n---- use main autograder: #72 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/72\n---- activity page: #70 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/70\n---- Register user UX: #66 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/66\n\nOngoing PRs:\n---- drizzle migration flow: #117 - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/117\n\nReviews:\n---- drizzle migration flow: #117 (open) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/117\n---- Improve seed workflow: #112 (open) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/112\n---- Add missing Plausible events: #106 (open) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/106\n---- Remove https from plausible domain: #105 (closed) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/105\n---- Add Chain ID and verifying contract to EIP712 domain: #98 (closed) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/98\n---- Unify repositories: #96 (closed) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/96\n---- Show error notifications above submission modal: #77 (closed) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/77\n---- use main autograder: #72 (closed) - https://github.com/BuidlGuidl/SpeedRunEthereum-v2/pull/72\n\n---\n\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\nMerged PRs:\n---- up next version: #1075 - https://github.com/scaffold-eth/scaffold-eth-2/pull/1075\n---- up burner-connector: #1074 - https://github.com/scaffold-eth/scaffold-eth-2/pull/1074\n\nReviews:\n---- Chore: comments casing: #1080 (closed) - https://github.com/scaffold-eth/scaffold-eth-2/pull/1080\n---- Tailwind v4 + Daisy v5 migration: #1078 (open) - https://github.com/scaffold-eth/scaffold-eth-2/pull/1078\n---- Migrate to Eslint v9: #1077 (closed) - https://github.com/scaffold-eth/scaffold-eth-2/pull/1077\n---- Forward user to creating a keystore if none exist: #1073 (closed) - https://github.com/scaffold-eth/scaffold-eth-2/pull/1073\n---- 🚀 Network Updates: Out with the Old, In with the New!: #1071 (closed) - https://github.com/scaffold-eth/scaffold-eth-2/pull/1071\n\n---\n\ntest-changeset-flow-package(testing beta workflow for create-eth): technophile-04/test-changeset-flow-package\n\nMerged PRs:\n---- update: #21 - https://github.com/technophile-04/test-changeset-flow-package/pull/21\n---- test: #19 - https://github.com/technophile-04/test-changeset-flow-package/pull/19\n\n---\n\nburner-connector: scaffold-eth/burner-connector\n\nMerged PRs:\n---- up wagmi, viem and rainbowkit version: #33 - https://github.com/scaffold-eth/burner-connector/pull/33\n\nReviews:\n---- fix: use connectedChainId when chainId is not provided: #35 (closed) - https://github.com/scaffold-eth/burner-connector/pull/35\n---- Version Packages: #34 (closed) - https://github.com/scaffold-eth/burner-connector/pull/34\n\n---\n\ncreate-eth-extensions: scaffold-eth/create-eth-extensions\n\nReviews:\n---- Update tsconfig args: #59 (closed) - https://github.com/scaffold-eth/create-eth-extensions/pull/59\n---- Update beta tailwind config: #58 (closed) - https://github.com/scaffold-eth/create-eth-extensions/pull/58\n\n---\n\nscaffoldeth.io: scaffold-eth/scaffoldeth.io\n\nReviews:\n---- Add llm link below docs button: #49 (closed) - https://github.com/scaffold-eth/scaffoldeth.io/pull/49\n\n---\n\nse-2-docs: scaffold-eth/se-2-docs\n\nReviews:\n---- Add llms-full.txt file manually: #123 (closed) - https://github.com/scaffold-eth/se-2-docs/pull/123\n---- Add basic info on bg ipfs: #122 (closed) - https://github.com/scaffold-eth/se-2-docs/pull/122\n---- Add a hint for :yolo and :yolo --prod: #120 (closed) - https://github.com/scaffold-eth/se-2-docs/pull/120\n\n---\n\n- eth job board work\n",
+    "timestamp": 1744375537
+  },
+  {
+    "tx": "0xb45ce84d1a74d2d3668fe2ae41a8d4eea4349660414e96c7942e0bf76af2198a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "March work: ENS-pg work: LargeGrants contract improvements. Add approved large grants to home page https://github.com/BuidlGuidl/ens-pg/pull/29  LargeGrants contract milestones approvals and improvements. Large grants apply page https://github.com/BuidlGuidl/ens-pg/pull/30  Add large grants to my grants page. Add large grant page detail page for builder https://github.com/BuidlGuidl/ens-pg/pull/34 Improvements to contract. Add USDC grants to admin All Grants page https://github.com/BuidlGuidl/ens-pg/pull/41 Add large grants to admin approval page https://github.com/BuidlGuidl/ens-pg/pull/50  PR reviews https://github.com/BuidlGuidl/ens-pg/pull/32 https://github.com/BuidlGuidl/ens-pg/pull/33  https://github.com/scaffold-eth/burner-connector/pull/33 ",
+    "timestamp": 1744210427
+  },
+  {
+    "tx": "0x3a497398b08e79aa4cb52cc90c8b885c3ccb48f8d0b6776a97565bce21011177",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.5,
+    "reason": "March work: 🟣 ENS Large grants: design for submissions, apply page and approved grant page. ———— 🗺️ Ethereum on Tour full site design, illustrations and front end. ———— 💼 Arbitrum cohort style options and first version design. ———— Twitter assets for Job Board. Small SRE tweak, new repo banner, SE-2 docs unfurl. ",
+    "timestamp": 1744022771
+  },
+  {
+    "tx": "0x2d12c31a21ae8f4a702c7a13d2c040a6703f7f98281c582027593e000a61eea9",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.5,
+    "reason": "March Work: ETH Job Board - Design Cleanup, Favicon and OG Image, Mobile styles, Footer. Instant Wallet - Implement Coinbase passkey wallet with Burner Wallet's design",
+    "timestamp": 1743987331
+  },
+  {
+    "tx": "0x70749189619851fee1435fc8960eac1133c5eab1bf2129c91cf1a1d95cf2eacf",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.85,
+    "reason": "Se-2: #1036, #1077 (wip), #1080; Create-eth: #227, #232, #233; Sre: #216; Sre-2: #35, #40, #44, #47, #51, #53, #55, #71, #73 (wip); Create-eth-extensions: #58 (wip); Ens-pg: #32, #33, #46, #48; Code reviews",
+    "timestamp": 1743511093
+  },
+  {
+    "tx": "0xfb3041e5ca8a91176e72996f3704fdff6d78313d4c9b614b530186dee9dfb4b5",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.635,
+    "reason": "Extra February: Work on private repositories: SpeedRunEthereum-v2, ethereum-job-board, aigentsbcn\n ------ abi.ninja. PRs. #178 #177 Review PRs. #174 ------ create-eth-extensions. PRs. #53 ------ create-eth. PRs. #217 ------ scaffold-eth-2. PRs. #1053 #1052 Review PRs. #1039 ------ se-2-challenges. PRs. #275 #274 #273 #272 #271 #270 ------  ctf.buidlguidl.com. PRs. #19 Review PRs. #18 #17 ------ SpeedRunEthereum Review PRs. #213\n",
+    "timestamp": 1742552137
+  },
+  {
+    "tx": "0x638c82daa2a7d1f505191389ca58e0eb405413301183b7f28e4f0d5a8ff584f4",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 2.15,
+    "reason": "create-eth: scaffold-eth/create-eth\n---- remove `--no-commit` flag for foundry: #224\n---- add manifest, tsconfig and getMetadata template example: #223\n---- move template provider after wagmi: #221\n---- up husky version in base package.json: #220\n---- backmerge 24-02-25: #218\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-02-17..2025-03-16+\n-----------------------------------------\ncreate-eth-extensions: scaffold-eth/create-eth-extensions\n---- add new templates: #54\n---- Reviews: https://github.com/scaffold-eth/create-eth-extensions/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-02-17..2025-03-16+\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n---- up wagmi viem & rainbow: #176\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-02-17..2025-03-16+\n-----------------------------------------\n+ work on private SRE v2 + Job Board",
+    "timestamp": 1742162489
+  },
+  {
+    "tx": "0xd9e78b5ed0bc4e7bbf82cb0240dc34425b15eee1cce7a984f8ece745c56aa683",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.35,
+    "reason": "Feb work: BG Ponder Indexer: add cohort information https://github.com/BuidlGuidl/bg-ponder-indexer/pull/9 Use Ponder to get info on BG /admin/cohorts page https://github.com/scaffold-eth/buidlguidl-v3/pull/122 ENS-PG: Review current features and new features. Add large grants schema and seed data https://github.com/BuidlGuidl/ens-pg/pull/19  LargeGrants contract  https://github.com/BuidlGuidl/ens-pg/pull/28",
+    "timestamp": 1741615005
+  },
+  {
+    "tx": "0xee1bde8b853137065bddedd80dc09da84ddfb14918d9ea6ad71b74742cedda62",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.5,
+    "reason": "February work: ⭐️ Videos and media: PMFers banner adaptations for podcast and youtube. Animated intro with music + horizontal and vertical format. Images for episodes 1 to 5. IPFS + Alchemy video banners. Generic banner design for future videos. ———— 🔎 Ethereum Job Board: Design for general brand, landing page and Job detail page. ———— 🏃🏻‍♀️‍➡️ SRE: Github and unfurl for chs. 8 and 9, new image for ch. 10, Other resources section for website. ———— 🟣 ENS Grants: Design changes on website to accommodate large grants vs. small ones, different options in various parts of the site. ———— Some Start Ethereum work. ———— Retro funding banner for SE-2 and abi.ninja. ———— Updates on BG site - Client section (#68/69)",
+    "timestamp": 1741113607
+  },
+  {
+    "tx": "0x5c22b3fb78c6325a3577d03a5a0ab34e1477140ffc910e98cb489e1e0bdcc1bc",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 2,
+    "reason": "Se-2: #1048, #1054 (wip), #1055 (wip), #1056 (wip); Create-eth: #175, #212, #215; Sre: #216 (wip); Sre-2: #23, #35 (wip), #38; code reviews",
+    "timestamp": 1741100853
+  },
+  {
+    "tx": "0x38fa30cbef0edbe11a5f560cf07e26ee5fe46385912f09f5807345ba8aaee4bf",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.45,
+    "reason": "Extra January: ———— CTF. PRs. #10 #11 #13 #15 Review PRs. #6 SE2-Docs. PRs. #113 ———— scaffoldeth.io. PRs. #46 ———— create-eth. Review PRs. #186 ———— scaffold-eth-2. PRs. #1031 Review PRs. #1032 ———— se-2-challenges. PRs. #260 #261 #262 #263 #264 #265 #266 #267 Review PRs. #250",
+    "timestamp": 1739835471
+  },
+  {
+    "tx": "0xf12c37b45efcc54c8c5af66830ccc65b4336edb5dc20646501cba9a03021fc20",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 2,
+    "reason": "scaffold-eth-2: scaffold-eth/scaffold-eth-2\n---- Up wagmi, viem and rainbowkit: #1049\n---- downgrade wagmi and viem version: #1038\n---- update contract sort order in numberic way: #1032\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-01-12..2025-02-16+\n\n---\n\ncreate-eth: scaffold-eth/create-eth\n\n---- backmerge 10-02-25: #211\n---- backmerge 24-01-25: #206\n---- backmerge 15-01-25: #199\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-01-12..2025-02-16+\n\n---\n\nctf.buidlguidl.com: BuidlGuidl/ctf.buidlguidl.com\n\n---- fix: ponder stats api: #14\n---- pass address to useFetchUserData hook: #5\n---- configure plausible: #4\n---- add optimism deployment: #2\n---- add op deployments to extension: #1\n---- Reviews: https://github.com/BuidlGuidl/ctf.buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-01-12..2025-02-16+\n\n---\n\nbg-ponder-indexer: BuidlGuidl/bg-ponder-indexer\n\n---- use unique id for CohortWithdawal: #4\n---- Reviews: https://github.com/BuidlGuidl/bg-ponder-indexer/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-01-12..2025-02-16+\n\n---\n\nburner-connector: scaffold-eth/burner-connector\n\n---- feat: allow custom rpc urls: #27\n---- Reviews: https://github.com/scaffold-eth/burner-connector/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2025-01-12..2025-02-16+\n---",
+    "timestamp": 1739719315
+  },
+  {
+    "tx": "0x74b8841361f44b143b466d41ca13b408951cf24801630daad3637c82c3c455e7",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "January work: Add Vercel login script https://github.com/scaffold-eth/scaffold-eth-2/pull/1027 - Update Ponder extension to Ponder v0.8 https://github.com/scaffold-eth/create-eth-extensions/pull/48 - Remove deployer param from challenge 2 solution deployment https://github.com/carletex/ctf-devcon/pull/160 - Test new challenges extensions with SRE and autograder https://github.com/scaffold-eth/se-2-challenges/issues/254 - Filter SRE challenges extensions on the extensions page https://github.com/scaffold-eth/scaffoldeth.io/pull/47 - Add SRE challenges extensions to curated list https://github.com/scaffold-eth/scaffoldeth.io/pull/47 - Vercel CLI gives gated link instead of public URL https://github.com/scaffold-eth/scaffold-eth-2/issues/807 - Add builder ENS name when adding new builder https://github.com/BuidlGuidl/bg-ponder-indexer/pull/7 - Add cohort information https://github.com/BuidlGuidl/bg-ponder-indexer/pull/9 - Ponder requests issue https://github.com/ponder-sh/ponder/issues/1462 - Use block intervals instead of accounts https://github.com/BuidlGuidl/bg-ponder-indexer/pull/10 - PR reviews https://github.com/BuidlGuidl/bg-ponder-indexer https://github.com/carletex/ctf-devcon/pull/159 https://github.com/carletex/ctf-devcon/pull/158 https://github.com/scaffold-eth/scaffoldeth.io/pull/46 https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/1 https://github.com/scaffold-eth/scaffold-eth-2/pull/1030 https://github.com/scaffold-eth/scaffold-eth-2/pull/1034 https://github.com/scaffold-eth/se-2-challenges/pull/260 https://github.com/scaffold-eth/scaffold-eth-2/pull/1028 https://github.com/scaffold-eth/scaffold-eth-2/pull/1036 https://github.com/scaffold-eth/scaffold-eth-2/pull/966 https://github.com/scaffold-eth/create-eth/pull/203 https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/10",
+    "timestamp": 1739277521
+  },
+  {
+    "tx": "0x3b4b370a99a5de69db5c5cea558d251478c244ba3c0e1076c2612f7888272e14",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.4,
+    "reason": "January Work: New OG and Readme images for ctf.buidlguidl.com. StartEthereum.com - Prototype designs, implement design from Andrea, wallet research, merge design with official repo.",
+    "timestamp": 1739071435
+  },
+  {
+    "tx": "0x301da054415ffe8240095fee55cf51829c49b9738fffdb574c7c4a90aa7fd119",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.15,
+    "reason": "January work: BG site: 🏰 Client’s section for BG site (PR #61 & #62), hero remake: new illustration and structure (PR #65 and #66)  ———— 💎 Start Ethereum branding vibe ideation + first landing designs ———— 🏃🏻‍♀️‍➡️ SRE: images for new challenges 8 & 9  ———— 🚩 CTF promo video editing, music and animated outro ———— 📹 PMFers (video series) banner design.",
+    "timestamp": 1738591213
+  },
+  {
+    "tx": "0x2d1e0075392f574f0fe1931dfe13519503413098fa725cfe2ffe6f442f36a1c9",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.9,
+    "reason": "Se-2: Migration to next 15 (wip) #1036; create-eth: #175 (wip), #186, #208; grader: #11; se-2-challenges: migrate to extensions and testing #254, challenges bugfixes, help in chats; eth-tech-tree: testing and feedback; code-reviews",
+    "timestamp": 1738430085
+  },
+  {
+    "tx": "0xb0dd27915c68fbb2fe2a716be02221359a3c956d99833c5700a9d9587aa02b4e",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.25,
+    "reason": "Extra December: ———— SE2-Docs. PRs. #104 #105 #107 Review PRs. #109 #110 ———— scaffoldeth.io. Review PRs. #40 ———— create-eth-extensions. Review PRs. #33 ———— create-eth. Review PRs. #172 #177 ———— ctf-devcon. Review PRs. #151 ———— abi.ninja. Review PRs. #164 ———— se-2-challenges. Review PRs. #237 #238 #240 #244 #245 #249 #252",
+    "timestamp": 1737459057
+  },
+  {
+    "tx": "0xbb9a03d641b560d8dd0ac7d14f6730481e1ad0ff96f8bdfb482b4f4444bed469",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "-----------------------------------------\nhacked-wallet-recovery:\n\n---- Feat/cache in useGasEstimation : https://github.com/BuidlGuidl/hacked-wallet-recovery/pull/67\n---- Replace goerli with sepolia as the testnet: https://github.com/BuidlGuidl/hacked-wallet-recovery/pull/65\n---- Reviews: https://github.com/BuidlGuidl/hacked-wallet-recovery/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-12-09..2025-01-17+\n-----------------------------------------\n\n\n\n-----------------------------------------\naddress-vision-port:\n\n---- Use usePublicClient instead of createPublicClient to use the global alchemy api key: https://github.com/BuidlGuidl/address-vision-port/pull/80\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-12-09..2025-01-17+\n-----------------------------------------\n\n\n\n-----------------------------------------\ncreate-eth:\n\n---- Add changes from foundry-se-2: https://github.com/scaffold-eth/create-eth/pull/178\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-12-09..2025-01-17+\n-----------------------------------------\n\n\n\n-----------------------------------------\nscaffold-eth-2:\n\n---- Fix/compile twice foundry: https://github.com/scaffold-eth/scaffold-eth-2/pull/1020\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-12-09..2025-01-17+\n-----------------------------------------\n\n+ twitter content creation",
+    "timestamp": 1737108185
+  },
+  {
+    "tx": "0x9b5cb75231e5529adb70b0186784ac8001b5f60917871f4f7f0819f3bda5090a",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.25,
+    "reason": "December work: Template slides deck for events, further tweaks on Nodes/ Client’s section for BG site (PR #57)",
+    "timestamp": 1736769749
+  },
+  {
+    "tx": "0x41992055536119c26f1da647b398f29d3cd7bfebb9328052fbc8e56eae09c6ad",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 2,
+    "reason": "---\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n---\n\n- up burner-connector version: #1021\n  ---- make `useScaffoldWriteContract` & `useDeployedContractInfo` backward compatible: #1015\n  ---- Foundry imporvements: #1011\n  ---- reverse rpc fallback order: #1010\n  ---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\nbg-ponder-indexer: BuidlGuidl/bg-ponder-indexer\n\n---- migrate ponder to latest version: #3\n---- Reviews: https://github.com/BuidlGuidl/bg-ponder-indexer/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\nse-2-docs: scaffold-eth/se-2-docs\n\n---- Separate state from component examples in Inputs: #110\n---- mention about config object for useScaffoldWriteContract hook: #109\n---- Reviews: https://github.com/scaffold-eth/se-2-docs/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\ncreate-eth: scaffold-eth/create-eth\n\n---- templatise foundry.toml and remove --via-ir flag: #189\n---- foundry: remove deploy:verify from base package.json: #187\n---- backmerge 26/12/24: #183\n---- templatise foundry Makefile and add `--via-ir` flag: #182\n---- backmerge 16/12/24: #172\n---- backmerge latest: #169\n---- backmerge 9-11-24: #168\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\ncreate-eth-extensions: scaffold-eth/create-eth-extensions\n\n---- add foundry.toml.args.mjs example: #47\n---- remove apollo provider setup: #43\n---- Reviews: https://github.com/scaffold-eth/create-eth-extensions/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\nens-pg: BuidlGuidl/ens-pg\n\n---- notify telegram webhook: #7\n---- Reviews: https://github.com/BuidlGuidl/ens-pg/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-12-06..2025-01-11+\n\n---\n\nUpdate cohorts alchemy links\n",
+    "timestamp": 1736595925
+  },
+  {
+    "tx": "0x7a4ebdf4556ede7cc04f586cbdcbe8ccf7d3cc098245a1e1688d5177a224f378",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 1,
+    "reason": "December Work: New CTF website design and development (Solidity Invaders Theme). CTF website FAQs page. CTF website new NFT design. CTF website returning player flow. ETH Tech Tree landing page design and development. ETH Tech Tree leaderboard. Start Ethereum initial design prototype. BuidlGuidl.com new section for BG Client",
+    "timestamp": 1736144475
+  },
+  {
+    "tx": "0xda4c14abd6ba999824f36539d98006899bf6fe77bc7ac438bee8eb1c308e230a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.35,
+    "reason": "December work: challenge 1 migration to extension and improvements to checklist https://github.com/scaffold-eth/se-2-challenges/pull/238 challenge 3, 4, 6 and 7 migration to extension https://github.com/scaffold-eth/se-2-challenges/pull/240 https://github.com/scaffold-eth/se-2-challenges/pull/245 https://github.com/scaffold-eth/se-2-challenges/pull/250 https://github.com/scaffold-eth/se-2-challenges/pull/252 Finish ERC-721 extension and extension list https://github.com/scaffold-eth/create-eth/pull/177 https://github.com/scaffold-eth/scaffoldeth.io/pull/40 URLs on create-eth https://github.com/scaffold-eth/create-eth/pull/143 Ponder CTF stats https://github.com/carletex/ctf-devcon/pull/142 PR reviews:  https://github.com/scaffold-eth/scaffold-eth-2/pull/1008  https://github.com/scaffold-eth/se-2-challenges/pull/237  https://github.com/scaffold-eth/create-eth-extensions/pull/29 https://github.com/carletex/ctf-devcon/pull/138 https://github.com/scaffold-eth/create-eth-extensions/pull/40 https://github.com/scaffold-eth/se-2-challenges/pull/249 https://github.com/scaffold-eth/scaffold-eth-2/pull/1015 (and TG discussion) https://github.com/scaffold-eth/create-eth-extensions/pull/46 https://github.com/scaffold-eth/se-2-challenges/pull/253 https://github.com/scaffold-eth/create-eth/pull/175",
+    "timestamp": 1736088165
+  },
+  {
+    "tx": "0x9384f0213cb4e2eb130d283044aacc41281efbc7eadf89b90c2657cacd4f2944",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 2,
+    "reason": "Se-2: #996, #1007, #1012, #1014, #1016; create-eth: #175 (wip), #176 (wip), #181, #185, #186 (wip); extensions: #46; se-2-challenges: #237, #244, #249, #253, bugfixes; burner-connector #24; code reviews, old issues cleanups ",
+    "timestamp": 1735907135
+  },
+  {
+    "tx": "0x212ec7b700716a40ec2715bb8423ccdda30029f83cb11967025a062c11d36d21",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.14,
+    "reason": "Extra November: ———— SE2-Docs. PRs. #98 ———— scaffoldeth.io. PRs. #38 ———— create-eth-extensions. Review PRs. #25 ———— ctf-devcon. PRs. #51 #52 #76 #82 #85 #95 ———— abi.ninja. Review PRs. #157 ———— se-2-challenges. Review PRs. #214 #218 #219 #220 #221 #222 #223 ———— Assist with PM",
+    "timestamp": 1734720937
+  },
+  {
+    "tx": "0xdc5d4fe116308649dfb19a7a3f0fbe0d7864adfeef1095ad056ec6e934166c26",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "-----------------------------------------\nhacked-wallet-recovery: BuidlGuidl/hacked-wallet-recovery\n\n---- Send funds to safeAddress instead of connected address: #59\n---- Increase the height of the modal to 850px: #57\n---- Show more pictures + videos: #56\n---- Populate Head in _document.tsx: #55\n---- Reviews: https://github.com/BuidlGuidl/hacked-wallet-recovery/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-11-02..2024-12-09+\n---- WIP: Migrating from eth_sendBundle to mev_sendBundle + rewriting the entire codebase from scratch?\n-----------------------------------------\n\n\n\n-----------------------------------------\naddress-vision-port: BuidlGuidl/address-vision-port\n\n---- Feat/playwright: #75 (testing playwright)\n---- Add next-nprogress-bar the same way it is in se-2: #74\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-11-02..2024-12-09+\n-----------------------------------------\n\n\n\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- Merge stores into one, fix chain being different in store: #164\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-11-02..2024-12-09+\n---- WIP: https://github.com/BuidlGuidl/abi.ninja/pull/166, migrate testing to playwright\n-----------------------------------------\n\n\n\n-----------------------------------------\nnodes: BuidlGuidl/nodes\n\n---- Add absolute url: #14\n---- Reviews: https://github.com/BuidlGuidl/nodes/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-11-02..2024-12-09+\n-----------------------------------------",
+    "timestamp": 1733733945
+  },
+  {
+    "tx": "0x590078df34e6043385b7c28ed995aee6add709d248c17589ce746afaa32ccfbe",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 2.2,
+    "reason": "scaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- move 99_deployScript as hardhat task: #1005\n---- fix solidity formatting: #994\n---- add alchemy key: #988\n---- add alchemy key as fallback: #987\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-10-21..2024-12-05+\n\n---\n\nens-pg: BuidlGuidl/ens-pg\n\n---- optimism deployment: #1\n---- Reviews: https://github.com/BuidlGuidl/ens-pg/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-10-21..2024-12-05+\n\ncreate-eth: scaffold-eth/create-eth\n\n---\n\n---- remove strict check for branch in curated json: #161\n---- backmerge 25-11-24: #159\n---- Ignore default solidity contract tests when using extensions: #158\n---- up eslint packages + type check and format in pre-commit: #156\n---- Weekly backmerge: #149\n---- process example solidity template only when required: #148\n---- backmerge 10-26-24: #146\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-10-21..2024-12-05+\n\n---\n\nse-2-challenges: scaffold-eth/se-2-challenges\n\n---- Alchmey default: #227\n---- Reviews: https://github.com/scaffold-eth/se-2-challenges/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-10-21..2024-12-05+\n\n---\n\nfrogcrypto-squeeze: BuidlGuidl/frogcrypto-squeeze\n\n---- switch to zupass prod url and display frog in zupass: #16\n---- Reviews: https://github.com/BuidlGuidl/frogcrypto-squeeze/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-10-21..2024-12-05+",
+    "timestamp": 1733498609
+  },
+  {
+    "tx": "0x2e48e76491bd17c7736e5219b98962de08670debacdab531e29d73bd5623254d",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.25,
+    "reason": "November work: CTF pre Devcon improvements PRs #78, #101, #104 and test challenges. CTF at Devcon! Get Ponder data from json on Leaderboard and Profile page #135. Publish randao extension and changes to create extensions source of truth at create-eth and scaffold-eth site. PR reviews.",
+    "timestamp": 1733350983
+  },
+  {
+    "tx": "0x7cf988ff37ba602443c28ad6d04fb957390280f2f527da6e9c83403c2fc6a8cd",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.75,
+    "reason": "Oct & Nov Work: Mobile style fixes for the client.buidlguidl.com website. Devcon CTF Work - Prizes Section, Readme Image, UI Improvements from Zoom meeting, Slideshow. Frogjuice.fun Work - Image and background styles, Rewards page, Newsfeed page, Leaderboard styles, Adding Navigation, Adding juice colors and styles",
+    "timestamp": 1733327329
+  },
+  {
+    "tx": "0xc7aab3959b32f2d785a5daa33fd5c55fa5547f32f2b619afb8e911f9a6a90bb0",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.25,
+    "reason": "November work: 🚩 CTF Slides for Devcon + last details ————  🏰 BuidlGuidl site: #57 - Client new section for BG site (provisional).",
+    "timestamp": 1733246335
+  },
+  {
+    "tx": "0x68b3c18d9819657968b22f777033bef3f832d1ff2dc44a841ee104e9d43c1a78",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.7,
+    "reason": "Se-2: #991, #992, #996 (wip); Create-eth: #151; Extensions: #29, #36; Ens: #92, #93, #95, #100, #101;\nSre-challenges: #232, vercel build fix, ext migration checklist; Ctf: #112, #113, #131, #133; code reviews\n",
+    "timestamp": 1733131471
+  },
+  {
+    "tx": "0x3650f07ccbb9fe7303168128298bce9ccea235fd341c9af84a678c42f482641e",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.15,
+    "reason": "Extra October: ———— SE2-Docs. PRs. #98 ———— scaffoldeth.io. PRs. #38 ———— create-eth-extensions. Review PRs. #25 ———— ctf-devcon. PRs. #51 #52 #76 #82 #85 #95 ———— abi.ninja. Review PRs. #157 ———— se-2-challenges. Review PRs. #214 #218 #219 #220 #221 #222 #223 ———— Assist with Sand Garden PM and Devcon schedule",
+    "timestamp": 1732110621
+  },
+  {
+    "tx": "0xfbc6747f51d61c3d4725bf1731d03ed2e6e8682eba01ac797d7eeaa949fe9f1f",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "October work: CTF-Devcon -> Challenges and features PRs #50, #56, #57, #60, #63, #64, #69, #71, #74. Challenges resolutions locally and deployed. PR reviews. ERC-721 extension https://github.com/scaffold-eth/create-eth-extensions/pull/33",
+    "timestamp": 1731088133
+  },
+  {
+    "tx": "0x5e15640cda7f93409ab641f690ef0bd5e473fc14d288305c6c35aa3698d5668d",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.4,
+    "reason": "October work: 📡 BG Client/nodes site redesign + branding and building (#4, #5) ————  🚩 Devcon new t-shirt, winners t-shirt for CTF, CTF props for staff, standing banner, POAP and unfurl. ———— 🎙️ The Builder show: banner and intro for eps 2, 3, 4, 5, 6, 7 & 8. ———— Media cohort revision and design tweaks (#2), ENS grants unfurl & Batches site tweaks. ",
+    "timestamp": 1731079393
+  },
+  {
+    "tx": "0x5b6fa98fc5dd04cc4a8f28731d7ae9536f216c107ab3493231d7aea9a995aacc",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.7,
+    "reason": "Se-2: #956-#960, #961 (wip), #963, #971, #975; Create-eth: #125, #131, #135, #144; Extensions: #29 (wip), #32, onchainkit 52399f7; Ctf test; Challenges: #213, #214, #217-#223; Sre: #209; Grader #10, code reviews\n",
+    "timestamp": 1730736401
+  },
+  {
+    "tx": "0x77bf8af3554ce90babe278b7bcb72c9cd217fbce06f1b94a145881d6ea480962",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "\n-----------------------------------------\naddress-vision-port:\n\n---- Add MetaHeader to index.tsx: https://github.com/BuidlGuidl/address-vision-port/pull/73\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-09-08..2024-11-01+\n-----------------------------------------\n\n-----------------------------------------\nflashbot-recovery-bundler:\n\n---- Use different decimals for USDC USDT WBTC: https://github.com/BuidlGuidl/flashbot-recovery-bundler/pull/51\n---- Make ens names stand out: https://github.com/BuidlGuidl/flashbot-recovery-bundler/pull/49\n---- Reviews: https://github.com/BuidlGuidl/flashbot-recovery-bundler/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-09-08..2024-11-01+\n-----------------------------------------\n\n-----------------------------------------\nbuidlguidl.com:\n\n---- Align links inside the table horizontally: https://github.com/BuidlGuidl/buidlguidl.com/pull/49\n---- Batches page\n---- Reviews: https://github.com/BuidlGuidl/buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-09-08..2024-11-01+\n-----------------------------------------\n\n-----------------------------------------\nabi.ninja:\n\n---- Fix/localhost: https://github.com/BuidlGuidl/abi.ninja/pull/161\n---- Use getsourcecode endpoint from etherscan api instead of anyabi+ proxy detection logic : https://github.com/BuidlGuidl/abi.ninja/pull/157\n---- Fix open zeppelin proxy detection: https://github.com/BuidlGuidl/abi.ninja/pull/155\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-09-08..2024-11-01+\n-----------------------------------------\n\n-----------------------------------------\nse-2-docs:\n\n---- Add directions on how to add a custom chain to SE-2 : https://github.com/scaffold-eth/se-2-docs/pull/88\n---- Reviews: https://github.com/scaffold-eth/se-2-docs/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-09-08..2024-11-01+\n-----------------------------------------\n\n-----------------------------------------\nhackedwalletrecovery\n\n---- Use different decimals for USDC USDT WBTC (#51)\n---- Make ens names stand out (#49)\n-----------------------------------------\n+ Twitter acc management + preparing an article for hackedwalletrecovery",
+    "timestamp": 1730526591
+  },
+  {
+    "tx": "0x38468f29209ac1260c7182e67c81ff0e5b82599b8b92b1d6f718f448f40882fa",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.9,
+    "reason": "september + initial october work\n\n---\ncreate-eth: scaffold-eth/create-eth\n\n---- fix foundry generate script: #137\n---- deprecate default alchemy key (#955): #136\n---- add eip-5792 to curated list of extension: #128\n---- backmerge 2-10-24: #126\n---- foundry latest update: #123\n---- backmerge 13-9-24: #120\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-09-09..2024-10-21+\n\n---\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- depreciate default alchemy key: #955\n---- remove test script from Makefile and expose via package.json: #950\n---- Foundry tweaks: #949\n---- remove unused type Tuple: #941\n---- make solidity complier as arrays: #938\n---- update README with keystore details: #932\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-09-09..2024-10-21+\n\n---\nse-2-challenges: scaffold-eth/se-2-challenges\n\n---- Challenge 7 alchemy: #212\n---- Challenge 6 alchemy: #211\n---- Challenge 5 alchemy: #210\n---- Challenge 4 alchemy: #209\n---- Challenge 3 alchemy URL: #208\n---- Challenge 2 alchemy url : #207\n---- add alchemy fallback url: #206\n---- add fallback and more alchemy: #205\n---- Reviews: https://github.com/scaffold-eth/se-2-challenges/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-09-09..2024-10-21+\n\n---\ncreate-eth-extensions: scaffold-eth/create-eth-extensions\n\n---- add eip-5792 to curated list of extensions: #31\n---- wrap write actions inside try-catch: #27\n---- update example with latest foundry changes: #26\n---- Eip 5792 extension: #25\n---- Reviews: https://github.com/scaffold-eth/create-eth-extensions/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-09-09..2024-10-21+",
+    "timestamp": 1729524693
+  },
+  {
+    "tx": "0x8aee1cff6ff369339bf1737a6b0a53ed8d1ca810fa068c98002c8a6623d8a0e5",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.3,
+    "reason": "Extra September work: ———— SE2-Docs. PRs. #83 #90 Review PRs. #78 ———— scaffoldeth.io. PRs. #34 #35 ———— hackathon-starter-kit. PRs. #72 #78 #84 #86 #87 Review PRs. #83 #85 ———— create-eth. PRs. #114 ———— bg-scripts. Create scripts to run builders addresses health checks PR#2 ———— ctf-devcon. PRs. #43 #51 Review PRs. #40 ———— SE-2. Review PRs. #933 ———— abi.ninja. Review PRs. #155 ———— Assist with Sand Garden PM",
+    "timestamp": 1728895989
+  },
+  {
+    "tx": "0x4b7e09181d48a6bb66f7ef81ba28b5fe7a4b2fdbbb8739258c32733410ca40c2",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.6,
+    "reason": "September work: 🏰 BG site updates: PRs #39, #40, #41, #42 and #43. Illustrations for Streams and Cohorts sections (#40, #35). ———— 🎙️ The Builder show: Restyling for season 2. Thumbnail and intro for episode 1, season 2. ————  🦄 Sticker tweaks for Devcon and BG Client. Other small tweaks. Withdrew the rest from my remaining BG stream.",
+    "timestamp": 1728320415
+  },
+  {
+    "tx": "0x38f3aab0810d6b75e396753e33b6d64f5d5a004f3dc071506bd84123c5c904a5",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 2,
+    "reason": "Se-2: #925, #933, #937, #945, #946, #952; Create-eth: #118 (wip), #119, #121, #125 (wip); Extensions: #29 (wip), #30, Ctf #12, #29, code reviews",
+    "timestamp": 1728068861
+  },
+  {
+    "tx": "0xad3b803f3d209578149e7155987ec6b103a2cd697d4212ff83cc8c6284a6e7b7",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 1,
+    "reason": "September Work: Extensions Hackathon admin page. Devcon CTF Homepage, Leaderboard page, Profile page, SVG for Flag NFT",
+    "timestamp": 1728015887
+  },
+  {
+    "tx": "0x0f95034c6bccb785e4b98caf8e35bb7dabf7f35f9ef5675fb8c5ee332c3cc17e",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 1.5,
+    "reason": "September work: Extension hackathon -> My submissions page and check for submissions enabled. CTF-Devcon -> Ponder index, leaderboard, user data and challenges PRs #15, #17, #25, #26, #30, #37, #42. PR reviews.",
+    "timestamp": 1727880239
+  },
+  {
+    "tx": "0x1bacc269a895fa855f946bc340ed5ab9afd2be93c85f694d3ca8fdc64f0b9e3a",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.5,
+    "reason": "August Work: Extensions Hackathon Admin Page",
+    "timestamp": 1726327445
+  },
+  {
+    "tx": "0xe430ec29ae79f2e8866b5b8cef10f7a5ca2ec10e800bb2bcc3804eb88b1a056e",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.25,
+    "reason": "Extra August work: ———— Extensions. Create content for extensions website. PRs. #66 #53 #45 #44 #37. Review PRs. #54 #52 #49 #43 #42 #38 #36 #32 #20 ———— SE2-Docs. Review PRs. #81 #79 #77 ———— Grants. Review PRs. #135. Assist with Sand Garden PM",
+    "timestamp": 1726007733
+  },
+  {
+    "tx": "0xdd0812402b61269dcf058d9a0c39f447379f3621b8fbfa229be5fcf96f742c53",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.3,
+    "reason": "-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- Change wording from \"on Ethereum\" to \"on any EVM chain\" throughout the app: #150\n---- Type to find networks instead of choosing them by role=\"option\" in cypress tests: #147\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-08-05..2024-09-08+\n-----------------------------------------\n-----------------------------------------\nextensions-hackathon: BuidlGuidl/extensions-hackathon\n\n---- Use collapse-arrow on faq items: #54\n---- Add HackathonInfo.tsx + CommandDisplay.tsx: #50\n---- UI/faq styling: #33\n---- Create sticky box and add it to the landing page: #32\n---- Hero component: #24\n---- Exclude external links from triggering progress bar: #23\n---- Reviews: https://github.com/BuidlGuidl/extensions-hackathon/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-08-05..2024-09-08+\n-----------------------------------------\n-----------------------------------------\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- Exclude external links from triggering progress bar: #909\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-08-05..2024-09-08+\n-----------------------------------------\n-----------------------------------------\nsocial media\n\n---- twitter + farcaster post creation, scheduling, etc \n-----------------------------------------",
+    "timestamp": 1725813871
+  },
+  {
+    "tx": "0xcacf1fd6d73a1ae1a93672c8e8c668845f71da47c49dd13163ebe96dc2cd053e",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.6,
+    "reason": "scaffold-eth-2: scaffold-eth/scaffold-eth-2\n---- foundry keystore makefile: #912\n---- show blockexplorer link when transaction receipt is reverted: #910\n---- allow json module imports: #921\n---- revert #875: #905\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------\ncreate-eth: scaffold-eth/create-eth\n---- update third party extension doc: #98\n---- cli: templatise tailwind and hardhat config: #106\n---- allow any case extension name in dev mode: #101\n---- display solidity framework options based on extension: #94\n---- backmerge 12 8 30: #107\n---- weekly cli backmerge: #95\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------\nbuidlguidl.com: BuidlGuidl/buidlguidl.com\n---- devcon eligibility: #29\n---- Reviews: https://github.com/BuidlGuidl/buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n---- fix any abi fail: #145\n---- hardcode heimdall url: #152\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------\nextensions-hackathon: BuidlGuidl/extensions-hackathon\n---- only require sign in for admin: #48\n---- timeline section: #26\n---- only protect admin: #21\n---- guard seed: #59\n---- Reviews: https://github.com/BuidlGuidl/extensions-hackathon/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------\ngrants.buidlguidl.com: BuidlGuidl/grants.buidlguidl.com\n---- allow safe signature: #135\n---- active grants page: #134\n---- Reviews: https://github.com/BuidlGuidl/grants.buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-08-01..2024-08-31+\n-----------------------------------------",
+    "timestamp": 1725805061
+  },
+  {
+    "tx": "0x99c9281ede9e417e25a24e8bf839723cbcbf5106e36b53b26e98776853137f85",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.01,
+    "reason": "✨ Extensions hackathon branding: logo & fonts, site visual design and images, unfurl, tg icon. ---- 🏰 General: BG website content review, workshops section illustration, BG client drawing, new quote section, SRE sections update. Cohort unfurls for Batches, Nodes and Workshops cohorts. ---- 🥷🏻 ABI Ninja Thumbnail tweak (issue #148) ---- ENS Grants and SRE small updates. (Withdrawn from remaining BG stream)",
+    "timestamp": 1725529831
+  },
+  {
+    "tx": "0x9a8fd78fdf052fb12efd693b59a3f927622323efab6502eb18d9d2a2b0d7ea98",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "se-2: #916, #917 (wip), #920, create-eth: #105 (wip), pg, code reviews",
+    "timestamp": 1725442271
+  },
+  {
+    "tx": "0xd7ebecb514dc923fafee4ef452f6453f1159b19ad09899fac7652292fab45117",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.35,
+    "reason": "Extra August 2024: SE-2 Extensions hackathon (https://github.com/BuidlGuidl/extensions-hackathon) + Create-ETH extensions work (https://github.com/scaffold-eth/create-eth) + 35 PR reviews in 11 repositories. ",
+    "timestamp": 1725296279
+  },
+  {
+    "tx": "0xa5351699895dc002a0ec28b9bb336ca95e4ba72e34ef0900ca91de8cc0dff071",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.8,
+    "reason": "August work: Extension hackathon -> Admin features and auth. PR reviews. ",
+    "timestamp": 1725295255
+  },
+  {
+    "tx": "0xe31afb975512c39755e8b8c44213d88baefc085a886cc1eea13757e7cda0b8bb",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: #885, #904 (wip), Create-eth: #90, Extensions: #11, #15, pg, code reviews",
+    "timestamp": 1723115939
+  },
+  {
+    "tx": "0x44b572ef4f2fc0acd352920929773ea6ddb610fdb5deaa877e179e922dafe702",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.6,
+    "reason": "\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- foundry: separate out your contract deployments: #898\n---- fix: inputs parsing numbers instead of address: #894\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\ncreate-eth: scaffold-eth/create-eth\n\n---- third party extension doc(v0.1): #84\n---- Weekly cli backmerge: #82\n---- don't prompt for install + remove prettier plugins: #80\n---- patch: prettier formatting error: #76\n---- remove console log from runPrettier function: #75\n---- developing extension(part 1): #73\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\ncreate-eth-extensions: scaffold-eth/create-eth-extensions\n\n---- remove extra lines: #14\n---- update the list of available extension: #13\n---- Reviews: https://github.com/scaffold-eth/create-eth-extensions/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\nse-2-docs: scaffold-eth/se-2-docs\n\n---- externalContracts section tweaks: #74\n---- Reviews: https://github.com/scaffold-eth/se-2-docs/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- add blockexplorer input in add chain form: #132\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\nscaffold-base: BuidlGuidl/scaffold-base\n\n---- merge upstream main: #9\n---- Reviews: https://github.com/BuidlGuidl/scaffold-base/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n\n-----------------------------------------\nens-stream-cohort: BuidlGuidl/ens-stream-cohort\n\n---- Fix builders list: #5\n---- Reviews: https://github.com/BuidlGuidl/ens-stream-cohort/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-07-01..2024-07-31+\n",
+    "timestamp": 1722946387
+  },
+  {
+    "tx": "0x2611367aed3a511988143e1f7f3b21b3c72dede931c70e4c5e6ee20804a21113",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.3,
+    "reason": "-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- Add Cypress E2E tests for core functionality across multiple networks: #140\n---- Update heimdall backend url: #136\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-07-05..2024-08-06+\n-----------------------------------------\n\n-----------------------------------------\nonchain-impact-dashboard: BuidlGuidl/onchain-impact-dashboard\n\n---- Add 6 months scores to ETL process: #82\n---- Reviews: https://github.com/BuidlGuidl/onchain-impact-dashboard/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-07-05..2024-08-06+\n-----------------------------------------\n\n-----------------------------------------\naddress-vision-port: BuidlGuidl/address-vision-port\n\n---- Feat/fetch using moralis: #71\n---- Update unfurls: e2585d1\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-07-05..2024-08-06+\n-----------------------------------------\n\n-----------------------------------------\nextensions\n\n---- #12\n---- #17\n---- Reviews: #14 \n---- misc: wireframes\n-----------------------------------------",
+    "timestamp": 1722847125
+  },
+  {
+    "tx": "0x481444fa9671b7b95792615ff932679420ec7ba080c1f1e6b5d276002d474f9c",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.8,
+    "reason": "July work: Ponder and ERC-20 extensions. Extension hackathon -> Send submission. PR reviews.",
+    "timestamp": 1722804893
+  },
+  {
+    "tx": "0x0df35def7ff0508ba75f664fffb94555cbea8c32a8a1292709dc57e641d9314d",
+    "builder": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+    "ens": "inc.hunterchang.eth",
+    "amount": 0.25,
+    "reason": "Extensions YouTube Video - Meetings, research, recording and editing",
+    "timestamp": 1722645175
+  },
+  {
+    "tx": "0x9b6bc6bb0867d81b8f19e1078c685706bd576d85da5055dad4dde99c99963f50",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.475,
+    "reason": "Extra July 2024: BG Telegram Bot (https://github.com/carletex/telegram_buidlguidl_bot). Extensions hackathon site (https://github.com/BuidlGuidl/extensions-hackathon), Batch help + Batch template updates (https://github.com/BuidlGuidl/batch-template/). BGv3.5 flag selector (https://github.com/scaffold-eth/buidlguidl-v3/pull/108). On-going work with Scaffold-ETH 2 & create-eth.",
+    "timestamp": 1722592841
+  },
+  {
+    "tx": "0xc9384583e9d7da3e7fa05448f4577ec0bf16e87aab96a73c477516ba52c2eb4f",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.15,
+    "reason": "July's work: Updated cohorts/streams section on General BG site, Hot ship thumbnail tweaks, intro to Extensions Hackathon + ABI Ninja's extra chain icons (issue #117) - from June. *ENS grants work withdrawn from ENS cohort.",
+    "timestamp": 1722526787
+  },
+  {
+    "tx": "0x391d585903624854680b315c16e77d51e4a7f6853ebc7d67d8f00fecba3666e1",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1.7,
+    "reason": "Create-eth: #50, #58, #63, #68, #74 (wip), #79, Extensions: #5, #9, #11 (wip); p-e: #23 (wip), Se-2: #885 (wip), Code reviews\n",
+    "timestamp": 1720812087
+  },
+  {
+    "tx": "0xa1b9af725ab442acec5c635bec6b552179b46e78c81f47871ddf2a6bec926d39",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.3,
+    "reason": "June work: ———— SE-2. Review PRs: #867 #862 #853. ———— create-eth. PRs: #59 Review PRs: #44. ———— SE-2-Challenges. Review PRs: #184 #182. ———— abi.ninja. Review PRs: #109 ———— BurnerWallet. Review PRs: #71 #69 #68 #66 #64 #63 #61 #46. ———— BG Grants. PRs: #125 #128 + Review grants applications and build submissions  ———— ENS PG Grants. Update notion proposal, create wireframes. PM stuff in ENS PG Grants and assist with Sand Garden PM",
+    "timestamp": 1720600625
+  },
+  {
+    "tx": "0xcebd17a10d4685c84707930b35cb0171f871c35bfb07c40e75381df28ffa48f1",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.21,
+    "reason": "-----------------------------------------\ncreate-eth: scaffold-eth/create-eth\n\n---- up prettier: #71\n---- Weekly backmerge: #69\n---- early foundryup check: #65\n---- cleanup base package.json + fix foundry gh action: #60\n---- prettier format instance with cli itself: #55\n---- migrate to lefthook from husky: #51\n---- fix: add and configure pinst: #46\n---- cleanup : #45\n---- cli backmerge: #44\n---- templatised foundry deploy script: #43\n---- Untracked changes foundry: #42\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-06-01..2024-06-30+\n-----------------------------------------\n\n\n\n-----------------------------------------\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n\n---- up prettier: #875\n---- lock typescript and abitype version: #871\n---- rewrite useScaffoldEventHistory hook: #869\n---- Migrate to foundry: #867\n---- up wagmi viem rainbowkit: #862\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-06-01..2024-06-30+\n-----------------------------------------\n\n\n\n-----------------------------------------\nabi.ninja: BuidlGuidl/abi.ninja\n\n---- wagmi v2 migration: #121\n---- relax etherscan apiKey constrain: #119\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-06-01..2024-06-30+\n-----------------------------------------",
+    "timestamp": 1720362713
+  },
+  {
+    "tx": "0x7cfe5125a5d086ec93b0676f5a95a323620ea20765c35745408551655c85cb1f",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.3,
+    "reason": "\n-----------------------------------------\naddress-vision-port:\n\n---- Improve size calculation in AddressCard component: https://github.com/BuidlGuidl/address-vision-port/pull/69\n---- Add the eyes emoji as svg and use it in the app: https://github.com/BuidlGuidl/address-vision-port/pull/68\n---- Wagmi v2 migration + next 14: https://github.com/BuidlGuidl/address-vision-port/pull/67\n---- Fix/high cold start times: https://github.com/BuidlGuidl/address-vision-port/pull/64\n---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-06-06..2024-07-05+\n-----------------------------------------\n-----------------------------------------\nabi.ninja:\n\n---- Add a little X to the chains added from the other chains modal: https://github.com/BuidlGuidl/abi.ninja/pull/127\n---- Add tooltip-info and shadow-lg to the tooltip div: https://github.com/BuidlGuidl/abi.ninja/pull/123\n---- Feat/more chains: https://github.com/BuidlGuidl/abi.ninja/pull/109\n---- Use a white background, colored zkSync logo: https://github.com/BuidlGuidl/abi.ninja/pull/104\n---- Hotfix: change zkSync to zksync in networks.ts: https://github.com/BuidlGuidl/abi.ninja/pull/103\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-06-06..2024-07-05+\n-----------------------------------------\n-----------------------------------------\nsandgarden.buidlguidl.com:\n\n---- Use toFixed(18) when computing the ETH value in EtherInput.tsx: https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/14\n---- Add simple paginations with 10 items per page in projects.tsx: https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/12\n---- Replace the input with a textarea of min size 200px: https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/11\n---- Reviews: https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-06-06..2024-07-05+\n-----------------------------------------\n-----------------------------------------\nTwitter:\n\n--- preparing posts for bg main acc\n--- preparing memes + a mascot(currently WIP)\n\n\n",
+    "timestamp": 1720207917
+  },
+  {
+    "tx": "0xad164eb5cdd2eb8d310a8a355a359b289e2e49308e9c7377ac6eb97100e14a94",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.8,
+    "reason": "June work: BurnerWallet WalletConnect improvements. PR reviews. Passkeys and largeBlob research to implement it on BurnerWallet https://github.com/damianmarti/passkey",
+    "timestamp": 1719942001
+  },
+  {
+    "tx": "0x6cd7450f63026a451447192148fe814af968fd643b4de5c340f1eac42940b87f",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.05,
+    "reason": "----------------\ncreate-eth: scaffold-eth/create-eth\n---- configure lint gh-action: #40\n---- fix foundry gh-actions: #38\n---- Weekly cli backmerge: #37\n---- Configure eslint and prettiier: #35\n---- Backmerge main upstream: #30\n---- Weekly cli backmerge upstream: #27\n---- Fix [txHash] page bug & backmerge main: #19\n---- use caret for burner-connector versioning: #17\n---- Backmerge upstream main: #15\n---- Reviews: https://github.com/scaffold-eth/create-eth/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------\nabi.ninja: BuidlGuidl/abi.ninja\n---- update Buidlguidl logo in Footer: #100\n---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------\nethberlin-zupass-starterkit: BuidlGuidl/ethberlin-zupass-starterkit\n---- Backmerge se 2 main: #2\n---- Reviews: https://github.com/BuidlGuidl/ethberlin-zupass-starterkit/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------\nscaffold-eth-2: scaffold-eth/scaffold-eth-2\n---- Bump wagmi, viem and rainbowkit versions: #849\n---- update burner version: #847\n---- update useTransaction parameters: #846\n---- bump burner-connector version: #842\n---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------\nburner-connector: scaffold-eth/burner-connector\n---- Up wagmi rainbow viem: #18\n---- Fix burner connector raw transaction: #16\n---- Feat/sign message: #14\n---- Reviews: https://github.com/scaffold-eth/burner-connector/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------\nbuidlguidl-v3: scaffold-eth/buidlguidl-v3\n---- Recent builds : #98\n---- Hero section : #95\n---- Configure color theme: #92\n---- Configure typography: #91\n---- Reviews: https://github.com/scaffold-eth/buidlguidl-v3/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-05-01..2024-05-31+\n----------------",
+    "timestamp": 1718218897
+  },
+  {
+    "tx": "0xa3f320a55ff233f544b0340ba29f4cf173e6d6a78ef5d52c13ab687f92a213ae",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.01,
+    "reason": "May work: ———— SE-2. PRs: #836 #851 Review PRs: #811 #840 #849. ———— create-eth. PRs: #26 Review PRs: #32 #35 #37. ———— SE-2-Challenges. Review PRs: #171 #174 #175 #176 #177 #178 #179 #181. ———— abi.ninja. Review PRs: #93 #100 ———— BurnerWallet. Review PRs: Start testing WalletConnect PR#46 ———— BuidlGuidl v3.5. Work on PR #97 Shipping log section and review Cohorts data comparing to Streamogator.  ———— scaffoldeth.io. Work on PR #31 to update wagmi hook example. ———— AI assistant. Create alpha version for Challenge 0. (Withdrawed all from my remaining BG stream)",
+    "timestamp": 1718112243
+  },
+  {
+    "tx": "0x4718ceba4d96f3a591fd175ac35a2131f066d092ceaeec4898e09427b4f2bb89",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.7,
+    "reason": "Se-2: #854, #857, #859; Sre-2 bugfixes, ch5 refactor, #181, #184; Sre: #203, Burner-connector: #20, Create-eth-ext: #2; code-reviews",
+    "timestamp": 1718012241
+  },
+  {
+    "tx": "0x5ded5d62287c7b06161dc3bd8a8c60cfec7880c9eb8e5b6ebbec3e7767c95a8a",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.75,
+    "reason": "May work: BurnerWallet WalletConnect integration. PR reviews.",
+    "timestamp": 1717435691
+  },
+  {
+    "tx": "0x79b030f248632efcc5b4dccdc7ae5b5c44f80572f42cea58bff0013d6d1f5114",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.35,
+    "reason": "Extra May 2024: BG 3.5 (https://github.com/scaffold-eth/buidlguidl-v3) -- Create-ETH extensions (https://github.com/scaffold-eth/create-eth & https://github.com/scaffold-eth/create-eth-extensions) -- Ethereum.org SRE banner (https://github.com/ethereum/ethereum-org-website/pull/12891)",
+    "timestamp": 1717430225
+  },
+  {
+    "tx": "0xaba0a36ee1c099530c5ae712059c10b16cb0cfd7a50080ea4935251988c7ec6c",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.45,
+    "reason": "May work: 🏰 BG App v3: Dark mode, font tweaking (PR #90), Other pages: builds, activity & builder profiles, Site unfurl, New shipping log section. ————  🥷🏻 ABI Ninja: Dark mode review (issue #93) ———— 🎙️ The Buildr Show: Banner and intro for episodes 4 & 5.",
+    "timestamp": 1717423067
+  },
+  {
+    "tx": "0x20b4314ac95844b1ee8166d3d11a98ff51ad7d46876eebe2131f5ac2797cd013",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.1,
+    "reason": "------------- scaffold-eth-2: scaffold-eth/scaffold-eth-2 --- Wagmi V2 migration: #700 ---- use burner-connector package: #831 ---- add generateStaticParams to blockexplorer address and txHash: #825 ---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-04-01..2024-04-30+ ------------- burner-connector: scaffold-eth/burner-connector ---- Feat/rainbow wallet: #6 ---- migrate to pnpm workspace: #3 ---- setup example repo linked to local package: #5 ---- add README.md for package: #9 ---- switch eslint prettier instead of biome: #8 ---- Reviews: https://github.com/scaffold-eth/burner-connector/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-04-01..2024-04-30+ ------------- abi.ninja: BuidlGuidl/abi.ninja ---- add useIsMobile hook and udpate copy: #84 ---- allow more networks for proxy contracts: #81 ---- remove localnetwork for now: #86 ---- allow abi.ninja to iframe into any app as safe app: #76 ---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-04-01..2024-04-30+ ------------- scaffold-base: BuidlGuidl/scaffold-base ---- configure coinbase wallet sdk beta: #3 ---- Reviews: https://github.com/BuidlGuidl/scaffold-base/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-04-01..2024-04-30+ ------------- grants.buidlguidl.com: BuidlGuidl/grants.buidlguidl.com ---- Private notes: #117 ---- Allow admin to add note: #108 ---- Reviews: https://github.com/BuidlGuidl/grants.buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-04-01..2024-04-30+ -------------",
+    "timestamp": 1715442527
+  },
+  {
+    "tx": "0x4b671b33297579a2ffcc24efb02203face58023c5762669f936ff6794dfd3bdd",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.9,
+    "reason": "Se-2: #827, #829, #830, #837, #840, code reviews. Sre-2: migration of all challenges to wagmi v2. Se-2 docs: #66, #67",
+    "timestamp": 1715426149
+  },
+  {
+    "tx": "0x59d062dd63eb2461994d94118db08265c17546a54d4b362c8cc0e00418c3a419",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.2,
+    "reason": "April work: 🏰 BG App v3: General site design proposal: logo adaptation, fonts, UI, hero & card sections (recent activity & recent builds) + follow-up revisions. ———— ✨ BG Grants: Opened issue #26/ reviewed PR #119 for fixing featured grants apect ratio, Member distinction in CTA section (issue #66). Designed grants section for BG site. ————  🥷🏻 ABI Ninja: Unfurl address images (issue #89) ————  👀 Address vision logo (issue #55) & redesign ideas ————  💎 EF org banner for SRE ad ———— 🛸 Other: Gitcoin grants banner image, new icon. General tweaks in design group.",
+    "timestamp": 1714756393
+  },
+  {
+    "tx": "0x651f1ec66a33bd19a3145c7d114ec6b470b838da6809ae792fe1876f75a90abd",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.3,
+    "reason": "April work: Burner Wallet development and PR reviews. SE-2 PR reviews.",
+    "timestamp": 1714680397
+  },
+  {
+    "tx": "0x015919b87ed462f7a1c906ee0958c8d70eacbd855abfd107683cce80107c1fa5",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "address-vision-port:  ---- Fix/dark mode flashing: https://github.com/BuidlGuidl/address-vision-port/pull/61 ---- Twitter/telegram etc. fancy cards (unfurls) : https://github.com/BuidlGuidl/address-vision-port/pull/58 ---- Implement a simpler addresscard: https://github.com/BuidlGuidl/address-vision-port/pull/51 ---- Minor UI fixes: https://github.com/BuidlGuidl/address-vision-port/pull/50 ---- Fix/better navbar: https://github.com/BuidlGuidl/address-vision-port/pull/48 ---- Fix/zero totalbalances: https://github.com/BuidlGuidl/address-vision-port/pull/47 ---- Resolve and push the ens to urlbar in Navbar: https://github.com/BuidlGuidl/address-vision-port/pull/44 ---- Reviews: https://github.com/BuidlGuidl/address-vision-port/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-03-03..2024-05-01+ -----------------------------------------    ----------------------------------------- abi.ninja:  ---- Use viem for detecting proxy contracts logic: https://github.com/BuidlGuidl/abi.ninja/pull/82 ---- Pass undefined to AlchemyProvider: https://github.com/BuidlGuidl/abi.ninja/pull/80 ---- Remove extra footer: https://github.com/BuidlGuidl/abi.ninja/pull/75 ---- Only add uids to overloaded methods: https://github.com/BuidlGuidl/abi.ninja/pull/73 ---- Enable proxy contracts: https://github.com/BuidlGuidl/abi.ninja/pull/72 ---- Decompile ABI using a heimdall-rs backend: https://github.com/BuidlGuidl/abi.ninja/pull/71 ---- Add unique ids, use them when adding/removing methods: https://github.com/BuidlGuidl/abi.ninja/pull/70 ---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Aportdeveloper+merged%3A2024-03-03..2024-05-01+ -----------------------------------------",
+    "timestamp": 1714558785
+  },
+  {
+    "tx": "0x2e5d6655f49566d78214baf803b3baaaed738ab99aeca24bb13160ab913631e4",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.35,
+    "reason": "Extra April 2024: BG Grants tweaks (https://github.com/buidlGuidl/grants.buidlguidl.com) -- Create-ETH work (https://github.com/scaffold-eth/create-eth) -- Batch4 organization + mentorship (https://github.com/BuidlGuidl/batch4.buidlguidl.com) -- On-going work + reviews on SE-2, Burner Wallet, ABI Ninja.",
+    "timestamp": 1714556067
+  },
+  {
+    "tx": "0x3db2f6f03bcb65277460fc146cf9563eb182f8b00b8c3565819ca7aec55ea902",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Sre-2: backmerge se-2 changes. Se-2: cli solidity frameworks flags & cypress tests rnd, minor fixes, code reviews.",
+    "timestamp": 1713009519
+  },
+  {
+    "tx": "0x6fafced8f29aa1f5a8a2694f4b31c461e7a5776a374df8ab601bc7b9efcb38da",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.45,
+    "reason": "March work: ———— SE-2. PRs: #782 Review PRs: #749 #757 #766. ———— SE-2-Challenges. Review PRs: #149 #150 #153 #154 #158 ———— abi.ninja. Review PRs: #69 ———— SE2-Docs. Review PRs: #58 #59 ———— Grants. PRs: #53 #57 #58 #73 #76 #78 #81 #89 #90 #93 #95. Review PRs: #51 #59 #94 #95. ———— Batch #3. Support in TG and review batch candidates before start. ———— BGv3. Create wireframes for new homepage. ———— ETHLondon Hackathon finalists with Dynos95",
+    "timestamp": 1712616573
+  },
+  {
+    "tx": "0x70001175432b4a415fc33940b85f9328ac0dae22a0da57eaf259dbacee21bd56",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.9,
+    "reason": "SE-2 (github.com/scaffold-eth/scaffold-eth-2/pulls): #784, #780, #769, #768, #766, #757, #756, #750, #749 Reviews: ?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-03-01..2024-03-31+  ---  BG Grants (github.com/BuidlGuidl/grants.buidlguidl.com/pulls): #100, #94, #80, #77, #72, #65, #61, #60, #59 Reviews: ?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-03-01..2024-03-31+  ---  SRE Challenges (github.com/scaffold-eth/se-2-challenges/pulls): #153, #150 Reviews: ?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-03-01..2024-03-31+  ---  abi.ninja: github.com/buidlguidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-03-01..2024-03-31+",
+    "timestamp": 1712600097
+  },
+  {
+    "tx": "0xc98a56a75b32670059eed835cdd9eb1fd1355daef2fc87046cac59db26ec086f",
+    "builder": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+    "ens": "damianmarti.eth",
+    "amount": 0.5,
+    "reason": "March work: Burner Wallet (https://github.com/BuidlGuidl/burnerwallet) and PRs reviews",
+    "timestamp": 1712172091
+  },
+  {
+    "tx": "0xaa26736d8aa902478234165a020a521a50421881c4389c6a916e6e636371ea2a",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 0.75,
+    "reason": "March work: ✨ BG grants: Issue #87 (New images for featured grants), Issue #66 (Member distinction in CTA section), Spacing & general tweaks. ———— 👾 The Builder Show: Improved thumbnail design, Music search & animation improvements for intro, Thumbnails + intro for episodes 2 & 3. ———— 🥷🏻 Decompile path UI designs for ABI Ninja. ———— 🏰 Logo ideas & tests for BGapp v3  ———— 🦕 ethLondon DynOS95 project!",
+    "timestamp": 1712068999
+  },
+  {
+    "tx": "0x29c66e9b796609810f1e0199d2a9012e31448534baccde2c6765421b26ce2666",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.45,
+    "reason": "Extra March 2024: BG Grants shipped (https://github.com/buidlGuidl/grants.buidlguidl.com) -- ETH London + hackathon project finalist (https://github.com/carletex/DynOS-95) -- Kick-off burnerwallet project (https://github.com/BuidlGuidl/burnerwallet) -- Batch3 organization + mentorship (https://github.com/BuidlGuidl/batch3.buidlguidl.com) -- On-going work on SE-2, BGv3 & SRE",
+    "timestamp": 1711992723
+  },
+  {
+    "tx": "0x7ba6e66be13427faadde0751941b0df77897b08e07fc7eba91385648fc2afb5c",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.7,
+    "reason": "Sre-2: migrated challenges 3, 4, 5, 6 to next14. Se-2 and Sre-2 code-reviews",
+    "timestamp": 1710684945
+  },
+  {
+    "tx": "0xe7813c23f879994659953bbcb56cce4e25411ac69b24630af453bdaa57a647ba",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 0.9,
+    "reason": "----------------------------------------- scaffold-eth-2:  ---- add foundry flatten script: https://github.com/scaffold-eth/scaffold-eth-2/pull/746 ---- fix contract code tab in blockexplorer: https://github.com/scaffold-eth/scaffold-eth-2/pull/741 ---- Cli backmerge: https://github.com/scaffold-eth/scaffold-eth-2/pull/740 ---- add refresh reset at ContractUI: https://github.com/scaffold-eth/scaffold-eth-2/pull/739 ---- Fix cursor stealing & display loading for AddressInput: https://github.com/scaffold-eth/scaffold-eth-2/pull/738 ---- cli next template readme + foundry sepolia chains update: https://github.com/scaffold-eth/scaffold-eth-2/pull/731 ---- latest cli back-merge: https://github.com/scaffold-eth/scaffold-eth-2/pull/728 ---- add basic example to show connected address: https://github.com/scaffold-eth/scaffold-eth-2/pull/721 ---- up rainbowkit version to 1.3.5: https://github.com/scaffold-eth/scaffold-eth-2/pull/719 ---- use next-themes for handling theme: https://github.com/scaffold-eth/scaffold-eth-2/pull/712 ---- Up usehooks ts: https://github.com/scaffold-eth/scaffold-eth-2/pull/707 ---- Reviews: https://github.com/scaffold-eth/scaffold-eth-2/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-02-01..2024-02-29+ -----------------------------------------   ----------------------------------------- grants.buidlguidl.com:  ---- Update Address component to acceipt link prop: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/49 ---- Add status timpestamps: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/45 ---- Tweak completed grants page: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/43 ---- Stats tweaks : https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/42 ---- Hero section minor tweaks: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/40 ---- Ecosystem impact grants section: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/33 ---- Community grants section: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/25 ---- use swr for fetching and mutations: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/24 ---- use route handler for applying of grants: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/20 ---- Homepage skeleton: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/15 ---- Seed data script and example: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/10 ---- Submit grants page: https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/8 ---- Reviews: https://github.com/BuidlGuidl/grants.buidlguidl.com/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-02-01..2024-02-29+ -----------------------------------------   ----------------------------------------- abi.ninja:  ---- add middlware to redirect /[contractAddress] requests to mainnet by default: https://github.com/BuidlGuidl/abi.ninja/pull/69 ---- Improve structs UI : https://github.com/BuidlGuidl/abi.ninja/pull/68 ---- Add base, scroll and ZkSync: https://github.com/BuidlGuidl/abi.ninja/pull/59 ---- Remove hardhat package and update gh-actions file: https://github.com/BuidlGuidl/abi.ninja/pull/55 ---- Reviews: https://github.com/BuidlGuidl/abi.ninja/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-02-01..2024-02-29+ -----------------------------------------   ----------------------------------------- se-2-challenges:  ---- Chall5: Make it autograder ready: https://github.com/scaffold-eth/se-2-challenges/pull/143 ---- Chall4: Make it autograder ready: https://github.com/scaffold-eth/se-2-challenges/pull/142 ---- Chall3: Make it autograder ready: https://github.com/scaffold-eth/se-2-challenges/pull/141 ---- Reviews: https://github.com/scaffold-eth/se-2-challenges/pulls?q=is%3Apr+is%3Aclosed+reviewed-by%3Atechnophile-04+merged%3A2024-02-01..2024-02-29+ -----------------------------------------",
+    "timestamp": 1710243485
+  },
+  {
+    "tx": "0xee9af6c45ea186bf8b4dec8719f1ccd219459273481d2ffe7aabd4cb4c3b78af",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 0.65,
+    "reason": "February work: ———— SE-2. Review PRs: complex struct inputs, next-themes, rainbowkit upgrade, CLI backmerge and others.  #702 #712 #719 #721 #726 #728 #734 #738 #745 ———— SE-2-Challenges. Review chall 0, chall 1, chall 2 and chall 3 next14 migration, test next-theme upgrade, . Support users in TG #128 #130 #131 #132 #134 ——— abi.ninja v2. Add and Review different features until v2 release, PM. #46 #47 #48 #52 #53 #55 #57 #61 #62 #65 #69 ———— address.vision. Add total balances card and network icons #43 ———— BG Grants. Research other grant programs websites, grab ideas and bring them to project notion. Create second iteration of wireframes, PM. Create and review PRs: #25 #39 #40 #42 #46 #49 #50 #51",
+    "timestamp": 1709890227
+  },
+  {
+    "tx": "0xf385bfffcd4f8ddfc9edf20e6ed4d152450d0423d1bad7f5fa93678d95c44cab",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1,
+    "reason": "February work: ✨ BG grants: Branding (logo & different versions, fonts and colors), UX/UI research, site wireframing & sections design, stat icons, card design & image covers (featured grants & abstract img experiment), design revisions, dark mode tweaks. Social media posts + Font bought. 🎛️ Bow tie friday thumbnail & Youtube banner tweak.",
+    "timestamp": 1709552257
+  },
+  {
+    "tx": "0x7fee252209b3c4c42a6e7eea8fd9222c0133ad77bed84268b6033f012c2150d3",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "address vision frame -> https://github.com/portdeveloper/frames-experiment-1, address.vision fixes -> https://github.com/BuidlGuidl/address-vision-port/commits/main/, gulltoppr -> https://github.com/portdeveloper/gulltoppr/commits/master/, contributing to abi.ninja, recording a promo video for se-2",
+    "timestamp": 1709501857
+  },
+  {
+    "tx": "0x9ff882626caea6753325fc2fb05e893bbf30673aa2ad829c66672d676c9f3947",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.35,
+    "reason": "Extra Feb 2024: BG Grants (https://github.com/buidlGuidl/grants.buidlguidl.com) -- SRE challenges test update (https://github.com/scaffold-eth/se-2-challenges) -- Autograder SE-2 ready (https://github.com/austintgriffith/speedrun-grader) -- Batch2 organization + mentorship (https://github.com/BuidlGuidl/batch2.buidlguidl.com) -- On-going work on SE-2, BGv3 & SRE",
+    "timestamp": 1709315163
+  },
+  {
+    "tx": "0x5413e4b1f2ba1645856a85042422489fa0ef235819d5b528f0d21bec6dfed52b",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Se-2: code reviews. Sre-2: updated muiltisig backend, migrated challenges 0-2 to next14, refactoring, code reviews",
+    "timestamp": 1707753829
+  },
+  {
+    "tx": "0x31f6654a1b55218b3cd8efa913a97136e4acf006393247f89c6be7d513fb16fd",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.3,
+    "reason": "January Work: SE-2 (PR's): App router migration final work: https://github.com/scaffold-eth/scaffold-eth-2/pull/535#issuecomment-1879794609 -- EthersV6 migration (hardhat) -- https://github.com/scaffold-eth/scaffold-eth-2/pull/692 -- Fix broken blockexplorer page - https://github.com/scaffold-eth/scaffold-eth-2/pull/699 -- CLI Backmerge - https://github.com/scaffold-eth/scaffold-eth-2/pull/685 ------ SE-2 (Reviews): #696, #697, #683, #637 ------ AbiNinja (PR's): allow locahost - https://github.com/BuidlGuidl/abi.ninja/pull/32 ------ AbiNinja (Review's): #34, #35, #36, #37, #44 ------ sandgarden.buidlguidl.com (PR's): Use Ponder indexer to fetch events - https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/6 -- Fetch events from old + new contract - https://github.com/BuidlGuidl/sandgarden.buidlguidl.com/pull/4 ------ SE-2 docs (PR’s): Recipe for reading `uint` - https://github.com/scaffold-eth/se2-docs/pull/48 -- Constructors args example - https://github.com/scaffold-eth/se2-docs/pull/54 ------ SE-2 docs (Review): #50, #52, #56 ------ SE-2 SRE (Reviews): Update multisig backend: https://github.com/scaffold-eth/se-2-challenges/pull/122, #126 ------ Little help with batches PR reviews",
+    "timestamp": 1707566897
+  },
+  {
+    "tx": "0x3aef94bf76c68f4cb2abe6e4da071b46ab1aad90459ad5a6f13e52426a347dcf",
+    "builder": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+    "ens": "pabl0cks.eth",
+    "amount": 1.4,
+    "reason": "January work: ———— SE-2. Test app router migration, tweak Readme adding viem, app router fixes and screenshot. #685 #691 #705 ———— SE-2-Challenges. Review base challenge next14 migration, test challenge 6 new backend and update Readme. Support users in TG #122 #124 #126 ——— SE-2 Docs. Adapt docs to App Router, add Foundry to verify section and add hardhat-verify method, review new recipe. #56 #54 #52 #50 #48 ———— abi.ninja v2. Add and Review different features until v2 release, add AnyABI fetching, PM. #31 #32 #34 #35 #36 #44 ———— Research AI training and different approaches to get a trained bot to response questions about SRE Challenges. Train Challenge 0 assistant with PrivateGPT, chatGPT 3 approaches (fine tunning, assistant and GPT).",
+    "timestamp": 1707438349
+  },
+  {
+    "tx": "0x2fb532f4afa1455854dc8e2c79b462a1947062c04223ebd0d503319d88e10cce",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.47,
+    "reason": "abi.ninja migration work: worked on; https://github.com/BuidlGuidl/abi.ninja/pull/36, reviewed: https://github.com/BuidlGuidl/abi.ninja/pull/35, small fixes on address.vision, https://github.com/BuidlGuidl/address-vision-port/commits/main/, focusing on my CS studies, reviewing abi.ninja PR's also writing an article about abi.ninja, working on frames for farcaster as well",
+    "timestamp": 1706899153
+  },
+  {
+    "tx": "0x1f66601c2297881cf74b0c35da1fcb12431b8ee9e40f649a37b74a53657d06be",
+    "builder": "0x4cbe80191e63567191668d860acabaf15dac5512",
+    "ens": "andrealbiac.eth",
+    "amount": 1.3,
+    "reason": "👚 EthDenver swag: brainstorming, new stickers/ sticker sheet designs + new t-shirt illustration! Trading game visuals for EthDenver hangout. General design group PM and organisation. 🎙️ The Buildr Show: Thumbnail design work, adaptations for social media posts, pm along with Eda, intro and outro animation. 📼 SE-2 series: nerdy music for intro. 🎛️ Tweaks on wallet recovery and adress vision’s logo. ",
+    "timestamp": 1706788371
+  },
+  {
+    "tx": "0x2a6392b67681c8276e07df9a7a1fe868a17bd779bbd8f3c75e63acbecc640fd2",
+    "builder": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+    "ens": "inc.carletex.eth",
+    "amount": 0.65,
+    "reason": "Extra Jan 2024: BG Poder Indexer + deploy (https://github.com/BuidlGuidl/bg-ponder-indexer / https://bg-ponder-indexer-production.up.railway.app/) -- SRE challenge Multisig backend deploy (https://github.com/scaffold-eth/se-2-challenges/tree/multisig-backend) -- Batch1 organization + mentorship (https://github.com/BuidlGuidl/batch1.buidlguidl.com) -- Prepare data for impact committee -- Withdraw tax data for 2023 -- Bonus BG (https://github.com/BuidlGuidl/bonus.buidlguidl.com) -- Draft blogpost: \"How to be successful at BG\" -- Kick-off grants.buidlguid.com build -- Sand Garden project overseen (abininja v2, se-2-challenges) -- On-going work on SE-2, SE-2 docs, BGv3, batch-template ",
+    "timestamp": 1706780031
+  },
+  {
+    "tx": "0x36e5cbe54b3e4d36376835d3fecc3db2717f48d98a06885899983e91e69b8018",
+    "builder": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+    "ens": "shivbhonde.eth",
+    "amount": 1.3,
+    "reason": "SE-2 (PR’s): DaisyUI V4 - https://github.com/scaffold-eth/scaffold-eth-2/pull/656 — Displaying of custom error - https://github.com/scaffold-eth/scaffold-eth-2/pull/638 — Patch scaffoldConfig typeError - https://github.com/scaffold-eth/scaffold-eth-2/pull/641 — Patch getParsedError - https://github.com/scaffold-eth/scaffold-eth-2/pull/649 — Allow Iframe SE-2 (safeConnector) - https://github.com/scaffold-eth/scaffold-eth-2/pull/667 — JSDoc Cleanup - https://github.com/scaffold-eth/scaffold-eth-2/pull/665 — Hardhat Ignition Migration - https://github.com/scaffold-eth/scaffold-eth-2/pull/644 — Issue Template update - https://github.com/scaffold-eth/scaffold-eth-2/pull/651, Weekly CLI backmerge - #648, #671, #674 ——— SE-2 (Reviews) : #630, #653, #660, #665, #669, #647 ——— SRE Challenge (PR’s): Multisig transaction feedback - https://github.com/scaffold-eth/se-2-challenges/pull/118 ——— SRE Reviews: #112, #116 ——— SE-2 docs (PR’s): Desc about multichain config - https://github.com/scaffold-eth/se2-docs/pull/45 ——— SE-2 docs (Reviews) - #33, #44 ———  AbiNinja (PR’s) : Contract details page - https://github.com/BuidlGuidl/abi.ninja/pull/31 ——— AbiNinja (Review) : #21",
+    "timestamp": 1704736915
+  },
+  {
+    "tx": "0x6135609d114544ff61f95a12296ec0e73c65b4aca921843e84993889ccf35655",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "address.vision work: https://github.com/BuidlGuidl/address-vision-port/pull/29, abi.ninja work: https://github.com/BuidlGuidl/abi.ninja/pull/31, https://github.com/BuidlGuidl/abi.ninja/pull/21",
+    "timestamp": 1704300853
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "tx": "0x00d08dc049cd0279b6dface1fa03bb7d5c80f742f10ed939a8f5f6220886e7fd",
+    "builder": "0x64473e07c7a53a632dde287ca2e6c3c1ac15af29",
+    "ens": "shora.eth",
+    "amount": 0.5,
+    "reason": "Preparing for launching p/dash: https://github.com/posaune0423/p_dash (I'm working on offchain proof part.)",
+    "timestamp": 1725414263
+  },
+  {
+    "tx": "0xe73953405a8c12f62e49fef54b96ef7a8ebdd4d4401fc89e117aee52df050a20",
+    "builder": "0x64473e07c7a53a632dde287ca2e6c3c1ac15af29",
+    "ens": "shora.eth",
+    "amount": 0.5,
+    "reason": "launching p/war: https://github.com/pixelaw/p_war",
+    "timestamp": 1720266059
+  },
+  {
+    "tx": "0x35311ee3bc7004623211d13af1d96bd9ed2f85248b51b9ff2a28b6e9b794f8b7",
+    "builder": "0x64473e07c7a53a632dde287ca2e6c3c1ac15af29",
+    "ens": "shora.eth",
+    "amount": 0.5,
+    "reason": "Launching PixeLAW on Devnet.",
+    "timestamp": 1711979315
+  },
+  {
+    "tx": "0x4bd376a5a60c6f675696b2a312bd4dac298aa8dd08a7d946218c3928e3dfbb04",
+    "builder": "0xe6c071051885b9e4fa20ae5629d8af26a2f3a32a",
+    "ens": "boffeez.eth",
+    "amount": 0.5,
+    "reason": "Launching War3 on Blast mainnet",
+    "timestamp": 1708561127
+  },
+  {
+    "tx": "0xca2f298ebf4b5ddce05872a5f3a268683c1124fc63ebdcf58d20b5dc0ed43fad",
+    "builder": "0x64473e07c7a53a632dde287ca2e6c3c1ac15af29",
+    "ens": "shora.eth",
+    "amount": 0.5,
+    "reason": "work on PixeLAW. Two outputs are coming in next month: \"Disentangling Composability and Interoperability(article)\" and \"incentive propagation mechanism(whitepaper or smth)\"",
+    "timestamp": 1708504475
+  },
+  {
+    "tx": "0x6793a30a626dbf7573bfeac41faa5b6ed137d46d80dc9a24ee72ed105f12b658",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "roll-op: integrate blockscout + update to Canyon, 0xFable: implement various game actions, proof bypass & deterministic testing, improve state updates and derivation",
+    "timestamp": 1702823831
+  },
+  {
+    "tx": "0xb4936ee982e562b263181a4833bb51b0d7e2372dd5ec1a8e24b715e5649a531b",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "0xFable: wallet-less transaction signing via custom wagmi connector, integrate circuit with frontend (found a bug in snarkjs!) & logic to prove in web worker (https://github.com/0xFableOrg/0xFable/pulls?q=is%3Apr+is%3Aclosed) ;; cross-chain research: set initial direction (https://github.com/0xFableOrg/xchain/pull/1)",
+    "timestamp": 1698767159
+  },
+  {
+    "tx": "0xaf1a5a9226fc15e6226ec51ebf4fc52b61eb715d91ada6552d7e0245a748929d",
+    "builder": "0x9687c70dcfe21c6198703c813cdaec9d3458e068",
+    "ens": "therealbytes.eth",
+    "amount": 0.4944,
+    "reason": "Re-engineered another 10% of concrete-geth. Added gas-prices to EVM operations. Built codegen tools for solidity libraries calling precompiles and golang statically typed storage structs and tables. [1] Implemented cannon proofs. [2] Created benchmarks comparing native Go, the EVM, and multiple WebAssembly runtimes and languages. [3][4] Re-wrote ticking-optimism. [5] -- [1] https://github.com/concrete-eth/concrete-geth [2] https://github.com/concrete-eth/optimism/tree/concrete-cannon [3] https://github.com/therealbytes/quicksort-wasm-benchmark [4] https://github.com/therealbytes/snailtracer-benchmark [5] https://github.com/concrete-eth/optimism/tree/ticking",
+    "timestamp": 1696245419
+  },
+  {
+    "tx": "0x974d30e11f4629bf61b21cdac61a59ad3d459250a1f3fadb7a01b73121b5d22b",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "work on roll-op (formerly simple-op-stack-rollup), now able to deploy a rollup to any EVM chain",
+    "timestamp": 1695960671
+  },
+  {
+    "tx": "0x60b2d9e2d1db7e447e9d2fea85b37909e3526184d9da8564706396f374480076",
+    "builder": "0x9687c70dcfe21c6198703c813cdaec9d3458e068",
+    "ens": "therealbytes.eth",
+    "amount": 0.5,
+    "reason": "Re-engineered 70% of the concrete-geth codebase to incorporate significant enhancements: integrated EVM compatibility into the precompile API, doubled the execution speed of WASM precompiles, and incorporated an e2e testing tool, among others. https://github.com/concrete-eth/concrete-geth",
+    "timestamp": 1693682015
+  },
+  {
+    "tx": "0x82620ef5f8915783b569674c38bbf8ea578744ab6262f7ce73f701a506591113",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "woopsies",
+    "timestamp": 1692286991
+  },
+  {
+    "tx": "0x5118e4e98f3cc19f0ad0301364d40f52c4aa21ca72030d2d4371334f2e15c1bc",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0,
+    "reason": "work on 0xFable (revamp proofs + frontend commit + prove flow), multiple talks on rollups for games at EthCC, design notes + 1 talk on decentralized/shared sequencing, work on devops to easily deploy op-stack (https://github.com/0xFableOrg/simple-op-stack-rollup)",
+    "timestamp": 1692286955
+  },
+  {
+    "tx": "0x2bc49fd5b146159c361b71f5d14a0843843bf969f26ead620a46168af73e0ecb",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "work on 0xFable + decentralized/shared sequencing in June and a bit in July",
+    "timestamp": 1689584915
+  },
+  {
+    "tx": "0x6d36835f446a19826b5c21d5694de9ded1f06439b77e3d1d2f5901eb1f6dbc89",
+    "builder": "0xf78cd306b23031de9e739a5bcde61764e82ad5ef",
+    "ens": "ronan.eth",
+    "amount": 0.5,
+    "reason": "Building tools for onchain games and general dx ethereum-indexer, forge-deploy, forge-exec",
+    "timestamp": 1688022143
+  },
+  {
+    "tx": "0x1c17efd256561b0a589211c07ea120c9ea6553686852d951445cac68227b3204",
+    "builder": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+    "ens": "norswap.eth",
+    "amount": 0.5,
+    "reason": "work on 0xFable over the month of May: https://github.com/norswap/0xFable",
+    "timestamp": 1686230015
+  }
+]

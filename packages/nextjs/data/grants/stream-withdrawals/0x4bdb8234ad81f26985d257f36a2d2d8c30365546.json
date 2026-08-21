@@ -1,0 +1,130 @@
+[
+  {
+    "tx": "0x217ace59c62b2c1c3a4475b8bb1dcecc1917a2d4a27512ca622ceead1f4e6641",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "- https://github.com/Quantum3-Labs/scaffold-stark-2/pulls?q=is%3Apr+is%3Aclosed - https://github.com/Quantum3-Labs/speedrunstark/issues?q=is%3Aissue+is%3Aclosed",
+    "timestamp": 1716312575
+  },
+  {
+    "tx": "0xdb30c4aa8c7f54046090df004f4e7793f1a29b6a4eb72922b9bcae2236b82b33",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "    - Published Stormbit v2, using diamond proxy as the contract framework     - Published v1 of scaffold-stark     - Published first iteration of speedrunstark.",
+    "timestamp": 1713607667
+  },
+  {
+    "tx": "0x052710a3d882eac5c99f0a9bc7481b34efbd25976e3755355debdbe48ab5424a",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "-submission of new build : Scaffold-stark-2 mvp \\n -Updates on stormbit buidl  https://app.buidlguidl.com/build/UQoIGF1kBony5GE8hzW4.",
+    "timestamp": 1710950279
+  },
+  {
+    "tx": "0xd78c4c452800aaff341b2b817a8ac74797af7565ab369cf99b5f63faf3db653c",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "Build StormBIt @ https://app.buidlguidl.com/build/UQoIGF1kBony5GE8hzW4",
+    "timestamp": 1708346987
+  },
+  {
+    "tx": "0xbdb3b1a7c753fd9371530069db3b88745e65c34d0425140a45413ebde8da4224",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.2,
+    "reason": "updates on scaffold uniswap v4, contracts and design",
+    "timestamp": 1706977583
+  },
+  {
+    "tx": "0x4ed11bf633ec05ee5d11037fb9b5dcfa3b6a44487e39f7edb7df9c0641ed7beb",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.3,
+    "reason": "FootyDAO v2 - MultiChain",
+    "timestamp": 1702049327
+  },
+  {
+    "tx": "0x284e6c68313423cf66f1444f475f2c9ea846e78acaff687932f1a41ba97f19ea",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "Updates scaffold uniswap hooks , wip v2",
+    "timestamp": 1698742739
+  },
+  {
+    "tx": "0x617e06643648a6086dde47e888dd28de375d8eea4c9495bd28969b3608298892",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "Submit Build : Scaffold Uniswap (https://app.buidlguidl.com/build/IRStz8M0Lnkp8TiYu4jt) https://github.com/scaffold-eth/scaffold-eth-2/pull/531",
+    "timestamp": 1695883091
+  },
+  {
+    "tx": "0x3a5a6f447d66b7364a831939b40b849136512fec075025aeecb437beb59e2f48",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.4,
+    "reason": "weekly updates on foundry package",
+    "timestamp": 1693404047
+  },
+  {
+    "tx": "0x5ff22363d3ca6a0d7c30abac8b3504df1e9b9fb70b5db2eca9170570abcf712e",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "- Omnichain Governor standard - Eth Paris - Scaffold-chainlink-functions - first iteration - Foundry package - second iteration",
+    "timestamp": 1691174507
+  },
+  {
+    "tx": "0x41d1138ffd75d20193446007bb40b0ee8772b42f4c6b520f576c29862b941a10",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.1,
+    "reason": "- wip https://github.com/scaffold-eth/scaffold-eth-2/pull/406 - updated FootyDAO/v2",
+    "timestamp": 1690142531
+  },
+  {
+    "tx": "0xa5f7cd8222f7db098324bf4c2b4d8579b8eec7709cc462aa078e58c5156e5bde",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.3,
+    "reason": "Build FootyDAO ( https://github.com/jrcarlos2000/FootyDAO/tree/v2)",
+    "timestamp": 1688528231
+  },
+  {
+    "tx": "0x539ff838d1063c386d211cd47e2ff37f0b6f33584274db9748c632af4df509fd",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-2/pull/353",
+    "timestamp": 1687286543
+  },
+  {
+    "tx": "0xeccee20cb024a39dbfcf93025768d44981aeabe6024d196c5696b69a0ec6db0f",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.3,
+    "reason": "Build SquadGoals",
+    "timestamp": 1685502107
+  },
+  {
+    "tx": "0x121b526ba27a655f8fecbd49428084cf70d0380fbc722d8eaab3ab4c8fd52316",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-2/pull/353",
+    "timestamp": 1685110859
+  },
+  {
+    "tx": "0xd2d4d08c84d643f3813c605f4516310182d4c4dfc26bfa75a1858b7eebbb6c78",
+    "builder": "0x4bdb8234ad81f26985d257f36a2d2d8c30365546",
+    "ens": "jrcarlos2000.eth",
+    "amount": 0.5,
+    "reason": "Building Diamond Challenge for Scaffold Eth Challenges",
+    "timestamp": 1682393627
+  }
+]

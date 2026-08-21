@@ -1,0 +1,58 @@
+[
+  {
+    "tx": "0xb1885f6677d34c24cd0e6f3bf99b15c0be9a05aaf87f256d4ad4e9097fd2f98c",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "ronk (rust plonk)",
+    "timestamp": 1715016623
+  },
+  {
+    "tx": "0xd6fe03270728e8129d69ad3467aa4454d9d6e96cadb6fe16bc7da16075000311",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "Arbiter Work",
+    "timestamp": 1711447523
+  },
+  {
+    "tx": "0x583939bb6fb4a2d0c6114f42b1b232f76bfcb0c5782ed1e4b69b8e382ec79305",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "Arbiter Engine Crate ",
+    "timestamp": 1708100159
+  },
+  {
+    "tx": "0x0b2f10d9e767f30135cf83d69cc3fb0f9609055bab2113fc0cc40379ef10b6aa",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "DevConnect",
+    "timestamp": 1701529187
+  },
+  {
+    "tx": "0x2a07a4ea952cc83768be10049a58bbf14cf768a1b03de817bff8b28ff9ae66b1",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "Devconnect",
+    "timestamp": 1694975147
+  },
+  {
+    "tx": "0x3faf9559590dec4cc5ffdf8c49f09d47afa310ddbeb86b5b6ddb4784a711aeb1",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "EthCC Hacker House",
+    "timestamp": 1690912775
+  },
+  {
+    "tx": "0xca9f50b83b1c67291b774aa92dcb844a545fb9bc17a3c234ba00ce02bfc70cbb",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 1,
+    "reason": "ETHCC hacker house",
+    "timestamp": 1686936467
+  }
+]

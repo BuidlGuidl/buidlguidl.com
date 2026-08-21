@@ -1,0 +1,82 @@
+[
+  {
+    "tx": "0xea1db3107cfcd1edee7b05310f0fdc9c70a470124cef906e5bc17d5de23eadcb",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.1,
+    "reason": "Delving further into wallet operations",
+    "timestamp": 1707075947
+  },
+  {
+    "tx": "0x578f96012dccc482f5eda155cc5da15cd1c8508126ea511a5345e3cca3c559a3",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.4,
+    "reason": "Delving further into wallet operations, transfer of funds, resolving of addresses(ENS), Nft transactions and ease of use",
+    "timestamp": 1706122907
+  },
+  {
+    "tx": "0xde2e8f0d5de0259418688805efc5c1a473fa4048795cfac76751e42e1159117c",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.5,
+    "reason": "deep dive into ease of usability and understanding of crypto wallets  ",
+    "timestamp": 1703767727
+  },
+  {
+    "tx": "0x0427c5bbb0f67c82547b0d0f82f061fc3ea652bbcd703c6da103987129ba4dc2",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.1,
+    "reason": "oken wrapper - https://app.buidlguidl.com/build/Y7jFPavrDOKtxHNP91or",
+    "timestamp": 1700856095
+  },
+  {
+    "tx": "0x732619f6bd2951beac1d9e76989dac54fb4ee1f22abde1381ec920ca12079e4f",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.4,
+    "reason": "building with se-2 and climbing up the tech tree; Token wrapper - https://app.buidlguidl.com/build/Y7jFPavrDOKtxHNP91or",
+    "timestamp": 1699858583
+  },
+  {
+    "tx": "0x9c866f5b8db58c632353f5046b3d9367848be9d90c19e371c09da12f9420dafb",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.5,
+    "reason": "building with and exploring the eth tech tree",
+    "timestamp": 1697722343
+  },
+  {
+    "tx": "0x8ccfa2810336f224da540ebde18cdb1ad0de5ecc22776e01aa1e6c4331b82b14",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.5,
+    "reason": "continued updates https://github.com/michasa001/ether-cli & picking up on smart contract wallets",
+    "timestamp": 1694596847
+  },
+  {
+    "tx": "0x9d3cac364849783ca3eb0f4592b01b66e41eb433132dcf65285e48f72cbea71f",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.25,
+    "reason": "eth cli - https://app.buidlguidl.com/build/46LoXgPsrfXaAU4ONeap",
+    "timestamp": 1692104087
+  },
+  {
+    "tx": "0x1fb849e1ea487c8bb73fb4c1a795659e8c1f9a55a86e203e5e985232d0381418",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.25,
+    "reason": "reviewing sre challenges and research on eth tech tree projects",
+    "timestamp": 1690830239
+  },
+  {
+    "tx": "0x5087d0b5f0dfd6617d00fdc6f67114a8532d0f3da23cdeb5c32a4d9d5ab46cb6",
+    "builder": "0x0db9858a4bcebd73f01d87e3577a2e2850b46130",
+    "ens": "michael001.eth",
+    "amount": 0.5,
+    "reason": "Rusty Scarecrow - https://app.buidlguidl.com/build/CM4W2KJWzUU8ORb0P73O || Dex - https://app.buidlguidl.com/build/IMs2ytEuKcyvYUM8cjzq || Multisig(Creation Service) https://app.buidlguidl.com/build/KuJ3XuJKeecPyodnrUCA",
+    "timestamp": 1689310295
+  }
+]

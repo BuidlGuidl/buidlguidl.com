@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0xd369a6eaf9403c39f6f9e1a01ea477a27f9177a64615d6dcd7de111eeb5b8f29",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.5,
+    "reason": "previously reverted",
+    "timestamp": 1768186331
+  },
+  {
+    "tx": "0x8f6fbb74c56a39ccc656770595f077a05403d61f21ee47dcaf44ee78905a6111",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.0499,
+    "reason": "https://github.com/TobiasBK/scaffold-eth-delegate-call",
+    "timestamp": 1666082771
+  },
+  {
+    "tx": "0x557e8fa01e2fd92ea33cbc9a5f6b3cbf55186dffc99b952bfde436505768b8e9",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.5,
+    "reason": "working on an NFT game and technical docs for eth-hooks",
+    "timestamp": 1663303823
+  },
+  {
+    "tx": "0x45498dd7314387a183336252834728a64e46c953b6fcc6b63b62493858386c02",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/eth-hooks/pull/206, https://github.com/scaffold-eth/eth-hooks/pull/212 ",
+    "timestamp": 1653453701
+  },
+  {
+    "tx": "0x69e7ef437b2a7e853fbd1dc29852748cb57bbfc25589793238165fed8ba6b1b3",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.25,
+    "reason": "scaffold-eth docs: https://github.com/scaffold-eth/eth-hooks/pull/198, https://github.com/scaffold-eth/eth-hooks/pull/190",
+    "timestamp": 1651033209
+  },
+  {
+    "tx": "0xbdac44dd66a1ec5eb45342921d88ac43e6e1b0a25218712be8a97f8e3c8ad747",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.25,
+    "reason": "eth-hooks docs: https://github.com/scaffold-eth/eth-hooks/pull/179, https://github.com/scaffold-eth/eth-hooks/pull/187",
+    "timestamp": 1646785067
+  },
+  {
+    "tx": "0x9d2d09cc585c4bbea4f3caa6eb0efba1b8d4edda69a03858df558ff137e4e4e4",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.25,
+    "reason": "developing docs for eth-hooks (in progress)/https://github.com/scaffold-eth/eth-hooks/pull/180",
+    "timestamp": 1645902318
+  },
+  {
+    "tx": "0x93acf039da1cc6a6f9e7fdf07d96e6195d9867db56b1addb986f5507cdc501bd",
+    "builder": "0x62769593d8d0a682ebe17935af40df57185ec169",
+    "ens": "txbias.eth",
+    "amount": 0.00009,
+    "reason": "developing docs for eth-hooks (in progress)/https://github.com/scaffold-eth/eth-hooks/pull/180",
+    "timestamp": 1645902190
+  }
+]

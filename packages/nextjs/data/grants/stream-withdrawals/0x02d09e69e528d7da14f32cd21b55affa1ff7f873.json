@@ -1,0 +1,37 @@
+[
+  {
+    "tx": "0xac0eb1c71d4265aa60823bd425f9582eb6b529a848b3c1d565bc45c34ae910c6",
+    "builder": "0x02d09e69e528d7da14f32cd21b55affa1ff7f873",
+    "amount": 0.4,
+    "reason": "Withdrawing with my compromised wallet",
+    "timestamp": 1699753235
+  },
+  {
+    "tx": "0x61a670f9b160595b006b63fce8fd6a571b010f07e53b4ce9b6a1f69be97e82e1",
+    "builder": "0x02d09e69e528d7da14f32cd21b55affa1ff7f873",
+    "amount": 0.5,
+    "reason": "flashbotting",
+    "timestamp": 1696730039
+  },
+  {
+    "tx": "0x6e8ca792e0766e1c1d16c8ccc43d7387027b316e0fa0d7b3a0c04a09616c9ca1",
+    "builder": "0x02d09e69e528d7da14f32cd21b55affa1ff7f873",
+    "amount": 0.3,
+    "reason": "continue working on miniSwap https://github.com/nzmpi/miniSwap",
+    "timestamp": 1693966151
+  },
+  {
+    "tx": "0xc8bd8729656095c6777c016956848665c07e12ad7261bd5f6d4bd85ef5825367",
+    "builder": "0x02d09e69e528d7da14f32cd21b55affa1ff7f873",
+    "amount": 0.3,
+    "reason": "Built StAdds and showed it on the Bow Tie Friday https://app.buidlguidl.com/build/AsdohGLc4tVbZ9ruQZNW | building miniSwap https://github.com/nzmpi/miniSwap",
+    "timestamp": 1692318239
+  },
+  {
+    "tx": "0xcab799ec311480e3eab39761853edcf2c914d6ffe05f9835b211791415b7e65b",
+    "builder": "0x02d09e69e528d7da14f32cd21b55affa1ff7f873",
+    "amount": 0.5,
+    "reason": "Built Peeps and showed it on Bow Tie Friday https://app.buidlguidl.com/build/8V9UuqywXMTq0kFwDjsY",
+    "timestamp": 1689687059
+  }
+]

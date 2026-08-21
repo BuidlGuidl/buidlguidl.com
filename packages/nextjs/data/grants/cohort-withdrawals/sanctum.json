@@ -1,0 +1,456 @@
+[
+  {
+    "tx": "0xfd9fc81d4fbb63115323ca4009667dbd6904556b9bf3fd80632fe9ba16d5fbd9",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.23,
+    "reason": "Assited with BGMedia, work on Signature Voting for eth-tech-tree",
+    "timestamp": 1721946935
+  },
+  {
+    "tx": "0xbc77075c4ad78c74017a8e45ec8f6a3cdc651aa970395de4eff59a66c928bcf9",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "ETH Tech Tree Development - 1) Token Vote Delegation 2) Preparing Viem Challenge",
+    "timestamp": 1720524659
+  },
+  {
+    "tx": "0xdc32b39e0199dc393497c2241e293c6610fe926f559561c5cd4bf98034b3ca99",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "Tasks for May-June related to The Graph Cohort Stream: 1) Convert launchpod to graph token app and test it on sepolia 2) Update USD display for token price in hacker display, contract balance, and historical withdrawals using api data 3) Update Unfurl. Learning for May-June: 4) Further leveling up typescript skills",
+    "timestamp": 1720466507
+  },
+  {
+    "tx": "0xe67f268e740b04fa8ea1f94a38888f972d537d4fcb6ff37cce5283a6e758c0d2",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.5,
+    "reason": "I have been  learning  vue inother to work on https://github.com/ceeriil/scaffold-eth-vue.git",
+    "timestamp": 1719156155
+  },
+  {
+    "tx": "0x4b71e85714fe745b8268ece1f782c64440466d88299c45bf0e41f4e0922bf7ce",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.5,
+    "reason": "Deploy landing/marketing site for FanSociety.xyz, deploy FanSociety on sepolia. Lots of help needed, contact me to contribute.",
+    "timestamp": 1718822903
+  },
+  {
+    "tx": "0x9f7d1bd8aa3e2b1e82f3de68f9972f9607e0edba27a072a16abc1bdccd584d3c",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.3,
+    "reason": "BuidlGuidl & Node101 Istanbul Workshop",
+    "timestamp": 1718376503
+  },
+  {
+    "tx": "0xa8b8bc4de135d5bf78cd02a979de07b4b2e9d705f20d1148d4d0c3e15f1b43d8",
+    "builder": "0xca7632327567796e51920f6b16373e92c7823854",
+    "ens": "dannithomx.eth",
+    "amount": 0.32,
+    "reason": "Built a Decentralized Multilevel Affiliate Marketing System that allows users to earn active and passive income. | https://github.com/p2e-inferno/ref-protocol",
+    "timestamp": 1716516215
+  },
+  {
+    "tx": "0xb24dae68cbc51537a72717aa97f33aea577745ff9674aabb0020e12a1ca56527",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.42069,
+    "reason": "Data indexing for all Buidl Guidl stream cohort contracts deployed on Ethereum and Optimism using Ponder to create a GraphQL server and PSQL database. The front end fetches, paginates, and sorts the data 👉 https://github.com/MattPereira/streamogator",
+    "timestamp": 1716352847
+  },
+  {
+    "tx": "0x23a6e86c638a41e629d848027a42f286827cc3b1677f1caa516008ae9c299bf3",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "I did a Buidl Guidl & Scaffold-Eth 2 workshop at one of the best universities in Turkey (https://x.com/BlockchainYtu/status/1785364079479017789) && Continued support to new builders in Turkey by creating new Turkish documents and links for them && I'm also in talks for new Buidl Guidl events.",
+    "timestamp": 1715621723
+  },
+  {
+    "tx": "0x9e8f78c7bac889fbc706827ce80d852adfadda52ad86a5a69de760287061d8fb",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.1,
+    "reason": "worked on a couple pages for https://github.com/dicethedev/BuilderRegistry",
+    "timestamp": 1715432183
+  },
+  {
+    "tx": "0x42bdbc67ea377a8eb9de367d2f0bf7be553293d1da0e40e86782778d0b3f7db6",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.7,
+    "reason": "Added filtration of invalid addresses from contacts list & edited unequal split ui for smaller screens, Fixed removal of cache after expiry for spliteth.com,  Added admin feature to increase and decrease hidden characters for pkdice.com during a game",
+    "timestamp": 1715421455
+  },
+  {
+    "tx": "0xa48cc203633681df723f6ac9c1e41381e96b4e1d7a12aa918da1c1da64195215",
+    "builder": "0xabd10f0a61270d6977c5bfd9d4ec74d6d3bc96ab",
+    "ens": "devorsmth.eth",
+    "amount": 0.4,
+    "reason": "Experimenting: 1) Using the Harberger Tax for an NFT with a cheap mass minting feature https://github.com/nzmpi/HarbergerNFT. 2) A contract that uses transient storage for its modifiers and approve txs https://github.com/nzmpi/TransientLock. 3) Trying to implement BTC on the EVM (wip)",
+    "timestamp": 1715173835
+  },
+  {
+    "tx": "0xbbf4fb227e036337a018c809d4a2549c586ba42bfbdd66db1a36b29fd8148f5d",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.1,
+    "reason": "Working on https://github.com/Ifechukwudaniel/scaffold-eth-vue",
+    "timestamp": 1714827047
+  },
+  {
+    "tx": "0xb8b84f703e4537f6b5537dfc1583634e737e76de3e2b9063fbfa16b42fb756ed",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.2,
+    "reason": "Speaking at Lagos Zero to Dapp Workshop  on April 26 and 27  ",
+    "timestamp": 1713988439
+  },
+  {
+    "tx": "0xd69e9f4a646e4a4165c3ce90235b326d27c5f2b85cd533dbac9878ac212b2ff4",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.5,
+    "reason": "Published UUPS educational build",
+    "timestamp": 1713646679
+  },
+  {
+    "tx": "0x50860bfdedf7c106862967786d8bf5356fc80ce2478994beeb55168be07733cb",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 1,
+    "reason": "⚙️ Setup configurations, 📜 backend scripts, 📖 documentation, and 🏗️ frontend of Scaffold Balancer v3 👀 https://github.com/Dev-Rel-as-a-Service/scaffold-balancer-v3",
+    "timestamp": 1713159383
+  },
+  {
+    "tx": "0xc9a204df9499d0ace0705f8d9af8bbcd0d88a2189e1575e89fd35b5a5572f32e",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "The cost of BuidlGuidl&Scaffold-Eth event that will be done with YTU Blockchain // Onboarding Turkish developer community by keep doing meetups to give workshops // Preparing Turkish documents for BuidlGuidl and Scaffold-Eth ",
+    "timestamp": 1713015995
+  },
+  {
+    "tx": "0x82795f91cc9287812661663214de6c85207e054a34466a47ebe269f59b55ce75",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.35,
+    "reason": "Rounding Up Builder Register V1  Loom Videe  https://www.loom.com/share/a86450afe91b4d6996e85d2ccd7f7534 Github  Link  https://github.com/ethereumAbuja/BuilderRegistry",
+    "timestamp": 1712940251
+  },
+  {
+    "tx": "0x909e80ce0da6f7b52b9b64595ad310e8f98a12a5331f57bddfc8c96476ad0887",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 1,
+    "reason": "split.buidlguidl.com - https://github.com/BuidlGuidl/Eth-Splitter : configured caching for persistence of split data when reloading and switching split types (#65), Fixed rounding of total Eth for unequal splits and added amounts to split urls (#63), fixed currency switching in etherinput for unequal eth splits (#60), Added contacts list (#54 —> #55) —————— pkdice.com - https://github.com/BuidlGuidl/private-key-dice : Fixed sweeping gas handling following EIP-4844 upgrades on optimism (#35)",
+    "timestamp": 1712566523
+  },
+  {
+    "tx": "0xc263c0d4418ba33fa945442b57e69aa97a92f7d94d2db8e981ab62dd8134b445",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.5,
+    "reason": "I have spent the past few weeks developing a game called MEOW App. It's a gaming platform designed to educate players about cats and their needs while they enjoy playing. This project aims to be a comprehensive application featuring a dashboard for donations, a marketplace for cat accessories, a menu for feeding cats, and a gamified system for a personalized experience. You can find the first version of the game on GitHub at the following link: https://github.com/electrone901/meow-buildguild",
+    "timestamp": 1712185007
+  },
+  {
+    "tx": "0x81feac90c1dd9e712e0c5ebdafd211af3ec776148e0209c68eaf567d3528e307",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1) slider for private key dice build https://app.buidlguidl.com/build/Lj6bZoZshKhQdzNYMYuJ  https://github.com/BuidlGuidl/private-key-dice/pull/5 2) Eth Splitter Logo update  https://github.com/BuidlGuidl/Eth-Splitter/pull/49 3) Smart contract as accounting system build work for February and March  https://github.com/cacosta88/business-entity-accounting-v3 4) Leveling up front-end skills 5) Smart contract security research",
+    "timestamp": 1711980815
+  },
+  {
+    "tx": "0x81b5f00d0b9851678559eb18a5007028c67de8e9aa2f7a39dcaa6a7e1e525eb7",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.377,
+    "reason": "Completed Contributions, Contributors, Bounties pages for the builder registry,  I also worked on nouns  Avatar and I started working on Admin Pages, Event Page (https://github.com/ethereumAbuja/BuilderRegistry)",
+    "timestamp": 1711106615
+  },
+  {
+    "tx": "0x82eb6426f52c28ef8ad0209bc1273cfd2f5f059130d9921470f77dcb8f85bc02",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "Working on doing local events about Scaffold-Eth&BuidlGuidl in Turkey and onboarding new developers, studying and working the Graph with Scaffold-Eth (https://github.com/mertcanciy/theGraph-SE-Mertcan) ",
+    "timestamp": 1710420383
+  },
+  {
+    "tx": "0xe507fc7f638f18f56409508aa9281258ad22441600343afc06b512f0dc7ee2c5",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 0.9963,
+    "reason": "https://pkdice.com/ - https://github.com/BuidlGuidl/private-key-dice:  Added brute mode rolling for guessing private keys, implemented useSweepWallet hook to automatically sweep a private key when a user correctly guesses the hidden characters, removed data from the player screen that shouldn't be accessible by them, added announcement notifications for all users and the host, converted dice animation from web3m format to gif, fixed private key switching when restarting a game, configured vercel for backend, resolve QR code to auto-join a game, and introduced feature to load punk wallet for the winner. PRs #6, #7, #14, #21, #25————  http://spliteth.com/ - https://github.com/BuidlGuidl/Eth-Splitter:  querying wallets list into a url, Header display and responsiveness on small screens, added feature to toggle all unequal ether input fields PRs #37, #43, #45, #47",
+    "timestamp": 1709969759
+  },
+  {
+    "tx": "0xd643dc9eca2c75a49a5d85c8946bc16a40b286a250c655c6f84f985759999029",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.35,
+    "reason": "BuidlGuidl ETHDenver hacking on TheGraph for FanSociety, bug report for graph-cli, https://github.com/graphprotocol/graph-tooling/issues/1607; https://github.com/gotnoshoeson/FanSocietyv2",
+    "timestamp": 1709742371
+  },
+  {
+    "tx": "0x2692d93326bde72025ae4d0f01b504732bc78b6cee2036101ca47c56cddfe990",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.42,
+    "reason": "Helped new BG members ship a public goods funding platform at Eth Denver Buidlathon 👉 https://github.com/mattpereira/fundguys",
+    "timestamp": 1709708435
+  },
+  {
+    "tx": "0x5ec2e4e3156f928298a73f36fe10604c27db3a243ead72766c667d7dd949bc2d",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.484,
+    "reason": "I've been involved in enhancing the UI for Eth-Splitter, handling backend tasks for the impact calculator, and actively engaging in discussions within the build guild. https://github.com/electrone901/impact-calculator",
+    "timestamp": 1709356907
+  },
+  {
+    "tx": "0x78bdfb7b54b6c9a3a9eb4518f5967e1c204d48e473410b20df58beae4fd7f226",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.2,
+    "reason": "Completed Builder Registry  Backend Routes  , And Components ",
+    "timestamp": 1709227475
+  },
+  {
+    "tx": "0x9e1338ce8d78bde9a9ef6cde13961032739b30d8e7960c5b0ba006c6686bb7f2",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "address vision frame -> https://github.com/portdeveloper/frames-experiment-1, address.vision fixes -> https://github.com/BuidlGuidl/address-vision-port/commits/main/, gulltoppr -> https://github.com/portdeveloper/gulltoppr/commits/master/, contributing to abi.ninja, recording a promo video for se-2",
+    "timestamp": 1709129291
+  },
+  {
+    "tx": "0xe3ea857d67b17d90ef35648e80b35475e610937b73c7ea3c85fd4f66471a4647",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.25,
+    "reason": "🏗 BuilderRegistry V1 The 🏗 BuilderRegistry is a platform for overseeing Ethereum communities and their outreach initiatives. Its objective is to provide a means to accurately quantify the number of builders within remote communities worldwide. Additionally, it facilitates implementing a bounty system, enabling protocols to create bounties to engage these smaller communities effectively.",
+    "timestamp": 1708161863
+  },
+  {
+    "tx": "0xcd74a354e5ceb8854fbcc2988125f54f76f58e526e8cd8e963c9a2246dde0851",
+    "builder": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+    "ens": "milespatterson.eth",
+    "amount": 0.5,
+    "reason": "Getting FanSociety ready for public testnet",
+    "timestamp": 1707880847
+  },
+  {
+    "tx": "0x645ae6ed09e08b38197783b32181b693e97f52cb2c5166ef35633eb43813a8ae",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/BuidlGuidl/Eth-Splitter/pull/39 // https://github.com/BuidlGuidl/sanctum-stream-cohort/pull/5 // Some new visualization parts for https://github.com/mertcanciy/Buidl-Visual",
+    "timestamp": 1707743411
+  },
+  {
+    "tx": "0x99f1ce329bb20dec5415f912ddb1e9e2a2deba683919b2dcfa1796fab16da963",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.3,
+    "reason": "⚡ Speedrun Ethereum in a Farcaster frame 👉 https://warpcast.com/austingriffith/0xbb079cae 👀 https://github.com/BuidlMasons/buidl-frames",
+    "timestamp": 1707622331
+  },
+  {
+    "tx": "0xead023273a0733611b89ec20fdf0950cb5cb8cd5717a51541fe2642a94c5346f",
+    "builder": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+    "ens": "avelous0x.eth",
+    "amount": 1,
+    "reason": "split.buidlguidl deployment and prs : #19 - UI responsiveness and contract updates, #23 - Walletsfilter for unresolved ens, Export lists… and other small fixes",
+    "timestamp": 1707343811
+  },
+  {
+    "tx": "0x035d5babdedb0ca2f36f2d8b7f280059f88d6b2437773c474ae112ff89d76355",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1) Business entity accounting system build https://github.com/cacosta88/business-entity-accounting-v3/commits/main/?since=2024-01-03&until=2024-02-01     2) BG logo update for  sanctum,goldenage ,starkware , balancer and ens cohorts   3)  metasplitter build set up  https://github.com/cacosta88/metasplitter 4) Smart contract security research  and in-line assembly practice  ",
+    "timestamp": 1707068795
+  },
+  {
+    "tx": "0x39f101b8020a3c1eab998d43b9d48431df81f1eb2c2763bff534fc4b461689f4",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.15,
+    "reason": "Added funding for  Zero To Dapp workshop Lagos",
+    "timestamp": 1706866343
+  },
+  {
+    "tx": "0x1220ab48a8f8c80e7a52978eb9860f93734cf3a9ddee78e35b3b96b00a6d5a30",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.5,
+    "reason": "Engaged in various projects alongside the BG, actively acquiring skills in smart contract development and security. Created a game called Secret Santa,a decentralized game that provides a fun and secure way for users to participate in a Secret Santa gift exchange using crypto tokens. https://github.com/electrone901/secret-santa",
+    "timestamp": 1706846999
+  },
+  {
+    "tx": "0xe6234734344ba2fee1ce9e890356dcd51fa28391cb3d5bf8375c402f80e6113f",
+    "builder": "0xca7632327567796e51920f6b16373e92c7823854",
+    "ens": "dannithomx.eth",
+    "amount": 0.5,
+    "reason": "SE-2-Diamond build, SE-2-Privy build, Supplies | https://github.com/blahkheart/se-2-privy | https://github.com/blahkheart/se-2-diamond",
+    "timestamp": 1706833931
+  },
+  {
+    "tx": "0x4250c49e542899f96fb3e94bd3e055971fcc977cc8354886e99005187bd57d52",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.4997,
+    "reason": "abi.ninja migration work: worked on; https://github.com/BuidlGuidl/abi.ninja/pull/36, reviewed: https://github.com/BuidlGuidl/abi.ninja/pull/35, small fixes on address.vision, https://github.com/BuidlGuidl/address-vision-port/commits/main/, focusing on my CS studies",
+    "timestamp": 1706435279
+  },
+  {
+    "tx": "0x7f0b65296b9f37d44b21df80e590990edb6918d49ca594fa6e3a230790353444",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.5,
+    "reason": "Speaking  at ETH Accra Workshop And Zero To Dapp workshop Lagos",
+    "timestamp": 1706039027
+  },
+  {
+    "tx": "0xf5110869cb5e785b131a7097457173a0d90df4b1f1ae94fa6df892ebcc95e0f1",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.5,
+    "reason": "Dynamic SVG NFT [https://github.com/MattPereira/only-buidlors] && Defi Challenge transplant into SE-2 [https://github.com/scaffold-eth/Scaffold-ETH-DeFi-Challenges/pull/28]",
+    "timestamp": 1705722119
+  },
+  {
+    "tx": "0x0d5ea8bf7b9ca0ad80901558cdd021e5d4faa869f6768cc7d7f0d646f96a4893",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "checking the buidlguidl buidls' excel table and arranging some parts. Also visualization of the Excel: https://github.com/mertcanciy/Buidl-Visual  -- New BuidlGuidl Memes",
+    "timestamp": 1705510763
+  },
+  {
+    "tx": "0x8b3d9966baf6922607c64cc57c2e39d3294e4b40af5c325d1f6fa96508c9bbf6",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "on : address.vision work: https://github.com/BuidlGuidl/address-vision-port/pull/29, abi.ninja work: https://github.com/BuidlGuidl/abi.ninja/pull/31, https://github.com/BuidlGuidl/abi.ninja/pull/21, studying dsa, working on abi.ninja migration",
+    "timestamp": 1704707111
+  },
+  {
+    "tx": "0x5c8e91b02176d0c8e138c777976a3065abc88044767ad863dcc688bd5f26fa2a",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 1,
+    "reason": "Deployed a new version of ethsplitter ui and contracts - ethsplitter-v2.vercel.app  at https://github.com/BuidlGuidl/Eth-Splitter/tree/new-ui  ———  Catching up on cryptography & evm",
+    "timestamp": 1704484043
+  },
+  {
+    "tx": "0x0d6da5553ca31f3da0152d0a8b674e68117b8171be4a5c6f244256cd33a5896a",
+    "builder": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+    "ens": "caiocosta.eth",
+    "amount": 0.5,
+    "reason": "1)\tUnfurl and miscellaneous updates to LaunchPod. https://github.com/BuidlGuidl/LaunchPod-Deploy 2)\tETHSplitter + RPGF Splitter. https://app.buidlguidl.com/build/NRNIUj2S5G7cIYZ6fTon 3)\tContinued work on business entity accounting smart contract and front-end. https://github.com/cacosta88/business-entity-accounting 4)\tSmart contract security and inline assembly research",
+    "timestamp": 1704300887
+  },
+  {
+    "tx": "0x257483af941ec116672a2a07cee04ffeb271d27974bcf1025f9bb4a50032d3b9",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.45,
+    "reason": "Created a game called PetType Quest, a typing game with a pet-feeding concept where users create an account and set up a virtual pet. https://github.com/electrone901/PetType-Quest",
+    "timestamp": 1704255959
+  },
+  {
+    "tx": "0x22628c83d1796bbe4d5fbbf3de6696a87be36bc94e30c559e4c681a08132f3d1",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.25,
+    "reason": "Contributed to OP-RetroPGF3-Discovery-Voting https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/issues/161 https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/issues/176 https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting/issues/133",
+    "timestamp": 1703199623
+  },
+  {
+    "tx": "0x21b9e19724338910b8a8202405a9d5fd180f7234d9dd898cfe9023a51a6a2399",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.5,
+    "reason": "BeatBridge Smart contract and frontend for BeatBridge , BeatBridge Is a  music for  web3  platform  on Spotify https://github.com/Ifechukwudaniel/BeatBridge ",
+    "timestamp": 1703191655
+  },
+  {
+    "tx": "0x0665231f3804a65dc944821cff45764865a86952ddf3dfc346578645b8e0ef6a",
+    "builder": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+    "amount": 0.5,
+    "reason": "https://app.buidlguidl.com/build/QuTwqYiv0u3qbqrMKRyG: Dice Game - Hack the private kay buidl",
+    "timestamp": 1702885043
+  },
+  {
+    "tx": "0xf88896b3cb8a541296efd0afc694385cf886d31bc668b74f68e39fc666843162",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.25,
+    "reason": "Frontend work on upDev (https://github.com/bshevchenko/updev) Setup work for Defi Challenges (https://github.com/scaffold-eth/Scaffold-ETH-DeFi-Challenges/pull/26)",
+    "timestamp": 1702789739
+  },
+  {
+    "tx": "0x7072b07679925e03aabae8250fc84bd26da7bd15c55fc0d05e73fdd8ea2b4372",
+    "builder": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+    "ens": "merttcanc.eth",
+    "amount": 0.5,
+    "reason": "SRE Challenge Testing & Working on constructing a language model to recommend withdraw amount for buidlers. ( https://github.com/mertcanciy/Buidler-Withdraw-Amount-Recommendation)",
+    "timestamp": 1702478183
+  },
+  {
+    "tx": "0x8e5b3e765e956c91751a1d31f26d507078c067e3b991bb2774a6c9c58dc446ef",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "completed the heimdall-rs backend that uses actix, built with rust: https://github.com/portdeveloper/gulltoppr , simple se-2 frontend for gulltoppr is at https://github.com/portdeveloper/heimdall-fe",
+    "timestamp": 1702115591
+  },
+  {
+    "tx": "0xe97357f7e07ebf1f16c66226edd3adee75ec3eea7b8ac361b4fdad1ab1285e32",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.25,
+    "reason": "Vaults of Fortune, a contest that illustrates the fundamentals of ERC-4626... https://github.com/MattPereira/vaults-of-fortune",
+    "timestamp": 1701494711
+  },
+  {
+    "tx": "0x9e529522fe6665cd8c7460caf7cd57aa97fb7e47ecc2facebc8adbf0a57ffb0d",
+    "builder": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+    "ens": "coderxyz.eth",
+    "amount": 0.5,
+    "reason": "I've been actively involved in the retro public goods funding-discovery-voting project, and I've also developed the Social Developer Token app.",
+    "timestamp": 1700544983
+  },
+  {
+    "tx": "0x8c0b99f66769513fc500e11fad62de8d5b8a68da350c97e60aa1b1047ed0c3f3",
+    "builder": "0x41f727fa294e50400ac27317832a9f78659476b9",
+    "ens": "matthu.eth",
+    "amount": 0.25,
+    "reason": "Shipped and presented Speedrun Chainlink, a beginner's guide for integrating price feeds, VRF, and automation... https://github.com/MattPereira/speedrun-chainlink",
+    "timestamp": 1700268527
+  },
+  {
+    "tx": "0x57b61a73dc726bcfa3f6459a003fa19dd6072a1a65a109f81ae39186ca766687",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/BuidlGuidl/event-wallet/pull/71",
+    "timestamp": 1700117915
+  },
+  {
+    "tx": "0xfb6abb3f1113a470fc2545bf2e82df010f4ef124d0d12c0314938c367c097146",
+    "builder": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+    "ens": "ifechukwudaniel.eth",
+    "amount": 0.1,
+    "reason": "https://github.com/BuidlGuidl/event-wallet/pull/71",
+    "timestamp": 1700009387
+  }
+]

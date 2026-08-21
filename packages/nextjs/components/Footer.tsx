@@ -27,6 +27,9 @@ export const Footer = () => {
               <Link href="/2025" className="m-0">
                 2025 Recap
               </Link>
+              <Link href="/grants-archive" className="m-0">
+                Grants Archive
+              </Link>
               <a href="https://github.com/scaffold-eth/scaffold-eth-2" target="_blank" rel="noreferrer" className="m-0">
                 Scaffold-ETH 2
               </a>

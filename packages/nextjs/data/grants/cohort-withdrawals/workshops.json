@@ -1,0 +1,170 @@
+[
+  {
+    "tx": "0x8d07d97e60fc6a9579d52412f951784c2c8c8788009889523e4d6a02e70fd694",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Urbe Campus Buenos Aires workshop on Scaffold-ETH, Devconnect workshop on Introduction to SRE",
+    "timestamp": 1767028283
+  },
+  {
+    "tx": "0xd80d4763217552b5ae8eb547570d9a800556978c101be53c80e41678f479d5f6",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Scaffold-ETH workshop for Web3mates, Scaffold-ETH workshop for Dev3pack virtual",
+    "timestamp": 1766720399
+  },
+  {
+    "tx": "0x0520baf54da24b6452cb7a1fbf10ce12bf2eae31da2652ab324e3478d3150829",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke and judges ETH Bishkek virtual, spoke and judged at ETH Latam",
+    "timestamp": 1765025159
+  },
+  {
+    "tx": "0x282b365c9b9d448743dc24c35562a368350c2840a32f506dec7dee0e8784cc52",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at ETHGlobal New Delhi and interfaces on stablexoins bg and sre, helped support dev3pack with intro to scaffold-eth workshops. Scaffold-Eth workshop at Build ETH",
+    "timestamp": 1761507935
+  },
+  {
+    "tx": "0x025ea10ad21b53d0001a34d490c06c1b23eae7c6069b5e225edca13b09f7e6d8",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at ETH Warsaw on Scaffold-ETH, 12 projects built on SE2 ",
+    "timestamp": 1759212971
+  },
+  {
+    "tx": "0x424bce9491bf246fb4637ed3dda3d6f9c7275132c1437f9fc4cd32b9921b2dae",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at EthCC workshop on SE2, BG and SRE, spoke at ETHGlobal Cannes workshop on SE2 and team formation",
+    "timestamp": 1757871983
+  },
+  {
+    "tx": "0x912b81097c7ce4900833efe0cd6bf1236ed0238f3c6742f7cddc93fca57367e8",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Spoke at Web3 DevRel Summit about BuidlGuidl and community, se2 workshoos at ETHGlobal Prague and EthPrague",
+    "timestamp": 1756395503
+  },
+  {
+    "tx": "0xcf74e355580117caf119cc012921cba7162cd31aafec43dc9dc1b41adfecd37a",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Workshop at ETH Prague, intro to Scaffold-ETH, workshop at ETHGlobal Prague on stablecoins, Support Dev3pack cohort online for 75 builders",
+    "timestamp": 1755077819
+  },
+  {
+    "tx": "0x783a838ca9791ed3937bfeb281dbed4ef83cd038f80ade80f36efd45e65090e3",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "gave 3 virtual workshops for Dev3pack (75 students) https://www.youtube.com/watch?v=a_4VUIqhC2s&list=PLvimYWRMGIoV3E_Dk6igFooWBEN1kAHaN, Gave 3 virtual workshops for ETH Rwanda (15 members), Spoke at University of Hawaii and Ethereum Development 101 luma event workshop on SE2 (15 attendees) https://lu.ma/9y4ycrgq",
+    "timestamp": 1752303551
+  },
+  {
+    "tx": "0x718ccbd32cb0329d014dc9a6a68bcd96054a1201e336ed5969d78a10bfa6e797",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at ETH Denver, workshop on SE2 https://youtu.be/n_FdZcBvoLE?si=YzN4lJdMCKbxmUbf, Spoke at Ink House, SE2 workshop, gave 3 virtual workshops for dev3pack cohort 1 SE2 ",
+    "timestamp": 1749873647
+  },
+  {
+    "tx": "0x9314afe300cde44138c5a229eeebf3992fc355c5c71ddba99321cf59514da24f",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "Multiple Scaffold-ETH workshops at DevCon event, Workshop at ETH Global Bangkok and workshops at House of Web3 during ETHGlobal SF",
+    "timestamp": 1747267175
+  },
+  {
+    "tx": "0x2ceb3634cf2ed8255b4c204f16c8e87ece91404829b402a2dad2cb76a17ce63e",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1,
+    "reason": "Workshop on Intro to Full Stack dapp Development eorkshop at Taipei Blockchain Week, and also hosted a zkEVM workshop at House of Web3. 5 Session cohort for Web3 Accra (Blockchain, EVM, Solidity, hooks, components)",
+    "timestamp": 1744575767
+  },
+  {
+    "tx": "0x839ccfb4f54d05c4fa5e0d84e7c1ef887ce400b0dc38cccbfc73017b5ccfddd0",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.5,
+    "reason": "Presented 5 virtual HER DAO Workshop series on Full Stack dapp development with Scaffold-ETH, program on onboarded 30+ into Ethereum development https://youtu.be/Q7e2erOWGDo?si=K_8qdCDmwViTu2Py, spoke at Encode Club virtual workshop (week 1) on Scaffold-ETH",
+    "timestamp": 1741954751
+  },
+  {
+    "tx": "0x2b500c632c0589b8e7fc9aab8b8e3e4a70601e41ffed1e12b2580101d06231d2",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at ETH Warsaw 24', mentored hackers and judged the hackathon, 10 submissions and 3 winners",
+    "timestamp": 1741047167
+  },
+  {
+    "tx": "0x6b6035a9d0932caf315cfede38e911f91e6e5cdf586ba377f2dbef6b44618aaa",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 0.75,
+    "reason": "Spoke at ETHGlobal Singapore https://www.youtube.com/watch?v=0TYH9OOr_JQ and ETHGlobal Superhack (online) https://www.youtube.com/watch?v=vILheckwtPY",
+    "timestamp": 1739318471
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Spoke at EDCON, WaveHack Global Demo Days and Ethereum Quorum Tokyo",
+    "timestamp": 1738693259
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Spoke and organized Brussels Havkathon Prep, spoke at Urbe Campus event and at zero to dapp day",
+    "timestamp": 1738693259
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Organized and led SpeedRunErhereum Day Belgrade and spoke at zero to dapp day Belgrade",
+    "timestamp": 1738693259
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "Organized and spoke at Buidl Base Camp Berlin",
+    "timestamp": 1738693259
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+    "ens": "shutterblock.eth",
+    "amount": 1.5,
+    "reason": "FOSS Asia in Vietnam and ETH Prague",
+    "timestamp": 1738693259
+  },
+  {
+    "tx": "0x5402f6d680d75fa675971a220c2712631bb1cb4218e8adb9b1958426b3e7f18c",
+    "builder": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+    "ens": "genlyai.eth",
+    "amount": 0.8,
+    "reason": "EDCON Tokyo 2024",
+    "timestamp": 1738693259
+  }
+]

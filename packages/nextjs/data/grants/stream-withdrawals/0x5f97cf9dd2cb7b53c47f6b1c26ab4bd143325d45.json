@@ -1,0 +1,170 @@
+[
+  {
+    "tx": "0x213eb722da8dce3b5b59971e70f89ade46943925e7a2c3087ba682fd729c1f8f",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.775,
+    "reason": "Onchain Impact Dashboard kickoff, meetings, requirements, PRs. ETH Tech tree CLI PRs, organization, PR reviews",
+    "timestamp": 1718629451
+  },
+  {
+    "tx": "0xc008839d9fd49cb81b1bce6f0221afa5d5337a7aa5a84e96e27b19b764080490",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.45,
+    "reason": "ETH Tech Tree organization, PRs, PR reviews",
+    "timestamp": 1717154771
+  },
+  {
+    "tx": "0xbdf8a0a6198a6706f1f9a9355207e487964d98c0bb3d2bf66640f827922899ac",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.55,
+    "reason": "ETH Tech Tree planning, issue creation, discussion, general guidance",
+    "timestamp": 1716348191
+  },
+  {
+    "tx": "0xef434c099f26a40f7eeea7fb44287f9ec04c8ce4dd2ded37c0fd294bda0dac7c",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.375,
+    "reason": "Creating challenge 1, download, submission, testing workflows => https://github.com/BuidlGuidl/eth-tech-tree/pull/2/",
+    "timestamp": 1715372987
+  },
+  {
+    "tx": "0xb578a81b557313869aad899679f25a64be2295dec405d8fc5e62a3939cb5e740",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "Exploring ETH tech tree core concepts. Repo set up here with some initial steps: https://github.com/BuidlGuidl/eth-tech-tree",
+    "timestamp": 1714696895
+  },
+  {
+    "tx": "0xd5e27ed39ea41028af0431048a4dbaec90390993142f34f80dd6c54c16fa5292",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.85,
+    "reason": "Impact Calculator PRs, PR reviews, application submission and general oversight",
+    "timestamp": 1713472283
+  },
+  {
+    "tx": "0x47243390365d3a071896046df77fbfc5eade1ae84d043a4accf32ae52d854221",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "OP calls, Impact calculator designs/oversight, hackathon submission reviews",
+    "timestamp": 1711974431
+  },
+  {
+    "tx": "0xbc4cf55c4253b3773e871c1acb506f868c109c8cb8c5c7690e634d8c6a5333b1",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "Impact Calculator OSO data integration, new issues created, PR reviews, general guidance",
+    "timestamp": 1710862763
+  },
+  {
+    "tx": "0xd6a003cb3c1f02a8c5f188b7f1ceea4512dd86ad53da28dc536ddbad1e05cc3b",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "Impact Calculator PR reviews, issue submission, API requirements ",
+    "timestamp": 1709979971
+  },
+  {
+    "tx": "0x23e35d78df5a9e7ebb1dcda55efecc0ed3afb57d8f0437f19d33bee13e5e22fa",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "HWR updates - https://github.com/BuidlGuidl/flashbot-recovery-bundler/pull/21, organizing impact-calculator",
+    "timestamp": 1708181435
+  },
+  {
+    "tx": "0x0429e5f6c13157276587bcd58f35d5436d0772a2825c31c6c27782d77ffa8145",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "Flashbots PRs, User support, Impact Calculator PRs",
+    "timestamp": 1707012599
+  },
+  {
+    "tx": "0x5899a04f06e73881dc70f0f3cd0823ed35f60a12715d913f8092b444083e1cc9",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "Flashbots build PRs and Impact Calculator kickoff",
+    "timestamp": 1706389643
+  },
+  {
+    "tx": "0x5f606a6edbd0b38726c6c9329223f9eb54e819087c928a8cf82bfa6db2ecd4b5",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "Wording PR for hacked wallet recovery, continued progress on onchain mechs",
+    "timestamp": 1705507763
+  },
+  {
+    "tx": "0xce74632067209d3dc955eff6b0faca8bda270d4abd8d92e72a1cd678de8554d5",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "Donation MultiSig, Onchain Mechs",
+    "timestamp": 1700430167
+  },
+  {
+    "tx": "0x4563484df28183ca3791eb992144031a10d469c2ab3be285e2d3fa4cac2392e3",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.75,
+    "reason": "OP RPGF Build final stretch requirements",
+    "timestamp": 1698459947
+  },
+  {
+    "tx": "0xb309330186c4a99b06e446f82f9b891f381ad54eda92b03a90530773eb7f0a21",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "PRs, PR reviews on https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting",
+    "timestamp": 1697480831
+  },
+  {
+    "tx": "0x5e0c2c839629756bb9d202519dec6277289782fb5d4934fc22f647a8d3ba150d",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "https://app.buidlguidl.com/build/vNb5Orj3RkJxmmXrrdyL",
+    "timestamp": 1696101875
+  },
+  {
+    "tx": "0x0fac09500660568503271287073a04d563031e9324c277731016edbea0f20163",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.35,
+    "reason": "Spork Staker V2 setup and improvements ",
+    "timestamp": 1693941875
+  },
+  {
+    "tx": "0xd08034aaaa2ce2e5152475fb2e1456159ee1e912e3b644582288b2a78775c53a",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.15,
+    "reason": "scaffold-eth-pwa poc build",
+    "timestamp": 1693699079
+  },
+  {
+    "tx": "0x38bf015fcced4174f15b6f8039d749e9e82aedb85efde3d225ccd936aeff3b76",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 1,
+    "reason": "Created new Bulk Data Storage Build, Worked on OP RetroPGF, building out some components and general oversight of project.",
+    "timestamp": 1692018755
+  },
+  {
+    "tx": "0x3cfdbc1f7cf10e41bfac9be0c7baf06677a7e38dc9e7a66023b8680d3501f301",
+    "builder": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+    "ens": "gnole.eth",
+    "amount": 0.5,
+    "reason": "Improvements PRs made to ABI.ninja https://github.com/BuidlGuidl/abi.ninja/pull/19 https://github.com/BuidlGuidl/abi.ninja/pull/20",
+    "timestamp": 1690221191
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "tx": "0x25c43ef9fb251fbf9cf280f0c7e24633d2366db149d097ec130090f6536e4fe6",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Built out full e2e version of trinity https://github.com/cursive-team/trinity-v0",
+    "timestamp": 1734578387
+  },
+  {
+    "tx": "0x9cbf3809767cac4a4bf78bd7ac1b272c06245896bb99c3568dc9563e6963c639",
+    "builder": "0xc340b2c55d705cb4d1fb3a5d28399c7bc6fc6f37",
+    "ens": "bisht13.eth",
+    "amount": 0.5,
+    "reason": "Finish generic relayer for email tx auth, https://github.com/zkemail/ether-email-auth/tree/feat/generic-relayer",
+    "timestamp": 1730478371
+  },
+  {
+    "tx": "0xc7585849ed971916e992ba2bda8849144223125b5b97e563f46fea0a97f7f4be",
+    "builder": "0xc340b2c55d705cb4d1fb3a5d28399c7bc6fc6f37",
+    "ens": "bisht13.eth",
+    "amount": 0.5,
+    "reason": "Completed body parsing, https://github.com/zkemail/ether-email-auth/pull/59",
+    "timestamp": 1727736251
+  },
+  {
+    "tx": "0x7f3db9a45e5f66214aa02622e4e0c08ce662ae4845c1bc91b3b7168b5d1f4077",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Built https://github.com/cursive-team/frontiers, https://github.com/cursive-team/pz-hiring, open source multi-party FHE R&D",
+    "timestamp": 1726781099
+  },
+  {
+    "tx": "0x012e3e64fbaeb17628dfb04582abe3b35027c4a5af58afd2beb46a0d67cd9672",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0.35,
+    "reason": "Built out smart contracts for Revolut on-ramp integration: https://github.com/zkp2p/zk-p2p/tree/develop/contracts/contracts/ramps/revolut",
+    "timestamp": 1716299651
+  },
+  {
+    "tx": "0xed35620807b71ac11f4c2cc04258a9f8f207169165c7186e18db7ae6bafcd3d6",
+    "builder": "0x942eec0d07053dd6a455a13fb348bfca032ac268",
+    "amount": 0.5,
+    "reason": "Iterated github.com/zk-passport/proof-of-passport to semaphore-style design, now supporting new passport verifiers and disclosures",
+    "timestamp": 1715340395
+  },
+  {
+    "tx": "0x4ccb31f36313209ccef644abdfce71c67306880633d450a7ed34bea8650d0ef2",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Built github.com/cursive-team/zk-summit, iterated github.com/cursive-team/2P-PSI to production",
+    "timestamp": 1715250311
+  },
+  {
+    "tx": "0x34a99ce3735c57d2e1f1c05f3be1849fa4053892a21e0b3135cffa0516d0086b",
+    "builder": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+    "ens": "groth16.xyz",
+    "amount": 0.5,
+    "reason": "Dived deeper into TLSNotary. Deployed network of notaries for our Revolut integration. Gave a talk at Zk11 on the same. https://www.youtube.com/watch?v=_6Tvr_m6hd0",
+    "timestamp": 1715249963
+  },
+  {
+    "tx": "0x8a0690755fde18a26de4cc52e6d24661dc4f6d322132aa331c42f24bc41fdc5a",
+    "builder": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+    "ens": "alexsoong.eth",
+    "amount": 0.5,
+    "reason": "Onramp with Revolut via TLSN proof of payment dropping soon",
+    "timestamp": 1715125979
+  },
+  {
+    "tx": "0x1e58fb2e3a77efee1e8ba1ed20004d93ef280ba67d675e94dc2a36e8953a6b11",
+    "builder": "0xf6598ca199dc739848d342aef8bb16578382a2f6",
+    "ens": "richardliang.xyz",
+    "amount": 0.5,
+    "reason": "TLSN integration achieved internally 👀",
+    "timestamp": 1713881831
+  },
+  {
+    "tx": "0x4d19ce7fec92c32c8e5a9db2ad37fc08da86fa903c86be0afd7e5a3402a68286",
+    "builder": "0xab48f9d0d78039e3aa76b6b7aaa15e955d895f0b",
+    "ens": "andrewlu.eth",
+    "amount": 0.5,
+    "reason": "Built zk powered NFC experience at ZK Summit 11 + production application of folding schemes (https://github.com/cursive-team/zk-summit)",
+    "timestamp": 1713829331
+  },
+  {
+    "tx": "0x06ee4650779f596c05c3e466749e30e5ca5ce360006f23d17a1c26d0b1745145",
+    "builder": "0xc340b2c55d705cb4d1fb3a5d28399c7bc6fc6f37",
+    "ens": "bisht13.eth",
+    "amount": 0.5,
+    "reason": "Completed MVP for account recovery via email, https://github.com/zkemail/ether-email-auth",
+    "timestamp": 1713320495
+  },
+  {
+    "tx": "0xab6e74ff801be08050fa4ee81420f75eab258645d39f99b979d52dea984559a4",
+    "builder": "0x942eec0d07053dd6a455a13fb348bfca032ac268",
+    "amount": 0.5,
+    "reason": "Proof of passport beta releases. https://github.com/zk-passport/proof-of-passport",
+    "timestamp": 1712692043
+  },
+  {
+    "tx": "0x419598f4ede556f9ca26b5df574514f767b2a05e0f93aef283f5fb9ccf1b9feb",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0.5,
+    "reason": "Completed integration with Garanti at zkp2p!",
+    "timestamp": 1712159015
+  },
+  {
+    "tx": "0xe262b3a0611d7b595d06c5bf95e7bb02166c389107bd6ad9cc394b7280eae5a8",
+    "builder": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+    "ens": "groth16.xyz",
+    "amount": 0.5,
+    "reason": "Launched garanti integration. Building Wise integration (https://github.com/zkp2p/zk-p2p/pull/337)",
+    "timestamp": 1711670027
+  },
+  {
+    "tx": "0x058faea525a704f56d0cb09ec5778f2cee48eb7f58498f7b739b30d9e547ad6c",
+    "builder": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+    "ens": "alexsoong.eth",
+    "amount": 0.5,
+    "reason": "Building Garanti/Wise integrations: https://github.com/zkp2p/zk-p2p/pull/347",
+    "timestamp": 1711641587
+  },
+  {
+    "tx": "0x83a9425f753f79159d9815c571ebe8c8e9eba19446dca7f0d44cb9cba0721dcb",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Denver ZK-NFC badge experience (github.com/cursive-team/nfc-denver) + 2P-PSI implementation (github.com/cursive-team/2P-PSI)",
+    "timestamp": 1711361183
+  },
+  {
+    "tx": "0x0bcea91d2a56998f673115493561f764b9e239c4f64a9f40de1fa297b386f47d",
+    "builder": "0xf6598ca199dc739848d342aef8bb16578382a2f6",
+    "ens": "richardliang.xyz",
+    "amount": 0.5,
+    "reason": "Building Wise integration ",
+    "timestamp": 1710907607
+  },
+  {
+    "tx": "0xc04c5ae4cf5315f581af8189723ccbbf4695c7f904c2e652aa81e9b4a8ef705d",
+    "builder": "0xab48f9d0d78039e3aa76b6b7aaa15e955d895f0b",
+    "ens": "andrewlu.eth",
+    "amount": 0.5,
+    "reason": "Building ZK-NFC badge experience at Denver: https://github.com/cursive-team/nfc-denver",
+    "timestamp": 1710300095
+  },
+  {
+    "tx": "0x8e77ff8b0962c1cdbb47c604e1af8185305f8a5e493a6b88f415da31cd08ced5",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0.5,
+    "reason": "Built integration for Garanti contracts and client: https://github.com/zkp2p/zk-p2p/tree/develop/contracts/contracts/ramps/garanti",
+    "timestamp": 1708998299
+  },
+  {
+    "tx": "0x9bfcc73eb464fe970537e7bb11c67e64f2bd5fad025e3b5632ed9b1d7a835c37",
+    "builder": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+    "ens": "alexsoong.eth",
+    "amount": 0.5,
+    "reason": "Add zkapp accessibility: 4337, cross chain bridging integrations",
+    "timestamp": 1708997435
+  },
+  {
+    "tx": "0xacd5d8eec3728202cf66bf0e3d2c8fccab55d7520e4c45a0c203f5e3f8e148ab",
+    "builder": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+    "ens": "groth16.xyz",
+    "amount": 0.5,
+    "reason": "Designing V2. Fix zk-email bug. Redo trusted setup. https://github.com/zkemail/zk-email-verify/pull/168",
+    "timestamp": 1708940795
+  },
+  {
+    "tx": "0x01723356551f25be76a3f221f50262e921a0099336eab83e9b4d89dc1e0944a3",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Jubsignal ZK Architecture (https://pse-team.notion.site/jubsignal-b7af2183c52a420e9601d9a2e65bfa31) and ZKxNFC experience at Denver (https://github.com/nfc-denver/nfc-denver)",
+    "timestamp": 1708557215
+  },
+  {
+    "tx": "0x04c6827082818564065df099523b47a6b6501c14e9bbc8de55cddfdb6a2308d2",
+    "builder": "0xf6598ca199dc739848d342aef8bb16578382a2f6",
+    "ens": "richardliang.xyz",
+    "amount": 0.5,
+    "reason": "Turkey integration https://github.com/zkp2p/zk-p2p/pull/287",
+    "timestamp": 1707242483
+  },
+  {
+    "tx": "0x1a78195f22aa6e9cbf1066d1e5e87d7201a4bf4c14f59cc496fd854416485fea",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0.5,
+    "reason": "https://zkp2p.xyz/ - UPI integration ]",
+    "timestamp": 1706227751
+  },
+  {
+    "tx": "0xe6d4ac2be672f9a8bd3bed99eeac4e076fd72bc21e34d4aec628310aac59806a",
+    "builder": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+    "ens": "alexsoong.eth",
+    "amount": 0.5,
+    "reason": "https://zkp2p.xyz/",
+    "timestamp": 1705950299
+  },
+  {
+    "tx": "0x57da83c2dea134d4098a19f4d231e6b9dcc5e6d7d69561ce03a0b547be5ed38f",
+    "builder": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+    "ens": "groth16.xyz",
+    "amount": 0.5,
+    "reason": "UPI audit fixes and trusted setup ceremony. Launched UPI! Wrote Paylah circuits https://github.com/zkp2p/zk-p2p/pull/242",
+    "timestamp": 1705948547
+  },
+  {
+    "tx": "0x468112b7357c0cab6cec05a101e428ddbf4e73a0b8cc90dc4487e175075ac975",
+    "builder": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+    "ens": "groth16.xyz",
+    "amount": 0.5,
+    "reason": "Wrote UPI circuits https://github.com/zkp2p/zk-p2p/pull/195. Exploring TLSNotary as a zk-primitive for zkp2p.",
+    "timestamp": 1703310371
+  },
+  {
+    "tx": "0x70df835740b26ef8d76930f531b9ea8e3b935856532c4dc24b1be79440d931bd",
+    "builder": "0xf6598ca199dc739848d342aef8bb16578382a2f6",
+    "ens": "richardliang.xyz",
+    "amount": 0.5,
+    "reason": "UPI coming soon to ZKP2P 👀",
+    "timestamp": 1702994531
+  },
+  {
+    "tx": "0xe70d83f0ff8063c92a4ff54c4498a3bfd1d4a08069c584b99a379b63434183ec",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0.5,
+    "reason": "On-ramps for everyone and learning how to withdraw for me",
+    "timestamp": 1702960715
+  },
+  {
+    "tx": "0xd5e2f3456d175967245be2e346e344a645eaed05b6d6d3a89cfe14d9144ae82e",
+    "builder": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+    "ens": "bweick.eth",
+    "amount": 0,
+    "reason": "Trying to create an on-ramp for everyone",
+    "timestamp": 1702960511
+  },
+  {
+    "tx": "0xd567b4dc37e9995265d4d7581e16b7813765853c30facfa2b5de6474e44a8fe2",
+    "builder": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+    "ens": "alexsoong.eth",
+    "amount": 0.5,
+    "reason": "0x43737376755b1549a086e9b218057d1DBdC139cC",
+    "timestamp": 1702838255
+  },
+  {
+    "tx": "0xf54c9bd14b35fccea70a1fbfaa14c4c9f11a6cbbe3a133696dc2860a51ce2739",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "JUBMOJI.QUEST IS OPEN SOURCE !! https://github.com/jubmoji/jubmoji.quest",
+    "timestamp": 1700918795
+  },
+  {
+    "tx": "0xd4004b19b9bf65216d46f7f38f287a76bc28ed1dd49cde3d25088c318b84c73d",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.4,
+    "reason": "https://github.com/project-vinyl/babyjubjub-ecdsa",
+    "timestamp": 1697903831
+  },
+  {
+    "tx": "0x84035ad10f1677b07d70146cbe0d9ab52da1baaf90aa790d842f8ba334d8dc23",
+    "builder": "0xf91fe75d70903ed264c8ae49a682e6dbb70b6cee",
+    "ens": "janmajaya.eth",
+    "amount": 0.5,
+    "reason": "Created learning resource for tfhe- https://github.com/Janmajayamall/tfhe-research. Open sourced performant implementation of unbalanced private set intersection(useful for tx retrieval on private chains) -https://github.com/Janmajayamall/ulpsi",
+    "timestamp": 1695748631
+  },
+  {
+    "tx": "0x3b7c0de062a5b3653a347deb9268893d219eccb89986e1ab7e23a2e1d32a863d",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/project-vinyl/nfctap.xyz",
+    "timestamp": 1695581315
+  },
+  {
+    "tx": "0xbe6d78b0dc1ec9c4111a3f849302727bf15c105c6bc4627db8100f6810b59a32",
+    "builder": "0xf91fe75d70903ed264c8ae49a682e6dbb70b6cee",
+    "ens": "janmajaya.eth",
+    "amount": 0.5,
+    "reason": "Improved performance of operations of BFV library (https://github.com/Janmajayamall/bfv) and release performant implementation of OMR (https://github.com/Janmajayamall/ObliviousMessageRetrieval)",
+    "timestamp": 1692030155
+  },
+  {
+    "tx": "0x294d099c5ffdcd0ca1b21115c1e49aed8f27f4838ff00bc05204f3e018cedd03",
+    "builder": "0x2288e5e1d057b416549f586b964f4e6db78380fd",
+    "ens": "levstamb.eth",
+    "amount": 0.5,
+    "reason": "https://t.aca.zip/",
+    "timestamp": 1690122239
+  },
+  {
+    "tx": "0xf403080040e57747ef75aea96ea1d195dc9905ecedc87624071c033b86cfd87e",
+    "builder": "0xef4d00eff106727524453a48680ea968498aff4c",
+    "ens": "vivboop.eth",
+    "amount": 0.5,
+    "reason": "Technical writeup/analysis on Zupass Stamps project: https://pse-team.notion.site/Zupass-Stamps-v1-Retrospective-6bd7aa223f4d41cdb59b4ecf8aafb130, open-source research to develop next generation of ZK-friendly NFC chips: https://ivy-research.notion.site/ZK-friendly-HaLo-chips-ddb64598eb17450898758bc536121a8c",
+    "timestamp": 1689959567
+  },
+  {
+    "tx": "0x10887ddc52424e269a96558250574ebdec4bf86f416fec07579266bedfdc0d69",
+    "builder": "0xf91fe75d70903ed264c8ae49a682e6dbb70b6cee",
+    "ens": "janmajaya.eth",
+    "amount": 0.5,
+    "reason": "Added public interface to BFV Fully Homomorphic Encryption lib (check dev branch) - https://github.com/Janmajayamall/bfv. All operations have significantly improved performance. Will be using this library to implement oblivious message retrieval (important for privacy preserving protocols). Plan on updating the read me docs so that other developers can start using the lib and develop FHE applications!",
+    "timestamp": 1687751375
+  },
+  {
+    "tx": "0x728d4951549970b0f4e67225d2a95c1fb849bd90661a383e169fedafa768ebea",
+    "builder": "0x50806a3635348cfbc48ec7b8f294df93deec976c",
+    "amount": 0.5,
+    "reason": "We've extended our work on zkml to work on transformers and attested audio (https://github.com/ddkang/zkml). Latest blog post here: https://medium.com/@danieldkang/fighting-ai-generated-audio-with-attested-microphones-and-zk-snarks-the-attested-audio-experiment-d6ea0fc296ac",
+    "timestamp": 1686749759
+  },
+  {
+    "tx": "0x9d98cb99890a64d6f68660ad503e4dce48b2309a0357435b54a7538854894e48",
+    "builder": "0x2288e5e1d057b416549f586b964f4e6db78380fd",
+    "ens": "levstamb.eth",
+    "amount": 0.5,
+    "reason": "Work on Rubber Ducky (still private github because potential secrets in Git repo, but will be open): added vectorized database, learning, refactored code, and helped with some prompt formatting. Work on Open Agency Models (https://github.com/zh3036/ZuMulation). Put together models for coming up with decision making processes",
+    "timestamp": 1684420391
+  },
+  {
+    "tx": "0xf7d9c7b848a68a2e9c0609cc8e5a1ddaab871fca16b5a7d89563203b464f2b44",
+    "builder": "0xf91fe75d70903ed264c8ae49a682e6dbb70b6cee",
+    "ens": "janmajaya.eth",
+    "amount": 0.5,
+    "reason": "Worked on FHE library for BFV scheme - https://github.com/Janmajayamall/bfv. Added support for all necessary FHE operations. Plan for next few months is to speed up operations on native, as well as hardware accelerated, backends. Plus, use the library for PIR and OMR. ",
+    "timestamp": 1683716399
+  }
+]

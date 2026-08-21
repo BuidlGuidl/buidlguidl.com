@@ -1,0 +1,274 @@
+[
+  {
+    "tx": "0xd61420aaed8ebd87be528be5e3a2ef23a66e09019167d36f59812939c456b1d3",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 1.48,
+    "reason": "sunset",
+    "timestamp": 1718034083
+  },
+  {
+    "tx": "0xeeb66d8e5be9367d3dfbb9b4e172387e4b119ea368c39801f34235d66f624002",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 1,
+    "reason": "spreading the good word of the speedrun. also need some gas...",
+    "timestamp": 1710173303
+  },
+  {
+    "tx": "0x8d9f6a85eceeaeeae43c3aaf53e5135dd299b23144bf016c351dab13140665cb",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.666,
+    "reason": "tweet box, lil ops, tryin to get braek and make nifty ink great again off the ground, eth columbus meetup funds",
+    "timestamp": 1702315295
+  },
+  {
+    "tx": "0x340311578e2e43372d25ad55216137cf75485301a415fd647fb681950f82706e",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "braek.buidlguidl, making nifty ink great again, bg round 1, ops and socials",
+    "timestamp": 1701364811
+  },
+  {
+    "tx": "0xa6d79ab0db25c3495513e0124b18a9a6509def35cffa9bf5552a920fe2516590",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.65,
+    "reason": "pgf round https://builder.gitcoin.co/#/chains/10/rounds/0x40511f88b87b69496a3471cdbe1d3d25ac68e408, socials, hackathon support, lil operations and community",
+    "timestamp": 1699970819
+  },
+  {
+    "tx": "0x35dd23e6ba4fdffbd45b3ca8392517bfe9cc360f78fca17e81a40914d5319d19",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "pgf, socials, ops and strategy",
+    "timestamp": 1698764699
+  },
+  {
+    "tx": "0x64132081380a080680be07eee39fdc24cc0a27ab9af00d3c68a307edbafb5e44",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.6942,
+    "reason": "hackathon support (rome, london, safe), pg funding, socials",
+    "timestamp": 1697544635
+  },
+  {
+    "tx": "0xb1d72da9c309b8b847e29b9af560744a33a41b81e55f84d2a64ecdac1117e66d",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.35,
+    "reason": "Socials, ops, bunch of hackathon stuff, helping to get op and lauchpod shipped",
+    "timestamp": 1696353359
+  },
+  {
+    "tx": "0x5015c300a9969709caf0b09be05cb87621d3f73c1856bc6271041146d9cad1cd",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "Eth chicago judging/bounties, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting, ops and socials",
+    "timestamp": 1695738527
+  },
+  {
+    "tx": "0x8829cdae1f85f973cbff5486f49646a38fc1367553b3ff419fd68a25507994ae",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "\thttps://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting, https://github.com/SporkDAOOfficial/SporkStakingV2, ops and socials and such frens much woow",
+    "timestamp": 1694528243
+  },
+  {
+    "tx": "0xd9292ad63dcf29cc799be529af45686a3fdd6cdbf92f4b9edae9757fb44e5092",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.71,
+    "reason": "https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting, https://github.com/SporkDAOOfficial/SporkStakingV2, ops and socials, ethBumblefuq",
+    "timestamp": 1693318631
+  },
+  {
+    "tx": "0xda22c6f66ea5619c2344ce3041846a99430c23e32fcac214426560242a9482a5",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "https://github.com/DanieleSalatti/SporkStaking, https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting, social (twitter), lil ops",
+    "timestamp": 1692108023
+  },
+  {
+    "tx": "0xdaf939da3cfadc357687514134fd9904237b125dfa0b1a46b0ea1b0f7f842bc6",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "optimism rgpf discovery and voting https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting, eth denver staking app resurrection https://github.com/SporkDAOOfficial/SporkStakingV2, BG ops and social ",
+    "timestamp": 1690811771
+  },
+  {
+    "tx": "0xd8f3cbd164398fa563e641baa9f8718d2bc5d07c29e1fa3960289a2a78f265b8",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.65,
+    "reason": "twitter shilling, kickstarting op rpgf voting/context, lil bit of ops stuff",
+    "timestamp": 1689600647
+  },
+  {
+    "tx": "0x9553d600956b909aab8af4ad1e8a8c8aa4457d3486c3a213bf156c86487c48d5",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 1,
+    "reason": "optimism discovery type jawn (https://docs.google.com/document/d/1ZjjJkVIhOMgEDVRN24uvxVEOREFQeJCQp4I1XPX2_8k/edit?pli=1), shared streammmy org 2x, bg socials, lil' ops, eth columbus beer tab :)",
+    "timestamp": 1688403911
+  },
+  {
+    "tx": "0xa90d2a8beeca59c80afbe7eff94213a3ef636a7fdb5be354944fe1d3609cb401",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "attempt to kick of OP badgeholder work https://docs.google.com/document/d/1ZjjJkVIhOMgEDVRN24uvxVEOREFQeJCQp4I1XPX2_8k, lauchpod, bg socials and onboarding",
+    "timestamp": 1686666011
+  },
+  {
+    "tx": "0x63941d4c355457e9ef3654ea31ab6aabe511e5cae0927b9e176aed06f6c6a7c2",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.85,
+    "reason": "se2 multisig user testing, arb gov grants framework, metafest help, squad streams, bg socials ",
+    "timestamp": 1685450615
+  },
+  {
+    "tx": "0xc4856cbd0b9f2db585eafaa0875e8a6bc09dfc5f8095429a5e6af468811e29d9",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.85,
+    "reason": "eth splitter cat herding, bg socials, squad forming and a lil' ops",
+    "timestamp": 1683909659
+  },
+  {
+    "tx": "0xaf46e98926f0f3b405738a79f1f0cfd697f6dfb0cd79587d2da4c93fb151106a",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "gitcoin beta round grant submission https://builder.gitcoin.co/#/chains/1/registry/0x03506eD3f57892C85DB20C36846e9c808aFe9ef4/projects/487 cat herding for eco, splitter, multisig, payments",
+    "timestamp": 1682519651
+  },
+  {
+    "tx": "0xfde5c1012276d4938a3510a3fe2c0060360c0410e5b9b923e2d8dc44f4a60cf6",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "coh memes ftw, ECO req doc https://docs.google.com/document/d/1WNalKZvggsAjzGyRRybKcbhV9vrOXaCJJkOV0Iepvnw/edit?pli=1#heading=h.i8q1er7ucoxj",
+    "timestamp": 1681391207
+  },
+  {
+    "tx": "0x27059b22f17c67ab49fb8a22bfba9d3c49134a0c16e369aeeb97424de4af1434",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "coh rally to win some loot for bg/builders, partnership chats, eth denver write up",
+    "timestamp": 1680013211
+  },
+  {
+    "tx": "0x033b88ad21fa60dccb97e0921166df28b109b8f7b5ac720a599891348a80e716",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "Eth denver 23' tech steward wrap up and follow through! ",
+    "timestamp": 1678552547
+  },
+  {
+    "tx": "0xe2bd2d763b81940b65854e8e4565ab86162552338ef889be17cec8df038c93e4",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.5,
+    "reason": "wrapping up eth d. buidlbux end to end flow, admin panel, vendor training, dopple integration. ",
+    "timestamp": 1677252923
+  },
+  {
+    "tx": "0xed68f3ac76a0bd690f2ca88386bd50f326f0a0360a7c9e37d4953a3d59e32c93",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "eth d. all things cooooordination through communication. foodtruck/token wrap up, alternative dapp, witnet/poaps, attendease api.",
+    "timestamp": 1676384003
+  },
+  {
+    "tx": "0xe5edc1858d4dfe2af0a05c4cec45870cea920d9352d6f22baa347822396f0836",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "eth denver pm'in continued. internal dapp for claiming, added project for poaps dispenser (welook) stay up to date here https://www.notion.so/matterlabs/ETH-Denver-zkSync-MEW-Welook-b4359b163bba45cb8f5c94ccf1f3b6ca",
+    "timestamp": 1675173347
+  },
+  {
+    "tx": "0x62fbbd76d974b5d2dff62be9558dd9b5f75cf10b690b8dfc35d90e2115457423",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.7,
+    "reason": "eth denver project management (buidl buxx, gamification, poap, ticketing) https://www.notion.so/matterlabs/ETH-Denver-zkSync-MEW-Welook-b4359b163bba45cb8f5c94ccf1f3b6ca",
+    "timestamp": 1673966975
+  },
+  {
+    "tx": "0xcff38df221d8a3ad0250e86047fdec702a49fb745bba1e5b68ba8b37ba9c5020",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.4,
+    "reason": "steward check in, food truck vendor flow/wireframes, prelim roadmap ",
+    "timestamp": 1672750883
+  },
+  {
+    "tx": "0xe789d5119a7348e2fc0bda2649a028a496d6c40317ac02aa89c31787ddd52263",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.71,
+    "reason": "eth denver tech stewarding. food truck token, witnet game",
+    "timestamp": 1672070315
+  },
+  {
+    "tx": "0x0e435208823e0bb1454c9f7cc36498048043e0b741f7f0577edb91d0a6358b59",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 1.337,
+    "reason": "ethdenver tech stewarding, sybil slaying, ens scholarship audit, lil' onboarding",
+    "timestamp": 1670938487
+  },
+  {
+    "tx": "0x8d11575e4051141deb015039851257e3668915ab3aeec5359c3e7062ed864b19",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "herding the cats in the right direction, smashing the sybils, bg onboarding and a lil strategy",
+    "timestamp": 1668538763
+  },
+  {
+    "tx": "0x363be31a32213f86da7bd51173d30bec8afd9d66490aa3b9afeeeb96b1316158",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "community/onboarding, matching talent to work, beer money for eth columbus",
+    "timestamp": 1667313803
+  },
+  {
+    "tx": "0xc4f5a9f22c25105e8309b9d200771243f3f2b7e84768e94ab1ed6d14dde9e96a",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "onboarding (spe, bg, scholarships), landing ens micro partner!!!, mechanism exploration",
+    "timestamp": 1666097591
+  },
+  {
+    "tx": "0x8be9ba8ddf1d70fd3bc992a6407c9f8d0996d99ea261d937d64ece38ef735dca",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 1.337,
+    "reason": "onboarding (spe & bg) micropartnerships (niftyapes, ens), cat herding, challenge0, 1 (junkyard in progress)",
+    "timestamp": 1664896115
+  },
+  {
+    "tx": "0x732e841e2efb511738214f7ecf58151c3307270436b95c728b0ec4b5527ad370",
+    "builder": "0xf86aedfec7c823635843bdc03fdf51b64845e2fc",
+    "ens": "opolis.emu.eth",
+    "amount": 0.75,
+    "reason": "shilling at mcon, partnership work, onboarding, badge exploration",
+    "timestamp": 1663080551
+  }
+]

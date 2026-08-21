@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0xa163cb27790fdf01dea917c6f99ebd6f0c5e46fd586453341508c07477c391d9",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.000007,
+    "reason": "unlock",
+    "timestamp": 1760285891
+  },
+  {
+    "tx": "0x364e2dc64100578a78bff2a9795c097080e6d61fb40f21071f1d8950747e3406",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.5,
+    "reason": "unlock",
+    "timestamp": 1760285831
+  },
+  {
+    "tx": "0xf3fe62729f7965200cd4282de8d2bcbfac8821e1a548227c8dcd37f7e7da4690",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.5,
+    "reason": "new eth.dev levels",
+    "timestamp": 1651140713
+  },
+  {
+    "tx": "0x2560e4930a86b3ab03bbc130a9d4fe18e5fe4684f968132e15f00186a7bbc7ef",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.5,
+    "reason": "5 new eth.dev levels + payment for 7 new pixel backgrounds",
+    "timestamp": 1648036280
+  },
+  {
+    "tx": "0x499f904b32a10fdf1b3a3408b18538dfca884e334b0c05eb4d09c698a3edd7b7",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.5,
+    "reason": "eth-dev branch",
+    "timestamp": 1622655163
+  },
+  {
+    "tx": "0x1a4aad8e8a32d5d40f3d17cc90a0edbec2a86f35b36f83a498cd3f2d6e3c99cc",
+    "builder": "0x4ceb8dc70813ffbb2d8d6dc0755086698f977613",
+    "ens": "ssteiger.eth",
+    "amount": 0.000291,
+    "reason": "initial project structure and first two levels",
+    "timestamp": 1622654902
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "tx": "0x574357538817230409ff83b895cfef1d2bf6de02966d2c58fea1e903ff33a4c5",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.1,
+    "reason": "Transaction for ENS in app build completed ",
+    "timestamp": 1717704203
+  },
+  {
+    "tx": "0xdf9a3b6907db203bab7b7c4bb3adb11aa17979d46d91f595493005ac4c334da6",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.1,
+    "reason": "working on a library for ens registration in app. search component and first registration page completed. https://github.com/Chuksremi15/se2enslibrary. ",
+    "timestamp": 1716940859
+  },
+  {
+    "tx": "0x1d7a162c3aa86e82ba9b3206607f09c84d140cd9d04e46119c0b5f5d2d0fb378",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.5,
+    "reason": "complete ENScheap, the build that concerns the ENS Name wrapper, moving on to an NFT clothing project. ",
+    "timestamp": 1713224219
+  },
+  {
+    "tx": "0xfeb6249948fe1f0b94c13b5f542b42ef33e06a4c3ac1e7a496d6343c47cd9ef2",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.4,
+    "reason": "Completed Article on ENSJS. Fixed mobile responsiveness for Carbon ENS wallet, Added network to carbon ENS wallet. working on a smart example on how to Interact with ENS name wrapper. ",
+    "timestamp": 1710724619
+  },
+  {
+    "tx": "0x754c7363914bb846ba88b3b715f40fae921e35ae10af3cb2cda86e17c39d0e1e",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.4,
+    "reason": "carbon ens crypto wallet version 1 completed. Working on an article that details the process of Assigning ENS subname via smart contract, another article on using enjs (what works), migrating code base to SE-2. working on responsiveness for mobile users",
+    "timestamp": 1708434971
+  },
+  {
+    "tx": "0x339915626592e345f4f9590ca3d60545c544a81ad30581b7c881b163062cc05c",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.5,
+    "reason": "ENS wallet onboarding, assigning name, transaction history, receive fund implemeted. working on send fund. ",
+    "timestamp": 1706079767
+  },
+  {
+    "tx": "0x137c938f8eccd0578202fff16dccf578b1568c1cbb1485ab4b1371104c5bfcd1",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.2,
+    "reason": "Building an ENS wallet ",
+    "timestamp": 1703493371
+  },
+  {
+    "tx": "0x5f5a78e0bbbc045a8e5289911553b35e96df86e223d6ff778183cb99450ece94",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.3,
+    "reason": "Building an ENS wallet",
+    "timestamp": 1702762379
+  },
+  {
+    "tx": "0x1d45c5274bef269c9b7c3a9900b41d04f745912a11100cd100d40d41e520e4f5",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.2,
+    "reason": "Building an ENS wallet ",
+    "timestamp": 1700895059
+  },
+  {
+    "tx": "0x0cb92cc4abd55168c751ec0b83aa29d13b9bb625e50c3fd9cdc5d01cdf367d91",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.3,
+    "reason": "Deep dive into ENS; working on a project that uses ENS as a centralized data store",
+    "timestamp": 1700060627
+  },
+  {
+    "tx": "0xac6c6a5883ab00b7d0e13c55c1891dde82dce49c27039536cb1d61c62e783090",
+    "builder": "0xdaadf6f9b33a1e01be2a48765d77b116a2d5df77",
+    "ens": "chuksremi.eth",
+    "amount": 0.5,
+    "reason": "setting up a better workspace for building",
+    "timestamp": 1698290855
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0xd6c9a8ecf1d9379ca402e7f979bc3262cd76f55f3cdee9a0c7c9abcb620ee2c6",
+    "builder": "0xaea19106f87317b9d6100e615a11f190ad100a2b",
+    "ens": "ferric.eth",
+    "amount": 0.5,
+    "reason": "ship fruitethbot to devconnect, begin cleanup and rearchitecture towards a reusable tf eth scaffold framework",
+    "timestamp": 1702971599
+  },
+  {
+    "tx": "0xe0b17a2dda15485afb59e3a9cad1dd4f5b742b3cb936b94cabdefb2bd24e0a1a",
+    "builder": "0xaea19106f87317b9d6100e615a11f190ad100a2b",
+    "ens": "ferric.eth",
+    "amount": 0.5,
+    "reason": "telegram burner bot for zupass devconnect",
+    "timestamp": 1696312271
+  }
+]

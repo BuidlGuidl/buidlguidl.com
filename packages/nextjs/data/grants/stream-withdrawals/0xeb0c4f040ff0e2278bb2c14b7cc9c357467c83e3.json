@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0x6535bef2c04d5b4a4da5b247a79b5fbe07c65aab23857d512df4355d119d9f99",
+    "builder": "0xeb0c4f040ff0e2278bb2c14b7cc9c357467c83e3",
+    "ens": "cluda.eth",
+    "amount": 0.5,
+    "reason": "Earlier BuidlGuidl",
+    "timestamp": 1760081951
+  },
+  {
+    "tx": "0x76fa2e967d755d7ed20d48f4efc61eeaf5782e0726cc42856eda867a8f7eb84b",
+    "builder": "0xeb0c4f040ff0e2278bb2c14b7cc9c357467c83e3",
+    "ens": "cluda.eth",
+    "amount": 0.5,
+    "reason": "Work on scaffold-directory. POC working live. https://github.com/moonshotcollective/scaffold-directory",
+    "timestamp": 1633679697
+  }
+]

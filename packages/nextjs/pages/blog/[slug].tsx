@@ -6,6 +6,7 @@ import rehypePrism from "rehype-prism-plus";
 import remarkGfm from "remark-gfm";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
+import { ImageLightbox } from "~~/components/ImageLightbox";
 import { JsonLd } from "~~/components/JsonLd";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { BlogHeading, BlogMeta, getAllBlogSlugs, getBlogBySlug } from "~~/services/blog";
@@ -14,19 +15,6 @@ import { articleSchema } from "~~/utils/seo";
 
 const LightboxImage = ({ src, alt }: { src?: string; alt?: string }) => {
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    if (!isOpen) return;
-    const handleKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setIsOpen(false);
-    };
-    document.body.style.overflow = "hidden";
-    window.addEventListener("keydown", handleKey);
-    return () => {
-      document.body.style.overflow = "";
-      window.removeEventListener("keydown", handleKey);
-    };
-  }, [isOpen]);
 
   return (
     <>
@@ -46,25 +34,7 @@ const LightboxImage = ({ src, alt }: { src?: string; alt?: string }) => {
         }}
       />
       {isOpen && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 cursor-zoom-out overflow-auto p-4 sm:p-8 animate-fade-in"
-          onClick={() => setIsOpen(false)}
-        >
-          <button
-            className="absolute top-4 right-4 z-10 text-white/50 hover:text-white text-3xl leading-none transition-colors"
-            onClick={() => setIsOpen(false)}
-            aria-label="Close"
-          >
-            ×
-          </button>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={src}
-            alt={alt || ""}
-            className="max-w-full sm:max-w-[92vw] sm:max-h-[90vh] object-contain rounded-lg animate-scale-in"
-            onClick={e => e.stopPropagation()}
-          />
-        </div>
+        <ImageLightbox images={[{ src: src || "", alt: alt || "" }]} index={0} onClose={() => setIsOpen(false)} />
       )}
     </>
   );

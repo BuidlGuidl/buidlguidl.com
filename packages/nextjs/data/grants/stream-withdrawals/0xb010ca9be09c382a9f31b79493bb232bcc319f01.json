@@ -1,0 +1,130 @@
+[
+  {
+    "tx": "0xa9e3cdd66079c86349298eac7ff76bc03a720ab1e68ebee85203d75e97f53472",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.0523,
+    "reason": "test",
+    "timestamp": 1677388715
+  },
+  {
+    "tx": "0x8d93afc29eaab9aebff205ffbed0fbfa7a249a99c552a29537e5f05260248af4",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.0977,
+    "reason": "ethden prep",
+    "timestamp": 1676935979
+  },
+  {
+    "tx": "0x17db922dbd98ab59ee2f2242ed99126ac8723a5904ff9e98dec65d2161458f2a",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.22,
+    "reason": "ethers cook-book / ethden / eigenphi WIP",
+    "timestamp": 1676475647
+  },
+  {
+    "tx": "0xcd2448fb823ad18ba12a5529db5e9cce593c849634cebeae817f466c91f2bfbf",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.38,
+    "reason": "Presentations, writings, etc.. https://twitter.com/nowonderer/status/1620653375284191232?s=20&t=d9WGLc3-Ka3byYCcAPe77Q",
+    "timestamp": 1675296059
+  },
+  {
+    "tx": "0x134855d91c6b33aa8b488627e3258ee8dcd3915e612d7a8f64755f832f3f1443",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.25,
+    "reason": "https://twitter.com/nowonderer/status/1617950576100376576?s=20&t=QOJQsyyg9_sPm24QJXLDJw",
+    "timestamp": 1674614663
+  },
+  {
+    "tx": "0x68081121626eb942e24a0fe8e45ec8d6b78831310b84805343784d1ae841e94b",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.5,
+    "reason": "oe40 recycler",
+    "timestamp": 1651581309
+  },
+  {
+    "tx": "0x0529cbb9425cdb2478b601ecca238a27dbc5bd5629422f6e75ba05583f16a5d8",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.19,
+    "reason": "ethden",
+    "timestamp": 1645585571
+  },
+  {
+    "tx": "0xcb5723c49279fb83cf2ecdfdd9e9a0cc6da4e6ec366cc1c6579f07516d4327b0",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.239,
+    "reason": "need more fundsu than my last 24 cent withdraw kek",
+    "timestamp": 1644478793
+  },
+  {
+    "tx": "0x15194c2ebf20f2bd77945e9cad3b98e68b5c3dee179d816630c75fb9ffe3a05a",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.000075,
+    "reason": "needs fundsu ser",
+    "timestamp": 1644478628
+  },
+  {
+    "tx": "0x56deeae53e4f5f406503d843b23f5309b538871dedcbeb1337086aa29899efd7",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.31,
+    "reason": "fund.party",
+    "timestamp": 1643269299
+  },
+  {
+    "tx": "0xb27fcfafaa4c89910e36969ce5cf25c2828adb6b89e70c1f36a0b010a4a99182",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.26,
+    "reason": "https://github.com/simplemachine92/Minimal-Scaffold-Eth",
+    "timestamp": 1641633599
+  },
+  {
+    "tx": "0x95c4dbe9c50eaf34c2bf3b1187d9b7b52ccb88c3a6e24296d91afc0a390dd302",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.13,
+    "reason": "oe40 leaderboard",
+    "timestamp": 1640295641
+  },
+  {
+    "tx": "0x68fae2e6e2c9f1b6f17019804b5386ff84f351a73838f39708e93dd8a5fe888a",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.267668,
+    "reason": "fund.party / scaffold-directory",
+    "timestamp": 1639610675
+  },
+  {
+    "tx": "0x3bb769a7ef6de7e38fdc2d70d17350a2a096a44074fbe325182e9763a8a66e0c",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.402075,
+    "reason": "https://github.com/moonshotcollective/scaffold-directory/tree/nft-int-staging",
+    "timestamp": 1638239710
+  },
+  {
+    "tx": "0xed8493fd5e0eb4e013dee6d33c3cd41a80c3546fe8ee424c9437c169e2835fe9",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.249425,
+    "reason": "https://github.com/simplemachine92/BuidlBadges && https://github.com/simplemachine92/Retro-Fund-NFTStarter",
+    "timestamp": 1637353057
+  },
+  {
+    "tx": "0x84748cae955eefed5c1b89d31c512a369c6d1ba49f31ab23406e1bacf906b38a",
+    "builder": "0xb010ca9be09c382a9f31b79493bb232bcc319f01",
+    "ens": "justn.eth",
+    "amount": 0.249985,
+    "reason": "https://github.com/simplemachine92/ERC721Merkler",
+    "timestamp": 1636141569
+  }
+]

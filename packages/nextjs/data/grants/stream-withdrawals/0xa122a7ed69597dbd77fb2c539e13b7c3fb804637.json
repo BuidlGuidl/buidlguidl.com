@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0x9a8a24abd02cd0358e12d5d5142f936718784ebf2062ae4c085aa0f773955e99",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.3592,
+    "reason": "wp",
+    "timestamp": 1760553455
+  },
+  {
+    "tx": "0x82d7941fdbd1cde35b85f09a2c6002f6a7301f82b815343df5bcc91be8406331",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "Fixing issues on address.vision, working on splittoor ui, working on a challenge that would help people learn how swaps work.",
+    "timestamp": 1699330739
+  },
+  {
+    "tx": "0xe3941cc16a54ee49fe9758edc803863096d092e62b2adc42b67288424df8ad3b",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1.5,
+    "reason": "Working on address.vision ",
+    "timestamp": 1696585631
+  },
+  {
+    "tx": "0x8d9f6b037ac05f848fb97b84b156186c539c6b6b8527eacffe8f2364474fe312",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "Optimizing block explorer for scaffold-eth 2",
+    "timestamp": 1693593959
+  },
+  {
+    "tx": "0x06f7518eb3bf993e279239da0118b5c4ab4d2be6c7fad8a3f7354fd4bb487cb9",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 1,
+    "reason": "Scaffold-ETH 2 contributions, anvil ui.",
+    "timestamp": 1690553183
+  },
+  {
+    "tx": "0xb0ffae6cab05ac843c437db0c91c30d102b5bd4b667fb7921e7703d3299f18d2",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.140727,
+    "reason": "empty old stream",
+    "timestamp": 1689193307
+  },
+  {
+    "tx": "0x97291a4e4797e77501e632279e83162f263f71e2368c5d5c417ed958cacab3f8",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "https://vanitoor.vercel.app/",
+    "timestamp": 1688463683
+  },
+  {
+    "tx": "0xf84d1829a4961e10cb1d970a3abf734dda6c4cae7e270dfb057fda429e973eb1",
+    "builder": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+    "ens": "portdev.eth",
+    "amount": 0.5,
+    "reason": "Block explorer integration",
+    "timestamp": 1685784431
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xdcaf4e449b0665ba8efa5a29ae556e09025cba863fdf5a02f605148e2a1df945",
+    "builder": "0x61b647d3b5a04eec7e78b1d9cfbf9dea593c7865",
+    "ens": "jessyio.eth",
+    "amount": 1.5,
+    "reason": "10+ hacker workshops :)",
+    "timestamp": 1717785299
+  },
+  {
+    "tx": "0x682ff627f461131f129ac96015a5b874343f9d02d89c2b0390b1a68999f583e4",
+    "builder": "0x61b647d3b5a04eec7e78b1d9cfbf9dea593c7865",
+    "ens": "jessyio.eth",
+    "amount": 1.5,
+    "reason": "Expanded the hacker house operations to host 40 hackers in 4 houses and hosting 10+ developer workshops",
+    "timestamp": 1689617327
+  },
+  {
+    "tx": "0x6802980fe8443798dde9741d66a5f1e83e9b3a16ed58e2a23c36ca003694f8d6",
+    "builder": "0x61b647d3b5a04eec7e78b1d9cfbf9dea593c7865",
+    "ens": "jessyio.eth",
+    "amount": 1.5,
+    "reason": "Organizing a hacker house to house 30 devs https://twitter.com/wehack247/status/1661065634988584961",
+    "timestamp": 1686775739
+  },
+  {
+    "tx": "0x63d8bc712bc0c3aa549788e1aa356c6323e3d7d477d27f2ba8bea4ffeffd4296",
+    "builder": "0x61b647d3b5a04eec7e78b1d9cfbf9dea593c7865",
+    "ens": "jessyio.eth",
+    "amount": 1.5,
+    "reason": "Helped to run 2 hackathons in Zuzalu which translates to ~38 projects built and up to $46k in distribution in prizes. Some of the apps will be posted here https://zuzalu.city/zapps, https://app.buidlbox.io/gitcoin/hack-zuzalu/projects",
+    "timestamp": 1684166279
+  }
+]

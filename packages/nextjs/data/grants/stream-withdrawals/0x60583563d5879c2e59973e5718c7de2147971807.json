@@ -1,0 +1,138 @@
+[
+  {
+    "tx": "0x7a87ee0ccdca45fef13c02596270c28dd60a7778531b83f9caddbac8f24995b5",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.0476,
+    "reason": "Extra Dec 2023: Scaffold-ETH 2, Batch 0 reviews, abininja, burnerwallet, bonus bg website. ",
+    "timestamp": 1703621747
+  },
+  {
+    "tx": "0x1f6d94baeaa4e60d90db7124e371340233e4f17a046fe9d8def1501a48090fab",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.25,
+    "reason": "Extra November: SE-2 / Docs / Zupass / PWA base / onboarding batches",
+    "timestamp": 1701458795
+  },
+  {
+    "tx": "0x6b272daf81cb66ef8645c019c438a5f907813c04333e98ddb7a5ba500da70358",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.5,
+    "reason": "Extra May 2023: Event wallet https://github.com/BuidlGuidl/event-wallet, Hacker houses (+ Sand Garden): https://github.com/BuidlGuidl/hacker-houses-streams, SE-2 https://github.com/scaffold-eth/scaffold-eth-2",
+    "timestamp": 1685618111
+  },
+  {
+    "tx": "0x86b0107311bf64295ea67d5583ed7ef8f8fc648c266c64f0d51c6c699ccc79ca",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1,
+    "reason": "Extra March 2023: Work on SE-2 (https://github.com/scaffold-eth/se-2), Jessy's hacker houses (https://github.com/BuidlGuidl/hacker-houses-streams). Hackathon SE2 (https://github.com/BuidlGuidl/hackathon-se2). SRE/BGv3 site tweaks.",
+    "timestamp": 1680509603
+  },
+  {
+    "tx": "0x7f535ebc662c14cd0726c0e422355986bb567d67f3dcf0f2d62f87e2330a6b61",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.75,
+    "reason": "Extra Jan 2023: Work on SE2 (https://github.com/scaffold-eth/se-2/) & BuidlGuidl site (https://github.com/scaffold-eth/buidlguidl-v3) && BG Labs (https://github.com/BuidlGuidl/devrellab)",
+    "timestamp": 1675279271
+  },
+  {
+    "tx": "0x648292068cf55b7f7b9e21b8ef0e1a5f0883e93b06a2bc19c6951c8042cfbfd9",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.25,
+    "reason": "Extra November 2022 + ETH Panama talk. SRE redesign (https://github.com/BuidlGuidl/SpeedRunEthereum/pull/182), Scaffold-eth-2 work (https://github.com/scaffold-eth/se-2/), SRE autograder updates (https://github.com/austintgriffith/speedrun-grader), ",
+    "timestamp": 1669897271
+  },
+  {
+    "tx": "0x1158bf4782b5f8aad13002398b04a9ba66179add141b3c03a01b2f455280ddae",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1,
+    "reason": "Extra September 2022: Scaffold-eth RPC PR (https://github.com/scaffold-eth/scaffold-eth/pull/896). SE-2 (https://github.com/scaffold-eth/se-2). ABI ninja tweaks (https://github.com/carletex/abi.ninja).",
+    "timestamp": 1664567039
+  },
+  {
+    "tx": "0xff7f527f01ff4586b0084747bdae4d2a581b9bcd4dab8d50a21ea053adcff88e",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1,
+    "reason": "https://abi.ninja / https://github.com/carletex/abi.ninja",
+    "timestamp": 1662028760
+  },
+  {
+    "tx": "0xbaadd8f1f41e80903f5a8ee66cb2816b66f7dc8aebe537c6c3f4dfbf0c5dbf8c",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 2,
+    "reason": "June 2022 work: PoSNFT (https://github.com/carletex/PoSNFT), Web2ToWeb3 curriculum (https://github.com/austintgriffith/web2-to-web3-curriculum). BGv3 & SRE work (https://github.com/scaffold-eth/buidlguidl-v3 & https://github.com/moonshotcollective/scaffold-directory)",
+    "timestamp": 1656693946
+  },
+  {
+    "tx": "0xa5d38eac8f3e8660d57fa4ee5291486597cde3436b4bf37abe7c7ebadee10df3",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 2,
+    "reason": "May 2022 work: Web2ToWeb3 curriculum (https://github.com/austintgriffith/web2-to-web3-curriculum). Ethers scripts curriculum (https://github.com/carletex/week2-scripts & https://github.com/carletex/ethereum-scripts-curriculum). JS challenges (https://github.com/carletex/js-challenges). BGv3 & SRE tweaks (https://github.com/scaffold-eth/buidlguidl-v3 & https://github.com/moonshotcollective/scaffold-directory) ",
+    "timestamp": 1654016451
+  },
+  {
+    "tx": "0xb05e554eb911713bc0ca8220d393f80ab9acc2933a3bb84da4366c695ef68564",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 1.5,
+    "reason": "April 2022 work on BGv3 (https://github.com/scaffold-eth/buidlguidl-v3) and SpeedRunEthereum (https://github.com/moonshotcollective/scaffold-directory)",
+    "timestamp": 1651306064
+  },
+  {
+    "tx": "0x9c0ea9826131b16c20ec7bcd8b0f68e5f80e4e3a3a2fdd8b8f755620e812444b",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 2,
+    "reason": "March 2022 work on BGv3 (https://github.com/scaffold-eth/buidlguidl-v3)",
+    "timestamp": 1648737200
+  },
+  {
+    "tx": "0xa80f5d7956a7bb7aaef6b532f84644cd2de07279146be2198c10dc28d6ef87db",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.75,
+    "reason": "Feb 2022 Work on BuidlGuidl v3",
+    "timestamp": 1645695981
+  },
+  {
+    "tx": "0x0adcfc48eec90c82f18aed771e7d669a2971bcfec8085a6c8db199874a9a2e7e",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.75,
+    "reason": "December 2021 work on: https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory)) && Speed run grader (https://github.com/austintgriffith/speedrun-grader)",
+    "timestamp": 1643620578
+  },
+  {
+    "tx": "0xab939a7ad4c2de667c1cf5c24ec76c01e295f457b98c62e64833df7c8791ebfc",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "December 2021 work on: https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1640026648
+  },
+  {
+    "tx": "0xb6e7ed27a53d5e580b0bd3833472fce16797606bf86e3f8895f4b987cd73acc6",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1636712907
+  },
+  {
+    "tx": "0x3cee65082636b4d5cc4e300aa04aafb671159bc8c1ccf49c967d4bb50588ab89",
+    "builder": "0x60583563d5879c2e59973e5718c7de2147971807",
+    "ens": "carletex.eth",
+    "amount": 0.5,
+    "reason": "Work on scaffold-directory. POC working live. https://github.com/moonshotcollective/scaffold-directory",
+    "timestamp": 1633536867
+  }
+]

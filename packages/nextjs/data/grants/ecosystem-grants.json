@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Jessy's Hacker House",
+    "description": "Jessy is helping the BuidlGuidl find high-impact up-and-coming devs. Our goal is to fund developers on the edge and help them remain free agents to have the most open source impact.",
+    "amount": 82.18,
+    "xLink": "https://x.com/wehack247"
+  },
+  {
+    "name": "Solidity By Example",
+    "description": "Solidity-by-example is the best solidity resource out there. It stays up-to-date and Taz is always adding new examples.",
+    "amount": 13,
+    "xLink": "https://x.com/ProgrammerSmart"
+  },
+  {
+    "name": "W1nt3r",
+    "description": "W1nt3r created EVMFromScratch.com and many other engaging onchain apps. He is a model app builder on Ethereum.",
+    "amount": 13,
+    "xLink": "https://x.com/w1nt3r_eth"
+  },
+  {
+    "name": "jtriley.eth",
+    "description": "Ether Deck Mk2: A reasonably optimized, extensible smart account.",
+    "amount": 2.26,
+    "xLink": "https://x.com/jtriley_eth"
+  },
+  {
+    "name": "erhant.eth",
+    "description": "Circomkit is a Circom circuit development & testing toolkit. It provides a simple CLI that abstracts away pathing & setups for SnarkJS commands...",
+    "amount": 2.26,
+    "xLink": "https://x.com/0xerhant"
+  },
+  {
+    "name": "bytes032.eth",
+    "description": "FindAudit is a public good platform that allows protocols to connect with over 100 auditors/audit firms in less than 48 hours.",
+    "amount": 2.26,
+    "xLink": "https://x.com/bytes032"
+  }
+]

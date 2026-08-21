@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0xfc6e91230ef6ad2bdeb31e595e7163c3fa6de03f099b928f1749ee230b1faefd",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 0.25,
+    "reason": "ETH CC",
+    "timestamp": 1715852759
+  },
+  {
+    "tx": "0xc1fa9de33cd407039e06c1440b816d8427ecbe06d92c27230494fbb82ae11608",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 1,
+    "reason": "Jessy's Hacker House / Builder Meetups",
+    "timestamp": 1713436007
+  },
+  {
+    "tx": "0xdef7c170cd7e8d2d405aca1e0ea7ba63407437e0761f10d0a6113260239633bf",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 1,
+    "reason": "ETH Denver Jessy's Hacker House / Ethaly V1",
+    "timestamp": 1709765471
+  },
+  {
+    "tx": "0xff253fbc9ea7acaf9b494efdc77ec45aaed764e95b4167e65948608eca13eaa3",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 1,
+    "reason": "ETH Denver Jessy's Hacker House / Stewarding / Advising / Planning New Future OSS Events + Residencies ;)",
+    "timestamp": 1706753807
+  },
+  {
+    "tx": "0xfb9d8af169f697a794c88c9c9860afb2b6e4b857e54a1a8c4be94bcc85211eca",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 0.5,
+    "reason": "Jessy Hacker House Denver 24 planning, assisting with planning on 2 other open builder events during/after ETH Denver too",
+    "timestamp": 1704225347
+  },
+  {
+    "tx": "0xd5cc9fc37060ecaced305dac389fe3c39fa8980bf0eade798db1dd16aa1fd3f0",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 0.5,
+    "reason": "Jessy's HH / OSS Community Events / ETH Denver Planning",
+    "timestamp": 1702857227
+  },
+  {
+    "tx": "0xcb7f60e69dc475b1899833ed3ce40649c6466b9342d811b7a847e1d2a4955767",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 0.75,
+    "reason": "Hacker House work, unofficial builder meetups, lots of coordination and connecting dots for the good of the ecosystem",
+    "timestamp": 1700741699
+  },
+  {
+    "tx": "0x1f8a3934792a84e8136c8eeac469cd271073834f69187d540145412d31c289ae",
+    "builder": "0x52549df3e635d42b9669765882f6149a77d7be94",
+    "ens": "solidityslayer.eth",
+    "amount": 1,
+    "reason": "Hacker Houses",
+    "timestamp": 1698786683
+  }
+]

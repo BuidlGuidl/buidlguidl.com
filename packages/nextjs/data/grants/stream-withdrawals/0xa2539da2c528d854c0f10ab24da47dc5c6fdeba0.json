@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0xdda2547c8af1606e28f0722906b99341fda302278f0d68b1abdd1fb317bef856",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.15,
+    "reason": "Upon word of Austin",
+    "timestamp": 1718695319
+  },
+  {
+    "tx": "0x8a05938124770924b09a09c5dedd52fab07a18b642bc1d062190811ab1452703",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.5,
+    "reason": "Withdrawing upon Austin's request before my stream gets cancelled",
+    "timestamp": 1717772291
+  },
+  {
+    "tx": "0xca1feff59f9b04c763e6d7b299111bae9be629412abe479d4bf4e61d9a2df952",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.5,
+    "reason": "A complex DAO example with ICO, a donation mechanism, role separation, permissions management, and voting. Can be a good reference point for democratic builds. github.com/irfanbozkurt/dao-for-urban-transformation",
+    "timestamp": 1711105319
+  },
+  {
+    "tx": "0x7c75104b21ae4d0d63cba8b1613223f8bb40a524851a7c1adc9937188f0d647d",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/irfanbozkurt/flashbot-recovery-bundler/compare/develop...irfan/fake_rpc; https://github.com/irfanbozkurt/flashbot-recovery-bundler/pull/41",
+    "timestamp": 1695056579
+  },
+  {
+    "tx": "0x138cbbc0bdf53c8befc53489b8d3ba9477bff079e3d53d2731cfe2ec94754192",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.35,
+    "reason": "auto-asset detection + cache management + ui improvements over flashbot recovery bundler --- https://github.com/irfanbozkurt/flashbot-recovery-bundler",
+    "timestamp": 1693234463
+  },
+  {
+    "tx": "0xff916c5616f9942f779ad5cd2cebb9b347576aac0222ae80c28c83217bc1583a",
+    "builder": "0xa2539da2c528d854c0f10ab24da47dc5c6fdeba0",
+    "ens": "irfanb.eth",
+    "amount": 0.5,
+    "reason": "mans gotta pay rent.... https://github.com/irfanbozkurt/flashbot-recovery-bundler, https://github.com/irfanbozkurt/halal-gamble, https://github.com/irfanbozkurt/weighted-multisig-wallet",
+    "timestamp": 1690226039
+  }
+]

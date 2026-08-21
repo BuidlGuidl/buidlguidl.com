@@ -1,0 +1,58 @@
+[
+  {
+    "tx": "0xd37189a1c0e11399f4718b4862bba5480768b1428937b02b5054216372b2990e",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 1,
+    "reason": "SE-2 PR reviews and contributions: https://github.com/scaffold-eth/scaffold-eth-2/pull/615 https://github.com/scaffold-eth/scaffold-eth-2/pull/610 https://github.com/scaffold-eth/scaffold-eth-2/pull/609 https://github.com/scaffold-eth/scaffold-eth-2/pull/592",
+    "timestamp": 1701703775
+  },
+  {
+    "tx": "0x9a16d257604db66116128e9d1f46505b4375c861f949bf5c9c89f32d96cfcbe6",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 1,
+    "reason": "SE-2 PR reviews and contributions: https://github.com/scaffold-eth/scaffold-eth-2/pull/333 https://github.com/scaffold-eth/scaffold-eth-2/pull/350 https://github.com/scaffold-eth/scaffold-eth-2/pull/368",
+    "timestamp": 1686747599
+  },
+  {
+    "tx": "0x3742661fbb637171f828167ea87c34e705c2819ca4958a2008c0b6065e3fe640",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth-2/pull/255 https://github.com/scaffold-eth/scaffold-eth-2/pull/264 https://github.com/scaffold-eth/scaffold-eth-2/pull/289 PR reviews for SE-2",
+    "timestamp": 1682605835
+  },
+  {
+    "tx": "0x9cfba59ec6bc851113ae5e7f6346f130357a812ae49b5e547f0896692d9b5cfa",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 0.3,
+    "reason": "work on se-2 issues / PRs",
+    "timestamp": 1681421171
+  },
+  {
+    "tx": "0x9bfbc3b4d9ceead1a31d5c465d84c27514f276314437ee963f2a8d2beaf0ddf5",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 1,
+    "reason": "More improvements on SE-2: https://github.com/scaffold-eth/se-2/pull/192 https://github.com/scaffold-eth/se-2/pull/193 https://github.com/scaffold-eth/se-2/pull/206 https://github.com/scaffold-eth/se-2/pull/209 https://github.com/scaffold-eth/se-2/pull/213 https://github.com/scaffold-eth/se-2/pull/220 https://github.com/scaffold-eth/se-2/pull/227",
+    "timestamp": 1679256683
+  },
+  {
+    "tx": "0xc3140f7fc857dfbcf02253ded9579a292c06409d5f1e440b9f6da94d5f87256b",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 0.3,
+    "reason": "Additional improvements for se-2: - https://github.com/scaffold-eth/se-2/pull/172 - https://github.com/scaffold-eth/se-2/pull/171 - https://github.com/scaffold-eth/se-2/pull/170",
+    "timestamp": 1677685007
+  },
+  {
+    "tx": "0x05fb15d8887b527a698b3b0cf4b545803ad05337b3b4885e77d35096580a996f",
+    "builder": "0x2b459503577f42d1a8e6d73401d3d8f227970d4f",
+    "ens": "solidixen.eth",
+    "amount": 0.4,
+    "reason": "Published uniswap v3 simulator: https://buidlguidl.com/build/bzDErnnljvBKurHO86y9 Design fix for scaffold-eth/se-2: https://github.com/scaffold-eth/se-2/pull/158",
+    "timestamp": 1676558651
+  }
+]

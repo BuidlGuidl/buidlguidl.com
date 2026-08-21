@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x2e0582c733bcaa19ebb4516dcfe8b64e5eff7239d147125fae5c712e54b3f9a0",
+    "builder": "0x53e7f107f3037df2a03c79fa9750908c67b55cd3",
+    "ens": "developermarwan.eth",
+    "amount": 0.1214,
+    "reason": "Stream closing",
+    "timestamp": 1721944379
+  },
+  {
+    "tx": "0x9272416783826ed55a0ccdd72b62772f3182707362bf7a4b4583ec0bcb052de5",
+    "builder": "0x53e7f107f3037df2a03c79fa9750908c67b55cd3",
+    "ens": "developermarwan.eth",
+    "amount": 0.5,
+    "reason": "Withdrawal due to stream shutting down.",
+    "timestamp": 1717940915
+  },
+  {
+    "tx": "0x9ba5c2c55c9bcf43009a34b8a9dbf7521707725b78ef540495ccf468415c09d7",
+    "builder": "0x53e7f107f3037df2a03c79fa9750908c67b55cd3",
+    "ens": "developermarwan.eth",
+    "amount": 0.25,
+    "reason": "ABI Ninja",
+    "timestamp": 1645464819
+  },
+  {
+    "tx": "0x17dcb6a959d6d18b77d673b17cedd730494befd4b09c660382a4b0b29620a17f",
+    "builder": "0x53e7f107f3037df2a03c79fa9750908c67b55cd3",
+    "ens": "developermarwan.eth",
+    "amount": 0.2,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/abi-uploader",
+    "timestamp": 1634264420
+  }
+]

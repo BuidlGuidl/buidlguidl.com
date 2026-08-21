@@ -1,0 +1,170 @@
+[
+  {
+    "tx": "0x43e23a8345d06526c05404eced151dfdea1bd05e5c1dd3ad8dd411dae2853791",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "Batch 6 cat-herding, feedback, ENS",
+    "timestamp": 1719003011
+  },
+  {
+    "tx": "0x1160505a44732b569c6c4922628952823fa05c0a0bae593cabdf738e264d6fd9",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 6 PRs and batch daddin' in TG",
+    "timestamp": 1718391899
+  },
+  {
+    "tx": "0x36f9cacc63b36c59fb4126cb052cc38eea970c8336e38252c1683858b7007d86",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 6: PRs reviews, TG suggestions for how to activate members",
+    "timestamp": 1717786739
+  },
+  {
+    "tx": "0xa87ea57f3fa843c5817be432cb870b4cd5ccc3684fcf68e2cd46ec95b51e858c",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 5 PRs, TG admin, lovingly scolding childish behavior",
+    "timestamp": 1715972363
+  },
+  {
+    "tx": "0xa7f12ae0d14ccb10e2060863ef5c33593ac90ee48b8da4a34be92eb6ed1914e6",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Batch 5 launch, giving gold stars to cuties",
+    "timestamp": 1715361911
+  },
+  {
+    "tx": "0xac209731442abed50998d8d1bfb3525be2691e2c44aa9cd63f52309f28868a5b",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.3,
+    "reason": "Prep for launch",
+    "timestamp": 1714767863
+  },
+  {
+    "tx": "0x98101a9c2ee29a796a406f1d25c6e56e37de9670b4abe037b301ad832efc59eb",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.25,
+    "reason": "Study batch 4 playbook, support batch 5 prep https://optimistic.etherscan.io/address/0xd29464B346d85bD69a22a9E0057e0ed90cf5E714",
+    "timestamp": 1714256711
+  },
+  {
+    "tx": "0x1e1c9608fb3b0d67abfcfa29b6c3bd5a3cd411c341cf1d6715753d2a94ed7773",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "Batch support, shadowing, quietly scheming how to lead the next Batch in May",
+    "timestamp": 1713544907
+  },
+  {
+    "tx": "0xa1f2eb9d1d3b02eee2fb8b8965dd9893239d921e457fd62c2784e778bd866822",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "Batch prep and engagement",
+    "timestamp": 1712953715
+  },
+  {
+    "tx": "0x44d399485b76213ae7b793bbe4a9bc3da03c817e956b3a396d655dcad13997a6",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.15,
+    "reason": "BG batch prep and engagement ",
+    "timestamp": 1712338991
+  },
+  {
+    "tx": "0x7d0f174d817cea769cc78a17f2170cb9b13be96f23bfeb3cc05a54f64915e5c8",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.15,
+    "reason": "Batch lovin', inc. #2 and #3 now",
+    "timestamp": 1711743731
+  },
+  {
+    "tx": "0x4eb1bf11e6824eeaa78dbafd3101dc49c92a1a3d7d2cf8966fafe22f72d3ecef",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.15,
+    "reason": "Batch support (channels, DMs, planning)",
+    "timestamp": 1711142603
+  },
+  {
+    "tx": "0xd5607e8b87a771f774a50bb697be7a867ddf65837386e0864632ec1716fb5790",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "batch engagement",
+    "timestamp": 1710529283
+  },
+  {
+    "tx": "0xa2cdcce103d652b32e386f1000799c63e8aa37695c282c2871b20efe18159a2d",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.4,
+    "reason": "Hardhat tutorial using SE-2. BD with Pocket community for SE-2 exposure through their marketing channels. https://app.buidlguidl.com/build/4rPs9OvRdkmJZy8Z0jX9",
+    "timestamp": 1708365419
+  },
+  {
+    "tx": "0xcdc5c04a35538e8c8ff9b7821ca0f38ea19a49cf9cae3850abb19ae45d41019d",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "SE-2 for Metis (see builds)",
+    "timestamp": 1706801867
+  },
+  {
+    "tx": "0x8d88a57dc7dde48a0c8b490499ccf276eb0bce517380a58057f3b45262396e5b",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.25,
+    "reason": "BD: SE-2 demo for BOB team. See build for links.",
+    "timestamp": 1706235719
+  },
+  {
+    "tx": "0xfc1fa0cb45942c9d4223569279abca87b13681010d4a8647acbd7ce67d0ea896",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "BD: shill SE-2 to leadership and eng teams at zkPass as they launch their SDK. could turn into a permanent integration 🤞",
+    "timestamp": 1704298127
+  },
+  {
+    "tx": "0x22007a8f91f7f14b78bcf70233445c836a0200d114c5127f960d4c0ac4e274f6",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.25,
+    "reason": "landing page for smart grants (https://smartgrants.xyz/), initial user research ",
+    "timestamp": 1700520479
+  },
+  {
+    "tx": "0x7f339661f10a526c6e1af15a69561c07db60e9437f0da4bc8d68912b96a597fe",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.1,
+    "reason": "design sprint for smart grants, milestone-based escrow for grant distribution (part 2)",
+    "timestamp": 1698703175
+  },
+  {
+    "tx": "0xda494f184080419215ea5243031d1c3558ce638a8b46d2972fec624a6b36bee6",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.2,
+    "reason": "design sprint for smart grants, milestone-based escrow for grant distribution (private repo WIP)",
+    "timestamp": 1698273275
+  },
+  {
+    "tx": "0x86df0c7e1a1f4d72dbc716f2aa41b6d1235a2a37116644d85c4ec22502e4d4fb",
+    "builder": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+    "ens": "rhymeswithesoteric.eth",
+    "amount": 0.25,
+    "reason": "SRE, BG FAQ, taking UX/onboarding notes",
+    "timestamp": 1697585183
+  }
+]

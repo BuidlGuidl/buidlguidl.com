@@ -1,0 +1,402 @@
+[
+  {
+    "tx": "0x4ce92abe5111bd1ab973c8e6b3fee14f34be707673f544a826959f02a4fa20a8",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.026,
+    "reason": "Code4rena Sizecredit audit walkthrough",
+    "timestamp": 1718841923
+  },
+  {
+    "tx": "0xc471131e7dd6b19a92e5e8c4977f94810c0ce1e265a9befee7cffdfbfbf91f75",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.12,
+    "reason": "ZK auditing ",
+    "timestamp": 1718270675
+  },
+  {
+    "tx": "0xe34d5a8174924a24bdd32c047daf90c6553354cf641d1a7a67d26000087d120f",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.22,
+    "reason": " \"Audit Report Together.\" This series involves reviewing audit reports, discussing bugs found during the audits, and detailing how they were resolved. The project I am working on will also participate in a competition on Code4rena, which requires my full attention and commitment.",
+    "timestamp": 1717650983
+  },
+  {
+    "tx": "0xea948b69720ed62e0f9dc2ffe68ec9b5123e1d162077d58d3eedac39e72b207a",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.22,
+    "reason": "keeping community, lining up new talks, setting up web3 conference sponsors",
+    "timestamp": 1716483299
+  },
+  {
+    "tx": "0x498e679ab362db4def1bb2368a46c9846e0dc4d1eedf973baa15c355d30a607a",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.24,
+    "reason": "How to become a DevRel with Vitto former Alchemy currently Cyfrin + keeping and helping the community",
+    "timestamp": 1715349971
+  },
+  {
+    "tx": "0x09c2bce616eaa89af88fd7f06b8d39854afdb301be737e9857c6ebe20d4f6e90",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.2,
+    "reason": "Starting with RUST security by TImur Guvenkaya, most respected Rust auditor today.",
+    "timestamp": 1714112519
+  },
+  {
+    "tx": "0x0138ea5dbf6f80889b7306ddbaa270f511fbc9af89332933ce23e2f7861fe188",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.5,
+    "reason": "The BBAG Community run paid media blog to share more lights on our outreach and work in the blockchain space. Check it out: 1. Ghanaweb: regional/Blockchain-Builders-Association-of-Ghana-raps-political-parties-on-the-need-to-harness-blockchain-technology-1924686#:~:text=0-,Blockchain%20Builders%20Association%20of%20Ghana%20raps%20political%20parties,need%20to%20harness%20blockchain%20technology&text=The%20Blockchain%20Builders%20Association%20of,harness%20blockchain%20technology%20in%20Ghana  2. The Chronicle: https://thechronicle.com.gh/blockchain-builders-association-raps-political-parties/  3. Broadcastergh: https://broadcastergh.com/blockchain-technology-is-a-key-to-economic-transformation/  4. BnFT: https://thebftonline.com/2024/04/15/bbag-revolutionising-tech-landscape-with-blockchain/",
+    "timestamp": 1713898235
+  },
+  {
+    "tx": "0xc4d12479b07fca0c89d63f26135c96ef0f17f3f453d5bf6e2c66ce18799f1829",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.18,
+    "reason": "Xuwinnie ZK challenge (500k contest winner) ",
+    "timestamp": 1713094007
+  },
+  {
+    "tx": "0xa229fd088e359b426e684070d795fe0cd5aca5c06d4646125a0e3eb1eb3ad058",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.2324,
+    "reason": "Learn how to automate audits with #1 contest bot auditor Chase the light",
+    "timestamp": 1712119403
+  },
+  {
+    "tx": "0xe33de2d633398d9f631f1c771b0be769d6764043f88c9259a3fb9aa601c31a6b",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.5,
+    "reason": "Travel to EhtDenver and Edge City. Network to build more builder programs. ",
+    "timestamp": 1710971963
+  },
+  {
+    "tx": "0xc17cbc5443ec0e4ea994ea890fd087600fcc02f3d1c372d457af557c54e69e8a",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.089,
+    "reason": " Peter Kacherginsky 0xUnit at coinbase talking about large scale security",
+    "timestamp": 1710919307
+  },
+  {
+    "tx": "0x69913e25c4be08da300eaff5d2d23e6b2565a82d85ae68ee386d7905f4d82505",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.05,
+    "reason": "ret2basic solidity assembly workshop",
+    "timestamp": 1710492635
+  },
+  {
+    "tx": "0x0917fefffcceeded8ecfd26c39d24854e3b81009daa162c5c78c98873557507c",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.1,
+    "reason": "PEAKBOLT #2 code4rena 90 day leaderboard auditor on HOW TO IMPROVE AS AN AUDITOR",
+    "timestamp": 1710197987
+  },
+  {
+    "tx": "0xe63b88826727d6f6b3bc0a3021fc57d76a28a8959089594b4df5e0e7f6595376",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.12,
+    "reason": "WalletGuard presentation, how to keep your wallet safe",
+    "timestamp": 1709688539
+  },
+  {
+    "tx": "0xad2e42e1064363ebb555d4864abca9602fe42475bc3734a4d0b4c2e5cc9a1e59",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.14,
+    "reason": "WTF academy translation to Portuguese, METASTLEUTH #2 Video with Phising track tutorials",
+    "timestamp": 1709074643
+  },
+  {
+    "tx": "0x1996aebb2761e18b3adf1618bd8c94c15dfbdb2be4e9650746267f7b1e670ffd",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.107,
+    "reason": "ZOKYO Auditing firm methodologies and research video",
+    "timestamp": 1708329515
+  },
+  {
+    "tx": "0x7166da467ac1f2db06721966ff99d5318f0ef97fffd443eb1b363c49fabb762c",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.18,
+    "reason": "Community guidance, bootstrap your web3 journey video, Maximizing productivity with AuditWizard video, CIA OFFICER interview",
+    "timestamp": 1707816251
+  },
+  {
+    "tx": "0xa95dec224d88b2a2f3d002f5613952013bea77d52aa292aa4b57c6d19747b87b",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.054,
+    "reason": "OPSEC Workshop with CIAOFFICER ",
+    "timestamp": 1706843219
+  },
+  {
+    "tx": "0xfb5e0950ead290c15512bbe8e41abed80373ca367c8b2145c3d79930c336ce14",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.5,
+    "reason": "Community events, activations and planning for hacker projects",
+    "timestamp": 1706726147
+  },
+  {
+    "tx": "0x2c7cd5d862caa92a4e1fcdbbfb2d6287df3359a710c5f59eef459dc48e8bb912",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.11,
+    "reason": "New Community events, 0.8.20 updates video, Baurum auditing session",
+    "timestamp": 1706574527
+  },
+  {
+    "tx": "0x0a8faa69054c96c6486e0a91506c13e3786146a973a7ccf9a03d50091299b499",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.06,
+    "reason": "Security + AI workshops from Olympix and AuditWizard",
+    "timestamp": 1706002055
+  },
+  {
+    "tx": "0x09b4a8c8b5c8b0d971db407f3d0679dd648622bebec69e856ebef3e9144f3b77",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.1,
+    "reason": "Community work, booking different workshops, working on a security conference",
+    "timestamp": 1705678439
+  },
+  {
+    "tx": "0x6989b185e3702ef32faad9dc59df0ddb78a0d0ebc1a835109f51c318e743acc5",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.07,
+    "reason": "We released a new video with Deivitto regarding his auditor toolbox project a docker container with the best tools for auditing, we're going over a community revamp and creating new ways of collecting knowledge from starting researchers :D ",
+    "timestamp": 1705168307
+  },
+  {
+    "tx": "0x081b0cbc0d5fcb7010cecea2cb0cdac9ce172e1b6614c90151122a294cc01f41",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.12,
+    "reason": "New workshop with Liam from Spearbit, Metastleuth Tutorial",
+    "timestamp": 1704816155
+  },
+  {
+    "tx": "0x17be102e6b6a3e28ee4eab53d5273c7b4b3c7bcca5f2079ce59e3ac141b06e37",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.09,
+    "reason": "Milotruck auditing session",
+    "timestamp": 1704207599
+  },
+  {
+    "tx": "0x224ad5b3b50570e35e504fe51cd2d6e2db48caf1dee97a07f60acff8a1c36fde",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.087,
+    "reason": "CIA OFFICER WORKSHOP",
+    "timestamp": 1703711747
+  },
+  {
+    "tx": "0x7463a3c243f324d23a5314695100a7929bf6b8e5ea31dea5bcde38c0b492818b",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.22,
+    "reason": "End of the year expenses, OSINT workshop, Solidity Atlanta Workshop, Paradigm CTF challenges, all on videos on youtube",
+    "timestamp": 1703285171
+  },
+  {
+    "tx": "0xf2d34c9d8e29f1d88100b6867539633eddee1d16890d0f57b2db74b508dec6de",
+    "builder": "0x52b570dc4d426e58a6d08b1048bc15c519e7a434",
+    "ens": "elifhilal.eth",
+    "amount": 0,
+    "reason": "",
+    "timestamp": 1703090495
+  },
+  {
+    "tx": "0xe8273bf18da8c1f2ffaa5a49b9bed5549a3e6b84498a5e91b3c25717ec8e245a",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.4,
+    "reason": "A 3-days bootcamp for web2 delves into Solidity. 30 young people in Accra, Ghana dived deeper and ended with some interesting feedback. After, bunties for participation, presentation were distributed. Links: 1. https://x.com/e_annan24/status/1735337049308221877?s=46   2. https://x.com/acquaahjeremy/status/1736074054602207651?s =48&t=u3Bpu7yS-EjBlA509vqyhQ  3. https://twitter.com/Mrr_somuah/status/1735620088382845245?t=ooYTh52kW_1ROqB71LaYbQ&s=19",
+    "timestamp": 1702829603
+  },
+  {
+    "tx": "0x8d7d465b08af8fdd34141792a8af564a34bf6bc9b6c6113f29c7a3efe1b364a8",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.09,
+    "reason": "Cergyk Auditing lesson on Youtube",
+    "timestamp": 1702119947
+  },
+  {
+    "tx": "0xce3378df4e0957c78227a11fd405c319af06b600a1dba593e4527f4098bcfc2f",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.05,
+    "reason": "C4 team building, research individuals to hunt bugs together",
+    "timestamp": 1701893951
+  },
+  {
+    "tx": "0x89ec81d6c35b191fc996816c698d65d180971336e18a623e940cff18115918f9",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.45,
+    "reason": "Keeping community and life expenses, events booked to happen: transictioning to web3 with solidity atlanta, exploring edge with Jtriley, BIG tech interviews (ex google) maugz, Audit Togheter with Tigran",
+    "timestamp": 1701765743
+  },
+  {
+    "tx": "0x423b34bab8ddc589f7936423a234770e9fbd45c735f64678187d97db1cd52624",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.8,
+    "reason": "Organizing two major IRL events in Accra. a 3-days bootcamp. Transition Web2 delvs into web3 . We will take them through Solidity, Ethjs and how to deploy their first Dapps. 2. An all delvs, builder Meetup to close the bootcamp. Links to the events https://www.ayahq.com/events/3641cc60-fe52-46a8-be7d-ea0f3316b59f  2. https://www.ayahq.com/events/2c0cd021-52b7-45db-9072-be8ba7f55ce3  We are doubling down in training more Ethereum builders in Africa.  ",
+    "timestamp": 1701172043
+  },
+  {
+    "tx": "0x3027b41002caa395f1f002cdc6afa8a94e6997f40a55a10c9306be44509bac4b",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.22,
+    "reason": "Ask me anything 0x52, Ask me anything Pwning, Interview Pashov",
+    "timestamp": 1700590367
+  },
+  {
+    "tx": "0xdc709528e39ad986e1356f45110072ec4af412e0073d043ae1f7d74bdeb502e9",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.3,
+    "reason": "Phalcon explorer tutorial: how to track funds, Auditing together tutorial session with Cergyk.eth,  From web2 to web3 a Journey with PlasmaBlockj",
+    "timestamp": 1700065715
+  },
+  {
+    "tx": "0xc499401a93fec57dced2f50f54c9dabb61f8c5b509329f886b7e8db14ad15277",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.1,
+    "reason": "Mock interviews, upcoming podcasts with Pashov and Milotruck",
+    "timestamp": 1699353887
+  },
+  {
+    "tx": "0xf2f204818643209760eb55d6b53664be948f96c4677abc371bb14adc3db66cec",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.2,
+    "reason": "At Zuconnect Istanbul. Community spotlight's events with community leaders in Latem, 4Seas to learn from each other. Minoa Pera. ",
+    "timestamp": 1699008359
+  },
+  {
+    "tx": "0xf1e2f141a589a8f4bd3cb5a7a2a2ed01fead3ed73ee66b9155a095bfe827c7f7",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.134,
+    "reason": "Special EVM video with (vnmartinez from Turing), keeping community, +10 mock job interviews with members of the community",
+    "timestamp": 1698980795
+  },
+  {
+    "tx": "0x1fdc1e52391c22fdfefc2e52d783976ef72c9d020f576dc1a2fa2bc8c866c99f",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.25,
+    "reason": "Videos to release (Cosmosvisor RCE, Arbitrer EVM Simulations, Docker Security Toolkit) Events booked (pashov Interview and evm low level vulnerabilities)",
+    "timestamp": 1698698639
+  },
+  {
+    "tx": "0x50d929fea8f3faad6319ea5914ad8f7a344c8009c20317b02674053d4c70bf72",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.1,
+    "reason": "1. mentoring six founders building new startups in the Ethereum economy for six weeks. 2.  A day intro of IT college students to Web3 with the team at Blockchain Builders Association Ghana.  3. participated in builder nights at EthSafari in Nairobi. (https://drive.google.com/file/d/1Ty4hhWm3jBcZn9ZoHBJ-3h3ATT6UKd0t/view?usp=sharing)https://drive.google.com/file/d/1Ty4hhWm3jBcZn9ZoHBJ-3h3ATT6UKd0t/view?usp=sharing",
+    "timestamp": 1698140159
+  },
+  {
+    "tx": "0x41564d9a2589d049f9f693ce8ef3b028743adc8fccbaf4c64abdcef03645298b",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.17,
+    "reason": "Helping people hire, Keeping the community, planning paritcipation on paradigm-CTF, new video released (https://www.youtube.com/watch?v=C--z0GbCjaU&t=1233s GAS OPS)",
+    "timestamp": 1697997131
+  },
+  {
+    "tx": "0x07f7e9b21351b885e84d8e239f66afdb7a32016f5452940112e8a23f2125807e",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.5,
+    "reason": "Videos released (Fast Tip 01: Deleting structures with nested mappings The EVM and Smart Contract Internals Mindmaps and Architecture Mis4nthr0pic Interviews Austin Griffith Fast Tip 06: Who's calling? ZKSYNC DOCS 08: ACCOUNT ABSTRACTION ZKSYNC DOCS 07: FINALITY ZKSYNC DOCS 06: FEE MECHANISM ZKSYNC DOCS 05: BLOCKS ZKSYNC DOCS 04: TRANSACTIONS ZKSYNC DOCS 03: HYPERSCALING ZKSYNC DOCS 02: ZKSYNC ERA BASICS ZKSYNC DOCS 01: INTRO TO ROLLUPS Fast Tip 05: Appending parameters with Create and Create2 Finding Analysis 02: Loose withdraw Finding Analysis 01: Evil NFT Fast Tip 04: Memory variables Zero Knowledge Circuit Development Fast Tip 03: Constructor, Immutables and Conditionals Fast Tip 02: Enum Ordering)",
+    "timestamp": 1697565503
+  },
+  {
+    "tx": "0xe54b11dce4e579d9f36a1a082db6ee36c572e68f12526f6257d4e33d20b18519",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.2,
+    "reason": "1. The Blockchain Builders Association on the 7th September, 2023, organized a community meetup with builders and had the EF The Next Billion team in attendance. The goal is to build a strong builder communities in Africa through events and small groups meetups. Link to the program https://photos.app.goo.gl/JwkczLoXSgXjHopV6",
+    "timestamp": 1696963919
+  },
+  {
+    "tx": "0xce46c37928d8ba2de1a50f3f3c9ea152f1ba2e3102cece2772a511ad53433bdb",
+    "builder": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+    "ens": "kudibos.eth",
+    "amount": 0.1,
+    "reason": "A community meetup",
+    "timestamp": 1696950263
+  },
+  {
+    "tx": "0x8a38672dc00868927adaaffc00733dd795c4429caf1e160b2fabad3ee193a073",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.6,
+    "reason": "Keeping community, helping indivuals and creating content Videos Delivered: https://www.youtube.com/watch?v=X0ROrW6r_j4  Multichain auditing https://www.youtube.com/watch?v=5c8MAojVccA AUDITING TIPS WITH SM4RTY https://www.youtube.com/watch?v=BjUftkbaPSc Mis4nthr0pic Interviews Owen Thurm https://www.youtube.com/watch?v=s0tSBFnfQI0 Exploring a bug in UNISWAPX https://www.youtube.com/watch?v=dUhauQ-yGNs Fast Tip 01: Deleting structures with nested mappings https://www.youtube.com/watch?v=dUhauQ-yGNs Fast Tip 02: Enum Ordering https://www.youtube.com/watch?v=pLuvIN_mdNw Fast Tip 03: Constructor, Immutables and Conditionals https://www.youtube.com/watch?v=LirTSdrXJcA Fast Tip 04: Memory variables https://www.youtube.com/watch?v=w7nLXFqsKvY Zero Knowledge Circuit Development https://www.youtube.com/watch?v=IFy8At9eU3U + 5 events booked.",
+    "timestamp": 1696258787
+  },
+  {
+    "tx": "0xb81bb75f9bb9912120a3f24ae1ad28223276e0a2bce74a0f1c1aad9e6b760e0c",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.25,
+    "reason": "Events booked - (MultiChain Auditing with 0xJuancito, A interview with Owen Thurm and Guardian Audits, Exploring the UniswapX hack with Kebabsec) events already uploaded on youtube ( https://www.youtube.com/watch?v=X0ROrW6r_j4 (multi-chain auditing)) ",
+    "timestamp": 1694889023
+  },
+  {
+    "tx": "0xe0cd9163ff60722b519cd72d5931ff009b5a4a9a3385fb3e8c697b4f8b1db3c3",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.2,
+    "reason": " Regular Activities: Conducting research on frontend developers for the website project Preparing for the interviews that will be announced soon Live CTF on Friday and the WarGames on Sunday  Events: Recorded (to be uploaded)  AMM Mev Backrunning (How to Arbitrage Properly) Multi-chain auditing, covering a GitHub project with a ton of useful information on different EVM implementations and security Events: Uploaded on YouTube this week  EVM Technical Walkthrough with Dragan Rakita (REVM core contributor): https://www.youtube.com/watch?v=Nh19f_2fWLc Tornado Cash Unveiled: https://www.youtube.com/watch?v=jfRBGnYjbrU",
+    "timestamp": 1694105147
+  },
+  {
+    "tx": "0x9955fad09ba345eddc4a88fa54bd8f32438ff9f611c49b669dd55447ecb913a8",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.75,
+    "reason": "Website budget",
+    "timestamp": 1693527119
+  },
+  {
+    "tx": "0xe10b56ad9a73b85d516b24aa7adc11da39f2564f0a9bd9f02bce0bdca55a9b7c",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.25,
+    "reason": "This week we had the following events: evm deep dive on youtube, KZG Polynomial commitments, Tornado Cash Unveiled, plus sunday evm knowledge challenges",
+    "timestamp": 1693526975
+  },
+  {
+    "tx": "0x809a544d2a5b9038279b8034bcb21e6b886977e4c6366e33492fdca762d1c738",
+    "builder": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+    "ens": "alexmelo.eth",
+    "amount": 0.25,
+    "reason": "So this week we have the following events: Audit-Wizard tool show off How To Switch Careers And Never Look Back  Audit, Together: Akshay Srivastav (top auditor) EVM: Technical walkthrough With Dragan Rakita (revm and revh core contributor)  Plus we have war2games session on Sunday and Live CTF on friday!",
+    "timestamp": 1692842303
+  }
+]

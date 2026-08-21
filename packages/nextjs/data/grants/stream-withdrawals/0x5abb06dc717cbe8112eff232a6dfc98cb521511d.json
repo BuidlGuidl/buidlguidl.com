@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0xc76fdefcd879fffd2243a457e83ec2570f7d161fbcb0a7f5c2703b7342ba131e",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.071429,
+    "reason": "",
+    "timestamp": 1759917071
+  },
+  {
+    "tx": "0x20756676c68687e23aacb46cc750e4e6c3eb4180ba26b3261bf773f2f786d304",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.5,
+    "reason": "",
+    "timestamp": 1718741891
+  },
+  {
+    "tx": "0x979178c79d31b014918518704fa9bd9248719c943f128f4c534b67906e41dd83",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.5,
+    "reason": "loogie tank OE mainnet deployment and making it generalizable (returned the last withdraw)",
+    "timestamp": 1648239923
+  },
+  {
+    "tx": "0xf961dd57c92a0298ce4c123b088221b2c66592f4f56e277095a84646cec7ec43",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.5,
+    "reason": "loogie tank OE mainnet deployment and making it generalizable",
+    "timestamp": 1644797379
+  },
+  {
+    "tx": "0x9e5ceb245b1e7d126473805cab44f2cd0beac3cd9ad7a50ba34c4db35ca796ae",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.5,
+    "reason": "Loogie tank motion, migration to Optimism: https://github.com/scaffold-eth/scaffold-eth/tree/optimistic-loogies-master",
+    "timestamp": 1642199977
+  },
+  {
+    "tx": "0x3f7deeba278b5d325171b4dcef6c4bfa91e84c5694f2d4f3495b9df9500233ef",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.447238,
+    "reason": " https://github.com/scaffold-eth/scaffold-eth/tree/public-goods-loogies https://github.com/scaffold-eth/scaffold-eth/tree/composable-svg-nft",
+    "timestamp": 1635836480
+  },
+  {
+    "tx": "0x894e9e11306d600608342952155e1e3813ac32823e84d106805a342c0bf65c75",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.16079,
+    "reason": "render std: https://github.com/scaffold-eth/scaffold-eth/tree/loogies-svg-nft/, loogie tank: https://github.com/scaffold-eth/scaffold-eth/tree/composable-svg-nft",
+    "timestamp": 1633222680
+  },
+  {
+    "tx": "0xa8fe197dca839eb8d3570d369ebf48737c3fcb44e30cd2ea4bf70b8518e1d022",
+    "builder": "0x5abb06dc717cbe8112eff232a6dfc98cb521511d",
+    "ens": "mridul.eth",
+    "amount": 0.391973,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/loogie-tank",
+    "timestamp": 1632946518
+  }
+]

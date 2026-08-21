@@ -1,0 +1,82 @@
+[
+  {
+    "tx": "0x706978f555a0f35ce59290e544259b4739e86b23285bb27d4a5638c68522b841",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 0.3,
+    "reason": "Completed Balancer Grant with SE-2. Details of it to be released once BalancerV3 to be public. Completed `Multisend` tech tree educational challenge (including auto-grading foundry tests) & working on educational `Rebasing` tutorial and foundry tests for tech tree. Lining up work with LUKSO & Balancer for next grants with SE-2 \"Dev Rel as a Service.\" Looking at other projects to continue Dev Rel as a Service with going forward with Austin & Matt. / https://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/31 & https://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/35 ",
+    "timestamp": 1717771547
+  },
+  {
+    "tx": "0x471d50c1c64524e6b1b003b202c498c6c7c76666f1f0039b8212aab1ae174c6b",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "Continued work on Balancer Grant using SE-2 for internal tooling and tutorials for Balancer. Finishing it off this round or next one (for now) - details coming once out of stealth mode with Balancer. Also coordinating more possibilities of further Dev Rel as a Service work with LUKSO.",
+    "timestamp": 1715364935
+  },
+  {
+    "tx": "0xdcdaca30fee99a6cc6c416161caffd214dbea8b32103b122fa277b99152033d8",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "**Cycle 2 (February 29, 2024 - April 1st, 2024)**  - [x]  Majority of time with BUIDL GUIDL this past month: Balancer Grant (NDA so not detailing info, discussed this type of work and pulling from ETH stream whilst waiting for Balancer Grant payment to come through), lining up new work for dev rel as a service with BUIDL GUIDL, and ETHDenver / ETHDenver Post-Chats. - [x]  Balancer Grant high level:     - March week 1-2: admin coordination, research, etc.     - March week 3: “, smart contract development, team management, research     - March week 4: “ - [x]  Outreach at ETHDenver: talk with many protocols to line up more tutorial work (3-4 hours)     - [x]  RiscZero     - [x]  zkSync     - [x]  BASE     - [x]  Sommelier     - [x]  Lukso - [x]  Ongoing meetings / async discussions with possible leads for Dev Rel as a Service arm under BUIDL GUIDL     - BASE, RISC Zero, Sommelier, zkSync, Arbitrum, Lukso, - [x]  Finalizing 1 pager (1 hr)     - [https://www.notion.so/steve0xp/1-Pager-Dev-Rel-as-a-Service-6d9d736001004fe0af65ab3c98c6dff9?pvs=4](https://www.notion.so/6d9d736001004fe0af65ab3c98c6dff9?pvs=21) - [x]  Sync up meeting with Austin Griffith wrt to Dev Rel as a Service, ETHGlobal efforts, etc.",
+    "timestamp": 1711950383
+  },
+  {
+    "tx": "0x5087ead96354665b32fa45b3c25e31fe2a56786b4678a972d834c32b45ef2276",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "Lump sum work through the past several months (part-time throughout) working on advanced solidity tutorials with Sommelier/Aura/Balancer/Axelar- details of tasks outlined (video for tutorial to be posted after ETHDenver): [x]  Gone through README, updated with images from Sommelier, edit wording, add hints, etc. - [x]  Ensure that repo works and has unit testing accordingly. - [x]  Create TG group chat and draft message to help new comers to this first challenge - [x]  Draft up tweet storm showcasing the Sommelier Adaptor Challenge - [x]  Create a 1 pager for DeFi challenges && share with other protocols to see if they are interested in something like this? - [x]  Coordinate / Review Axelar “Bonus Cross-Chain DEX” Challenge w/ Axelar Dev Rel - [x]  Coordinate ScaffoldBalancer admin w/ v3 update - [x]  Script out video to record for next week for Sommelier tutorial - [x]  Outreach to Sommelier team to co-market tutorial that acts as first DeFi tech tree challenge! - [x]  Run Austin Griffith through the tutorial - [x]  Make final revisions before trying to record walk through - [x]  Record first MVP of tutorial video (3 hour total!) - [x]  Make revisions as needed within tutorial / https://github.com/scaffold-eth/Scaffold-ETH-DeFi-Challenges/tree/challenge-2-sommelier-erc4626-adaptor",
+    "timestamp": 1709272559
+  },
+  {
+    "tx": "0x444bf6274483700b151ed56848ef87854756c23c84ffccb956330b0e0820a340",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 0.2,
+    "reason": "Coordinating DeFi Challenges w/ small group of devs & coordinating Axelar BUIDL GUIDL challenge w/ their dev rel (see repo in bio for former, latter will likely PRed to SRE challenges or in a standalone repo w/ Axelar).",
+    "timestamp": 1701574151
+  },
+  {
+    "tx": "0xbc560d1aea732acf63447d7ecee6b13aa4d50c8efa5a5f0850ee560c91be6cf5",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 0.5,
+    "reason": "        - Continued work on Sommelier DeFi challenge, coordinating scaffoldBalancer work w/ group & review sc work, and coordinating tech tree for DeFi with other devs.",
+    "timestamp": 1699582139
+  },
+  {
+    "tx": "0x8931f22df4df6f57ff8c8c08a7a8a2088e4e95aa170fbf86fab42018f29920f4",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "Began DeFi-Challenge #2 on ERC4626 Vaults and Adaptors with Sommelier and Aura Protocols. Worked through rough implementation and README write-up for challenge, but need to troubleshoot the tutorial now (walk thru challenge myself with README & resolve issues, troubleshoot tests and make sure that tests work on solution, clean up any lingering TODOs). Front end also needs development.  Also helped coordinate Balancer Grant for custom pool tooling with scaffoldETH v2. Presented DeFi-Challenges and need for help at BTF. / Link to be posted on BUILDs soon, just cooridnating with team contributing to Sommelier protocol",
+    "timestamp": 1696256099
+  },
+  {
+    "tx": "0x9fc821dea263eda4e2ba018388a85e957f0c1220e6baa85c63a364f17d070fba",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 0.5,
+    "reason": "0.5 ETH from ETH Denver 2023 work && other work around that time as discussed with Austin Griffith (final withdrawal related to that work)",
+    "timestamp": 1693860131
+  },
+  {
+    "tx": "0x97458fd67189aa04087ec6f9f8289f67d7792686fdf5df89bb0db0bb58597be7",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "began scaffold-eth-defi-challenges repo && 90% complete backend challenge portion of yearn simple strategy for students, coordinating next tutorial w/ more complex strategy && coordinating w/ ApeWorX && solidoracle && Austin && others for further development of DeFi challenges (sub-branch) / LINK: https://github.com/scaffold-eth/Scaffold-ETH-DeFi-Challenges/tree/challenge-1-simple-yearn-strategy",
+    "timestamp": 1680042023
+  },
+  {
+    "tx": "0xf595314ed76fb6b5ad4216cd991435c401b56f94b6a653a36fe8b103e5be8afa",
+    "builder": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+    "ens": "steve0xp.eth",
+    "amount": 1.5,
+    "reason": "Development of DeFi Sub Branch Tutorials helping devs get from beginner to actual experience with open-source protocols / Initialize & continual development of yearn strategies (thru making my own w/ actual yearn strategists, see README in link) && DeFi sub-branch concepts, && establishing inroads to lay down Balancer tutorial work / https://github.com/umphams/BUIDL-GUIDL-DeFi-Sub-Branch",
+    "timestamp": 1677190907
+  }
+]

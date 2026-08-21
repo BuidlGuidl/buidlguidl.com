@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0x13540863503074bacb923c092a118641232ed932ea65233951923b05376be400",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.3,
+    "reason": "July. Continue working on Scaffold ETH 2 CLI. Main PR: https://github.com/scaffold-eth/scaffold-eth-2/pull/413, Dev mode PR: https://github.com/scaffold-eth/scaffold-eth-2/pull/436",
+    "timestamp": 1691572403
+  },
+  {
+    "tx": "0x630b49ec7b5801e3b3f702629086eb4b4cb68441e1b70d54ab5750fdb3e2d2b1",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "Working on i18n for Speed Run Ethereum https://github.com/BuidlGuidl/SpeedRunEthereum/pull/187",
+    "timestamp": 1684488551
+  },
+  {
+    "tx": "0xb3f0a94966b43c8db7dff67a98ef348feca10702311bac4624e6e95eba2214c9",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "stream display + withdraw stats @ https://github.com/scaffold-eth/buidlguidl-v3",
+    "timestamp": 1649178251
+  },
+  {
+    "tx": "0x306ccf2dba8e88a3b42992fff25e44121ed45f6a20ab730b9cb8536c2a2ce92d",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "build detail page + build votes @ https://github.com/scaffold-eth/buidlguidl-v3",
+    "timestamp": 1646302865
+  },
+  {
+    "tx": "0x731145aafd81b8a17a38781b9e85a9b2bbad788bfea064c8be503512c8964309",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "backend tests + react table https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1643708757
+  },
+  {
+    "tx": "0x555775f7d6629e7fd64c0dd730e1aa87d572b1be8cee9592654a08494f99bfd1",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1640079159
+  },
+  {
+    "tx": "0xd395d500668bf04b1b1f5398ac67bea31b50da538f98eac57d8424c372e2f2e5",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "https://speedrunethereum.com/ (https://github.com/moonshotcollective/scaffold-directory))",
+    "timestamp": 1636714385
+  },
+  {
+    "tx": "0xb71dbf7f777bbc9b6182d79b94e14278eada36cc000a4c336facfd47c97f2e65",
+    "builder": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+    "ens": "dgrcode.eth",
+    "amount": 0.5,
+    "reason": "Work on scaffold-directory. POC working live. https://github.com/moonshotcollective/scaffold-directory",
+    "timestamp": 1633595453
+  }
+]

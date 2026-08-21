@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x2d609bb0f0d35e575f8104828c6ffc4232857b2a05818f9470edfcf2f759a54a",
+    "builder": "0x7b86f576669f8d20a8244dabefc65b31d7deb3f2",
+    "ens": "0xmaker.eth",
+    "amount": 0.5,
+    "reason": "vayamai frontend and contracts build",
+    "timestamp": 1717721435
+  },
+  {
+    "tx": "0x65d5cc315f48ccf16e208abbb3d54d9e70ee535d65337afb35015d3e7a1152bc",
+    "builder": "0x7b86f576669f8d20a8244dabefc65b31d7deb3f2",
+    "ens": "0xmaker.eth",
+    "amount": 0.5,
+    "reason": "FrontEnd: we have integrated top-up invoice contract, release milestone, displaying client-related jobs on the client dashboard, showing freelancer-submitted proposals on the freelancer dashboard, updating the profile page with completed jobs and pending reviews, amount of nft etc, updated the close deal condition to if all milestones are released, integrated freelancer submit proof of work link and authentication feature  Backend: Split proposals and milestones(Now we have new db.collections for milestones), endpoint login for clients and freelancers, basic cookies and middleware(WIP: Authenticaction with JWT), endpoint for submit completed milestone. Improve fetch all proposal and all milestone endpoint. Add endpoint get_propoposal by id. Refactor Data model, response model and squema. Update on https://buidlguidl.com/build/mGOvLD7a5A4SNoZGKfMy",
+    "timestamp": 1688622671
+  },
+  {
+    "tx": "0x6d3c0281c8a8adad55e7608a9dafe2c75434d56006955dab76d1312dbfcd36e2",
+    "builder": "0x7b86f576669f8d20a8244dabefc65b31d7deb3f2",
+    "ens": "0xmaker.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/Top-Summer-Hackers/VayamAI-monorepo",
+    "timestamp": 1685893487
+  },
+  {
+    "tx": "0x377702e003dbe946a7c289e5b6bbbc2ac2bab8bdcff182bf8511529c39b455e5",
+    "builder": "0x7b86f576669f8d20a8244dabefc65b31d7deb3f2",
+    "ens": "0xmaker.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/jrcarlos2000/scaffold-eth-diamond-challenge/tree/dev/contracts",
+    "timestamp": 1682396339
+  }
+]

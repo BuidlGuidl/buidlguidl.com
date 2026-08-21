@@ -1,0 +1,50 @@
+[
+  {
+    "tx": "0xd34ce949e79210b9e136d8f11131d998c6fada0ed5a47dbe076bf41f84bd5cde",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.3,
+    "reason": "BG",
+    "timestamp": 1719459371
+  },
+  {
+    "tx": "0x47f67f846e1ee5c920fbc576d4a7fb680e177aa4896b2bca3387779faefcd89e",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.5,
+    "reason": "bg",
+    "timestamp": 1717882571
+  },
+  {
+    "tx": "0x6e36a394577cf2fcaeac3ada469a3127610aae7f49b821a79b8950113ccd2e5b",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.5,
+    "reason": "Arbitrage Learning Challenge version 1",
+    "timestamp": 1663166452
+  },
+  {
+    "tx": "0xd8afd5c412914a26dc6f6fdc9f580b399c95dbf08b6e3eb8dc77ba7e15a29a8f",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.45,
+    "reason": "New build integrating free database.  Also created automated twitter notification bots.",
+    "timestamp": 1660062377
+  },
+  {
+    "tx": "0x96d3f7105094f089521188aaaa91ddb9d420085b2dd41af374c3f89f71f28029",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.25,
+    "reason": "Juicebox Buidlguidl UI",
+    "timestamp": 1657851841
+  },
+  {
+    "tx": "0xa46cfb6b1092194e2d39927a1d844b447eb331f05e2b2f48ffeaa40de9651d86",
+    "builder": "0x69e4213eca52c68d90d308a9752e9ac6be05e419",
+    "ens": "fn-2187.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/Yj6GKWqVojXc3JBUDCwZ",
+    "timestamp": 1656370943
+  }
+]

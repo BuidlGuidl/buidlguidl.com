@@ -1,0 +1,26 @@
+[
+  {
+    "tx": "0x1de5918acca8c845c7083a793df0d2b7b1d800ca5cf266c0b438f642437fed3c",
+    "builder": "0x9ea04b953640223dbb8098ee89c28e7a3b448858",
+    "ens": "toadcode.eth",
+    "amount": 0.5,
+    "reason": "Work on the buidl guidl event wallet shitcoin trading game, more features coming soooon https://event-wallet-ten.vercel.app/",
+    "timestamp": 1694279471
+  },
+  {
+    "tx": "0xbe8df9fd0609301c76e4d871b7f25acdaef8a572fa307a9eabcd55f625f11b98",
+    "builder": "0x9ea04b953640223dbb8098ee89c28e7a3b448858",
+    "ens": "toadcode.eth",
+    "amount": 0.3,
+    "reason": "Arb bot challenge https://app.buidlguidl.com/build/2mELC1p8loIKaKadEkVB",
+    "timestamp": 1690824695
+  },
+  {
+    "tx": "0x38fdb0eeb3dbe06de07bb76445ac145bed79db6598fbcd05307bd4ae13073b7e",
+    "builder": "0x9ea04b953640223dbb8098ee89c28e7a3b448858",
+    "ens": "toadcode.eth",
+    "amount": 0.25,
+    "reason": "Ethers script building showoffs https://buidlguidl.com/build/jJDF0p6dRLXIhs1Wh8mj https://buidlguidl.com/build/vJiwxpCWCSsMZgz75ovi",
+    "timestamp": 1672959131
+  }
+]

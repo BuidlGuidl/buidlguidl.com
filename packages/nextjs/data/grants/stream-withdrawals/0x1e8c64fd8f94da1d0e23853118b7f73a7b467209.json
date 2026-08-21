@@ -1,0 +1,194 @@
+[
+  {
+    "tx": "0x76cf92f3c9c1b22989aab04fdf01cef857f2832d50d77461db80795bc36f68f2",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.4,
+    "reason": "continued work on quizer prototype: https://app.buidlguidl.com/build/pqMXb98oNsm64nsHQkRx",
+    "timestamp": 1714590503
+  },
+  {
+    "tx": "0x9f073762a09bfdf72ec412f7ac1bb46c43640567dd0dd23c96c821d79547d2ca",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://app.buidlguidl.com/build/pqMXb98oNsm64nsHQkRx / https://github.com/BuidlGuidl/impact-calculator/pull/69  https://github.com/BuidlGuidl/impact-calculator/pull/56 ",
+    "timestamp": 1711955999
+  },
+  {
+    "tx": "0xc15e5ea0772ed4fc19fb8cf3a8da57d1ae7f3cbbc9fb39647e321da755c3a6eb",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "Impact calculator: https://github.com/BuidlGuidl/impact-calculator/pull/43, https://github.com/BuidlGuidl/impact-calculator/pull/30, https://github.com/BuidlGuidl/impact-calculator/pull/29, https://github.com/BuidlGuidl/impact-calculator/pull/28, https://github.com/BuidlGuidl/impact-calculator/pull/22, https://github.com/BuidlGuidl/impact-calculator/pull/18, https://github.com/BuidlGuidl/impact-calculator/pull/13, continued work on https://app.buidlguidl.com/build/MTgO0bK6WrxOjieCbww1 ",
+    "timestamp": 1709280779
+  },
+  {
+    "tx": "0x01dbb0704af7fcdd80c0decb978c3859389342f9a90ff2b83fb581c1e799dafa",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "research & questing on allo frontend integration https://github.com/0xChijoke/Regrow",
+    "timestamp": 1706091611
+  },
+  {
+    "tx": "0x5ecfa803fc7ea7cb7ad14dd163663cc071141c85dc793fde442992c97a2ec31d",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "buidl prep",
+    "timestamp": 1698320927
+  },
+  {
+    "tx": "0x5aeb58e282ada5cf4d12128c6187a4a73ac18849302e9d0b5534562ab866deb2",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "buidl prep",
+    "timestamp": 1698320807
+  },
+  {
+    "tx": "0x9f7935019cd6c68876218d8ea97e133b975c5c3c9c45fae49e9e8559b28983ec",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.3,
+    "reason": "contributions to SE2 and ongoing quests",
+    "timestamp": 1693596143
+  },
+  {
+    "tx": "0x3cef82c07a0f469cc352d897af294f0e1b85e8afdc2f34c966b4fd64e12a1b24",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "BG svg badge research / building contracts https://github.com/0xChijoke/Guidl/tree/main/packages/hardhat/contracts / Allo protocol deep dive / nextjs App dir studies.",
+    "timestamp": 1691847419
+  },
+  {
+    "tx": "0xaf6ade7c65f25c1b4ea19ab6da22bffb61f8f68e7ffb92a50d33565e0bc3ad7b",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.3,
+    "reason": "https://buidlguidl.com/build/hiKcgGpVi8LfRsQjsNuT / Passport demo showoff / buidl prep",
+    "timestamp": 1689080099
+  },
+  {
+    "tx": "0xca1297aab3fa189fc750f4694779bdc5bf5b5c50403b5e9467b14104476b7782",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/IabcRTABreg27cD0Vitg / contributions to  https://github.com/cacosta88/wenbugfixsir/tree/wagmi",
+    "timestamp": 1686645731
+  },
+  {
+    "tx": "0x05402dd0dfdc77139804d6b3effbb0f6e2c0bbdf9f04df25057a95b8b9c4e31d",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "Building and coordinating with BG OGs / continued work on squad streams.",
+    "timestamp": 1685195087
+  },
+  {
+    "tx": "0x7789e0a7c52d0f26dc4787095017cefaf96fc9a96fa68bc1838bfcb567e55ca8",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.3,
+    "reason": "https://buidlguidl.com/build/BcNth3LbtOAPwNEHeR0D / Challenge submission.",
+    "timestamp": 1682897735
+  },
+  {
+    "tx": "0x8cee76c2b638b33534230f36823cadf72d62becd096940ed0adde24e7e34d477",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/vskk4nsfjG684xUAgQne / continued work on prototype buidls",
+    "timestamp": 1680974051
+  },
+  {
+    "tx": "0x84eefa8f415447fb337e5b3987911a5ac5bc0fd74c7154493259451efa569da1",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.1,
+    "reason": "Hackathon/buidl prep, continued work on blockEx",
+    "timestamp": 1680080027
+  },
+  {
+    "tx": "0x3cabb7328a8fd1859f671fc0a0c2e11aaccfa425b7f5f81e4d99ee9f12468a82",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/J2zCO2IsCGZUCopv2p12",
+    "timestamp": 1677748979
+  },
+  {
+    "tx": "0x4ed5c806f9f730973a13292c6b88f10c57c048b759b91d46a2fed20841060f64",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.1,
+    "reason": "continued work on ETHDenver admin",
+    "timestamp": 1676031011
+  },
+  {
+    "tx": "0x31d6241ff9dc47b2a1c37657ba64d9cdd5b8def4852934a10165ad5533ef84a6",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "Work started on ETHDenver Admin build / Work started on AA build / Hackathon stake / Buidl prep",
+    "timestamp": 1674834071
+  },
+  {
+    "tx": "0x823ab42c71e00cd2092eefee7ed7b343d5bdab1f8347039c7f709d0c6a68438c",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "work on stake.ethdenver.com/ Nov contributions / svg build prep ",
+    "timestamp": 1669293551
+  },
+  {
+    "tx": "0xf5d8550425290328508bc88407787549aaacc90d66ffd4538d669e46525e27e9",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/pull/902 https://buidlguidl.com/build/ij8GuFcmRcm8vWda8aT6 / Sept & Oct hacks / build prep",
+    "timestamp": 1666682579
+  },
+  {
+    "tx": "0x8a1358b9b3fc47dc29a84886bd3a2cd39aeae34bea42f13926a435b1dafcb351",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.2,
+    "reason": "https://buidlguidl.com/build/Gv4OUCJB5ukDFGhjgO6z",
+    "timestamp": 1663230263
+  },
+  {
+    "tx": "0x22abc6b40d603ba1d8a2ccca4f50b2ee879aeeaffedb8484647accf948370fca",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.4,
+    "reason": "https://buidlguidl.com/build/MAwiZpuLCZqiIcF8Dw0w && ongoing work on scaffold-chakra starter.",
+    "timestamp": 1661362053
+  },
+  {
+    "tx": "0xed9419488ba15565004fcb8e7a07687ff962e2f18044200bbf72c37d76cf79a5",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.1,
+    "reason": "https://buidlguidl.com/build/MAwiZpuLCZqiIcF8Dw0w && ongoing work on scaffold-chakra starter.",
+    "timestamp": 1661361884
+  },
+  {
+    "tx": "0x362a9d7c64d94b83d79e16e6900e389ebeee56599820996e78f0446e0b50e322",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/EngrGord/scaffold-eth-jbx & SVG buidl prep",
+    "timestamp": 1659389179
+  },
+  {
+    "tx": "0xc0d1064ffd2bb7e411dca43b7fad80fe10efd587ad611d53f64b2e3fcb6f6b3c",
+    "builder": "0x1e8c64fd8f94da1d0e23853118b7f73a7b467209",
+    "ens": "engrgord.eth",
+    "amount": 0.5,
+    "reason": "https://buidlguidl.com/build/yPAw9FsOSAkH5SYnXfyQ   https://buidlguidl.com/build/xG36yWBOiIYNeb7ZYsoi",
+    "timestamp": 1657097818
+  }
+]

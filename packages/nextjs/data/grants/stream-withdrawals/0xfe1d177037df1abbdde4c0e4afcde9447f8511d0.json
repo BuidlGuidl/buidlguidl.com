@@ -1,0 +1,58 @@
+[
+  {
+    "tx": "0x6f53ed4df7bf13fc74970cbe2bd27b6092f35cf45ca514db071fb685d42a1076",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.1,
+    "reason": "Preparing next events I'll be talking about SRE in Latam",
+    "timestamp": 1719611831
+  },
+  {
+    "tx": "0x1750dc08cc170544881706c5592414a935a9e72de073e9556ab99b1c47578ba7",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.4,
+    "reason": "SRE in Latam, outreach with devs https://juandaveth.notion.site/SRE-in-Latam-8db56f988f96427faf87129a29f8c55b?pvs=4",
+    "timestamp": 1717730843
+  },
+  {
+    "tx": "0x5e8ffc318d922d0dcde541961aca56c5bb48a27e2b941a99b8baae989036a115",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.25,
+    "reason": "ETHSamba judging and developer engagement with hackers",
+    "timestamp": 1716856835
+  },
+  {
+    "tx": "0x7b5df096c7ec182cf4193f406eeed1a576e4a1fc707db14974397f9240620cf2",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.25,
+    "reason": "Pending budget for the participation at ETH Samba, part of these expenses covered: airbnb, stickers and flight",
+    "timestamp": 1713840659
+  },
+  {
+    "tx": "0x137e3d41e3ca6e0c66fef94dd08336478b9d0d225ba9776c47a2998a43e19803",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.5,
+    "reason": "ETH Salvador and ETH Kipu workshop in Aragua",
+    "timestamp": 1709844155
+  },
+  {
+    "tx": "0x3eb8e17489368cbb9fa87de90ad6c74937b3acd3974972334f6c50f5a15a3a4f",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.5,
+    "reason": "Attending to ETHLima as speaker, working on online workshops for EthUruguay and integrating SRE to Solidity curriculum for ETHKipu's courses.",
+    "timestamp": 1705584623
+  },
+  {
+    "tx": "0x23d27f9388a74535f2fafc10b8af93b83f3261363ec3a26fe3435b55aacb4257",
+    "builder": "0xfe1d177037df1abbdde4c0e4afcde9447f8511d0",
+    "ens": "buidlguidl.juandav.eth",
+    "amount": 0.5,
+    "reason": "Getting more hackers in Latam to use Scaffold-eth",
+    "timestamp": 1702958855
+  }
+]

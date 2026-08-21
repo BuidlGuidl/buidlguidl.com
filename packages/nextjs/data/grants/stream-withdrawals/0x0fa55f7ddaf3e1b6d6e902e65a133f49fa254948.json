@@ -1,0 +1,74 @@
+[
+  {
+    "tx": "0x0b2164e15ec2f7692e10a9429d9f2b7d1525b3658e1d2c86f350401204059b7d",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.15,
+    "reason": "Closing out stream",
+    "timestamp": 1718548235
+  },
+  {
+    "tx": "0x01b6c4341a4721f502e332b75dada8f0accb1352a2db85fa5a8137cbaa629fef",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "Closing out account for upgrade",
+    "timestamp": 1717729031
+  },
+  {
+    "tx": "0xbffc3cc9c10b57907d56306f2188538f6badf9599cf6e4582da912872ea360d1",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.44,
+    "reason": "Collaboration and help with https://github.com/scaffold-eth/OP-RetroPGF3-Discovery-Voting",
+    "timestamp": 1691616467
+  },
+  {
+    "tx": "0xcb5a9676b353ef2a26dc5367422fd69019c88033d9c553c2a4a25e841e3aa3f3",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "Learning ZK",
+    "timestamp": 1689300239
+  },
+  {
+    "tx": "0xd2527f0d7f211857b92e133c804b0da663aba95d67b145463a15449b2c939965",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/CMD10M/merkleTree",
+    "timestamp": 1685800955
+  },
+  {
+    "tx": "0x49261f9b6412a7f90e957d4dc125b3631789fb69de40ae0488cf938c8a68c814",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/CMD10M/GoBuidlMe",
+    "timestamp": 1682987171
+  },
+  {
+    "tx": "0x5039015cf2bfa79fc1dc93e34869a39c38b925f87d78575b98f23cd16a9568d4",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "simple proposal system V1 https://github.com/CMD10M/proposal-system",
+    "timestamp": 1679791607
+  },
+  {
+    "tx": "0x2646415d346ee700138ac7023cf2cf8b027943581c461acbc92ab586f57a1a75",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.41,
+    "reason": "EthDenver Booth NFT Indexer https://github.com/CMD10M/indexer",
+    "timestamp": 1676925419
+  },
+  {
+    "tx": "0xc998916f4acb6cecf9290e9f0b5735980dfa006faae8ec5c03425fdcacd4d985",
+    "builder": "0x0fa55f7ddaf3e1b6d6e902e65a133f49fa254948",
+    "ens": "cmd10m.eth",
+    "amount": 0.5,
+    "reason": "Prediction market build -- https://github.com/CMD10M/PredictionMarket",
+    "timestamp": 1674756791
+  }
+]

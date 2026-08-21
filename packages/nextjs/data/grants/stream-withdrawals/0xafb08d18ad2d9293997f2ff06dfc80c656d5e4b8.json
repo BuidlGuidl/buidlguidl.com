@@ -1,0 +1,18 @@
+[
+  {
+    "tx": "0xc51acc03ba7dc2ebdb4df65a61f52279aeaa24a3081192bf3b08e8660d0122b8",
+    "builder": "0xafb08d18ad2d9293997f2ff06dfc80c656d5e4b8",
+    "ens": "rebeccadai.eth",
+    "amount": 1.5,
+    "reason": "cohort steward",
+    "timestamp": 1717728659
+  },
+  {
+    "tx": "0xbce2afd54a6b45de03a396317f799c7af55832b0b87dfbbb7df7787c8b4e327b",
+    "builder": "0xafb08d18ad2d9293997f2ff06dfc80c656d5e4b8",
+    "ens": "rebeccadai.eth",
+    "amount": 1.5,
+    "reason": "managing the 'not-just-notfellows' cohort",
+    "timestamp": 1702914719
+  }
+]

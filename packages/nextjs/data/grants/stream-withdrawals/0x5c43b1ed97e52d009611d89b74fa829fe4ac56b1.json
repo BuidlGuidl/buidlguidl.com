@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xeac59693fda83563e5cdaabfe389344e8cb0c7aea6d2cab0fc1485b38eef7498",
+    "builder": "0x5c43b1ed97e52d009611d89b74fa829fe4ac56b1",
+    "ens": "pileofscraps.eth",
+    "amount": 1,
+    "reason": "buidlguidl DAO advisor as per Austin!",
+    "timestamp": 1702923203
+  },
+  {
+    "tx": "0x297d446085fd81d0e670e533b61954bb396d487e067ef9bed41aa63260130715",
+    "builder": "0x5c43b1ed97e52d009611d89b74fa829fe4ac56b1",
+    "ens": "pileofscraps.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/extrascrappy/scaff-eth_patronage_project",
+    "timestamp": 1636372521
+  },
+  {
+    "tx": "0x277d227a816dce53f4f9304872c5c2f002831aebd31ae54da60fd8a966cccb84",
+    "builder": "0x5c43b1ed97e52d009611d89b74fa829fe4ac56b1",
+    "ens": "pileofscraps.eth",
+    "amount": 0.42,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/offchain-dynamic-nft",
+    "timestamp": 1634379793
+  },
+  {
+    "tx": "0x2acf26f7e33170202b5ea6651bde3ef877233369124f24c83028c57b85b52bb2",
+    "builder": "0x5c43b1ed97e52d009611d89b74fa829fe4ac56b1",
+    "ens": "pileofscraps.eth",
+    "amount": 0.075,
+    "reason": "spot check herberger contract",
+    "timestamp": 1626760878
+  }
+]

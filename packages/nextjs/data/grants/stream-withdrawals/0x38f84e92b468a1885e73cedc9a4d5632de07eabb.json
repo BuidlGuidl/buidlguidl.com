@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0xa03c790eaba940384154f06c43c5d28d59cb9e2fa5d719bb61c19945ba7264eb",
+    "builder": "0x38f84e92b468a1885e73cedc9a4d5632de07eabb",
+    "ens": "zg.frogbaseball.eth",
+    "amount": 0.074914,
+    "reason": "Clearing old stream",
+    "timestamp": 1665516311
+  },
+  {
+    "tx": "0xbd712fc1c3d50fe140d53855b09b0273465f00c0f6da00c1d60d3d570b8c00f1",
+    "builder": "0x38f84e92b468a1885e73cedc9a4d5632de07eabb",
+    "ens": "zg.frogbaseball.eth",
+    "amount": 0.490605,
+    "reason": "Challenge edits / testing / support",
+    "timestamp": 1646249866
+  },
+  {
+    "tx": "0xe6b535c3849260a7f6269d3176716ff25597a0847a19e52902c90a2f5e8a3a30",
+    "builder": "0x38f84e92b468a1885e73cedc9a4d5632de07eabb",
+    "ens": "zg.frogbaseball.eth",
+    "amount": 0.247913,
+    "reason": "SRE.com submission reviews.  Challenge issue/instructions edits/updates.",
+    "timestamp": 1640061545
+  },
+  {
+    "tx": "0xd22ae8c93adf3cd7499e04dce190a373dc3ad2e8a91832e434c9b63350a21d3c",
+    "builder": "0x38f84e92b468a1885e73cedc9a4d5632de07eabb",
+    "ens": "zg.frogbaseball.eth",
+    "amount": 0.486567,
+    "reason": "BuidlGuidl github page updates, Challenge 0 & 1 iteration / fixes / testing",
+    "timestamp": 1638129313
+  }
+]

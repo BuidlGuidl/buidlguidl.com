@@ -1,0 +1,98 @@
+[
+  {
+    "tx": "0x694a6008238347f03ad67ddecf26072c9564e70601ab808e856adf3b79d0c82f",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.175,
+    "reason": "Still R&&Ding 4337 and gas-abstraction; Stored entire book (Gospel of John) on Optimism Mainnet for proof-of-concept/cost-analysis:  https://optimistic.etherscan.io/address/0x29BB1313321dbA27Ad074DD6AD2943040319B439, https://app.buidlguidl.com/build/ZWEsBdl5DshHyKUFFVNV; 4 more book/JSON files; Sourcing book data from old web2 app for next books: https://newbook.store/free-books",
+    "timestamp": 1717506935
+  },
+  {
+    "tx": "0x6a0e559b0db3f5ca92cebd466967df4684a8d155d117e740ff571942f9ae38db",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.025,
+    "reason": "Pulling funds to bridge to Optimism mainnet, deploy/test; Will also need funds for Subgraph;",
+    "timestamp": 1715110355
+  },
+  {
+    "tx": "0x9d556281bc9cb97557e0515f96dcec924fd5e94e354bf278bb772f481a919f4b",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.3,
+    "reason": "Progress on two builds: https://app.buidlguidl.com/build/8xxDexWnRSnpMHuYA4N4, and: https://app.buidlguidl.com/build/RNyhvNektjbaPP2uzi18",
+    "timestamp": 1714320179
+  },
+  {
+    "tx": "0x1b47cf4dd0ebee58e57bb59e1c0f6841758cc3dd85d03c4675e937d984799d16",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.1653,
+    "reason": "Adding Account Abstraction via Alchemy Light to Crowd Fund: https://github.com/nathan-websculpt/crowd-fund-v5 ",
+    "timestamp": 1713032783
+  },
+  {
+    "tx": "0xeada5ece13d4af9a1bab6fe579463d6c34268d0b3a58e8728b9d159c7ec599e7",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.15,
+    "reason": "R&Ding 4337 and paymasters (planning out implementations of Account Abstraction/Gas Abstraction on Crowd Fund) https://github.com/nathan-websculpt/se2-4337, #797/#798 https://github.com/scaffold-eth/scaffold-eth-2/issues/797 ",
+    "timestamp": 1712426159
+  },
+  {
+    "tx": "0x6a02955f6e21579bde1e3a8565704d7b5866398d0d0a043a65d07aea147b29a2",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.33,
+    "reason": "Updates to build: https://app.buidlguidl.com/build/3QtzWhJ7ZABTU52s4U7z, added more data to proposal pages, refactored sub-comments, cleaned up frontend code, styled pages, research for next build; 2 blogs posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-nine-followers-and-posts-9f2621600ac8, https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-ten-infinite-comments-1201ca2c42b1",
+    "timestamp": 1711066679
+  },
+  {
+    "tx": "0x9f537feb22275ae90b2d765ba68c54594cb36d67ac60768b12fceabab1150bbf",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.3547,
+    "reason": "Updates to build: https://app.buidlguidl.com/build/3QtzWhJ7ZABTU52s4U7z, users can like posts and comments, infinite sub-comments (reddit-style commenting) added to posts, blog preparation",
+    "timestamp": 1709352683
+  },
+  {
+    "tx": "0xfb09216accba2da5cd1a81866ebd53007f49de198bb903b21347ec909a8e5d8a",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.1496,
+    "reason": "2 blogs posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-seven-the-components-2fa4dc6853ce, https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-eight-the-refactor-37eaa28655a5, Updates to build https://app.buidlguidl.com/build/3QtzWhJ7ZABTU52s4U7z, ability to follow a fund run, comment/tip on posts, explore page, demo vid on readme",
+    "timestamp": 1708202987
+  },
+  {
+    "tx": "0x003c88eaf9bb5dec8b3ffe84488e5b04efea2eee77586eb3dd5355d25f317f0a",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.3539,
+    "reason": "4 blogs posted: https://medium.com/@websculpt/local-graph-dev-with-scaffold-eth-2-a774a67b148c, https://medium.com/@websculpt/query-local-graph-with-scaffold-eth-2-0686a27405b8, https://medium.com/@websculpt/deploying-a-subgraph-8771f25d0d0f, https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-six-the-subgraph-942fb9f1c667, new build: https://app.buidlguidl.com/build/3QtzWhJ7ZABTU52s4U7z",
+    "timestamp": 1706738603
+  },
+  {
+    "tx": "0x35647dfc59b248c794d85cb37f28b8657d5164541da5aec3ea953deaa007818f",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.33,
+    "reason": "Follow-along blog progress, posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-four-multisig-contract-5f682f8e365d, posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-five-multisig-components-b8cc6b2a66c9, updates to build: https://app.buidlguidl.com/build/3Ijz2kfYW2ptgcG8DLiu, dynamic GraphQL filters/searches on tables: https://crowd-fund-v3-nextjs.vercel.app/queries, deadlines extended, new contract/subgraph deployed",
+    "timestamp": 1704927179
+  },
+  {
+    "tx": "0x7dab3410def47592c7cd13484dd32f48756b40ec62067a29928c9d4d81205106",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.3665,
+    "reason": "Follow-along blog progress, posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-two-the-contract-9c031402b33e, posted: https://medium.com/@websculpt/building-a-project-with-se-2-crowd-fund-part-three-the-components-3c11e26595bb, updates to build: https://app.buidlguidl.com/build/3Ijz2kfYW2ptgcG8DLiu, 3-tier nested tables show subgraph/entity relationships, other tables/queries added, test files updated, demo vid on readme",
+    "timestamp": 1703193203
+  },
+  {
+    "tx": "0xa83ab7f0a436a0620ba616580e2d1164536b1b39e1cbd89c87e55b316023ff11",
+    "builder": "0x1e7aabb9d0c701208e875131d0a1cfcdaba79350",
+    "ens": "websculpt.eth",
+    "amount": 0.3,
+    "reason": "https://shorturl.at/nCNY3 and began publishing the follow-along blogs for Crowd Funds V1-V3 on my Medium @websculpt (3 out)",
+    "timestamp": 1702329851
+  }
+]

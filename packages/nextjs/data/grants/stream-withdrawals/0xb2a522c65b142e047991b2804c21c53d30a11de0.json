@@ -1,0 +1,9 @@
+[
+  {
+    "tx": "0xf426faa62290d8513b7245e37fa1866f501fe4e7e50aefa1043e6df2f1afdb15",
+    "builder": "0xb2a522c65b142e047991b2804c21c53d30a11de0",
+    "amount": 0.249912,
+    "reason": "Work on eth-hooks testing: https://github.com/scaffold-eth/eth-hooks/pull/162, https://github.com/scaffold-eth/eth-hooks/pull/131, https://github.com/scaffold-eth/eth-hooks/pull/128",
+    "timestamp": 1643652712
+  }
+]

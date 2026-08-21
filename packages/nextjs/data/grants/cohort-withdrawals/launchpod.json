@@ -1,0 +1,66 @@
+[
+  {
+    "tx": "0xd61929b8adc6530ce076cd493250734ebd71d069ba51c8d60fbf3b88d29dfc91",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.35,
+    "reason": "Stable Coin Deep Dive Challenge - Contracts",
+    "timestamp": 1744145349
+  },
+  {
+    "tx": "0x972a8e337cd984f8d51dad474d4f3723dc934b3de3a25a1ed399bf0199db1726",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.25,
+    "reason": "BG Client / Index.js & gauge components ",
+    "timestamp": 1724934633
+  },
+  {
+    "tx": "0xf76b9f2a31546d850f4f1091ca82418a7aaebf633d9350b9df842b60008b51a3",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.25,
+    "reason": "BG client - Blockcheck, BandwidthGauge, active testing.",
+    "timestamp": 1722427059
+  },
+  {
+    "tx": "0x54f79c14d01475504a2c3c68cba97cad8193b4dad22f10d09400755dd9103834",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.3,
+    "reason": "Submitted Farcaster Frames with SE2 kit",
+    "timestamp": 1707578885
+  },
+  {
+    "tx": "0xdb176070fbebc3e32407e1f390b2d22946e9f1d3ebd0e2d7ac6c970f1f5a4272",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.35,
+    "reason": "MVP of FOS Network finsihed",
+    "timestamp": 1706479265
+  },
+  {
+    "tx": "0xc0a82dde7b62bef465db2e067c41924ac4dfc0b203943c33e7f333353cdef251",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.2,
+    "reason": "Working on a decentralized social network using IPFS and on chain data storage. ",
+    "timestamp": 1703694213
+  },
+  {
+    "tx": "0xaca93455c9adb563d2b7fd213cfc90244f2a9a16cf6e9c443894dd049a28478d",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.02,
+    "reason": "Submission: SpeedRunn PuttPutt\nVersion of SpeedRun Golf in a SE2 Quest Setup.",
+    "timestamp": 1703084067
+  },
+  {
+    "tx": "0xb64dbbd5456644811f5602d42cd4437a07942c7edfbeaaaf5a7e791a1230eb7b",
+    "builder": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+    "ens": "quizford.eth",
+    "amount": 0.25,
+    "reason": "Submitted SpeedRun-Golf educational Game on SE2 framework.",
+    "timestamp": 1702582751
+  }
+]

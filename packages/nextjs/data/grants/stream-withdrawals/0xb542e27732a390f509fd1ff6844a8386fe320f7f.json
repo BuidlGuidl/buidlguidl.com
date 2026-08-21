@@ -1,0 +1,106 @@
+[
+  {
+    "tx": "0xaedd844376ec6ac1d1dfa1b2901412322b106209497e30501ecf80eee7f8945e",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.005,
+    "reason": "clean up",
+    "timestamp": 1723205063
+  },
+  {
+    "tx": "0xed6dac6fedc5adf34fbe651ad25580f83530be6ab51f91436630ac6de74b2159",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Smart Contract for Baluni V1. A dex that fetches prices through oracles and allows swapping, remove and add liquidity, in weighted pools with more than one token. repo: https://github.com/scobru/baluni-contracts",
+    "timestamp": 1717707227
+  },
+  {
+    "tx": "0x67b6d6508c5a9f253c55fbe0c83af9120aa1b64d3132360a80c208a9bcc88591",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Implement a Swap feature that is intuitive and responsive, ensuring a seamless experience for users wanting to exchange tokens. https://github.com/scobru/baluni-ui Develop the initial version of BALUNI GUI to facilitate the use of BALUNI CLI through a graphical interface. https://github.com/scobru/baluni-gui https://app.buidlguidl.com/build/xBpLsjcMiSrLQyoTW7Em Enhance the API by incorporating Order Depth Optimization Strategy (ODOS) for improved trade execution and routing. https://github.com/scobru/baluni-api Transition configuration management to JSON files to simplify the customization and deployment of strategies. https://githubcom/scobru/baluni",
+    "timestamp": 1713634595
+  },
+  {
+    "tx": "0x93cb96ed913d675c0c5fed255ee7c02b5182173508181945a5c1202b27389d19",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Creation of Baluni API and Baluni Contracts repo used by Baluni CLI. Deployed 2 versions of the frontend, one on Polygon and the other on Mumbai. https://app.buidlguidl.com/build/iCZuxDGjKfrRHM5QpfmX https://app.buidlguidl.com/build/Ddr0TBcrWwgndNGUISdQ https://app.buidlguidl.com/build/hL8oU5sdJPseWBg7IFaQ https://app.buidlguidl.com/build/gAZnXK6xJoIIeWaeiB0r",
+    "timestamp": 1710954491
+  },
+  {
+    "tx": "0x32e14ba26ebc244446cf9109cdb178cac79e98e4727b91e7e3cbbf5769c94110",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Creation of npm package for Baluni CLI. Build web interface here https://github.com/scobru/baluni-ui. Creation of BaluniPool and BaluniTournament smart contract. Creation Keeper script.",
+    "timestamp": 1708332983
+  },
+  {
+    "tx": "0xa9faeb95fc8c2e86e396f8577214046a9368a36e48b5767cc1b6a410caf7e2dd",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "BALUNI - Uniswap Rebalance CLI Tool with modules: DCA, Linear Regression, Technical Analisys, defi yield (Yearn Finance), REPO: https://github.com/scobru/baluni",
+    "timestamp": 1705681463
+  },
+  {
+    "tx": "0x0583c84fdf85d37f9a8e5a2f09f9edbefd4d3a9eca8dd03e0ac0f987b792f46d",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Nostr3 - https://app.buidlguidl.com/build/DB22U9EnIwZkjugYvtan",
+    "timestamp": 1702426931
+  },
+  {
+    "tx": "0xa2d33877785e91495a01b7b18df4ddc2c1381391b55f41ca51022af8bf4e242e",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "MOGU: https://app.buidlguidl.com/build/lodor0QGWaMSu8CTinaA || CRYPTO-IPFS: https://app.buidlguidl.com/build/wqNzT6Y0i6zlbFgxabPk",
+    "timestamp": 1698938999
+  },
+  {
+    "tx": "0xeb5b8f8fa464aa1be8a9f8b29933fd4b77d47a5de15266f33ff54de7a3c8cd29",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "Mecenate V1.0.5 - https://app.buidlguidl.com/build/s485DqzYUupIrIVgCHKb ",
+    "timestamp": 1694654231
+  },
+  {
+    "tx": "0x7e33d0e17856eff75fcb21df4a86cc9382648e999885395d41345841afbc7d7c",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "*** address-book (npm package) - https://app.buidlguidl.com/build/S30PBXUcAZE1R3egs6Hq *** *** buidllib (smart contract toolbox amd test) - https://app.buidlguidl.com/build/USx6jKLAxtopTjMN2uFl *** *** I edit and redeploy my old dapps \"Tier\" using the new library \"buidllib\" *** ",
+    "timestamp": 1690577291
+  },
+  {
+    "tx": "0x0a076f0fa5b678227ef3bff869bf1a9ad3e90dffe8edd1774b220eaf7efffdee",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.495,
+    "reason": "WALLIT LITE - https://buidlguidl.com/build/Ke4ZgnP1cjlyRLh8KCsu // Nimbus2000-UI and backend https://buidlguidl.com/build/PRoufGmvMCAPXbobabqZ",
+    "timestamp": 1687972763
+  },
+  {
+    "tx": "0xccf37dc2329ac580fbbc56bd262347a48dd63e03cd73eaae01d656fa615b33eb",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "UNIVERSE : https://buidlguidl.com/build/1jT8jvTWaOwte355Ynuy || WALLIT https://buidlguidl.com/build/3ljbpK4WSigTAcpwEMzi ||",
+    "timestamp": 1685402231
+  },
+  {
+    "tx": "0x9cef90e94b2699fe4711b3c684a321081ef264cdbdebcfd572658059e3a22195",
+    "builder": "0xb542e27732a390f509fd1ff6844a8386fe320f7f",
+    "ens": "scobru.eth",
+    "amount": 0.5,
+    "reason": "LINES: https://buidlguidl.com/build/rU1cZ2yssXRSSwqtiUjt || MECENATE: https://buidlguidl.com/build/s485DqzYUupIrIVgCHKb || TIERS:  https://buidlguidl.com/build/GgfibrWC2SMwEUjkIjGo",
+    "timestamp": 1682773091
+  }
+]

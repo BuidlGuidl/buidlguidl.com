@@ -1,0 +1,74 @@
+[
+  {
+    "tx": "0x2b5631e5188a57920da59e165996ff30ae0f8a70e5b856f86b6c503a52eaf87e",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.43,
+    "reason": "Flashbots Bundler",
+    "timestamp": 1657819549
+  },
+  {
+    "tx": "0xef144556fe68be35cf8b4f12c16b5c5a4a31953ca6752e3dbdbb7bbb3bca5140",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.335,
+    "reason": "Taught VCA residency class on smart contracts, scaffold ETH, https://twitter.com/vcaresidency/status/1510278373892837385",
+    "timestamp": 1649117730
+  },
+  {
+    "tx": "0x24c883bbb0674068844eb74f4c809e43a8fc0a37cc344441e64ada7a1917b8c1",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.000095,
+    "reason": "Taught VCA residency class on smart contracts, scaffold ETH, https://twitter.com/vcaresidency/status/1510278373892837385",
+    "timestamp": 1649117209
+  },
+  {
+    "tx": "0xfe20c0cd3bf37b117d004fb34e43721633c7eaf58c633f065123fd54d112fb16",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.5,
+    "reason": "Dada mission part 3",
+    "timestamp": 1647378064
+  },
+  {
+    "tx": "0x9680309a9f35fa48a5dbd70855bf017bbdd94efee5cae1f64fb4c19ac66b8b04",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.5,
+    "reason": "Dada mission part 2",
+    "timestamp": 1644704745
+  },
+  {
+    "tx": "0xe8fb6b4926ed50346f7759eaf863d89b53d3ab7948802cb54ee27dee62ef6c0e",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.45,
+    "reason": "dada wrapper - https://github.com/ipatka/DadaWrapperUI/ wrapdada.com",
+    "timestamp": 1640643605
+  },
+  {
+    "tx": "0x51d1a703ef70a29be22a2bbfde5bb45da6bc538f9c8c53104ffc6fbdd82c5abf",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.5,
+    "reason": "Dada rescue mission planning, simulations, MEV mitigation",
+    "timestamp": 1638302597
+  },
+  {
+    "tx": "0xece10d84b237abb6d2773d5514f079d1f1671f95585b68045766750306b817cb",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.3,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/serverless-auth",
+    "timestamp": 1627918436
+  },
+  {
+    "tx": "0xa1c49d9610e514720336be40d441a86985528bb7a2507e6082b2ce8dc615fb47",
+    "builder": "0x775af9b7c214fe8792ab5f5da61a8708591d517e",
+    "ens": "isaacpatka.eth",
+    "amount": 0.5,
+    "reason": "Rarible starter app for minting, lazy minting, buying, selling https://github.com/austintgriffith/scaffold-eth/pull/200",
+    "timestamp": 1624034688
+  }
+]

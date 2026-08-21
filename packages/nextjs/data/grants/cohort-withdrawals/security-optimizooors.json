@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x143651c63e7e7978b6020bbfc01fb58a6587346a393d4a27d024b10196f43546",
+    "builder": "0xf6a24e6672c3506e2aeec45dab84b52f761daea7",
+    "ens": "k4d3n.eth",
+    "amount": 0.5,
+    "reason": "Used to fund bounty program for documenting smart contract vulnerabilities: https://github.com/kadenzipfel/smart-contract-vulnerabilities/issues/35",
+    "timestamp": 1719160943
+  },
+  {
+    "tx": "0x0d99ebc0b18fdf47c29d63ee355e6ab7abd0acc27bf44fb0851c28430870c4e5",
+    "builder": "0xf6a24e6672c3506e2aeec45dab84b52f761daea7",
+    "ens": "k4d3n.eth",
+    "amount": 0.5,
+    "reason": "Wrote article on the importance of testing in regards to smart contract security: https://medium.com/@0xkaden/uncovering-over-150-vulnerabilities-a-case-study-of-tapioca-daos-audit-75dbf6bd5b78",
+    "timestamp": 1700366867
+  },
+  {
+    "tx": "0x892cc1db87b1beb247594caeb3aa8e573d4684c5269f3e35a12a022f13051f56",
+    "builder": "0xf6a24e6672c3506e2aeec45dab84b52f761daea7",
+    "ens": "k4d3n.eth",
+    "amount": 0.5,
+    "reason": "\"Built open-source, MIT licensed, Uniswap hooks contract as a public good: https://github.com/kadenzipfel/uni-lbp\"",
+    "timestamp": 1697646191
+  },
+  {
+    "tx": "0x0399b1ea03727ca5bbe40ee4957f8dbaed93ea67d8bc37112d309c8a89babeae",
+    "builder": "0xb95777719ae59ea47a99e744afa59cdcf1c410a1",
+    "ens": "0xcacti.eth",
+    "amount": 0.5,
+    "reason": "Created code to fulfill - Feature request: chaos-anvil #3788 for Foundry the Solidity dev toolkit. ",
+    "timestamp": 1695619931
+  }
+]

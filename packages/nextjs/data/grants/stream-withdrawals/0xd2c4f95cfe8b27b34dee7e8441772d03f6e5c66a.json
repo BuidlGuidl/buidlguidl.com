@@ -1,0 +1,90 @@
+[
+  {
+    "tx": "0x8a1e52fe4cad83885d097126e0c21a9c3f147daaad50ead9da1d869ea952aecb",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 1.98,
+    "reason": "BUIDL Base Camp",
+    "timestamp": 1717158371
+  },
+  {
+    "tx": "0x1f3df770bf062d4835b95140b4025e44824d2eae6435ff23759c85e46b0e0b11",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "BTW, socials and Berlin",
+    "timestamp": 1714587263
+  },
+  {
+    "tx": "0xf0cd5442128f1116e452db63d258832ab1938488e783deb2e8a968b71ce13304",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "content, games, demos and btf",
+    "timestamp": 1711739075
+  },
+  {
+    "tx": "0x4c0a16660b390bd4450d9c1c222c3a7cf0137e9f3fbaa90fa54d41830560681f",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "Design and swag, Trading game narrative, Content and Bow Tie Friday",
+    "timestamp": 1706901023
+  },
+  {
+    "tx": "0xf48381d1949a1c845959c41e30139b2b1258b0f53eb325a5e0b334b0c2d084ca",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "brand and events ",
+    "timestamp": 1702492535
+  },
+  {
+    "tx": "0xbeca68b0cd34e5dd36ff0c225b420c23aeae3e623cf7d25581d4112eb3cad730",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 1.3,
+    "reason": "brand and game",
+    "timestamp": 1699377491
+  },
+  {
+    "tx": "0xcb6ca29b8561eb5781579153bd290350b0d29cb30e502e6fca1ba72472e4a279",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "Video. and z Game",
+    "timestamp": 1697657591
+  },
+  {
+    "tx": "0x7288bbf33d94d0266d6a9d4d617ef1df7e24d6bb8afb3723592df67c176b941e",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 1.8,
+    "reason": "messaging",
+    "timestamp": 1694614727
+  },
+  {
+    "tx": "0x9cc940200306b3741089952bb4b4688aceb90c418fff6e4f277a95e121835068",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 1.6,
+    "reason": "Paris and Brand",
+    "timestamp": 1692368735
+  },
+  {
+    "tx": "0xe56a8251bd289b7087f797e62aac73b6b48bccfa935d984cd0f539e8307953bd",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 1.26,
+    "reason": "main landing page",
+    "timestamp": 1690207763
+  },
+  {
+    "tx": "0x68882caa210d18e1b6b39df9c089d95ce9b18d6586b00137cb07e78eaacc53db",
+    "builder": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+    "ens": "theperegrine.eth",
+    "amount": 2,
+    "reason": "Buidl brand and web work",
+    "timestamp": 1688572703
+  }
+]

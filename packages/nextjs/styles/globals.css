@@ -67,19 +67,20 @@ p {
   @apply shadow-none;
 }
 
-tbody tr:first-child td:first-child {
+/* Round the corners of the batches table body, whose white rows sit in a rounded-3xl shell */
+.table-rounded tbody tr:first-child td:first-child {
   border-top-left-radius: 1.5rem;
 }
 
-tbody tr:first-child td:last-child {
+.table-rounded tbody tr:first-child td:last-child {
   border-top-right-radius: 1.5rem;
 }
 
-tbody tr:last-child td:first-child {
+.table-rounded tbody tr:last-child td:first-child {
   border-bottom-left-radius: 1.5rem;
 }
 
-tbody tr:last-child td:last-child {
+.table-rounded tbody tr:last-child td:last-child {
   border-bottom-right-radius: 1.5rem;
 }
 /* Blog title bands: same fade as the homepage hero, baked into one element */

@@ -1,0 +1,170 @@
+[
+  {
+    "tx": "0x49a1a4be9b4e4228a6f1504ed41ba771edd38c5720517ec04e6632c4ceb5a499",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.35,
+    "reason": "Optimism-impact-dashboard (https://github.com/BuidlGuidl/onchain-impact-dashboard/pull/25, https://github.com/BuidlGuidl/onchain-impact-dashboard/pull/27)",
+    "timestamp": 1719623651
+  },
+  {
+    "tx": "0x0a416b15d408ec11864260665165b1397a4f9ca033c1475eedc67336449b5baa",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.4,
+    "reason": "Optimism Impact Dashboard - Initial design and Layout implementation",
+    "timestamp": 1718971319
+  },
+  {
+    "tx": "0x5a6ecb8f4d5e08e64f50a1e1d5a6de34cad6bca358e59cacd47b663ef27de36b",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.3,
+    "reason": "eth-tech-tree-challenges (Token Voting) https://github.com/BuidlGuidl/eth-tech-tree-challenges/pull/30",
+    "timestamp": 1716731867
+  },
+  {
+    "tx": "0x9f3339ae51f1d1d9f607f4e01fd9b4b3d956c1445ff0e45252ea181a67536305",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.25,
+    "reason": "UX investigation and improvements + Filters implementation Part 1 (OP Impact-calculator)",
+    "timestamp": 1713125303
+  },
+  {
+    "tx": "0x2d54322acac1878bc2fb9b1a1305cfdd109f042a466afe28ff517cffd79fdf0e",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.6,
+    "reason": "New flow in HackedWalletRecovery (https://github.com/BuidlGuidl/flashbot-recovery-bundler/pull/1) and Vercel Project Transfer",
+    "timestamp": 1698214331
+  },
+  {
+    "tx": "0x4ab9d2a3235382b356e61d2416a412d97b34ef220769fd416787686915ca07e1",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.5,
+    "reason": "Hacked Wallet Recovery Part 2 (https://github.com/irfanbozkurt/flashbot-recovery-bundler/pull/43)",
+    "timestamp": 1696455803
+  },
+  {
+    "tx": "0x20507d2231e0b0359bd5a655947e57a26792ff364c401744aaabf9d8d42f21f0",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.6,
+    "reason": "Flashbot Recovery Bundle Revamp Part 1 (https://github.com/irfanbozkurt/flashbot-recovery-bundler/pull/26)",
+    "timestamp": 1693221767
+  },
+  {
+    "tx": "0xd2aaba5fe12abdd78c32d246e45dd232dfaeddd479687ae6c055512ba6bc0d53",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.8,
+    "reason": "SmartLockVaults MVP (https://app.buidlguidl.com/build/Shy1NlNC6LqNBet5KFdn)",
+    "timestamp": 1691717351
+  },
+  {
+    "tx": "0xee7edf6c4ed2046196a54b3681cb5cc60d4ac8f90d990eee44e6d76a7b819466",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.09,
+    "reason": "Tinkering with SE-2",
+    "timestamp": 1689618047
+  },
+  {
+    "tx": "0x332dde9e7d19237af12ad96bf4d8b57862803277760222114294eefffcc88f95",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.6,
+    "reason": "ScaffoldWallet--Swap Button and ENS integration--(https://github.com/BuidlGuidl/scaffold-wallet/pull/27)",
+    "timestamp": 1685904719
+  },
+  {
+    "tx": "0x37a185b31986a0478d8e927e0ad20951fe78df85e3bcaa0d1ce824405673f4cd",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.7,
+    "reason": "Scaffold Wallet - Add sepolia, fix android icons, adapt xcode (https://github.com/BuidlGuidl/scaffold-wallet/pull/23, https://github.com/BuidlGuidl/scaffold-wallet/pull/25)",
+    "timestamp": 1683362675
+  },
+  {
+    "tx": "0x2bd89e2c245bf9258b89300112196405ab7d3b58d0e9746b5061d3e6dc108790",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.6,
+    "reason": "Scaffold Wallet Android Production (https://github.com/BuidlGuidl/scaffold-wallet/pull/21 and https://github.com/BuidlGuidl/scaffold-wallet/pull/22)",
+    "timestamp": 1680429887
+  },
+  {
+    "tx": "0x6ec5faf52e01e7036e22e22cdaf587037b3272944c2d24248639586980166d2e",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.1,
+    "reason": "Android scaffold wallet play console config",
+    "timestamp": 1679847707
+  },
+  {
+    "tx": "0x42872a82b4201c5fd4ce34e5dab9c5aeea1e20c1e02d71cf21871f458643418d",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.05,
+    "reason": "Android config for Scaffold Wallet",
+    "timestamp": 1679847323
+  },
+  {
+    "tx": "0x4a69e5510f9db90e0f92100e717e8522345218fb83d68bac08a4e81234982b4a",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.7,
+    "reason": "Scaffold wallet Android setup (https://github.com/BuidlGuidl/scaffold-wallet/pull/17)",
+    "timestamp": 1678917263
+  },
+  {
+    "tx": "0x34efb153adde86421c82276eaea4159da0d457a02b522a111a65a9f3893c74bb",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.4,
+    "reason": "ScafoldEthWallet V1 Part4 (https://github.com/BuidlGuidl/scaffold-wallet/pull/14)",
+    "timestamp": 1675610267
+  },
+  {
+    "tx": "0x51f7d3c46827143b2794b8879af507319b7f478eb2f82d4f50a472eb67d9945e",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.200722,
+    "reason": "ScaffoldWallet V1 https://github.com/BuidlGuidl/scaffold-wallet/pull/14",
+    "timestamp": 1675108619
+  },
+  {
+    "tx": "0xa739bfcf2543b0fea6488ab6d28048ad41ca7b273c8775cd036ac0459c941d7b",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.2,
+    "reason": "ScafoldEthWallet V1 Part3 (https://github.com/BuidlGuidl/scaffold-wallet/pull/11)",
+    "timestamp": 1674310691
+  },
+  {
+    "tx": "0xe710a3d38ffc6e56b9b327aa6a6c6a4f0f28cf6d825dfee1e69d1975cf413f99",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.35,
+    "reason": "Working on Scaffold Eth iOS wallet (UI Production ready Part 2)https://github.com/BuidlGuidl/scaffold-wallet/issues/3",
+    "timestamp": 1673206907
+  },
+  {
+    "tx": "0x58646e1a346f6b60f39861fefd851324090cda790e71dbf8e2c30b1835738cc8",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.25,
+    "reason": "Abi ninja UI MPV (https://github.com/BuidlGuidl/abi.ninja/pull/9, https://github.com/BuidlGuidl/abi.ninja/pull/10, https://github.com/BuidlGuidl/abi.ninja/pull/12)  )",
+    "timestamp": 1671565379
+  },
+  {
+    "tx": "0xcbe315c0076711d9b515989a659a5c33174042d4a310a6caa4859f8b81a3df4b",
+    "builder": "0x330ed6ac3675181d2599779bff217af78cf0af86",
+    "ens": "franpastor.eth",
+    "amount": 0.25,
+    "reason": "Working on Scaffold Eth iOS wallet (UI Production ready Part 1)",
+    "timestamp": 1671216743
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "tx": "0x9e07efc73005473cb1c40aed114326de03421265c6b55aa1e014778f0af87888",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.3028,
+    "reason": "Forever grateful <3<3<3<3",
+    "timestamp": 1717963223
+  },
+  {
+    "tx": "0xe2f370b53e9319eebe5e4d02cceb31f8cce2c7d1aadb1cef52f42a23cf2fd92c",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.2,
+    "reason": "Eth clj build + Starting to build a substreams integration for scaffold-eth",
+    "timestamp": 1714246583
+  },
+  {
+    "tx": "0x3057382274b2eb45c4ff061be1ea90d75586afb4828b9bed7546d9de570cad77",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.03,
+    "reason": "Eth Clj Build",
+    "timestamp": 1712187791
+  },
+  {
+    "tx": "0x2a27b6ce229271b995105bbbf9c95cb5682c6d8e89b4d623a75b8e3525029bb5",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.05,
+    "reason": "Eth Cljbuild",
+    "timestamp": 1711846475
+  },
+  {
+    "tx": "0x0cc0c11a867e0381dd5e69571deeab94dd5b86fecd6464c4e5f69fed465e279a",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.068,
+    "reason": "Eth Clj Build",
+    "timestamp": 1711583879
+  },
+  {
+    "tx": "0x5c85311151659ecf7a74882da402542c4774820eae3ea90748191d3a3d999c29",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.17,
+    "reason": "Eth cljbuild checkpoint",
+    "timestamp": 1711241843
+  },
+  {
+    "tx": "0xe0e858e3e67c90b7bdc797ecb7caaaaa25672ead1ec0b203af293416088ee390",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.18,
+    "reason": "Eth Cljbuild Checkpoint",
+    "timestamp": 1710382895
+  },
+  {
+    "tx": "0x1b45eadb85d83cb436c3e12803bcdea25a55f2312d50049e3404cd7a1b4ea907",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Eth Clj Build!",
+    "timestamp": 1709414447
+  },
+  {
+    "tx": "0xd3dde68b2c52dcc7680fbe4fb59b58e3bc411e889f4cf26cea85ae22da7425ef",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.26,
+    "reason": "Eth Buidl",
+    "timestamp": 1704411131
+  },
+  {
+    "tx": "0x390789162e9983aef6f7b4487fb78eb0648c00798fd96d259948ad64c0664564",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.26,
+    "reason": "Data indexing language",
+    "timestamp": 1702943807
+  },
+  {
+    "tx": "0x1c7ce202e46dcd0a7790c9b181857e1d2d70805b10c918829cbc851a944dfd55",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.34,
+    "reason": "Fungeon ",
+    "timestamp": 1701566183
+  },
+  {
+    "tx": "0xbd2e9b3ec7e28d1fd50654e34f85058cd2096b8b016d9e4cc21651e202b68232",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.31,
+    "reason": "Data indexing language and on chain ecs progress",
+    "timestamp": 1699828535
+  },
+  {
+    "tx": "0x541684c8b4cb5379cabc2877f456722e7c4ccc57ca1eb4c8b247601c2b2d29b6",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.33,
+    "reason": "Solidity ECS and block crawlers progress",
+    "timestamp": 1698217259
+  },
+  {
+    "tx": "0xfe8928cd29a8d53ffe9fe3308f9b9f6437e2df26e8ecf35b37d03595b49eb42a",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.188,
+    "reason": "Crazy mode on block crawlers. I'm cookin",
+    "timestamp": 1696703123
+  },
+  {
+    "tx": "0xcef67b5121b55b5fbef0fe555261aa942c170868db02c40c488c0f2d0e62657d",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.1,
+    "reason": "Block crawl",
+    "timestamp": 1695524003
+  },
+  {
+    "tx": "0xe1690d38aa84cd642e6e19c661153c919347a46238033ffd06d304fc22acc80d",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.099,
+    "reason": "More progress with block crawlers",
+    "timestamp": 1694986571
+  },
+  {
+    "tx": "0xd2dd3b5f933830fcc8daaaa64bc7a32b55a9704d49f7b52d1916364ac0072bfd",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.186,
+    "reason": "Fleshing out block crawlers",
+    "timestamp": 1694474867
+  },
+  {
+    "tx": "0x0ea8f4292f968821be48fc92842ad3eb99906b1faad8da62d6d1b4cf59cf7525",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Plethora of builds!",
+    "timestamp": 1693506083
+  },
+  {
+    "tx": "0x4a12c652c3e0ffbfc26f1e7b5d41f0a966404a1c997175dc5108832a04b76ef6",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.25,
+    "reason": "Almost there: https://github.com/MercuricChloride/scaffold-eth2/tree/tech-tree",
+    "timestamp": 1690933535
+  },
+  {
+    "tx": "0x54fdd3770c6c973b65865264c7c10111b5714b9fbcdf85fdf05d2e3441076e3c",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Tech Tree Round 2 *ding ding*",
+    "timestamp": 1689615899
+  },
+  {
+    "tx": "0x189be46583dfb2dbf02e68f86fa2ed93caf0e4465bbc1ed4f3463e8df456c0ae",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "eth alarm clock",
+    "timestamp": 1685405015
+  },
+  {
+    "tx": "0x1fa98942dff885643a4d7ffcb885fb628a87d016190926280b1535ba24295c25",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Three-js starter kit",
+    "timestamp": 1682699447
+  },
+  {
+    "tx": "0xd722c32566fe84f356500f32680271cc8241a2489105ffcdc065399d90ce0c5f",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Optimism RPGF Visualizer",
+    "timestamp": 1680008027
+  },
+  {
+    "tx": "0x82e5d90da99b0aad6573452b9b9e5dd498932a7999e0f036518bac01c229b873",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.47,
+    "reason": "eth dev tech tree ",
+    "timestamp": 1676607611
+  },
+  {
+    "tx": "0x0d33c5ead477bc50f3a5986642b6d24718096e1cd52f6e7ff6c49606c0801ee8",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Eth dev tech tree plus some rando builds I have yet to show off on BTF! 🏰",
+    "timestamp": 1674129527
+  },
+  {
+    "tx": "0x6ad6ec71ce70fe646a0c34fd392fdc772f4b3c374b1bf528f16d5e6da4bed8c3",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.34,
+    "reason": "On chain dungeon crawler",
+    "timestamp": 1671470891
+  },
+  {
+    "tx": "0x1f69a9fb7a622660bcd827a7f70e014b5ded9305618b2511566396a6a4a29a4f",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.47,
+    "reason": "Tech Tree",
+    "timestamp": 1669741091
+  },
+  {
+    "tx": "0x8ccc57bc8047d7a1435a10c57d27088fe221d31501eaeec4e50c217ed8db560f",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.44,
+    "reason": "ethRebuild",
+    "timestamp": 1667331575
+  },
+  {
+    "tx": "0xcea37d6623cfc7b1c14ebefeedc5fbd0c297aae9d89128ba7a7aa8b65a14b4d1",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.497,
+    "reason": "Eth_Rebuild",
+    "timestamp": 1664990375
+  },
+  {
+    "tx": "0xb1a709da675965d2b2af59d0344c81e6c738b4129b9be21e57f9c632c24aa0ea",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "More eth.build progress. Nearly there and ready to extend!",
+    "timestamp": 1662413509
+  },
+  {
+    "tx": "0x901fc9d27ea5029629faa2ec3349137f35d98a8e14a85b2143020c288ad14d10",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.49,
+    "reason": "Eth-build progress",
+    "timestamp": 1659552307
+  },
+  {
+    "tx": "0x28b1779c5800debd49358ba87fe0c35d6da11b7386d0d1b157e40c34446b7c3e",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.49,
+    "reason": "Scaffold-eth soulbound-studio starter kit work",
+    "timestamp": 1656987228
+  },
+  {
+    "tx": "0x30b3834677158009e3cbd9e305cb6ce3d51bb7e1584be0e41a310d318b78047a",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.49,
+    "reason": "Buidlin Eth.Buidl",
+    "timestamp": 1654444989
+  },
+  {
+    "tx": "0x15653a9b4e4eebc07a8250280b1a460a8c9dba264902fa6bfa9900feb89ea325",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.4892,
+    "reason": "Public Goods Party Completion ",
+    "timestamp": 1651882261
+  },
+  {
+    "tx": "0x6183aa43f2b93091d5fa08e290b97205d6e0c9553848f6cd807d40f7b9b46434",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Polygon state sync",
+    "timestamp": 1649346145
+  },
+  {
+    "tx": "0x2b2ba440119a8b209e77d853226fadfd1dd80815c9eeb8e46c3f55c6afcedaad",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.4338,
+    "reason": "Harberger Tax NFT",
+    "timestamp": 1646793579
+  },
+  {
+    "tx": "0xa8de36c36d256df653b7dc372ca9d2492f47a46bab623a9671c89ff96a207162",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.4255,
+    "reason": "everynftever + routine withdraw (actually gonna withdraw this time lololol)",
+    "timestamp": 1644421312
+  },
+  {
+    "tx": "0xac4ea02031e06c3e49051427c2fef6a02c0d1b3e2a0531486d5ed0799da899b6",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.000134,
+    "reason": "everynftever + routine withdraw",
+    "timestamp": 1644421156
+  },
+  {
+    "tx": "0x455debb824f4344ff393cbe5ddb04816905c7ae9537491901d912221163e38fd",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.4905,
+    "reason": "Public goods party work and more svg nft work",
+    "timestamp": 1642214460
+  },
+  {
+    "tx": "0x3d021ca5445e470d17d9a6281bf8eb9492541f2af6ad1434d1d3ff42208263b4",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.45,
+    "reason": "https://github.com/scaffold-eth/scaffold-eth/tree/svg-fractals",
+    "timestamp": 1639676712
+  },
+  {
+    "tx": "0x48f5b958378a60d53c5dc409dc0b496bd56098667e72a84060cc41dcc71b6550",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Bonez / Larpminter",
+    "timestamp": 1637338431
+  },
+  {
+    "tx": "0x6d8490d8ca7912dc129e13cb8461359145c739305debbef957d65902b8193f8d",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Aging NFT Work",
+    "timestamp": 1634691133
+  },
+  {
+    "tx": "0x4a16eb946575633144f3eb25edcd8d20291b64a0a76cdb46f80bb63df12116b0",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "Branch milestone",
+    "timestamp": 1632095324
+  },
+  {
+    "tx": "0xc1ec6484231076feab642493474d9325c9dc79ad01f7cc19d36c3bb8852d435e",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/austintgriffith/scaffold-eth/tree/conditional-mint-nft",
+    "timestamp": 1629400756
+  },
+  {
+    "tx": "0xa49310b8a32b60cc757cd2c8a27b0faeeb636574d4aecba10ec78c328786362c",
+    "builder": "0x807a1752402d21400d555e1cd7f175566088b955",
+    "ens": "blindnabler.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/MercuricChloride/Mvp-NFT",
+    "timestamp": 1626298184
+  }
+]

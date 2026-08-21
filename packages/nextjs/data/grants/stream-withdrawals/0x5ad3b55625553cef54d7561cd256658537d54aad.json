@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x6ed1a7cd5c754ca5c876c6316307f242278df7f2ca1f4e85fa89d1ef251a0508",
+    "builder": "0x5ad3b55625553cef54d7561cd256658537d54aad",
+    "ens": "captnseagraves.eth",
+    "amount": 0.3135,
+    "reason": "Austin is a g",
+    "timestamp": 1762447583
+  },
+  {
+    "tx": "0x6797e913964d8b22aea7d15ff7529aa7b0bf944a4d6e00b133d548af39776d40",
+    "builder": "0x5ad3b55625553cef54d7561cd256658537d54aad",
+    "ens": "captnseagraves.eth",
+    "amount": 0.5,
+    "reason": "Austin is G",
+    "timestamp": 1759516355
+  },
+  {
+    "tx": "0xbbe31a45e049fe4bfba4f48d4e248ab9970a52410d5d250fad3fe44db76cd2dd",
+    "builder": "0x5ad3b55625553cef54d7561cd256658537d54aad",
+    "ens": "captnseagraves.eth",
+    "amount": 0.436465,
+    "reason": "https://docs.scaffoldeth.io/scaffold-eth/, plus a little extra because you told me at WyoHack I should have done more for the new contract branch. ",
+    "timestamp": 1632859907
+  },
+  {
+    "tx": "0xefad1aa19f12f2977cdf5864788c86cb4f8761fb0e08be5fa7af77079d2a40f0",
+    "builder": "0x5ad3b55625553cef54d7561cd256658537d54aad",
+    "ens": "captnseagraves.eth",
+    "amount": 0.25,
+    "reason": "https://app.gitbook.com/@scaffold-eth/s/scaffold-eth/~/drafts/-Mi2oF8nAjxnDKLqtGbl/, https://github.com/austintgriffith/scaffold-eth/tree/new-contract , https://github.com/austintgriffith/scaffold-eth/projects/2",
+    "timestamp": 1630688552
+  }
+]

@@ -1,0 +1,1067 @@
+{
+  "mercs": [
+    {
+      "address": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+      "ens": "damianmarti.eth",
+      "cap": 1,
+      "addedAt": 1721234915,
+      "withdrawalCount": 21,
+      "totalWithdrawn": 17.25
+    },
+    {
+      "address": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+      "ens": "avelous0x.eth",
+      "cap": 0,
+      "addedAt": 1721234915,
+      "withdrawalCount": 34,
+      "totalWithdrawn": 16.035
+    },
+    {
+      "address": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+      "ens": "baluu.eth",
+      "cap": 0,
+      "addedAt": 1726502675,
+      "withdrawalCount": 9,
+      "totalWithdrawn": 7.6
+    },
+    {
+      "address": "0x8c9d11ce64289701efeb6a68c16e849e9a2e781d",
+      "ens": "monyo.eth",
+      "cap": 0,
+      "addedAt": 1721234915,
+      "withdrawalCount": 21,
+      "totalWithdrawn": 4.9695
+    },
+    {
+      "address": "0x598cb95773d9b66a27a5780db5eed2d018685879",
+      "ens": "byteatatime.eth",
+      "cap": 0,
+      "addedAt": 1721234915,
+      "withdrawalCount": 16,
+      "totalWithdrawn": 4.5
+    },
+    {
+      "address": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+      "ens": "portdev.eth",
+      "cap": 0.5,
+      "addedAt": 1776287111,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+      "ens": "aimv999.eth",
+      "cap": 0,
+      "addedAt": 1755638471,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 0.75
+    },
+    {
+      "address": "0x3c3c9252fa1bacc0c336c1b357e5f086eef08dd9",
+      "ens": "baluuu.eth",
+      "cap": 0,
+      "addedAt": 1756328195,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+      "ens": "theperegrine.eth",
+      "cap": 0,
+      "addedAt": 1724941463,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "ens": [
+    {
+      "address": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+      "ens": "0xrinat.eth",
+      "cap": 1,
+      "addedAt": 1721937527,
+      "withdrawalCount": 3,
+      "totalWithdrawn": 2.2
+    },
+    {
+      "address": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+      "ens": "pabl0cks.eth",
+      "cap": 1,
+      "addedAt": 1718129423,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 0.95
+    },
+    {
+      "address": "0x4cbe80191e63567191668d860acabaf15dac5512",
+      "ens": "andrealbiac.eth",
+      "cap": 1,
+      "addedAt": 1721937503,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.6
+    },
+    {
+      "address": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+      "ens": "damianmarti.eth",
+      "cap": 0.5,
+      "addedAt": 1697832311,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.25
+    },
+    {
+      "address": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+      "ens": "shivbhonde.eth",
+      "cap": 1,
+      "addedAt": 1718129387,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x60583563d5879c2e59973e5718c7de2147971807",
+      "ens": "carletex.eth",
+      "cap": 0,
+      "addedAt": 1718129447,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "jessys-hacker-house": [
+    {
+      "address": "0xd84cd3989866c9da74fb073e38e1f84a0f2a7660",
+      "ens": "dhvanipa.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 17,
+      "totalWithdrawn": 7.999963
+    },
+    {
+      "address": "0x5cdd68a64c1bff7ecd276cfc0532db7b15be9a86",
+      "ens": "wandcrafting.eth",
+      "cap": 0,
+      "addedAt": 1680818999,
+      "withdrawalCount": 14,
+      "totalWithdrawn": 7
+    },
+    {
+      "address": "0xd623aa1e070bf70de7ef830e019496be3d4cd33a",
+      "ens": "0xyush.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 15,
+      "totalWithdrawn": 7
+    },
+    {
+      "address": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+      "ens": "darrylyeo.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 12,
+      "totalWithdrawn": 6
+    },
+    {
+      "address": "0xa85572cd96f1643458f17340b6f0d6549af482f5",
+      "ens": "fiveoutofnine.eth",
+      "cap": 0.5,
+      "addedAt": 1681160099,
+      "withdrawalCount": 6,
+      "totalWithdrawn": 3
+    },
+    {
+      "address": "0xf1a96ce1cc0a5103aeed21bcf89f83020f413cb5",
+      "ens": "dereg-grants.eth",
+      "cap": 0,
+      "addedAt": 1680818999,
+      "withdrawalCount": 6,
+      "totalWithdrawn": 3
+    },
+    {
+      "address": "0x83a49ed2632592fac36896ddbd27fd612e0d2f77",
+      "ens": "smallbraindev.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 7,
+      "totalWithdrawn": 2.554
+    },
+    {
+      "address": "0xb47a9b6f062c33ed78630478dff9056687f840f2",
+      "ens": "jtriley.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 2.3811
+    },
+    {
+      "address": "0x46792084f2fa64244ec3ab3e9f992e01dbfb023d",
+      "ens": "saucepoint.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 2
+    },
+    {
+      "address": "0x97735c60c5e3c2788b7ee570306775e687095d19",
+      "ens": "plotchy.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0xc3ffd59bd2ab6fb4187672723276d953142fddde",
+      "ens": "philogy.eth",
+      "cap": 0.5,
+      "addedAt": 1707489947,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0xd0040c2127cfcb87d1ce71f8360059178897a39a",
+      "ens": "high-byte.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0xf51c53b2c184aa43a7d24aa4f0cf13d0e8b56c51",
+      "ens": "zemse.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0x0b47d6af8a146b4cb939437e762b5f6b1a770cd0",
+      "cap": 0.5,
+      "addedAt": 1729179671,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x644b0d17ba4fabcd87260f24a1eeb7fedb8224c7",
+      "ens": "gluonix.eth",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x9b9ba2d5a3c2799478158b186bf0326ff17d0160",
+      "cap": 0.5,
+      "addedAt": 1680818999,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "0xafro": [
+    {
+      "address": "0x44e5b24b7e4527b24e0bfcaeefdcfa776c4462f0",
+      "ens": "moscode.eth",
+      "cap": 0.5,
+      "addedAt": 1688159949,
+      "withdrawalCount": 10,
+      "totalWithdrawn": 4.0014
+    },
+    {
+      "address": "0x0c1d197ce3c0054669de9b92616c98ef3e191dcd",
+      "ens": "leyeconnect.eth",
+      "cap": 0.5,
+      "addedAt": 1690728191,
+      "withdrawalCount": 9,
+      "totalWithdrawn": 4
+    },
+    {
+      "address": "0x3d5060137257ac81eb999e29bd068b568741854d",
+      "ens": "mazikvng.eth",
+      "cap": 0.5,
+      "addedAt": 1688159949,
+      "withdrawalCount": 11,
+      "totalWithdrawn": 4
+    }
+  ],
+  "play-full": [
+    {
+      "address": "0x6caecee5486d3f7e5b9e4088b9326cae469961b7",
+      "ens": "codechefsong.eth",
+      "cap": 0.5,
+      "addedAt": 1691527123,
+      "withdrawalCount": 10,
+      "totalWithdrawn": 2.35
+    },
+    {
+      "address": "0xd3cc90e1428ba18fcfb0611e067ed6c12ad8c1fb",
+      "cap": 0.5,
+      "addedAt": 1686677209,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 1.288213
+    },
+    {
+      "address": "0x1b4a302d15412655877d86ae82823d8f6d085ddd",
+      "ens": "aronshelton.eth",
+      "cap": 1.26,
+      "addedAt": 1696930405,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 1.26
+    },
+    {
+      "address": "0x5f3371793285920351344a1eaaaa48d45e600652",
+      "ens": "thebluebook.eth",
+      "cap": 0.5,
+      "addedAt": 1685116891,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 0.6555
+    },
+    {
+      "address": "0x497a7dee2f13db161eb2fec060fa783cb041419f",
+      "cap": 0.63,
+      "addedAt": 1696930671,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.63
+    },
+    {
+      "address": "0x9e47bb28836a094e206a3a63858bf3ef165a3e5b",
+      "cap": 0.63,
+      "addedAt": 1696930671,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.63
+    },
+    {
+      "address": "0xc12bc4ea7658285182c9ecd167d9b4093e2c5613",
+      "ens": "samaritual.eth",
+      "cap": 0.63,
+      "addedAt": 1696930671,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.63
+    },
+    {
+      "address": "0x0e936b7f8f6f4fed74aad5be183651666e617654",
+      "cap": 0.5,
+      "addedAt": 1687460599,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0x2a333b3f9833558d583a6badabecd62ce7a377b8",
+      "cap": 0.5,
+      "addedAt": 1696006643,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0xf5d332a17b77de7f861bc3965cf6fdea02ebe72a",
+      "ens": "mattweatherall.eth",
+      "cap": 0.5,
+      "addedAt": 1687416655,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.25
+    },
+    {
+      "address": "0x1e55c85801a2c4f0bec57c84742a8ef3d72de57b",
+      "ens": "paulgadi.eth",
+      "cap": 0.5,
+      "addedAt": 1685724175,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.02
+    },
+    {
+      "address": "0x7fb43c99a26a9ea8ba841d58390bf1c2996edfb0",
+      "ens": "0xssdd.eth",
+      "cap": 0.5,
+      "addedAt": 1686839549,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x853760b172af968775c92231e04393e2c0dbb5cd",
+      "cap": 0.5,
+      "addedAt": 1686594491,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "nodes": [
+    {
+      "address": "0x38c772b96d73733f425746bd368b4b4435a37967",
+      "ens": "spencerfaber.eth",
+      "cap": 1.5,
+      "addedAt": 1738691039,
+      "withdrawalCount": 20,
+      "totalWithdrawn": 25.4984
+    }
+  ],
+  "infrastructure": [
+    {
+      "address": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+      "ens": "namngrg.eth",
+      "cap": 0.5,
+      "addedAt": 1711927415,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 4
+    },
+    {
+      "address": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+      "ens": "pablothepenguin.eth",
+      "cap": 0.5,
+      "addedAt": 1685627759,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 2.9996
+    },
+    {
+      "address": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+      "ens": "0xjepsen.eth",
+      "cap": 0.5,
+      "addedAt": 1685204567,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0xf84949dffdbc8bb91f44db238c0857b11719d8f9",
+      "cap": 0.5,
+      "addedAt": 1683623771,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    }
+  ],
+  "shipyard": [
+    {
+      "address": "0x4d639cbbc15fe5db467dbf158a78a5fa3ac20877",
+      "ens": "websurfer.eth",
+      "cap": 0.5,
+      "addedAt": 1718740727,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 2.8
+    },
+    {
+      "address": "0x4c63457245c278588023fb3a7ea0069e047576ac",
+      "ens": "froop.eth",
+      "cap": 1,
+      "addedAt": 1718740633,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x9bb7746b03d2cd0142178682ed04675f67cc5406",
+      "ens": "ultravviolett.eth",
+      "cap": 0.5,
+      "addedAt": 1718740849,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "batches": [
+    {
+      "address": "0x699bfac97c962db31238b429ceaf6734c492d61c",
+      "ens": "baluu.eth",
+      "cap": 0.5,
+      "addedAt": 1738691231,
+      "withdrawalCount": 15,
+      "totalWithdrawn": 7.35
+    },
+    {
+      "address": "0x2bc096a12c5b37f035180adef70eb2b88351e5b8",
+      "ens": "melanke.eth",
+      "cap": 0.75,
+      "addedAt": 1741807751,
+      "withdrawalCount": 12,
+      "totalWithdrawn": 4.8316
+    },
+    {
+      "address": "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44",
+      "ens": "rhymeswithesoteric.eth",
+      "removed": true,
+      "withdrawalCount": 13,
+      "totalWithdrawn": 3.9
+    }
+  ],
+  "launchpod": [
+    {
+      "address": "0x992ab820a2776ff79284b9844d338b5c5fc792e9",
+      "ens": "quizford.eth",
+      "cap": 1,
+      "addedAt": 1702579975,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 1.97
+    }
+  ],
+  "workshops": [
+    {
+      "address": "0x3f22f740d41518f5017b76eed3a63eb14d2e1b07",
+      "ens": "shutterblock.eth",
+      "cap": 1,
+      "addedAt": 1738693835,
+      "withdrawalCount": 20,
+      "totalWithdrawn": 18
+    },
+    {
+      "address": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+      "ens": "genlyai.eth",
+      "removed": true,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.8
+    }
+  ],
+  "niftyink": [
+    {
+      "address": "0xe5f7e675a48b180ed2c81d0211e23b44ece9c926",
+      "ens": "aimv999.eth",
+      "cap": 1,
+      "addedAt": 1723573655,
+      "withdrawalCount": 30,
+      "totalWithdrawn": 7.895
+    }
+  ],
+  "sandgarden": [
+    {
+      "address": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+      "ens": "0xrinat.eth",
+      "cap": 2,
+      "addedAt": 1701863091,
+      "withdrawalCount": 27,
+      "totalWithdrawn": 30.85
+    },
+    {
+      "address": "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93",
+      "ens": "damianmarti.eth",
+      "cap": 1.5,
+      "addedAt": 1701863091,
+      "withdrawalCount": 22,
+      "totalWithdrawn": 23.85
+    },
+    {
+      "address": "0x1a2d838c4bbd1e73d162d0777d142c1d783cb831",
+      "ens": "shivbhonde.eth",
+      "cap": 2.5,
+      "addedAt": 1701863091,
+      "withdrawalCount": 15,
+      "totalWithdrawn": 23.51
+    },
+    {
+      "address": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+      "ens": "portdev.eth",
+      "cap": 1.5,
+      "addedAt": 1701863091,
+      "withdrawalCount": 16,
+      "totalWithdrawn": 16.77
+    },
+    {
+      "address": "0x4cbe80191e63567191668d860acabaf15dac5512",
+      "ens": "andrealbiac.eth",
+      "cap": 0,
+      "addedAt": 1701863091,
+      "withdrawalCount": 19,
+      "totalWithdrawn": 16.51
+    },
+    {
+      "address": "0x6f5c28a7caef574e9a75770c202a27f76d526d08",
+      "ens": "inc.hunterchang.eth",
+      "cap": 1.5,
+      "addedAt": 1718269633,
+      "withdrawalCount": 14,
+      "totalWithdrawn": 9.16
+    },
+    {
+      "address": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+      "ens": "pabl0cks.eth",
+      "cap": 1.5,
+      "addedAt": 1701863091,
+      "withdrawalCount": 14,
+      "totalWithdrawn": 6.205
+    },
+    {
+      "address": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+      "ens": "andrealbiac.eth",
+      "cap": 1.5,
+      "addedAt": 1759823955,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 3.45
+    },
+    {
+      "address": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+      "ens": "inc.carletex.eth",
+      "cap": 0,
+      "addedAt": 1701863091,
+      "withdrawalCount": 7,
+      "totalWithdrawn": 2.975
+    },
+    {
+      "address": "0x0d0f9ebd254e510aa6f3788ecb6e6fc8bf78188f",
+      "ens": "dgrcode.eth",
+      "cap": 0,
+      "addedAt": 1701863091,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "media": [
+    {
+      "address": "0xd2f016809969b4105978fdd5b112cd95bfdd6814",
+      "ens": "mrdee.eth",
+      "cap": 0.5,
+      "addedAt": 1718306843,
+      "withdrawalCount": 20,
+      "totalWithdrawn": 6.05
+    },
+    {
+      "address": "0xd2c4f95cfe8b27b34dee7e8441772d03f6e5c66a",
+      "ens": "theperegrine.eth",
+      "cap": 0.5,
+      "addedAt": 1719426119,
+      "withdrawalCount": 3,
+      "totalWithdrawn": 1.24
+    },
+    {
+      "address": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+      "ens": "okuri.eth",
+      "cap": 0.5,
+      "addedAt": 1718306795,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0x835d28ca7450fb7fb759539b0d4af8bb22ea0280",
+      "ens": "andrealb.eth",
+      "cap": 0,
+      "addedAt": 1718306867,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 0.45
+    },
+    {
+      "address": "0x2d143b3ae28fa31e7c821d138c58c32a30aa36ae",
+      "ens": "genlyai.eth",
+      "cap": 0.5,
+      "addedAt": 1738867979,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x3d3f09ca832c94dc9ea9ecbc4662a60e774c7e36",
+      "ens": "andrealbiac.eth",
+      "cap": 0.5,
+      "addedAt": 1759953011,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "sanctum": [
+    {
+      "address": "0xa122a7ed69597dbd77fb2c539e13b7c3fb804637",
+      "ens": "portdev.eth",
+      "cap": 0,
+      "addedAt": 1699471919,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 5.4997
+    },
+    {
+      "address": "0x329f9f2c5fc16db303dab2cf7ccb6c12e6045129",
+      "ens": "ifechukwudaniel.eth",
+      "cap": 0,
+      "addedAt": 1699475243,
+      "withdrawalCount": 13,
+      "totalWithdrawn": 3.727
+    },
+    {
+      "address": "0x988dd9033b8621578f4e26e566247460953f2ba6",
+      "ens": "merttcanc.eth",
+      "cap": 0.5,
+      "addedAt": 1700604059,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 3.7
+    },
+    {
+      "address": "0xabd80183650e319080b5384ae208f50b42a14a7a",
+      "ens": "avelous0x.eth",
+      "cap": 0,
+      "addedAt": 1707321407,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 3.6963
+    },
+    {
+      "address": "0x41f727fa294e50400ac27317832a9f78659476b9",
+      "ens": "matthu.eth",
+      "cap": 0,
+      "addedAt": 1699472099,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 3.39069
+    },
+    {
+      "address": "0xd14bc6ba63f355551c562d1f240232b53952b318",
+      "ens": "coderxyz.eth",
+      "cap": 0,
+      "addedAt": 1699472039,
+      "withdrawalCount": 6,
+      "totalWithdrawn": 2.684
+    },
+    {
+      "address": "0x2a52d80b07925f47ba8d774c72628558a1ce873a",
+      "ens": "milespatterson.eth",
+      "cap": 0.5,
+      "addedAt": 1707321935,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 2.08
+    },
+    {
+      "address": "0x8f9b1b9eaabe5a1cad1c432cb9ae03b9840661de",
+      "ens": "caiocosta.eth",
+      "cap": 0.5,
+      "addedAt": 1700604059,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 2
+    },
+    {
+      "address": "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529",
+      "cap": 0,
+      "addedAt": 1700604059,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1.5
+    },
+    {
+      "address": "0xca7632327567796e51920f6b16373e92c7823854",
+      "ens": "dannithomx.eth",
+      "cap": 0,
+      "addedAt": 1700604059,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 0.82
+    },
+    {
+      "address": "0xabd10f0a61270d6977c5bfd9d4ec74d6d3bc96ab",
+      "ens": "devorsmth.eth",
+      "cap": 0,
+      "addedAt": 1699996763,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.4
+    }
+  ],
+  "not-just-notfellows": [
+    {
+      "address": "0xe3d8e58551d240626d50ee26faff2649e1eee3cb",
+      "ens": "dvt.eth",
+      "cap": 0.5,
+      "addedAt": 1690426487,
+      "withdrawalCount": 12,
+      "totalWithdrawn": 5.1
+    },
+    {
+      "address": "0x9345ee731dcfc6b227f0dbff8615a0672beb473c",
+      "cap": 0.5,
+      "addedAt": 1699838759,
+      "withdrawalCount": 3,
+      "totalWithdrawn": 1.5
+    },
+    {
+      "address": "0x988d7077e5027dd0bacd22b917af3768531dfc32",
+      "cap": 0.5,
+      "addedAt": 1688016587,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 0.2
+    },
+    {
+      "address": "0x9aea70d31eb643666058a652bdf8e95df65ccd2e",
+      "cap": 0.5,
+      "addedAt": 1690438955,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.2
+    },
+    {
+      "address": "0x4f8cbe4c3693fe5926183587eb990836262add08",
+      "ens": "caslu.eth",
+      "cap": 0.5,
+      "addedAt": 1687200299,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x5f21dafbeb681b0667915a88610cf0bf2419eb70",
+      "cap": 0.5,
+      "addedAt": 1688016515,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0xbb8d1c6e7fbed0a10fb1eb9ef1ece9bee8435f3f",
+      "ens": "0xprabal.eth",
+      "cap": 0.5,
+      "addedAt": 1699594247,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "security-optimizooors": [
+    {
+      "address": "0xf6a24e6672c3506e2aeec45dab84b52f761daea7",
+      "ens": "k4d3n.eth",
+      "cap": 0.5,
+      "addedAt": 1697598503,
+      "withdrawalCount": 3,
+      "totalWithdrawn": 1.5
+    },
+    {
+      "address": "0xb95777719ae59ea47a99e744afa59cdcf1c410a1",
+      "ens": "0xcacti.eth",
+      "cap": 0.5,
+      "addedAt": 1693768379,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    }
+  ],
+  "autonomous-worlds": [
+    {
+      "address": "0x576f1e53afe5e99b2257258c7e3248d3a1822548",
+      "ens": "norswap.eth",
+      "cap": 0.5,
+      "addedAt": 1686086831,
+      "withdrawalCount": 7,
+      "totalWithdrawn": 3
+    },
+    {
+      "address": "0x64473e07c7a53a632dde287ca2e6c3c1ac15af29",
+      "ens": "shora.eth",
+      "cap": 0.5,
+      "addedAt": 1705613519,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 2
+    },
+    {
+      "address": "0x9687c70dcfe21c6198703c813cdaec9d3458e068",
+      "ens": "therealbytes.eth",
+      "cap": 0.5,
+      "addedAt": 1690240547,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 0.9944
+    },
+    {
+      "address": "0xe6c071051885b9e4fa20ae5629d8af26a2f3a32a",
+      "ens": "boffeez.eth",
+      "cap": 0.5,
+      "addedAt": 1705613519,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0xf78cd306b23031de9e739a5bcde61764e82ad5ef",
+      "ens": "ronan.eth",
+      "cap": 0.5,
+      "addedAt": 1683883463,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0x0613e2c0e58e811e358c0e26b51842eeda05aed4",
+      "cap": 0.5,
+      "addedAt": 1685128907,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x34b51ee720b2daa164c3245ee81c00b6fc72c41a",
+      "ens": "briefkandle.eth",
+      "cap": 0.5,
+      "addedAt": 1705613519,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ],
+  "owners": [
+    {
+      "address": "0x5f97cf9dd2cb7b53c47f6b1c26ab4bd143325d45",
+      "ens": "gnole.eth",
+      "cap": 1.5,
+      "addedAt": 1723758467,
+      "withdrawalCount": 17,
+      "totalWithdrawn": 13.591228
+    },
+    {
+      "address": "0xfe952cb6f4b8f4acd5337153da5c7c93dc3e44e1",
+      "ens": "zakgriffith.eth",
+      "cap": 1.5,
+      "addedAt": 1723758431,
+      "withdrawalCount": 8,
+      "totalWithdrawn": 7.25
+    },
+    {
+      "address": "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1",
+      "ens": "pabl0cks.eth",
+      "cap": 1,
+      "addedAt": 1723758503,
+      "withdrawalCount": 9,
+      "totalWithdrawn": 3.745
+    },
+    {
+      "address": "0x1990a6bcdb13d33463cba884a1ae6020292523e8",
+      "ens": "inc.carletex.eth",
+      "cap": 1.5,
+      "addedAt": 1725463679,
+      "withdrawalCount": 6,
+      "totalWithdrawn": 2.903
+    }
+  ],
+  "outreach": [
+    {
+      "address": "0x798bc384e20d5d16987a07487fc695985f1742c5",
+      "ens": "alexmelo.eth",
+      "cap": 0.5,
+      "addedAt": 1692828767,
+      "withdrawalCount": 40,
+      "totalWithdrawn": 7.6994
+    },
+    {
+      "address": "0xbb79c61ca3d2e2f9f05922d802fcec385de2e8c3",
+      "ens": "kudibos.eth",
+      "cap": 0.5,
+      "addedAt": 1692828767,
+      "withdrawalCount": 9,
+      "totalWithdrawn": 3.3
+    },
+    {
+      "address": "0x52b570dc4d426e58a6d08b1048bc15c519e7a434",
+      "ens": "elifhilal.eth",
+      "cap": 0.5,
+      "addedAt": 1702825115,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0
+    }
+  ],
+  "balancer": [
+    {
+      "address": "0x41f727fa294e50400ac27317832a9f78659476b9",
+      "ens": "matthu.eth",
+      "cap": 1,
+      "addedAt": 1718031875,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0x59ea223b48f0e1b6addd86ce6551dc44e2c7cb75",
+      "ens": "steve0xp.eth",
+      "cap": 1,
+      "addedAt": 1698157139,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0xda22919e01e249ba4c96dba46bee29e4981835fc",
+      "ens": "darrylyeo.eth",
+      "cap": 1,
+      "addedAt": 1697846279,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 1
+    }
+  ],
+  "zk-cryptography": [
+    {
+      "address": "0xef4d00eff106727524453a48680ea968498aff4c",
+      "ens": "vivboop.eth",
+      "cap": 0.5,
+      "addedAt": 1684749083,
+      "withdrawalCount": 9,
+      "totalWithdrawn": 4.4
+    },
+    {
+      "address": "0x43737376755b1549a086e9b218057d1dbdc139cc",
+      "ens": "alexsoong.eth",
+      "cap": 0.5,
+      "addedAt": 1702797707,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 2.5
+    },
+    {
+      "address": "0xbd020867cebdad3bf9f31480e4b01e9bbeff7552",
+      "ens": "groth16.xyz",
+      "cap": 0.5,
+      "addedAt": 1702797707,
+      "withdrawalCount": 5,
+      "totalWithdrawn": 2.5
+    },
+    {
+      "address": "0x555f0885d7c8c1f1ad816eb1438b84e0ddcb4b61",
+      "ens": "bweick.eth",
+      "cap": 0.5,
+      "addedAt": 1702797707,
+      "withdrawalCount": 6,
+      "totalWithdrawn": 2.35
+    },
+    {
+      "address": "0xf6598ca199dc739848d342aef8bb16578382a2f6",
+      "ens": "richardliang.xyz",
+      "cap": 0.5,
+      "addedAt": 1702797707,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 2
+    },
+    {
+      "address": "0xf91fe75d70903ed264c8ae49a682e6dbb70b6cee",
+      "ens": "janmajaya.eth",
+      "cap": 0.5,
+      "addedAt": 1683677027,
+      "withdrawalCount": 4,
+      "totalWithdrawn": 2
+    },
+    {
+      "address": "0xc340b2c55d705cb4d1fb3a5d28399c7bc6fc6f37",
+      "ens": "bisht13.eth",
+      "cap": 0.5,
+      "addedAt": 1713297827,
+      "withdrawalCount": 3,
+      "totalWithdrawn": 1.5
+    },
+    {
+      "address": "0x2288e5e1d057b416549f586b964f4e6db78380fd",
+      "ens": "levstamb.eth",
+      "cap": 0.5,
+      "addedAt": 1683677027,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0x942eec0d07053dd6a455a13fb348bfca032ac268",
+      "cap": 0.5,
+      "addedAt": 1712645063,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0xab48f9d0d78039e3aa76b6b7aaa15e955d895f0b",
+      "ens": "andrewlu.eth",
+      "cap": 0.5,
+      "addedAt": 1690594043,
+      "withdrawalCount": 2,
+      "totalWithdrawn": 1
+    },
+    {
+      "address": "0x50806a3635348cfbc48ec7b8f294df93deec976c",
+      "cap": 0.5,
+      "addedAt": 1683677027,
+      "withdrawalCount": 1,
+      "totalWithdrawn": 0.5
+    },
+    {
+      "address": "0x29b482446dd1b84b356cb65916d2695992f7bea4",
+      "ens": "11b.eth",
+      "cap": 0.5,
+      "addedAt": 1683677027,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+      "ens": "namngrg.eth",
+      "cap": 0.5,
+      "addedAt": 1712645063,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0xb4a65eb99011c749cac3368e4bc8896d4178274c",
+      "ens": "eitomiyamura.eth",
+      "cap": 0.5,
+      "addedAt": 1690405355,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    },
+    {
+      "address": "0xd97ef58575f6e92a5f7cc8408ca79fc41556eed2",
+      "ens": "emmaguo.eth",
+      "cap": 0.5,
+      "addedAt": 1712645063,
+      "withdrawalCount": 0,
+      "totalWithdrawn": 0
+    }
+  ]
+}

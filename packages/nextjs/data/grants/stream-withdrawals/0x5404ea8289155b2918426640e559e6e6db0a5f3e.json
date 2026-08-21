@@ -1,0 +1,250 @@
+[
+  {
+    "tx": "0x4b313a4bc6ebd2c70521ef1e7659127a7e449e6e97ceedb21edf8f7fcba66c8c",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.25,
+    "reason": "Withdraw",
+    "timestamp": 1759522343
+  },
+  {
+    "tx": "0x738ba9e2a14b483d6f251211e146351a5cdf4e1e6052261f2fd9d9df0175cc1c",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 1.5,
+    "reason": "withdraw Berlin camp, Belgrade, space loogies",
+    "timestamp": 1717787135
+  },
+  {
+    "tx": "0xaabe88e555a91f7e278f1694b0767a8ed5f186dcbcc35863ae89779cb4c0edba",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0,
+    "reason": "last withdraw. Taking some for the last projects: BG Berlin Camp, Belgrade, Space Loogies",
+    "timestamp": 1717781843
+  },
+  {
+    "tx": "0x3d5f03e9b5f5378cdc036b2b65822b99bfa46fd73acfc174896d4634b09a5208",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.3,
+    "reason": "Footy DAO Design (Multichain Project)",
+    "timestamp": 1702733315
+  },
+  {
+    "tx": "0xaafc75a545a4a4346c807232b332b8b44cbea7b723b02469d793e557c6b0932a",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.35,
+    "reason": "Game Wallet Design",
+    "timestamp": 1702732991
+  },
+  {
+    "tx": "0x43a1fdda7dce15194aab27c60a0baf566f1f5a6212a0ccd2177c2cf18173ada5",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.2,
+    "reason": "Thumbnail Youtube Scaffold ETH2",
+    "timestamp": 1702732931
+  },
+  {
+    "tx": "0x9716e59c19ffe30011b800d9402cde2156597f5dc91dea12c863ab0f4e179136",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.9,
+    "reason": "Mafia Game vol.1",
+    "timestamp": 1695020795
+  },
+  {
+    "tx": "0x15c8dda7d8df50a58bfaf9fcc9dc6938e35423da3833b37770b557293d81d817",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.3,
+    "reason": "Tech Tree",
+    "timestamp": 1692098147
+  },
+  {
+    "tx": "0xdc5f0f0164c7905b35a2ccf3d1c5c684ffd482dc1a69288f95e1546b861ef721",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.35,
+    "reason": "Omnichain governor standard",
+    "timestamp": 1692098075
+  },
+  {
+    "tx": "0xe2dca76f85a6696f673d3a0bbb3265b92ad17a8fc182d5afad52146b443c61bc",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.45,
+    "reason": "BG REDESIGN tests",
+    "timestamp": 1692097955
+  },
+  {
+    "tx": "0x7ad0063f9f5900559f341eb2931bd1c95f9f0bb729931c587e3deff1d08275de",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.3,
+    "reason": "SuperBuildl",
+    "timestamp": 1685441411
+  },
+  {
+    "tx": "0xed73eeaa52c4d9958c3914327669dda5e7fc1a6d72889df92d8781a6b4fc10ea",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.35,
+    "reason": "Jessy's Hacker House",
+    "timestamp": 1685441219
+  },
+  {
+    "tx": "0x2b296531da10d28811b29421025d7479ac1102b2cfd00e11b9372da0577c1763",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.15,
+    "reason": "Sticker for ETHTokyo",
+    "timestamp": 1685441063
+  },
+  {
+    "tx": "0xf93b8a440845bf7008d150278ec12d73b5c5fd8ef60c14100601f0e1722b1557",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.2,
+    "reason": "Thumbnail for Scaffold-Eth 2 Hackathon",
+    "timestamp": 1681827107
+  },
+  {
+    "tx": "0xbe7e9fc55675ced2dafd08445afc1c2e03deb9e7d140467e020867b24a1307b9",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.15,
+    "reason": "Burner Wallet Logo test",
+    "timestamp": 1678953563
+  },
+  {
+    "tx": "0xbc524b9433cc34eaa7d05dd64c571c0e662ce7ec8c67335e627cc19dda2dc1c7",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.7,
+    "reason": "Slot Machines, covers and flyers",
+    "timestamp": 1678953491
+  },
+  {
+    "tx": "0x51b9bfa05d197b08d99ba363af0b53e6fed5b42ee0d41c5c0ca9046e73c244b7",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 1,
+    "reason": "ThatSocks NFTs",
+    "timestamp": 1677516227
+  },
+  {
+    "tx": "0xce467cf19da0cc65d129d866721882fa72d4a4109e53e62e57805905020e014a",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.2,
+    "reason": "Shipping Log Flyer/Poster",
+    "timestamp": 1677515879
+  },
+  {
+    "tx": "0x375ec721fb24c61e946d5045ad312319900fb0e914f7e66ad2914ca0381e487f",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.5,
+    "reason": "Truck'n'tree",
+    "timestamp": 1674643259
+  },
+  {
+    "tx": "0xeb08e4ae5f36ef01362a8b710eeaa10ca08c09d8c7700245afcb92781a1b719f",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.15,
+    "reason": "BG Labs cover for BG Newsletter",
+    "timestamp": 1673454827
+  },
+  {
+    "tx": "0x39293e2d5a4ed963c29f6ac00028a5bb546d0336e04d96f4b3ba345ece371061",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0,
+    "reason": "BG Labs cover for BG Newsletter",
+    "timestamp": 1673454755
+  },
+  {
+    "tx": "0x417a6cf116ad6fda64fed8456c1b7188b5b5c565ebd7ebbc5dc32f4030e78fb8",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.35,
+    "reason": "YouTube Thumbnail for BGLabs",
+    "timestamp": 1671630863
+  },
+  {
+    "tx": "0xc72e637b9e5a381e22eaffc357ba612dcd24110071c95c5cd6469f41d5b46d22",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0,
+    "reason": "YouTube Thumbnail for BGLabs",
+    "timestamp": 1671562799
+  },
+  {
+    "tx": "0x8e4c43521ab896bd367a4d6212484a87a2fdd6d41a650b550a2e5b5ad79e5b30",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.6,
+    "reason": "OptimisticLoogies V2 Redesign ",
+    "timestamp": 1671291755
+  },
+  {
+    "tx": "0x809d39ef4604450a65b895414a69a8f691f2235b71b9b08323cfaab4939611c5",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.15,
+    "reason": "Punk Wallet Design Ideas ",
+    "timestamp": 1670682839
+  },
+  {
+    "tx": "0x0e4763be997644ea83c5ae286f80aa98c71eb5fe444df627d228406de134db60",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.3,
+    "reason": "Buidlguidl Fun Letter Headers ",
+    "timestamp": 1670682767
+  },
+  {
+    "tx": "0x7d2783f94fad82311380bc047035b5ee149b345bbc16b5b8292d97a12ddcc26b",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.3,
+    "reason": "BG Design Circle ideas",
+    "timestamp": 1669830659
+  },
+  {
+    "tx": "0xc2257f8f50753f3bbda2b96f4092dec9bec6513656c98101a763182be978e82d",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.2,
+    "reason": "BG Shipping Log Cover",
+    "timestamp": 1669829711
+  },
+  {
+    "tx": "0x106dd188f01bc29fa22ea1f09c69c50b57b050e34b5a8278aa4a3fb67a9b14d8",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.35,
+    "reason": "Cover for Curriculum ",
+    "timestamp": 1667999843
+  },
+  {
+    "tx": "0x050149538245edcbae72e6ec65e2bb8ea6703031f9a06e78ca27ce08987873c5",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.15,
+    "reason": "Hyperchest Visuals ",
+    "timestamp": 1663362059
+  },
+  {
+    "tx": "0x05909e0ae4eaaa6545b7bdafc272dc30534bb2367555a0cbbef3958d56404c1a",
+    "builder": "0x5404ea8289155b2918426640e559e6e6db0a5f3e",
+    "ens": "okuri.eth",
+    "amount": 0.25,
+    "reason": "multisig.lol UI design and assets / logo / elements",
+    "timestamp": 1662473407
+  }
+]

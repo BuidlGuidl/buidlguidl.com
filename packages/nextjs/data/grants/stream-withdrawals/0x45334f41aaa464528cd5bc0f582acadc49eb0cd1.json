@@ -1,0 +1,162 @@
+[
+  {
+    "tx": "0x955a2b14f9c90b8eeda874c07820bd79afe5ebfdcf8cca4e2d4dee848c6797d3",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Emptying stream",
+    "timestamp": 1723892087
+  },
+  {
+    "tx": "0x66d0fe84e1f707c59830e4056c37a37f58c387b1f6db04a05355aa34b78ed34c",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Se-2: #854, #857, #859; Sre-2 bugfixes, ch5 refactor, #181, #184; Sre: #203, Burner-connector: #20, Create-eth-ext: #2; code-reviews",
+    "timestamp": 1718012411
+  },
+  {
+    "tx": "0xd1eb7fe73dba3922db045825a7f476f2cdfe5fe09ada233b14abc2ea87bfe793",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.9,
+    "reason": "Se-2: #827, #829, #830, #837, #840, code reviews. Sre-2: migration of all challenges to wagmi v2. Se-2 docs: #66, #67",
+    "timestamp": 1715426327
+  },
+  {
+    "tx": "0x99db2778e0ae8e9f128f37cdb83b5b503ae37d73096d7a93f20119f7dd922558",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.6,
+    "reason": "Sre-2: backmerge se-2 changes. Se-2: cli solidity frameworks flags & cypress tests rnd, minor fixes, code reviews.",
+    "timestamp": 1713009635
+  },
+  {
+    "tx": "0x68f2c3639968f649f92a592b2ce9d2cb37ad17bbe6e152ec738d2945f893dfb6",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Se-2: code reviews. Sre-2: updated muiltisig backend, migrated challenges 0-2 to next14, refactoring, code reviews",
+    "timestamp": 1707754631
+  },
+  {
+    "tx": "0x0bb8f00c22c55a232cde6c8270960865d7233fb20aa38da6911c7f8f03483aa8",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Se-2: code reviews. Sre-2: completed challenge 6, backend RND, code reviews",
+    "timestamp": 1703964707
+  },
+  {
+    "tx": "0x2cc7232c2a8517a495ef7b18a64815275eb19e50d020eab96ec1cf25d77f8c2b",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: code reviews. Sre-2: working on multisig challenge",
+    "timestamp": 1700604623
+  },
+  {
+    "tx": "0x80be917603030fe152bee90578e161e65acdde7073eb62ba99b6e6bf88e36f7c",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Se-2: code reviews, migration hardhat to viem (wip), minor fixes - useScaffoldEventHistory and app router. Sre-2: bugfixes in challenges 3 and 5",
+    "timestamp": 1698177683
+  },
+  {
+    "tx": "0x3b99112d3d81981e162a33d6f4859df0bf743e6f62350667fb43c45ca1dc269d",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 1,
+    "reason": "Se-2: Indexed events, help with app-router-migration, code reviews/discussions. Sre-2: back merge of se-2, code reviews",
+    "timestamp": 1696189559
+  },
+  {
+    "tx": "0xd9b39033ec5dfbcd65cd43b368a47c8bb11320f2e659eb49c5f72d016e68a58a",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Contributions and reviews of se-2 and sre-2",
+    "timestamp": 1694889383
+  },
+  {
+    "tx": "0xcf3e40c9909aa01e45e052e8c906e0b2b9f65c1c2a4fc3518c97fe66b004ea8e",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Contributions and reviews of se-2 and sre-2",
+    "timestamp": 1693665515
+  },
+  {
+    "tx": "0xb151c0f25aed0a52addbb9bec4e7d1b72f4b054f8e853a042589bec9cd336597",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Contributions and reviews of se-2 and sre-2",
+    "timestamp": 1692085199
+  },
+  {
+    "tx": "0x258c70d162beba1477299dd72e6851bcae6536c6453b41d40c8e29f7e5186a5f",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "Contributions and reviews of se-2 and sre-2",
+    "timestamp": 1690818011
+  },
+  {
+    "tx": "0x3a1d7a8a0ee81a2cd5f7d4eb080114eec37fce0f7d7de53ecc3a7c3a4be723af",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.5,
+    "reason": "Contributions and reviews of se-2 and sre-2",
+    "timestamp": 1689766763
+  },
+  {
+    "tx": "0xb80f39026bb9a20668209cc9f683438b743c487ca190dc0e6030354b9de83f17",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.8,
+    "reason": "SE-2 Contributions, Achievements NFT build",
+    "timestamp": 1679317367
+  },
+  {
+    "tx": "0x47afdcc998eb1fcdb489736fb1db6f64b52f6ee8478cf0c3c42321a2ddd81bdc",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.7,
+    "reason": "Contributions to SE-2",
+    "timestamp": 1677250475
+  },
+  {
+    "tx": "0xca539fbaa96c1cec64c44c9ef6b073263968bd421b840d0847f76efcd0eaf347",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.4,
+    "reason": "Contributions to SE-2",
+    "timestamp": 1676148059
+  },
+  {
+    "tx": "0x3835e0aab1932e933f61e26689499aa8a7be2071c7a9e386b76856a41f68fce7",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.4,
+    "reason": "Se-2 Example ui page",
+    "timestamp": 1675162043
+  },
+  {
+    "tx": "0x29d7c979ad5f50312695ede349a1696549348e567e01480eb917e9c9ab5c591c",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.5,
+    "reason": "contribution to se-2",
+    "timestamp": 1674764699
+  },
+  {
+    "tx": "0x5e5042510c864e6b20110904649869623276a7cc3ab124a6ae6fde5bfb11b162",
+    "builder": "0x45334f41aaa464528cd5bc0f582acadc49eb0cd1",
+    "ens": "0xrinat.eth",
+    "amount": 0.5,
+    "reason": "OptimisticLoogies V2 Front-end",
+    "timestamp": 1672167791
+  }
+]

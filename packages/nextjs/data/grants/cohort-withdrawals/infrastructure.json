@@ -1,0 +1,160 @@
+[
+  {
+    "tx": "0x8787e953fa808d8f65ecb6016d8355d2d6484f56d7695da9903fad652e5e567d",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.255,
+    "reason": "ERC7730 Transaction manager https://erc7730.org/",
+    "timestamp": 1734780323
+  },
+  {
+    "tx": "0xd2271463ee51d0c58e44c93d93619de6954ad480fe45b3ef07b447d36ea761a1",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/GeoDecConsensus/geo-analysis",
+    "timestamp": 1730395511
+  },
+  {
+    "tx": "0xeb69006c344f1febd33543b9e22fd42410a791e2cb578491100dc8ee59513aa0",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "https://github.com/GeoDecConsensus/Valloc - made a project containing scirpts to get all the validation location info",
+    "timestamp": 1727792783
+  },
+  {
+    "tx": "0x9410adb4e3419d95a9fc26da66dbf0dca666172b9a2f73dbe5ed6ce8a88c0996",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "multi-client test and started on the paper draft https://github.com/GeoDecConsensus/geodec",
+    "timestamp": 1725113231
+  },
+  {
+    "tx": "0x99386d9d93f848a2b5fe5c43c30b805c33dcc5e7334440a62cbec22253c02bb7",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "Perform formal tests with goal to replicate the results from the original papers. https://github.com/GeoDecConsensus/geodec",
+    "timestamp": 1722446303
+  },
+  {
+    "tx": "0xa3129d6b3a4d604922817791f98dccb0b508b53f4e59dfa40a83d5287debd073",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "Add configurable stake feature for cometbft, improve the frontend, increase the number of nodes to 16. https://github.com/GeoDecConsensus/geodec",
+    "timestamp": 1719735491
+  },
+  {
+    "tx": "0xc223509052e2dde8b5cc397ca045bc29c88703e4d96dfd6e15a55e6939531263",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "Add docs and web page. Got celestia and aptos geographical data to compare",
+    "timestamp": 1717126487
+  },
+  {
+    "tx": "0xef9723434040e5a37c0bbbc48d64fe351bfaf2918e7ed36a06bfe7e299f45630",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "Add netem, artificial latencies, geospatial diverse matrics and 8 node tests - https://github.com/GeoDecConsensus/geodec/tree/netem",
+    "timestamp": 1714532291
+  },
+  {
+    "tx": "0x3602e44dc339bc02d0685a29c0856870f7e2e616ca288aeee457df67de9ed153",
+    "builder": "0x2e231c05982a7a2c647df39cf8106e684ceccdd5",
+    "ens": "namngrg.eth",
+    "amount": 0.5,
+    "reason": "Completed benchmark of hotstuff, cometbft and bullshark https://github.com/GeoDecConsensus/geodec",
+    "timestamp": 1711928207
+  },
+  {
+    "tx": "0xabb4b1727c81e0d38a10c609a406f5c8dfe7f08c939766131dff4664bceb87f6",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.35,
+    "reason": "Launched wrapped dai for Scroll ecosystem https://www.wrappeddai.com/?for=scroll",
+    "timestamp": 1711695635
+  },
+  {
+    "tx": "0x04ee18c266e910ea1bd5ebfd2514332c2d08d0d1b0b12bcc7497ad260199f925",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.5,
+    "reason": "Building out sDAI infra for Linea",
+    "timestamp": 1709878835
+  },
+  {
+    "tx": "0xb7d004392c12498019c7432ccc9d7d9b62c655d0cba89ee1a36738206c63c4d1",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.31,
+    "reason": "Demo contracts for protonpack for aave https://github.com/publu/protonpack",
+    "timestamp": 1706639111
+  },
+  {
+    "tx": "0x5638cb956203eee7acaef850dfd0c30b090e65796a1e202250f16736f60a1ad5",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.34,
+    "reason": "Building out ProtonPack for Aave. StkAave x GHO managed discounts",
+    "timestamp": 1705031759
+  },
+  {
+    "tx": "0xff27518fcda7aa13e85c49b7789c975f4a2d328c4f6a7d269fe2817df53ff755",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.41,
+    "reason": "building a maker-esque peg module for stablecoins https://github.com/publu/pegstabilitymodule",
+    "timestamp": 1703258987
+  },
+  {
+    "tx": "0xbba1ca903279779b014c3f7b7d3b0526799b0685a0892e69727aa504568ef5c0",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.3346,
+    "reason": "Open source zk event platform based on zupass https://github.com/publu/lenspass",
+    "timestamp": 1701092495
+  },
+  {
+    "tx": "0x3075c625cb659f64cef6232a040ad09d146063a0682e52c0b984d79f982aac79",
+    "builder": "0xdb98d21ec6bab917e25219fdde396a6f23e7b94c",
+    "ens": "pablothepenguin.eth",
+    "amount": 0.5,
+    "reason": "Built Zodiac Gnosis Module for cross chain multisig transactions https://github.com/publu/proposer_module/",
+    "timestamp": 1699357751
+  },
+  {
+    "tx": "0x895345eb39907e00946aa2d6a34e71d8216851a63a5e689a1b45605814c0f80f",
+    "builder": "0xf84949dffdbc8bb91f44db238c0857b11719d8f9",
+    "amount": 0.5,
+    "reason": "More updates in Solidity School https://github.com/Aniket-Engg/solidity-school",
+    "timestamp": 1691072603
+  },
+  {
+    "tx": "0x1181364a881defc18c7ace5f612103312003e89c76d7d63545adf7458384f831",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 0.5,
+    "reason": "Hacker housing",
+    "timestamp": 1688000663
+  },
+  {
+    "tx": "0x02a1297212fc2631f815ab4173a398888ef837707ceec96db1eb3f642053099b",
+    "builder": "0xf84949dffdbc8bb91f44db238c0857b11719d8f9",
+    "amount": 0.5,
+    "reason": "Adding more contracts in Solidity School https://github.com/Aniket-Engg/solidity-school",
+    "timestamp": 1687972763
+  },
+  {
+    "tx": "0x700bcb3ca5a5f82b32926060a468e676bdbe5796dc7ba251240ca725a1f04acc",
+    "builder": "0xc7fe1135ba71e03a7a6b9e1ddb8f653f143bdcf9",
+    "ens": "0xjepsen.eth",
+    "amount": 0.5,
+    "reason": "Working on CCS for ZK generalization https://github.com/thor314/ccs-hack",
+    "timestamp": 1685205311
+  }
+]

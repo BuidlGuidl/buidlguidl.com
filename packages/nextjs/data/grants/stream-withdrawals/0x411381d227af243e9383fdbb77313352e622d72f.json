@@ -1,0 +1,34 @@
+[
+  {
+    "tx": "0x923e36e3a9ad7590c52e430388ce0cfe28c23eee623f8a7b6c77273d0402e085",
+    "builder": "0x411381d227af243e9383fdbb77313352e622d72f",
+    "ens": "0xsama.eth",
+    "amount": 0.2,
+    "reason": "[Nifty Ink] New artist page  + Add activity feed & stats: https://github.com/BuidlGuidl/nifty-ink/pull/25  [Nifty Ink] Add xDAI to MetaMask button: https://github.com/scaffold-eth/scaffold-eth/pull/273",
+    "timestamp": 1638221096
+  },
+  {
+    "tx": "0x835adf53b471d40013998ecaf9695377dfb34fd9aefd5c96c519bdd0b4a5e48d",
+    "builder": "0x411381d227af243e9383fdbb77313352e622d72f",
+    "ens": "0xsama.eth",
+    "amount": 0.1,
+    "reason": "[Nifty Ink] Keyboard shortcuts + bugs fixing:  https://github.com/austintgriffith/scaffold-eth/pull/260",
+    "timestamp": 1627542601
+  },
+  {
+    "tx": "0x0c5ff6c4c17d8d6f0175e96a1dc193aa87235fdfd3f3dbda2b4cd5eeb6db397a",
+    "builder": "0x411381d227af243e9383fdbb77313352e622d72f",
+    "ens": "0xsama.eth",
+    "amount": 0.15,
+    "reason": "[Nifty Ink] Token transfer history: https://github.com/austintgriffith/scaffold-eth/pull/259",
+    "timestamp": 1627524530
+  },
+  {
+    "tx": "0x56678c89803a72257a47b9cd1b6f91a7cfd0e01103924f0ce16a0140dbd8bbf8",
+    "builder": "0x411381d227af243e9383fdbb77313352e622d72f",
+    "ens": "0xsama.eth",
+    "amount": 0.15,
+    "reason": "[Nifty Ink] Add leaderboard: https://github.com/austintgriffith/scaffold-eth/pull/256",
+    "timestamp": 1627488791
+  }
+]
