@@ -45,6 +45,7 @@ export const COHORT_REGISTRY = [
     slug: "jessys-hacker-house",
     displayName: "Jessy's Hacker House",
     chainId: 1,
+    subdomain: "hackerhouse",
     blurb:
       "Jessy's flagship cohort giving up-and-coming devs the support to stay free agents and build whatever calls to them.",
   },
@@ -76,6 +77,7 @@ export const COHORT_REGISTRY = [
     slug: "infrastructure",
     displayName: "Infrastructure (Jessy)",
     chainId: 1,
+    subdomain: "infra-streams",
     blurb: "Developing infrastructure for DeFi protocol integrations.",
   },
   {
@@ -149,12 +151,14 @@ export const COHORT_REGISTRY = [
     slug: "not-just-notfellows",
     displayName: "Not Just Notfellows",
     chainId: 1,
+    subdomain: "not-just-notfellows",
   },
   {
     address: "0xaf18f0f1f096fac34e816c7409348d313ef7c84f",
     slug: "security-optimizooors",
     displayName: "Security & Optimizooors (Jessy)",
     chainId: 1,
+    subdomain: "optimizooor-streams",
     blurb: "Worked on a Uniswap hooks contract and ran bounty programs for discovering smart contract vulnerabilities.",
   },
   {
@@ -194,6 +198,7 @@ export const COHORT_REGISTRY = [
     slug: "zk-cryptography",
     displayName: "ZK & Cryptography (Jessy)",
     chainId: 1,
+    subdomain: "zkcrypto-streams",
     blurb: "Exploring the applications of ZK and cryptography.",
   },
 ];
