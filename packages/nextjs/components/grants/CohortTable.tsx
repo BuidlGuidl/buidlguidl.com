@@ -28,7 +28,7 @@ export const CohortTable = ({ cohorts }: { cohorts: CohortSummary[] }) => (
             className="border-b border-base-content/5 last:border-none hover:bg-base-200/40 transition-colors scroll-mt-8"
           >
             <td className="py-3 pr-4">
-              <Link href={`/grants/cohorts/${cohort.slug}`} className="font-medium hover:text-primary">
+              <Link href={`/grants-archive/cohorts/${cohort.slug}`} className="font-medium hover:text-primary">
                 {cohort.name}
               </Link>
               <span className="ml-2 align-middle">

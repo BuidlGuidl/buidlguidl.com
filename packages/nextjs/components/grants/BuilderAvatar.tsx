@@ -5,7 +5,7 @@ import sheet from "~~/data/grants/builder-avatars.json";
 // page costs one cached image and a background-position — no ENS resolution, no per-avatar
 // request, nothing to keep paying for once the indexers are gone.
 //
-// Only the address → tile index reaches the browser (~13 kB, shared across the /grants
+// Only the address → tile index reaches the browser (~13 kB, shared across the /grants-archive
 // routes). It has to: the withdrawal logs page in more rows on click, so the lookup happens
 // after hydration.
 const { sprite, columns, rows, index } = sheet;

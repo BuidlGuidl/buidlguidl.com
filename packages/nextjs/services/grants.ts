@@ -13,7 +13,7 @@ import {
 } from "~~/utils/grants/types";
 
 // Reads the committed snapshot written by `scripts/snapshot-grants.mjs`. Build time only:
-// every /grants route is statically generated, so none of this reaches the browser.
+// every /grants-archive route is statically generated, so none of this reaches the browser.
 //
 // Per-cohort withdrawals live in their own files so a detail page only ships its own log —
 // the largest cohort is ~115kB on its own, against Next's 128kB page-data limit.
