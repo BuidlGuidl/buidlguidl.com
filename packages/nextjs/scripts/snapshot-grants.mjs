@@ -711,7 +711,7 @@ function printRedirects(cohorts) {
     .map(cohort => ({
       source: "/:path*",
       has: [{ type: "host", value: cohort.subdomain }],
-      destination: `https://buidlguidl.com/grants/cohorts/${cohort.slug}`,
+      destination: `https://buidlguidl.com/grants-archive/cohorts/${cohort.slug}`,
       permanent: true,
     }));
   log(`\n// vercel.json for the bg-redirects project\n${JSON.stringify({ redirects }, null, 2)}`);

@@ -35,7 +35,7 @@ const CohortPage: NextPage<PageProps> = ({ cohort, builders, withdrawals }) => {
           2,
         )} ETH streamed across ${cohort.withdrawalCount} withdrawals, with the work each builder logged.`}
         image={`api/og?title=${encodeURIComponent(`${cohort.name} cohort`)}`}
-        path={`/grants/cohorts/${cohort.slug}`}
+        path={`/grants-archive/cohorts/${cohort.slug}`}
       >
         <meta name="robots" content="noindex,follow" />
         <meta name="googlebot" content="noindex,follow" />
@@ -46,7 +46,7 @@ const CohortPage: NextPage<PageProps> = ({ cohort, builders, withdrawals }) => {
         <Header transparent />
         <header className="w-full max-w-[860px] mx-auto px-5 sm:px-6 pt-4 pb-10 sm:pt-8 sm:pb-14">
           <Link
-            href="/grants"
+            href="/grants-archive"
             className="inline-block font-mono text-xs text-base-content/50 hover:text-primary transition-colors mb-4"
           >
             ← Grants archive

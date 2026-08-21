@@ -4,7 +4,7 @@
 // "Nifty Ink"), and several cohorts redeployed their contract mid-life, so neither source can
 // be trusted to name or de-duplicate a cohort on its own. This file is the tiebreaker.
 //
-// `slug` is a URL and a redirect target: `mercs.buidlguidl.com` 301s to `/grants/cohorts/mercs`.
+// `slug` is a URL and a redirect target: `mercs.buidlguidl.com` 301s to `/grants-archive/cohorts/mercs`.
 // Never derive it from `displayName` — a copy edit must not be able to break a redirect.
 //
 // Snapshot-time input only. These fields are baked into `data/grants/cohorts.json`, which is

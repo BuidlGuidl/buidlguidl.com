@@ -22,7 +22,7 @@ export const grantsArchiveSchema = {
   name: "BuidlGuidl Grants Archive",
   description:
     "Every grant, cohort, builder stream, and sponsored ENS name BuidlGuidl funded, with the builders' own work logs.",
-  url: `${SITE_URL}/grants`,
+  url: `${SITE_URL}/grants-archive`,
   isPartOf: {
     "@type": "Organization",
     name: "BuidlGuidl",
@@ -36,18 +36,23 @@ export const cohortSchema = (cohort: CohortSummary) => ({
   "@type": "CollectionPage",
   name: `${cohort.name} cohort`,
   description: `${cohort.builderCount} builders streamed ${cohort.totalWithdrawn} ETH from the ${cohort.name} cohort across ${cohort.withdrawalCount} withdrawals.`,
-  url: `${SITE_URL}/grants/cohorts/${cohort.slug}`,
+  url: `${SITE_URL}/grants-archive/cohorts/${cohort.slug}`,
   isPartOf: {
     "@type": "CollectionPage",
     name: "BuidlGuidl Grants Archive",
-    url: `${SITE_URL}/grants`,
+    url: `${SITE_URL}/grants-archive`,
   },
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "BuidlGuidl", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Grants archive", item: `${SITE_URL}/grants` },
-      { "@type": "ListItem", position: 3, name: cohort.name, item: `${SITE_URL}/grants/cohorts/${cohort.slug}` },
+      { "@type": "ListItem", position: 2, name: "Grants archive", item: `${SITE_URL}/grants-archive` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: cohort.name,
+        item: `${SITE_URL}/grants-archive/cohorts/${cohort.slug}`,
+      },
     ],
   },
 });

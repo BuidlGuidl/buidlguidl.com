@@ -7,7 +7,7 @@
 //   yarn snapshot:avatars --dry-run
 //   yarn snapshot:avatars --limit=20
 //
-// The /grants pages show a builder ~2500 times across the withdrawal logs, and resolving an
+// The /grants-archive pages show a builder ~2500 times across the withdrawal logs, and resolving an
 // avatar per row at runtime would mean an ENS lookup and an image request each — through
 // exactly the paid infrastructure this archive exists to retire. So the images are fetched
 // once, here, and the pages ship a single file with no lookups at all.
@@ -73,7 +73,7 @@ const readJson = file => JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "
 // ---------------------------------------------------------------- who gets a tile
 
 /**
- * Every address the /grants pages can render, from the three places builders come from.
+ * Every address the /grants-archive pages can render, from the three places builders come from.
  * Withdrawal logs are not read: their builders are all in the cohort and stream rosters.
  */
 function collectBuilders() {

@@ -17,7 +17,7 @@ interface ImageLightboxProps {
   onClose: () => void;
 }
 
-// Full-screen image viewer with keyboard navigation. Used by the /grants screenshot strips
+// Full-screen image viewer with keyboard navigation. Used by the /grants-archive screenshot strips
 // and by the blog's inline images (a one-image gallery).
 export const ImageLightbox = ({ images, index, onIndexChange, onClose }: ImageLightboxProps) => {
   const total = images.length;

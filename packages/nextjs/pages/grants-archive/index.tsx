@@ -58,7 +58,7 @@ const GrantsArchive: NextPage<PageProps> = ({ meta, cohorts, grants, ecosystem, 
         title="BuidlGuidl Grants Archive"
         description="An archive of the grant methods BuidlGuidl has used over the years to fund Eth builders. Methods include direct Builder Streams, Cohorts, Ecosystem Impact Grants, and ENS registry funding. Archives include the builders' own work logs, Cohort overviews, examples of projects supported by larger-scale grants, and funded ENS names."
         image={`api/og?title=${encodeURIComponent("Grants Archive")}`}
-        path="/grants"
+        path="/grants-archive"
       >
         <JsonLd data={grantsArchiveSchema} />
       </MetaHeader>
